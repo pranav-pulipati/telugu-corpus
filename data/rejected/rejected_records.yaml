@@ -1,0 +1,217 @@
+# Rejected records — original content preserved with rejection_reason. Excluded from MASTER_CATALOGUE.
+records:
+- languages:
+  - en
+  scripts:
+  - Latn
+  last_verified: '2026-11-09'
+  registration: 'No'
+  authentication: None
+  record_id: TEL-ACAD-002
+  primary_category: ACAD
+  record_type: Portal/Index
+  source_name: ACL Anthology / arXiv
+  collection_name: Research literature on Telugu NLP and speech
+  organization: Association for Computational Linguistics; arXiv
+  org_type: Academic
+  official_url: https://aclanthology.org/
+  collection_url: https://aclanthology.org/search/?q=Telugu
+  description: Papers describing Telugu datasets and tools (ICON, LREC, ACL, Interspeech); used here as provenance evidence for catalogue records.
+  telugu_scope: Telugu-related
+  modality: Text
+  formats:
+  - PDF
+  - BibTeX
+  content_types:
+  - research papers
+  size_telugu: Not counted
+  size_confidence: Unknown
+  digitization: Born-digital text
+  bulk_download: 'Yes'
+  acquisition_method: ACL Anthology full export (anthology+abstracts.bib) filtered for 'Telugu'.
+  license: CC BY 4.0 (ACL Anthology papers since 2016; earlier vary)
+  license_scope: Varies per item
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://aclanthology.org/
+  evidence_urls:
+  - https://aclanthology.org/
+  verification_status: Partially Verified
+  verification_method: Known index; Telugu paper count not computed
+  unresolved_issues: Mine the anthology for additional Telugu datasets not yet catalogued.
+  corpus_value: Low
+  content_role: Index/reference only
+  dedup_role: Canonical
+  canonical_record: ''
+  count_in_totals: 'No'
+  telugu_content_check: Not applicable (not a Hugging Face dataset); see verification_method
+  quality_rating: Rejected
+  quality_rationale: 'Out of scope: English-language research papers about Telugu NLP (ACL Anthology/arXiv), not Telugu-language data. Used only as provenance evidence for other records.'
+  rejection_reason: 'Out of scope: English-language research papers about Telugu NLP (ACL Anthology/arXiv), not Telugu-language data. Used only as provenance evidence for other records.'
+  audit_status: Rejected
+  audit_notes: ''
+- languages: &id001
+  - te
+  scripts: &id002
+  - Telu
+  last_verified: '2026-11-09'
+  registration: 'No'
+  authentication: None
+  record_id: TEL-AV-004
+  primary_category: AV
+  record_type: Platform
+  source_name: YouTube and Telugu podcast/audiobook platforms
+  collection_name: Telugu spoken content on YouTube, podcast platforms and audiobook apps
+  organization: Google (YouTube); commercial audiobook apps (e.g. Kinige audio, Storytel Telugu)
+  org_type: Commercial
+  official_url: https://www.youtube.com/
+  collection_url: https://www.youtube.com/
+  description: By far the largest pool of Telugu speech (news channels, Doordarshan Saptagiri, pravachanams, films, vlogs, audiobooks). Only Creative-Commons-licensed videos (as in YODAS) are reusable without permission.
+  secondary_categories:
+  - SPEECH
+  telugu_scope: Telugu subset of multilingual
+  modality: Video
+  formats:
+  - video/audio streams
+  - auto captions
+  content_types:
+  - videos
+  - podcasts
+  - audiobooks
+  size_telugu: Unknown (very large)
+  size_confidence: Unknown
+  digitization: Mixed
+  bulk_download: 'No'
+  acquisition_method: Licence directly from channels/publishers; for CC-BY videos use YODAS (TEL-SPEECH-016).
+  license: Platform ToS; creator copyright (CC BY option for some videos)
+  license_scope: Varies per item
+  redistribution: Not allowed
+  commercial_use: Varies
+  license_evidence_url: https://www.youtube.com/t/terms
+  duplicates_mirrors:
+  - TEL-SPEECH-016
+  evidence_urls:
+  - https://huggingface.co/datasets/espnet/yodas2
+  verification_status: Unverified
+  verification_method: Context record; not investigated as a dataset
+  corpus_value: Medium
+  content_role: Aggregator/platform
+  dedup_role: Canonical
+  canonical_record: ''
+  count_in_totals: 'No'
+  telugu_content_check: Not applicable (not a Hugging Face dataset); see verification_method
+  quality_rating: Rejected
+  quality_rationale: 'Not an identifiable collection: generic platform record (YouTube/podcast/audiobook apps) with no enumerable Telugu collection, no size and no reusable terms; the openly licensed YouTube subset is already catalogued as TEL-SPEECH-016 (YODAS).'
+  rejection_reason: 'Not an identifiable collection: generic platform record (YouTube/podcast/audiobook apps) with no enumerable Telugu collection, no size and no reusable terms; the openly licensed YouTube subset is already catalogued as TEL-SPEECH-016 (YODAS).'
+  audit_status: Rejected
+  audit_notes: ''
+- languages: *id001
+  scripts: *id002
+  last_verified: '2026-11-09'
+  registration: 'No'
+  authentication: None
+  record_id: TEL-DIAL-003
+  primary_category: DIAL
+  record_type: Collection
+  source_name: Dialect resources (cross-reference)
+  collection_name: Telugu dialect data — dialect dictionaries and district-tagged speech
+  organization: AndhraBharati; IISc (RESPIN, Vaani); AI4Bharat (IndicVoices); LDC-IL
+  org_type: Consortium
+  official_url: https://www.andhrabharati.com/dictionary/index.php
+  collection_url: https://www.andhrabharati.com/dictionary/index.php
+  description: 'Cross-reference record for dialect coverage: 10 regional/dialect dictionaries (Telangana, Kalingandhra, Srikakulam, Nalgonda, Visakha, Rayalaseema ''Seema palukuvahi'') on AndhraBharati; district-labelled speech in Vaani, RESPIN, IndicVoices and LDC-IL. No public dialect-labelled TEXT corpus was found.'
+  secondary_categories:
+  - LEX
+  - SPEECH
+  telugu_scope: Telugu-only
+  modality: Multimodal
+  formats:
+  - see linked records
+  content_types:
+  - dialect lexicons
+  - district-tagged speech
+  size_telugu: See linked records
+  size_confidence: Unknown
+  digitization: Mixed
+  bulk_download: Partial
+  acquisition_method: See TEL-LEX-001, TEL-SPEECH-010, TEL-SPEECH-012, TEL-SPEECH-001, TEL-SPEECH-013.
+  license: Varies per linked record
+  license_scope: Varies per subset
+  redistribution: Unclear
+  commercial_use: Varies
+  license_evidence_url: https://www.andhrabharati.com/dictionary/index.php
+  duplicates_mirrors:
+  - TEL-LEX-001
+  - TEL-SPEECH-010
+  - TEL-SPEECH-012
+  - TEL-SPEECH-001
+  - TEL-SPEECH-013
+  evidence_urls:
+  - https://www.andhrabharati.com/dictionary/index.php
+  verification_status: Verified
+  verification_method: Derived from verified/partially verified component records
+  unresolved_issues: Dialect-labelled text corpus is a gap; regional minority languages written in Telugu script (Gondi wsg-Telu, Lambadi, Koya) are barely represented (GlotCC wsg-Telu = 2 docs).
+  corpus_value: Medium
+  content_role: Original data
+  dedup_role: Canonical
+  canonical_record: ''
+  count_in_totals: 'No'
+  telugu_content_check: Not applicable (not a Hugging Face dataset); see verification_method
+  quality_rating: Rejected
+  quality_rationale: 'Not an independent source: cross-reference record that only points to TEL-LEX-001, TEL-SPEECH-001/010/012/013 (no data of its own). Its dialect-gap note is preserved in the audit report.'
+  rejection_reason: 'Not an independent source: cross-reference record that only points to TEL-LEX-001, TEL-SPEECH-001/010/012/013 (no data of its own). Its dialect-gap note is preserved in the audit report.'
+  audit_status: Rejected
+  audit_notes: ''
+- primary_category: TXT
+  languages:
+  - te
+  scripts:
+  - Telu
+  modality: Text
+  last_verified: '2026-11-09'
+  registration: 'No'
+  authentication: None
+  record_type: Dataset
+  record_id: TEL-TXT-024
+  source_name: Hugging Face (eswardivi)
+  collection_name: indiccorp_telugu_line
+  organization: Individual uploader (eswardivi)
+  org_type: Individual
+  official_url: https://huggingface.co/eswardivi
+  collection_url: https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line
+  description: Line-split re-upload of the IndicCorp Telugu text.
+  telugu_scope: Telugu-only
+  formats:
+  - Parquet
+  content_types:
+  - lines
+  size_telugu: 42,916,522 rows
+  size_confidence: Confirmed
+  digitization: Born-digital text
+  bulk_download: 'Yes'
+  acquisition_method: load_dataset('eswardivi/indiccorp_telugu_line')
+  license: none declared (inherits IndicCorp terms)
+  license_scope: No explicit license
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line
+  duplicates_mirrors:
+  - TEL-TXT-003
+  - TEL-TXT-004
+  evidence_urls:
+  - https://datasets-server.huggingface.co/size?dataset=eswardivi/indiccorp_telugu_line
+  verification_status: Partially Verified
+  verification_method: datasets-server size
+  unresolved_issues: Unclear whether derived from IndicCorp v1 or v2.
+  corpus_value: Low
+  processing_needs: Mirror — do not count separately.
+  content_role: Original data
+  dedup_role: Canonical
+  canonical_record: ''
+  count_in_totals: 'No'
+  telugu_content_check: 'CONFIRMED_TELUGU_TEXT: 12,018 Telugu-script chars in 100 sampled rows (config default) on 2026-11-09'
+  quality_rating: Rejected
+  quality_rationale: 'Duplicate without independent value: a line-split re-upload of IndicCorp text (TEL-TXT-003/TEL-TXT-004) with no licence, provenance or added annotation.'
+  rejection_reason: 'Duplicate without independent value: a line-split re-upload of IndicCorp text (TEL-TXT-003/TEL-TXT-004) with no licence, provenance or added annotation.'
+  audit_status: Rejected
+  audit_notes: ''

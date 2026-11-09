@@ -1,0 +1,178 @@
+[
+  {
+    "name": "CHANGELOG",
+    "path": "CHANGELOG",
+    "sha": "fc778bde03fceb913bcdb386235a3532470dac0b",
+    "size": 113,
+    "url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/CHANGELOG?ref=master",
+    "html_url": "https://github.com/joshua-decoder/indian-parallel-corpora/blob/master/CHANGELOG",
+    "git_url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/blobs/fc778bde03fceb913bcdb386235a3532470dac0b",
+    "download_url": "https://raw.githubusercontent.com/joshua-decoder/indian-parallel-corpora/master/CHANGELOG",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/CHANGELOG?ref=master",
+      "git": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/blobs/fc778bde03fceb913bcdb386235a3532470dac0b",
+      "html": "https://github.com/joshua-decoder/indian-parallel-corpora/blob/master/CHANGELOG"
+    }
+  },
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "b58236c0622e5c2179be49eb4cdce7d6d8f57c90",
+    "size": 1095,
+    "url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/LICENSE?ref=master",
+    "html_url": "https://github.com/joshua-decoder/indian-parallel-corpora/blob/master/LICENSE",
+    "git_url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/blobs/b58236c0622e5c2179be49eb4cdce7d6d8f57c90",
+    "download_url": "https://raw.githubusercontent.com/joshua-decoder/indian-parallel-corpora/master/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/LICENSE?ref=master",
+      "git": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/blobs/b58236c0622e5c2179be49eb4cdce7d6d8f57c90",
+      "html": "https://github.com/joshua-decoder/indian-parallel-corpora/blob/master/LICENSE"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "bc5ecc3b974e020c9e21f5ec9df2a96bc5a4982d",
+    "size": 3239,
+    "url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/README.md?ref=master",
+    "html_url": "https://github.com/joshua-decoder/indian-parallel-corpora/blob/master/README.md",
+    "git_url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/blobs/bc5ecc3b974e020c9e21f5ec9df2a96bc5a4982d",
+    "download_url": "https://raw.githubusercontent.com/joshua-decoder/indian-parallel-corpora/master/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/README.md?ref=master",
+      "git": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/blobs/bc5ecc3b974e020c9e21f5ec9df2a96bc5a4982d",
+      "html": "https://github.com/joshua-decoder/indian-parallel-corpora/blob/master/README.md"
+    }
+  },
+  {
+    "name": "bn-en",
+    "path": "bn-en",
+    "sha": "55c4f1c1e82f1779797d20164e1f69724d69c564",
+    "size": 0,
+    "url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/bn-en?ref=master",
+    "html_url": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/bn-en",
+    "git_url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/55c4f1c1e82f1779797d20164e1f69724d69c564",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/bn-en?ref=master",
+      "git": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/55c4f1c1e82f1779797d20164e1f69724d69c564",
+      "html": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/bn-en"
+    }
+  },
+  {
+    "name": "doc",
+    "path": "doc",
+    "sha": "4d2859b6a7b93313c039674420edef922cf20fb2",
+    "size": 0,
+    "url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/doc?ref=master",
+    "html_url": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/doc",
+    "git_url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/4d2859b6a7b93313c039674420edef922cf20fb2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/doc?ref=master",
+      "git": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/4d2859b6a7b93313c039674420edef922cf20fb2",
+      "html": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/doc"
+    }
+  },
+  {
+    "name": "hi-en",
+    "path": "hi-en",
+    "sha": "901d649f956c15592bb4fa88caa214d26753a618",
+    "size": 0,
+    "url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/hi-en?ref=master",
+    "html_url": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/hi-en",
+    "git_url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/901d649f956c15592bb4fa88caa214d26753a618",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/hi-en?ref=master",
+      "git": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/901d649f956c15592bb4fa88caa214d26753a618",
+      "html": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/hi-en"
+    }
+  },
+  {
+    "name": "ml-en",
+    "path": "ml-en",
+    "sha": "aa9ff702a675be0acbcf3b3f56f83dd8a750b621",
+    "size": 0,
+    "url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/ml-en?ref=master",
+    "html_url": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/ml-en",
+    "git_url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/aa9ff702a675be0acbcf3b3f56f83dd8a750b621",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/ml-en?ref=master",
+      "git": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/aa9ff702a675be0acbcf3b3f56f83dd8a750b621",
+      "html": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/ml-en"
+    }
+  },
+  {
+    "name": "scripts",
+    "path": "scripts",
+    "sha": "66bb46c857fd04d3a208d11e2ba09cd9240cd4d8",
+    "size": 0,
+    "url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/scripts?ref=master",
+    "html_url": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/scripts",
+    "git_url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/66bb46c857fd04d3a208d11e2ba09cd9240cd4d8",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/scripts?ref=master",
+      "git": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/66bb46c857fd04d3a208d11e2ba09cd9240cd4d8",
+      "html": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/scripts"
+    }
+  },
+  {
+    "name": "ta-en",
+    "path": "ta-en",
+    "sha": "82bbdd878fe0dc15e2ee834048779bca696ad839",
+    "size": 0,
+    "url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/ta-en?ref=master",
+    "html_url": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/ta-en",
+    "git_url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/82bbdd878fe0dc15e2ee834048779bca696ad839",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/ta-en?ref=master",
+      "git": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/82bbdd878fe0dc15e2ee834048779bca696ad839",
+      "html": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/ta-en"
+    }
+  },
+  {
+    "name": "te-en",
+    "path": "te-en",
+    "sha": "29e964750d55c29d8fd1bf9f5444322ba52378a8",
+    "size": 0,
+    "url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/te-en?ref=master",
+    "html_url": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/te-en",
+    "git_url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/29e964750d55c29d8fd1bf9f5444322ba52378a8",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/te-en?ref=master",
+      "git": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/29e964750d55c29d8fd1bf9f5444322ba52378a8",
+      "html": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/te-en"
+    }
+  },
+  {
+    "name": "ur-en",
+    "path": "ur-en",
+    "sha": "1b05622d1c6fa4f3bac325584429e1ee8eacb646",
+    "size": 0,
+    "url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/ur-en?ref=master",
+    "html_url": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/ur-en",
+    "git_url": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/1b05622d1c6fa4f3bac325584429e1ee8eacb646",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/contents/ur-en?ref=master",
+      "git": "https://api.github.com/repos/joshua-decoder/indian-parallel-corpora/git/trees/1b05622d1c6fa4f3bac325584429e1ee8eacb646",
+      "html": "https://github.com/joshua-decoder/indian-parallel-corpora/tree/master/ur-en"
+    }
+  }
+]

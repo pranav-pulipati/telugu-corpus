@@ -1,0 +1,394 @@
+# OCR — printed, handwritten, scene-text and document-image datasets.
+defaults:
+  primary_category: OCR
+  modality: Image
+  languages: [te]
+  scripts: [Telu]
+  last_verified: "2026-11-09"
+  registration: "No"
+  authentication: "None"
+  record_type: Dataset
+  bulk_download: "Yes"
+
+records:
+- record_id: TEL-OCR-001
+  source_name: CVIT, IIIT Hyderabad
+  collection_name: Mozhi — printed Indic line/word images (Telugu)
+  organization: CVIT, IIIT Hyderabad (Mathew, Jawahar et al.)
+  org_type: Academic
+  official_url: https://cvit.iiit.ac.in/
+  collection_url: https://cvit.iiit.ac.in/usodi/tdocrmil.php
+  description: Printed-text recognition dataset of 13 Indian languages with line- and word-level ground truth from scanned books; Telugu included.
+  telugu_scope: Telugu subset of multilingual
+  formats: [JPG/PNG + text]
+  content_types: [word images, line images]
+  size_telugu: Unknown per-language; >1.2M word images (~120K lines) in total
+  size_confidence: Reported by source
+  annotations: [line and word transcriptions]
+  digitization: Scans + human transcription
+  acquisition_method: Download link on the project page (licence form may apply); also via ilocr.iiit.ac.in dataset portal.
+  license: Research licence (per project page) — not confirmed
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://cvit.iiit.ac.in/usodi/tdocrmil.php
+  evidence_urls:
+  - "https://arxiv.org/abs/2205.06740"
+  - "https://cvit.iiit.ac.in/usodi/tdocrmil.php"
+  verification_status: Partially Verified
+  verification_method: Paper abstract and project page via search extract
+  unresolved_issues: Confirm Telugu split size and licence on download page.
+  corpus_value: High
+
+- record_id: TEL-OCR-002
+  source_name: CVIT, IIIT Hyderabad (ILOCR)
+  collection_name: IIIT-INDIC-HW-WORDS / IIIT-HW-Telugu — handwritten word images
+  organization: CVIT, IIIT Hyderabad (Gongidi & Jawahar, ICDAR 2021)
+  org_type: Academic
+  official_url: https://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-indic-hw-words
+  collection_url: https://ilocr.iiit.ac.in/dataset/23
+  description: Offline handwritten word images written by many native writers, with train/val/test splits, for handwritten text recognition.
+  telugu_scope: Telugu subset of multilingual
+  formats: [JPG + text labels]
+  content_types: [handwritten word images]
+  size_telugu: "train 88,534 / val 19,980 / test 17,899 images (~126K); 12,945 unique training words (ILOCR page)"
+  size_confidence: Reported by source
+  annotations: [word transcriptions]
+  digitization: Scans + human transcription
+  acquisition_method: Download from ilocr.iiit.ac.in/dataset/23 (accept licence); mirrored on AIKosh.
+  license: CC BY 4.0 (AIKosh listing; ILOCR data_license file)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://aikosh.indiaai.gov.in/home/datasets/details/iiit_indic_hw_words_11.html
+  evidence_urls:
+  - "https://ilocr.iiit.ac.in/dataset/23"
+  - "https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data"
+  verification_status: Partially Verified
+  verification_method: ILOCR and AIKosh pages via search extracts
+  unresolved_issues: Split counts differ between ILOCR page and PLATTER paper (80,637 train) — confirm from README.
+  corpus_value: High
+
+- record_id: TEL-OCR-003
+  source_name: CVIT, IIIT Hyderabad
+  collection_name: IndicSTR12 — scene-text word images (Telugu)
+  organization: CVIT, IIIT Hyderabad (Lunia, Mondal, Jawahar; ICDAR 2023 workshops)
+  org_type: Academic
+  official_url: https://cvit.iiit.ac.in/
+  collection_url: https://arxiv.org/abs/2403.08007
+  description: Real scene-text word images for 12 Indian languages (>1,000 per language, ~27K total) plus 3M+ synthetic images across 13 languages.
+  telugu_scope: Telugu subset of multilingual
+  formats: [JPG + labels]
+  content_types: [cropped scene-text word images]
+  size_telugu: ">1,000 real word images (per-language minimum)"
+  size_confidence: Reported by source
+  annotations: [word transcriptions]
+  digitization: Original scans/images only
+  acquisition_method: Follow the dataset link in the paper / CVIT project page.
+  license: Unknown for data (arXiv paper itself is CC BY-NC-ND 4.0)
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://arxiv.org/abs/2403.08007
+  evidence_urls:
+  - "https://arxiv.org/abs/2403.08007"
+  verification_status: Partially Verified
+  verification_method: Paper abstract via search extract
+  unresolved_issues: Locate download and dataset licence.
+  corpus_value: Low
+
+- record_id: TEL-OCR-004
+  source_name: HP Labs India / LipiTk
+  collection_name: HP Labs Isolated Handwritten Telugu Character Dataset (online)
+  organization: HP Labs India (hosted by MILE Lab, IISc)
+  org_type: Commercial
+  official_url: https://lipitk.sourceforge.net/
+  collection_url: https://lipitk.sourceforge.net/datasets/teluguchardata.htm
+  description: Online (pen-trajectory) handwriting of 166 Telugu characters, ~270 samples each, collected on Acecad Digimemo devices from native writers.
+  telugu_scope: Telugu-only
+  modality: Multimodal
+  formats: [UNIPEN-like online ink files]
+  content_types: [character pen trajectories]
+  size_telugu: "~270 samples x 166 characters (~45K samples); train subset ~170/char"
+  size_confidence: Reported by source
+  annotations: [character label]
+  digitization: Born-digital text
+  acquisition_method: Download hpl-telugu-iso-char archives from the LipiTk datasets page (licence acceptance implied by download).
+  license: HP Labs India dataset licence (LipiTk licence page)
+  license_scope: Uniform (single license)
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://lipitk.sourceforge.net/hpl-datasets.htm
+  evidence_urls:
+  - "https://lipitk.sourceforge.net/datasets/teluguchardata.htm"
+  verification_status: Partially Verified
+  verification_method: Dataset page via search extract
+  unresolved_issues: Read licence terms.
+  corpus_value: Low
+
+- record_id: TEL-OCR-005
+  source_name: Hugging Face (AlbertoChestnut)
+  collection_name: Telugu OCR Dataset (Wikisource page scans + transcriptions)
+  organization: Individual uploader (AlbertoChestnut)
+  org_type: Individual
+  official_url: https://huggingface.co/AlbertoChestnut
+  collection_url: https://huggingface.co/datasets/AlbertoChestnut/telugu-ocr
+  description: Aligned scanned page images and human-proofread Telugu text harvested from Telugu Wikisource, with per-book Telugu-ratio statistics.
+  secondary_categories: [LIT]
+  telugu_scope: Telugu-only
+  modality: Multimodal
+  formats: [Parquet (image + text)]
+  content_types: [page images with text]
+  size_telugu: "458,964 rows"
+  size_confidence: Confirmed
+  metadata_fields: [book, page, telugu_ratio]
+  annotations: [page transcription (Wikisource proofread)]
+  digitization: Scans + human transcription
+  acquisition_method: "load_dataset('AlbertoChestnut/telugu-ocr')"
+  license: CC BY-SA 4.0 (inherits Wikisource)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/AlbertoChestnut/telugu-ocr
+  copyright_notes: Scans come from Wikimedia Commons; underlying books are mostly PD or released by rights holders to Wikisource.
+  duplicates_mirrors: [TEL-LIT-001, TEL-OCR-007]
+  evidence_urls:
+  - "https://huggingface.co/datasets/AlbertoChestnut/telugu-ocr/raw/main/README.md"
+  verification_status: Verified
+  verification_method: Card read + datasets-server row count
+  unresolved_issues: Includes unproofread pages? (check proofreading status field).
+  corpus_value: High
+
+- record_id: TEL-OCR-006
+  source_name: Hugging Face (gksriharsha)
+  collection_name: Chitralekha — synthetic Telugu word images
+  organization: Individual uploader (gksriharsha)
+  org_type: Individual
+  official_url: https://huggingface.co/gksriharsha
+  collection_url: https://huggingface.co/datasets/gksriharsha/chitralekha
+  description: Synthetic rendered Telugu word images in many fonts (one config per font, e.g. NotoSansTelugu, NotoSerifTelugu) for OCR training.
+  telugu_scope: Telugu-only
+  formats: [Parquet (image + text)]
+  content_types: [rendered word images]
+  size_telugu: "61,898,021 rows across font configs (~790K per font; ~2.7-2.9 GB per font)"
+  size_confidence: Confirmed
+  annotations: [word text, font]
+  digitization: Born-digital text
+  acquisition_method: "load_dataset('gksriharsha/chitralekha', 'NotoSansTelugu-Regular')"
+  license: MIT (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/gksriharsha/chitralekha
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=gksriharsha/chitralekha"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Medium
+  processing_needs: Synthetic; pair with real scans for robustness.
+
+- record_id: TEL-OCR-007
+  source_name: Hugging Face (harsha-desaraju)
+  collection_name: Telugu OCR image-text sets (Wikisource text images, book text images, line images, line-OCR bench)
+  organization: Individual uploader (harsha-desaraju)
+  org_type: Individual
+  official_url: https://huggingface.co/harsha-desaraju
+  collection_url: https://huggingface.co/datasets/harsha-desaraju/telugu-wikisource-text-images
+  description: "Family of Telugu OCR datasets: telugu-wikisource-text-images (659,924 rows, CC BY-SA 4.0), Telugu-book-text-images (232,500, MIT), telugu-synthetic-line-images (1M-10M, MIT), telugu-line-ocr-bench (1,044, CC BY-SA 4.0), telugu-pdf-line-image-text, plus Sanskrit-in-Telugu-script variants."
+  telugu_scope: Telugu-only
+  formats: [Parquet (image + text)]
+  content_types: [line/page images with text]
+  size_telugu: "wikisource-text-images 659,924; book-text-images 232,500; line-ocr-bench 1,044 rows"
+  size_confidence: Confirmed
+  annotations: [line transcriptions]
+  digitization: Mixed
+  acquisition_method: load_dataset('harsha-desaraju/<repo>')
+  license: CC BY-SA 4.0 / MIT per repo
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Varies
+  license_evidence_url: https://huggingface.co/datasets/harsha-desaraju/telugu-wikisource-text-images
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/harsha-desaraju/Telugu-book-text-images"
+  - "https://huggingface.co/datasets/harsha-desaraju/telugu-line-ocr-bench"
+  - "https://huggingface.co/datasets/harsha-desaraju/telugu-synthetic-line-images"
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=harsha-desaraju/telugu-wikisource-text-images"
+  verification_status: Partially Verified
+  verification_method: HF API + datasets-server sizes
+  unresolved_issues: Book source for Telugu-book-text-images (copyright) undocumented; MIT tag on book scans questionable.
+  corpus_value: Medium
+
+- record_id: TEL-OCR-008
+  source_name: Cognitive Lab / Hugging Face
+  collection_name: NayanaOCR Corpus 2025 — te
+  organization: Cognitive Lab
+  org_type: Commercial
+  official_url: https://huggingface.co/Cognitive-Lab
+  collection_url: https://huggingface.co/datasets/Cognitive-Lab/NayanaOCR_Corpus_2025
+  description: Document-image OCR corpus (synthetic/rendered documents with layout) in 22 languages incl. Telugu, for training vision-language OCR models.
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet (image + text)]
+  content_types: [document images with text]
+  size_telugu: "45,735 rows; 37.8 GB (config te)"
+  size_confidence: Confirmed
+  annotations: [full-page text, layout]
+  digitization: Mixed
+  acquisition_method: "load_dataset('Cognitive-Lab/NayanaOCR_Corpus_2025', 'te')"
+  license: CC BY-NC 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://huggingface.co/datasets/Cognitive-Lab/NayanaOCR_Corpus_2025
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=Cognitive-Lab/NayanaOCR_Corpus_2025"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Medium
+
+- record_id: TEL-OCR-009
+  record_type: Tool/Resource
+  source_name: Tesseract OCR
+  collection_name: Tesseract Telugu models and training data (tessdata / langdata)
+  organization: Tesseract OCR project (Google-originated, community-maintained)
+  org_type: Community/Volunteer
+  official_url: https://github.com/tesseract-ocr/tesseract
+  collection_url: https://github.com/tesseract-ocr/tessdata_best/blob/main/tel.traineddata
+  description: Trained LSTM models for Telugu OCR (tessdata, tessdata_best, tessdata_fast) and language data (word lists, training text) in the langdata_lstm repo; the de-facto baseline OCR for Telugu scans.
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [traineddata, text word lists]
+  content_types: [OCR model, training text, wordlist]
+  size_telugu: Model + langdata files
+  size_confidence: Unknown
+  digitization: Born-digital text
+  acquisition_method: "apt install tesseract-ocr-tel or download tel.traineddata; langdata_lstm/tel for training text"
+  license: Apache 2.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://github.com/tesseract-ocr/tessdata_best
+  evidence_urls:
+  - "https://github.com/tesseract-ocr/tessdata_best"
+  verification_status: Partially Verified
+  verification_method: Known repository; file presence not re-checked this pass
+  corpus_value: Medium
+  processing_needs: Baseline OCR quality on old Telugu typefaces is weak; consider fine-tuning on TEL-OCR-005.
+
+- record_id: TEL-OCR-010
+  source_name: Hugging Face (meharuhanzz)
+  collection_name: OCR-Bench1000-Telugu
+  organization: Individual uploader (meharuhanzz)
+  org_type: Individual
+  official_url: https://huggingface.co/meharuhanzz
+  collection_url: https://huggingface.co/datasets/meharuhanzz/OCR-Bench1000-Telugu
+  description: Small Telugu OCR evaluation benchmark (1K-10K images).
+  telugu_scope: Telugu-majority
+  languages: [te, en]
+  formats: [Parquet]
+  content_types: [images with reference text]
+  size_telugu: "1K-10K items (HF size category)"
+  size_confidence: Estimate
+  digitization: Mixed
+  acquisition_method: "load_dataset('meharuhanzz/OCR-Bench1000-Telugu')"
+  license: MIT (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/meharuhanzz/OCR-Bench1000-Telugu
+  evidence_urls:
+  - "https://huggingface.co/api/datasets?filter=language:te"
+  verification_status: Partially Verified
+  verification_method: HF API listing metadata
+  unresolved_issues: Image provenance not documented.
+  corpus_value: Low
+
+- record_id: TEL-OCR-011
+  source_name: University of Hyderabad
+  collection_name: Offline handwritten Telugu character dataset (UoH DSpace)
+  organization: University of Hyderabad
+  org_type: Academic
+  official_url: https://dspace.uohyd.ac.in/
+  collection_url: https://dspace.uohyd.ac.in/handle/1/8547
+  description: Offline (scanned) handwritten Telugu character images with recognition experiments (thesis/report deposit).
+  telugu_scope: Telugu-only
+  formats: [Unknown]
+  content_types: [character images]
+  size_telugu: Unknown
+  size_confidence: Unknown
+  digitization: Original scans/images only
+  bulk_download: "Unknown"
+  acquisition_method: Check DSpace item for attached data files.
+  license: Unknown
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://dspace.uohyd.ac.in/handle/1/8547
+  evidence_urls:
+  - "https://dspace.uohyd.ac.in/handle/1/8547"
+  verification_status: Unverified
+  verification_method: Found via search; item not opened
+  unresolved_issues: Confirm whether the data itself is downloadable.
+  corpus_value: Low
+
+- record_id: TEL-OCR-012
+  source_name: IEEE DataPort
+  collection_name: Handwritten Telugu alphabet dataset (vowels & consonants, varnamala)
+  organization: IEEE DataPort contributors
+  org_type: Individual
+  official_url: https://ieee-dataport.org/
+  collection_url: https://ieee-dataport.org/documents/handwritten-telugu-alphabet-dataset-vowels-and-consonants-varnamala-ocr-and-pattern
+  description: Handwritten Telugu alphabet images for character recognition research.
+  telugu_scope: Telugu-only
+  formats: [image files]
+  content_types: [character images]
+  size_telugu: Unknown
+  size_confidence: Unknown
+  digitization: Original scans/images only
+  bulk_download: "Unknown"
+  acquisition_method: IEEE DataPort account (some datasets require subscription).
+  registration: "Yes"
+  authentication: Free account
+  license: Per DataPort listing (not checked)
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://ieee-dataport.org/documents/handwritten-telugu-alphabet-dataset-vowels-and-consonants-varnamala-ocr-and-pattern
+  evidence_urls:
+  - "https://ieee-dataport.org/keywords/telugu-handwritten-character-recognition"
+  verification_status: Unverified
+  verification_method: Found via search; page not opened
+  corpus_value: Low
+
+- record_id: TEL-OCR-013
+  source_name: CVIT, IIIT Hyderabad (IHDIA)
+  collection_name: Indiscapes / Indiscapes2 — historical Indic manuscript layout datasets
+  organization: CVIT, IIIT Hyderabad (Prusty, Sarvadevabhatla et al., ICDAR 2019)
+  org_type: Academic
+  official_url: https://ihdia.iiit.ac.in/
+  collection_url: https://ihdia.iiit.ac.in/
+  description: Region-level layout annotations (text lines, holes, decorations, page boundaries) on historical Indic palm-leaf and paper manuscripts; Indiscapes2 is 150% larger and draws on four collections. Whether Telugu manuscripts are included is not confirmed.
+  secondary_categories: [MSS]
+  telugu_scope: Telugu-related
+  languages: [sa, te]
+  formats: [images + JSON polygon annotations]
+  content_types: [manuscript page images with layout polygons]
+  size_telugu: Unknown
+  size_confidence: Unknown
+  annotations: [layout region polygons]
+  digitization: Original scans/images only
+  bulk_download: "Unknown"
+  acquisition_method: Request via the IHDIA portal.
+  license: Unknown
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://ihdia.iiit.ac.in/
+  evidence_urls:
+  - "https://arxiv.org/abs/1912.07025"
+  - "https://cvit.iiit.ac.in/research/projects/cvit-projects/indiscapes-instance-segmentation-networks-for-layout-parsing-of-historical-indic-manuscripts"
+  verification_status: Unverified
+  verification_method: Paper abstract via search; Telugu content not confirmed
+  unresolved_issues: Confirm Telugu-script pages exist; licence.
+  corpus_value: Low
+  processing_needs: Layout models trained here could segment TEL-MSS-001 palm-leaf scans.

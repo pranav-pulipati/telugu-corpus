@@ -1,0 +1,182 @@
+record_id,related_to,relationship,counted_in_totals,note
+TEL-ANN-002,TEL-PAR-016,Listed mirror/overlap,Yes,
+TEL-ANN-006,https://huggingface.co/datasets/ai4bharat/IndicXParaphrase,Listed mirror/overlap,Yes,
+TEL-ANN-012,https://huggingface.co/datasets/GEM/xlsum,Listed mirror/overlap,Yes,
+TEL-ANN-013,TEL-ANN-012,Derived from,Yes,Derived (compiled from other sources)
+TEL-ANN-014,https://huggingface.co/datasets/khalidalt/tydiqa-goldp,Listed mirror/overlap,Yes,
+TEL-ANN-014,https://huggingface.co/datasets/google/xtreme,Listed mirror/overlap,Yes,
+TEL-ANN-015,https://huggingface.co/datasets/castorini/mr-tydi,Listed mirror/overlap,Yes,
+TEL-ANN-015,https://huggingface.co/datasets/miracl/miracl-corpus,Listed mirror/overlap,Yes,
+TEL-ANN-016,(contains child records),Aggregate (contains other records),No,Aggregator/platform
+TEL-ANN-016,TEL-ANN-017,Listed mirror/overlap,No,
+TEL-ANN-016,TEL-LEX-010,Listed mirror/overlap,No,
+TEL-ANN-016,TEL-PAR-017,Listed mirror/overlap,No,
+TEL-ANN-017,TEL-ANN-016,Included in,Yes,Original data
+TEL-ANN-018,https://huggingface.co/datasets/Davlan/sib200,Listed mirror/overlap,Yes,
+TEL-ANN-018,https://huggingface.co/datasets/mteb/belebele,Listed mirror/overlap,Yes,
+TEL-ANN-019,https://huggingface.co/datasets/SetFit/amazon_massive_scenario_te-IN,Listed mirror/overlap,Yes,
+TEL-ANN-020,https://huggingface.co/datasets/1-800-SHARED-TASKS/aya_collection_telugu,Listed mirror/overlap,Yes,
+TEL-ANN-022,https://huggingface.co/datasets/CohereLabs/include-base-44,Listed mirror/overlap,Yes,
+TEL-ANN-023,https://huggingface.co/datasets/google/IndicGenBench_flores_in,Listed mirror/overlap,Yes,
+TEL-ANN-023,https://huggingface.co/datasets/google/IndicGenBench_crosssum_in,Listed mirror/overlap,Yes,
+TEL-ANN-023,https://huggingface.co/datasets/google/IndicGenBench_xorqa_in,Listed mirror/overlap,Yes,
+TEL-ANN-024,https://huggingface.co/datasets/mounikaiiith/Telugu_Emotion,Listed mirror/overlap,Yes,
+TEL-ANN-024,https://huggingface.co/datasets/mounikaiiith/Telugu-Hatespeech,Listed mirror/overlap,Yes,
+TEL-ANN-024,https://huggingface.co/datasets/mounikaiiith/Telugu-Sarcasm,Listed mirror/overlap,Yes,
+TEL-ANN-024,https://huggingface.co/datasets/mounikaiiith/Telugu_Clickbait,Listed mirror/overlap,Yes,
+TEL-ANN-025,https://huggingface.co/datasets/samvaran/chandohasam,Listed mirror/overlap,Yes,
+TEL-ANN-025,https://huggingface.co/datasets/PoetryMTEB/Padyam2GadyamBitextMining,Listed mirror/overlap,Yes,
+TEL-ANN-025,https://huggingface.co/datasets/PoetryMTEB/ChandassuMeterClassification,Listed mirror/overlap,Yes,
+TEL-ANN-026,TEL-ANN-020,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-ANN-026,https://huggingface.co/datasets/SuryaKrishna02/aya-telugu-poems,Listed mirror/overlap,Yes,
+TEL-ANN-026,https://huggingface.co/datasets/eswardivi/Telugu_InstructData,Listed mirror/overlap,Yes,
+TEL-ANN-026,https://huggingface.co/datasets/narendarcodes/Telugu-MultiTask-Instruct-77K,Listed mirror/overlap,Yes,
+TEL-ANN-026,https://huggingface.co/datasets/VenkataRamanaKurumallajaddangi/Pure-Telugu-Alpaca,Listed mirror/overlap,Yes,
+TEL-ANN-028,https://huggingface.co/datasets/CohereLabs/xP3x,Listed mirror/overlap,Yes,
+TEL-ANN-028,https://huggingface.co/datasets/neulab/PangeaInstruct,Listed mirror/overlap,Yes,
+TEL-ANN-029,https://huggingface.co/datasets/juletxara/xstory_cloze,Listed mirror/overlap,Yes,
+TEL-ANN-029,https://huggingface.co/datasets/desik98/TeluguRiddles,Listed mirror/overlap,Yes,
+TEL-ANN-029,https://huggingface.co/datasets/Rashmiv261997/telugu-idiom-proverb-benchmark,Listed mirror/overlap,Yes,
+TEL-ANN-032,https://doi.org/10.5281/zenodo.18803861,Listed mirror/overlap,Yes,
+TEL-ANN-032,https://doi.org/10.5281/zenodo.20774989,Listed mirror/overlap,Yes,
+TEL-ANN-032,https://doi.org/10.5281/zenodo.15194116,Listed mirror/overlap,Yes,
+TEL-AV-001,TEL-SPEECH-004,Listed mirror/overlap,Yes,
+TEL-DLIB-001,(contains child records),Aggregate (contains other records),No,Aggregator/platform
+TEL-DLIB-001,TEL-DLIB-002,Listed mirror/overlap,No,
+TEL-DLIB-001,TEL-DLIB-003,Listed mirror/overlap,No,
+TEL-DLIB-001,TEL-DLIB-004,Listed mirror/overlap,No,
+TEL-DLIB-001,TEL-MSS-001,Listed mirror/overlap,No,
+TEL-DLIB-001,TEL-PERIOD-001,Listed mirror/overlap,No,
+TEL-DLIB-001,TEL-GOV-001,Listed mirror/overlap,No,
+TEL-DLIB-002,TEL-DLIB-003,Listed mirror/overlap,Yes,
+TEL-DLIB-003,TEL-DLIB-002,Partial overlap,Yes,Mirror/re-packaging
+TEL-DLIB-003,TEL-DLIB-004,Listed mirror/overlap,Yes,
+TEL-DLIB-004,TEL-DLIB-013,Listed mirror/overlap,Yes,
+TEL-DLIB-004,TEL-DLIB-003,Listed mirror/overlap,Yes,
+TEL-DLIB-005,TEL-PERIOD-002,Listed mirror/overlap,Yes,
+TEL-DLIB-007,(contains child records),Aggregate (contains other records),No,Aggregator/platform
+TEL-DLIB-007,TEL-DLIB-002,Listed mirror/overlap,No,
+TEL-DLIB-007,TEL-GOV-003,Listed mirror/overlap,No,
+TEL-DLIB-008,TEL-LIT-001,Partial overlap,Yes,Aggregator/platform
+TEL-DLIB-009,(contains child records),Aggregate (contains other records),No,Index/reference only
+TEL-DLIB-013,TEL-DLIB-004,Partial overlap,Yes,Original data
+TEL-EDU-004,TEL-EDU-001,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-EDU-004,TEL-EDU-002,Listed mirror/overlap,Yes,
+TEL-EDU-005,TEL-EDU-004,Same corpus as,No,Derived (compiled from other sources)
+TEL-EDU-005,https://doi.org/10.5281/zenodo.18151725,Listed mirror/overlap,No,
+TEL-GOV-001,(contains child records),Mirror of external source,Yes,Mirror/re-packaging
+TEL-GOV-002,(contains child records),Mirror of external source,Yes,Mirror/re-packaging
+TEL-GOV-003,TEL-DLIB-007,Partial overlap,Yes,Mirror/re-packaging
+TEL-GOV-005,(contains child records),Canonical,No,Original data
+TEL-GOV-007,TEL-PAR-012,Listed mirror/overlap,Yes,
+TEL-GOV-007,TEL-PAR-009,Listed mirror/overlap,Yes,
+TEL-GOV-007,TEL-PAR-016,Listed mirror/overlap,Yes,
+TEL-GOV-008,TEL-GOV-005,Mirror of,Yes,Mirror/re-packaging
+TEL-GOV-008,TEL-PAR-023,Listed mirror/overlap,Yes,
+TEL-LEX-004,TEL-ANN-027,Listed mirror/overlap,Yes,
+TEL-LEX-008,https://te.wikibooks.org/,Listed mirror/overlap,Yes,
+TEL-LEX-009,TEL-LEX-001,Partial overlap,Yes,Original data
+TEL-LEX-010,TEL-ANN-016,Listed mirror/overlap,Yes,
+TEL-LEX-012,TEL-LEX-011,Listed mirror/overlap,Yes,
+TEL-LIT-001,https://huggingface.co/datasets/wikimedia/wikisource,Listed mirror/overlap,Yes,
+TEL-LIT-001,TEL-OCR-005,Listed mirror/overlap,Yes,
+TEL-LIT-002,TEL-LEX-001,Same platform as,Yes,Original data
+TEL-LIT-008,https://www.saarangabooks.com/,Listed mirror/overlap,Yes,
+TEL-LIT-008,https://sanchika.com/,Listed mirror/overlap,Yes,
+TEL-LIT-008,https://www.koumudi.net/,Listed mirror/overlap,Yes,
+TEL-LIT-008,https://pustakam.net/,Listed mirror/overlap,Yes,
+TEL-MSS-001,TEL-MSS-002,Mirror of,Yes,Mirror/re-packaging
+TEL-MSS-002,(contains child records),Canonical,No,Original data
+TEL-MSS-002,TEL-MSS-001,Listed mirror/overlap,No,
+TEL-MSS-008,TEL-REL-001,Partial overlap,Yes,Original data
+TEL-OCR-005,TEL-LIT-001,Derived from,Yes,Derived (cleaned re-packaging)
+TEL-OCR-005,TEL-OCR-007,Listed mirror/overlap,Yes,
+TEL-OCR-007,TEL-OCR-005,Partial overlap,Yes,Derived (cleaned re-packaging)
+TEL-OCR-007,https://huggingface.co/datasets/harsha-desaraju/Telugu-book-text-images,Listed mirror/overlap,Yes,
+TEL-OCR-007,https://huggingface.co/datasets/harsha-desaraju/telugu-line-ocr-bench,Listed mirror/overlap,Yes,
+TEL-OCR-007,https://huggingface.co/datasets/harsha-desaraju/telugu-synthetic-line-images,Listed mirror/overlap,Yes,
+TEL-PAR-001,(contains child records),Aggregate (contains other records),No,Aggregator/platform
+TEL-PAR-002,TEL-PAR-001,Included in,Yes,Original data
+TEL-PAR-002,TEL-PAR-003,Listed mirror/overlap,Yes,
+TEL-PAR-003,TEL-PAR-001,Included in,Yes,Derived (compiled from other sources)
+TEL-PAR-004,TEL-PAR-003,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-PAR-006,https://huggingface.co/datasets/facebook/flores,Listed mirror/overlap,Yes,
+TEL-PAR-006,https://huggingface.co/datasets/mteb/IndicGenBenchFloresBitextMining,Listed mirror/overlap,Yes,
+TEL-PAR-008,TEL-PAR-001,Subset of,No,Derived (compiled from other sources)
+TEL-PAR-009,TEL-GOV-007,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-PAR-012,TEL-PAR-001,Included in,Yes,Original data
+TEL-PAR-013,TEL-PAR-001,Included in,Yes,Original data
+TEL-PAR-014,TEL-PAR-001,Included in,Yes,Original data
+TEL-PAR-016,TEL-ANN-002,Partial overlap,No,Original data
+TEL-PAR-016,TEL-PAR-009,Listed mirror/overlap,No,
+TEL-PAR-017,TEL-PAR-001,Included in,Yes,Original data
+TEL-PAR-021,TEL-PAR-003,Probable duplicate of,No,Mirror/re-packaging
+TEL-PAR-021,https://huggingface.co/datasets/HackHedron/English_Telugu_Parallel_Corpus,Listed mirror/overlap,No,
+TEL-PAR-021,https://huggingface.co/datasets/Hemanth-thunder/english-to-telugu-mt-155k,Listed mirror/overlap,No,
+TEL-PAR-021,https://huggingface.co/datasets/Spam-123456/English_Telugu_Parallel_Corpus,Listed mirror/overlap,No,
+TEL-PAR-023,TEL-GOV-008,Derived from,Yes,Derived (cleaned re-packaging)
+TEL-PAR-023,TEL-GOV-005,Listed mirror/overlap,Yes,
+TEL-PERIOD-002,TEL-DLIB-005,Partial overlap,Yes,Original data (sub-collection)
+TEL-PERIOD-006,TEL-TXT-004,Listed mirror/overlap,Yes,
+TEL-PERIOD-006,TEL-TXT-005,Listed mirror/overlap,Yes,
+TEL-PERIOD-006,TEL-ANN-012,Listed mirror/overlap,Yes,
+TEL-PERIOD-008,TEL-REL-001,Subset of,No,Original data (sub-collection)
+TEL-REL-001,TEL-PERIOD-008,Listed mirror/overlap,Yes,
+TEL-REL-001,TEL-MSS-008,Listed mirror/overlap,Yes,
+TEL-REL-002,TEL-PAR-001,Partial overlap,Yes,Original data
+TEL-REL-002,https://opus.nlpl.eu/bible-uedin/en&te/v1/bible-uedin,Listed mirror/overlap,Yes,
+TEL-REL-003,TEL-LIT-001,Partial overlap,Yes,Original data
+TEL-REL-003,TEL-LIT-002,Listed mirror/overlap,Yes,
+TEL-SPEECH-002,TEL-SPEECH-001,Derived from,Yes,Derived (cleaned re-packaging)
+TEL-SPEECH-004,TEL-AV-001,Derived from,Yes,Derived (compiled from other sources)
+TEL-SPEECH-004,https://huggingface.co/datasets/skesiraju/Shrutilipi,Listed mirror/overlap,Yes,
+TEL-SPEECH-004,https://huggingface.co/datasets/amithm3/shrutilipi,Listed mirror/overlap,Yes,
+TEL-SPEECH-008,https://huggingface.co/datasets/SPRINGLab/IndicTTS_Telugu,Listed mirror/overlap,Yes,
+TEL-SPEECH-008,https://huggingface.co/datasets/34data/indic-tts-telugu,Listed mirror/overlap,Yes,
+TEL-SPEECH-010,https://huggingface.co/datasets/ARTPARK-IISc/Vaani-transcription-part,Listed mirror/overlap,Yes,
+TEL-SPEECH-010,https://huggingface.co/datasets/ARTPARK-IISc/Vaani-Atypical-Speech-Corpus,Listed mirror/overlap,Yes,
+TEL-SPEECH-011,https://huggingface.co/datasets/arpit-tiwari/syspin-telugu-tts,Listed mirror/overlap,Yes,
+TEL-SPEECH-013,https://data.ldcil.org/speech/telugu-sentence-aligned-speech-corpus-asm,Listed mirror/overlap,Yes,
+TEL-SPEECH-015,https://huggingface.co/datasets/ai4bharat/Mann-ki-Baat,Listed mirror/overlap,Yes,
+TEL-SPEECH-016,https://huggingface.co/datasets/sarulab-speech/yodas2_sidon,Listed mirror/overlap,Yes,
+TEL-SPEECH-017,TEL-SPEECH-007,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-SPEECH-017,https://huggingface.co/datasets/DigiGreen/Agri_STT_Benchmarking_Dataset,Listed mirror/overlap,Yes,
+TEL-SPEECH-017,https://huggingface.co/datasets/sarvamai/indic-diarbench,Listed mirror/overlap,Yes,
+TEL-SPEECH-017,https://huggingface.co/datasets/InfoBayAI/Telugu_Call_Center_Audio_Dataset_Dual_Channel,Listed mirror/overlap,Yes,
+TEL-SPEECH-018,(contains child records),Aggregate (contains other records),No,Index/reference only
+TEL-SPEECH-019,(contains child records),Aggregate (contains other records),No,Index/reference only
+TEL-SPEECH-022,TEL-SPEECH-003,Derived from,Yes,Derived (synthetic)
+TEL-TXT-001,TEL-TXT-002,Listed mirror/overlap,Yes,
+TEL-TXT-002,TEL-TXT-001,Mirror of,No,Derived (cleaned re-packaging)
+TEL-TXT-003,TEL-TXT-004,Superseded by,No,Original data
+TEL-TXT-004,TEL-TXT-003,Listed mirror/overlap,Yes,
+TEL-TXT-004,https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line,Listed mirror/overlap,Yes,
+TEL-TXT-005,TEL-TXT-004,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-TXT-005,TEL-TXT-001,Listed mirror/overlap,Yes,
+TEL-TXT-006,TEL-TXT-011,Listed mirror/overlap,Yes,
+TEL-TXT-006,TEL-TXT-013,Listed mirror/overlap,Yes,
+TEL-TXT-007,TEL-TXT-025,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-TXT-007,TEL-TXT-008,Listed mirror/overlap,Yes,
+TEL-TXT-007,TEL-TXT-010,Listed mirror/overlap,Yes,
+TEL-TXT-008,TEL-TXT-025,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-TXT-008,TEL-TXT-007,Listed mirror/overlap,Yes,
+TEL-TXT-008,TEL-TXT-010,Listed mirror/overlap,Yes,
+TEL-TXT-009,TEL-TXT-025,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-TXT-009,TEL-TXT-008,Listed mirror/overlap,Yes,
+TEL-TXT-010,TEL-TXT-025,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-TXT-010,https://huggingface.co/datasets/statmt/cc100,Listed mirror/overlap,Yes,
+TEL-TXT-011,TEL-TXT-006,Included in,No,Derived (compiled from other sources)
+TEL-TXT-012,TEL-TXT-025,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-TXT-012,TEL-TXT-008,Listed mirror/overlap,Yes,
+TEL-TXT-013,TEL-TXT-006,Included in,No,Derived (compiled from other sources)
+TEL-TXT-019,TEL-TXT-025,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-TXT-020,TEL-TXT-026,Partial overlap,Yes,Derived (compiled from other sources)
+TEL-TXT-020,https://huggingface.co/datasets/mteb/telugu_andhra_jyoti_news,Listed mirror/overlap,Yes,
+TEL-TXT-024,TEL-TXT-003; TEL-TXT-004,Duplicate (rejected),No,"Duplicate without independent value: a line-split re-upload of IndicCorp text (TEL-TXT-003/TEL-TXT-004) with no licence, provenance or added annotation."
+TEL-TXT-025,(contains child records),Aggregate (contains other records),No,Original data
+TEL-TXT-025,TEL-TXT-007,Listed mirror/overlap,No,
+TEL-TXT-025,TEL-TXT-008,Listed mirror/overlap,No,
+TEL-TXT-025,TEL-TXT-010,Listed mirror/overlap,No,
+TEL-TXT-025,TEL-TXT-012,Listed mirror/overlap,No,
+TEL-TXT-025,TEL-TXT-013,Listed mirror/overlap,No,
+TEL-TXT-026,TEL-TXT-020,Listed mirror/overlap,Yes,

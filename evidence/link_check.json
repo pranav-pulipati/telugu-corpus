@@ -1,9 +1,4 @@
 {
- "https://aclanthology.org/": {
-  "status": 200,
-  "final_url": "https://aclanthology.org/",
-  "date": "2026-11-09"
- },
  "https://aclanthology.org/2022.lrec-1.614": {
   "status": 200,
   "final_url": "https://aclanthology.org/2022.lrec-1.614/",
@@ -12,11 +7,6 @@
  "https://aclanthology.org/L10-1602/": {
   "status": 200,
   "final_url": "https://aclanthology.org/L10-1602/",
-  "date": "2026-11-09"
- },
- "https://aclanthology.org/search/?q=Telugu": {
-  "status": 200,
-  "final_url": "https://aclanthology.org/search/?q=Telugu",
   "date": "2026-11-09"
  },
  "https://aclweb.org/anthology/2018.gwc-1.47.pdf": {
@@ -57,6 +47,11 @@
  "https://aikosh.indiaai.gov.in/home/datasets/details/telugu_news_bulletin_july_2024_akashvani.html": {
   "status": 200,
   "final_url": "https://aikosh.indiaai.gov.in/home/datasets/details/telugu_news_bulletin_july_2024_akashvani.html",
+  "date": "2026-11-09"
+ },
+ "https://api.github.com/repos/tesseract-ocr/tessdata_best/contents/tel.traineddata": {
+  "status": 200,
+  "final_url": "https://api.github.com/repos/tesseract-ocr/tessdata_best/contents/tel.traineddata",
   "date": "2026-11-09"
  },
  "https://api.github.com/search/repositories?q=telugu+dataset&sort=stars": {
@@ -177,11 +172,6 @@
  "https://archive.org/details/digitallibraryindia": {
   "status": 200,
   "final_url": "https://archive.org/details/digitallibraryindia",
-  "date": "2026-11-09"
- },
- "https://archive.org/details/gazetteofindia": {
-  "status": 200,
-  "final_url": "https://archive.org/details/gazetteofindia",
   "date": "2026-11-09"
  },
  "https://archive.org/details/mohanpublicationslibrary": {
@@ -382,25 +372,25 @@
  "https://catalog.elra.info/en-us/repository/browse/ELRA-W0037/": {
   "status": 0,
   "final_url": "https://catalog.elra.info/en-us/repository/browse/ELRA-W0037/",
-  "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>; retry 0",
   "date": "2026-11-09"
  },
  "https://catalog.hathitrust.org/Record/001178411": {
   "status": 403,
   "final_url": "https://catalog.hathitrust.org/Record/001178411",
-  "error": "Forbidden",
+  "error": "Forbidden; retry 403",
   "date": "2026-11-09"
  },
  "https://catalog.hathitrust.org/Record/100190635/Home": {
   "status": 403,
   "final_url": "https://catalog.hathitrust.org/Record/100190635/Home",
-  "error": "Forbidden",
+  "error": "Forbidden; retry 403",
   "date": "2026-11-09"
  },
  "https://catalog.hathitrust.org/Search/Home?lookfor=*&type=all&filter%5B%5D=language%3ATelugu": {
   "status": 403,
   "final_url": "https://catalog.hathitrust.org/Search/Home?lookfor=*&type=all&filter%5B%5D=language%3ATelugu",
-  "error": "Forbidden",
+  "error": "Forbidden; retry 403",
   "date": "2026-11-09"
  },
  "https://cis-india.org/a2k/blogs/cis-brings-nadustunna-charithra-magazine-under-by-cc-by-sa-licence": {
@@ -469,18 +459,21 @@
   "date": "2026-11-09"
  },
  "https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data": {
-  "status": 200,
+  "status": 502,
   "final_url": "https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data",
+  "error": "Bad Gateway; retry 502",
   "date": "2026-11-09"
  },
  "https://cvit.iiit.ac.in/research/projects/cvit-projects/indiscapes-instance-segmentation-networks-for-layout-parsing-of-historical-indic-manuscripts": {
-  "status": 200,
+  "status": 502,
   "final_url": "https://cvit.iiit.ac.in/research/projects/cvit-projects/indiscapes-instance-segmentation-networks-for-layout-parsing-of-historical-indic-manuscripts",
+  "error": "Bad Gateway; retry 502",
   "date": "2026-11-09"
  },
  "https://cvit.iiit.ac.in/usodi/tdocrmil.php": {
-  "status": 200,
+  "status": 502,
   "final_url": "https://cvit.iiit.ac.in/usodi/tdocrmil.php",
+  "error": "Bad Gateway; retry 502",
   "date": "2026-11-09"
  },
  "https://data.ldcil.org/a-gold-standard-telugu-raw-text-corpus": {
@@ -516,6 +509,11 @@
  "https://data.statmt.org/pmindia/": {
   "status": 200,
   "final_url": "https://data.statmt.org/pmindia/",
+  "date": "2026-11-09"
+ },
+ "https://data.statmt.org/pmindia/README": {
+  "status": 200,
+  "final_url": "https://data.statmt.org/pmindia/README",
   "date": "2026-11-09"
  },
  "https://datasets-server.huggingface.co/size?dataset=10X-Technologies/StoryTOM-Corpus-en-te": {
@@ -656,11 +654,6 @@
  "https://datasets-server.huggingface.co/size?dataset=deepdml/microsoft-speech-corpus-indian": {
   "status": 200,
   "final_url": "https://datasets-server.huggingface.co/size?dataset=deepdml/microsoft-speech-corpus-indian",
-  "date": "2026-11-09"
- },
- "https://datasets-server.huggingface.co/size?dataset=eswardivi/indiccorp_telugu_line": {
-  "status": 200,
-  "final_url": "https://datasets-server.huggingface.co/size?dataset=eswardivi/indiccorp_telugu_line",
   "date": "2026-11-09"
  },
  "https://datasets-server.huggingface.co/size?dataset=facebook/belebele": {
@@ -806,7 +799,7 @@
  "https://dspace.uohyd.ac.in/handle/1/8547": {
   "status": 503,
   "final_url": "https://dspace.uohyd.ac.in/handle/1/8547",
-  "error": "Service Unavailable",
+  "error": "Service Unavailable; retry 503",
   "date": "2026-11-09"
  },
  "https://dumps.wikimedia.org/tewiki/latest/": {
@@ -827,7 +820,7 @@
  "https://eap.bl.uk/index.php/collection/EAP038-1/search": {
   "status": 405,
   "final_url": "https://eap.bl.uk/index.php/collection/EAP038-1/search",
-  "error": "Not Allowed",
+  "error": "Not Allowed; retry 405",
   "date": "2026-11-09"
  },
  "https://eap.bl.uk/project/EAP038": {
@@ -838,7 +831,7 @@
  "https://eap.bl.uk/project/EAP038/search": {
   "status": 405,
   "final_url": "https://eap.bl.uk/project/EAP038/search",
-  "error": "Not Allowed",
+  "error": "Not Allowed; retry 405",
   "date": "2026-11-09"
  },
  "https://ebible.org/find/country.php?c=IN": {
@@ -859,7 +852,8 @@
  "https://ebooks.tirumala.org/search?key=language&value=telugu": {
   "status": 200,
   "final_url": "https://ebooks.tirumala.org/search?key=language&value=telugu",
-  "date": "2026-11-09"
+  "date": "2026-11-09",
+  "error": "OK on retry; first attempt 0 TimeoutError: The read operation timed out"
  },
  "https://ebooks.tirumala.org/search?key=literature&value=sankeerthana%20literature": {
   "status": 200,
@@ -909,6 +903,11 @@
  "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use": {
   "status": 200,
   "final_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+  "date": "2026-11-09"
+ },
+ "https://github.com/AI4Bharat/IndicBERT#license": {
+  "status": 200,
+  "final_url": "https://github.com/AI4Bharat/IndicBERT#license",
   "date": "2026-11-09"
  },
  "https://github.com/AI4Bharat/IndicSUPERB": {
@@ -1014,11 +1013,6 @@
  "https://github.com/google-research-datasets/tydiqa": {
   "status": 200,
   "final_url": "https://github.com/google-research-datasets/tydiqa",
-  "date": "2026-11-09"
- },
- "https://github.com/joshua-decoder/indian-parallel-corpora": {
-  "status": 200,
-  "final_url": "https://github.com/joshua-decoder/indian-parallel-corpora",
   "date": "2026-11-09"
  },
  "https://github.com/ltrc/IL-NER": {
@@ -1401,11 +1395,6 @@
   "final_url": "https://huggingface.co/datasets/ai4bharat/IndicCOPA",
   "date": "2026-11-09"
  },
- "https://huggingface.co/datasets/ai4bharat/IndicCorpV2": {
-  "status": 200,
-  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
-  "date": "2026-11-09"
- },
  "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/raw/main/README.md": {
   "status": 200,
   "final_url": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/raw/main/README.md",
@@ -1561,6 +1550,11 @@
   "final_url": "https://huggingface.co/datasets/cfilt/IITB-IndicMonoDoc",
   "date": "2026-11-09"
  },
+ "https://huggingface.co/datasets/cfilt/IITB-IndicMonoDoc/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/cfilt/IITB-IndicMonoDoc/raw/main/README.md",
+  "date": "2026-11-09"
+ },
  "https://huggingface.co/datasets/cfilt/IITB-IndicMonoDoc/tree/main/te": {
   "status": 200,
   "final_url": "https://huggingface.co/datasets/cfilt/IITB-IndicMonoDoc/tree/main/te",
@@ -1604,11 +1598,6 @@
  "https://huggingface.co/datasets/espnet/yodas2": {
   "status": 200,
   "final_url": "https://huggingface.co/datasets/espnet/yodas2",
-  "date": "2026-11-09"
- },
- "https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line": {
-  "status": 200,
-  "final_url": "https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line",
   "date": "2026-11-09"
  },
  "https://huggingface.co/datasets/facebook/belebele": {
@@ -1659,7 +1648,8 @@
  "https://huggingface.co/datasets/google/xtreme": {
   "status": 200,
   "final_url": "https://huggingface.co/datasets/google/xtreme",
-  "date": "2026-11-09"
+  "date": "2026-11-09",
+  "error": "OK on retry; first attempt 429 Too Many Requests"
  },
  "https://huggingface.co/datasets/harsha-desaraju/telugu-wikisource-text-images": {
   "status": 200,
@@ -1694,6 +1684,11 @@
  "https://huggingface.co/datasets/microsoft/Updesh_beta": {
   "status": 200,
   "final_url": "https://huggingface.co/datasets/microsoft/Updesh_beta",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/microsoft/Updesh_beta/blob/main/LICENSE.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/microsoft/Updesh_beta/blob/main/LICENSE.md",
   "date": "2026-11-09"
  },
  "https://huggingface.co/datasets/microsoft/Updesh_beta/raw/main/README.md": {
@@ -1734,6 +1729,11 @@
  "https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-Specialized-v1": {
   "status": 200,
   "final_url": "https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-Specialized-v1",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-Specialized-v1/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-Specialized-v1/raw/main/README.md",
   "date": "2026-11-09"
  },
  "https://huggingface.co/datasets/openlanguagedata/flores_plus": {
@@ -1802,15 +1802,13 @@
   "date": "2026-11-09"
  },
  "https://huggingface.co/datasets/uonlp/CulturaX/tree/main/te": {
-  "status": 429,
+  "status": 200,
   "final_url": "https://huggingface.co/datasets/uonlp/CulturaX/tree/main/te",
-  "error": "Too Many Requests",
   "date": "2026-11-09"
  },
  "https://huggingface.co/datasets/vdivyasharma/IndicSynth": {
-  "status": 429,
+  "status": 200,
   "final_url": "https://huggingface.co/datasets/vdivyasharma/IndicSynth",
-  "error": "Too Many Requests",
   "date": "2026-11-09"
  },
  "https://huggingface.co/datasets/vdivyasharma/IndicSynth/raw/main/README.md": {
@@ -1819,16 +1817,16 @@
   "date": "2026-11-09"
  },
  "https://huggingface.co/datasets/wikimedia/wikipedia": {
-  "status": 429,
+  "status": 200,
   "final_url": "https://huggingface.co/datasets/wikimedia/wikipedia",
-  "error": "Too Many Requests",
-  "date": "2026-11-09"
+  "date": "2026-11-09",
+  "error": "OK on retry; first attempt 429 Too Many Requests"
  },
  "https://huggingface.co/datasets/wikimedia/wikipedia/tree/main/20231101.te": {
-  "status": 429,
+  "status": 200,
   "final_url": "https://huggingface.co/datasets/wikimedia/wikipedia/tree/main/20231101.te",
-  "error": "Too Many Requests",
-  "date": "2026-11-09"
+  "date": "2026-11-09",
+  "error": "OK on retry; first attempt 429 Too Many Requests"
  },
  "https://ieee-dataport.org/documents/handwritten-telugu-alphabet-dataset-vowels-and-consonants-varnamala-ocr-and-pattern": {
   "status": 200,
@@ -1863,7 +1861,12 @@
  "https://kinige.com/": {
   "status": 0,
   "final_url": "https://kinige.com/",
-  "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+  "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>; retry 0",
+  "date": "2026-11-09"
+ },
+ "https://lawgist.in/copyright-act/52": {
+  "status": 200,
+  "final_url": "https://lawgist.in/copyright-act/52",
   "date": "2026-11-09"
  },
  "https://ldcil.org/files/presentation/12Issues in POS Tagging ILCI-Telugu Corpus.pdf": {
@@ -1874,12 +1877,7 @@
  "https://lddashboard.legislative.gov.in/constitution-of-india-in-regional-languages": {
   "status": 0,
   "final_url": "https://lddashboard.legislative.gov.in/constitution-of-india-in-regional-languages",
-  "error": "URLError: <urlopen error timed out>",
-  "date": "2026-11-09"
- },
- "https://legislative.gov.in/": {
-  "status": 200,
-  "final_url": "https://www.legislative.gov.in/",
+  "error": "URLError: <urlopen error timed out>; retry 0",
   "date": "2026-11-09"
  },
  "https://lipitk.sourceforge.net/datasets/teluguchardata.htm": {
@@ -1925,7 +1923,7 @@
  "https://objectstore.e2enetworks.net/ai4b-public-nlu-nlg/v1-indiccorp/te.txt": {
   "status": 403,
   "final_url": "https://objectstore.e2enetworks.net/ai4b-public-nlu-nlg/v1-indiccorp/te.txt",
-  "error": "Forbidden",
+  "error": "Forbidden; retry 403",
   "date": "2026-11-09"
  },
  "https://openfontlicense.org/": {
@@ -1951,7 +1949,7 @@
  "https://papers.neurips.cc/paper_files/paper/2025/hash/d88714d4f2c1e826d33d6c1eb1497ec9-Abstract-Datasets_and_Benchmarks_Track.html": {
   "status": 0,
   "final_url": "https://papers.neurips.cc/paper_files/paper/2025/hash/d88714d4f2c1e826d33d6c1eb1497ec9-Abstract-Datasets_and_Benchmarks_Track.html",
-  "error": "URLError: <urlopen error timed out>",
+  "error": "URLError: <urlopen error timed out>; retry 0",
   "date": "2026-11-09"
  },
  "https://pib.gov.in/": {
@@ -1967,7 +1965,7 @@
  "https://pressacademyarchives.ap.nic.in/": {
   "status": 0,
   "final_url": "https://pressacademyarchives.ap.nic.in/",
-  "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+  "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>; retry 0",
   "date": "2026-11-09"
  },
  "https://pustakam.net/": {
@@ -1976,14 +1974,29 @@
   "date": "2026-11-09"
  },
  "https://query.wikidata.org/sparql": {
-  "status": 0,
+  "status": 200,
   "final_url": "https://query.wikidata.org/sparql",
-  "error": "TimeoutError: The read operation timed out",
+  "date": "2026-11-09",
+  "error": "OK on retry; first attempt 0 TimeoutError: The read operation timed out"
+ },
+ "https://raw.githubusercontent.com/AI4Bharat/IndicBERT/HEAD/README.md": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/AI4Bharat/IndicBERT/HEAD/README.md",
+  "date": "2026-11-09"
+ },
+ "https://raw.githubusercontent.com/MicrosoftTranslator/NTREX/HEAD/README.md": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/MicrosoftTranslator/NTREX/HEAD/README.md",
   "date": "2026-11-09"
  },
  "https://raw.githubusercontent.com/PAGADALA-USHA/TELUGU-DATASET/HEAD/README.md": {
   "status": 200,
   "final_url": "https://raw.githubusercontent.com/PAGADALA-USHA/TELUGU-DATASET/HEAD/README.md",
+  "date": "2026-11-09"
+ },
+ "https://raw.githubusercontent.com/UniversalDependencies/UD_Telugu-MTG/HEAD/LICENSE.txt": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Telugu-MTG/HEAD/LICENSE.txt",
   "date": "2026-11-09"
  },
  "https://raw.githubusercontent.com/UniversalDependencies/UD_Telugu-MTG/HEAD/README.md": {
@@ -2001,14 +2014,29 @@
   "final_url": "https://raw.githubusercontent.com/google-research-datasets/dakshina/HEAD/README.md",
   "date": "2026-11-09"
  },
+ "https://raw.githubusercontent.com/joshua-decoder/indian-parallel-corpora/HEAD/LICENSE": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/joshua-decoder/indian-parallel-corpora/HEAD/LICENSE",
+  "date": "2026-11-09"
+ },
  "https://raw.githubusercontent.com/ltrc/IL-NER/HEAD/README.md": {
   "status": 200,
   "final_url": "https://raw.githubusercontent.com/ltrc/IL-NER/HEAD/README.md",
   "date": "2026-11-09"
  },
+ "https://raw.githubusercontent.com/ltrc/telugu_treebank/HEAD/LICENSE.txt": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/ltrc/telugu_treebank/HEAD/LICENSE.txt",
+  "date": "2026-11-09"
+ },
  "https://raw.githubusercontent.com/ltrc/telugu_treebank/HEAD/README.md": {
   "status": 200,
   "final_url": "https://raw.githubusercontent.com/ltrc/telugu_treebank/HEAD/README.md",
+  "date": "2026-11-09"
+ },
+ "https://raw.githubusercontent.com/project-anuvaad/anuvaad-parallel-corpus/HEAD/README.md": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/project-anuvaad/anuvaad-parallel-corpus/HEAD/README.md",
   "date": "2026-11-09"
  },
  "https://raw.githubusercontent.com/vmujadia/The-LTRC-Hindi-Telugu-Parallel-Corpus/HEAD/README.md": {
@@ -2032,15 +2060,15 @@
   "date": "2026-11-09"
  },
  "https://sahitya-akademi.gov.in/": {
-  "status": 200,
+  "status": 0,
   "final_url": "https://sahitya-akademi.gov.in/",
-  "date": "2026-11-09",
-  "error": "reachable only with TLS verification disabled (invalid certificate)"
+  "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl; retry 0",
+  "date": "2026-11-09"
  },
  "https://sanchika.com/": {
   "status": 403,
   "final_url": "https://sanchika.com/",
-  "error": "Forbidden",
+  "error": "Forbidden; retry 403",
   "date": "2026-11-09"
  },
  "https://sanskritdocuments.org/sites/giirvaani/": {
@@ -2051,14 +2079,14 @@
  "https://saoa.crl.edu/": {
   "status": 0,
   "final_url": "https://saoa.crl.edu/",
-  "error": "URLError: <urlopen error timed out>",
+  "error": "URLError: <urlopen error timed out>; retry 0",
   "date": "2026-11-09"
  },
  "https://scert.telangana.gov.in/": {
-  "status": 200,
+  "status": 0,
   "final_url": "https://scert.telangana.gov.in/",
-  "date": "2026-11-09",
-  "error": "reachable only with TLS verification disabled (invalid certificate)"
+  "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl; retry 0",
+  "date": "2026-11-09"
  },
  "https://scr.sci.gov.in/": {
   "status": 302,
@@ -2079,7 +2107,7 @@
  "https://shodhganga.inflibnet.ac.in:8443/jspui/handle/10603/294028": {
   "status": 0,
   "final_url": "https://shodhganga.inflibnet.ac.in:8443/jspui/handle/10603/294028",
-  "error": "URLError: <urlopen error timed out>",
+  "error": "URLError: <urlopen error timed out>; retry 0",
   "date": "2026-11-09"
  },
  "https://sites.google.com/view/respinasrchallenge2025/dataset": {
@@ -2138,10 +2166,10 @@
   "date": "2026-11-09"
  },
  "https://tdil-dc.in/": {
-  "status": 200,
+  "status": 0,
   "final_url": "https://tdil-dc.in/",
-  "date": "2026-11-09",
-  "error": "reachable only with TLS verification disabled (invalid certificate)"
+  "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certi; retry 0",
+  "date": "2026-11-09"
  },
  "https://te.wikibooks.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json": {
   "status": 200,
@@ -2179,9 +2207,8 @@
   "date": "2026-11-09"
  },
  "https://te.wiktionary.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json": {
-  "status": 429,
+  "status": 200,
   "final_url": "https://te.wiktionary.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json",
-  "error": "Too Many Requests",
   "date": "2026-11-09"
  },
  "https://teachernews.in/apscert-textbooks": {
@@ -2267,7 +2294,7 @@
  "https://www.cstt.education.gov.in/": {
   "status": 0,
   "final_url": "https://www.cstt.education.gov.in/",
-  "error": "URLError: <urlopen error timed out>",
+  "error": "URLError: <urlopen error timed out>; retry 0",
   "date": "2026-11-09"
  },
  "https://www.eenadu.net": {
@@ -2278,19 +2305,19 @@
  "https://www.hathitrust.org/the-collection/terms-conditions/": {
   "status": 403,
   "final_url": "https://www.hathitrust.org/the-collection/terms-conditions/",
-  "error": "Forbidden",
+  "error": "Forbidden; retry 403",
   "date": "2026-11-09"
  },
  "https://www.iitm.ac.in/donlab/indictts/database": {
   "status": 0,
   "final_url": "https://www.iitm.ac.in/donlab/indictts/database",
-  "error": "TimeoutError: The read operation timed out",
+  "error": "TimeoutError: The read operation timed out; retry 0",
   "date": "2026-11-09"
  },
  "https://www.iitm.ac.in/donlab/indictts/statistics": {
   "status": 0,
   "final_url": "https://www.iitm.ac.in/donlab/indictts/statistics",
-  "error": "TimeoutError: The read operation timed out",
+  "error": "TimeoutError: The read operation timed out; retry 0",
   "date": "2026-11-09"
  },
  "https://www.impriindia.com/?p=76026": {
@@ -2321,7 +2348,7 @@
  "https://www.namami.gov.in/": {
   "status": 0,
   "final_url": "https://www.namami.gov.in/",
-  "error": "URLError: <urlopen error timed out>",
+  "error": "URLError: <urlopen error timed out>; retry 0",
   "date": "2026-11-09"
  },
  "https://www.ndl.gov.in/": {
@@ -2387,16 +2414,6 @@
  "https://www.wikidata.org/wiki/Wikidata:Licensing": {
   "status": 200,
   "final_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
-  "date": "2026-11-09"
- },
- "https://www.youtube.com/": {
-  "status": 200,
-  "final_url": "https://www.youtube.com/",
-  "date": "2026-11-09"
- },
- "https://www.youtube.com/t/terms": {
-  "status": 200,
-  "final_url": "https://www.youtube.com/t/terms",
   "date": "2026-11-09"
  },
  "https://zenodo.org/api/records/11408513": {

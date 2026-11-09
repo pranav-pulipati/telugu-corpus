@@ -1,0 +1,54 @@
+{
+ "original_records": 204,
+ "rejected": 4,
+ "active_records": 200,
+ "active_by_status": {
+  "Partially Verified": 89,
+  "Verified": 90,
+  "Unverified": 13,
+  "Inaccessible": 8
+ },
+ "active_by_quality": {
+  "Medium": 44,
+  "Low": 72,
+  "High": 84
+ },
+ "rejected_by_reason": {
+  "Out of scope": 1,
+  "Not an identifiable collection": 1,
+  "Not an independent source": 1,
+  "Duplicate without independent value": 1
+ },
+ "corrected_records": 54,
+ "unchanged_records": 146,
+ "active_not_counted_in_totals (mirror/subset/aggregate)": 19,
+ "active_counted_in_totals": 181,
+ "active_with_duplicate_or_overlap_relationship": 58,
+ "licensing_uncertain_records": 95,
+ "status_changes": {
+  "Partially Verified -> Inaccessible": 3,
+  "Verified -> Partially Verified": 4,
+  "Partially Verified -> Verified": 5,
+  "Partially Verified -> Unverified": 1,
+  "Unverified -> Inaccessible": 2
+ },
+ "hf_content_checks_on_master_records": {
+  "CONFIRMED_TELUGU_TEXT": 60,
+  "NOT_CHECKABLE": 5,
+  "TELUGU_STRUCTURE_ONLY": 19
+ },
+ "hf_inventory_total": 1563,
+ "hf_inventory_decisions": {
+  "Retained": 1060,
+  "Unconfirmed": 486,
+  "Rejected": 17
+ },
+ "hf_inventory_verdicts": {
+  "CONFIRMED_TELUGU_TEXT": 741,
+  "TELUGU_STRUCTURE_ONLY": 313,
+  "NOT_CHECKABLE": 261,
+  "NO_TELUGU_IN_SAMPLE": 232,
+  "ROMANISED_TELUGU_CLAIMED": 6,
+  "ROMANISED_TELUGU_LIKELY": 10
+ }
+}

@@ -13,10 +13,6 @@ UA = "Mozilla/5.0 (compatible; telugu-corpus-catalogue/1.0; research link check)
 host_locks = collections.defaultdict(lambda: threading.Semaphore(2))
 
 
-import ssl
-INSECURE = ssl.create_default_context(); INSECURE.check_hostname = False; INSECURE.verify_mode = ssl.CERT_NONE
-
-
 def encode(url):
     """Percent-encode non-ASCII characters and spaces so urllib can request Telugu-titled URLs."""
     return urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~")
@@ -26,26 +22,45 @@ def check(url):
     host = urllib.parse.urlparse(url).netloc
     today = datetime.date.today().isoformat()
     with host_locks[host]:
-        for method in ("HEAD", "GET", "GET-insecure"):
+        for method in ("HEAD", "GET"):
             try:
-                req = urllib.request.Request(encode(url), method=method.split("-")[0], headers={"User-Agent": UA})
-                ctx = INSECURE if method == "GET-insecure" else None
-                with urllib.request.urlopen(req, timeout=25, context=ctx) as r:
-                    out = {"status": r.status, "final_url": r.geturl(), "date": today}
-                    if ctx:
-                        out["error"] = "reachable only with TLS verification disabled (invalid certificate)"
-                    return url, out
+                req = urllib.request.Request(encode(url), method=method, headers={"User-Agent": UA})
+                with urllib.request.urlopen(req, timeout=25) as r:
+                    return url, {"status": r.status, "final_url": r.geturl(), "date": today}
             except urllib.error.HTTPError as e:
                 if method == "HEAD" and e.code in (403, 404, 405, 429, 500, 501):
                     continue
                 return url, {"status": e.code, "final_url": url, "error": str(e.reason)[:80], "date": today}
             except Exception as e:  # timeouts, DNS, TLS
-                if method == "HEAD" or (method == "GET" and "CERTIFICATE" in str(e)):
+                if method == "HEAD":
                     continue
                 return url, {"status": 0, "final_url": url, "error": type(e).__name__ + ": " + str(e)[:80], "date": today}
 
 
+def retry_failed():
+    """Re-check only URLs that failed (e.g. transient 429/5xx/timeouts); keep the better result and note the retry."""
+    import time
+    path = os.path.join(ROOT, "evidence", "link_check.json")
+    res = json.load(open(path))
+    failed = [u for u, v in res.items() if not (200 <= v["status"] < 400)]
+    time.sleep(60)
+    with ThreadPoolExecutor(4) as ex:
+        for u, v in ex.map(check, failed):
+            if 200 <= v["status"] < 400:
+                v["error"] = f"OK on retry; first attempt {res[u]['status']} {res[u].get('error','')}".strip()
+                res[u] = v
+            else:
+                res[u]["error"] = (res[u].get("error", "") + f"; retry {v['status']}").strip("; ")
+    json.dump(res, open(path, "w"), indent=1, ensure_ascii=False)
+    still = [u for u, v in res.items() if not (200 <= v["status"] < 400)]
+    print(f"retried {len(failed)}; still failing {len(still)}")
+    for u in still:
+        print(f"  {res[u]['status']}\t{u}\t{res[u].get('error','')[:80]}")
+
+
 def main():
+    if "--retry-failed" in sys.argv:
+        return retry_failed()
     urls = set()
     with open(os.path.join(ROOT, "MASTER_CATALOGUE.csv"), encoding="utf-8") as fh:
         for r in csv.DictReader(fh):

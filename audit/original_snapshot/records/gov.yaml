@@ -1,0 +1,257 @@
+# GOV — government, legislative and legal documents.
+defaults:
+  primary_category: GOV
+  languages: [te]
+  scripts: [Telu]
+  last_verified: "2026-11-09"
+  registration: "No"
+  authentication: "None"
+
+records:
+- record_id: TEL-GOV-001
+  record_type: Collection
+  parent_id: TEL-DLIB-001
+  source_name: Internet Archive (volunteer mirror)
+  collection_name: Andhra Pradesh Government Orders (andhra-goir) 2008-2026
+  organization: Volunteer mirror of the AP Government Order Issue Register (goir.ap.gov.in)
+  org_type: Community/Volunteer
+  official_url: https://goir.ap.gov.in/
+  collection_url: https://archive.org/details/andhra-goir
+  description: Mirror of AP Government Orders (GOs) — administrative orders across all departments, many in Telugu, some English/bilingual; dated 2008-06-02 to 2026-07-08 in IA metadata.
+  genres: [administrative orders]
+  historical_period: "2008-2026"
+  languages: [te, en]
+  telugu_scope: Telugu-majority
+  modality: Image
+  formats: [PDF, IA OCR text]
+  content_types: [government orders]
+  size_telugu: "511,111 items (all tagged Telugu)"
+  size_confidence: Confirmed
+  metadata_fields: [GO number, department, date, abstract]
+  digitization: Scans + OCR text
+  bulk_download: "Yes"
+  acquisition_method: "ia search 'collection:andhra-goir' --itemlist; ia download --glob='*_djvu.txt'"
+  license: No licence field; government works (Indian Copyright Act s.52(1)(q) permits reproduction of Acts/orders)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Unclear
+  license_evidence_url: https://archive.org/details/andhra-goir
+  copyright_notes: Government copyright under Indian law; s.52(1)(q) allows reproduction/publication of government orders unless prohibited.
+  evidence_urls:
+  - "https://archive.org/metadata/andhra-goir"
+  verification_status: Verified
+  verification_method: IA API (count, date range, collection description)
+  unresolved_issues: Language tag applied to all items — share actually in Telugu not measured.
+  corpus_value: High
+  processing_needs: Many GOs are scanned signed copies; formulaic administrative register — weight carefully in pretraining mixes.
+
+- record_id: TEL-GOV-002
+  record_type: Collection
+  parent_id: TEL-DLIB-001
+  source_name: Internet Archive (volunteer mirror)
+  collection_name: Telangana Government Orders (telangana-goir) 2014-
+  organization: Volunteer mirror of Telangana GO register
+  org_type: Community/Volunteer
+  official_url: https://goir.telangana.gov.in/
+  collection_url: https://archive.org/details/telangana-goir
+  description: Mirror of Telangana Government Orders from state formation (June 2014).
+  genres: [administrative orders]
+  historical_period: "2014-present"
+  languages: [te, en]
+  telugu_scope: Telugu-majority
+  modality: Image
+  formats: [PDF, IA OCR text]
+  content_types: [government orders]
+  size_telugu: "85,783 items"
+  size_confidence: Confirmed
+  digitization: Scans + OCR text
+  bulk_download: "Yes"
+  acquisition_method: "ia search 'collection:telangana-goir' --itemlist"
+  license: No licence field; government works
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Unclear
+  license_evidence_url: https://archive.org/details/telangana-goir
+  evidence_urls:
+  - "https://archive.org/advancedsearch.php?q=collection%3Atelangana-goir&fl[]=identifier&rows=0&output=json"
+  verification_status: Verified
+  verification_method: IA API count and earliest date
+  corpus_value: Medium
+
+- record_id: TEL-GOV-003
+  record_type: Collection
+  parent_id: TEL-DLIB-001
+  source_name: Internet Archive (Public Resource — Gazette of India collection)
+  collection_name: Andhra Pradesh and Telangana Gazettes
+  organization: Public.Resource.Org mirror of state gazettes
+  org_type: Non-profit
+  official_url: https://archive.org/details/gazetteofindia
+  collection_url: https://archive.org/search?query=identifier%3Ain.gazette.andhra%2A
+  description: Ordinary and extraordinary gazettes of Andhra Pradesh and Telangana (notifications, Acts, rules), Telugu and English parts.
+  genres: [legislation, notifications, rules]
+  historical_period: "2000s-2026"
+  languages: [te, en]
+  telugu_scope: Telugu-majority
+  modality: Image
+  formats: [PDF, OCR text]
+  content_types: [gazette issues]
+  size_telugu: "36,124 AP gazette items (in.gazette.andhra*); 7,357 Telangana gazette items (in.gazette.telangana*); 30,727 Telugu-tagged items in gazetteofindia"
+  size_confidence: Confirmed
+  digitization: Scans + OCR text
+  bulk_download: "Yes"
+  acquisition_method: "ia search 'identifier:in.gazette.andhra*' --itemlist"
+  license: No licence field; Public Resource asserts government edicts are not copyrightable
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Unclear
+  license_evidence_url: https://archive.org/details/gazetteofindia
+  duplicates_mirrors: [TEL-DLIB-007]
+  evidence_urls:
+  - "https://archive.org/advancedsearch.php?q=identifier%3Ain.gazette.andhra%2A&fl[]=identifier&rows=0&output=json"
+  - "https://archive.org/advancedsearch.php?q=identifier%3Ain.gazette.telangana%2A&fl[]=identifier&rows=0&output=json"
+  verification_status: Verified
+  verification_method: IA API counts by identifier prefix
+  corpus_value: Medium
+  processing_needs: Separate Telugu parts from English parts.
+
+- record_id: TEL-GOV-004
+  record_type: Collection
+  parent_id: TEL-DLIB-001
+  source_name: Internet Archive (Legislatures of India)
+  collection_name: Andhra Pradesh Legislative Assembly debates 1952-2022
+  organization: AP Legislature (proceedings); mirrored by Public Resource 'legislaturesofindia'
+  org_type: Government
+  official_url: https://archive.org/details/andhrapradeshlegislature
+  collection_url: https://archive.org/details/andhrapradeshlegislature
+  description: Day-wise proceedings of the Andhra (Pradesh) Legislative Assembly and Council — verbatim debates in Telugu and English spanning seven decades.
+  secondary_categories: [TXT]
+  genres: [parliamentary debates]
+  historical_period: "1952-2022"
+  languages: [te, en]
+  telugu_scope: Telugu-majority
+  modality: Image
+  formats: [PDF, OCR text]
+  content_types: [debate transcripts]
+  size_telugu: "3,070 sitting-day volumes; ~231 GB"
+  size_confidence: Confirmed
+  digitization: Scans + OCR text
+  bulk_download: "Yes"
+  acquisition_method: "ia download --search 'collection:andhrapradeshlegislature' --glob='*_djvu.txt'"
+  license: Public domain (IA licenseurl creativecommons.org/licenses/publicdomain on all items)
+  license_scope: Uniform (single license)
+  redistribution: Allowed
+  commercial_use: Allowed
+  license_evidence_url: https://archive.org/details/andhrapradeshlegislature
+  evidence_urls:
+  - "https://archive.org/metadata/aplegislature.assembly.A.000060_04.03.1959"
+  verification_status: Verified
+  verification_method: IA API (count, years, licence on all items)
+  corpus_value: High
+  processing_needs: Spoken-register Telugu across 70 years — excellent diachronic resource; OCR of 1950s typewritten/print needs re-OCR.
+
+- record_id: TEL-GOV-005
+  record_type: Collection
+  source_name: Supreme Court of India / High Courts
+  collection_name: Court judgments translated into Telugu (SUVAS / e-SCR) and AP High Court Telugu judgments
+  organization: Supreme Court of India (SUVAS AI translation, e-SCR); High Court of Andhra Pradesh; High Court for Telangana
+  org_type: Government
+  official_url: https://www.sci.gov.in/
+  collection_url: https://scr.sci.gov.in/
+  description: Supreme Court judgments machine-translated (SUVAS) and vetted into regional languages, including Telugu; AP High Court has published Telugu judgments.
+  secondary_categories: [PAR]
+  genres: [legal judgments]
+  historical_period: "2019-present"
+  languages: [te, en]
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [PDF]
+  content_types: [judgments]
+  size_telugu: "334 SC judgments in Telugu (as of 2 Dec 2023); 811 AP High Court judgments in Telugu (Sept 2024)"
+  size_confidence: Reported by source
+  digitization: Born-digital text
+  bulk_download: "No"
+  acquisition_method: Search e-SCR by language filter; download PDFs individually.
+  license: Judgments are not subject to copyright restrictions under s.52(1)(q)(iv) for reproduction; portal terms apply
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Unclear
+  license_evidence_url: https://scr.sci.gov.in/
+  evidence_urls:
+  - "https://rsdebate.nic.in/bitstream/123456789/754106/1/PQ_266_28112024_U444_p313_p317.pdf"
+  - "https://www.scobserver.in/journal/the-supreme-courts-translation-project-is-slowing-to-a-halt/"
+  verification_status: Partially Verified
+  verification_method: Parliamentary answers (counts) via search; e-SCR portal not opened
+  unresolved_issues: Current Telugu counts; whether English originals are linkable (would give en-te legal parallel data).
+  corpus_value: Medium
+  processing_needs: Pair with English originals for legal-domain parallel corpus.
+
+- record_id: TEL-GOV-006
+  record_type: Collection
+  source_name: Legislative Department (Official Language Wing), Govt of India / AP Official Language Commission
+  collection_name: Authorised Telugu translations of Central Acts, the Constitution of India, and AP/Telangana state Acts
+  organization: Ministry of Law & Justice (Regional Languages Unit); AP Official Language Commission
+  org_type: Government
+  official_url: https://legislative.gov.in/
+  collection_url: https://lddashboard.legislative.gov.in/constitution-of-india-in-regional-languages
+  description: Official Telugu texts of the Constitution and Central Acts published under the Authorised Translations (Central Laws) Act 1973, and Telugu versions of state laws under the AP Official Languages Act 1966.
+  secondary_categories: [PAR]
+  genres: [legislation]
+  historical_period: "1966-present"
+  languages: [te, en]
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [PDF]
+  content_types: [statutes]
+  size_telugu: Unknown
+  size_confidence: Unknown
+  digitization: Mixed
+  bulk_download: "No"
+  acquisition_method: Download PDFs from legislative.gov.in regional-language pages and state law department sites.
+  license: Government work — reproduction of Acts permitted under s.52(1)(q)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Unclear
+  license_evidence_url: https://legislative.gov.in/
+  evidence_urls:
+  - "https://lddashboard.legislative.gov.in/constitution-of-india-in-regional-languages"
+  - "https://rsdebate.nic.in/bitstream/123456789/747958/1/PQ_263_08022024_U743_p348_p348.pdf"
+  verification_status: Partially Verified
+  verification_method: Regional-language pages and parliamentary answer found via search; Telugu files not enumerated
+  unresolved_issues: Count Telugu Acts available; check scan vs text PDFs.
+  corpus_value: Medium
+  processing_needs: Section-level alignment with English Acts gives legal parallel text.
+
+- record_id: TEL-GOV-007
+  record_type: Collection
+  source_name: Press Information Bureau / PMO
+  collection_name: PIB press releases and PM speeches in Telugu (pib.gov.in, pmindia.gov.in)
+  organization: Press Information Bureau (Hyderabad/Vijayawada regional units); Prime Minister's Office
+  org_type: Government
+  official_url: https://pib.gov.in/
+  collection_url: https://pib.gov.in/
+  description: Daily government press releases issued in Telugu by PIB regional offices, and Telugu versions of PM speeches/Mann Ki Baat; source of PMIndia, CVIT-PIB, Pralekha corpora.
+  secondary_categories: [PAR, TXT]
+  genres: [press releases, speeches]
+  historical_period: "2010s-present"
+  languages: [te, en]
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [HTML]
+  content_types: [press releases]
+  size_telugu: Unknown (thousands of releases)
+  size_confidence: Unknown
+  digitization: Born-digital text
+  bulk_download: "No"
+  acquisition_method: Crawl PIB release pages by language/region (respect robots.txt) or reuse PMIndia/Pralekha.
+  license: Government Open Data License - India (GODL) applies to many government data; PIB content reproducible with attribution
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Unclear
+  license_evidence_url: https://pib.gov.in/
+  duplicates_mirrors: [TEL-PAR-012, TEL-PAR-009, TEL-PAR-016]
+  evidence_urls:
+  - "https://data.statmt.org/pmindia/"
+  verification_status: Unverified
+  verification_method: Known source of derived corpora; PIB Telugu pages not inspected
+  unresolved_issues: Confirm PIB reuse terms and Telugu release volume.
+  corpus_value: Medium

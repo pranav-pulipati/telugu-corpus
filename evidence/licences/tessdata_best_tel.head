@@ -1,0 +1,18 @@
+{
+  "name": "tel.traineddata",
+  "path": "tel.traineddata",
+  "sha": "1c413574a26db896ba3baa4e33f4d17e55f290bd",
+  "size": 9098795,
+  "url": "https://api.github.com/repos/tesseract-ocr/tessdata_best/contents/tel.traineddata?ref=main",
+  "html_url": "https://github.com/tesseract-ocr/tessdata_best/blob/main/tel.traineddata",
+  "git_url": "https://api.github.com/repos/tesseract-ocr/tessdata_best/git/blobs/1c413574a26db896ba3baa4e33f4d17e55f290bd",
+  "download_url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/main/tel.traineddata",
+  "type": "file",
+  "content": "",
+  "encoding": "none",
+  "_links": {
+    "self": "https://api.github.com/repos/tesseract-ocr/tessdata_best/contents/tel.traineddata?ref=main",
+    "git": "https://api.github.com/repos/tesseract-ocr/tessdata_best/git/blobs/1c413574a26db896ba3baa4e33f4d17e55f290bd",
+    "html": "https://github.com/tesseract-ocr/tessdata_best/blob/main/tel.traineddata"
+  }
+}

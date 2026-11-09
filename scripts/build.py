@@ -20,7 +20,8 @@ ENUM_FIELDS = {"record_type": "record_type", "org_type": "org_type", "telugu_sco
                "registration": "registration", "authentication": "authentication", "license_scope": "license_scope",
                "redistribution": "redistribution", "commercial_use": "commercial_use",
                "size_confidence": "size_confidence", "verification_status": "verification_status",
-               "corpus_value": "corpus_value"}
+               "corpus_value": "corpus_value", "quality_rating": "quality_rating", "content_role": "content_role",
+               "dedup_role": "dedup_role", "count_in_totals": "count_in_totals", "audit_status": "audit_status"}
 SEP = {"evidence_urls": " | ", "duplicates_mirrors": " | "}
 
 
@@ -32,9 +33,9 @@ def flat(field, v):
     return str(v).strip()
 
 
-def load_records():
+def load_records(pattern="data/records/*.yaml", known_extra=()):
     recs, errors = [], []
-    for path in sorted(glob.glob("data/records/*.yaml")):
+    for path in sorted(glob.glob(pattern)):
         doc = yaml.safe_load(open(path)) or {}
         defaults = doc.get("defaults", {})
         for raw in doc.get("records", []):
@@ -68,7 +69,7 @@ def load_records():
             errors.append(f"{rid}: id prefix not a category")
         row["_evidence"] = r.get("evidence", [])
         out.append(row)
-    known = {r["record_id"] for r in out}
+    known = {r["record_id"] for r in out} | set(known_extra)
     for r in out:
         if r["parent_id"] and r["parent_id"] not in known:
             errors.append(f"{r['record_id']}: parent_id {r['parent_id']} unknown")
@@ -106,6 +107,15 @@ def verification_log(rows):
                             "claim_checked": r["verification_method"],
                             "result": f"Size: {r['size_telugu'] or 'unknown'} ({r['size_confidence']}); licence: {r['license']}",
                             "status_after_check": r["verification_status"]})
+        tc = r.get("telugu_content_check", "")
+        if tc and not tc.startswith("Not applicable"):
+            log.append({"record_id": r["record_id"], "check_date": r["last_verified"], "check_type": "Sampled-content Telugu check (audit)",
+                        "url": r["collection_url"], "claim_checked": "Dataset actually contains Telugu text (not just a tag)",
+                        "result": tc, "status_after_check": r["verification_status"]})
+        if r.get("audit_notes"):
+            log.append({"record_id": r["record_id"], "check_date": r["last_verified"], "check_type": "Audit correction",
+                        "url": r["license_evidence_url"] or r["collection_url"], "claim_checked": "Record re-examined in 2026-11 audit",
+                        "result": r["audit_notes"][:900], "status_after_check": r["verification_status"]})
         for u in {r["collection_url"], r["license_evidence_url"]} - {""}:
             c = linkchk.get(u)
             if c:
@@ -116,6 +126,99 @@ def verification_log(rows):
     for i, l in enumerate(log, 1):
         l["log_id"] = f"VL-{i:05d}"
     return log
+
+
+def load_hf_checks():
+    out = {}
+    # pass 1 (all datasets) then pass 2 recheck (targeted); a later CONFIRMED or more specific result wins
+    for p in sorted(glob.glob("evidence/hf_telugu_check*.jsonl")) + ["evidence/hf_telugu_recheck.jsonl"]:
+        if os.path.exists(p):
+            for line in open(p, encoding="utf-8"):
+                if line.strip():
+                    d = json.loads(line)
+                    prev = out.get(d["hf_id"])
+                    rank = {"CONFIRMED_TELUGU_TEXT": 4, "TELUGU_STRUCTURE_ONLY": 3, "ROMANISED_TELUGU_CLAIMED": 3,
+                            "NO_TELUGU_IN_SAMPLE": 2, "NOT_FOUND": 2, "NOT_CHECKABLE": 1, "ERROR": 0}
+                    # a later result replaces an earlier one only if it carries at least as much evidence
+                    if prev is None or rank.get(d.get("verdict"), 0) >= rank.get(prev.get("verdict"), 0):
+                        out[d["hf_id"]] = d
+    return out
+
+
+HF_CHECKS = None
+
+
+HF_PROFILES = {}
+if os.path.exists("evidence/hf_script_profile.jsonl"):
+    for _l in open("evidence/hf_script_profile.jsonl", encoding="utf-8"):
+        if _l.strip():
+            _d = json.loads(_l)
+            HF_PROFILES[_d["hf_id"]] = _d
+
+
+def hf_decision(hid, n_langs, found_via=""):
+    """Inventory decision from the sampled-row Telugu check (see scripts/hf_telugu_check.py)."""
+    global HF_CHECKS
+    if HF_CHECKS is None:
+        HF_CHECKS = load_hf_checks()
+    d = HF_CHECKS.get(hid)
+    if not d:
+        return {"telugu_content_verdict": "NOT_YET_CHECKED", "sample_rows": "", "sample_telugu_chars": "",
+                "telugu_configs_or_files": "", "inventory_decision": "Unconfirmed", "decision_reason": "Not checked in audit run"}
+    s = d.get("sample") or {}
+    v = d.get("verdict")
+    if v == "NO_TELUGU_IN_SAMPLE":
+        if re.search(r"roman|latn|translit", hid, re.I):
+            v = "ROMANISED_TELUGU_CLAIMED"
+        elif s.get("chars", 0) < 200:
+            v = "NOT_CHECKABLE"
+    telugu_specific = n_langs <= 3 or "telugu" in hid.lower()
+    prof = HF_PROFILES.get(hid) if v == "NO_TELUGU_IN_SAMPLE" else None
+    if prof and "error" not in prof:
+        sc = prof.get("scripts", {})
+        other = {k: n for k, n in sc.items() if k not in ("Telugu", "Latin letters")}
+        name_part = hid.split("/", 1)[1].lower().replace("telugu-llm-labs", "")  # publisher name is not a language claim
+        other_lang = re.search(r"(marathi|assamese|konkani|sindhi|urdu|nepali|bengali|bangla|tamil|hindi|kannada|malayalam|gujarati|punjabi|odia|oriya)", name_part)
+        nw = max(prof.get("n_words", 0), 1)
+        ev = (f"profile of {prof.get('rows')} sampled rows: scripts {sc or 'none'}; romanised-Telugu word hits "
+              f"{prof.get('roman_telugu_word_hits')}/{nw}")
+        base = {"telugu_content_verdict": v, "sample_rows": prof.get("rows", ""), "sample_telugu_chars": 0,
+                "telugu_configs_or_files": ""}
+        if other_lang and "telu" not in name_part:
+            return {**base, "inventory_decision": "Rejected",
+                    "decision_reason": f"Dataset is for {other_lang.group(1).title()}, matched only via the publisher name; no Telugu in sample ({ev})"}
+        if "telu" not in hid.lower() and found_via == "name search":
+            return {**base, "inventory_decision": "Rejected",
+                    "decision_reason": f"Spurious name-search match (no 'telugu' in id) and no Telugu in sample ({ev})"}
+        if prof.get("text_chars", 0) < 200:
+            return {**base, "telugu_content_verdict": "NOT_CHECKABLE", "inventory_decision": "Unconfirmed",
+                    "decision_reason": f"Sampled rows hold almost no text (audio/image/paths) ({ev})"}
+        if prof.get("roman_telugu_word_hits", 0) >= 10 and prof["roman_telugu_word_hits"] / nw >= 0.02:
+            return {**base, "telugu_content_verdict": "ROMANISED_TELUGU_LIKELY", "inventory_decision": "Unconfirmed",
+                    "decision_reason": f"Latin-script text with frequent romanised-Telugu words — likely romanised Telugu ({ev})"}
+        if sum(other.values()) >= 200 and n_langs <= 1:  # only single-language claims; multilingual samples may just miss Telugu
+            top = max(other, key=other.get)
+            return {**base, "inventory_decision": "Rejected",
+                    "decision_reason": f"Claims Telugu but sampled text is in {top} script, no Telugu ({ev})"}
+        return {**base, "inventory_decision": "Unconfirmed",
+                "decision_reason": f"No Telugu script in sampled rows; text may be an English side, romanised, or Telugu appears later ({ev})"}
+    if v == "CONFIRMED_TELUGU_TEXT":
+        dec, why = "Retained", "Telugu script found in sampled rows"
+    elif v == "ROMANISED_TELUGU_CLAIMED":
+        dec, why = "Retained", "Romanised-Telugu configs/files; script test not applicable"
+    elif v == "TELUGU_STRUCTURE_ONLY":
+        dec, why = "Retained", "Telugu-named config/files exist; rows not sampled (gated / no viewer / non-text)"
+    elif v == "NOT_FOUND":
+        dec, why = "Rejected", "Dataset no longer exists on Hugging Face (404)"
+    elif v == "NO_TELUGU_IN_SAMPLE" and telugu_specific:
+        dec, why = "Rejected", "Claims Telugu but no Telugu script in sampled rows and no Telugu-named config/file"
+    elif v == "NO_TELUGU_IN_SAMPLE":
+        dec, why = "Unconfirmed", "Multilingual dataset; Telugu not present in the sampled rows and no Telugu-named config"
+    else:
+        dec, why = "Unconfirmed", f"Could not sample content ({v})"
+    return {"telugu_content_verdict": v, "sample_rows": s.get("rows", ""), "sample_telugu_chars": s.get("telugu_chars", ""),
+            "telugu_configs_or_files": "; ".join((d.get("telugu_configs") or []) + (d.get("telugu_files_sample") or [])[:2]),
+            "inventory_decision": dec, "decision_reason": why}
 
 
 def hf_inventory(rows):
@@ -144,12 +247,12 @@ def hf_inventory(rows):
                         "size_category": ";".join(tg("size_categories")), "task_categories": ";".join(tg("task_categories")),
                         "modalities": ";".join(tg("modality")), "downloads_30d": d.get("downloads", ""), "likes": d.get("likes", ""),
                         "last_modified": d.get("lastModified", "")[:10], "in_master_catalogue": ";".join(sorted(set(in_master.get(d["id"].lower(), [])))),
-                        "verification": "API metadata only (self-declared tags; content not inspected)"})
+                        **hf_decision(d["id"], len(langs), "language:te tag" if "language:te" in tags else "name search")})
     inv.sort(key=lambda x: -(x["downloads_30d"] or 0))
     return inv
 
 
-def write_xlsx(rows, log, inv):
+def write_xlsx(rows, log, inv, rej=()):
     from openpyxl import Workbook
     from openpyxl.styles import Font, PatternFill, Alignment
     from openpyxl.utils import get_column_letter
@@ -199,6 +302,8 @@ def write_xlsx(rows, log, inv):
     sheet(ws5, log, LOG_FIELDS, {"url": 60, "claim_checked": 50, "result": 50})
     ws6 = wb.create_sheet("HF Telugu Inventory")
     sheet(ws6, inv, list(inv[0].keys()) if inv else ["hf_id"], {"hf_id": 50, "url": 60})
+    ws7 = wb.create_sheet("Rejected (archive)")
+    sheet(ws7, list(rej), FIELDS, {"description": 60, "rejection_reason": 60})
     wb.save("MASTER_CATALOGUE.xlsx")
 
 
@@ -216,6 +321,9 @@ def summary(rows):
         s[f"Record type: {k}"] = sum(r["record_type"] == k for r in rows)
     for k in ENUMS["commercial_use"]:
         s[f"Commercial use: {k}"] = sum(r["commercial_use"] == k for r in rows)
+    for k in ENUMS["quality_rating"]:
+        s[f"Quality: {k}"] = sum(r["quality_rating"] == k for r in rows)
+    s["Records counted in totals (count_in_totals=Yes)"] = sum(r["count_in_totals"] == "Yes" for r in rows)
     s["Build date"] = datetime.date.today().isoformat()
     return s
 
@@ -331,7 +439,11 @@ def gen_docs(rows, inv):
 
 
 def main():
-    rows, errors = load_records()
+    import yaml as _y
+    active_ids = [x["record_id"] for f in glob.glob("data/records/*.yaml") for x in (_y.safe_load(open(f)) or {}).get("records", [])]
+    rej, rej_err = load_records("data/rejected/*.yaml", known_extra=active_ids)
+    rows, errors = load_records(known_extra=[r["record_id"] for r in rej])
+    errors += rej_err
     if errors:
         print("VALIDATION ERRORS:")
         for e in errors:
@@ -346,7 +458,16 @@ def main():
     inv = hf_inventory(rows)
     if inv:
         write_csv("catalogues/hf_telugu_inventory.csv", inv, list(inv[0].keys()))
-    write_xlsx(rows, log, inv)
+    write_xlsx(rows, log, inv, rej)
+    # audit-folder copies (deliverables requested in the audit brief)
+    import shutil
+    os.makedirs("audit/catalogues", exist_ok=True)
+    allrows = sorted(rows + rej, key=lambda r: r["record_id"])
+    write_csv("audit/CORRECTED_CATALOGUE.csv", allrows, FIELDS)
+    for f in ("MASTER_CATALOGUE.csv", "MASTER_CATALOGUE.xlsx"):
+        shutil.copy(f, "audit/" + f)
+    for f in glob.glob("catalogues/*.csv"):
+        shutil.copy(f, "audit/catalogues/")
     gen_docs(rows, inv)
     s = summary(rows)
     print(f"built {len(rows)} records, {len(log)} log rows, {len(inv)} HF inventory rows")

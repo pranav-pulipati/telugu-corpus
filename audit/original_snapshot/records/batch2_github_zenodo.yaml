@@ -1,0 +1,397 @@
+# Batch 2 — discoveries from the GitHub search API and the Zenodo API (2026-11-09).
+# Snapshots: evidence/api_snapshots/gh_search_*.json, zenodo_telugu_datasets.jsonl; READMEs in evidence/readmes/.
+defaults:
+  languages: [te]
+  scripts: [Telu]
+  last_verified: "2026-11-09"
+  registration: "No"
+  authentication: "None"
+  record_type: Dataset
+  bulk_download: "Yes"
+
+records:
+- record_id: TEL-ANN-030
+  primary_category: ANN
+  source_name: GitHub (IIIT Hyderabad LTRC)
+  collection_name: TeSum — human-written abstractive summarisation corpus for Telugu
+  organization: LTRC, IIIT Hyderabad (Urlana et al., LREC 2022)
+  org_type: Academic
+  official_url: https://github.com/ashokurlana/TeSum
+  collection_url: https://github.com/ashokurlana/TeSum
+  description: News articles paired with summaries written by trained annotators (not lead-sentence heuristics), with quality filters; the first sizeable human-generated Telugu summarisation corpus.
+  secondary_categories: [PERIOD]
+  telugu_scope: Telugu-only
+  modality: Text
+  formats: [JSONL]
+  content_types: [article/summary pairs]
+  size_telugu: "20,329 article-summary pairs (80/10/10 train/dev/test split)"
+  size_confidence: Reported by source
+  annotations: [human-written abstractive summaries, titles]
+  digitization: Born-digital text
+  acquisition_method: Clone the repo / follow the data link in the README.
+  license: CC BY-NC 4.0 (README)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://github.com/ashokurlana/TeSum#license
+  evidence_urls:
+  - "https://raw.githubusercontent.com/ashokurlana/TeSum/HEAD/README.md"
+  - "https://aclanthology.org/2022.lrec-1.614"
+  verification_status: Verified
+  verification_method: README read (licence, citation); pair count from repository README via search extract
+  unresolved_issues: Data in TeSum_data/ — count lines after download to confirm.
+  corpus_value: Medium
+
+- record_id: TEL-PAR-022
+  primary_category: PAR
+  source_name: GitHub (IIIT Hyderabad LTRC)
+  collection_name: The LTRC Hindi–Telugu Parallel Corpus
+  organization: LTRC, IIIT Hyderabad (ILMT Hindi-Telugu pilot; funded by MeitY)
+  org_type: Academic
+  official_url: https://github.com/vmujadia/The-LTRC-Hindi-Telugu-Parallel-Corpus
+  collection_url: https://github.com/vmujadia/The-LTRC-Hindi-Telugu-Parallel-Corpus
+  description: Domain parallel corpus (natural science, computer science, law, healthcare, general) — 700K sentence pairs of which 535K were newly created (extract-align-review, human translation, back-translation post-editing) and released.
+  languages: [te, hi]
+  scripts: [Telu, Deva]
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [plain text]
+  content_types: [sentence pairs]
+  size_telugu: "535K released pairs (700K total incl. 165K from public sources)"
+  size_confidence: Reported by source
+  annotations: [domain labels]
+  digitization: Born-digital text
+  acquisition_method: Follow download instructions in the repository README.
+  license: Free for non-commercial research (per paper abstract); no repository licence file
+  license_scope: Uniform (single license)
+  redistribution: Unclear
+  commercial_use: Not allowed
+  license_evidence_url: https://github.com/vmujadia/The-LTRC-Hindi-Telugu-Parallel-Corpus
+  evidence_urls:
+  - "https://raw.githubusercontent.com/vmujadia/The-LTRC-Hindi-Telugu-Parallel-Corpus/HEAD/README.md"
+  verification_status: Partially Verified
+  verification_method: README (abstract, metadata) read; data files not downloaded
+  unresolved_issues: Confirm download link and licence wording.
+  corpus_value: High
+  processing_needs: Rare high-quality non-English pivot pair (hi-te) with technical domains.
+
+- record_id: TEL-LEX-012
+  primary_category: LEX
+  source_name: GitHub (IIIT Hyderabad LTRC)
+  collection_name: IIIT-H + HCU Telugu dependency treebank (intra-chunk expanded)
+  organization: LTRC IIIT Hyderabad; University of Hyderabad (HCU)
+  org_type: Academic
+  official_url: https://github.com/ltrc/telugu_treebank
+  collection_url: https://github.com/ltrc/telugu_treebank
+  description: Paninian (Karaka) dependency treebank combining the ICON 2009 tools-contest Telugu treebank (~1,600 sentences), the HCU Telugu treebank (~2,000) and ~200 more IIIT-H sentences; intra-chunk dependencies added with a CFG-based expander. Released in SSF and CoNLL-X (WX transliteration).
+  secondary_categories: [ANN]
+  scripts: [Latn]
+  telugu_scope: Telugu-only
+  modality: Text
+  formats: [SSF, CoNLL-X (WX notation)]
+  content_types: [annotated sentences]
+  size_telugu: "~3,800 sentences"
+  size_confidence: Reported by source
+  annotations: [POS (BIS/AnnCorra), chunks, karaka dependency relations]
+  digitization: Digital text (retyped/edited)
+  acquisition_method: "git clone https://github.com/ltrc/telugu_treebank"
+  license: NOASSERTION (GitHub detects a licence file it cannot classify)
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://github.com/ltrc/telugu_treebank
+  duplicates_mirrors: [TEL-LEX-011]
+  evidence_urls:
+  - "https://raw.githubusercontent.com/ltrc/telugu_treebank/HEAD/README.md"
+  verification_status: Partially Verified
+  verification_method: README read; GitHub API licence field
+  unresolved_issues: Read the LICENSE file.
+  corpus_value: Medium
+  processing_needs: Larger than UD_Telugu-MTG; convert WX -> Telugu script and Paninian -> UD if needed.
+
+- record_id: TEL-ANN-031
+  primary_category: ANN
+  source_name: GitHub (IIIT Hyderabad LTRC / Bhashini)
+  collection_name: IL-NER — Telugu named-entity corpus (Bhashini)
+  organization: IIIT Hyderabad, CDAC Noida, IIIT Bhubaneswar (Bhashini, MeitY)
+  org_type: Academic
+  official_url: https://github.com/ltrc/IL-NER
+  collection_url: https://github.com/ltrc/IL-NER
+  description: Manually annotated NER data for Hindi, Urdu, Odia and Telugu with XLM-R baseline models (Telugu model on HF).
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [CoNLL-style text]
+  content_types: [annotated sentences]
+  size_telugu: "2,993 train / 384 dev / 384 test sentences"
+  size_confidence: Reported by source
+  annotations: [NER tags]
+  digitization: Born-digital text
+  acquisition_method: "git clone https://github.com/ltrc/IL-NER"
+  license: CC BY 4.0 (README)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://github.com/ltrc/IL-NER
+  evidence_urls:
+  - "https://raw.githubusercontent.com/ltrc/IL-NER/HEAD/README.md"
+  verification_status: Verified
+  verification_method: README read (sizes table, licence)
+  corpus_value: Medium
+  processing_needs: Gold (manual) Telugu NER — complements silver Naamapadam.
+
+- record_id: TEL-SPEECH-021
+  primary_category: SPEECH
+  source_name: GitHub (PAGADALA-USHA)
+  collection_name: Telugu spoken-word dataset (2,050 isolated-word recordings)
+  organization: Individual researchers
+  org_type: Individual
+  official_url: https://github.com/PAGADALA-USHA/TELUGU-DATASET
+  collection_url: https://github.com/PAGADALA-USHA/TELUGU-DATASET
+  description: Isolated common Telugu words spoken by native speakers from AP and Telangana, organised per speaker with age/gender/region metadata.
+  secondary_categories: [DIAL]
+  telugu_scope: Telugu-only
+  modality: Audio
+  formats: [WAV, TXT metadata]
+  content_types: [isolated word recordings]
+  size_telugu: "2,050 audio files"
+  size_confidence: Reported by source
+  metadata_fields: [name, age, gender, native region]
+  digitization: Audio + transcripts
+  acquisition_method: "git clone https://github.com/PAGADALA-USHA/TELUGU-DATASET"
+  license: No licence file
+  license_scope: No explicit license
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://github.com/PAGADALA-USHA/TELUGU-DATASET
+  evidence_urls:
+  - "https://raw.githubusercontent.com/PAGADALA-USHA/TELUGU-DATASET/HEAD/README.md"
+  verification_status: Partially Verified
+  verification_method: README read; GitHub API (no licence)
+  corpus_value: Low
+
+- record_id: TEL-OCR-014
+  primary_category: OCR
+  source_name: Zenodo
+  collection_name: Telugu Document Image Dataset (20,000 image-text pairs)
+  organization: Zenodo depositor (2025)
+  org_type: Individual
+  official_url: https://zenodo.org/
+  collection_url: https://doi.org/10.5281/zenodo.14965382
+  description: Synthetic scan-like Telugu document/book-page images paired with their text sequences, for end-to-end OCR without heavy preprocessing.
+  telugu_scope: Telugu-only
+  modality: Image
+  formats: [archive (1 file, 419 KB listed — likely a pointer/sample)]
+  content_types: [image-text pairs]
+  size_telugu: "20,000 image-text pairs (description); deposited file 419 KB"
+  size_confidence: Reported by source
+  annotations: [text sequences]
+  digitization: Born-digital text
+  acquisition_method: Download from the Zenodo record.
+  license: CC BY 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://doi.org/10.5281/zenodo.14965382
+  evidence_urls:
+  - "https://zenodo.org/api/records/14965382"
+  verification_status: Partially Verified
+  verification_method: Zenodo API metadata (licence, description, file size)
+  unresolved_issues: Deposited file size (419 KB) is inconsistent with 20,000 images — may be a sample or link.
+  corpus_value: Low
+
+- record_id: TEL-OCR-015
+  primary_category: OCR
+  source_name: Zenodo
+  collection_name: IndicDLP — document layout parsing dataset (incl. Telugu)
+  organization: IndicDLP authors (ICDAR 2025)
+  org_type: Academic
+  official_url: https://zenodo.org/
+  collection_url: https://doi.org/10.5281/zenodo.15881917
+  description: 119,806 document images in 11 Indic languages + English across 12 document categories (novels, textbooks, newspapers, magazines, government documents, etc.) with layout region annotations; Telugu included.
+  secondary_categories: [MSS]
+  languages: [te, hi, bn, ta, kn, ml, mr, gu, or, pa, as, en]
+  telugu_scope: Telugu subset of multilingual
+  modality: Image
+  formats: [images + layout annotations (3 files, 4.34 GB)]
+  content_types: [document images]
+  size_telugu: Unknown per language (total 119,806 images)
+  size_total: "119,806 images; 4.34 GB"
+  size_confidence: Confirmed
+  annotations: [layout regions (paragraph, title, table, figure, header...)]
+  digitization: Original scans/images only
+  acquisition_method: Download from Zenodo.
+  license: CC BY 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://doi.org/10.5281/zenodo.15881917
+  evidence_urls:
+  - "https://zenodo.org/api/records/15881917"
+  verification_status: Verified
+  verification_method: Zenodo API (licence, description, file sizes)
+  corpus_value: Medium
+  processing_needs: Layout models for periodical/book OCR pipelines.
+
+- record_id: TEL-ANN-032
+  primary_category: ANN
+  source_name: Zenodo
+  collection_name: Telugu labelled datasets on Zenodo — fake-news detection, SenWiCh WSD/WiC, PolyIdiom, BhashaHMPV
+  organization: Various academic depositors
+  org_type: Academic
+  official_url: https://zenodo.org/
+  collection_url: https://doi.org/10.5281/zenodo.11408513
+  description: "Multilingual Fake News Detection (Gujarati/Hindi/Marathi/Telugu; fake/real labels; 194 MB; CC BY 4.0); SenWiCh sense-annotated sentences for WSD/WiC in 14 languages incl. Telugu (36 MB; CC BY 4.0); PolyIdiom idiom detection with spans in 7 languages incl. Telugu (CC BY-SA 4.0); BhashaHMPV multilingual HMPV news/fact-checks (CC BY 4.0)."
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [CSV, JSON]
+  content_types: [labelled articles / sentences]
+  size_telugu: Unknown per language
+  size_confidence: Unknown
+  annotations: [fake/real, word senses, idiom spans]
+  digitization: Born-digital text
+  acquisition_method: Download from each Zenodo record.
+  license: CC BY 4.0 / CC BY-SA 4.0
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://doi.org/10.5281/zenodo.11408513
+  duplicates_mirrors:
+  - "https://doi.org/10.5281/zenodo.18803861"
+  - "https://doi.org/10.5281/zenodo.20774989"
+  - "https://doi.org/10.5281/zenodo.15194116"
+  evidence_urls:
+  - "https://zenodo.org/api/records/11408513"
+  - "https://zenodo.org/api/records/18803861"
+  - "https://zenodo.org/api/records/20774989"
+  verification_status: Partially Verified
+  verification_method: Zenodo API metadata
+  unresolved_issues: Telugu share in each dataset; news-article copyright in fake-news set.
+  corpus_value: Low
+
+- record_id: TEL-LEX-013
+  primary_category: LEX
+  source_name: Zenodo / DSAL
+  collection_name: Dravidian comparative lexicons — The Dravidian Database (2026) and DEDR (Burrow & Emeneau)
+  organization: Zenodo depositor (Dravidian Database); University of Chicago DSAL (DEDR)
+  org_type: Academic
+  official_url: https://dsal.uchicago.edu/dictionaries/burrow/
+  collection_url: https://doi.org/10.5281/zenodo.22682542
+  description: Dravidian Database links 15,629 reconstructed proto-forms (Starostin StarLing, Krishnamurti 2003, author) to 72,091 attested lemma records from 26 Dravidian languages incl. Telugu, keyed to the Dravidian Etymological Dictionary (DEDR), which is itself searchable on DSAL.
+  secondary_categories: [DIAL]
+  languages: [te, ta, kn, ml, gon, tcy]
+  scripts: [Latn, Telu]
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [CSV/JSON (20 files, 46.7 MB)]
+  content_types: [etymological entries]
+  size_telugu: Unknown share of 72,091 attested lemmas
+  size_confidence: Unknown
+  annotations: [cognate sets, DEDR numbers]
+  digitization: Digital text (retyped/edited)
+  acquisition_method: Download from Zenodo; DEDR via DSAL web search.
+  license: CC BY 4.0 (Dravidian Database); DSAL terms for DEDR
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Varies
+  license_evidence_url: https://doi.org/10.5281/zenodo.22682542
+  evidence_urls:
+  - "https://zenodo.org/api/records/22682542"
+  verification_status: Partially Verified
+  verification_method: Zenodo API metadata; DSAL DEDR not opened
+  corpus_value: Low
+
+- record_id: TEL-OCR-016
+  primary_category: OCR
+  source_name: Zenodo
+  collection_name: MDIW-13 — multi-script document image database for script identification (incl. Telugu)
+  organization: MDIW-13 authors (2022)
+  org_type: Academic
+  official_url: https://zenodo.org/
+  collection_url: https://doi.org/10.5281/zenodo.6376096
+  description: Printed and handwritten document images in 13 scripts (Arabic, Bengali, Gujarati, Gurmukhi, Devanagari, Japanese, Kannada, Malayalam, Oriya, Roman, Tamil, Telugu, Thai) for script-identification benchmarking.
+  languages: [te, hi, bn, ta, kn, ml]
+  telugu_scope: Telugu subset of multilingual
+  modality: Image
+  formats: [images (2 archives, 2.06 GB)]
+  content_types: [document images]
+  size_telugu: Unknown per script
+  size_total: "2.06 GB"
+  size_confidence: Confirmed
+  annotations: [script label, printed/handwritten]
+  digitization: Original scans/images only
+  acquisition_method: Download from Zenodo.
+  license: CC BY 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://doi.org/10.5281/zenodo.6376096
+  evidence_urls:
+  - "https://zenodo.org/api/records/6376096"
+  verification_status: Verified
+  verification_method: Zenodo API (licence, files, description)
+  corpus_value: Low
+
+- record_id: TEL-EDU-005
+  primary_category: EDU
+  source_name: Zenodo (InfoBay AI)
+  collection_name: STEM_TextBook_Telugu and Non-STEM_TextBook_Telugu (samples of a larger commercial corpus)
+  organization: InfoBay AI
+  org_type: Commercial
+  official_url: https://zenodo.org/
+  collection_url: https://doi.org/10.5281/zenodo.18153338
+  description: Sample extracts (structure/quality preview) from a commercial 1.6B-word textbook corpus (22,000+ textbooks, 7 languages incl. Telugu) aimed at LLM training/SFT.
+  secondary_categories: [TXT]
+  telugu_scope: Telugu-only
+  modality: Text
+  formats: [JSON/CSV (5 files each)]
+  content_types: [textbook passages]
+  size_telugu: "Non-STEM sample 44.0 MB; STEM sample 33.7 MB"
+  size_confidence: Confirmed
+  digitization: Mixed
+  acquisition_method: Download samples from Zenodo; full corpus is commercial (contact InfoBay).
+  license: CC BY 4.0 (samples)
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://doi.org/10.5281/zenodo.18153338
+  copyright_notes: Textbook copyright of source publishers/state boards not addressed in record.
+  duplicates_mirrors:
+  - "TEL-EDU-004"
+  - "https://doi.org/10.5281/zenodo.18151725"
+  evidence_urls:
+  - "https://zenodo.org/api/records/18153338"
+  - "https://zenodo.org/api/records/18151725"
+  verification_status: Verified
+  verification_method: Zenodo API (licence, file sizes, description)
+  corpus_value: Low
+
+- record_id: TEL-TXT-026
+  primary_category: TXT
+  source_name: GitHub (community scrapers)
+  collection_name: Community Telugu text scrapes — Telugu books & newspaper article scrapers, LOIT tweets, chsasank telugu-nlp
+  organization: Individual developers (AnushaMotamarri, bedapudi6788, chsasank)
+  org_type: Individual
+  official_url: https://github.com/AnushaMotamarri/Telugu-Books-Dataset
+  collection_url: https://github.com/AnushaMotamarri/Telugu-Books-Dataset
+  description: "Scraper repos and small dumps: Telugu novels scraped from a books site, Telugu newspaper articles, LOIT (Lot Of Indic Tweets, GPL-3.0), and early Telugu NLP resources. Likely origin of Kaggle/HF 'telugu_books' and 'telugu_news'."
+  genres: [novels, news, tweets]
+  telugu_scope: Telugu-majority
+  modality: Text
+  formats: [CSV, Python scrapers]
+  content_types: [articles, book text, tweets]
+  size_telugu: Unknown
+  size_confidence: Unknown
+  digitization: Born-digital text
+  acquisition_method: Clone repos; follow data links.
+  license: None declared (LOIT GPL-3.0)
+  license_scope: Varies per subset
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://github.com/AnushaMotamarri/Telugu-Books-Dataset
+  copyright_notes: Scraped copyrighted content.
+  duplicates_mirrors: [TEL-TXT-020]
+  evidence_urls:
+  - "https://api.github.com/search/repositories?q=telugu+dataset&sort=stars"
+  verification_status: Partially Verified
+  verification_method: GitHub search API + README reads
+  corpus_value: Low
