@@ -1,0 +1,694 @@
+{
+ "digitallibraryindia": {
+  "numFound": 18221,
+  "sampled": 5000,
+  "licenseurl": [
+   [
+    "(none)",
+    4975
+   ],
+   [
+    "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    25
+   ]
+  ],
+  "year_min": 1782,
+  "year_max": 2017,
+  "mediatypes": [
+   [
+    "texts",
+    5000
+   ]
+  ],
+  "sampled_bytes": 1074278874955,
+  "samples": [
+   [
+    "dli.ernet.385015",
+    "Shiromani Vyakhya Ac No 103"
+   ],
+   [
+    "in.ernet.dli.2015.330403",
+    "బెంజమిన్ ఫ్రాంక్లిన్ స్వీయ చరిత్ర"
+   ],
+   [
+    "dli.ministry.28493",
+    "Digirandi ḍ̤igirandi drutarāstrabhuviki"
+   ],
+   [
+    "dli.ministry.27647",
+    "Āndhrula charitramu"
+   ]
+  ]
+ },
+ "telugu-palm-leaf": {
+  "numFound": 1863,
+  "sampled": 1863,
+  "licenseurl": [
+   [
+    "https://creativecommons.org/publicdomain/mark/1.0/",
+    1863
+   ]
+  ],
+  "year_min": null,
+  "year_max": null,
+  "mediatypes": [
+   [
+    "texts",
+    1863
+   ]
+  ],
+  "sampled_bytes": 436677413915,
+  "samples": [
+   [
+    "tel_b_0013_d_0583",
+    "balarama caritramu"
+   ],
+   [
+    "tel_b_0015_d_0029",
+    "brhannaradiyamu vol ii"
+   ],
+   [
+    "tel_b_0041_d_0096",
+    "bhagavatamu"
+   ],
+   [
+    "tel_b_0158_d_0435",
+    "kala purnodayam"
+   ]
+  ]
+ },
+ "newspapers-telugu": {
+  "numFound": 5028,
+  "sampled": 5000,
+  "licenseurl": [
+   [
+    "(none)",
+    4999
+   ],
+   [
+    "http://creativecommons.org/publicdomain/mark/1.0/",
+    1
+   ]
+  ],
+  "year_min": 2017,
+  "year_max": 2026,
+  "mediatypes": [
+   [
+    "texts",
+    5000
+   ]
+  ],
+  "sampled_bytes": 2399260359948,
+  "samples": [
+   [
+    "visalaandhra-epaper-editions-2022-08-08",
+    "Visalaandhra Telugu Epaper Editions 08-08-2022"
+   ],
+   [
+    "prajasakti-newspaper-all-editions-11-08-2023",
+    "Prajasakti Telugu Newspaper All Editions 11-08-2023"
+   ],
+   [
+    "visalaandhra-epaper-editions-2022-06-25",
+    "Visalaandhra Telugu Epaper Editions 25-06-2022"
+   ],
+   [
+    "visalaandhra-epaper-editions-2022-11-07",
+    "Visalaandhra Telugu Epaper Editions 07-11-2022"
+   ]
+  ]
+ },
+ "chandamama-magazine": {
+  "numFound": 1628,
+  "sampled": 1628,
+  "licenseurl": [
+   [
+    "(none)",
+    1627
+   ],
+   [
+    "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    1
+   ]
+  ],
+  "year_min": 1196,
+  "year_max": 2015,
+  "mediatypes": [
+   [
+    "texts",
+    1628
+   ]
+  ],
+  "sampled_bytes": 179894935121,
+  "samples": [
+   [
+    "Chandamama-Telugu-1955-12",
+    "Chandamama Telugu 1955 12"
+   ],
+   [
+    "Chandamama-Telugu-1964-11",
+    "Chandamama Telugu 1964 11"
+   ],
+   [
+    "Chandamama-Telugu-1964-9",
+    "Chandamama Telugu 1964 9"
+   ],
+   [
+    "Chandamama-Telugu-1967-2",
+    "Chandamama Telugu 1967 2"
+   ]
+  ]
+ },
+ "telugu-library": {
+  "numFound": 4574,
+  "sampled": 4574,
+  "licenseurl": [
+   [
+    "(none)",
+    4151
+   ],
+   [
+    "https://creativecommons.org/licenses/by-sa/4.0/",
+    423
+   ]
+  ],
+  "year_min": 1906,
+  "year_max": 1994,
+  "mediatypes": [
+   [
+    "texts",
+    4574
+   ]
+  ],
+  "sampled_bytes": 518828245255,
+  "samples": [
+   [
+    "bharathi19581201",
+    "Bharathi Magazine భారతి Volume 35 Issue 12"
+   ],
+   [
+    "abhinavasaraswathi19150601",
+    "Abhinava Saraswathi అభినవ్ సరస్వతి Volume 7 Issue 6"
+   ],
+   [
+    "andhramahila19580601",
+    "Andhra Mahila ఆంధ్ర మహిళ Magazine Volume 14 Issue 6"
+   ],
+   [
+    "andhrapatrikamag19871106",
+    "Andhra Patrika ఆంధ్ర పత్రిక Volume 80 Issue 11"
+   ]
+  ]
+ },
+ "svk_library": {
+  "numFound": 1213,
+  "sampled": 1213,
+  "licenseurl": [
+   [
+    "(none)",
+    1213
+   ]
+  ],
+  "year_min": 1871,
+  "year_max": 1947,
+  "mediatypes": [
+   [
+    "texts",
+    1213
+   ]
+  ],
+  "sampled_bytes": 79764559512,
+  "samples": [
+   [
+    "sarasvati00unknsher",
+    "Sarasvati"
+   ],
+   [
+    "candrahasaanusrn00kuppsher",
+    "Candrahasa anu srngara Natakamu"
+   ],
+   [
+    "andhravirulu00unknsher",
+    "Andhravirulu"
+   ],
+   [
+    "santa00umarsher",
+    "Santa"
+   ]
+  ]
+ },
+ "veekshanam": {
+  "numFound": 250,
+  "sampled": 250,
+  "licenseurl": [
+   [
+    "https://creativecommons.org/licenses/by-sa/4.0/",
+    250
+   ]
+  ],
+  "year_min": null,
+  "year_max": null,
+  "mediatypes": [
+   [
+    "texts",
+    250
+   ]
+  ],
+  "sampled_bytes": 17496737683,
+  "samples": [
+   [
+    "VeekshaNam075_October.2007",
+    "075_VeekshaNam, OCT 2007"
+   ],
+   [
+    "VeekshaNam081_April.2008",
+    "081_VeekshaNam, APR 2008"
+   ],
+   [
+    "VeekshaNam173_December.2015.pdf",
+    "173_Veekshanam, DEC 2015"
+   ],
+   [
+    "VeekshaNam176_March.2016.pdf",
+    "176_Veekshanam, MAR 2016"
+   ]
+  ]
+ },
+ "srujana-patrika": {
+  "numFound": 173,
+  "sampled": 173,
+  "licenseurl": [
+   [
+    "https://creativecommons.org/licenses/by-sa/4.0/",
+    173
+   ]
+  ],
+  "year_min": null,
+  "year_max": null,
+  "mediatypes": [
+   [
+    "texts",
+    173
+   ]
+  ],
+  "sampled_bytes": 10847247420,
+  "samples": [
+   [
+    "Srujana130_Aug82.pdf",
+    "130_Srujana, Aug 1982"
+   ],
+   [
+    "Srujana156_Oct84.pdf",
+    "156_Srujana, Oct 1984"
+   ],
+   [
+    "Srujana171_Nov86.pdf",
+    "171_Srujana, Nov 1986"
+   ],
+   [
+    "Srujana021-22_Jun71.pdf",
+    "021-022_Srujana, Jun-Jul 1971"
+   ]
+  ]
+ },
+ "mohanpublicationslibrary": {
+  "numFound": 2149,
+  "sampled": 2149,
+  "licenseurl": [
+   [
+    "(none)",
+    2149
+   ]
+  ],
+  "year_min": 2016,
+  "year_max": 2019,
+  "mediatypes": [
+   [
+    "texts",
+    1558
+   ],
+   [
+    "image",
+    522
+   ],
+   [
+    "movies",
+    69
+   ]
+  ],
+  "sampled_bytes": 258934098319,
+  "samples": [
+   [
+    "mohanpublications_gmail_20160908_1508",
+    "ganesh.gif"
+   ],
+   [
+    "AthmaganamthoChinthuluDooram",
+    "ఆత్మజ్ఞానంతో చింతలు దూరం గీతామృతం, Athmaganamtho Chinthulu Dooram"
+   ],
+   [
+    "Akantham",
+    "ఏకాంతం, Akantham"
+   ],
+   [
+    "BhavishytthuKalagnanaMelukolupu_201611",
+    "Bhavishytthu Kalagnana Melukolupu"
+   ]
+  ]
+ },
+ "booksbylanguage_telugu": {
+  "numFound": 11468,
+  "sampled": 5000,
+  "licenseurl": [
+   [
+    "(none)",
+    4088
+   ],
+   [
+    "http://creativecommons.org/publicdomain/mark/1.0/",
+    413
+   ],
+   [
+    "https://creativecommons.org/licenses/by-nd/4.0/",
+    191
+   ],
+   [
+    "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    136
+   ],
+   [
+    "https://creativecommons.org/publicdomain/mark/1.0/",
+    69
+   ]
+  ],
+  "year_min": 0,
+  "year_max": 2026,
+  "mediatypes": [
+   [
+    "texts",
+    4997
+   ],
+   [
+    "image",
+    3
+   ]
+  ],
+  "sampled_bytes": 2152421864671,
+  "samples": [
+   [
+    "c2bd3b7be60a26b3797f4d7ed2288b983aee2830",
+    "బంగరు పంజరం"
+   ],
+   [
+    "by_20250202",
+    "ఆణి ముత్యాలు By పూజ్యశ్రీ భిక్షమయ్య గురూజీ"
+   ],
+   [
+    "d56cfe575dd48719062e009fc6cfe989099032c9",
+    "తొలకరి"
+   ],
+   [
+    "bsrkathalu",
+    "bsrkathalu#Telangana"
+   ]
+  ]
+ },
+ "universallibrary": {
+  "numFound": 9447,
+  "sampled": 5000,
+  "licenseurl": [
+   [
+    "(none)",
+    5000
+   ]
+  ],
+  "year_min": 200,
+  "year_max": 2003,
+  "mediatypes": [
+   [
+    "texts",
+    5000
+   ]
+  ],
+  "sampled_bytes": 481486137447,
+  "samples": [
+   [
+    "sarasvati00unknsher",
+    "Sarasvati"
+   ],
+   [
+    "EmescoHinduDeshaCharitra",
+    "Emesco_Hindu_Desha_Charitra"
+   ],
+   [
+    "EmpikaChesenaMahatmaGandiRachanaluSamputamu3",
+    "Empika_Chesena_Mahatma_Gandi_Rachanalu_Samputamu_3"
+   ],
+   [
+    "Kadambamala",
+    "Kadambamala"
+   ]
+  ]
+ },
+ "andhrapradeshlegislature": {
+  "numFound": 3070,
+  "sampled": 3070,
+  "licenseurl": [
+   [
+    "http://creativecommons.org/licenses/publicdomain/",
+    3070
+   ]
+  ],
+  "year_min": 1952,
+  "year_max": 2022,
+  "mediatypes": [
+   [
+    "texts",
+    3070
+   ]
+  ],
+  "sampled_bytes": 231467122905,
+  "samples": [
+   [
+    "aplegislature.assembly.A.000060_04.03.1959",
+    "Assembly - Day 37(04/03/1959)"
+   ],
+   [
+    "aplegislature.assembly.A.000067_25.11.1959",
+    "Assembly - Day 2(25/11/1958)"
+   ],
+   [
+    "aplegislature.assembly.A.000079_07.12.1959",
+    "Assembly - Day 19(07/12/1959)"
+   ],
+   [
+    "aplegislature.assembly.A.000082_17.03.1960",
+    "Assembly - Day 58(17/03/1960)"
+   ]
+  ]
+ },
+ "telugu-cinema-collection": {
+  "numFound": 1237,
+  "sampled": 1237,
+  "licenseurl": [
+   [
+    "(none)",
+    1237
+   ]
+  ],
+  "year_min": 1933,
+  "year_max": 1981,
+  "mediatypes": [
+   [
+    "texts",
+    1237
+   ]
+  ],
+  "sampled_bytes": 7347814107,
+  "samples": [
+   [
+    "Mooga_Prema_1971-Song_Booklet",
+    "Mooga Prema (1971)-Song_Booklet"
+   ],
+   [
+    "Maa_Annayya_1966-Song_Booklet",
+    "Maa Annayya (1966)-Song_Booklet"
+   ],
+   [
+    "Malli_Pelli_1970-Song_Booklet",
+    "Malli Pelli (1970)-Song_Booklet"
+   ],
+   [
+    "Mugguru_Moorkulu_1976-Song_Booklet",
+    "Mugguru Moorkulu (1976)-Song_Booklet"
+   ]
+  ]
+ },
+ "Q:mediatype:audio AND language:(Telugu OR tel)": {
+  "numFound": 2905,
+  "sampled": 2905,
+  "licenseurl": [
+   [
+    "(none)",
+    2466
+   ],
+   [
+    "https://creativecommons.org/publicdomain/zero/1.0/",
+    90
+   ],
+   [
+    "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    81
+   ],
+   [
+    "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    59
+   ],
+   [
+    "https://creativecommons.org/publicdomain/mark/1.0/",
+    57
+   ]
+  ],
+  "year_min": 1800,
+  "year_max": 2026,
+  "mediatypes": [
+   [
+    "audio",
+    2905
+   ]
+  ],
+  "sampled_bytes": 992196549451,
+  "samples": [
+   [
+    "telugu-pariprashna-q-3-jan-21",
+    "Telugu Pariprashna Q3 Jan 21"
+   ],
+   [
+    "24MicahsMessageForTodayPart2424032015",
+    "Micah's Message For Today Part 22"
+   ],
+   [
+    "sathyam-jothi",
+    "AYYAPPA BHAJANS"
+   ],
+   [
+    "ALittleGirlLeadsNemanToHisHealing",
+    "A Little Girl Leads Naaman To His Healing"
+   ]
+  ]
+ },
+ "Q:mediatype:movies AND language:(Telugu OR tel)": {
+  "numFound": 3721,
+  "sampled": 3721,
+  "licenseurl": [
+   [
+    "(none)",
+    2226
+   ],
+   [
+    "https://creativecommons.org/licenses/by-nd/4.0/",
+    1176
+   ],
+   [
+    "https://creativecommons.org/publicdomain/mark/1.0/",
+    146
+   ],
+   [
+    "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    89
+   ],
+   [
+    "http://creativecommons.org/publicdomain/mark/1.0/",
+    33
+   ]
+  ],
+  "year_min": 1935,
+  "year_max": 2026,
+  "mediatypes": [
+   [
+    "movies",
+    3721
+   ]
+  ],
+  "sampled_bytes": 1736062838903,
+  "samples": [
+   [
+    "06.-..-lord-shiva-rudra-matram-ep-28-mahaa-bhakti-t",
+    "Mahaa Bhakti TV - bhajagovinadam#swami_sundara_chaitanyananda#02 to 17"
+   ],
+   [
+    "36-chai-1",
+    "Chaitanya Bhagavad Gita Vignana Yogam 23 to 44 0f 44#swami_sundara_cha"
+   ],
+   [
+    "48.-..-narada-bhakti-sutralu-ep-06-mahaa-bhakthi-tv",
+    "MAHA BHAKTI TV - Narada Bhakti Sutralu SWAMIJI"
+   ],
+   [
+    "08.-mukundamala-8-10-pravachan-by-swami-sundara-chaitanyananda",
+    "Mukundamala#Swami_Sundara_Chaitanyananda"
+   ]
+  ]
+ },
+ "Q:collection:JaiGyan AND language:(Telugu OR tel)": {
+  "numFound": 55886,
+  "sampled": 5000,
+  "licenseurl": [
+   [
+    "(none)",
+    4927
+   ],
+   [
+    "https://creativecommons.org/licenses/by-sa/4.0/",
+    66
+   ],
+   [
+    "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    5
+   ],
+   [
+    "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    2
+   ]
+  ],
+  "year_min": 1696,
+  "year_max": 2026,
+  "mediatypes": [
+   [
+    "texts",
+    4985
+   ],
+   [
+    "audio",
+    7
+   ],
+   [
+    "image",
+    6
+   ],
+   [
+    "data",
+    2
+   ]
+  ],
+  "sampled_bytes": 389268425345,
+  "samples": [
+   [
+    "burning-rice-field-telugu",
+    "కాలుతున్న ధాన్యపు పొలాలు - తెలుగు"
+   ],
+   [
+    "in.gazette.andhra_extraordinary.2026-09-30.768",
+    "Andhra Pradesh Extraordinary Gazette, 2026-09-30, Extraordinary, Part "
+   ],
+   [
+    "in.gazette.andhra_extraordinary.2026-09-29.760",
+    "Andhra Pradesh Extraordinary Gazette, 2026-09-29, Extraordinary, Part "
+   ],
+   [
+    "in.gazette.telangana.2014-11-19.1438749069603",
+    "Telangana, 2014-11-19, Extraordinary, No. 7, Job 236, PART I"
+   ]
+  ]
+ }
+}

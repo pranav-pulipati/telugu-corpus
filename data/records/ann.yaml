@@ -1,0 +1,850 @@
+# ANN — annotated NLP datasets and benchmarks.
+defaults:
+  primary_category: ANN
+  modality: Text
+  languages: [te]
+  scripts: [Telu]
+  last_verified: "2026-11-09"
+  registration: "No"
+  authentication: "None"
+  record_type: Dataset
+  digitization: Born-digital text
+  bulk_download: "Yes"
+
+records:
+- record_id: TEL-ANN-001
+  source_name: AI4Bharat / Hugging Face
+  collection_name: Naamapadam — Telugu NER
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/naamapadam
+  description: Named-entity recognition corpus (PER/LOC/ORG) created by projecting English NER tags onto Samanantar Telugu sentences, with a manually annotated test set (2023).
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [tokenised sentences with BIO tags]
+  size_telugu: "511,288 sentences; 25.7 MB (config te)"
+  size_confidence: Confirmed
+  annotations: [NER BIO tags (PER, LOC, ORG)]
+  acquisition_method: "load_dataset('ai4bharat/naamapadam', 'te')"
+  license: CC0 1.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/naamapadam
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=ai4bharat/naamapadam"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: High
+  processing_needs: Training split is silver (projected) annotation.
+
+- record_id: TEL-ANN-002
+  source_name: AI4Bharat / Hugging Face
+  collection_name: IndicGLUE — Telugu tasks
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://indicnlp.ai4bharat.org/
+  collection_url: https://huggingface.co/datasets/ai4bharat/indic_glue
+  description: "NLU benchmark (2020). Telugu configs: actsa-sc.te (ACTSA sentiment, IIIT-H), csqa.te (cloze-style QA from Wikipedia), wiki-ner.te, wstp.te (Wikipedia section-title prediction), inltkh.te (iNLTK news headline classification), cvit-mkb-clsr.en-te (cross-lingual sentence retrieval)."
+  telugu_scope: Telugu subset of multilingual
+  languages: [te, en]
+  formats: [Parquet]
+  content_types: [sentences / articles with labels]
+  size_telugu: "actsa-sc.te 5,410; csqa.te 41,338; wiki-ner.te 9,929; wstp.te 100,000; inltkh.te 5,410; cvit-mkb-clsr.en-te 5,049 rows"
+  size_confidence: Confirmed
+  annotations: [sentiment, NER, cloze answers, section titles, headline categories, retrieval pairs]
+  acquisition_method: "load_dataset('ai4bharat/indic_glue', 'actsa-sc.te') etc."
+  license: other (HF tag) — component datasets carry their own terms
+  license_scope: Varies per subset
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/indic_glue
+  duplicates_mirrors: [TEL-PAR-016]
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=ai4bharat/indic_glue"
+  verification_status: Verified
+  verification_method: datasets-server size per Telugu config
+  corpus_value: Medium
+
+- record_id: TEL-ANN-003
+  source_name: AI4Bharat / Hugging Face
+  collection_name: IndicQA — Telugu
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/IndicQA/blob/main/data/indicqa.te.json
+  description: Manually created extractive QA evaluation set (SQuAD-style) over Telugu Wikipedia paragraphs (IndicXTREME, 2022).
+  telugu_scope: Telugu subset of multilingual
+  formats: [JSON (SQuAD format)]
+  content_types: [context, question, answer spans]
+  size_telugu: "indicqa.te.json present (whole repo 3.1 MB across 11 languages)"
+  size_confidence: Confirmed
+  annotations: [answer spans]
+  acquisition_method: "huggingface-cli download ai4bharat/IndicQA data/indicqa.te.json --repo-type dataset"
+  license: CC BY 4.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/IndicQA
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/ai4bharat/IndicQA/tree/main/data"
+  verification_status: Verified
+  verification_method: HF API + file listing
+  corpus_value: Medium
+  processing_needs: Evaluation only.
+
+- record_id: TEL-ANN-004
+  source_name: AI4Bharat / Hugging Face
+  collection_name: IndicSentiment — Telugu
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/IndicSentiment
+  description: Manually translated product-review sentiment benchmark (IndicXTREME) with validation and test splits.
+  telugu_scope: Telugu subset of multilingual
+  languages: [te, en]
+  formats: [JSON]
+  content_types: [reviews with sentiment labels]
+  size_telugu: "data/validation/te.json + data/test/te.json = 1.42 MB"
+  size_confidence: Confirmed
+  annotations: [binary sentiment]
+  acquisition_method: Download data/*/te.json from the HF repo.
+  license: none declared on HF card (IndicXTREME release states CC0 for AI4Bharat benchmarks)
+  license_scope: No explicit license
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/IndicSentiment
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/ai4bharat/IndicSentiment/tree/main/data"
+  verification_status: Partially Verified
+  verification_method: HF file listing; licence not on card
+  unresolved_issues: Licence not stated on the HF card.
+  corpus_value: Low
+
+- record_id: TEL-ANN-005
+  source_name: Hugging Face (Divyanshu)
+  collection_name: IndicXNLI — Telugu
+  organization: Aggarwal et al. 2022 (IIT Patna/IndicXNLI authors)
+  org_type: Academic
+  official_url: https://github.com/divyanshuaggarwal/IndicXNLI
+  collection_url: https://huggingface.co/datasets/Divyanshu/indicxnli
+  description: Machine-translated (IndicTrans) XNLI/MultiNLI into 11 Indic languages for natural language inference.
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [premise/hypothesis/label triples]
+  size_telugu: "400,202 rows; 223 MB (config te)"
+  size_confidence: Confirmed
+  annotations: [entailment / neutral / contradiction]
+  acquisition_method: "load_dataset('Divyanshu/indicxnli', 'te')"
+  license: CC0 1.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/Divyanshu/indicxnli
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=Divyanshu/indicxnli"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Medium
+  processing_needs: Machine-translated (synthetic) text.
+
+- record_id: TEL-ANN-006
+  source_name: AI4Bharat / Hugging Face
+  collection_name: IndicCOPA and IndicXParaphrase — Telugu
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/IndicCOPA
+  description: IndicXTREME evaluation sets — IndicCOPA (causal reasoning, human-translated COPA) and IndicXParaphrase (paraphrase detection).
+  telugu_scope: Telugu subset of multilingual
+  formats: [JSONL, Parquet]
+  content_types: [premise/choices; sentence pairs]
+  size_telugu: "IndicXParaphrase te 2,002 rows; IndicCOPA te test file present"
+  size_confidence: Confirmed
+  annotations: [correct choice, paraphrase label]
+  acquisition_method: load_dataset('ai4bharat/IndicCOPA', 'translation-te'); load_dataset('ai4bharat/IndicXParaphrase', 'te')
+  license: CC BY 4.0 (IndicCOPA HF tag); IndicXParaphrase no tag
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/IndicCOPA
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/ai4bharat/IndicXParaphrase"
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicXParaphrase"
+  verification_status: Verified
+  verification_method: HF API + file listings
+  corpus_value: Low
+  processing_needs: Evaluation only.
+
+- record_id: TEL-ANN-007
+  source_name: AI4Bharat / Hugging Face
+  collection_name: IndicNLG — IndicHeadlineGeneration (Telugu)
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration
+  description: News article -> headline pairs crawled from Telugu news sites (IndicNLG Benchmark, 2022).
+  secondary_categories: [PERIOD]
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [article/headline pairs]
+  size_telugu: "26,717 pairs; 21 MB (config te)"
+  size_confidence: Confirmed
+  annotations: [headline]
+  acquisition_method: "load_dataset('ai4bharat/IndicHeadlineGeneration', 'te')"
+  license: CC BY-NC 4.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicHeadlineGeneration"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Medium
+
+- record_id: TEL-ANN-008
+  source_name: AI4Bharat / Hugging Face
+  collection_name: IndicNLG — IndicParaphrase (Telugu)
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/IndicParaphrase
+  description: Paraphrase generation pairs mined via pivoting through English (IndicNLG Benchmark).
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [sentence/paraphrase pairs]
+  size_telugu: "616,283 rows; 82 MB (config te)"
+  size_confidence: Confirmed
+  acquisition_method: "load_dataset('ai4bharat/IndicParaphrase', 'te')"
+  license: CC BY-NC 4.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/IndicParaphrase
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicParaphrase"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Medium
+
+- record_id: TEL-ANN-009
+  source_name: AI4Bharat / Hugging Face
+  collection_name: IndicNLG — IndicSentenceSummarization (Telugu)
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization
+  description: Sentence summarisation (first sentence -> headline) pairs from Telugu news (IndicNLG).
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [sentence/summary pairs]
+  size_telugu: "25,450 rows (config te)"
+  size_confidence: Confirmed
+  acquisition_method: "load_dataset('ai4bharat/IndicSentenceSummarization', 'te')"
+  license: CC BY-NC 4.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicSentenceSummarization"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Low
+
+- record_id: TEL-ANN-010
+  source_name: AI4Bharat / Hugging Face
+  collection_name: IndicNLG — IndicWikiBio (Telugu)
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/IndicWikiBio
+  description: Wikipedia infobox -> biography first-sentence generation (data-to-text) for Telugu.
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [infobox / text pairs]
+  size_telugu: "4,268 rows (config te)"
+  size_confidence: Confirmed
+  annotations: [structured infobox fields]
+  acquisition_method: "load_dataset('ai4bharat/IndicWikiBio', 'te')"
+  license: CC BY-NC 4.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/IndicWikiBio
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicWikiBio"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Low
+
+- record_id: TEL-ANN-011
+  source_name: AI4Bharat / Hugging Face
+  collection_name: IndicNLG — IndicQuestionGeneration (Telugu)
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration
+  description: Machine-translated SQuAD context/answer -> question pairs for Telugu.
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [context, answer, question]
+  size_telugu: "98,027 rows; 15 MB (config te)"
+  size_confidence: Confirmed
+  acquisition_method: "load_dataset('ai4bharat/IndicQuestionGeneration', 'te')"
+  license: CC BY-NC 4.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicQuestionGeneration"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Low
+  processing_needs: Machine-translated text.
+
+- record_id: TEL-ANN-012
+  source_name: csebuetnlp (BUET CSE NLP Group)
+  collection_name: XL-Sum — Telugu
+  organization: BUET CSE NLP Group (Hasan et al. 2021)
+  org_type: Academic
+  official_url: https://github.com/csebuetnlp/xl-sum
+  collection_url: https://huggingface.co/datasets/csebuetnlp/xlsum/blob/main/data/telugu_XLSum_v2.0.tar.bz2
+  description: Article-summary pairs from BBC Telugu (bbc.com/telugu) for abstractive summarisation.
+  secondary_categories: [PERIOD]
+  telugu_scope: Telugu subset of multilingual
+  formats: [JSONL in tar.bz2]
+  content_types: [news article, summary, title]
+  size_telugu: "13,025 pairs (train 10,421 / val 1,302 / test 1,302); archive 17.8 MB"
+  size_confidence: Confirmed
+  metadata_fields: [id, url, title]
+  annotations: [professional summary (BBC lead)]
+  acquisition_method: Download data/telugu_XLSum_v2.0.tar.bz2 from the HF repo or the GitHub link.
+  license: CC BY-NC-SA 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://github.com/csebuetnlp/xl-sum
+  copyright_notes: Text is BBC content; non-commercial research licence.
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/GEM/xlsum"
+  evidence_urls:
+  - "https://github.com/csebuetnlp/xl-sum"
+  - "https://huggingface.co/api/datasets/csebuetnlp/xlsum/tree/main/data"
+  verification_status: Verified
+  verification_method: GitHub README table (counts) + HF file listing (size)
+  corpus_value: Medium
+
+- record_id: TEL-ANN-013
+  source_name: csebuetnlp (BUET CSE NLP Group)
+  collection_name: CrossSum — Telugu pairs
+  organization: BUET CSE NLP Group (Bhattacharjee et al. 2023)
+  org_type: Academic
+  official_url: https://github.com/csebuetnlp/CrossSum
+  collection_url: https://huggingface.co/datasets/csebuetnlp/CrossSum
+  description: Cross-lingual summarisation pairs aligned across XL-Sum languages; 89 files involving Telugu as source or target.
+  telugu_scope: Telugu subset of multilingual
+  languages: [te, en, bn, hi, ta, ar]
+  formats: [JSONL in tar.bz2]
+  content_types: [article/summary pairs across languages]
+  size_telugu: "89 Telugu-paired archives, 101 MB"
+  size_confidence: Confirmed
+  acquisition_method: Download data/*telugu*_CrossSum.tar.bz2 from the HF repo.
+  license: CC BY-NC-SA 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://huggingface.co/datasets/csebuetnlp/CrossSum
+  duplicates_mirrors: [TEL-ANN-012]
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/csebuetnlp/CrossSum/tree/main/data"
+  verification_status: Verified
+  verification_method: HF API + file listing
+  corpus_value: Low
+
+- record_id: TEL-ANN-014
+  source_name: Google Research
+  collection_name: TyDi QA — Telugu
+  organization: Google Research (Clark et al. 2020)
+  org_type: Commercial
+  official_url: https://github.com/google-research-datasets/tydiqa
+  collection_url: https://huggingface.co/datasets/google-research-datasets/tydiqa
+  description: Typologically diverse QA benchmark with questions written by native speakers and answers from Wikipedia; Telugu is one of 11 languages (primary task and GoldP).
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet, JSONL]
+  content_types: [question, Wikipedia article, passage/minimal answer]
+  size_telugu: Telugu portion not separately measured (whole dataset 240,544 rows, 2.94 GB)
+  size_confidence: Unknown
+  annotations: [passage answer, minimal answer span, yes/no]
+  acquisition_method: "load_dataset('google-research-datasets/tydiqa', 'primary_task') then filter language=='telugu'"
+  license: Apache 2.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://github.com/google-research-datasets/tydiqa
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/khalidalt/tydiqa-goldp"
+  - "https://huggingface.co/datasets/google/xtreme"
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/google-research-datasets/tydiqa"
+  verification_status: Partially Verified
+  verification_method: HF API (license, files); Telugu count not filtered
+  unresolved_issues: Count Telugu examples by filtering the language field.
+  corpus_value: Medium
+
+- record_id: TEL-ANN-015
+  source_name: MIRACL / Mr. TyDi
+  collection_name: MIRACL (te) and Mr. TyDi (telugu) retrieval benchmarks
+  organization: University of Waterloo (Castorini) & Huawei Noah's Ark
+  org_type: Academic
+  official_url: https://project-miracl.github.io/
+  collection_url: https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-te
+  description: Monolingual retrieval benchmarks over Telugu Wikipedia passages with native-speaker queries and relevance judgments.
+  telugu_scope: Telugu subset of multilingual
+  formats: [TSV (topics/qrels), JSONL (corpus)]
+  content_types: [queries, qrels, passages]
+  size_telugu: "Mr. TyDi telugu 5,509 query rows (datasets-server); MIRACL te topics + qrels files present (dev/train/test-a)"
+  size_confidence: Confirmed
+  annotations: [relevance judgments]
+  acquisition_method: "load_dataset('miracl/miracl', 'te'); corpus: miracl/miracl-corpus 'te'; load_dataset('castorini/mr-tydi', 'telugu')"
+  license: Apache 2.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/miracl/miracl
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/castorini/mr-tydi"
+  - "https://huggingface.co/datasets/miracl/miracl-corpus"
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/miracl/miracl/tree/main/miracl-v1.0-te"
+  - "https://datasets-server.huggingface.co/size?dataset=castorini/mr-tydi"
+  verification_status: Verified
+  verification_method: HF API + file listing + datasets-server size
+  corpus_value: Low
+
+- record_id: TEL-ANN-016
+  source_name: Google / Hugging Face
+  collection_name: XTREME — Telugu components (PAN-X.te, udpos.Telugu, tatoeba.tel)
+  organization: Google Research (Hu et al. 2020)
+  org_type: Commercial
+  official_url: https://github.com/google-research/xtreme
+  collection_url: https://huggingface.co/datasets/google/xtreme
+  description: Cross-lingual benchmark; Telugu appears in WikiANN NER (PAN-X), UD POS and Tatoeba retrieval.
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [tagged sentences, sentence pairs]
+  size_telugu: "PAN-X.te 3,000; udpos.Telugu 1,328; tatoeba.tel 234"
+  size_confidence: Confirmed
+  annotations: [NER tags, UPOS tags]
+  acquisition_method: "load_dataset('google/xtreme', 'PAN-X.te')"
+  license: Mixed per component (Apache 2.0, CC BY 4.0, CC BY-SA 4.0, ...)
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Varies
+  license_evidence_url: https://huggingface.co/datasets/google/xtreme
+  duplicates_mirrors: [TEL-ANN-017, TEL-LEX-010, TEL-PAR-017]
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=google/xtreme"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Low
+
+- record_id: TEL-ANN-017
+  source_name: Hugging Face (unimelb-nlp)
+  collection_name: WikiANN — te
+  organization: Pan et al. 2017 (RPI); Rahimi et al. 2019 splits
+  org_type: Academic
+  official_url: https://huggingface.co/datasets/unimelb-nlp/wikiann
+  collection_url: https://huggingface.co/datasets/unimelb-nlp/wikiann
+  description: Silver-standard NER from Wikipedia anchor links (PER/LOC/ORG), balanced splits.
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [tagged sentences]
+  size_telugu: "3,000 sentences (1,000 train / 1,000 dev / 1,000 test)"
+  size_confidence: Confirmed
+  annotations: [NER IOB2]
+  acquisition_method: "load_dataset('unimelb-nlp/wikiann', 'te')"
+  license: unknown (HF tag)
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/unimelb-nlp/wikiann
+  duplicates_mirrors: [TEL-ANN-016]
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=unimelb-nlp/wikiann"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Low
+
+- record_id: TEL-ANN-018
+  source_name: Meta AI
+  collection_name: Belebele and SIB-200 — tel_Telu
+  organization: Meta AI (Belebele, 2023); Adelani et al. (SIB-200, 2024)
+  org_type: Commercial
+  official_url: https://github.com/facebookresearch/belebele
+  collection_url: https://huggingface.co/datasets/facebook/belebele
+  description: Belebele is multiple-choice reading comprehension over FLORES passages; SIB-200 is topic classification over FLORES sentences. Both include Telugu.
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [passage/question/choices; sentence/topic]
+  size_telugu: "Belebele tel_Telu 900 questions; SIB-200 tel_Telu 1,004 sentences"
+  size_confidence: Confirmed
+  annotations: [correct answer; topic label (7 classes)]
+  acquisition_method: "load_dataset('facebook/belebele', 'tel_Telu'); load_dataset('Davlan/sib200', 'tel_Telu')"
+  license: CC BY-SA 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/facebook/belebele
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/Davlan/sib200"
+  - "https://huggingface.co/datasets/mteb/belebele"
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=facebook/belebele"
+  - "https://datasets-server.huggingface.co/size?dataset=Davlan/sib200"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Low
+  processing_needs: Evaluation only.
+
+- record_id: TEL-ANN-019
+  source_name: Amazon Science
+  collection_name: MASSIVE — te-IN
+  organization: Amazon (FitzGerald et al. 2022)
+  org_type: Commercial
+  official_url: https://github.com/alexa/massive
+  collection_url: https://huggingface.co/datasets/AmazonScience/massive
+  description: Spoken-language-understanding dataset of virtual-assistant utterances (intent + slots), localised by professional translators into 51 locales incl. te-IN.
+  telugu_scope: Telugu subset of multilingual
+  formats: [JSONL]
+  content_types: [utterances with intents and slot annotations]
+  size_telugu: "Per-locale count not measured; README states >1M utterances across 52 languages (~19K per locale if evenly split)"
+  size_confidence: Estimate
+  annotations: [intent (60), slots (55), scenario (18)]
+  acquisition_method: "Download amazon-massive-dataset-1.1.tar.gz from GitHub release; HF repo uses a loader script"
+  license: CC BY 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://github.com/alexa/massive
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/SetFit/amazon_massive_scenario_te-IN"
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/AmazonScience/massive"
+  verification_status: Partially Verified
+  verification_method: HF API (licence); GitHub README (total size); HF repo uses a loader script so te-IN rows not measured
+  corpus_value: Medium
+
+- record_id: TEL-ANN-020
+  source_name: Cohere Labs (Aya)
+  collection_name: Aya Dataset and Aya Collection — Telugu
+  organization: Cohere For AI / Cohere Labs (Aya Open Science Initiative)
+  org_type: Commercial
+  official_url: https://cohere.com/research/aya
+  collection_url: https://huggingface.co/datasets/CohereLabs/aya_collection_language_split/tree/main/telugu
+  description: Aya Dataset = human-written instruction/response pairs from native speakers (incl. Telugu); Aya Collection = templated + translated instruction data (513M rows) with a Telugu split.
+  telugu_scope: Telugu subset of multilingual
+  languages: [te]
+  formats: [Parquet]
+  content_types: [instruction / response pairs]
+  size_telugu: "Aya Collection telugu split 4,606,402 rows / 2.08 GB; Aya Dataset Telugu count not measured"
+  size_confidence: Confirmed
+  annotations: [source dataset, template, task type]
+  acquisition_method: "load_dataset('CohereLabs/aya_collection_language_split', 'telugu'); load_dataset('CohereLabs/aya_dataset') and filter language=='Telugu'"
+  license: Apache 2.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/CohereLabs/aya_collection_language_split
+  copyright_notes: Aya Collection contains machine-translated and templated content from datasets with their own licences.
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/1-800-SHARED-TASKS/aya_collection_telugu"
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=CohereLabs/aya_collection_language_split"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  unresolved_issues: Count Telugu rows in Aya Dataset (human-written) — filter endpoint failed during check.
+  corpus_value: High
+  processing_needs: Separate human-written from translated items.
+
+- record_id: TEL-ANN-021
+  source_name: AI4Bharat
+  collection_name: MILU (Multi-task Indic Language Understanding) — Telugu
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://github.com/AI4Bharat/MILU
+  collection_url: https://huggingface.co/datasets/ai4bharat/MILU
+  description: LLM evaluation benchmark of exam-style multiple-choice questions from Indian national/state exams across 41 subjects, with culturally specific content.
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [MCQ questions]
+  size_telugu: "7,304 questions (README table)"
+  size_confidence: Reported by source
+  annotations: [subject, domain, answer]
+  acquisition_method: Accept terms on HF and load config 'Telugu'.
+  registration: "Yes"
+  authentication: HF gated (accept terms)
+  license: CC BY 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://github.com/AI4Bharat/MILU#license
+  evidence_urls:
+  - "https://github.com/AI4Bharat/MILU"
+  verification_status: Verified
+  verification_method: GitHub README (counts, licence) + HF API (gated, configs)
+  corpus_value: Medium
+  processing_needs: Evaluation only.
+
+- record_id: TEL-ANN-022
+  source_name: Cohere Labs
+  collection_name: Global-MMLU (te) and INCLUDE-base-44 (Telugu)
+  organization: Cohere Labs and collaborators
+  org_type: Commercial
+  official_url: https://huggingface.co/CohereLabs
+  collection_url: https://huggingface.co/datasets/CohereLabs/Global-MMLU
+  description: Global-MMLU = MMLU translated/post-edited into 42 languages incl. Telugu, with cultural-sensitivity labels; INCLUDE = regional exam questions collected in 44 languages incl. Telugu.
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [MCQ questions]
+  size_telugu: "Global-MMLU te 14,327 rows; INCLUDE-base-44 Telugu 568 rows"
+  size_confidence: Confirmed
+  annotations: [subject, cultural-sensitivity label, answer]
+  acquisition_method: "load_dataset('CohereLabs/Global-MMLU', 'te'); load_dataset('CohereLabs/include-base-44', 'Telugu')"
+  license: Apache 2.0 (HF tags)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/CohereLabs/Global-MMLU
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/CohereLabs/include-base-44"
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=CohereLabs/Global-MMLU"
+  - "https://datasets-server.huggingface.co/size?dataset=CohereLabs/include-base-44"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Medium
+  processing_needs: Evaluation only.
+
+- record_id: TEL-ANN-023
+  source_name: Google
+  collection_name: IndicGenBench — Telugu (XQuAD-IN, XorQA-IN, CrossSum-IN, FLORES-IN)
+  organization: Google Research India (Singh et al. 2024)
+  org_type: Commercial
+  official_url: https://github.com/google-research-datasets/indic-gen-bench
+  collection_url: https://huggingface.co/datasets/google/IndicGenBench_xquad_in
+  description: Generation benchmark suite extending XQuAD, XOR-QA, CrossSum and FLORES to 29 Indic languages via human translation; includes Telugu.
+  telugu_scope: Telugu subset of multilingual
+  languages: [te, en]
+  formats: [JSON]
+  content_types: [QA, summaries, translations]
+  size_telugu: "xquad_te_test.json etc. present (per-task Telugu files)"
+  size_confidence: Confirmed
+  acquisition_method: Download per-language JSON files from each google/IndicGenBench_* repo.
+  license: CC BY-SA 4.0 (xquad, flores), CC BY-NC-SA 4.0 (crosssum), MIT (xorqa) — per HF tags
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Varies
+  license_evidence_url: https://huggingface.co/datasets/google/IndicGenBench_xquad_in
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/google/IndicGenBench_flores_in"
+  - "https://huggingface.co/datasets/google/IndicGenBench_crosssum_in"
+  - "https://huggingface.co/datasets/google/IndicGenBench_xorqa_in"
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/google/IndicGenBench_xquad_in/tree/main"
+  verification_status: Verified
+  verification_method: HF API licence tags + file listings
+  corpus_value: Low
+  processing_needs: Evaluation only.
+
+- record_id: TEL-ANN-024
+  source_name: Hugging Face (mounikaiiith)
+  collection_name: Telugu multi-task corpus — sentiment, emotion, hate speech, sarcasm (+ clickbait)
+  organization: IIIT Hyderabad (Marreddy, Oota et al.)
+  org_type: Academic
+  official_url: https://huggingface.co/mounikaiiith
+  collection_url: https://huggingface.co/datasets/mounikaiiith/Telugu_Sentiment
+  description: One corpus of 35,142 Telugu sentences annotated for four tasks (sentiment, emotion, hate speech, sarcasm), published as four HF repos; a separate 112,657-row Telugu clickbait dataset.
+  telugu_scope: Telugu-only
+  formats: [CSV/Parquet]
+  content_types: [sentences with labels]
+  size_telugu: "35,142 sentences x 4 label sets; clickbait 112,657 rows"
+  size_confidence: Confirmed
+  annotations: [sentiment, emotion, hate speech, sarcasm, clickbait]
+  acquisition_method: "load_dataset('mounikaiiith/Telugu_Sentiment') (also Telugu_Emotion, Telugu-Hatespeech, Telugu-Sarcasm, Telugu_Clickbait)"
+  license: CC BY 4.0 (HF tags)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/mounikaiiith/Telugu_Sentiment
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/mounikaiiith/Telugu_Emotion"
+  - "https://huggingface.co/datasets/mounikaiiith/Telugu-Hatespeech"
+  - "https://huggingface.co/datasets/mounikaiiith/Telugu-Sarcasm"
+  - "https://huggingface.co/datasets/mounikaiiith/Telugu_Clickbait"
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/mounikaiiith/Telugu_Sentiment"
+  verification_status: Verified
+  verification_method: HF API (licence) + datasets-server row counts
+  corpus_value: Medium
+
+- record_id: TEL-ANN-025
+  source_name: Hugging Face (various)
+  collection_name: Telugu prosody / metre datasets — Chandassu, Chandohasam, Padyam2Gadyam
+  organization: BodduSriPavan111; samvaran; PoetryMTEB
+  org_type: Individual
+  official_url: https://huggingface.co/datasets/BodduSriPavan111/chandassu
+  collection_url: https://huggingface.co/datasets/BodduSriPavan111/chandassu
+  description: "Classical Telugu verse (padyam) annotated for metre (chandassu): Chandassu (4,651 verses, metre labels, MIT); Chandohasam (15,415 rows, CC BY-SA 4.0); Padyam2Gadyam (verse -> prose paraphrase bitext 1,199 rows and metre classification, CC BY-NC 4.0)."
+  secondary_categories: [LIT]
+  telugu_scope: Telugu-majority
+  languages: [te, en]
+  formats: [Parquet/CSV]
+  content_types: [verses with metre labels; verse/prose pairs]
+  size_telugu: "Chandassu 4,651; Chandohasam 15,415; Padyam2Gadyam 1,199 rows"
+  size_confidence: Confirmed
+  annotations: [metre (vṛtta/jāti/upajāti), gana segmentation, prose meaning]
+  acquisition_method: "load_dataset('BodduSriPavan111/chandassu'); load_dataset('samvaran/chandohasam'); load_dataset('PoetryMTEB/Padyam2GadyamBitextMining')"
+  license: MIT / CC BY-SA 4.0 / CC BY-NC 4.0 respectively
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Varies
+  license_evidence_url: https://huggingface.co/datasets/BodduSriPavan111/chandassu
+  copyright_notes: Classical verses are public domain; prose explanations may come from copyrighted commentaries.
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/samvaran/chandohasam"
+  - "https://huggingface.co/datasets/PoetryMTEB/Padyam2GadyamBitextMining"
+  - "https://huggingface.co/datasets/PoetryMTEB/ChandassuMeterClassification"
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=BodduSriPavan111/chandassu"
+  - "https://datasets-server.huggingface.co/size?dataset=samvaran/chandohasam"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  unresolved_issues: Source of prose meanings (Padyam2Gadyam) not documented in our check.
+  corpus_value: Medium
+
+- record_id: TEL-ANN-026
+  source_name: Hugging Face (Telugu-LLM-Labs and others)
+  collection_name: Telugu instruction-tuning datasets (translated and native)
+  organization: Telugu-LLM-Labs; SuryaKrishna02 (Aya); eswardivi; VenkataRamanaKurumallajaddangi; narendarcodes
+  org_type: Community/Volunteer
+  official_url: https://huggingface.co/Telugu-LLM-Labs
+  collection_url: https://huggingface.co/datasets/Telugu-LLM-Labs/telugu_alpaca_yahma_cleaned_filtered_romanized
+  description: "Group record for community instruction data: Telugu-LLM-Labs translated Alpaca/GPTeacher (with romanised variants, CC BY 4.0 / MIT), aya-telugu-poems/jokes/food-recipes/paraphrase (Apache 2.0), Telugu_InstructData, Pure-Telugu-Alpaca, Telugu-MultiTask-Instruct-77K. Mostly machine-translated English instructions."
+  telugu_scope: Telugu-only
+  scripts: [Telu, Latn]
+  formats: [Parquet]
+  content_types: [instruction / response pairs]
+  size_telugu: "Each 1K-100K rows (e.g. telugu_alpaca romanized 28,910)"
+  size_confidence: Estimate
+  acquisition_method: load_dataset(<repo id>)
+  license: Varies (CC BY 4.0, MIT, Apache 2.0, CC BY-SA 3.0)
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Varies
+  license_evidence_url: https://huggingface.co/datasets/Telugu-LLM-Labs/telugu_alpaca_yahma_cleaned_filtered_romanized
+  copyright_notes: Translated from datasets that may carry OpenAI-output terms (Alpaca/GPTeacher).
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/SuryaKrishna02/aya-telugu-poems"
+  - "https://huggingface.co/datasets/eswardivi/Telugu_InstructData"
+  - "https://huggingface.co/datasets/narendarcodes/Telugu-MultiTask-Instruct-77K"
+  - "https://huggingface.co/datasets/VenkataRamanaKurumallajaddangi/Pure-Telugu-Alpaca"
+  evidence_urls:
+  - "https://huggingface.co/api/datasets?filter=language:te"
+  verification_status: Partially Verified
+  verification_method: HF API listing metadata; telugu_alpaca row count measured
+  corpus_value: Low
+  processing_needs: Machine-translation artefacts; quality filtering.
+
+- record_id: TEL-ANN-027
+  source_name: AI4Bharat / Hugging Face
+  collection_name: IndicAlign (Instruct and Toxic) — Telugu portions
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/indic-align
+  description: "Instruction/alignment collection from IndicLLMSuite (2024) with subsets such as Anudesh (crowd-sourced native prompts), Wiki_Chat, Wiki_Conv, IndoWordNet-derived, translated Dolly/OASST/HH-RLHF, Toxic_Matrix; Telugu included in each multilingual subset."
+  telugu_scope: Telugu subset of multilingual
+  languages: [te, en]
+  scripts: [Telu, Latn]
+  formats: [Parquet]
+  content_types: [conversations / instruction pairs]
+  size_telugu: Unknown (files not split by language; total 97.4M rows)
+  size_confidence: Unknown
+  annotations: [subset/source labels]
+  acquisition_method: "load_dataset('ai4bharat/indic-align', 'Anudesh') and filter language"
+  license: CC BY 4.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/indic-align
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=ai4bharat/indic-align"
+  verification_status: Partially Verified
+  verification_method: HF API + datasets-server config sizes
+  unresolved_issues: Telugu row counts per subset require filtering by language column.
+  corpus_value: Medium
+
+- record_id: TEL-ANN-028
+  source_name: Hugging Face (multilingual instruction mixtures)
+  collection_name: xP3x / Bactrian-X / PangeaInstruct — Telugu portions
+  organization: BigScience / MBZUAI / CMU NeuLab
+  org_type: Academic
+  official_url: https://huggingface.co/datasets/CohereLabs/xP3x
+  collection_url: https://huggingface.co/datasets/MBZUAI/Bactrian-X
+  description: "Large multilingual instruction mixtures containing Telugu: Bactrian-X (Alpaca+Dolly translated, te 67,017 rows, CC BY-NC 4.0); xP3x (277 languages, Apache 2.0); PangeaInstruct (multimodal, Apache 2.0)."
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet, JSONL]
+  content_types: [instruction / response pairs]
+  size_telugu: "Bactrian-X te 67,017 rows (26 MB); others not measured"
+  size_confidence: Confirmed
+  acquisition_method: "load_dataset('MBZUAI/Bactrian-X', 'te')"
+  license: CC BY-NC 4.0 (Bactrian-X); Apache 2.0 (xP3x, PangeaInstruct)
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Varies
+  license_evidence_url: https://huggingface.co/datasets/MBZUAI/Bactrian-X
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/CohereLabs/xP3x"
+  - "https://huggingface.co/datasets/neulab/PangeaInstruct"
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=MBZUAI/Bactrian-X"
+  verification_status: Partially Verified
+  verification_method: HF API; Bactrian-X te measured
+  corpus_value: Low
+  processing_needs: Machine translated.
+
+- record_id: TEL-ANN-029
+  source_name: Hugging Face (various)
+  collection_name: Small Telugu task datasets — code-switching, riddles, idioms, movie reviews, news classification, XStoryCloze
+  organization: Various (anishka, desik98, Rashmiv261997, Sanath369, mlexplorer008, juletxara)
+  org_type: Individual
+  official_url: https://huggingface.co/datasets?language=language:te
+  collection_url: https://huggingface.co/datasets/anishka/CodeSwitching-TE-EN
+  description: "Group record: CodeSwitching-TE-EN (token-level LID, Apache 2.0); TeluguRiddles (Apache 2.0); telugu-idiom-proverb-benchmark (CC BY-SA 4.0); Telugu_movie_reviews; telugu_news_classification (MIT); XStoryCloze te (1,871 rows, CC BY-SA 4.0, translated by Meta)."
+  secondary_categories: [DIAL]
+  telugu_scope: Telugu-majority
+  languages: [te, en]
+  formats: [Parquet/CSV]
+  content_types: [labelled sentences]
+  size_telugu: "Each <100K rows; XStoryCloze te 1,871"
+  size_confidence: Estimate
+  acquisition_method: load_dataset(<repo id>)
+  license: Varies per repo (see description)
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Varies
+  license_evidence_url: https://huggingface.co/datasets/juletxara/xstory_cloze
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/juletxara/xstory_cloze"
+  - "https://huggingface.co/datasets/desik98/TeluguRiddles"
+  - "https://huggingface.co/datasets/Rashmiv261997/telugu-idiom-proverb-benchmark"
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=juletxara/xstory_cloze"
+  verification_status: Partially Verified
+  verification_method: HF API listing metadata
+  corpus_value: Low

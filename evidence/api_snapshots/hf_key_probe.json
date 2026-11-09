@@ -1,0 +1,3058 @@
+{
+ "ai4bharat/sangraha": {
+  "id": "ai4bharat/sangraha",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-03-05T06:35:50.000Z",
+  "downloads": 55921,
+  "size_cat": [
+   ":100M<n<1B"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 17,
+  "total_rows": 177355164,
+  "total_bytes": null,
+  "partial": true,
+  "telugu_configs": []
+ },
+ "ai4bharat/IndicCorpV2": {
+  "id": "ai4bharat/IndicCorpV2",
+  "license": [],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-03-10T16:15:11.000Z",
+  "downloads": 4334,
+  "size_cat": [
+   ":100M<n<1B"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 180990151,
+  "total_bytes": null,
+  "partial": true,
+  "telugu_configs": []
+ },
+ "ai4bharat/samanantar": {
+  "id": "ai4bharat/samanantar",
+  "license": [
+   "cc-by-nc-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-12-24T08:13:04.000Z",
+  "downloads": 2660,
+  "size_cat": [
+   ":10M<n<100M"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":translation"
+  ],
+  "n_lang": 12,
+  "total_rows": 49774246,
+  "total_bytes": 7220117406,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 4946035,
+    "bytes": 599351284
+   }
+  ]
+ },
+ "ai4bharat/BPCC": {
+  "id": "ai4bharat/BPCC",
+  "license": [],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2025-12-26T13:42:26.000Z",
+  "downloads": 5396,
+  "size_cat": [
+   ":100M<n<1B"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": []
+ },
+ "ai4bharat/naamapadam": {
+  "id": "ai4bharat/naamapadam",
+  "license": [
+   "cc0-1.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2023-05-24T17:09:03.000Z",
+  "downloads": 1707,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":token-classification"
+  ],
+  "n_lang": 11,
+  "total_rows": 5787343,
+  "total_bytes": 360389804,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 511288,
+    "bytes": 25703832
+   }
+  ]
+ },
+ "ai4bharat/IndicQA": {
+  "id": "ai4bharat/IndicQA",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-02-28T15:48:54.000Z",
+  "downloads": 3730,
+  "size_cat": [
+   ":n<1K"
+  ],
+  "tasks": [
+   ":question-answering"
+  ],
+  "n_lang": 11,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "ai4bharat/indic_glue": {
+  "id": "ai4bharat/indic_glue",
+  "license": [
+   "other"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-01-04T12:36:30.000Z",
+  "downloads": 2133,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":text-classification",
+   ":token-classification",
+   ":multiple-choice"
+  ],
+  "n_lang": 12,
+  "total_rows": 886628,
+  "total_bytes": 606067886,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "actsa-sc.te",
+    "rows": 5410,
+    "bytes": 727630
+   },
+   {
+    "config": "csqa.te",
+    "rows": 41338,
+    "bytes": 17447618
+   },
+   {
+    "config": "cvit-mkb-clsr.en-te",
+    "rows": 5049,
+    "bytes": 840410
+   },
+   {
+    "config": "inltkh.te",
+    "rows": 5410,
+    "bytes": 726293
+   },
+   {
+    "config": "wiki-ner.te",
+    "rows": 9929,
+    "bytes": 1006881
+   },
+   {
+    "config": "wstp.te",
+    "rows": 100000,
+    "bytes": 50158580
+   }
+  ]
+ },
+ "ai4bharat/indic-align": {
+  "id": "ai4bharat/indic-align",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-07-25T03:38:13.000Z",
+  "downloads": 2045,
+  "size_cat": [
+   ":10M<n<100M"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 15,
+  "total_rows": 97419884,
+  "total_bytes": 28241267930,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "ai4bharat/indicvoices_r": {
+  "id": "ai4bharat/indicvoices_r",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2025-03-06T05:52:13.000Z",
+  "downloads": 10619,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":text-to-speech"
+  ],
+  "n_lang": 15,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "Telugu"
+  ]
+ },
+ "ai4bharat/IndicVoices": {
+  "id": "ai4bharat/IndicVoices",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-06-15T03:43:22.000Z",
+  "downloads": 21590,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "telugu"
+  ]
+ },
+ "ai4bharat/Rasa": {
+  "id": "ai4bharat/Rasa",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-06-06T14:50:25.000Z",
+  "downloads": 9612,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":text-to-speech"
+  ],
+  "n_lang": 13,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "Telugu"
+  ]
+ },
+ "ai4bharat/NPTEL": {
+  "id": "ai4bharat/NPTEL",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2024-11-15T17:30:33.000Z",
+  "downloads": 2280,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [],
+  "n_lang": 10,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": []
+ },
+ "ai4bharat/kathbath": {
+  "id": "ai4bharat/kathbath",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2025-03-07T10:56:17.000Z",
+  "downloads": 8313,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "telugu"
+  ]
+ },
+ "ai4bharat/Shrutilipi": {
+  "id": "ai4bharat/Shrutilipi",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2025-03-07T12:16:22.000Z",
+  "downloads": 6409,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "telugu"
+  ]
+ },
+ "ai4bharat/Aksharantar": {
+  "id": "ai4bharat/Aksharantar",
+  "license": [
+   "cc"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2023-08-31T07:05:34.000Z",
+  "downloads": 3159,
+  "size_cat": [],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 21,
+  "total_rows": 0,
+  "total_bytes": 0,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "ai4bharat/IN22-Gen": {
+  "id": "ai4bharat/IN22-Gen",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2025-03-19T03:31:31.000Z",
+  "downloads": 1061,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 23,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": []
+ },
+ "ai4bharat/IN22-Conv": {
+  "id": "ai4bharat/IN22-Conv",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2025-03-19T03:33:19.000Z",
+  "downloads": 668,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 23,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": []
+ },
+ "ai4bharat/IndicSentiment": {
+  "id": "ai4bharat/IndicSentiment",
+  "license": [],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-05-06T11:35:15.000Z",
+  "downloads": 1332,
+  "size_cat": [],
+  "tasks": [],
+  "n_lang": 10,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "ai4bharat/MILU": {
+  "id": "ai4bharat/MILU",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-09-08T17:22:17.000Z",
+  "downloads": 1183,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":multiple-choice",
+   ":question-answering"
+  ],
+  "n_lang": 11,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "Telugu"
+  ]
+ },
+ "ai4bharat/IndicHeadlineGeneration": {
+  "id": "ai4bharat/IndicHeadlineGeneration",
+  "license": [
+   "cc-by-nc-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-10-13T06:08:20.000Z",
+  "downloads": 452,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [],
+  "n_lang": 11,
+  "total_rows": 1316268,
+  "total_bytes": 1058823408,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 26717,
+    "bytes": 21031900
+   }
+  ]
+ },
+ "ai4bharat/IndicParaphrase": {
+  "id": "ai4bharat/IndicParaphrase",
+  "license": [
+   "cc-by-nc-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-10-13T06:08:55.000Z",
+  "downloads": 1102,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [],
+  "n_lang": 11,
+  "total_rows": 5564833,
+  "total_bytes": 798363210,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 616283,
+    "bytes": 82052400
+   }
+  ]
+ },
+ "ai4bharat/IndicSentenceSummarization": {
+  "id": "ai4bharat/IndicSentenceSummarization",
+  "license": [
+   "cc-by-nc-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-10-13T06:08:31.000Z",
+  "downloads": 229,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [],
+  "n_lang": 11,
+  "total_rows": 1110228,
+  "total_bytes": 184382555,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 25450,
+    "bytes": 3662649
+   }
+  ]
+ },
+ "ai4bharat/IndicWikiBio": {
+  "id": "ai4bharat/IndicWikiBio",
+  "license": [
+   "cc-by-nc-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-10-13T06:08:34.000Z",
+  "downloads": 470,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [],
+  "n_lang": 9,
+  "total_rows": 57426,
+  "total_bytes": 44883389,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 4268,
+    "bytes": 2726946
+   }
+  ]
+ },
+ "ai4bharat/IndicQuestionGeneration": {
+  "id": "ai4bharat/IndicQuestionGeneration",
+  "license": [
+   "cc-by-nc-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-10-13T06:08:25.000Z",
+  "downloads": 432,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [],
+  "n_lang": 11,
+  "total_rows": 1078297,
+  "total_bytes": 176110787,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 98027,
+    "bytes": 15589636
+   }
+  ]
+ },
+ "ai4bharat/IndicXParaphrase": {
+  "id": "ai4bharat/IndicXParaphrase",
+  "license": [],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-10-14T16:40:28.000Z",
+  "downloads": 432,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 20020,
+  "total_bytes": 12458802,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 2002,
+    "bytes": 1227500
+   }
+  ]
+ },
+ "ai4bharat/IndicCOPA": {
+  "id": "ai4bharat/IndicCOPA",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-12-15T11:34:32.000Z",
+  "downloads": 597,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":multiple-choice"
+  ],
+  "n_lang": 19,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "ai4bharat/IndicXNLI": {
+  "id": "ai4bharat/IndicXNLI",
+  "error": "HTTP Error 401: Unauthorized"
+ },
+ "ai4bharat/Pralekha": {
+  "id": "ai4bharat/Pralekha",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-01-20T11:19:49.000Z",
+  "downloads": 1291,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 12,
+  "total_rows": 3540423,
+  "total_bytes": 11137513135,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "test",
+    "rows": 10998,
+    "bytes": 55844958
+   }
+  ]
+ },
+ "ai4bharat/Bhasha-Abhijnaanam": {
+  "id": "ai4bharat/Bhasha-Abhijnaanam",
+  "license": [
+   "cc0-1.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2023-06-22T08:01:44.000Z",
+  "downloads": 149,
+  "size_cat": [
+   ":n<1K"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 22,
+  "total_rows": 1,
+  "total_bytes": null,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "ai4bharat/Svarah": {
+  "id": "ai4bharat/Svarah",
+  "license": [],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2025-03-10T04:29:23.000Z",
+  "downloads": 2962,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": []
+ },
+ "ai4bharat/Mann-ki-Baat": {
+  "id": "ai4bharat/Mann-ki-Baat",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2024-12-23T16:58:58.000Z",
+  "downloads": 581,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [],
+  "n_lang": 13,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": []
+ },
+ "ai4bharat/IndicVoices-ST": {
+  "id": "ai4bharat/IndicVoices-ST",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2025-01-05T05:59:03.000Z",
+  "downloads": 1007,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [],
+  "n_lang": 13,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": []
+ },
+ "ai4bharat/Vistaar": {
+  "id": "ai4bharat/Vistaar",
+  "error": "HTTP Error 401: Unauthorized"
+ },
+ "ai4bharat/Lahaja": {
+  "id": "ai4bharat/Lahaja",
+  "license": [
+   "mit"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2025-03-07T12:08:10.000Z",
+  "downloads": 1372,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": []
+ },
+ "ai4bharat/IndicNLG-v1.0": {
+  "id": "ai4bharat/IndicNLG-v1.0",
+  "error": "HTTP Error 401: Unauthorized"
+ },
+ "Divyanshu/indicxnli": {
+  "id": "Divyanshu/indicxnli",
+  "license": [
+   "cc0-1.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-10-06T15:26:00.000Z",
+  "downloads": 1280,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":text-classification"
+  ],
+  "n_lang": 11,
+  "total_rows": 4402970,
+  "total_bytes": 2490008449,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 400202,
+    "bytes": 223391426
+   }
+  ]
+ },
+ "wikimedia/wikipedia": {
+  "id": "wikimedia/wikipedia",
+  "license": [
+   "cc-by-sa-3.0",
+   "gfdl"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-01-09T09:40:51.000Z",
+  "downloads": 323470,
+  "size_cat": [
+   ":10M<n<100M"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":fill-mask"
+  ],
+  "n_lang": 322,
+  "total_rows": 61614907,
+  "total_bytes": 71791889649,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "20231101.te",
+    "rows": 87854,
+    "bytes": 215097076
+   },
+   {
+    "config": "20231101.tet",
+    "rows": 1468,
+    "bytes": 744390
+   }
+  ]
+ },
+ "wikimedia/wikisource": {
+  "id": "wikimedia/wikisource",
+  "license": [
+   "cc-by-sa-3.0",
+   "gfdl"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2023-12-08T13:36:41.000Z",
+  "downloads": 7662,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":fill-mask"
+  ],
+  "n_lang": 73,
+  "total_rows": 1664680,
+  "total_bytes": 13433396965,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "20231201.te",
+    "rows": 9012,
+    "bytes": 36668092
+   }
+  ]
+ },
+ "allenai/c4": {
+  "id": "allenai/c4",
+  "license": [
+   "odc-by"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-01-09T19:14:03.000Z",
+  "downloads": 722204,
+  "size_cat": [
+   ":10B<n<100B"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":fill-mask"
+  ],
+  "n_lang": 103,
+  "total_rows": 114005516,
+  "total_bytes": null,
+  "partial": true,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 669396,
+    "bytes": null
+   }
+  ]
+ },
+ "uonlp/CulturaX": {
+  "id": "uonlp/CulturaX",
+  "license": [],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2024-12-16T17:24:53.000Z",
+  "downloads": 26672,
+  "size_cat": [
+   ":1B<n<10B"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":fill-mask"
+  ],
+  "n_lang": 167,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "te"
+  ]
+ },
+ "HPLT/HPLT2.0_cleaned": {
+  "id": "HPLT/HPLT2.0_cleaned",
+  "license": [
+   "cc0-1.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-06-11T09:20:44.000Z",
+  "downloads": 172610,
+  "size_cat": [
+   ":1B<n<10B"
+  ],
+  "tasks": [
+   ":fill-mask",
+   ":text-generation"
+  ],
+  "n_lang": 186,
+  "total_rows": 5272038036,
+  "total_bytes": 14897792520173,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "tel_Telu",
+    "rows": 2058193,
+    "bytes": 6706642351
+   }
+  ]
+ },
+ "HuggingFaceFW/fineweb-2": {
+  "id": "HuggingFaceFW/fineweb-2",
+  "license": [
+   "odc-by"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-10-27T18:32:07.000Z",
+  "downloads": 153774,
+  "size_cat": [
+   ":1B<n<10B"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 1813,
+  "total_rows": 4484929995,
+  "total_bytes": 8665209958349,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "ote_Latn",
+    "rows": 1232,
+    "bytes": 1224325
+   },
+   {
+    "config": "ted_Latn",
+    "rows": 321,
+    "bytes": 180765
+   },
+   {
+    "config": "tee_Latn",
+    "rows": 451,
+    "bytes": 774700
+   },
+   {
+    "config": "tel_Latn",
+    "rows": 24353,
+    "bytes": 47382403
+   },
+   {
+    "config": "tel_Telu",
+    "rows": 1983328,
+    "bytes": 3989271823
+   },
+   {
+    "config": "teo_Latn",
+    "rows": 794,
+    "bytes": 1099220
+   },
+   {
+    "config": "tet_Latn",
+    "rows": 3650,
+    "bytes": 3445272
+   },
+   {
+    "config": "tew_Latn",
+    "rows": 115,
+    "bytes": 288276
+   }
+  ]
+ },
+ "cis-lmu/GlotCC-V1": {
+  "id": "cis-lmu/GlotCC-V1",
+  "license": [
+   "cc0-1.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-11-01T11:09:18.000Z",
+  "downloads": 3100,
+  "size_cat": [
+   ":1B<n<10B"
+  ],
+  "tasks": [],
+  "n_lang": 1397,
+  "total_rows": 729258130,
+  "total_bytes": null,
+  "partial": true,
+  "telugu_configs": [
+   {
+    "config": "ote-Latn",
+    "rows": 6,
+    "bytes": 28219
+   },
+   {
+    "config": "tel-Latn",
+    "rows": 372,
+    "bytes": 945543
+   },
+   {
+    "config": "tel-Telu",
+    "rows": 119332,
+    "bytes": null
+   },
+   {
+    "config": "teo-Latn",
+    "rows": 46,
+    "bytes": 104101
+   },
+   {
+    "config": "tet-Latn",
+    "rows": 3725,
+    "bytes": 7639091
+   },
+   {
+    "config": "tte-Latn",
+    "rows": 6,
+    "bytes": 29963
+   },
+   {
+    "config": "wsg-Telu",
+    "rows": 2,
+    "bytes": 19987
+   }
+  ]
+ },
+ "statmt/cc100": {
+  "id": "statmt/cc100",
+  "license": [
+   "unknown"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-03-05T12:15:34.000Z",
+  "downloads": 1135,
+  "size_cat": [
+   ":10M<n<100M"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":fill-mask"
+  ],
+  "n_lang": 109,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "oscar-corpus/OSCAR-2301": {
+  "id": "oscar-corpus/OSCAR-2301",
+  "license": [
+   "cc0-1.0"
+  ],
+  "gated": "manual",
+  "private": false,
+  "lastModified": "2025-08-06T14:36:16.000Z",
+  "downloads": 910,
+  "size_cat": [
+   ":n>1T"
+  ],
+  "tasks": [
+   ":fill-mask",
+   ":text-generation"
+  ],
+  "n_lang": 0,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": []
+ },
+ "allenai/MADLAD-400": {
+  "id": "allenai/MADLAD-400",
+  "license": [
+   "odc-by"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-09-09T16:23:42.000Z",
+  "downloads": 224790,
+  "size_cat": [
+   ":n>1T"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 0,
+  "size_error": "HTTP Error 500: Internal Server Error",
+  "telugu_configs": []
+ },
+ "facebook/flores": {
+  "id": "facebook/flores",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-05-29T08:38:45.000Z",
+  "downloads": 5348,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":translation"
+  ],
+  "n_lang": 196,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "eng_Latn-tel_Telu",
+   "tel_Telu",
+   "tel_Telu-eng_Latn"
+  ]
+ },
+ "openlanguagedata/flores_plus": {
+  "id": "openlanguagedata/flores_plus",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-10-25T18:20:10.000Z",
+  "downloads": 22764,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":translation"
+  ],
+  "n_lang": 208,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "tel_Telu"
+  ]
+ },
+ "google/fleurs": {
+  "id": "google/fleurs",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-05-15T09:35:34.000Z",
+  "downloads": 200930,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":automatic-speech-recognition"
+  ],
+  "n_lang": 102,
+  "total_rows": 768120,
+  "total_bytes": 630499951454,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te_in",
+    "rows": 3085,
+    "bytes": 2344140373
+   }
+  ]
+ },
+ "mozilla-foundation/common_voice_17_0": {
+  "id": "mozilla-foundation/common_voice_17_0",
+  "license": [],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-10-24T18:02:20.000Z",
+  "downloads": 3033,
+  "size_cat": [],
+  "tasks": [
+   ":automatic-speech-recognition"
+  ],
+  "n_lang": 0,
+  "size_error": "HTTP Error 500: Internal Server Error",
+  "telugu_configs": []
+ },
+ "facebook/belebele": {
+  "id": "facebook/belebele",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-08-12T22:18:08.000Z",
+  "downloads": 65549,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":question-answering",
+   ":zero-shot-classification",
+   ":text-classification",
+   ":multiple-choice"
+  ],
+  "n_lang": 96,
+  "total_rows": 109800,
+  "total_bytes": 224598747,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "tel_Telu",
+    "rows": 900,
+    "bytes": 3331996
+   }
+  ]
+ },
+ "csebuetnlp/xlsum": {
+  "id": "csebuetnlp/xlsum",
+  "license": [
+   "cc-by-nc-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2023-04-18T01:46:20.000Z",
+  "downloads": 9574,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":summarization",
+   ":text-generation"
+  ],
+  "n_lang": 43,
+  "size_error": "HTTP Error 500: Internal Server Error",
+  "telugu_configs": []
+ },
+ "google/xtreme": {
+  "id": "google/xtreme",
+  "license": [
+   "apache-2.0",
+   "cc-by-4.0",
+   "cc-by-2.0",
+   "cc-by-sa-4.0",
+   "other",
+   "cc-by-nc-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-02-22T17:12:06.000Z",
+  "downloads": 31709,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":multiple-choice",
+   ":question-answering",
+   ":token-classification",
+   ":text-classification",
+   ":text-retrieval"
+  ],
+  "n_lang": 40,
+  "total_rows": 2768692,
+  "total_bytes": 363422674,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "PAN-X.te",
+    "rows": 3000,
+    "bytes": 200516
+   },
+   {
+    "config": "tatoeba.tel",
+    "rows": 234,
+    "bytes": 18260
+   },
+   {
+    "config": "udpos.Telugu",
+    "rows": 1328,
+    "bytes": 46045
+   }
+  ]
+ },
+ "google-research-datasets/tydiqa": {
+  "id": "google-research-datasets/tydiqa",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-08-08T05:57:11.000Z",
+  "downloads": 20180,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":question-answering"
+  ],
+  "n_lang": 11,
+  "total_rows": 240544,
+  "total_bytes": 2941514616,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "miracl/miracl": {
+  "id": "miracl/miracl",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-12-29T05:45:14.000Z",
+  "downloads": 15018,
+  "size_cat": [],
+  "tasks": [
+   ":text-retrieval"
+  ],
+  "n_lang": 18,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "castorini/mr-tydi": {
+  "id": "castorini/mr-tydi",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-10-12T20:25:19.000Z",
+  "downloads": 6322,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":text-retrieval"
+  ],
+  "n_lang": 11,
+  "total_rows": 118436,
+  "total_bytes": 813795932,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "telugu",
+    "rows": 5509,
+    "bytes": 42562524
+   }
+  ]
+ },
+ "unimelb-nlp/wikiann": {
+  "id": "unimelb-nlp/wikiann",
+  "license": [
+   "unknown"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-02-22T14:32:02.000Z",
+  "downloads": 23389,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":token-classification"
+  ],
+  "n_lang": 173,
+  "total_rows": 2003000,
+  "total_bytes": 142776190,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 3000,
+    "bytes": 260846
+   }
+  ]
+ },
+ "CohereLabs/aya_dataset": {
+  "id": "CohereLabs/aya_dataset",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-04-15T08:51:55.000Z",
+  "downloads": 23798,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":other"
+  ],
+  "n_lang": 70,
+  "total_rows": 205568,
+  "total_bytes": 138287019,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "CohereLabs/aya_collection_language_split": {
+  "id": "CohereLabs/aya_collection_language_split",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-04-15T08:56:50.000Z",
+  "downloads": 10718,
+  "size_cat": [
+   ":100M<n<1B"
+  ],
+  "tasks": [],
+  "n_lang": 115,
+  "total_rows": 513757344,
+  "total_bytes": 155209753290,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "telugu",
+    "rows": 4606402,
+    "bytes": 2082335866
+   }
+  ]
+ },
+ "AmazonScience/massive": {
+  "id": "AmazonScience/massive",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-11-16T15:44:51.000Z",
+  "downloads": 10753,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":text-classification"
+  ],
+  "n_lang": 0,
+  "size_error": "HTTP Error 500: Internal Server Error",
+  "telugu_configs": []
+ },
+ "Helsinki-NLP/opus-100": {
+  "id": "Helsinki-NLP/opus-100",
+  "license": [
+   "unknown"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-02-28T09:17:34.000Z",
+  "downloads": 27292,
+  "size_cat": [
+   ":10M<n<100M"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 100,
+  "total_rows": 55057504,
+  "total_bytes": 4770619595,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "en-te",
+    "rows": 68352,
+    "bytes": 4047667
+   }
+  ]
+ },
+ "CohereLabs/Global-MMLU": {
+  "id": "CohereLabs/Global-MMLU",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-08-14T20:12:53.000Z",
+  "downloads": 33784,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [],
+  "n_lang": 42,
+  "total_rows": 601734,
+  "total_bytes": 198876690,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 14327,
+    "bytes": 6381196
+   }
+  ]
+ },
+ "CohereLabs/include-base-44": {
+  "id": "CohereLabs/include-base-44",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-04-15T08:44:46.000Z",
+  "downloads": 12522,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":multiple-choice"
+  ],
+  "n_lang": 44,
+  "total_rows": 23529,
+  "total_bytes": 5552350,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "Telugu",
+    "rows": 568,
+    "bytes": 145949
+   }
+  ]
+ },
+ "universal-dependencies/universal_dependencies": {
+  "id": "universal-dependencies/universal_dependencies",
+  "license": [
+   "other"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-09-18T17:45:55.000Z",
+  "downloads": 7353,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":token-classification"
+  ],
+  "n_lang": 193,
+  "total_rows": 2206802,
+  "total_bytes": 725598797,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "la_udante",
+    "rows": 1723,
+    "bytes": 1013010
+   },
+   {
+    "config": "qte_tect",
+    "rows": 97,
+    "bytes": 31131
+   }
+  ]
+ },
+ "wikimedia/wit_base": {
+  "id": "wikimedia/wit_base",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-11-04T15:09:33.000Z",
+  "downloads": 8325,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":image-to-text",
+   ":text-retrieval"
+  ],
+  "n_lang": 105,
+  "total_rows": 108145,
+  "total_bytes": null,
+  "partial": true,
+  "telugu_configs": []
+ },
+ "ARTPARK-IISc/Vaani": {
+  "id": "ARTPARK-IISc/Vaani",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-09-17T10:30:43.000Z",
+  "downloads": 28223,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":automatic-speech-recognition",
+   ":text-to-speech",
+   ":image-to-text",
+   ":text-to-image"
+  ],
+  "n_lang": 12,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "Telugu"
+  ]
+ },
+ "ARTPARK-IISc/Vaani-transcription-part": {
+  "id": "ARTPARK-IISc/Vaani-transcription-part",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-10-10T06:24:05.000Z",
+  "downloads": 5096,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":automatic-speech-recognition"
+  ],
+  "n_lang": 6,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "Telugu"
+  ]
+ },
+ "espnet/yodas": {
+  "id": "espnet/yodas",
+  "license": [
+   "cc-by-3.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-10-22T14:55:51.000Z",
+  "downloads": 98409,
+  "size_cat": [],
+  "tasks": [],
+  "n_lang": 0,
+  "size_error": "HTTP Error 500: Internal Server Error",
+  "telugu_configs": []
+ },
+ "espnet/yodas2": {
+  "id": "espnet/yodas2",
+  "license": [
+   "cc-by-3.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-10-22T14:58:27.000Z",
+  "downloads": 104536,
+  "size_cat": [],
+  "tasks": [],
+  "n_lang": 0,
+  "size_error": "HTTP Error 500: Internal Server Error",
+  "telugu_configs": []
+ },
+ "cfilt/IITB-IndicMonoDoc": {
+  "id": "cfilt/IITB-IndicMonoDoc",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-02-18T09:44:38.000Z",
+  "downloads": 51962,
+  "size_cat": [
+   ":10B<n<100B"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 16,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "Davlan/sib200": {
+  "id": "Davlan/sib200",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-02-19T16:34:23.000Z",
+  "downloads": 19695,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":text-classification"
+  ],
+  "n_lang": 197,
+  "total_rows": 205820,
+  "total_bytes": 43803978,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "tel_Telu",
+    "rows": 1004,
+    "bytes": 369619
+   }
+  ]
+ },
+ "google/svq": {
+  "id": "google/svq",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-09-24T14:49:34.000Z",
+  "downloads": 25106,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":question-answering",
+   ":automatic-speech-recognition",
+   ":text-retrieval",
+   ":text-ranking",
+   ":audio-classification",
+   ":feature-extraction"
+  ],
+  "n_lang": 17,
+  "total_rows": 3124438,
+  "total_bytes": 25761407280,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "google/wmt24pp": {
+  "id": "google/wmt24pp",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-07-30T21:54:28.000Z",
+  "downloads": 11169,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 48,
+  "total_rows": 53892,
+  "total_bytes": null,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "en-te_IN",
+    "rows": 998,
+    "bytes": null
+   }
+  ]
+ },
+ "community-datasets/telugu_news": {
+  "id": "community-datasets/telugu_news",
+  "license": [
+   "unknown"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-01-18T11:17:01.000Z",
+  "downloads": 166,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":fill-mask",
+   ":text-classification"
+  ],
+  "n_lang": 1,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "community-datasets/telugu_books": {
+  "id": "community-datasets/telugu_books",
+  "license": [
+   "unknown"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-01-18T11:16:59.000Z",
+  "downloads": 114,
+  "size_cat": [
+   ":n<1K"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":fill-mask"
+  ],
+  "n_lang": 1,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "SPRINGLab/IndicTTS_Telugu": {
+  "id": "SPRINGLab/IndicTTS_Telugu",
+  "license": [],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-01-27T21:07:32.000Z",
+  "downloads": 1553,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":text-to-speech"
+  ],
+  "n_lang": 1,
+  "total_rows": 8576,
+  "total_bytes": 6441352243,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "skesiraju/Shrutilipi": {
+  "id": "skesiraju/Shrutilipi",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-10-21T09:12:58.000Z",
+  "downloads": 2634,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":automatic-speech-recognition"
+  ],
+  "n_lang": 8,
+  "total_rows": 25727,
+  "total_bytes": null,
+  "partial": true,
+  "telugu_configs": []
+ },
+ "gksriharsha/chitralekha": {
+  "id": "gksriharsha/chitralekha",
+  "license": [
+   "mit"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-08-23T23:00:03.000Z",
+  "downloads": 41413,
+  "size_cat": [
+   ":10M<n<100M"
+  ],
+  "tasks": [
+   ":image-to-text"
+  ],
+  "n_lang": 1,
+  "total_rows": 61898021,
+  "total_bytes": 265286854290,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "NotoSansTelugu-Bold",
+    "rows": 794884,
+    "bytes": 2904018741
+   },
+   {
+    "config": "NotoSansTelugu-Regular",
+    "rows": 797046,
+    "bytes": 2848500410
+   },
+   {
+    "config": "NotoSansTeluguUI-Bold",
+    "rows": 793582,
+    "bytes": 2901117051
+   },
+   {
+    "config": "NotoSansTeluguUI-Regular",
+    "rows": 796226,
+    "bytes": 2856472137
+   },
+   {
+    "config": "NotoSerifTelugu-VariableFont_wght",
+    "rows": 792339,
+    "bytes": 2684117723
+   },
+   {
+    "config": "TenaliRamakrishna-Regular",
+    "rows": 799870,
+    "bytes": 2373061510
+   }
+  ]
+ },
+ "AlbertoChestnut/telugu-ocr": {
+  "id": "AlbertoChestnut/telugu-ocr",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-06-10T00:02:31.000Z",
+  "downloads": 29419,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":image-to-text"
+  ],
+  "n_lang": 1,
+  "total_rows": 458964,
+  "total_bytes": null,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "Cognitive-Lab/NayanaOCR_Corpus_2025": {
+  "id": "Cognitive-Lab/NayanaOCR_Corpus_2025",
+  "license": [
+   "cc-by-nc-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-05-25T16:45:43.000Z",
+  "downloads": 13717,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":image-to-text",
+   ":visual-question-answering",
+   ":image-text-to-text"
+  ],
+  "n_lang": 22,
+  "total_rows": 1006170,
+  "total_bytes": 813624555368,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 45735,
+    "bytes": 37819541209
+   }
+  ]
+ },
+ "nvidia/Nemotron-Pretraining-Indic-Specialized-v1": {
+  "id": "nvidia/Nemotron-Pretraining-Indic-Specialized-v1",
+  "license": [
+   "other"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-10-29T07:01:56.000Z",
+  "downloads": 5476,
+  "size_cat": [
+   ":100M<n<1B"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 22,
+  "total_rows": 167954507,
+  "total_bytes": 1253140731121,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te-Latn-IN",
+    "rows": 2286686,
+    "bytes": 21953302371
+   },
+   {
+    "config": "te-Telu-IN",
+    "rows": 11969113,
+    "bytes": 86417258167
+   }
+  ]
+ },
+ "nvidia/Nemotron-Pretraining-Indic-CC-v1": {
+  "id": "nvidia/Nemotron-Pretraining-Indic-CC-v1",
+  "license": [
+   "other"
+  ],
+  "gated": "manual",
+  "private": false,
+  "lastModified": "2026-10-29T05:57:18.000Z",
+  "downloads": 3390,
+  "size_cat": [
+   ":1B<n<10B"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 22,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "te-Telu-IN"
+  ]
+ },
+ "microsoft/Updesh_beta": {
+  "id": "microsoft/Updesh_beta",
+  "license": [
+   "other"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-01-25T13:33:38.000Z",
+  "downloads": 7278,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":question-answering"
+  ],
+  "n_lang": 14,
+  "total_rows": 8956597,
+  "total_bytes": 19255282738,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "brain_teaser",
+    "rows": 649722,
+    "bytes": 1120057668
+   },
+   {
+    "config": "text_classification",
+    "rows": 637790,
+    "bytes": 1130392429
+   }
+  ]
+ },
+ "sarvamai/indic-diarbench": {
+  "id": "sarvamai/indic-diarbench",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-08-11T12:17:51.000Z",
+  "downloads": 1788,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":automatic-speech-recognition",
+   ":audio-to-audio"
+  ],
+  "n_lang": 22,
+  "total_rows": 1164,
+  "total_bytes": 12055886656,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "Telugu",
+    "rows": 88,
+    "bytes": 1054430540
+   }
+  ]
+ },
+ "HPLT/DocHPLT": {
+  "id": "HPLT/DocHPLT",
+  "license": [
+   "cc0-1.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-01-13T17:17:08.000Z",
+  "downloads": 12788,
+  "size_cat": [
+   ":100M<n<1B"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 50,
+  "total_rows": 124177103,
+  "total_bytes": 510770650191,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "en-te",
+    "rows": 389858,
+    "bytes": 4497942897
+   }
+  ]
+ },
+ "CohereLabs/xP3x": {
+  "id": "CohereLabs/xP3x",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-05-23T15:23:41.000Z",
+  "downloads": 75987,
+  "size_cat": [
+   ":100M<n<1B"
+  ],
+  "tasks": [
+   ":other"
+  ],
+  "n_lang": 220,
+  "total_rows": 301981554,
+  "total_bytes": 142698046138,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "bigscience/xP3": {
+  "id": "bigscience/xP3",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2023-05-30T15:49:59.000Z",
+  "downloads": 39757,
+  "size_cat": [
+   ":100M<n<1B"
+  ],
+  "tasks": [
+   ":other"
+  ],
+  "n_lang": 46,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "google/smol": {
+  "id": "google/smol",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-08-06T20:16:31.000Z",
+  "downloads": 8303,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 239,
+  "total_rows": 342811,
+  "total_bytes": null,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "facebook/bouquet": {
+  "id": "facebook/bouquet",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-10-14T18:50:09.000Z",
+  "downloads": 1390,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 374,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "tel_Latn",
+   "tel_Telu"
+  ]
+ },
+ "davidstap/NTREX": {
+  "id": "davidstap/NTREX",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-04-23T17:47:51.000Z",
+  "downloads": 2534,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 107,
+  "total_rows": 255616,
+  "total_bytes": 49891460,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "tel_Telu",
+    "rows": 1997,
+    "bytes": 670502
+   }
+  ]
+ },
+ "SuryaKrishna02/aya-telugu-news-articles": {
+  "id": "SuryaKrishna02/aya-telugu-news-articles",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-01-30T05:26:18.000Z",
+  "downloads": 389,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 1,
+  "total_rows": 467090,
+  "total_bytes": 1107840299,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "SuryaKrishna02/aya-telugu-poems": {
+  "id": "SuryaKrishna02/aya-telugu-poems",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-01-24T06:13:06.000Z",
+  "downloads": 106,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 1,
+  "total_rows": 5115,
+  "total_bytes": 7823975,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "opentelugu/telugu-history-public-domain": {
+  "id": "opentelugu/telugu-history-public-domain",
+  "license": [
+   "cc0-1.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-10-18T05:47:45.000Z",
+  "downloads": 268,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":text-retrieval",
+   ":question-answering"
+  ],
+  "n_lang": 2,
+  "total_rows": 963695,
+  "total_bytes": 1203713450,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "telugusampada/telugu-sampada-classics": {
+  "id": "telugusampada/telugu-sampada-classics",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-11-07T13:32:11.000Z",
+  "downloads": 55,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":translation"
+  ],
+  "n_lang": 2,
+  "total_rows": 2980,
+  "total_bytes": null,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "neshkatrapati/telugu_wac_corpus": {
+  "id": "neshkatrapati/telugu_wac_corpus",
+  "license": [
+   "cc-by-nc-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-02-15T20:13:24.000Z",
+  "downloads": 41,
+  "size_cat": [
+   ":10M<n<100M"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 1,
+  "total_rows": 20448149,
+  "total_bytes": null,
+  "partial": true,
+  "telugu_configs": []
+ },
+ "harsha-desaraju/telugu-text": {
+  "id": "harsha-desaraju/telugu-text",
+  "license": [
+   "mit"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-04-13T05:10:39.000Z",
+  "downloads": 76,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 1,
+  "total_rows": 1400858,
+  "total_bytes": 2661318672,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "harsha-desaraju/telugu-wikisource-text-images": {
+  "id": "harsha-desaraju/telugu-wikisource-text-images",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-08-06T06:53:14.000Z",
+  "downloads": 127,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 659924,
+  "total_bytes": 10416263109,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "harsha-desaraju/Telugu-book-text-images": {
+  "id": "harsha-desaraju/Telugu-book-text-images",
+  "license": [
+   "mit"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-01-31T06:54:55.000Z",
+  "downloads": 180,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 232500,
+  "total_bytes": 36622028736,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "harsha-desaraju/telugu-line-ocr-bench": {
+  "id": "harsha-desaraju/telugu-line-ocr-bench",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-08-09T18:17:23.000Z",
+  "downloads": 65,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":image-to-text"
+  ],
+  "n_lang": 1,
+  "total_rows": 1044,
+  "total_bytes": 15185679,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "mounikaiiith/Telugu_Sentiment": {
+  "id": "mounikaiiith/Telugu_Sentiment",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-07-04T15:05:31.000Z",
+  "downloads": 167,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 35142,
+  "total_bytes": 8494279,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "mounikaiiith/Telugu-Sarcasm": {
+  "id": "mounikaiiith/Telugu-Sarcasm",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-07-04T15:06:49.000Z",
+  "downloads": 151,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 35142,
+  "total_bytes": 8383901,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "mounikaiiith/Telugu-Hatespeech": {
+  "id": "mounikaiiith/Telugu-Hatespeech",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-07-04T15:06:14.000Z",
+  "downloads": 122,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 35142,
+  "total_bytes": 8383881,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "mounikaiiith/Telugu_Emotion": {
+  "id": "mounikaiiith/Telugu_Emotion",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-07-04T15:04:59.000Z",
+  "downloads": 101,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 35142,
+  "total_bytes": 8402133,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "mounikaiiith/Telugu_Clickbait": {
+  "id": "mounikaiiith/Telugu_Clickbait",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-07-04T14:59:27.000Z",
+  "downloads": 34,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 112657,
+  "total_bytes": 6392351,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "BodduSriPavan111/chandassu": {
+  "id": "BodduSriPavan111/chandassu",
+  "license": [
+   "mit"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-08-03T16:36:30.000Z",
+  "downloads": 77,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":text-classification",
+   ":zero-shot-classification",
+   ":token-classification"
+  ],
+  "n_lang": 2,
+  "total_rows": 4651,
+  "total_bytes": 1912853,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "PoetryMTEB/Padyam2GadyamBitextMining": {
+  "id": "PoetryMTEB/Padyam2GadyamBitextMining",
+  "license": [
+   "cc-by-nc-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-07-26T08:13:07.000Z",
+  "downloads": 45,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":translation",
+   ":sentence-similarity"
+  ],
+  "n_lang": 2,
+  "total_rows": 1199,
+  "total_bytes": 474574,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "tel-tel",
+    "rows": 600,
+    "bytes": 262530
+   },
+   {
+    "config": "tel-eng",
+    "rows": 599,
+    "bytes": 212044
+   }
+  ]
+ },
+ "samvaran/chandohasam": {
+  "id": "samvaran/chandohasam",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-10-02T07:13:58.000Z",
+  "downloads": 46,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 2,
+  "total_rows": 15415,
+  "total_bytes": null,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "parambharat/telugu_asr_corpus": {
+  "id": "parambharat/telugu_asr_corpus",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2022-12-13T08:04:56.000Z",
+  "downloads": 34,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":automatic-speech-recognition"
+  ],
+  "n_lang": 1,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "Telugu-LLM-Labs/telugu_alpaca_yahma_cleaned_filtered_romanized": {
+  "id": "Telugu-LLM-Labs/telugu_alpaca_yahma_cleaned_filtered_romanized",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-01-31T04:52:52.000Z",
+  "downloads": 105,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 28910,
+  "total_bytes": 144171366,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "anishka/CodeSwitching-TE-EN": {
+  "id": "anishka/CodeSwitching-TE-EN",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-03-01T05:15:42.000Z",
+  "downloads": 107,
+  "size_cat": [],
+  "tasks": [
+   ":token-classification"
+  ],
+  "n_lang": 2,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "DigiGreen/Agri_STT_Benchmarking_Dataset": {
+  "id": "DigiGreen/Agri_STT_Benchmarking_Dataset",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-07-28T09:03:23.000Z",
+  "downloads": 9198,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":automatic-speech-recognition",
+   ":audio-classification"
+  ],
+  "n_lang": 3,
+  "total_rows": 10808,
+  "total_bytes": 489501,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "ARTPARK-IISc/Vaani-Atypical-Speech-Corpus": {
+  "id": "ARTPARK-IISc/Vaani-Atypical-Speech-Corpus",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-03-18T13:52:52.000Z",
+  "downloads": 1183,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":automatic-speech-recognition"
+  ],
+  "n_lang": 3,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "Telugu"
+  ]
+ },
+ "deepdml/microsoft-speech-corpus-indian": {
+  "id": "deepdml/microsoft-speech-corpus-indian",
+  "license": [],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-02-19T12:49:15.000Z",
+  "downloads": 450,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":automatic-speech-recognition"
+  ],
+  "n_lang": 3,
+  "total_rows": 116016,
+  "total_bytes": 15117370593,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 47922,
+    "bytes": 5096987441
+   }
+  ]
+ },
+ "kapturecx/bolAIndia": {
+  "id": "kapturecx/bolAIndia",
+  "license": [],
+  "gated": "manual",
+  "private": false,
+  "lastModified": "2026-11-05T06:56:14.000Z",
+  "downloads": 18817,
+  "size_cat": [
+   ":10M<n<100M"
+  ],
+  "tasks": [
+   ":automatic-speech-recognition"
+  ],
+  "n_lang": 93,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "gaps-nptel",
+   "nptel"
+  ]
+ },
+ "mteb/telugu_andhra_jyoti_news": {
+  "id": "mteb/telugu_andhra_jyoti_news",
+  "license": [],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-07-05T22:25:45.000Z",
+  "downloads": 29,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 21591,
+  "total_bytes": 31855778,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "1-800-SHARED-TASKS/aya_collection_telugu": {
+  "id": "1-800-SHARED-TASKS/aya_collection_telugu",
+  "license": [],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-10-17T08:47:21.000Z",
+  "downloads": 135,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 4606402,
+  "total_bytes": 2081770364,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "InfoBayAI/Telugu-Non-STEM-Textbook-Dataset": {
+  "id": "InfoBayAI/Telugu-Non-STEM-Textbook-Dataset",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-10-08T13:24:21.000Z",
+  "downloads": 25,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [],
+  "n_lang": 1,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": []
+ },
+ "nisheeth/English-TeluguBrailleCorpus": {
+  "id": "nisheeth/English-TeluguBrailleCorpus",
+  "license": [
+   "mit"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-04-22T14:20:51.000Z",
+  "downloads": 36,
+  "size_cat": [
+   ":100M<n<1B"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 0,
+  "size_error": "HTTP Error 500: Internal Server Error",
+  "telugu_configs": []
+ },
+ "10X-Technologies/StoryTOM-Corpus-en-te": {
+  "id": "10X-Technologies/StoryTOM-Corpus-en-te",
+  "license": [
+   "cdla-sharing-1.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-10-22T16:47:53.000Z",
+  "downloads": 105,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":translation"
+  ],
+  "n_lang": 2,
+  "total_rows": 2169318,
+  "total_bytes": 1571800927,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "VenkataRamanaKurumallajaddangi/telugu-kavithalu": {
+  "id": "VenkataRamanaKurumallajaddangi/telugu-kavithalu",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": "manual",
+  "private": false,
+  "lastModified": "2026-10-17T09:19:11.000Z",
+  "downloads": 48,
+  "size_cat": [
+   ":1K<n<10K"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 1,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": []
+ },
+ "eswardivi/indiccorp_telugu_line": {
+  "id": "eswardivi/indiccorp_telugu_line",
+  "license": [],
+  "gated": false,
+  "private": false,
+  "lastModified": "2023-12-28T18:48:28.000Z",
+  "downloads": 93,
+  "size_cat": [
+   ":10M<n<100M"
+  ],
+  "tasks": [],
+  "n_lang": 0,
+  "total_rows": 42916522,
+  "total_bytes": 6566759636,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "psdn-ai/numo-indic-speech": {
+  "id": "psdn-ai/numo-indic-speech",
+  "license": [
+   "cc-by-4.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-10-02T17:59:41.000Z",
+  "downloads": 2221,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":automatic-speech-recognition"
+  ],
+  "n_lang": 4,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "telugu"
+  ]
+ },
+ "google/IndicGenBench_xquad_in": {
+  "id": "google/IndicGenBench_xquad_in",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-05-04T04:00:15.000Z",
+  "downloads": 2165,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":question-answering"
+  ],
+  "n_lang": 12,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "google/IndicGenBench_flores_in": {
+  "id": "google/IndicGenBench_flores_in",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-05-04T04:07:10.000Z",
+  "downloads": 1209,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 29,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "google/IndicGenBench_crosssum_in": {
+  "id": "google/IndicGenBench_crosssum_in",
+  "license": [
+   "cc-by-nc-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-05-04T04:05:26.000Z",
+  "downloads": 1302,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":summarization"
+  ],
+  "n_lang": 29,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "google/IndicGenBench_xorqa_in": {
+  "id": "google/IndicGenBench_xorqa_in",
+  "license": [
+   "mit"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-05-04T04:06:07.000Z",
+  "downloads": 839,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":question-answering"
+  ],
+  "n_lang": 28,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "csebuetnlp/CrossSum": {
+  "id": "csebuetnlp/CrossSum",
+  "license": [
+   "cc-by-nc-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-06-19T17:09:58.000Z",
+  "downloads": 3420,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":summarization"
+  ],
+  "n_lang": 43,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "SPRINGLab/SPRING-INX": {
+  "id": "SPRINGLab/SPRING-INX",
+  "error": "HTTP Error 401: Unauthorized"
+ },
+ "bharatgenai/BhashaBench-V1": {
+  "id": "bharatgenai/BhashaBench-V1",
+  "error": "HTTP Error 401: Unauthorized"
+ },
+ "sarvamai/samvaad-hi-v1": {
+  "id": "sarvamai/samvaad-hi-v1",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-07-16T06:35:20.000Z",
+  "downloads": 338,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 2,
+  "total_rows": 101476,
+  "total_bytes": 202516630,
+  "partial": false,
+  "telugu_configs": []
+ },
+ "Helsinki-NLP/tatoeba_mt": {
+  "id": "Helsinki-NLP/tatoeba_mt",
+  "license": [
+   "cc-by-2.0"
+  ],
+  "gated": "auto",
+  "private": false,
+  "lastModified": "2026-10-08T12:05:19.000Z",
+  "downloads": 892,
+  "size_cat": [
+   ":10M<n<100M"
+  ],
+  "tasks": [
+   ":text-generation",
+   ":translation"
+  ],
+  "n_lang": 145,
+  "size_error": "HTTP Error 401: Unauthorized",
+  "telugu_configs": [
+   "eng-tel"
+  ]
+ },
+ "Helsinki-NLP/tatoeba": {
+  "id": "Helsinki-NLP/tatoeba",
+  "license": [
+   "cc-by-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2024-01-18T11:16:48.000Z",
+  "downloads": 1221,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 358,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "cointegrated/taiga": {
+  "id": "cointegrated/taiga",
+  "error": "HTTP Error 401: Unauthorized"
+ },
+ "juletxara/xstory_cloze": {
+  "id": "juletxara/xstory_cloze",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-07-23T09:05:16.000Z",
+  "downloads": 9384,
+  "size_cat": [
+   ":10K<n<100K"
+  ],
+  "tasks": [
+   ":other"
+  ],
+  "n_lang": 11,
+  "total_rows": 20581,
+  "total_bytes": 10307267,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 1871,
+    "bytes": 1466680
+   }
+  ]
+ },
+ "mteb/IndicGenBenchFloresBitextMining": {
+  "id": "mteb/IndicGenBenchFloresBitextMining",
+  "license": [
+   "cc-by-sa-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2026-02-24T21:18:01.000Z",
+  "downloads": 1887,
+  "size_cat": [
+   ":100K<n<1M"
+  ],
+  "tasks": [
+   ":translation"
+  ],
+  "n_lang": 30,
+  "total_rows": 118531,
+  "total_bytes": 36927571,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "eng-tel",
+    "rows": 2009,
+    "bytes": 497231
+   },
+   {
+    "config": "tel-eng",
+    "rows": 2009,
+    "bytes": 498443
+   }
+  ]
+ },
+ "neulab/PangeaInstruct": {
+  "id": "neulab/PangeaInstruct",
+  "license": [
+   "apache-2.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2025-02-02T16:40:32.000Z",
+  "downloads": 2353,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":visual-question-answering",
+   ":question-answering"
+  ],
+  "n_lang": 39,
+  "size_error": "HTTP Error 501: Not Implemented",
+  "telugu_configs": []
+ },
+ "MBZUAI/Bactrian-X": {
+  "id": "MBZUAI/Bactrian-X",
+  "license": [
+   "cc-by-nc-4.0"
+  ],
+  "gated": false,
+  "private": false,
+  "lastModified": "2023-05-27T12:54:05.000Z",
+  "downloads": 2250,
+  "size_cat": [
+   ":1M<n<10M"
+  ],
+  "tasks": [
+   ":text-generation"
+  ],
+  "n_lang": 51,
+  "total_rows": 3484884,
+  "total_bytes": 1200231500,
+  "partial": false,
+  "telugu_configs": [
+   {
+    "config": "te",
+    "rows": 67017,
+    "bytes": 26845528
+   }
+  ]
+ },
+ "google/dakshina": {
+  "id": "google/dakshina",
+  "error": "HTTP Error 401: Unauthorized"
+ }
+}

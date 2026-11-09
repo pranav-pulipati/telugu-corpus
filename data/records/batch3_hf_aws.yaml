@@ -1,0 +1,174 @@
+# Batch 3 — additional Hugging Face / AWS Open Data findings (2026-11-09).
+defaults:
+  languages: [te]
+  scripts: [Telu]
+  last_verified: "2026-11-09"
+  registration: "No"
+  authentication: "None"
+  record_type: Dataset
+  bulk_download: "Yes"
+
+records:
+- record_id: TEL-GOV-008
+  primary_category: GOV
+  source_name: Registry of Open Data on AWS
+  collection_name: Indian Supreme Court Judgments (1950-2025) — English and regional-language versions incl. Telugu
+  organization: Dataset maintainers on AWS Open Data (source - Supreme Court eCourts / eSCR)
+  org_type: Community/Volunteer
+  official_url: https://registry.opendata.aws/indian-supreme-court-judgments/
+  collection_url: https://registry.opendata.aws/indian-supreme-court-judgments/
+  description: Bulk S3 mirror of Supreme Court of India judgments 1950-2025 downloaded from eCourts, with raw JSON and structured Parquet metadata; regional-language translations (incl. Telugu) provided as zip files.
+  secondary_categories: [PAR]
+  genres: [legal judgments]
+  historical_period: "1950-2025"
+  languages: [en, te, hi]
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [PDF in zip, JSON, Parquet metadata]
+  content_types: [judgments]
+  size_telugu: "Not counted at source; HF derivative extracts 2,543 Telugu judgments (TEL-PAR-023)"
+  size_confidence: Estimate
+  metadata_fields: [case number, parties, date, bench, citation, language]
+  digitization: Born-digital text
+  api_endpoint: s3://indian-supreme-court-judgments/ (no-sign-request)
+  acquisition_method: "aws s3 ls --no-sign-request s3://indian-supreme-court-judgments/ ; aws s3 sync --no-sign-request s3://indian-supreme-court-judgments/<regional prefix> ."
+  license: CC BY 4.0 (registry listing; judgments themselves are government works)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://registry.opendata.aws/indian-supreme-court-judgments/
+  duplicates_mirrors: [TEL-GOV-005, TEL-PAR-023]
+  evidence_urls:
+  - "https://registry.opendata.aws/indian-supreme-court-judgments/"
+  verification_status: Verified
+  verification_method: Registry page read (HTTP 200; description, years, licence)
+  unresolved_issues: Exact S3 prefix and count of Telugu files not listed in this pass.
+  corpus_value: High
+  processing_needs: Pre-1970 regional PDFs are scans (OCR needed); pair with English originals.
+
+- record_id: TEL-PAR-023
+  primary_category: PAR
+  source_name: Hugging Face (therajasekhar)
+  collection_name: SCI Judgments Indic v1 — parallel-en-te and te configs
+  organization: Individual uploader (therajasekhar), derived from TEL-GOV-008
+  org_type: Individual
+  official_url: https://huggingface.co/therajasekhar
+  collection_url: https://huggingface.co/datasets/therajasekhar/sc-judgments-indic-v1
+  description: Cleaned text of Supreme Court judgments with official Telugu/Hindi translations (eSCR/SUVAS), including document-aligned English–Telugu pairs and quality flags (garbled, script_ratio).
+  secondary_categories: [GOV]
+  genres: [legal judgments]
+  languages: [te, en]
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [Parquet]
+  content_types: [document pairs, documents]
+  size_telugu: "te 2,543 judgments (1,584 flagged garbled — old scans); parallel-en-te 2,491 document pairs (48.6 MB)"
+  size_confidence: Confirmed
+  annotations: [quality flags (garbled, script_ratio, dropped_lines)]
+  digitization: Mixed
+  acquisition_method: "load_dataset('therajasekhar/sc-judgments-indic-v1', 'parallel-en-te')"
+  license: CC BY 4.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/therajasekhar/sc-judgments-indic-v1
+  duplicates_mirrors: [TEL-GOV-008, TEL-GOV-005]
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=therajasekhar/sc-judgments-indic-v1"
+  - "https://huggingface.co/datasets/therajasekhar/sc-judgments-indic-v1/raw/main/README.md"
+  verification_status: Verified
+  verification_method: Card read; datasets-server sizes per config
+  corpus_value: High
+  processing_needs: Filter garbled==False; sentence-align document pairs.
+
+- record_id: TEL-ANN-033
+  primary_category: ANN
+  source_name: Microsoft / Hugging Face
+  collection_name: Updesh (beta) — synthetic Indic instruction-tuning data
+  organization: Microsoft
+  org_type: Commercial
+  official_url: https://huggingface.co/microsoft
+  collection_url: https://huggingface.co/datasets/microsoft/Updesh_beta
+  description: Large synthetic post-training dataset for 13 Indic languages (translated reasoning data plus synthesised culturally grounded generative tasks — creative writing, dialog, RC, summarisation, translation, MCQ); Telugu included.
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [Parquet]
+  content_types: [instruction / response pairs]
+  size_telugu: Unknown per language (8,956,597 rows across task configs)
+  size_confidence: Unknown
+  annotations: [task type]
+  digitization: Born-digital text
+  acquisition_method: "load_dataset('microsoft/Updesh_beta', '<task>') and filter language"
+  license: other (custom licence on card)
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/microsoft/Updesh_beta
+  evidence_urls:
+  - "https://huggingface.co/datasets/microsoft/Updesh_beta/raw/main/README.md"
+  verification_status: Partially Verified
+  verification_method: Card read; config list from datasets-server
+  unresolved_issues: Read licence text; Telugu row count.
+  corpus_value: Medium
+  processing_needs: Synthetic — keep separate from natural text.
+
+- record_id: TEL-SPEECH-022
+  primary_category: SPEECH
+  source_name: Hugging Face (vdivyasharma)
+  collection_name: IndicSynth — synthetic Telugu speech for deepfake/anti-spoofing research
+  organization: IndicSynth authors
+  org_type: Academic
+  official_url: https://huggingface.co/vdivyasharma
+  collection_url: https://huggingface.co/datasets/vdivyasharma/IndicSynth
+  description: Synthetic (TTS/voice-conversion) speech clips in low-resource Indian languages incl. Telugu, with bona fide references drawn from IndicSUPERB/Kathbath.
+  telugu_scope: Telugu subset of multilingual
+  modality: Audio
+  formats: [WAV + metadata CSV]
+  content_types: [synthetic utterances]
+  size_telugu: Unknown per language
+  size_confidence: Unknown
+  annotations: [synthesis method, source/target speaker]
+  digitization: Audio
+  acquisition_method: "load_dataset('vdivyasharma/IndicSynth')"
+  license: CC BY-NC 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://huggingface.co/datasets/vdivyasharma/IndicSynth
+  duplicates_mirrors: [TEL-SPEECH-003]
+  evidence_urls:
+  - "https://huggingface.co/datasets/vdivyasharma/IndicSynth/raw/main/README.md"
+  verification_status: Partially Verified
+  verification_method: Card read; HF licence tag
+  corpus_value: Low
+  processing_needs: Synthetic audio — must be excluded from ASR/TTS training sets of natural speech.
+
+- record_id: TEL-ANN-034
+  primary_category: ANN
+  source_name: Hugging Face (maya-research)
+  collection_name: IndicVault — everyday Hindi/Telugu/English QA pairs
+  organization: Maya Research
+  org_type: Commercial
+  official_url: https://huggingface.co/maya-research
+  collection_url: https://huggingface.co/datasets/maya-research/IndicVault
+  description: Conversational QA pairs in Hindi, Telugu and English for chatbots and voice agents (100K-1M rows; generation method not fully documented).
+  languages: [te, hi, en]
+  telugu_scope: Telugu subset of multilingual
+  modality: Text
+  formats: [Parquet]
+  content_types: [question / answer pairs]
+  size_telugu: "100K-1M rows total (HF size category)"
+  size_confidence: Estimate
+  digitization: Born-digital text
+  acquisition_method: "load_dataset('maya-research/IndicVault')"
+  license: MIT (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/maya-research/IndicVault
+  evidence_urls:
+  - "https://huggingface.co/datasets/maya-research/IndicVault/raw/main/README.md"
+  verification_status: Partially Verified
+  verification_method: Card read; licence tag
+  unresolved_issues: Likely LLM-generated — confirm provenance.
+  corpus_value: Low

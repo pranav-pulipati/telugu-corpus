@@ -1,0 +1,847 @@
+# TXT — monolingual text corpora. Sizes marked "Confirmed" were measured by us via HF datasets-server / HF tree API /
+# HTTP HEAD on 2026-11-09 (snapshots in evidence/api_snapshots/). Token counts quoted from sources are "Reported by source".
+defaults:
+  primary_category: TXT
+  languages: [te]
+  scripts: [Telu]
+  modality: Text
+  last_verified: "2026-11-09"
+  registration: "No"
+  authentication: "None"
+  record_type: Dataset
+
+records:
+- record_id: TEL-TXT-001
+  source_name: Wikimedia Downloads
+  collection_name: Telugu Wikipedia XML dumps (tewiki)
+  organization: Wikimedia Foundation / Telugu Wikipedia community
+  org_type: Non-profit
+  official_url: https://dumps.wikimedia.org/
+  collection_url: https://dumps.wikimedia.org/tewiki/latest/
+  description: Full-text dumps of Telugu Wikipedia (articles, talk, templates; also SQL link tables and Cirrus JSON). Site statistics on 2026-11-09 report 130,627 content articles and 432,091 pages in total.
+  secondary_categories: [LEX]
+  genres: [encyclopedic, biography, geography, cinema, history, science]
+  historical_period: Contemporary (2003-present)
+  telugu_scope: Telugu-only
+  formats: [XML (bz2), SQL, JSON (CirrusSearch dumps)]
+  content_types: [encyclopedia articles]
+  size_telugu: "130,627 articles; tewiki-latest-pages-articles.xml.bz2 = 268,979,362 bytes (dump of 2026-11-02)"
+  size_confidence: Confirmed
+  metadata_fields: [page id, title, revision id, timestamp, contributor, categories]
+  annotations: [wiki markup, categories, interlanguage links, Wikidata QIDs]
+  digitization: Born-digital text
+  api_endpoint: https://te.wikipedia.org/w/api.php (MediaWiki Action API); https://te.wikipedia.org/api/rest_v1/
+  bulk_download: "Yes"
+  acquisition_method: "wget https://dumps.wikimedia.org/tewiki/latest/tewiki-latest-pages-articles.xml.bz2 ; extract with WikiExtractor or mwparserfromhell. Twice-monthly dumps."
+  license: CC BY-SA 4.0 (text; also GFDL for older revisions); media files carry individual licenses
+  license_scope: Varies per item
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use
+  copyright_notes: Share-alike and attribution required; images/media are licensed per file on Commons and are not covered by the text license.
+  provenance: Volunteer-written; a large share of Telugu Wikipedia consists of bot-generated village/geography stubs (2000s-2010s), which inflates article counts.
+  duplicates_mirrors: [TEL-TXT-002]
+  evidence_urls:
+  - https://te.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics|rightsinfo&format=json
+  - https://dumps.wikimedia.org/tewiki/latest/
+  verification_status: Verified
+  verification_method: MediaWiki siteinfo API (statistics, rightsinfo) + dump directory listing
+  corpus_value: High
+  processing_needs: Wiki-markup stripping; filter bot-generated stubs (village articles); dedup against web crawls that already include Wikipedia.
+
+- record_id: TEL-TXT-002
+  record_type: Dataset
+  parent_id: TEL-TXT-001
+  source_name: Hugging Face
+  collection_name: wikimedia/wikipedia — config 20231101.te
+  organization: Wikimedia Foundation (HF packaging)
+  org_type: Non-profit
+  official_url: https://huggingface.co/datasets/wikimedia/wikipedia
+  collection_url: https://huggingface.co/datasets/wikimedia/wikipedia/tree/main/20231101.te
+  description: Pre-cleaned (markup-stripped) Telugu Wikipedia snapshot from 2023-11-01 in Parquet, one row per article.
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [articles (id, url, title, text)]
+  size_telugu: "87,854 articles; 215 MB (config 20231101.te)"
+  size_total: "61.6M articles across 300+ languages"
+  size_confidence: Confirmed
+  metadata_fields: [id, url, title]
+  digitization: Born-digital text
+  api_endpoint: https://datasets-server.huggingface.co/rows?dataset=wikimedia/wikipedia&config=20231101.te&split=train
+  bulk_download: "Yes"
+  acquisition_method: "datasets.load_dataset('wikimedia/wikipedia', '20231101.te')"
+  license: CC BY-SA 3.0 and GFDL (HF tags)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/wikimedia/wikipedia
+  duplicates_mirrors: [TEL-TXT-001]
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/wikimedia/wikipedia"
+  - "https://datasets-server.huggingface.co/size?dataset=wikimedia/wikipedia"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size endpoint
+  corpus_value: Medium
+  processing_needs: Older than live dumps (2023-11); article count lower than current site; same content as TEL-TXT-001.
+  notes: Article count (87,854) is lower than live site count (130,627) because of snapshot date and filtering of redirects/disambiguation.
+
+- record_id: TEL-TXT-003
+  source_name: AI4Bharat
+  collection_name: IndicCorp v1 — Telugu
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://indicnlp.ai4bharat.org/
+  collection_url: https://objectstore.e2enetworks.net/ai4b-public-nlu-nlg/v1-indiccorp/te.txt
+  description: Large monolingual Telugu corpus crawled from news sites, magazines and books (2020), sentence-split and deduplicated; used to train IndicBERT v1 / IndicFT.
+  genres: [news, magazines, web]
+  historical_period: Contemporary
+  telugu_scope: Telugu subset of multilingual
+  formats: [plain text (one sentence per line)]
+  content_types: [sentences]
+  size_telugu: "47.9M sentences; 674M tokens (README table; first column 3.98M)"
+  size_total: "8.8B tokens, 12 languages"
+  size_confidence: Reported by source
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "Historically: wget https://objectstore.e2enetworks.net/ai4b-public-nlu-nlg/v1-indiccorp/te.txt (403 as of 2026-11-09). Use IndicCorp v2 (TEL-TXT-004) instead."
+  license: CC BY-NC-SA 4.0 (IndicNLP corpus README)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://github.com/AI4Bharat/indicnlp_corpus#license
+  copyright_notes: Underlying news text is copyrighted by publishers; release license covers the compilation.
+  duplicates_mirrors: [TEL-TXT-004]
+  evidence_urls:
+  - "https://github.com/AI4Bharat/indicnlp_corpus"
+  verification_status: Partially Verified
+  verification_method: GitHub README table and license section read; download URL returned HTTP 403 in automated check (2026-11-09)
+  unresolved_issues: "Direct download (objectstore te.txt) returned HTTP 403 on 2026-11-09 — file may have moved; README column for 3.98M is unlabeled; superseded by IndicCorp v2."
+  corpus_value: Medium
+  processing_needs: Superseded by v2 (TEL-TXT-004); dedup against v2 if both used.
+
+- record_id: TEL-TXT-004
+  source_name: AI4Bharat / Hugging Face
+  collection_name: IndicCorp v2 — Telugu (data/te.txt)
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/IndicCorpV2/tree/main/data
+  description: Second-generation IndicCorp (2022), news/web crawl for 23 Indic languages; the Telugu file is a single plain-text file of sentences. Used to train IndicBERT v2.
+  genres: [news, web]
+  historical_period: Contemporary
+  telugu_scope: Telugu subset of multilingual
+  formats: [plain text]
+  content_types: [sentences / paragraphs]
+  size_telugu: "15.76 GB (data/te.txt, 15,760,603,733 bytes)"
+  size_total: "~181M rows indexed by HF datasets-server (partial)"
+  size_confidence: Confirmed
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "huggingface-cli download ai4bharat/IndicCorpV2 data/te.txt --repo-type dataset ; or load_dataset('ai4bharat/IndicCorpV2', 'indiccorp_v2', data_dir='data/tel_Telu')"
+  license: "No license tag on HF card; IndicCorp v2 release terms not stated on card"
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/IndicCorpV2
+  copyright_notes: Crawled publisher content; treat as research-only until license is confirmed.
+  duplicates_mirrors:
+  - "TEL-TXT-003"
+  - "https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line"
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/ai4bharat/IndicCorpV2/tree/main/data"
+  - "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/raw/main/README.md"
+  verification_status: Partially Verified
+  verification_method: HF tree API (file size), dataset card read
+  unresolved_issues: License not declared on HF card; check IndicBERT v2 paper / AI4Bharat site for the release license.
+  corpus_value: High
+  processing_needs: Sentence-level; document boundaries lost. Dedup with Sangraha (which builds on IndicCorp sources).
+
+- record_id: TEL-TXT-005
+  source_name: AI4Bharat / Hugging Face
+  collection_name: Sangraha — Telugu (verified / unverified / synthetic)
+  organization: AI4Bharat (IIT Madras)
+  org_type: Academic
+  official_url: https://ai4bharat.iitm.ac.in/
+  collection_url: https://huggingface.co/datasets/ai4bharat/sangraha/tree/main/verified/tel
+  description: "Pretraining corpus from the IndicLLMSuite (2024). Three Telugu parts: 'verified' (web + PDF/OCR + speech transcripts, human-checked sources), 'unverified' (filtered web crawl), and 'synthetic' (English Wikipedia machine-translated into Telugu, in Telugu script and romanised)."
+  genres: [web, news, books (PDF OCR), speech transcripts, translated Wikipedia]
+  telugu_scope: Telugu subset of multilingual
+  scripts: [Telu, Latn]
+  formats: [Parquet]
+  content_types: [documents]
+  size_telugu: "verified/tel 15.10 GB (41 files); unverified/tel 2.36 GB (6 files); synthetic/tel_Telu 18.12 GB (64 files); synthetic/tel_Latn 11.99 GB (64 files)"
+  size_total: "~177M+ rows (17 languages)"
+  size_confidence: Confirmed
+  metadata_fields: [doc_id, type/source]
+  digitization: Mixed
+  ocr_transcription: Verified split includes OCR of PDFs and ASR transcripts of videos.
+  bulk_download: "Yes"
+  acquisition_method: "load_dataset('ai4bharat/sangraha', data_dir='verified/tel') ; repeat for unverified/tel, synthetic/tel_Telu"
+  license: CC BY 4.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/ai4bharat/sangraha
+  copyright_notes: CC BY 4.0 covers the compilation; underlying crawled web/PDF content retains original copyright — downstream commercial use carries residual risk.
+  duplicates_mirrors: [TEL-TXT-004, TEL-TXT-001]
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/ai4bharat/sangraha"
+  - "https://huggingface.co/api/datasets/ai4bharat/sangraha/tree/main/verified/tel"
+  verification_status: Verified
+  verification_method: HF API license tag; HF tree API file sizes per folder
+  corpus_value: High
+  processing_needs: Keep synthetic (machine-translated) data separate from natural text; dedup verified vs IndicCorp/CulturaX.
+
+- record_id: TEL-TXT-006
+  source_name: Hugging Face
+  collection_name: CulturaX — Telugu (te)
+  organization: University of Oregon NLP (uonlp)
+  org_type: Academic
+  official_url: https://huggingface.co/datasets/uonlp/CulturaX
+  collection_url: https://huggingface.co/datasets/uonlp/CulturaX/tree/main/te
+  description: Cleaned and deduplicated merge of mC4 and OSCAR for 167 languages (2023); Telugu folder present.
+  genres: [web]
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [web documents]
+  size_telugu: Unknown (gated; per-language token counts are in the CulturaX paper's appendix table)
+  size_total: 167 languages (dataset documentation); token totals not re-checked
+  size_confidence: Unknown
+  metadata_fields: [text, timestamp, url, source]
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: Accept terms on HF, then load_dataset('uonlp/CulturaX', 'te', token=True)
+  registration: "Yes"
+  authentication: HF gated (accept terms)
+  license: "Inherits mC4 (ODC-BY) and OSCAR (CC0 packaging) terms; no HF license tag"
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/uonlp/CulturaX
+  copyright_notes: Web text; copyright of underlying pages not cleared.
+  duplicates_mirrors: [TEL-TXT-011, TEL-TXT-013]
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/uonlp/CulturaX"
+  verification_status: Partially Verified
+  verification_method: HF API (gated flag, configs list includes 'te')
+  unresolved_issues: Telugu document/token count not measured (gated). Need HF login to check.
+  corpus_value: Medium
+  processing_needs: Overlaps mC4/OSCAR completely — use instead of, not in addition to, those.
+
+- record_id: TEL-TXT-007
+  source_name: HPLT (High Performance Language Technologies)
+  collection_name: HPLT v2.0 cleaned — tel_Telu
+  organization: HPLT consortium (EU Horizon; Univ. Oslo, Helsinki, Edinburgh, Charles Univ., et al.)
+  org_type: Consortium
+  official_url: https://hplt-project.org/
+  collection_url: https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned/tree/main/tel_Telu
+  description: Web documents from Internet Archive + Common Crawl crawls, language-identified, deduplicated and cleaned (HPLT v2, 2025).
+  genres: [web]
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet (HF), JSONL zstd (hplt-project.org)]
+  content_types: [web documents]
+  size_telugu: "2,058,193 documents; 6.71 GB (config tel_Telu)"
+  size_total: "5.27B documents across all language-script configs (datasets-server)"
+  size_confidence: Confirmed
+  metadata_fields: [url, timestamp, lang scores, web register labels, doc quality scores]
+  annotations: [language-ID probabilities, register labels]
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "load_dataset('HPLT/HPLT2.0_cleaned', 'tel_Telu') or download JSONL from https://hplt-project.org/datasets/v2.0"
+  license: CC0 1.0 (packaging); HPLT also states it does not own the underlying web content
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned
+  copyright_notes: CC0 applies to the packaging only; takedown procedure exists for rightsholders.
+  duplicates_mirrors: [TEL-TXT-008, TEL-TXT-010]
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/HPLT/HPLT2.0_cleaned"
+  - "https://datasets-server.huggingface.co/size?dataset=HPLT/HPLT2.0_cleaned"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size per config
+  corpus_value: High
+  processing_needs: Cross-corpus dedup against FineWeb-2, CulturaX, MADLAD.
+
+- record_id: TEL-TXT-008
+  source_name: Hugging Face (HuggingFaceFW)
+  collection_name: FineWeb-2 — tel_Telu (and tel_Latn)
+  organization: Hugging Face
+  org_type: Commercial
+  official_url: https://huggingface.co/datasets/HuggingFaceFW/fineweb-2
+  collection_url: https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/tree/main/data/tel_Telu
+  description: Common Crawl-derived multilingual pretraining corpus with per-language filtering and dedup (2024-25). Includes Telugu-script and a small romanised Telugu subset.
+  genres: [web]
+  telugu_scope: Telugu subset of multilingual
+  scripts: [Telu, Latn]
+  formats: [Parquet]
+  content_types: [web documents]
+  size_telugu: "tel_Telu 1,983,328 docs / 3.99 GB; tel_Latn 24,353 docs / 47 MB"
+  size_total: "4.48B documents across all configs (datasets-server)"
+  size_confidence: Confirmed
+  metadata_fields: [id, dump, url, date, language_score, minhash cluster size]
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "load_dataset('HuggingFaceFW/fineweb-2', name='tel_Telu', split='train')"
+  license: ODC-By 1.0 (subject to Common Crawl Terms of Use)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/HuggingFaceFW/fineweb-2
+  copyright_notes: Underlying page copyright not cleared.
+  duplicates_mirrors: [TEL-TXT-007, TEL-TXT-010]
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/HuggingFaceFW/fineweb-2"
+  - "https://datasets-server.huggingface.co/size?dataset=HuggingFaceFW/fineweb-2"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: High
+  processing_needs: Dedup against other CC-derived corpora.
+
+- record_id: TEL-TXT-009
+  source_name: Hugging Face (cis-lmu)
+  collection_name: GlotCC v1 — tel-Telu
+  organization: CIS, LMU Munich
+  org_type: Academic
+  official_url: https://huggingface.co/datasets/cis-lmu/GlotCC-V1
+  collection_url: https://huggingface.co/datasets/cis-lmu/GlotCC-V1/tree/main/v1.0/tel-Telu
+  description: Common Crawl corpus built with GlotLID language identification for 1,000+ languages (2024); also lists tiny 'wsg-Telu' (Adilabad Gondi in Telugu script) and 'tel-Latn' configs.
+  genres: [web]
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [web documents]
+  size_telugu: "tel-Telu 119,332 docs; tel-Latn 372; wsg-Telu 2"
+  size_confidence: Confirmed
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "load_dataset('cis-lmu/GlotCC-V1', 'tel-Telu')"
+  license: CC0 1.0 (HF tag; packaging)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/cis-lmu/GlotCC-V1
+  duplicates_mirrors: [TEL-TXT-008]
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=cis-lmu/GlotCC-V1"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size
+  corpus_value: Low
+  processing_needs: Small relative to FineWeb-2/HPLT; useful mainly for the tiny Telugu-script minority-language configs.
+
+- record_id: TEL-TXT-010
+  source_name: statmt.org
+  collection_name: CC-100 — Telugu (te.txt.xz)
+  organization: Facebook AI (Conneau et al. 2020), hosted by statmt.org
+  org_type: Commercial
+  official_url: https://data.statmt.org/cc-100/
+  collection_url: https://data.statmt.org/cc-100/te.txt.xz
+  description: Monolingual Common Crawl data (Jan-Dec 2018 snapshots) used to train XLM-R; paragraphs separated by blank lines.
+  genres: [web]
+  telugu_scope: Telugu subset of multilingual
+  formats: [plain text, xz]
+  content_types: [paragraphs]
+  size_telugu: "te.txt.xz = 561,820,568 bytes compressed"
+  size_total: "100+ languages"
+  size_confidence: Confirmed
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "wget https://data.statmt.org/cc-100/te.txt.xz"
+  license: "No IP claimed by the authors; use subject to Common Crawl Terms of Use"
+  license_scope: No explicit license
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://data.statmt.org/cc-100/
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/statmt/cc100"
+  evidence_urls:
+  - "https://data.statmt.org/cc-100/te.txt.xz"
+  verification_status: Verified
+  verification_method: HTTP HEAD (Content-Length) on download file
+  corpus_value: Medium
+  processing_needs: 2018-era crawl; dedup against newer CC corpora.
+
+- record_id: TEL-TXT-011
+  source_name: OSCAR project
+  collection_name: OSCAR 23.01 — Telugu
+  organization: OSCAR project (Inria / Common Crawl derivative)
+  org_type: Academic
+  official_url: https://oscar-project.org/
+  collection_url: https://huggingface.co/datasets/oscar-corpus/OSCAR-2301
+  description: Document-level Common Crawl derived corpus with quality annotations; Telugu subset present in each release (2019, 21.09, 22.01, 23.01).
+  genres: [web]
+  telugu_scope: Telugu subset of multilingual
+  formats: [JSONL (zstd)]
+  content_types: [web documents]
+  size_telugu: Unknown (gated)
+  size_confidence: Unknown
+  metadata_fields: [warc headers, language id, quality warnings, categories (UT1 blocklist)]
+  annotations: [quality warnings, harmful-content categories]
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: Accept terms on HF (oscar-corpus/OSCAR-2301), then download te shards with HF token
+  registration: "Yes"
+  authentication: HF gated (accept terms)
+  license: CC0 1.0 (packaging); content subject to original copyright
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/oscar-corpus/OSCAR-2301
+  duplicates_mirrors: [TEL-TXT-006]
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/oscar-corpus/OSCAR-2301"
+  verification_status: Partially Verified
+  verification_method: HF API (license tag, gated flag)
+  unresolved_issues: Telugu size not measured (gated).
+  corpus_value: Medium
+  processing_needs: Included in CulturaX; avoid double counting.
+
+- record_id: TEL-TXT-012
+  source_name: Hugging Face (allenai)
+  collection_name: MADLAD-400 — te (clean + noisy)
+  organization: Google Research (released via AllenAI on HF)
+  org_type: Commercial
+  official_url: https://huggingface.co/datasets/allenai/MADLAD-400
+  collection_url: https://huggingface.co/datasets/allenai/MADLAD-400/tree/main/data-v1p5/te
+  description: Document-level audited multilingual Common Crawl corpus (2023) with 'clean' and 'noisy' splits per language.
+  genres: [web]
+  telugu_scope: Telugu subset of multilingual
+  formats: [JSONL gzip]
+  content_types: [web documents]
+  size_telugu: "9.67 GB compressed (data-v1p5/te, clean + noisy files)"
+  size_confidence: Confirmed
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "load_dataset('allenai/MADLAD-400', languages=['te'], split='clean')"
+  license: ODC-By 1.0 (HF tag); Common Crawl ToU
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/allenai/MADLAD-400
+  duplicates_mirrors: [TEL-TXT-008]
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/allenai/MADLAD-400/tree/main/data-v1p5/te"
+  verification_status: Verified
+  verification_method: HF tree API file sizes
+  unresolved_issues: Clean vs noisy split sizes not separated (rate-limited during check).
+  corpus_value: High
+  processing_needs: Use 'clean' split; dedup vs other CC corpora.
+
+- record_id: TEL-TXT-013
+  source_name: Hugging Face (allenai)
+  collection_name: mC4 (multilingual C4) — te
+  organization: Google (T5/mT5 team), hosted by AllenAI
+  org_type: Commercial
+  official_url: https://huggingface.co/datasets/allenai/c4
+  collection_url: https://huggingface.co/datasets/allenai/c4/tree/main/multilingual
+  description: Multilingual C4 corpus used to train mT5 (71 Common Crawl snapshots up to 2020), Telugu split 'te'.
+  genres: [web]
+  telugu_scope: Telugu subset of multilingual
+  formats: [JSON gzip]
+  content_types: [web documents]
+  size_telugu: "datasets-server reports 669,396 rows for config te (partial count)"
+  size_confidence: Estimate
+  metadata_fields: [url, timestamp]
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "load_dataset('allenai/c4', 'te') or git lfs pull --include 'multilingual/c4-te.*.json.gz'"
+  license: ODC-By 1.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/allenai/c4
+  copyright_notes: mC4 Telugu is known to contain substantial boilerplate and mis-identified text.
+  duplicates_mirrors: [TEL-TXT-006]
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=allenai/c4"
+  verification_status: Verified
+  verification_method: HF API + datasets-server size (marked partial)
+  corpus_value: Low
+  processing_needs: Prefer CulturaX (already cleans mC4).
+
+- record_id: TEL-TXT-014
+  source_name: Hugging Face (cfilt)
+  collection_name: IITB-IndicMonoDoc — te
+  organization: CFILT, IIT Bombay
+  org_type: Academic
+  official_url: https://www.cfilt.iitb.ac.in/
+  collection_url: https://huggingface.co/datasets/cfilt/IITB-IndicMonoDoc/tree/main/te
+  description: Document-level monolingual corpus for 22 Indic languages (2024), crawled with document boundaries retained, intended for long-context pretraining.
+  genres: [web, news]
+  telugu_scope: Telugu subset of multilingual
+  formats: [plain text shards]
+  content_types: [documents]
+  size_telugu: "16.63 GB (te/shard-*.txt)"
+  size_confidence: Confirmed
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "huggingface-cli download cfilt/IITB-IndicMonoDoc --repo-type dataset --include 'te/*'"
+  license: CC BY 4.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/cfilt/IITB-IndicMonoDoc
+  copyright_notes: License covers compilation; crawled content copyright not cleared.
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/cfilt/IITB-IndicMonoDoc"
+  verification_status: Verified
+  verification_method: HF API license + tree file sizes
+  corpus_value: High
+  processing_needs: Dedup vs Sangraha/IndicCorp v2.
+
+- record_id: TEL-TXT-015
+  source_name: Hugging Face (NVIDIA)
+  collection_name: Nemotron-Pretraining-Indic-Specialized-v1 — te-Telu-IN / te-Latn-IN
+  organization: NVIDIA
+  org_type: Commercial
+  official_url: https://huggingface.co/nvidia
+  collection_url: https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-Specialized-v1
+  description: NVIDIA Indic pretraining set (2025-26) with Telugu-script and romanised Telugu configs; per the card largely synthetic/specialised content (rephrased, translated, QA-style) for Indic LLM pretraining.
+  genres: [synthetic, educational, translated]
+  telugu_scope: Telugu subset of multilingual
+  scripts: [Telu, Latn]
+  formats: [Parquet]
+  content_types: [documents]
+  size_telugu: "te-Telu-IN 11,969,113 rows / 86.4 GB; te-Latn-IN 2,286,686 rows / 22.0 GB"
+  size_total: "167,954,507 rows"
+  size_confidence: Confirmed
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "load_dataset('nvidia/Nemotron-Pretraining-Indic-Specialized-v1', 'te-Telu-IN')"
+  license: "other (NVIDIA dataset license on card)"
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-Specialized-v1
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=nvidia/Nemotron-Pretraining-Indic-Specialized-v1"
+  verification_status: Partially Verified
+  verification_method: HF API + datasets-server size
+  unresolved_issues: Exact license text ('other') and share of synthetic vs natural text need reading of the full card/license file.
+  corpus_value: Medium
+  processing_needs: Separate synthetic from natural text.
+
+- record_id: TEL-TXT-016
+  source_name: Hugging Face (NVIDIA)
+  collection_name: Nemotron-Pretraining-Indic-CC-v1 — te-Telu-IN
+  organization: NVIDIA
+  org_type: Commercial
+  official_url: https://huggingface.co/nvidia
+  collection_url: https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-CC-v1
+  description: NVIDIA-filtered Common Crawl Indic subset with a Telugu config (gated).
+  genres: [web]
+  telugu_scope: Telugu subset of multilingual
+  formats: [Parquet]
+  content_types: [web documents]
+  size_telugu: Unknown (gated)
+  size_confidence: Unknown
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: Accept terms on HF, then load config te-Telu-IN
+  registration: "Yes"
+  authentication: HF gated (accept terms)
+  license: other (per card)
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-CC-v1
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/nvidia/Nemotron-Pretraining-Indic-CC-v1"
+  verification_status: Partially Verified
+  verification_method: HF API (gated, config names)
+  unresolved_issues: Size and license text not visible without login.
+  corpus_value: Medium
+
+- record_id: TEL-TXT-017
+  source_name: LDC-IL (CIIL Mysuru)
+  collection_name: A Gold Standard Telugu Raw Text Corpus (Vol. I & Vol. II)
+  organization: Linguistic Data Consortium for Indian Languages, Central Institute of Indian Languages (Ministry of Education)
+  org_type: Government
+  official_url: https://www.ldcil.org/
+  collection_url: https://data.ldcil.org/a-gold-standard-telugu-raw-text-corpus
+  description: Curated, domain-balanced Telugu text from published books, magazines and newspapers (6 domains, 29 sub-categories), in XML with bibliographic headers. Vol. II released 2025.
+  secondary_categories: [LIT]
+  genres: [literature, mass media, science, social science, aesthetics, commerce]
+  telugu_scope: Telugu-only
+  formats: [XML]
+  content_types: [text samples from titles]
+  size_telugu: "Vol. I: 3,010,993 words, 859 titles, 24.9M characters (released 2019-04-04); Vol. II: 3,013,530 words, 160 titles (catalogue 1511, released 2025-03-20)"
+  size_confidence: Reported by source
+  metadata_fields: [title, author, publisher, year, domain, sub-domain]
+  digitization: Digital text (retyped/edited)
+  bulk_download: "No"
+  acquisition_method: Register on data.ldcil.org, request dataset; free for bona fide academic/government users, priced licence for commercial users (price shown after login).
+  registration: "Yes"
+  authentication: Application/approval
+  license: LDC-IL licence agreement (academic free / commercial paid)
+  license_scope: Uniform (single license)
+  redistribution: Not allowed
+  commercial_use: Allowed
+  license_evidence_url: https://www.ldcil.org/index.php/releaseddataset
+  copyright_notes: Commercial use requires a paid licence; redistribution of the corpus is not permitted under LDC-IL terms.
+  evidence_urls:
+  - "https://data.ldcil.org/a-gold-standard-telugu-raw-text-corpus"
+  - "https://data.ldcil.org/telugu-raw-text-corpus-vol-II"
+  verification_status: Partially Verified
+  verification_method: Catalogue page contents via search index; portal is JavaScript-rendered and was not fully inspectable
+  unresolved_issues: Exact licence text and current commercial price require login.
+  corpus_value: High
+  processing_needs: Clean, balanced, copyright-cleared text — valuable as a high-quality, genre-balanced evaluation/pretraining slice.
+
+- record_id: TEL-TXT-018
+  source_name: Hugging Face (opentelugu)
+  collection_name: Telugu History — public-domain sources
+  organization: Open Telugu (teluguhistory.org)
+  org_type: Community/Volunteer
+  official_url: https://opentelugu.org
+  collection_url: https://huggingface.co/datasets/opentelugu/telugu-history-public-domain
+  description: OCR text of 767 public-domain books, documents and magazine issues on the history of the Telugu region (Telangana, Coastal Andhra, Rayalaseema), split into search passages; the PD part of the teluguhistory.org research library.
+  secondary_categories: [ACAD, LIT]
+  genres: [history, gazetteers, inscriptions reports, magazines]
+  historical_period: Colonial and early modern publications (pre-1960s PD works)
+  languages: [te, en]
+  telugu_scope: Telugu-majority
+  formats: [Parquet]
+  content_types: [page texts, passages]
+  size_telugu: "767 works; 227,618 scanned pages; 365,239 passages (963,695 rows in datasets-server across configs)"
+  size_confidence: Reported by source
+  metadata_fields: [work title, page number, source]
+  digitization: Scans + OCR text
+  ocr_transcription: Machine OCR of scanned pages
+  bulk_download: "Yes"
+  acquisition_method: "load_dataset('opentelugu/telugu-history-public-domain')"
+  license: CC0 1.0 (HF tag; sources stated to be public domain)
+  license_scope: Uniform (single license)
+  redistribution: Allowed
+  commercial_use: Allowed
+  license_evidence_url: https://huggingface.co/datasets/opentelugu/telugu-history-public-domain
+  copyright_notes: "PD status asserted by uploader; spot-check works with authors who died after 1965 (India: life + 60 years)."
+  evidence_urls:
+  - "https://huggingface.co/datasets/opentelugu/telugu-history-public-domain/raw/main/README.md"
+  verification_status: Verified
+  verification_method: Dataset card read; HF API license; datasets-server row count
+  corpus_value: High
+  processing_needs: OCR error correction; mixed English/Telugu pages.
+
+- record_id: TEL-TXT-019
+  source_name: Hugging Face (neshkatrapati)
+  collection_name: Telugu WaC corpus
+  organization: Individual uploader (neshkatrapati)
+  org_type: Individual
+  official_url: https://huggingface.co/neshkatrapati
+  collection_url: https://huggingface.co/datasets/neshkatrapati/telugu_wac_corpus
+  description: Telugu 'Web-as-Corpus' crawl, line-level.
+  genres: [web]
+  telugu_scope: Telugu-only
+  formats: [Parquet]
+  content_types: [lines / sentences]
+  size_telugu: "20,448,149 rows"
+  size_confidence: Confirmed
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "load_dataset('neshkatrapati/telugu_wac_corpus')"
+  license: CC BY-NC-SA 4.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Not allowed
+  license_evidence_url: https://huggingface.co/datasets/neshkatrapati/telugu_wac_corpus
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=neshkatrapati/telugu_wac_corpus"
+  verification_status: Partially Verified
+  verification_method: HF API + datasets-server size
+  unresolved_issues: Crawl date, seed sites and cleaning undocumented.
+  corpus_value: Medium
+  processing_needs: Likely overlaps CC corpora; dedup.
+
+- record_id: TEL-TXT-020
+  source_name: Hugging Face (community-datasets)
+  collection_name: telugu_news (Kaggle 'Telugu NLP' news subset)
+  organization: Sudalai Rajkumar (Kaggle) — HF community mirror
+  org_type: Individual
+  official_url: https://www.kaggle.com/datasets/sudalairajkumar/telugu-nlp
+  collection_url: https://huggingface.co/datasets/community-datasets/telugu_news
+  description: Telugu news articles scraped from a Telugu news portal with topic labels (business, editorial, entertainment, nation, sports); script-based HF loader that pulls from Kaggle.
+  secondary_categories: [ANN, PERIOD]
+  genres: [news]
+  telugu_scope: Telugu-only
+  formats: [CSV (via loader script)]
+  content_types: [news articles with category]
+  size_telugu: "HF size category 10K-100K articles"
+  size_confidence: Estimate
+  annotations: [topic category]
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: Download the 'Telugu NLP' dataset from Kaggle (Kaggle account) — the HF loader script fetches it.
+  registration: "Yes"
+  authentication: Free account
+  license: unknown (HF tag 'unknown')
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/community-datasets/telugu_news
+  copyright_notes: Scraped newspaper text; publisher copyright applies.
+  duplicates_mirrors:
+  - "https://huggingface.co/datasets/mteb/telugu_andhra_jyoti_news"
+  evidence_urls:
+  - "https://huggingface.co/api/datasets/community-datasets/telugu_news"
+  verification_status: Partially Verified
+  verification_method: HF API; repo tree (loader script only)
+  unresolved_issues: Kaggle license field not checked (Kaggle requires login).
+  corpus_value: Low
+  processing_needs: Small; already included in larger crawls.
+
+- record_id: TEL-TXT-021
+  source_name: Hugging Face (SuryaKrishna02)
+  collection_name: aya-telugu-news-articles
+  organization: Aya Open Science Initiative contributor
+  org_type: Individual
+  official_url: https://huggingface.co/SuryaKrishna02
+  collection_url: https://huggingface.co/datasets/SuryaKrishna02/aya-telugu-news-articles
+  description: 467k+ instruction-style records (title -> article, article -> title) generated by scraping a Telugu news website, created for the Aya initiative.
+  secondary_categories: [ANN, PERIOD]
+  genres: [news]
+  telugu_scope: Telugu-only
+  formats: [Parquet]
+  content_types: [instruction/response pairs]
+  size_telugu: "467,090 records"
+  size_confidence: Confirmed
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "load_dataset('SuryaKrishna02/aya-telugu-news-articles')"
+  license: Apache 2.0 (HF tag)
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/SuryaKrishna02/aya-telugu-news-articles
+  copyright_notes: Apache-2.0 tag was applied by the uploader to scraped news articles; the publisher's copyright is not cleared, so commercial use is marked Unclear despite the tag.
+  evidence_urls:
+  - "https://huggingface.co/datasets/SuryaKrishna02/aya-telugu-news-articles/raw/main/README.md"
+  verification_status: Verified
+  verification_method: Dataset card read; datasets-server row count
+  corpus_value: Medium
+  processing_needs: Strip instruction templates to recover raw articles; dedup with news crawls.
+
+- record_id: TEL-TXT-022
+  source_name: Leipzig Corpora Collection (Wortschatz)
+  collection_name: Telugu corpora (news / web / Wikipedia, various years)
+  organization: Universität Leipzig, Natural Language Processing Group
+  org_type: Academic
+  official_url: https://wortschatz.uni-leipzig.de/
+  collection_url: https://wortschatz.uni-leipzig.de/en/download/Telugu
+  description: Sentence-level corpora (randomised sentence order) with word-frequency and co-occurrence lists, in standard sizes (10K-1M sentences) for Telugu news, web and Wikipedia crawls.
+  secondary_categories: [LEX]
+  genres: [news, web, Wikipedia]
+  telugu_scope: Telugu subset of multilingual
+  formats: [tar.gz with sentences, words, co-occurrences (tab-separated)]
+  content_types: [sentences, word frequency lists]
+  size_telugu: See download page (multiple corpora; standard sizes up to 1M sentences)
+  size_confidence: Unknown
+  annotations: [word frequencies, co-occurrence statistics]
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: Download tar.gz per corpus from the Telugu download page.
+  license: Not confirmed (believed CC BY 4.0; usage page could not be read)
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://wortschatz.uni-leipzig.de/en/usage
+  copyright_notes: Sentences are shuffled to limit reconstruction of copyrighted documents.
+  evidence_urls:
+  - "https://wortschatz.uni-leipzig.de/en/download/Telugu"
+  verification_status: Unverified
+  verification_method: Download and usage pages respond HTTP 200 but serve an Anubis anti-bot JavaScript challenge, so content could not be read by our tools
+  unresolved_issues: Open in a browser to list Telugu corpora/sizes and confirm the licence (CC BY 4.0 per our prior knowledge, unconfirmed).
+  corpus_value: Medium
+  processing_needs: Sentence-shuffled — not suitable for document-level modelling.
+
+- record_id: TEL-TXT-023
+  source_name: ELRA / Lancaster University
+  collection_name: EMILLE corpus — Telugu component
+  organization: Lancaster University & University of Sheffield (EMILLE project), distributed by ELRA
+  org_type: Academic
+  official_url: https://www.lancaster.ac.uk/fass/projects/corpus/emille/
+  collection_url: https://catalog.elra.info/en-us/repository/browse/ELRA-W0037/
+  description: Enabling Minority Language Engineering (EMILLE, 2000-2003) corpus of 14 South Asian languages; includes Telugu monolingual written text (Unicode-converted).
+  telugu_scope: Telugu subset of multilingual
+  formats: [CES/XML]
+  content_types: [written texts]
+  size_telugu: Unknown (EMILLE documentation gives per-language word counts)
+  size_confidence: Unknown
+  digitization: Born-digital text
+  bulk_download: "No"
+  acquisition_method: Purchase/licence from ELRA catalogue (ELRA-W0037).
+  registration: "Yes"
+  authentication: Paid/subscription
+  license: ELRA end-user licence (research / commercial tiers)
+  license_scope: Uniform (single license)
+  redistribution: Not allowed
+  commercial_use: Varies
+  license_evidence_url: https://catalog.elra.info/en-us/repository/browse/ELRA-W0037/
+  evidence_urls:
+  - "https://www.lancaster.ac.uk/fass/projects/corpus/emille/"
+  verification_status: Unverified
+  verification_method: Known resource from literature; catalogue page not inspected in this pass
+  unresolved_issues: Confirm Telugu word count and ELRA price/licence.
+  corpus_value: Low
+  processing_needs: Old (2003) web-sourced text; mainly of historical interest.
+
+- record_id: TEL-TXT-024
+  source_name: Hugging Face (eswardivi)
+  collection_name: indiccorp_telugu_line
+  organization: Individual uploader (eswardivi)
+  org_type: Individual
+  official_url: https://huggingface.co/eswardivi
+  collection_url: https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line
+  description: Line-split re-upload of the IndicCorp Telugu text.
+  telugu_scope: Telugu-only
+  formats: [Parquet]
+  content_types: [lines]
+  size_telugu: "42,916,522 rows"
+  size_confidence: Confirmed
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "load_dataset('eswardivi/indiccorp_telugu_line')"
+  license: none declared (inherits IndicCorp terms)
+  license_scope: No explicit license
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line
+  duplicates_mirrors: [TEL-TXT-003, TEL-TXT-004]
+  evidence_urls:
+  - "https://datasets-server.huggingface.co/size?dataset=eswardivi/indiccorp_telugu_line"
+  verification_status: Partially Verified
+  verification_method: datasets-server size
+  unresolved_issues: Unclear whether derived from IndicCorp v1 or v2.
+  corpus_value: Low
+  processing_needs: Mirror — do not count separately.
+
+- record_id: TEL-TXT-025
+  source_name: Common Crawl
+  collection_name: Common Crawl — Telugu-identified pages
+  organization: Common Crawl Foundation
+  org_type: Non-profit
+  official_url: https://commoncrawl.org/
+  collection_url: https://commoncrawl.github.io/cc-crawl-statistics/plots/languages
+  description: Raw monthly web crawls (WARC/WET) from which almost every Telugu web corpus above is derived; CC publishes per-crawl language distribution statistics (CLD2) including Telugu ('tel').
+  telugu_scope: Telugu subset of multilingual
+  formats: [WARC, WAT, WET]
+  content_types: [web pages]
+  size_telugu: "Small fraction of each crawl (see language statistics page)"
+  size_confidence: Unknown
+  metadata_fields: [url, fetch time, content-language detection]
+  digitization: Born-digital text
+  api_endpoint: https://index.commoncrawl.org/ (CDX index); s3://commoncrawl/
+  bulk_download: "Yes"
+  acquisition_method: Filter the columnar index (content_languages contains 'tel') via Athena/DuckDB, then fetch WARC records.
+  license: Common Crawl Terms of Use (content copyright remains with site owners)
+  license_scope: Varies per item
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://commoncrawl.org/terms-of-use
+  duplicates_mirrors: [TEL-TXT-007, TEL-TXT-008, TEL-TXT-010, TEL-TXT-012, TEL-TXT-013]
+  evidence_urls:
+  - "https://commoncrawl.github.io/cc-crawl-statistics/plots/languages"
+  verification_status: Partially Verified
+  verification_method: Known primary source; language stats page linked, Telugu share not extracted in this pass
+  unresolved_issues: Extract Telugu page share for recent crawls.
+  corpus_value: High
+  processing_needs: Full extraction + LID + quality filtering + dedup pipeline needed; only worthwhile for fresh crawls not yet covered by FineWeb-2/HPLT.

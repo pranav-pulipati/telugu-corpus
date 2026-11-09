@@ -1,0 +1,2447 @@
+{
+ "https://aclanthology.org/": {
+  "status": 200,
+  "final_url": "https://aclanthology.org/",
+  "date": "2026-11-09"
+ },
+ "https://aclanthology.org/2022.lrec-1.614": {
+  "status": 200,
+  "final_url": "https://aclanthology.org/2022.lrec-1.614/",
+  "date": "2026-11-09"
+ },
+ "https://aclanthology.org/L10-1602/": {
+  "status": 200,
+  "final_url": "https://aclanthology.org/L10-1602/",
+  "date": "2026-11-09"
+ },
+ "https://aclanthology.org/search/?q=Telugu": {
+  "status": 200,
+  "final_url": "https://aclanthology.org/search/?q=Telugu",
+  "date": "2026-11-09"
+ },
+ "https://aclweb.org/anthology/2018.gwc-1.47.pdf": {
+  "status": 200,
+  "final_url": "https://aclanthology.org/2018.gwc-1.47.pdf",
+  "date": "2026-11-09"
+ },
+ "https://aikosh.indiaai.gov.in/home/datasets": {
+  "status": 200,
+  "final_url": "https://aikosh.indiaai.gov.in/home/datasets",
+  "date": "2026-11-09"
+ },
+ "https://aikosh.indiaai.gov.in/home/datasets/details/akv_pdf_202403_telugu.html": {
+  "status": 200,
+  "final_url": "https://aikosh.indiaai.gov.in/home/datasets/details/akv_pdf_202403_telugu.html",
+  "date": "2026-11-09"
+ },
+ "https://aikosh.indiaai.gov.in/home/datasets/details/iiit_indic_hw_words_11.html": {
+  "status": 200,
+  "final_url": "https://aikosh.indiaai.gov.in/home/datasets/details/iiit_indic_hw_words_11.html",
+  "date": "2026-11-09"
+ },
+ "https://aikosh.indiaai.gov.in/home/datasets/details/iisc_respin_s1_0_corpus.html": {
+  "status": 200,
+  "final_url": "https://aikosh.indiaai.gov.in/home/datasets/details/iisc_respin_s1_0_corpus.html",
+  "date": "2026-11-09"
+ },
+ "https://aikosh.indiaai.gov.in/home/datasets/details/iisc_syspin_s1_0_corpus.html": {
+  "status": 200,
+  "final_url": "https://aikosh.indiaai.gov.in/home/datasets/details/iisc_syspin_s1_0_corpus.html",
+  "date": "2026-11-09"
+ },
+ "https://aikosh.indiaai.gov.in/home/datasets/details/telugu_news_broadcast_feb_2026_akashvani.html": {
+  "status": 200,
+  "final_url": "https://aikosh.indiaai.gov.in/home/datasets/details/telugu_news_broadcast_feb_2026_akashvani.html",
+  "date": "2026-11-09"
+ },
+ "https://aikosh.indiaai.gov.in/home/datasets/details/telugu_news_bulletin_july_2024_akashvani.html": {
+  "status": 200,
+  "final_url": "https://aikosh.indiaai.gov.in/home/datasets/details/telugu_news_bulletin_july_2024_akashvani.html",
+  "date": "2026-11-09"
+ },
+ "https://api.github.com/search/repositories?q=telugu+dataset&sort=stars": {
+  "status": 200,
+  "final_url": "https://api.github.com/search/repositories?q=telugu+dataset&sort=stars",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/about/terms": {
+  "status": 200,
+  "final_url": "https://archive.org/about/terms",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=collection%3AJaiGyan%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=collection%3AJaiGyan%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=collection%3Abooksbylanguage_telugu%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=collection%3Abooksbylanguage_telugu%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=collection%3Achandamama-magazine%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=collection%3Achandamama-magazine%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=collection%3Adigitallibraryindia%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=collection%3Adigitallibraryindia%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=collection%3Atelangana-goir&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=collection%3Atelangana-goir&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=collection%3Atelugu-palm-leaf&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=collection%3Atelugu-palm-leaf&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=collection%3Auniversallibrary%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=collection%3Auniversallibrary%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=identifier%3Ain.gazette.andhra%2A&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=identifier%3Ain.gazette.andhra%2A&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=identifier%3Ain.gazette.telangana%2A&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=identifier%3Ain.gazette.telangana%2A&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=mediatype%3Aaudio%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=mediatype%3Aaudio%20AND%20language%3A%28Telugu%20OR%20tel%29&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=ocr_detected_lang%3Ate&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=ocr_detected_lang%3Ate&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=title%3A%28%22andhra%20patrika%22%29&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=title%3A%28%22andhra%20patrika%22%29&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=title%3A%28%22epigraphia%20andhrica%22%29&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=title%3A%28%22epigraphia%20andhrica%22%29&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=title%3A%28%22south%20indian%20inscriptions%22%29&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=title%3A%28%22south%20indian%20inscriptions%22%29&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/advancedsearch.php?q=title%3Abharathi%20AND%20collection%3Atelugu-library&fl[]=identifier&rows=0&output=json": {
+  "status": 200,
+  "final_url": "https://archive.org/advancedsearch.php?q=title%3Abharathi%20AND%20collection%3Atelugu-library&fl[]=identifier&rows=0&output=json",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/JaiGyan": {
+  "status": 200,
+  "final_url": "https://archive.org/details/JaiGyan",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/andhra-goir": {
+  "status": 200,
+  "final_url": "https://archive.org/details/andhra-goir",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/andhrapradeshlegislature": {
+  "status": 200,
+  "final_url": "https://archive.org/details/andhrapradeshlegislature",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/booksbylanguage_telugu": {
+  "status": 200,
+  "final_url": "https://archive.org/details/booksbylanguage_telugu",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/chandamama-magazine": {
+  "status": 200,
+  "final_url": "https://archive.org/details/chandamama-magazine",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/digitallibraryindia": {
+  "status": 200,
+  "final_url": "https://archive.org/details/digitallibraryindia",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/gazetteofindia": {
+  "status": 200,
+  "final_url": "https://archive.org/details/gazetteofindia",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/mohanpublicationslibrary": {
+  "status": 200,
+  "final_url": "https://archive.org/details/mohanpublicationslibrary",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/newspapers-telugu": {
+  "status": 200,
+  "final_url": "https://archive.org/details/newspapers-telugu",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/srujana-patrika": {
+  "status": 200,
+  "final_url": "https://archive.org/details/srujana-patrika",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/svk_library": {
+  "status": 200,
+  "final_url": "https://archive.org/details/svk_library",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/telangana-goir": {
+  "status": 200,
+  "final_url": "https://archive.org/details/telangana-goir",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/telugu-cinema-collection": {
+  "status": 200,
+  "final_url": "https://archive.org/details/telugu-cinema-collection",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/telugu-library": {
+  "status": 200,
+  "final_url": "https://archive.org/details/telugu-library",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/telugu-palm-leaf": {
+  "status": 200,
+  "final_url": "https://archive.org/details/telugu-palm-leaf",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/details/universallibrary": {
+  "status": 200,
+  "final_url": "https://archive.org/details/universallibrary",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/metadata/andhra-goir": {
+  "status": 200,
+  "final_url": "https://archive.org/metadata/andhra-goir",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/metadata/aplegislature.assembly.A.000060_04.03.1959": {
+  "status": 200,
+  "final_url": "https://archive.org/metadata/aplegislature.assembly.A.000060_04.03.1959",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/metadata/mohanpublicationslibrary": {
+  "status": 200,
+  "final_url": "https://archive.org/metadata/mohanpublicationslibrary",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/metadata/newspapers-telugu": {
+  "status": 200,
+  "final_url": "https://archive.org/metadata/newspapers-telugu",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/metadata/sarasvati00unknsher": {
+  "status": 200,
+  "final_url": "https://archive.org/metadata/sarasvati00unknsher",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/metadata/srujana-patrika": {
+  "status": 200,
+  "final_url": "https://archive.org/metadata/srujana-patrika",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/metadata/svk_library": {
+  "status": 200,
+  "final_url": "https://archive.org/metadata/svk_library",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/metadata/tel_b_0013_d_0583": {
+  "status": 200,
+  "final_url": "https://archive.org/metadata/tel_b_0013_d_0583",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/metadata/telugu-cinema-collection": {
+  "status": 200,
+  "final_url": "https://archive.org/metadata/telugu-cinema-collection",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/metadata/telugu-library": {
+  "status": 200,
+  "final_url": "https://archive.org/metadata/telugu-library",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/metadata/veekshanam": {
+  "status": 200,
+  "final_url": "https://archive.org/metadata/veekshanam",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/search?query=collection%3AJaiGyan+AND+language%3A%28Telugu+OR+tel%29": {
+  "status": 200,
+  "final_url": "https://archive.org/search?query=collection%3AJaiGyan+AND+language%3A%28Telugu+OR+tel%29",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/search?query=collection%3Achandamama-magazine+AND+language%3A%28Telugu+OR+tel%29": {
+  "status": 200,
+  "final_url": "https://archive.org/search?query=collection%3Achandamama-magazine+AND+language%3A%28Telugu+OR+tel%29",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/search?query=collection%3Adigitallibraryindia+AND+language%3A%28Telugu+OR+tel%29": {
+  "status": 200,
+  "final_url": "https://archive.org/search?query=collection%3Adigitallibraryindia+AND+language%3A%28Telugu+OR+tel%29",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/search?query=collection%3Auniversallibrary+AND+language%3A%28Telugu+OR+tel%29": {
+  "status": 200,
+  "final_url": "https://archive.org/search?query=collection%3Auniversallibrary+AND+language%3A%28Telugu+OR+tel%29",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/search?query=identifier%3Ain.gazette.andhra%2A": {
+  "status": 200,
+  "final_url": "https://archive.org/search?query=identifier%3Ain.gazette.andhra%2A",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/search?query=language%3A%28Telugu+OR+tel%29": {
+  "status": 200,
+  "final_url": "https://archive.org/search?query=language%3A%28Telugu+OR+tel%29",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/search?query=mediatype%3Aaudio+AND+language%3A%28Telugu+OR+tel%29": {
+  "status": 200,
+  "final_url": "https://archive.org/search?query=mediatype%3Aaudio+AND+language%3A%28Telugu+OR+tel%29",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/search?query=title%3A%28%22andhra+patrika%22%29": {
+  "status": 200,
+  "final_url": "https://archive.org/search?query=title%3A%28%22andhra+patrika%22%29",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/search?query=title%3A%28%22epigraphia+indica%22%29": {
+  "status": 200,
+  "final_url": "https://archive.org/search?query=title%3A%28%22epigraphia+indica%22%29",
+  "date": "2026-11-09"
+ },
+ "https://archive.org/search?query=title%3A%28%22south+indian+inscriptions%22%29": {
+  "status": 200,
+  "final_url": "https://archive.org/search?query=title%3A%28%22south+indian+inscriptions%22%29",
+  "date": "2026-11-09"
+ },
+ "https://arxiv.org/abs/1912.07025": {
+  "status": 200,
+  "final_url": "https://arxiv.org/abs/1912.07025",
+  "date": "2026-11-09"
+ },
+ "https://arxiv.org/abs/2205.06740": {
+  "status": 200,
+  "final_url": "https://arxiv.org/abs/2205.06740",
+  "date": "2026-11-09"
+ },
+ "https://arxiv.org/abs/2403.08007": {
+  "status": 200,
+  "final_url": "https://arxiv.org/abs/2403.08007",
+  "date": "2026-11-09"
+ },
+ "https://arxiv.org/pdf/2201.02977": {
+  "status": 200,
+  "final_url": "https://arxiv.org/pdf/2201.02977",
+  "date": "2026-11-09"
+ },
+ "https://arxiv.org/pdf/2410.14197": {
+  "status": 200,
+  "final_url": "https://arxiv.org/pdf/2410.14197",
+  "date": "2026-11-09"
+ },
+ "https://bharatavani.in/": {
+  "status": 200,
+  "final_url": "https://bharatavani.in/",
+  "date": "2026-11-09"
+ },
+ "https://bhashini.gov.in/ulca": {
+  "status": 200,
+  "final_url": "https://bhashini.gov.in/ulca",
+  "date": "2026-11-09"
+ },
+ "https://catalog.crl.edu/Record/9d4ef1ae-a1a2-573f-9be2-5bd2ba0ecb9a/Description": {
+  "status": 202,
+  "final_url": "https://catalog.crl.edu/Record/9d4ef1ae-a1a2-573f-9be2-5bd2ba0ecb9a/Description",
+  "date": "2026-11-09"
+ },
+ "https://catalog.crl.edu/Record/fa477d8b-2c57-5d3d-835c-1175321c55f4/Description?lng=en": {
+  "status": 202,
+  "final_url": "https://catalog.crl.edu/Record/fa477d8b-2c57-5d3d-835c-1175321c55f4/Description?lng=en",
+  "date": "2026-11-09"
+ },
+ "https://catalog.elra.info/en-us/repository/browse/ELRA-W0037/": {
+  "status": 0,
+  "final_url": "https://catalog.elra.info/en-us/repository/browse/ELRA-W0037/",
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+  "date": "2026-11-09"
+ },
+ "https://catalog.hathitrust.org/Record/001178411": {
+  "status": 403,
+  "final_url": "https://catalog.hathitrust.org/Record/001178411",
+  "error": "Forbidden",
+  "date": "2026-11-09"
+ },
+ "https://catalog.hathitrust.org/Record/100190635/Home": {
+  "status": 403,
+  "final_url": "https://catalog.hathitrust.org/Record/100190635/Home",
+  "error": "Forbidden",
+  "date": "2026-11-09"
+ },
+ "https://catalog.hathitrust.org/Search/Home?lookfor=*&type=all&filter%5B%5D=language%3ATelugu": {
+  "status": 403,
+  "final_url": "https://catalog.hathitrust.org/Search/Home?lookfor=*&type=all&filter%5B%5D=language%3ATelugu",
+  "error": "Forbidden",
+  "date": "2026-11-09"
+ },
+ "https://cis-india.org/a2k/blogs/cis-brings-nadustunna-charithra-magazine-under-by-cc-by-sa-licence": {
+  "status": 200,
+  "final_url": "https://cis-india.org/a2k/blogs/cis-brings-nadustunna-charithra-magazine-under-by-cc-by-sa-licence",
+  "date": "2026-11-09"
+ },
+ "https://commoncrawl.github.io/cc-crawl-statistics/plots/languages": {
+  "status": 200,
+  "final_url": "https://commoncrawl.github.io/cc-crawl-statistics/plots/languages",
+  "date": "2026-11-09"
+ },
+ "https://commoncrawl.org/terms-of-use": {
+  "status": 200,
+  "final_url": "https://commoncrawl.org/terms-of-use",
+  "date": "2026-11-09"
+ },
+ "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=%22A+P+Archives%22+Kaifiyats&srnamespace=6&format=json": {
+  "status": 200,
+  "final_url": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=%22A+P+Archives%22+Kaifiyats&srnamespace=6&format=json",
+  "date": "2026-11-09"
+ },
+ "https://commons.wikimedia.org/wiki/Category:Telugu_books": {
+  "status": 200,
+  "final_url": "https://commons.wikimedia.org/wiki/Category:Telugu_books",
+  "date": "2026-11-09"
+ },
+ "https://commons.wikimedia.org/wiki/Commons:Licensing": {
+  "status": 200,
+  "final_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+  "date": "2026-11-09"
+ },
+ "https://commons.wikimedia.org/wiki/File:A_P_Archives_Kaifiyats_R_No_1079.pdf": {
+  "status": 200,
+  "final_url": "https://commons.wikimedia.org/wiki/File:A_P_Archives_Kaifiyats_R_No_1079.pdf",
+  "date": "2026-11-09"
+ },
+ "https://commons.wikimedia.org/wiki/File:Vignana_sarvaswamu_arava_samputam_vishvasahiti.pdf": {
+  "status": 200,
+  "final_url": "https://commons.wikimedia.org/wiki/File:Vignana_sarvaswamu_arava_samputam_vishvasahiti.pdf",
+  "date": "2026-11-09"
+ },
+ "https://commonvoice.mozilla.org/api/v1/stats/languages": {
+  "status": 200,
+  "final_url": "https://commonvoice.mozilla.org/api/v1/stats/languages",
+  "date": "2026-11-09"
+ },
+ "https://commonvoice.mozilla.org/en/datasets": {
+  "status": 200,
+  "final_url": "https://commonvoice.mozilla.org/en/datasets",
+  "date": "2026-11-09"
+ },
+ "https://commonvoice.mozilla.org/te": {
+  "status": 200,
+  "final_url": "https://commonvoice.mozilla.org/te",
+  "date": "2026-11-09"
+ },
+ "https://cse.ap.gov.in/": {
+  "status": 200,
+  "final_url": "https://cse.ap.gov.in/",
+  "date": "2026-11-09"
+ },
+ "https://cse.ap.gov.in/textBooksDownloadingPageTEBilingual": {
+  "status": 200,
+  "final_url": "https://cse.ap.gov.in/textBooksDownloadingPageTEBilingual",
+  "date": "2026-11-09"
+ },
+ "https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data": {
+  "status": 200,
+  "final_url": "https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data",
+  "date": "2026-11-09"
+ },
+ "https://cvit.iiit.ac.in/research/projects/cvit-projects/indiscapes-instance-segmentation-networks-for-layout-parsing-of-historical-indic-manuscripts": {
+  "status": 200,
+  "final_url": "https://cvit.iiit.ac.in/research/projects/cvit-projects/indiscapes-instance-segmentation-networks-for-layout-parsing-of-historical-indic-manuscripts",
+  "date": "2026-11-09"
+ },
+ "https://cvit.iiit.ac.in/usodi/tdocrmil.php": {
+  "status": 200,
+  "final_url": "https://cvit.iiit.ac.in/usodi/tdocrmil.php",
+  "date": "2026-11-09"
+ },
+ "https://data.ldcil.org/a-gold-standard-telugu-raw-text-corpus": {
+  "status": 200,
+  "final_url": "https://data.ldcil.org/a-gold-standard-telugu-raw-text-corpus",
+  "date": "2026-11-09"
+ },
+ "https://data.ldcil.org/speech/speech-raw-corpus/telugu-raw-speech-corpus": {
+  "status": 200,
+  "final_url": "https://data.ldcil.org/telugu-raw-speech-corpus",
+  "date": "2026-11-09"
+ },
+ "https://data.ldcil.org/telugu-raw-speech-corpus": {
+  "status": 200,
+  "final_url": "https://data.ldcil.org/telugu-raw-speech-corpus",
+  "date": "2026-11-09"
+ },
+ "https://data.ldcil.org/telugu-raw-text-corpus-vol-II": {
+  "status": 200,
+  "final_url": "https://data.ldcil.org/a-gold-standard-telugu-raw-text-corpus-vol-ii",
+  "date": "2026-11-09"
+ },
+ "https://data.statmt.org/cc-100/": {
+  "status": 200,
+  "final_url": "https://data.statmt.org/cc-100/",
+  "date": "2026-11-09"
+ },
+ "https://data.statmt.org/cc-100/te.txt.xz": {
+  "status": 200,
+  "final_url": "https://data.statmt.org/cc-100/te.txt.xz",
+  "date": "2026-11-09"
+ },
+ "https://data.statmt.org/pmindia/": {
+  "status": 200,
+  "final_url": "https://data.statmt.org/pmindia/",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=10X-Technologies/StoryTOM-Corpus-en-te": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=10X-Technologies/StoryTOM-Corpus-en-te",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=BodduSriPavan111/chandassu": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=BodduSriPavan111/chandassu",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=Cognitive-Lab/NayanaOCR_Corpus_2025": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=Cognitive-Lab/NayanaOCR_Corpus_2025",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=CohereLabs/Global-MMLU": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=CohereLabs/Global-MMLU",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=CohereLabs/aya_collection_language_split": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=CohereLabs/aya_collection_language_split",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=CohereLabs/include-base-44": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=CohereLabs/include-base-44",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=Davlan/sib200": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=Davlan/sib200",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=Divyanshu/indicxnli": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=Divyanshu/indicxnli",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=HPLT/DocHPLT": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=HPLT/DocHPLT",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=HPLT/HPLT2.0_cleaned": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=HPLT/HPLT2.0_cleaned",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=Helsinki-NLP/opus-100": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=Helsinki-NLP/opus-100",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=HuggingFaceFW/fineweb-2": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=HuggingFaceFW/fineweb-2",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=MBZUAI/Bactrian-X": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=MBZUAI/Bactrian-X",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicHeadlineGeneration": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicHeadlineGeneration",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicParaphrase": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicParaphrase",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicQuestionGeneration": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicQuestionGeneration",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicSentenceSummarization": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicSentenceSummarization",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicWikiBio": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicWikiBio",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicXParaphrase": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=ai4bharat/IndicXParaphrase",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=ai4bharat/indic-align": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=ai4bharat/indic-align",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=ai4bharat/indic_glue": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=ai4bharat/indic_glue",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=ai4bharat/naamapadam": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=ai4bharat/naamapadam",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=ai4bharat/samanantar": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=ai4bharat/samanantar",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=allenai/c4": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=allenai/c4",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=castorini/mr-tydi": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=castorini/mr-tydi",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=cis-lmu/GlotCC-V1": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=cis-lmu/GlotCC-V1",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=davidstap/NTREX": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=davidstap/NTREX",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=deepdml/microsoft-speech-corpus-indian": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=deepdml/microsoft-speech-corpus-indian",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=eswardivi/indiccorp_telugu_line": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=eswardivi/indiccorp_telugu_line",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=facebook/belebele": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=facebook/belebele",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=gksriharsha/chitralekha": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=gksriharsha/chitralekha",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=google/fleurs": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=google/fleurs",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=google/wmt24pp": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=google/wmt24pp",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=google/xtreme": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=google/xtreme",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=harsha-desaraju/telugu-wikisource-text-images": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=harsha-desaraju/telugu-wikisource-text-images",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=juletxara/xstory_cloze": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=juletxara/xstory_cloze",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=neshkatrapati/telugu_wac_corpus": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=neshkatrapati/telugu_wac_corpus",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=nvidia/Nemotron-Pretraining-Indic-Specialized-v1": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=nvidia/Nemotron-Pretraining-Indic-Specialized-v1",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=samvaran/chandohasam": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=samvaran/chandohasam",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=sarvamai/indic-diarbench": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=sarvamai/indic-diarbench",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=therajasekhar/sc-judgments-indic-v1": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=therajasekhar/sc-judgments-indic-v1",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=unimelb-nlp/wikiann": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=unimelb-nlp/wikiann",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=wikimedia/wikipedia": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=wikimedia/wikipedia",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/size?dataset=wikimedia/wikisource": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/size?dataset=wikimedia/wikisource",
+  "date": "2026-11-09"
+ },
+ "https://datasets-server.huggingface.co/splits?dataset=google/svq": {
+  "status": 200,
+  "final_url": "https://datasets-server.huggingface.co/splits?dataset=google/svq",
+  "date": "2026-11-09"
+ },
+ "https://digital-collections.princeton.edu/": {
+  "status": 200,
+  "final_url": "https://digital-collections.princeton.edu/",
+  "date": "2026-11-09"
+ },
+ "https://digital-collections.princeton.edu/i/తెలంగాణ-సోయ-త్రైమాసిక-సాహిత్య-సంచిక/item/2ed3d38c-da24-4f5e-abf9-b2055975d2e4/metadata": {
+  "status": 200,
+  "final_url": "https://digital-collections.princeton.edu/i/%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B0%82%E0%B0%97%E0%B0%BE%E0%B0%A3-%E0%B0%B8%E0%B1%8B%E0%B0%AF-%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B1%88%E0%B0%AE%E0%B0%BE%E0%B0%B8%E0%B0%BF%E0%B0%95-%E0%B0%B8%E0%B0%BE%E0%B0%B9%E0%B0%BF%E0%B0%A4%E0%B1%8D%E0%B0%AF-%E0%B0%B8%E0%B0%82%E0%B0%9A%E0%B0%BF%E0%B0%95/item/2ed3d38c-da24-4f5e-abf9-b2055975d2e4/metadata",
+  "date": "2026-11-09"
+ },
+ "https://digital-collections.princeton.edu/i/నడుస్తున్న-తెలంగాణ-మాస-పత్రిక-ఫిబ్ర/item/ca70a37a-c44f-4d3f-98d2-f44538cc8541/viewer/4": {
+  "status": 200,
+  "final_url": "https://digital-collections.princeton.edu/i/%E0%B0%A8%E0%B0%A1%E0%B1%81%E0%B0%B8%E0%B1%8D%E0%B0%A4%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8-%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B0%82%E0%B0%97%E0%B0%BE%E0%B0%A3-%E0%B0%AE%E0%B0%BE%E0%B0%B8-%E0%B0%AA%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B0%BF%E0%B0%95-%E0%B0%AB%E0%B0%BF%E0%B0%AC%E0%B1%8D%E0%B0%B0/item/ca70a37a-c44f-4d3f-98d2-f44538cc8541/viewer/4",
+  "date": "2026-11-09"
+ },
+ "https://digitalcommons.unl.edu/libphilprac/4113": {
+  "status": 200,
+  "final_url": "https://scholarworks.sjsu.edu/libphilprac/4113/",
+  "date": "2026-11-09"
+ },
+ "https://doi.org/10.5281/zenodo.11408513": {
+  "status": 200,
+  "final_url": "https://zenodo.org/records/11408513",
+  "date": "2026-11-09"
+ },
+ "https://doi.org/10.5281/zenodo.14965382": {
+  "status": 200,
+  "final_url": "https://zenodo.org/records/14965382",
+  "date": "2026-11-09"
+ },
+ "https://doi.org/10.5281/zenodo.15881917": {
+  "status": 200,
+  "final_url": "https://zenodo.org/records/15881917",
+  "date": "2026-11-09"
+ },
+ "https://doi.org/10.5281/zenodo.18153338": {
+  "status": 200,
+  "final_url": "https://zenodo.org/records/18153338",
+  "date": "2026-11-09"
+ },
+ "https://doi.org/10.5281/zenodo.22682542": {
+  "status": 200,
+  "final_url": "https://zenodo.org/records/22682542",
+  "date": "2026-11-09"
+ },
+ "https://doi.org/10.5281/zenodo.6376096": {
+  "status": 200,
+  "final_url": "https://zenodo.org/records/6376096",
+  "date": "2026-11-09"
+ },
+ "https://dsal.uchicago.edu/dictionaries/": {
+  "status": 200,
+  "final_url": "https://dsal.uchicago.edu/dictionaries/",
+  "date": "2026-11-09"
+ },
+ "https://dsal.uchicago.edu/dictionaries/brown/": {
+  "status": 200,
+  "final_url": "https://dsal.uchicago.edu/dictionaries/brown/",
+  "date": "2026-11-09"
+ },
+ "https://dspace.uohyd.ac.in/handle/1/8547": {
+  "status": 503,
+  "final_url": "https://dspace.uohyd.ac.in/handle/1/8547",
+  "error": "Service Unavailable",
+  "date": "2026-11-09"
+ },
+ "https://dumps.wikimedia.org/tewiki/latest/": {
+  "status": 200,
+  "final_url": "https://dumps.wikimedia.org/tewiki/latest/",
+  "date": "2026-11-09"
+ },
+ "https://dumps.wikimedia.org/tewiktionary/latest/": {
+  "status": 200,
+  "final_url": "https://dumps.wikimedia.org/tewiktionary/latest/",
+  "date": "2026-11-09"
+ },
+ "https://eap.bl.uk/": {
+  "status": 200,
+  "final_url": "https://eap.bl.uk/",
+  "date": "2026-11-09"
+ },
+ "https://eap.bl.uk/index.php/collection/EAP038-1/search": {
+  "status": 405,
+  "final_url": "https://eap.bl.uk/index.php/collection/EAP038-1/search",
+  "error": "Not Allowed",
+  "date": "2026-11-09"
+ },
+ "https://eap.bl.uk/project/EAP038": {
+  "status": 200,
+  "final_url": "https://eap.bl.uk/project/EAP038",
+  "date": "2026-11-09"
+ },
+ "https://eap.bl.uk/project/EAP038/search": {
+  "status": 405,
+  "final_url": "https://eap.bl.uk/project/EAP038/search",
+  "error": "Not Allowed",
+  "date": "2026-11-09"
+ },
+ "https://ebible.org/find/country.php?c=IN": {
+  "status": 200,
+  "final_url": "https://ebible.org/find/country.php?c=IN",
+  "date": "2026-11-09"
+ },
+ "https://ebible.org/find/details.php?id=telirv": {
+  "status": 200,
+  "final_url": "https://ebible.org/find/details.php?id=telirv",
+  "date": "2026-11-09"
+ },
+ "https://ebooks.tirumala.org/": {
+  "status": 200,
+  "final_url": "https://ebooks.tirumala.org/",
+  "date": "2026-11-09"
+ },
+ "https://ebooks.tirumala.org/search?key=language&value=telugu": {
+  "status": 200,
+  "final_url": "https://ebooks.tirumala.org/search?key=language&value=telugu",
+  "date": "2026-11-09"
+ },
+ "https://ebooks.tirumala.org/search?key=literature&value=sankeerthana%20literature": {
+  "status": 200,
+  "final_url": "https://ebooks.tirumala.org/search?key=literature&value=sankeerthana%20literature",
+  "date": "2026-11-09"
+ },
+ "https://ebooks.tirumala.org/search?key=series&value=sapthagiri": {
+  "status": 200,
+  "final_url": "https://ebooks.tirumala.org/search?key=series&value=sapthagiri",
+  "date": "2026-11-09"
+ },
+ "https://editors.cis-india.org/openness/rare-telugu-religious-and-historical-work-preserved-at-annamacharya-library-to-come-on-wikisource": {
+  "status": 200,
+  "final_url": "https://editors.cis-india.org/openness/rare-telugu-religious-and-historical-work-preserved-at-annamacharya-library-to-come-on-wikisource",
+  "date": "2026-11-09"
+ },
+ "https://eemaata.com/": {
+  "status": 200,
+  "final_url": "https://eemaata.com/",
+  "date": "2026-11-09"
+ },
+ "https://eemaata.com/em/intro-eemaata": {
+  "status": 200,
+  "final_url": "https://eemaata.com/em/intro-eemaata",
+  "date": "2026-11-09"
+ },
+ "https://en.wikipedia.org/wiki/Government_Oriental_Manuscripts_Library_and_Research_Centre": {
+  "status": 200,
+  "final_url": "https://en.wikipedia.org/wiki/Government_Oriental_Manuscripts_Library_and_Research_Centre",
+  "date": "2026-11-09"
+ },
+ "https://en.wikipedia.org/wiki/Press_Academy_of_Andhra_Pradesh": {
+  "status": 200,
+  "final_url": "https://en.wikipedia.org/wiki/Press_Academy_of_Andhra_Pradesh",
+  "date": "2026-11-09"
+ },
+ "https://fonts.google.com/?subset=telugu": {
+  "status": 200,
+  "final_url": "https://fonts.google.com/?subset=telugu",
+  "date": "2026-11-09"
+ },
+ "https://fonts.google.com/noto/specimen/Noto+Sans+Telugu": {
+  "status": 200,
+  "final_url": "https://fonts.google.com/noto/specimen/Noto+Sans+Telugu",
+  "date": "2026-11-09"
+ },
+ "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use": {
+  "status": 200,
+  "final_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+  "date": "2026-11-09"
+ },
+ "https://github.com/AI4Bharat/IndicSUPERB": {
+  "status": 200,
+  "final_url": "https://github.com/AI4Bharat/IndicSUPERB",
+  "date": "2026-11-09"
+ },
+ "https://github.com/AI4Bharat/IndicSUPERB#license": {
+  "status": 200,
+  "final_url": "https://github.com/AI4Bharat/IndicSUPERB#license",
+  "date": "2026-11-09"
+ },
+ "https://github.com/AI4Bharat/IndicTrans2": {
+  "status": 200,
+  "final_url": "https://github.com/AI4Bharat/IndicTrans2",
+  "date": "2026-11-09"
+ },
+ "https://github.com/AI4Bharat/IndicVoices": {
+  "status": 200,
+  "final_url": "https://github.com/AI4Bharat/IndicVoices",
+  "date": "2026-11-09"
+ },
+ "https://github.com/AI4Bharat/IndicXlit": {
+  "status": 200,
+  "final_url": "https://github.com/AI4Bharat/IndicXlit",
+  "date": "2026-11-09"
+ },
+ "https://github.com/AI4Bharat/MILU": {
+  "status": 200,
+  "final_url": "https://github.com/AI4Bharat/MILU",
+  "date": "2026-11-09"
+ },
+ "https://github.com/AI4Bharat/MILU#license": {
+  "status": 200,
+  "final_url": "https://github.com/AI4Bharat/MILU#license",
+  "date": "2026-11-09"
+ },
+ "https://github.com/AI4Bharat/indicnlp_corpus": {
+  "status": 200,
+  "final_url": "https://github.com/AI4Bharat/indicnlp_corpus",
+  "date": "2026-11-09"
+ },
+ "https://github.com/AI4Bharat/indicnlp_corpus#license": {
+  "status": 200,
+  "final_url": "https://github.com/AI4Bharat/indicnlp_corpus#license",
+  "date": "2026-11-09"
+ },
+ "https://github.com/AnushaMotamarri/Telugu-Books-Dataset": {
+  "status": 200,
+  "final_url": "https://github.com/AnushaMotamarri/Telugu-Books-Dataset",
+  "date": "2026-11-09"
+ },
+ "https://github.com/MicrosoftTranslator/NTREX": {
+  "status": 200,
+  "final_url": "https://github.com/MicrosoftTranslator/NTREX",
+  "date": "2026-11-09"
+ },
+ "https://github.com/PAGADALA-USHA/TELUGU-DATASET": {
+  "status": 200,
+  "final_url": "https://github.com/PAGADALA-USHA/TELUGU-DATASET",
+  "date": "2026-11-09"
+ },
+ "https://github.com/UniversalDependencies/UD_Telugu-MTG": {
+  "status": 200,
+  "final_url": "https://github.com/UniversalDependencies/UD_Telugu-MTG",
+  "date": "2026-11-09"
+ },
+ "https://github.com/alexa/massive": {
+  "status": 200,
+  "final_url": "https://github.com/alexa/massive",
+  "date": "2026-11-09"
+ },
+ "https://github.com/anoopkunchukuttan/indic_nlp_library": {
+  "status": 200,
+  "final_url": "https://github.com/anoopkunchukuttan/indic_nlp_library",
+  "date": "2026-11-09"
+ },
+ "https://github.com/ashokurlana/TeSum": {
+  "status": 200,
+  "final_url": "https://github.com/ashokurlana/TeSum",
+  "date": "2026-11-09"
+ },
+ "https://github.com/ashokurlana/TeSum#license": {
+  "status": 200,
+  "final_url": "https://github.com/ashokurlana/TeSum#license",
+  "date": "2026-11-09"
+ },
+ "https://github.com/csebuetnlp/xl-sum": {
+  "status": 200,
+  "final_url": "https://github.com/csebuetnlp/xl-sum",
+  "date": "2026-11-09"
+ },
+ "https://github.com/google-research-datasets/dakshina": {
+  "status": 200,
+  "final_url": "https://github.com/google-research-datasets/dakshina",
+  "date": "2026-11-09"
+ },
+ "https://github.com/google-research-datasets/dakshina#license": {
+  "status": 200,
+  "final_url": "https://github.com/google-research-datasets/dakshina#license",
+  "date": "2026-11-09"
+ },
+ "https://github.com/google-research-datasets/tydiqa": {
+  "status": 200,
+  "final_url": "https://github.com/google-research-datasets/tydiqa",
+  "date": "2026-11-09"
+ },
+ "https://github.com/joshua-decoder/indian-parallel-corpora": {
+  "status": 200,
+  "final_url": "https://github.com/joshua-decoder/indian-parallel-corpora",
+  "date": "2026-11-09"
+ },
+ "https://github.com/ltrc/IL-NER": {
+  "status": 200,
+  "final_url": "https://github.com/ltrc/IL-NER",
+  "date": "2026-11-09"
+ },
+ "https://github.com/ltrc/telugu_treebank": {
+  "status": 200,
+  "final_url": "https://github.com/ltrc/telugu_treebank",
+  "date": "2026-11-09"
+ },
+ "https://github.com/project-anuvaad/anuvaad-parallel-corpus": {
+  "status": 200,
+  "final_url": "https://github.com/project-anuvaad/anuvaad-parallel-corpus",
+  "date": "2026-11-09"
+ },
+ "https://github.com/tesseract-ocr/tessdata_best": {
+  "status": 200,
+  "final_url": "https://github.com/tesseract-ocr/tessdata_best",
+  "date": "2026-11-09"
+ },
+ "https://github.com/tesseract-ocr/tessdata_best/blob/main/tel.traineddata": {
+  "status": 200,
+  "final_url": "https://github.com/tesseract-ocr/tessdata_best/blob/main/tel.traineddata",
+  "date": "2026-11-09"
+ },
+ "https://github.com/vmujadia/The-LTRC-Hindi-Telugu-Parallel-Corpus": {
+  "status": 200,
+  "final_url": "https://github.com/vmujadia/The-LTRC-Hindi-Telugu-Parallel-Corpus",
+  "date": "2026-11-09"
+ },
+ "https://heritage.iitk.ac.in/gitasupersite": {
+  "status": 200,
+  "final_url": "https://heritage.iitk.ac.in/gitasupersite",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ARTPARK-IISc/Vaani": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ARTPARK-IISc/Vaani",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/AmazonScience/massive": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/AmazonScience/massive",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/HPLT/HPLT2.0_cleaned": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/HPLT/HPLT2.0_cleaned",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/HuggingFaceFW/fineweb-2": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/HuggingFaceFW/fineweb-2",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/InfoBayAI/Telugu-Non-STEM-Textbook-Dataset": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/InfoBayAI/Telugu-Non-STEM-Textbook-Dataset",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/Aksharantar/tree/main": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/Aksharantar/tree/main",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/BPCC": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/BPCC",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/IN22-Conv": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/IN22-Conv",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/IN22-Gen": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/IN22-Gen",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/IndicCorpV2/tree/main/data": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/IndicCorpV2/tree/main/data",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/IndicQA/tree/main/data": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/IndicQA/tree/main/data",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/IndicSentiment/tree/main/data": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/IndicSentiment/tree/main/data",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/IndicVoices": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/IndicVoices",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/Mann-ki-Baat": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/Mann-ki-Baat",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/Pralekha/tree/main": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/Pralekha/tree/main",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/Rasa": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/Rasa",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/Shrutilipi": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/Shrutilipi",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/indicvoices_r": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/indicvoices_r",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/sangraha": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/sangraha",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/ai4bharat/sangraha/tree/main/verified/tel": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/ai4bharat/sangraha/tree/main/verified/tel",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/allenai/MADLAD-400/tree/main/data-v1p5/te": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/allenai/MADLAD-400/tree/main/data-v1p5/te",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/cfilt/IITB-IndicMonoDoc": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/cfilt/IITB-IndicMonoDoc",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/community-datasets/telugu_news": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/community-datasets/telugu_news",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/csebuetnlp/CrossSum/tree/main/data": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/csebuetnlp/CrossSum/tree/main/data",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/csebuetnlp/xlsum/tree/main/data": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/csebuetnlp/xlsum/tree/main/data",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/espnet/yodas2": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/espnet/yodas2",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/facebook/bouquet": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/facebook/bouquet",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/facebook/flores": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/facebook/flores",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/google-research-datasets/tydiqa": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/google-research-datasets/tydiqa",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/google/IndicGenBench_xquad_in/tree/main": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/google/IndicGenBench_xquad_in/tree/main",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/miracl/miracl/tree/main/miracl-v1.0-te": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/miracl/miracl/tree/main/miracl-v1.0-te",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/mounikaiiith/Telugu_Sentiment": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/mounikaiiith/Telugu_Sentiment",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/nisheeth/English-TeluguBrailleCorpus/tree/main": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/nisheeth/English-TeluguBrailleCorpus/tree/main",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/nvidia/Nemotron-Pretraining-Indic-CC-v1": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/nvidia/Nemotron-Pretraining-Indic-CC-v1",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/openlanguagedata/flores_plus": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/openlanguagedata/flores_plus",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/oscar-corpus/OSCAR-2301": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/oscar-corpus/OSCAR-2301",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/uonlp/CulturaX": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/uonlp/CulturaX",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets/wikimedia/wikipedia": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets/wikimedia/wikipedia",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/api/datasets?filter=language:te": {
+  "status": 200,
+  "final_url": "https://huggingface.co/api/datasets?filter=language:te",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/10X-Technologies/StoryTOM-Corpus-en-te": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/10X-Technologies/StoryTOM-Corpus-en-te",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ARTPARK-IISc/Vaani": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ARTPARK-IISc/Vaani",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/AlbertoChestnut/telugu-ocr": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/AlbertoChestnut/telugu-ocr",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/AlbertoChestnut/telugu-ocr/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/AlbertoChestnut/telugu-ocr/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/AmazonScience/massive": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/AmazonScience/massive",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/BodduSriPavan111/chandassu": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/BodduSriPavan111/chandassu",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/Cognitive-Lab/NayanaOCR_Corpus_2025": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/Cognitive-Lab/NayanaOCR_Corpus_2025",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/CohereLabs/Global-MMLU": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/CohereLabs/aya_collection_language_split": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/CohereLabs/aya_collection_language_split",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/CohereLabs/aya_collection_language_split/tree/main/telugu": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/CohereLabs/aya_collection_language_split/tree/main/telugu",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/DigiGreen/Agri_STT_Benchmarking_Dataset": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/DigiGreen/Agri_STT_Benchmarking_Dataset",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/DigiGreen/Agri_STT_Benchmarking_Dataset/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/DigiGreen/Agri_STT_Benchmarking_Dataset/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/Divyanshu/indicxnli": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/Divyanshu/indicxnli",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/HPLT/DocHPLT": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/HPLT/DocHPLT",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned/tree/main/tel_Telu": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned/tree/main/tel_Telu",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/HackHedron/English_Telugu_Parallel_Corpus": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/HackHedron/English_Telugu_Parallel_Corpus",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/Helsinki-NLP/opus-100": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/Helsinki-NLP/opus-100",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/HuggingFaceFW/fineweb-2": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-2",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/tree/main/data/tel_Telu": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/tree/main/data/tel_Telu",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/InfoBayAI/Telugu-Non-STEM-Textbook-Dataset": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/InfoBayAI/Telugu-Non-STEM-Textbook-Dataset",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/MBZUAI/Bactrian-X": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/SPRINGLab/IndicTTS_Telugu/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/SPRINGLab/IndicTTS_Telugu/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/SuryaKrishna02/aya-telugu-news-articles": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/SuryaKrishna02/aya-telugu-news-articles",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/SuryaKrishna02/aya-telugu-news-articles/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/SuryaKrishna02/aya-telugu-news-articles/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/Telugu-LLM-Labs/telugu_alpaca_yahma_cleaned_filtered_romanized": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/Telugu-LLM-Labs/telugu_alpaca_yahma_cleaned_filtered_romanized",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/tel.zip": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/tel.zip",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/BPCC": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/BPCC",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IN22-Gen": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IN22-Gen",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicCOPA": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicCOPA",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicCorpV2": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/tree/main/data": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/tree/main/data",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicParaphrase": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicParaphrase",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicQA": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicQA",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicQA/blob/main/data/indicqa.te.json": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicQA/blob/main/data/indicqa.te.json",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicSentiment": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicSentiment",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicVoices": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicVoices",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicVoices-ST": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicVoices-ST",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/IndicWikiBio": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/IndicWikiBio",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/MILU": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/MILU",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/Pralekha": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/Pralekha",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/Rasa": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/Rasa",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/Shrutilipi": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/Shrutilipi",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/indic-align": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/indic-align",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/indic_glue": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/indic_glue",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/indicvoices_r": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/indicvoices_r",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/kathbath": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/Kathbath",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/naamapadam": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/naamapadam",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/samanantar": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/samanantar",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/sangraha": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/sangraha",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ai4bharat/sangraha/tree/main/verified/tel": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ai4bharat/sangraha/tree/main/verified/tel",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/allenai/MADLAD-400": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/allenai/MADLAD-400",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/allenai/MADLAD-400/tree/main/data-v1p5/te": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/allenai/MADLAD-400/tree/main/data-v1p5/te",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/allenai/c4": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/allenai/c4",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/allenai/c4/tree/main/multilingual": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/allenai/c4/tree/main/multilingual",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/allenai/nllb": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/allenai/nllb",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/anishka/CodeSwitching-TE-EN": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/anishka/CodeSwitching-TE-EN",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/cfilt/IITB-IndicMonoDoc": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/cfilt/IITB-IndicMonoDoc",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/cfilt/IITB-IndicMonoDoc/tree/main/te": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/cfilt/IITB-IndicMonoDoc/tree/main/te",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/cis-lmu/GlotCC-V1": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/cis-lmu/GlotCC-V1",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/cis-lmu/GlotCC-V1/tree/main/v1.0/tel-Telu": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/cis-lmu/GlotCC-V1/tree/main/v1.0/tel-Telu",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/community-datasets/telugu_news": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/community-datasets/telugu_news",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/csebuetnlp/CrossSum": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/csebuetnlp/CrossSum",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/csebuetnlp/xlsum/blob/main/data/telugu_XLSum_v2.0.tar.bz2": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/csebuetnlp/xlsum/blob/main/data/telugu_XLSum_v2.0.tar.bz2",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/davidstap/NTREX": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/davidstap/NTREX",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/deepdml/microsoft-speech-corpus-indian": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/deepdml/microsoft-speech-corpus-indian",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/espnet/yodas2": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/espnet/yodas2",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/facebook/belebele": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/facebook/belebele",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/facebook/bouquet": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/facebook/bouquet",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/gksriharsha/chitralekha": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/gksriharsha/chitralekha",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/google-research-datasets/tydiqa": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/google-research-datasets/tydiqa",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/google/IndicGenBench_xquad_in": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/google/IndicGenBench_xquad_in",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/google/fleurs": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/google/fleurs",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/google/fleurs/tree/main/data/te_in": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/google/fleurs/tree/main/data/te_in",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/google/svq": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/google/svq",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/google/wmt24pp": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/google/wmt24pp",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/google/xtreme": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/google/xtreme",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/harsha-desaraju/telugu-wikisource-text-images": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/harsha-desaraju/telugu-wikisource-text-images",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/jerin/pib": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/jerin/pib",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/juletxara/xstory_cloze": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/juletxara/xstory_cloze",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/maya-research/IndicVault": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/maya-research/IndicVault",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/maya-research/IndicVault/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/maya-research/IndicVault/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/meharuhanzz/OCR-Bench1000-Telugu": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/meharuhanzz/OCR-Bench1000-Telugu",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/microsoft/Updesh_beta": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/microsoft/Updesh_beta",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/microsoft/Updesh_beta/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/microsoft/Updesh_beta/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/miracl/miracl": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/miracl/miracl",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-te": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-te",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/mounikaiiith/Telugu_Sentiment": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/mounikaiiith/Telugu_Sentiment",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/neshkatrapati/telugu_wac_corpus": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/neshkatrapati/telugu_wac_corpus",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/nisheeth/English-TeluguBrailleCorpus": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/nisheeth/English-TeluguBrailleCorpus",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-CC-v1": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-CC-v1",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-Specialized-v1": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Indic-Specialized-v1",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/openlanguagedata/flores_plus": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/openlanguagedata/flores_plus",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/opentelugu/telugu-history-public-domain": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/opentelugu/telugu-history-public-domain",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/opentelugu/telugu-history-public-domain/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/opentelugu/telugu-history-public-domain/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/oscar-corpus/OSCAR-2301": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/oscar-corpus/OSCAR-2301",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/parambharat/telugu_asr_corpus": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/parambharat/telugu_asr_corpus",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/ravivarmapatturi/inferedge-en-te-bitext-v1": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/ravivarmapatturi/inferedge-en-te-bitext-v1",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/skesiraju/Shrutilipi/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/skesiraju/Shrutilipi/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/telugusampada/telugu-sampada-classics": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/telugusampada/telugu-sampada-classics",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/telugusampada/telugu-sampada-classics/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/telugusampada/telugu-sampada-classics/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/therajasekhar/sc-judgments-indic-v1": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/therajasekhar/sc-judgments-indic-v1",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/therajasekhar/sc-judgments-indic-v1/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/therajasekhar/sc-judgments-indic-v1/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/unimelb-nlp/wikiann": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/unimelb-nlp/wikiann",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/uonlp/CulturaX": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/uonlp/CulturaX",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/uonlp/CulturaX/tree/main/te": {
+  "status": 429,
+  "final_url": "https://huggingface.co/datasets/uonlp/CulturaX/tree/main/te",
+  "error": "Too Many Requests",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/vdivyasharma/IndicSynth": {
+  "status": 429,
+  "final_url": "https://huggingface.co/datasets/vdivyasharma/IndicSynth",
+  "error": "Too Many Requests",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/vdivyasharma/IndicSynth/raw/main/README.md": {
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/vdivyasharma/IndicSynth/raw/main/README.md",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/wikimedia/wikipedia": {
+  "status": 429,
+  "final_url": "https://huggingface.co/datasets/wikimedia/wikipedia",
+  "error": "Too Many Requests",
+  "date": "2026-11-09"
+ },
+ "https://huggingface.co/datasets/wikimedia/wikipedia/tree/main/20231101.te": {
+  "status": 429,
+  "final_url": "https://huggingface.co/datasets/wikimedia/wikipedia/tree/main/20231101.te",
+  "error": "Too Many Requests",
+  "date": "2026-11-09"
+ },
+ "https://ieee-dataport.org/documents/handwritten-telugu-alphabet-dataset-vowels-and-consonants-varnamala-ocr-and-pattern": {
+  "status": 200,
+  "final_url": "https://ieee-dataport.org/documents/handwritten-telugu-alphabet-dataset-vowels-and-consonants-varnamala-ocr-and-pattern",
+  "date": "2026-11-09"
+ },
+ "https://ieee-dataport.org/keywords/telugu-handwritten-character-recognition": {
+  "status": 200,
+  "final_url": "https://ieee-dataport.org/keywords/telugu-handwritten-character-recognition",
+  "date": "2026-11-09"
+ },
+ "https://ihdia.iiit.ac.in/": {
+  "status": 200,
+  "final_url": "https://ihdia.iiit.ac.in/",
+  "date": "2026-11-09"
+ },
+ "https://ilocr.iiit.ac.in/dataset/23": {
+  "status": 200,
+  "final_url": "https://ilocr.iiit.ac.in/dataset/23/",
+  "date": "2026-11-09"
+ },
+ "https://ir.inflibnet.ac.in/handle/1944/1612": {
+  "status": 200,
+  "final_url": "https://ir.inflibnet.ac.in/handle/1944/1612",
+  "date": "2026-11-09"
+ },
+ "https://kathanilayam.com/": {
+  "status": 200,
+  "final_url": "https://kathanilayam.com/",
+  "date": "2026-11-09"
+ },
+ "https://kinige.com/": {
+  "status": 0,
+  "final_url": "https://kinige.com/",
+  "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+  "date": "2026-11-09"
+ },
+ "https://ldcil.org/files/presentation/12Issues in POS Tagging ILCI-Telugu Corpus.pdf": {
+  "status": 200,
+  "final_url": "https://ldcil.org/files/presentation/12Issues%20in%20POS%20Tagging%20ILCI-Telugu%20Corpus.pdf",
+  "date": "2026-11-09"
+ },
+ "https://lddashboard.legislative.gov.in/constitution-of-india-in-regional-languages": {
+  "status": 0,
+  "final_url": "https://lddashboard.legislative.gov.in/constitution-of-india-in-regional-languages",
+  "error": "URLError: <urlopen error timed out>",
+  "date": "2026-11-09"
+ },
+ "https://legislative.gov.in/": {
+  "status": 200,
+  "final_url": "https://www.legislative.gov.in/",
+  "date": "2026-11-09"
+ },
+ "https://lipitk.sourceforge.net/datasets/teluguchardata.htm": {
+  "status": 200,
+  "final_url": "https://lipitk.sourceforge.net/datasets/teluguchardata.htm",
+  "date": "2026-11-09"
+ },
+ "https://lipitk.sourceforge.net/hpl-datasets.htm": {
+  "status": 200,
+  "final_url": "https://lipitk.sourceforge.net/hpl-datasets.htm",
+  "date": "2026-11-09"
+ },
+ "https://meta.wikimedia.org/wiki/Grants:IEG/Making_telugu_content_accessible": {
+  "status": 200,
+  "final_url": "https://meta.wikimedia.org/wiki/Grants:IEG/Making_telugu_content_accessible",
+  "date": "2026-11-09"
+ },
+ "https://ndl.education.gov.in/home": {
+  "status": 200,
+  "final_url": "https://ndl.education.gov.in/home",
+  "date": "2026-11-09"
+ },
+ "https://object.pouta.csc.fi/OPUS-Anuvaad/v1/moses/en-te.txt.zip": {
+  "status": 200,
+  "final_url": "https://object.pouta.csc.fi/OPUS-Anuvaad/v1/moses/en-te.txt.zip",
+  "date": "2026-11-09"
+ },
+ "https://object.pouta.csc.fi/OPUS-Joshua-IPC/v1/moses/en-te.txt.zip": {
+  "status": 200,
+  "final_url": "https://object.pouta.csc.fi/OPUS-Joshua-IPC/v1/moses/en-te.txt.zip",
+  "date": "2026-11-09"
+ },
+ "https://object.pouta.csc.fi/OPUS-NLLB/v1/moses/en-te.txt.zip": {
+  "status": 200,
+  "final_url": "https://object.pouta.csc.fi/OPUS-NLLB/v1/moses/en-te.txt.zip",
+  "date": "2026-11-09"
+ },
+ "https://object.pouta.csc.fi/OPUS-pmindia/v1b/moses/en-te.txt.zip": {
+  "status": 200,
+  "final_url": "https://object.pouta.csc.fi/OPUS-pmindia/v1b/moses/en-te.txt.zip",
+  "date": "2026-11-09"
+ },
+ "https://objectstore.e2enetworks.net/ai4b-public-nlu-nlg/v1-indiccorp/te.txt": {
+  "status": 403,
+  "final_url": "https://objectstore.e2enetworks.net/ai4b-public-nlu-nlg/v1-indiccorp/te.txt",
+  "error": "Forbidden",
+  "date": "2026-11-09"
+ },
+ "https://openfontlicense.org/": {
+  "status": 200,
+  "final_url": "https://openfontlicense.org/",
+  "date": "2026-11-09"
+ },
+ "https://opus.nlpl.eu/": {
+  "status": 200,
+  "final_url": "https://opus.nlpl.eu/",
+  "date": "2026-11-09"
+ },
+ "https://opus.nlpl.eu/opusapi/?source=en&target=te&preprocessing=moses&version=latest": {
+  "status": 200,
+  "final_url": "https://opus.nlpl.eu/opusapi?source=en&target=te&preprocessing=moses&version=latest",
+  "date": "2026-11-09"
+ },
+ "https://organiser.org/2025/02/13/277809/bharat/rashtriya-e-pustakalaya-indias-first-digital-library-transforming-education/": {
+  "status": 200,
+  "final_url": "https://organiser.org/2025/02/13/277809/bharat/rashtriya-e-pustakalaya-indias-first-digital-library-transforming-education/",
+  "date": "2026-11-09"
+ },
+ "https://papers.neurips.cc/paper_files/paper/2025/hash/d88714d4f2c1e826d33d6c1eb1497ec9-Abstract-Datasets_and_Benchmarks_Track.html": {
+  "status": 0,
+  "final_url": "https://papers.neurips.cc/paper_files/paper/2025/hash/d88714d4f2c1e826d33d6c1eb1497ec9-Abstract-Datasets_and_Benchmarks_Track.html",
+  "error": "URLError: <urlopen error timed out>",
+  "date": "2026-11-09"
+ },
+ "https://pib.gov.in/": {
+  "status": 200,
+  "final_url": "https://www.pib.gov.in/index.aspx?reg=48&lang=2",
+  "date": "2026-11-09"
+ },
+ "https://prasarbharati.gov.in/prasar-bharati-archives/": {
+  "status": 200,
+  "final_url": "https://prasarbharati.gov.in/prasar-bharati-archives/",
+  "date": "2026-11-09"
+ },
+ "https://pressacademyarchives.ap.nic.in/": {
+  "status": 0,
+  "final_url": "https://pressacademyarchives.ap.nic.in/",
+  "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+  "date": "2026-11-09"
+ },
+ "https://pustakam.net/": {
+  "status": 200,
+  "final_url": "https://pustakam.net/",
+  "date": "2026-11-09"
+ },
+ "https://query.wikidata.org/sparql": {
+  "status": 0,
+  "final_url": "https://query.wikidata.org/sparql",
+  "error": "TimeoutError: The read operation timed out",
+  "date": "2026-11-09"
+ },
+ "https://raw.githubusercontent.com/PAGADALA-USHA/TELUGU-DATASET/HEAD/README.md": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/PAGADALA-USHA/TELUGU-DATASET/HEAD/README.md",
+  "date": "2026-11-09"
+ },
+ "https://raw.githubusercontent.com/UniversalDependencies/UD_Telugu-MTG/HEAD/README.md": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Telugu-MTG/HEAD/README.md",
+  "date": "2026-11-09"
+ },
+ "https://raw.githubusercontent.com/ashokurlana/TeSum/HEAD/README.md": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/ashokurlana/TeSum/HEAD/README.md",
+  "date": "2026-11-09"
+ },
+ "https://raw.githubusercontent.com/google-research-datasets/dakshina/HEAD/README.md": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/google-research-datasets/dakshina/HEAD/README.md",
+  "date": "2026-11-09"
+ },
+ "https://raw.githubusercontent.com/ltrc/IL-NER/HEAD/README.md": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/ltrc/IL-NER/HEAD/README.md",
+  "date": "2026-11-09"
+ },
+ "https://raw.githubusercontent.com/ltrc/telugu_treebank/HEAD/README.md": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/ltrc/telugu_treebank/HEAD/README.md",
+  "date": "2026-11-09"
+ },
+ "https://raw.githubusercontent.com/vmujadia/The-LTRC-Hindi-Telugu-Parallel-Corpus/HEAD/README.md": {
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/vmujadia/The-LTRC-Hindi-Telugu-Parallel-Corpus/HEAD/README.md",
+  "date": "2026-11-09"
+ },
+ "https://registry.opendata.aws/indian-supreme-court-judgments/": {
+  "status": 200,
+  "final_url": "https://registry.opendata.aws/indian-supreme-court-judgments/",
+  "date": "2026-11-09"
+ },
+ "https://rsdebate.nic.in/bitstream/123456789/747958/1/PQ_263_08022024_U743_p348_p348.pdf": {
+  "status": 200,
+  "final_url": "https://sansad.in/rs/debates/officials",
+  "date": "2026-11-09"
+ },
+ "https://rsdebate.nic.in/bitstream/123456789/754106/1/PQ_266_28112024_U444_p313_p317.pdf": {
+  "status": 200,
+  "final_url": "https://sansad.in/rs/debates/officials",
+  "date": "2026-11-09"
+ },
+ "https://sahitya-akademi.gov.in/": {
+  "status": 200,
+  "final_url": "https://sahitya-akademi.gov.in/",
+  "date": "2026-11-09",
+  "error": "reachable only with TLS verification disabled (invalid certificate)"
+ },
+ "https://sanchika.com/": {
+  "status": 403,
+  "final_url": "https://sanchika.com/",
+  "error": "Forbidden",
+  "date": "2026-11-09"
+ },
+ "https://sanskritdocuments.org/sites/giirvaani/": {
+  "status": 200,
+  "final_url": "https://sanskritdocuments.org/sites/giirvaani/",
+  "date": "2026-11-09"
+ },
+ "https://saoa.crl.edu/": {
+  "status": 0,
+  "final_url": "https://saoa.crl.edu/",
+  "error": "URLError: <urlopen error timed out>",
+  "date": "2026-11-09"
+ },
+ "https://scert.telangana.gov.in/": {
+  "status": 200,
+  "final_url": "https://scert.telangana.gov.in/",
+  "date": "2026-11-09",
+  "error": "reachable only with TLS verification disabled (invalid certificate)"
+ },
+ "https://scr.sci.gov.in/": {
+  "status": 302,
+  "final_url": "https://scr.sci.gov.in/",
+  "error": "The HTTP server returned a redirect error that would lead to an infinite loop.\nT",
+  "date": "2026-11-09"
+ },
+ "https://searcharchives.bl.uk/catalog/032-003720629": {
+  "status": 200,
+  "final_url": "https://searcharchives.bl.uk/catalog/032-003720629",
+  "date": "2026-11-09"
+ },
+ "https://shodhganga.inflibnet.ac.in/": {
+  "status": 200,
+  "final_url": "https://shodhganga.inflibnet.ac.in/",
+  "date": "2026-11-09"
+ },
+ "https://shodhganga.inflibnet.ac.in:8443/jspui/handle/10603/294028": {
+  "status": 0,
+  "final_url": "https://shodhganga.inflibnet.ac.in:8443/jspui/handle/10603/294028",
+  "error": "URLError: <urlopen error timed out>",
+  "date": "2026-11-09"
+ },
+ "https://sites.google.com/view/respinasrchallenge2025/dataset": {
+  "status": 200,
+  "final_url": "https://sites.google.com/view/respinasrchallenge2025/dataset",
+  "date": "2026-11-09"
+ },
+ "https://spoken-tutorial.org/media/videos/32/Spoken-Tutorial-Technology-Brochure-English.pdf": {
+  "status": 200,
+  "final_url": "https://spoken-tutorial.org/media/videos/32/Spoken-Tutorial-Technology-Brochure-English.pdf",
+  "date": "2026-11-09"
+ },
+ "https://spoken-tutorial.org/tutorial-search/?search_foss=&search_language=Telugu": {
+  "status": 200,
+  "final_url": "https://spoken-tutorial.org/tutorial-search/?search_foss=&search_language=Telugu",
+  "date": "2026-11-09"
+ },
+ "https://storage.googleapis.com/gresearch/dakshina/dakshina_dataset_v1.0.tar": {
+  "status": 200,
+  "final_url": "https://storage.googleapis.com/gresearch/dakshina/dakshina_dataset_v1.0.tar",
+  "date": "2026-11-09"
+ },
+ "https://storyweaver.org.in/api/v1/books-search?languages%5B%5D=Telugu&per_page=1": {
+  "status": 200,
+  "final_url": "https://storyweaver.org.in/api/v1/books-search?languages%5B%5D=Telugu&per_page=1",
+  "date": "2026-11-09"
+ },
+ "https://storyweaver.org.in/api/v1/stories/688-amma-skooluki-vellinappudu": {
+  "status": 200,
+  "final_url": "https://storyweaver.org.in/api/v1/stories/688-amma-skooluki-vellinappudu",
+  "date": "2026-11-09"
+ },
+ "https://storyweaver.org.in/en/stories?language=Telugu": {
+  "status": 200,
+  "final_url": "https://storyweaver.org.in/en/stories?language=Telugu",
+  "date": "2026-11-09"
+ },
+ "https://storyweaver.org.in/terms_and_conditions": {
+  "status": 200,
+  "final_url": "https://storyweaver.org.in/terms-and-conditions",
+  "date": "2026-11-09"
+ },
+ "https://tanzil.net/trans/": {
+  "status": 200,
+  "final_url": "https://tanzil.net/trans/",
+  "date": "2026-11-09"
+ },
+ "https://tatoeba.org/en/sentences/search?from=tel": {
+  "status": 200,
+  "final_url": "https://tatoeba.org/en/sentences/search?from=tel",
+  "date": "2026-11-09"
+ },
+ "https://tatoeba.org/en/terms_of_use": {
+  "status": 200,
+  "final_url": "https://tatoeba.org/en/terms_of_use",
+  "date": "2026-11-09"
+ },
+ "https://tdil-dc.in/": {
+  "status": 200,
+  "final_url": "https://tdil-dc.in/",
+  "date": "2026-11-09",
+  "error": "reachable only with TLS verification disabled (invalid certificate)"
+ },
+ "https://te.wikibooks.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json": {
+  "status": 200,
+  "final_url": "https://te.wikibooks.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json",
+  "date": "2026-11-09"
+ },
+ "https://te.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics|rightsinfo&format=json": {
+  "status": 200,
+  "final_url": "https://te.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics%7Crightsinfo&format=json",
+  "date": "2026-11-09"
+ },
+ "https://te.wikiquote.org/": {
+  "status": 200,
+  "final_url": "https://te.wikiquote.org/wiki/%E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF_%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80",
+  "date": "2026-11-09"
+ },
+ "https://te.wikiquote.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json": {
+  "status": 200,
+  "final_url": "https://te.wikiquote.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json",
+  "date": "2026-11-09"
+ },
+ "https://te.wikisource.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json": {
+  "status": 200,
+  "final_url": "https://te.wikisource.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json",
+  "date": "2026-11-09"
+ },
+ "https://te.wikisource.org/wiki/ప్రత్యేక:IndexPages": {
+  "status": 200,
+  "final_url": "https://te.wikisource.org/wiki/%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B0%A4%E0%B1%8D%E0%B0%AF%E0%B1%87%E0%B0%95:IndexPages",
+  "date": "2026-11-09"
+ },
+ "https://te.wiktionary.org/w/api.php?action=query&meta=siteinfo&siprop=rightsinfo&format=json": {
+  "status": 200,
+  "final_url": "https://te.wiktionary.org/w/api.php?action=query&meta=siteinfo&siprop=rightsinfo&format=json",
+  "date": "2026-11-09"
+ },
+ "https://te.wiktionary.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json": {
+  "status": 429,
+  "final_url": "https://te.wiktionary.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json",
+  "error": "Too Many Requests",
+  "date": "2026-11-09"
+ },
+ "https://teachernews.in/apscert-textbooks": {
+  "status": 200,
+  "final_url": "https://teachernews.in/apscert-textbooks/",
+  "date": "2026-11-09"
+ },
+ "https://telugu.pratilipi.com/": {
+  "status": 200,
+  "final_url": "https://telugu.pratilipi.com/",
+  "date": "2026-11-09"
+ },
+ "https://telugutanam.blogspot.com/2005/10/ap-press-academy-to-digitize.html?m=1": {
+  "status": 200,
+  "final_url": "https://telugutanam.blogspot.com/2005/10/ap-press-academy-to-digitize.html?m=1",
+  "date": "2026-11-09"
+ },
+ "https://teluguuniversity.ac.in/": {
+  "status": 200,
+  "final_url": "https://teluguuniversity.ac.in/",
+  "date": "2026-11-09"
+ },
+ "https://vaani.iisc.ac.in/": {
+  "status": 200,
+  "final_url": "https://vaani.iisc.ac.in/",
+  "date": "2026-11-09"
+ },
+ "https://vaani.iisc.ac.in/dataset/syspindataset": {
+  "status": 200,
+  "final_url": "https://vaani.iisc.ac.in/dataset/syspindataset",
+  "date": "2026-11-09"
+ },
+ "https://vedamsbooks.com/books/catalogue_of_mackenzie_kaifiyats_mackenzie_kaifiyattula_suci_telugu_manuscripts": {
+  "status": 200,
+  "final_url": "https://vedamsbooks.com/books/catalogue_of_mackenzie_kaifiyats_mackenzie_kaifiyattula_suci_telugu_manuscripts",
+  "date": "2026-11-09"
+ },
+ "https://wortschatz.uni-leipzig.de/en/download/Telugu": {
+  "status": 200,
+  "final_url": "https://wortschatz.uni-leipzig.de/en/download/Telugu",
+  "date": "2026-11-09"
+ },
+ "https://wortschatz.uni-leipzig.de/en/usage": {
+  "status": 200,
+  "final_url": "https://wortschatz.uni-leipzig.de/en/usage",
+  "date": "2026-11-09"
+ },
+ "https://www.andhrabharati.com/": {
+  "status": 200,
+  "final_url": "https://www.andhrabharati.com/",
+  "date": "2026-11-09"
+ },
+ "https://www.andhrabharati.com/dictionary/index.php": {
+  "status": 200,
+  "final_url": "https://www.andhrabharati.com/dictionary/index.php",
+  "date": "2026-11-09"
+ },
+ "https://www.andhrabharati.com/kAvyamulu/index.html": {
+  "status": 200,
+  "final_url": "https://www.andhrabharati.com/kAvyamulu/index.html",
+  "date": "2026-11-09"
+ },
+ "https://www.andhrajyothy.com": {
+  "status": 200,
+  "final_url": "https://www.andhrajyothy.com",
+  "date": "2026-11-09"
+ },
+ "https://www.bbc.com/telugu": {
+  "status": 200,
+  "final_url": "https://www.bbc.com/telugu",
+  "date": "2026-11-09"
+ },
+ "https://www.bl.uk/": {
+  "status": 200,
+  "final_url": "https://www.bl.uk/",
+  "date": "2026-11-09"
+ },
+ "https://www.cfilt.iitb.ac.in/indowordnet/": {
+  "status": 200,
+  "final_url": "https://www.cfilt.iitb.ac.in/indowordnet/",
+  "date": "2026-11-09"
+ },
+ "https://www.cstt.education.gov.in/": {
+  "status": 0,
+  "final_url": "https://www.cstt.education.gov.in/",
+  "error": "URLError: <urlopen error timed out>",
+  "date": "2026-11-09"
+ },
+ "https://www.eenadu.net": {
+  "status": 200,
+  "final_url": "https://www.eenadu.net",
+  "date": "2026-11-09"
+ },
+ "https://www.hathitrust.org/the-collection/terms-conditions/": {
+  "status": 403,
+  "final_url": "https://www.hathitrust.org/the-collection/terms-conditions/",
+  "error": "Forbidden",
+  "date": "2026-11-09"
+ },
+ "https://www.iitm.ac.in/donlab/indictts/database": {
+  "status": 0,
+  "final_url": "https://www.iitm.ac.in/donlab/indictts/database",
+  "error": "TimeoutError: The read operation timed out",
+  "date": "2026-11-09"
+ },
+ "https://www.iitm.ac.in/donlab/indictts/statistics": {
+  "status": 0,
+  "final_url": "https://www.iitm.ac.in/donlab/indictts/statistics",
+  "error": "TimeoutError: The read operation timed out",
+  "date": "2026-11-09"
+ },
+ "https://www.impriindia.com/?p=76026": {
+  "status": 200,
+  "final_url": "https://www.impriindia.com/insights/policy-update/gyan-bharatam-building-a-digital-knowledge-infrastructure-for-indias-manuscript-heritage/",
+  "date": "2026-11-09"
+ },
+ "https://www.indianculture.gov.in/": {
+  "status": 200,
+  "final_url": "https://www.indianculture.gov.in/",
+  "date": "2026-11-09"
+ },
+ "https://www.jstor.org/site/saoa": {
+  "status": 200,
+  "final_url": "https://www.jstor.org/site/saoa",
+  "date": "2026-11-09"
+ },
+ "https://www.lancaster.ac.uk/fass/projects/corpus/emille/": {
+  "status": 200,
+  "final_url": "https://www.lancaster.ac.uk/fass/projects/corpus/emille/",
+  "date": "2026-11-09"
+ },
+ "https://www.ldcil.org/index.php/releaseddataset": {
+  "status": 200,
+  "final_url": "https://www.ldcil.org/index.php/releaseddataset",
+  "date": "2026-11-09"
+ },
+ "https://www.namami.gov.in/": {
+  "status": 0,
+  "final_url": "https://www.namami.gov.in/",
+  "error": "URLError: <urlopen error timed out>",
+  "date": "2026-11-09"
+ },
+ "https://www.ndl.gov.in/": {
+  "status": 200,
+  "final_url": "https://www.ndl.gov.in/",
+  "date": "2026-11-09"
+ },
+ "https://www.newsonair.gov.in/bulletins-city/vijayawada/": {
+  "status": 200,
+  "final_url": "https://newsonair.gov.in/bulletins-city/vijayawada/",
+  "date": "2026-11-09"
+ },
+ "https://www.newsonair.gov.in/regional-units/hyderabad/": {
+  "status": 200,
+  "final_url": "https://newsonair.gov.in/regional-units/hyderabad/",
+  "date": "2026-11-09"
+ },
+ "https://www.openslr.org/103/": {
+  "status": 200,
+  "final_url": "https://www.openslr.org/103/",
+  "date": "2026-11-09"
+ },
+ "https://www.openslr.org/66/": {
+  "status": 200,
+  "final_url": "https://www.openslr.org/66/",
+  "date": "2026-11-09"
+ },
+ "https://www.pratilipi.com/terms-of-service": {
+  "status": 200,
+  "final_url": "https://www.pratilipi.com/terms-of-service",
+  "date": "2026-11-09"
+ },
+ "https://www.sakshi.com": {
+  "status": 200,
+  "final_url": "https://www.sakshi.com",
+  "date": "2026-11-09"
+ },
+ "https://www.sarasvatimahal.in/": {
+  "status": 200,
+  "final_url": "https://www.sarasvatimahal.in/",
+  "date": "2026-11-09"
+ },
+ "https://www.scobserver.in/journal/the-supreme-courts-translation-project-is-slowing-to-a-halt/": {
+  "status": 200,
+  "final_url": "https://www.scobserver.in/journal/the-supreme-courts-translation-project-is-slowing-to-a-halt/",
+  "date": "2026-11-09"
+ },
+ "https://www.tamildigitallibrary.in/goml-data?language=telugu": {
+  "status": 200,
+  "final_url": "https://tamildigitallibrary.in/goml-data?language=telugu",
+  "date": "2026-11-09"
+ },
+ "https://www.telugubhagavatam.org/": {
+  "status": 200,
+  "final_url": "https://www.telugubhagavatam.org/",
+  "date": "2026-11-09"
+ },
+ "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data": {
+  "status": 200,
+  "final_url": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+  "date": "2026-11-09"
+ },
+ "https://www.wikidata.org/wiki/Wikidata:Licensing": {
+  "status": 200,
+  "final_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "date": "2026-11-09"
+ },
+ "https://www.youtube.com/": {
+  "status": 200,
+  "final_url": "https://www.youtube.com/",
+  "date": "2026-11-09"
+ },
+ "https://www.youtube.com/t/terms": {
+  "status": 200,
+  "final_url": "https://www.youtube.com/t/terms",
+  "date": "2026-11-09"
+ },
+ "https://zenodo.org/api/records/11408513": {
+  "status": 200,
+  "final_url": "https://zenodo.org/api/records/11408513",
+  "date": "2026-11-09"
+ },
+ "https://zenodo.org/api/records/14965382": {
+  "status": 200,
+  "final_url": "https://zenodo.org/api/records/14965382",
+  "date": "2026-11-09"
+ },
+ "https://zenodo.org/api/records/15881917": {
+  "status": 200,
+  "final_url": "https://zenodo.org/api/records/15881917",
+  "date": "2026-11-09"
+ },
+ "https://zenodo.org/api/records/18151725": {
+  "status": 200,
+  "final_url": "https://zenodo.org/api/records/18151725",
+  "date": "2026-11-09"
+ },
+ "https://zenodo.org/api/records/18153338": {
+  "status": 200,
+  "final_url": "https://zenodo.org/api/records/18153338",
+  "date": "2026-11-09"
+ },
+ "https://zenodo.org/api/records/18803861": {
+  "status": 200,
+  "final_url": "https://zenodo.org/api/records/18803861",
+  "date": "2026-11-09"
+ },
+ "https://zenodo.org/api/records/20774989": {
+  "status": 200,
+  "final_url": "https://zenodo.org/api/records/20774989",
+  "date": "2026-11-09"
+ },
+ "https://zenodo.org/api/records/22682542": {
+  "status": 200,
+  "final_url": "https://zenodo.org/api/records/22682542",
+  "date": "2026-11-09"
+ },
+ "https://zenodo.org/api/records/6376096": {
+  "status": 200,
+  "final_url": "https://zenodo.org/api/records/6376096",
+  "date": "2026-11-09"
+ }
+}

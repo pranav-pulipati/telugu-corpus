@@ -1,0 +1,290 @@
+# MSS — manuscripts, inscriptions, epigraphy.
+defaults:
+  primary_category: MSS
+  languages: [te]
+  scripts: [Telu]
+  last_verified: "2026-11-09"
+  registration: "No"
+  authentication: "None"
+
+records:
+- record_id: TEL-MSS-001
+  record_type: Collection
+  parent_id: TEL-DLIB-001
+  source_name: Internet Archive
+  collection_name: Telugu Palm Leaf Manuscripts Collection (GOML Chennai scans)
+  organization: Government Oriental Manuscripts Library & Research Centre (GOML), Chennai — scans via Tamil Virtual Academy; mirrored on IA
+  org_type: Government
+  official_url: https://archive.org/details/telugu-palm-leaf
+  collection_url: https://archive.org/details/telugu-palm-leaf
+  description: Page images (with machine OCR attempts) of Telugu palm-leaf and paper manuscripts held at GOML Chennai — puranas, kavyas, Bhagavatam, yakshaganas, sastra texts (e.g. Balarama Caritramu, Brhannaradiyamu). Item metadata cites tamildigitallibrary.in/goml-data?language=telugu as source.
+  secondary_categories: [OCR, LIT, REL]
+  genres: [purana, kavya, yakshagana, sastra, devotional]
+  historical_period: "Pre-modern (c.15th-19th c. copies)"
+  telugu_scope: Telugu-only
+  modality: Image
+  formats: [PDF, JPG, IA OCR text]
+  content_types: [manuscript page images]
+  size_telugu: "1,863 manuscripts; ~437 GB"
+  size_confidence: Confirmed
+  metadata_fields: [title (romanised), GOML shelf id (tel_b_XXXX_d_XXXX), subject]
+  digitization: Original scans/images only
+  ocr_transcription: IA ran Tesseract 5.3 but palm-leaf script variants make OCR unreliable — treat as images only.
+  bulk_download: "Yes"
+  acquisition_method: "ia download --search 'collection:telugu-palm-leaf' --glob='*.pdf'"
+  license: Public Domain Mark 1.0 (all 1,863 items)
+  license_scope: Uniform (single license)
+  redistribution: Allowed
+  commercial_use: Allowed
+  license_evidence_url: https://archive.org/details/telugu-palm-leaf
+  copyright_notes: Manuscript texts are PD; the source portal (Tamil Virtual Academy) states 'all rights reserved' for its site — the PD Mark was applied by the IA uploader.
+  provenance: GOML holds 50,580 palm-leaf and 22,134 paper manuscripts in many languages (item description).
+  duplicates_mirrors: [TEL-MSS-002]
+  evidence_urls:
+  - "https://archive.org/metadata/tel_b_0013_d_0583"
+  - "https://archive.org/advancedsearch.php?q=collection%3Atelugu-palm-leaf&fl[]=identifier&rows=0&output=json"
+  verification_status: Verified
+  verification_method: IA API (count, licence on all items, size); item metadata read (source, description)
+  unresolved_issues: Tension between PD Mark on IA and TVA site's rights line; no transcriptions.
+  corpus_value: High
+  processing_needs: Needs palm-leaf HTR model + expert transcription; layout segmentation (see Indiscapes TEL-OCR-013).
+
+- record_id: TEL-MSS-002
+  record_type: Collection
+  source_name: Tamil Digital Library (Tamil Virtual Academy)
+  collection_name: GOML manuscript data — Telugu (goml-data?language=telugu)
+  organization: Tamil Virtual Academy, Govt of Tamil Nadu; GOML Chennai
+  org_type: Government
+  official_url: https://www.tamildigitallibrary.in/
+  collection_url: https://www.tamildigitallibrary.in/goml-data?language=telugu
+  description: Official portal publishing digitised GOML manuscripts with title, English title, author, subject and download columns; Telugu filter exists (subjects include Telugu Grammar, Andhra Bhasha). The list is populated by JavaScript.
+  secondary_categories: [LIT]
+  historical_period: Pre-modern
+  telugu_scope: Telugu subset of multilingual
+  modality: Image
+  formats: [PDF (per item download)]
+  content_types: [palm-leaf and paper manuscripts]
+  size_telugu: Unknown (table not rendered in static fetch; IA mirror has 1,863)
+  size_confidence: Unknown
+  metadata_fields: [title, English title, author, subject, manuscript type (palm leaf/paper), volume]
+  digitization: Original scans/images only
+  bulk_download: "Partial"
+  acquisition_method: Filter by language Telugu in a browser and download per item.
+  license: "'All rights reserved by Tamil Virtual Academy' (site footer)"
+  license_scope: Uniform (single license)
+  redistribution: Not allowed
+  commercial_use: Not allowed
+  license_evidence_url: https://www.tamildigitallibrary.in/goml-data?language=telugu
+  duplicates_mirrors: [TEL-MSS-001]
+  evidence_urls:
+  - "https://www.tamildigitallibrary.in/goml-data?language=telugu"
+  verification_status: Partially Verified
+  verification_method: Page fetched; table headers and filters seen, rows JS-rendered
+  unresolved_issues: Count Telugu items on the official portal and compare with IA mirror.
+  corpus_value: High
+
+- record_id: TEL-MSS-003
+  record_type: Collection
+  source_name: Andhra Pradesh State Archives / Telugu Wikisource
+  collection_name: Mackenzie Kaifiyats (Telugu village/local histories, 1780-1820)
+  organization: Collected by Colin Mackenzie; copies at AP State Archives, GOML Chennai, British Library; catalogue by N. Srirama Raju (NMM, 2019)
+  org_type: Government
+  official_url: https://en.wikipedia.org/wiki/Kaifiyat
+  collection_url: https://commons.wikimedia.org/wiki/File:A_P_Archives_Kaifiyats_R_No_1079.pdf
+  description: Village-level records on history, administration, agriculture, temples and customs compiled for Colin Mackenzie; Telugu is the largest language share. A 2019 NMM catalogue lists 2,028 Telugu kaifiyat entries; AP Archives microfilmed them (1970s); at least some AP Archives kaifiyat volumes are on Wikimedia Commons.
+  secondary_categories: [GOV, ACAD]
+  genres: [local history, administrative records]
+  historical_period: "1780-1820"
+  telugu_scope: Telugu-majority
+  modality: Image
+  formats: [PDF scans (Commons), microfilm]
+  content_types: [manuscript volumes]
+  size_telugu: "2,028 catalogued Telugu kaifiyats (catalogue); digitised share unknown"
+  size_confidence: Reported by source
+  digitization: Original scans/images only
+  bulk_download: "Partial"
+  acquisition_method: Commons search for 'Kaifiyats'; request microfilm copies from AP State Archives; BL Mackenzie collection catalogue.
+  license: Public domain (age); Commons file licence applies to scans
+  license_scope: Varies per item
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://commons.wikimedia.org/wiki/File:A_P_Archives_Kaifiyats_R_No_1079.pdf
+  evidence_urls:
+  - "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=%22A+P+Archives%22+Kaifiyats&srnamespace=6&format=json"
+  - "https://vedamsbooks.com/books/catalogue_of_mackenzie_kaifiyats_mackenzie_kaifiyattula_suci_telugu_manuscripts"
+  verification_status: Partially Verified
+  verification_method: Commons API (1 AP Archives kaifiyat PDF found); catalogue size from publisher listing
+  unresolved_issues: No complete online set located; high-value digitisation gap.
+  corpus_value: High
+
+- record_id: TEL-MSS-004
+  record_type: Portal/Index
+  source_name: Gyan Bharatam Mission (formerly National Mission for Manuscripts)
+  collection_name: Gyan Bharatam / Kritisampada manuscript database — Telugu manuscripts
+  organization: Ministry of Culture, Government of India (IGNCA)
+  org_type: Government
+  official_url: https://www.namami.gov.in/
+  collection_url: https://www.namami.gov.in/
+  description: National manuscript survey/catalogue (Kritisampada metadata) and digitisation programme; >8 lakh manuscripts digitised and >3.9 lakh viewable on the Gyan Bharatam portal (July 2026). Telugu is one of the major manuscript languages after Sanskrit.
+  secondary_categories: [LIT, REL]
+  historical_period: Pre-modern
+  languages: [te, sa, ta, kn]
+  telugu_scope: Telugu subset of multilingual
+  modality: Image
+  formats: [metadata records; page images (view mode)]
+  content_types: [manuscript catalogue records, scans]
+  size_telugu: Unknown (no Telugu breakdown found)
+  size_total: ">8 lakh digitised; >3.9 lakh viewable (2026)"
+  size_confidence: Reported by source
+  metadata_fields: [title, author, subject, material, repository, script, language]
+  digitization: Original scans/images only
+  bulk_download: "No"
+  acquisition_method: View mode on the Gyan Bharatam portal; copies on request to repositories.
+  registration: "Yes"
+  authentication: Free account
+  license: Government / repository terms (view only)
+  license_scope: Varies per item
+  redistribution: Not allowed
+  commercial_use: Not allowed
+  license_evidence_url: https://www.namami.gov.in/
+  evidence_urls:
+  - "https://www.impriindia.com/?p=76026"
+  verification_status: Inaccessible
+  verification_method: namami.gov.in timed out from our network; figures from secondary report citing government data
+  unresolved_issues: Telugu manuscript count and portal URL for Gyan Bharatam viewer.
+  corpus_value: High
+
+- record_id: TEL-MSS-005
+  record_type: Collection
+  source_name: Repositories of Telugu manuscripts (physical, partially digitised)
+  collection_name: Telugu manuscript holdings — Saraswathi Mahal (Thanjavur), AP Govt Oriental Manuscripts Library & Research Institute (Hyderabad), SV University ORI (Tirupati), Telugu University
+  organization: Multiple institutions
+  org_type: Government
+  official_url: https://www.sarasvatimahal.in/
+  collection_url: https://www.sarasvatimahal.in/
+  description: Major physical holdings of Telugu palm-leaf manuscripts (e.g. Thanjavur Nayaka/Maratha-era Telugu yakshaganas at Saraswathi Mahal; AP Oriental Manuscripts Library; SVU Oriental Research Institute). Digitisation status and online access vary and were not verified.
+  historical_period: Pre-modern
+  telugu_scope: Telugu subset of multilingual
+  modality: Image
+  formats: [physical; some digitised images]
+  content_types: [manuscripts, descriptive catalogues]
+  size_telugu: Unknown
+  size_confidence: Unknown
+  digitization: Unknown
+  bulk_download: "No"
+  acquisition_method: On-site access / institutional request.
+  authentication: On-site only
+  license: Institutional terms
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://www.sarasvatimahal.in/
+  evidence_urls:
+  - "https://en.wikipedia.org/wiki/Government_Oriental_Manuscripts_Library_and_Research_Centre"
+  verification_status: Unverified
+  verification_method: Known institutions; websites not inspected in this pass
+  unresolved_issues: Verify each institution's online catalogue/digitised holdings; descriptive catalogues (many on IA/DLI) can provide metadata.
+  corpus_value: Medium
+
+- record_id: TEL-MSS-006
+  record_type: Collection
+  source_name: Internet Archive (ASI publications)
+  collection_name: Epigraphy volumes — South Indian Inscriptions, Epigraphia Indica, Epigraphia Andhrica
+  organization: Archaeological Survey of India (publications); AP Dept of Archaeology & Museums (Epigraphia Andhrica); scanned copies on IA
+  org_type: Government
+  official_url: https://archive.org/
+  collection_url: https://archive.org/search?query=title%3A%28%22south+indian+inscriptions%22%29
+  description: Published editions of Telugu (and Sanskrit/Kannada/Tamil) inscriptions with transliteration and translation — key source for Old Telugu (6th c. onwards) and Kakatiya/Vijayanagara-era texts.
+  secondary_categories: [ACAD, LEX]
+  historical_period: "Inscriptions 6th-18th c.; editions 1890-1990s"
+  languages: [te, sa, kn, ta, en]
+  telugu_scope: Telugu-related
+  modality: Image
+  formats: [PDF, OCR text]
+  content_types: [edited inscription corpora]
+  size_telugu: "IA title matches: South Indian Inscriptions 210, Epigraphia Indica 342, Epigraphia Andhrica 4, other AP/Telangana inscription volumes 31"
+  size_confidence: Confirmed
+  digitization: Scans + OCR text
+  bulk_download: "Yes"
+  acquisition_method: "ia search 'title:(\"south indian inscriptions\")' --itemlist; ia download"
+  license: Mostly no licence field; Government publications, older volumes PD
+  license_scope: Varies per item
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://archive.org/search?query=title%3A%28%22epigraphia+indica%22%29
+  evidence_urls:
+  - "https://archive.org/advancedsearch.php?q=title%3A%28%22south%20indian%20inscriptions%22%29&fl[]=identifier&rows=0&output=json"
+  - "https://archive.org/advancedsearch.php?q=title%3A%28%22epigraphia%20andhrica%22%29&fl[]=identifier&rows=0&output=json"
+  verification_status: Partially Verified
+  verification_method: IA title-search counts (not all volumes contain Telugu inscriptions)
+  unresolved_issues: Identify which volumes contain Telugu inscriptions (e.g. SII vols. IV, V, VI, X, XVI).
+  corpus_value: Medium
+  processing_needs: Mixed-script OCR (Telugu inscription text, Roman transliteration, English).
+
+- record_id: TEL-MSS-007
+  record_type: Collection
+  source_name: British Library
+  collection_name: British Library — Mackenzie collection and Telugu manuscripts/printed books
+  organization: British Library (Asia, Pacific & Africa Collections)
+  org_type: Government
+  official_url: https://www.bl.uk/
+  collection_url: https://searcharchives.bl.uk/catalog/032-003720629
+  description: Telugu manuscripts (incl. Mackenzie materials) and early printed books; a subset digitised and viewable online. Barnett's 1912 Catalogue of Telugu Books in the British Museum is itself available on HathiTrust.
+  secondary_categories: [LIT]
+  historical_period: 18th-20th c.
+  languages: [te, sa, en]
+  telugu_scope: Telugu subset of multilingual
+  modality: Image
+  formats: [IIIF images (digitised items)]
+  content_types: [manuscripts, printed books]
+  size_telugu: Unknown
+  size_confidence: Unknown
+  digitization: Original scans/images only
+  bulk_download: "No"
+  acquisition_method: Search BL archives catalogue; view digitised items; reproduction requests.
+  license: BL terms (digitised PD items often CC0/PD; check per item)
+  license_scope: Varies per item
+  redistribution: Unclear
+  commercial_use: Varies
+  license_evidence_url: https://www.bl.uk/
+  evidence_urls:
+  - "https://searcharchives.bl.uk/catalog/032-003720629"
+  - "https://catalog.hathitrust.org/Record/001178411"
+  verification_status: Unverified
+  verification_method: Catalogue records found via search; holdings not enumerated (BL catalogue recovering from 2023 cyberattack)
+  unresolved_issues: Enumerate digitised Telugu items.
+  corpus_value: Low
+
+- record_id: TEL-MSS-008
+  record_type: Collection
+  source_name: Tirumala Tirupati Devasthanams
+  collection_name: Annamacharya sankeertanas — copper-plate corpus and Annamacharya Project publications
+  organization: TTD Annamacharya Project / Sri Venkateswara Oriental Research Institute
+  org_type: Religious institution
+  official_url: https://www.tirumala.org/
+  collection_url: https://ebooks.tirumala.org/search?key=literature&value=sankeerthana%20literature
+  description: Annamacharya's (15th c.) keertanas, traditionally reported as preserved on copper plates at Tirumala (plate count not verified here); edited volumes of the sankeertanas are published by TTD (some readable in TTD e-publications under 'Sankeerthana literature'). Rare works from the Annamacharya library have also been contributed to Wikisource.
+  secondary_categories: [REL, LIT]
+  genres: [keertana, devotional lyric]
+  historical_period: "15th c. (texts); 20th c. editions"
+  telugu_scope: Telugu-only
+  modality: Text
+  formats: [online reader]
+  content_types: [edited song texts]
+  size_telugu: Unknown (tradition credits ~32,000 compositions, ~13,000 surviving)
+  size_confidence: Estimate
+  digitization: Mixed
+  bulk_download: "No"
+  acquisition_method: TTD e-publications reader; Wikisource transcriptions.
+  license: Copyright TTD (editions); compositions PD
+  license_scope: Varies per item
+  redistribution: Not allowed
+  commercial_use: Not allowed
+  license_evidence_url: https://ebooks.tirumala.org/
+  duplicates_mirrors: [TEL-REL-001]
+  evidence_urls:
+  - "https://editors.cis-india.org/openness/rare-telugu-religious-and-historical-work-preserved-at-annamacharya-library-to-come-on-wikisource"
+  verification_status: Partially Verified
+  verification_method: TTD e-publication categories seen; CIS article on Wikisource uploads
+  unresolved_issues: Copper-plate image digitisation status unknown.
+  corpus_value: Medium

@@ -1,0 +1,87 @@
+# Master catalogue schema. build.py validates every record against this file.
+# Field order here is the column order in all CSV/XLSX outputs.
+
+categories:
+  DLIB:   {name: "Digital Libraries & Archive Platforms", csv: digital_libraries.csv, desc: "Multi-genre repositories and aggregators holding Telugu books, documents or media (platform-level and collection-level records)."}
+  LIT:    {name: "Literature & Books", csv: literature_books.csv, desc: "Classical to contemporary Telugu literature: poetry, prose, fiction, drama, essays, children's books, e-book sites."}
+  PERIOD: {name: "Newspapers, Magazines & Journals", csv: newspapers_periodicals.csv, desc: "Historical and current newspapers, magazines, webzines and periodical archives."}
+  MSS:    {name: "Manuscripts & Inscriptions", csv: manuscripts_inscriptions.csv, desc: "Palm-leaf and paper manuscripts, copper plates, stone inscriptions, epigraphic corpora and their catalogues."}
+  LEX:    {name: "Dictionaries, Encyclopedias & Linguistic Resources", csv: lexical_linguistic.csv, desc: "Dictionaries, thesauri, wordnets, encyclopedias, grammars, morphological analysers, treebanks, lexicons."}
+  TXT:    {name: "Text Corpora (Monolingual)", csv: text_corpora.csv, desc: "Raw or cleaned monolingual Telugu text for language modelling / pretraining (web crawls, news, Wikipedia)."}
+  PAR:    {name: "Parallel & Translation Corpora", csv: parallel_translation.csv, desc: "Sentence/document-aligned Telugu<->X corpora and MT evaluation sets."}
+  ANN:    {name: "Annotated NLP Datasets & Benchmarks", csv: annotated_nlp.csv, desc: "Labelled datasets (NER, sentiment, QA, classification, summarisation, instruction tuning, LLM evaluation)."}
+  OCR:    {name: "OCR, Handwriting & Document-Image Datasets", csv: ocr_handwriting.csv, desc: "Printed/handwritten/scene-text image datasets with ground truth, OCR models' training data."}
+  SPEECH: {name: "Speech Datasets (ASR/TTS)", csv: speech.csv, desc: "Transcribed or labelled audio built for ASR, TTS, speaker/language ID, spoken-language understanding."}
+  AV:     {name: "Audio & Video Collections", csv: audio_video.csv, desc: "Untranscribed or archival audio/video: recitations, audiobooks, broadcasts, films, lectures."}
+  GOV:    {name: "Government, Legal & Official Documents", csv: government_legal.csv, desc: "Gazettes, government orders, legislative debates, court judgments, statutes, official translations."}
+  EDU:    {name: "Educational Content", csv: educational.csv, desc: "Textbooks, courseware, lecture content, children's learning material."}
+  ACAD:   {name: "Academic Publications & Theses", csv: academic.csv, desc: "Theses, journals, research repositories in or about Telugu."}
+  REL:    {name: "Religious & Devotional Texts", csv: religious.csv, desc: "Scriptures, devotional literature, hymns/keertanas in Telugu (text or audio)."}
+  DIAL:   {name: "Dialect, Transliteration & Script Resources", csv: dialect_translit_script.csv, desc: "Dialect corpora, transliteration pairs, code-mixed text, romanised Telugu, script/font/Unicode resources."}
+
+enums:
+  record_type: [Platform, Collection, Dataset, Tool/Resource, Portal/Index]
+  org_type: [Government, Academic, Non-profit, Commercial, Community/Volunteer, Individual, Consortium, Religious institution, Unknown]
+  telugu_scope: [Telugu-only, Telugu-majority, Telugu subset of multilingual, Telugu-related]
+  modality: [Text, Image, Audio, Video, Multimodal, Metadata only]
+  digitization: ["Original scans/images only", "Scans + OCR text", "Scans + human transcription", "Born-digital text", "Digital text (retyped/edited)", "Audio", "Video", "Audio + transcripts", "Mixed", "Metadata/catalogue only", "Unknown"]
+  bulk_download: ["Yes", "Partial", "No", "Unknown"]
+  registration: ["No", "Yes", "Unknown"]
+  authentication: ["None", "Free account", "HF gated (accept terms)", "Application/approval", "Paid/subscription", "On-site only", "Unknown"]
+  license_scope: ["Uniform (single license)", "Varies per item", "Varies per subset", "No explicit license", "Unknown"]
+  redistribution: ["Allowed", "Allowed with conditions", "Not allowed", "Unclear"]
+  commercial_use: ["Allowed", "Not allowed", "Unclear", "Varies"]
+  size_confidence: ["Confirmed", "Reported by source", "Estimate", "Unknown"]
+  verification_status: [Verified, Partially Verified, Unverified, Inaccessible]
+  corpus_value: [High, Medium, Low]
+
+# column: [required?, description]
+fields:
+  record_id:            [true,  "Permanent ID TEL-<CAT>-NNN. Never reused or renumbered, even if the category later changes."]
+  record_type:          [true,  "Platform / Collection / Dataset / Tool/Resource / Portal/Index"]
+  parent_id:            [false, "record_id of the platform/collection this record belongs to"]
+  source_name:          [true,  "Platform or publisher name"]
+  collection_name:      [true,  "Specific collection/dataset name"]
+  organization:         [true,  "Responsible organisation(s)"]
+  org_type:             [true,  "Organisation type"]
+  official_url:         [true,  "Homepage of the platform/organisation"]
+  collection_url:       [true,  "Most direct URL to the Telugu collection/dataset"]
+  description:          [true,  "What it is and what Telugu content it holds"]
+  primary_category:     [true,  "Taxonomy code (see categories)"]
+  secondary_categories: [false, "Other taxonomy codes, ';'-separated"]
+  genres:               [false, "Genres / content domains"]
+  historical_period:    [false, "Period covered (e.g. Classical 11th-15th c.; Modern 1850-1947; Contemporary)"]
+  languages:            [true,  "ISO 639 codes; te first if present"]
+  telugu_scope:         [true,  "How much of the resource is Telugu"]
+  scripts:              [false, "Scripts (Telu, Latn, ...)"]
+  modality:             [true,  "Primary modality"]
+  formats:              [false, "File formats actually observed / documented"]
+  content_types:        [false, "Unit of content (book scans, sentences, utterances, articles, ...)"]
+  size_telugu:          [false, "Size of the TELUGU portion with units (items, tokens, hours, GB)"]
+  size_total:           [false, "Size of the whole resource if multilingual / larger"]
+  size_confidence:      [true,  "Confirmed (measured by us via API/files) / Reported by source / Estimate / Unknown"]
+  metadata_fields:      [false, "Metadata available per item"]
+  annotations:          [false, "Labels / annotations / alignments"]
+  digitization:         [true,  "Scans vs text vs audio etc."]
+  ocr_transcription:    [false, "OCR / transcription availability and quality notes"]
+  api_endpoint:         [false, "Programmatic access endpoint(s)"]
+  bulk_download:        [true,  "Yes / Partial / No / Unknown"]
+  acquisition_method:   [true,  "Concrete steps / commands to obtain"]
+  registration:         [true,  "Is registration required"]
+  authentication:       [true,  "Kind of access gate"]
+  license:              [true,  "License as stated by the source (exact string)"]
+  license_scope:        [true,  "Does one license cover everything?"]
+  redistribution:       [true,  "Can it be redistributed?"]
+  commercial_use:       [true,  "Is commercial use (incl. model training for products) permitted?"]
+  license_evidence_url: [false, "URL where the license/terms are stated"]
+  copyright_notes:      [false, "Copyright caveats, third-party content, PD status reasoning"]
+  provenance:           [false, "Where the content came from / how it was built"]
+  duplicates_mirrors:   [false, "record_ids or URLs of mirrors / overlapping collections (do not double count)"]
+  evidence_urls:        [true,  "URLs supporting the claims, ' | '-separated"]
+  verification_status:  [true,  "Verified / Partially Verified / Unverified / Inaccessible"]
+  verification_method:  [true,  "How we checked (API query, page inspection, file listing, ...)"]
+  last_verified:        [true,  "ISO date of last check"]
+  unresolved_issues:    [false, "Open questions"]
+  corpus_value:         [true,  "High / Medium / Low value for building a Telugu corpus"]
+  processing_needs:     [false, "Work needed to make it usable (OCR, dedup, alignment, cleaning, ...)"]
+  notes:                [false, "Anything else"]

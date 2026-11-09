@@ -1,0 +1,370 @@
+# LEX — dictionaries, encyclopedias, wordnets, treebanks, linguistic tools.
+defaults:
+  primary_category: LEX
+  languages: [te]
+  scripts: [Telu]
+  last_verified: "2026-11-09"
+  registration: "No"
+  authentication: "None"
+  modality: Text
+
+records:
+- record_id: TEL-LEX-001
+  record_type: Platform
+  source_name: AndhraBharati (ఆంధ్రభారతి)
+  collection_name: AndhraBharati nighantu sodhana — 51 searchable Telugu dictionaries
+  organization: AndhraBharati (volunteer project)
+  org_type: Community/Volunteer
+  official_url: https://www.andhrabharati.com/
+  collection_url: https://www.andhrabharati.com/dictionary/index.php
+  description: "Unified search over 51 digitised dictionaries: 11 Telugu-Telugu (Sabdaratnakaramu 1912, Andhra Vachaspatyamu, Suryaraya-era works, Telugu Vyutpatti Kosam 1978, G.N. Reddy 1979...), Brown Telugu-English 1903 and English-Telugu 1852, Sankaranarayana, 5 Sanskrit-Telugu, 4 Urdu-Telugu, 10 dialect dictionaries (Telangana, Kalinga, Srikakulam, Nalgonda, Visakha, agricultural occupational terms), names, nyaya, and 9 technical/specialised (legal, journalism, fine arts) dictionaries. 94 dictionaries are planned."
+  secondary_categories: [DIAL]
+  genres: [monolingual, bilingual, dialect, technical dictionaries]
+  historical_period: "Dictionaries published 1852-2019"
+  languages: [te, en, sa, ur, ta, kn]
+  telugu_scope: Telugu-majority
+  formats: [HTML search results]
+  content_types: [dictionary entries]
+  size_telugu: "51 dictionaries online (of 94 planned)"
+  size_confidence: Confirmed
+  metadata_fields: [headword, dictionary source, meaning]
+  digitization: Digital text (retyped/edited)
+  bulk_download: "No"
+  acquisition_method: Search interface only; permissions credited to authors' families/publishers — bulk use requires agreement with AndhraBharati and rights holders.
+  license: All rights reserved (site footer); several dictionaries used with permission of copyright holders
+  license_scope: Varies per item
+  redistribution: Not allowed
+  commercial_use: Not allowed
+  license_evidence_url: https://www.andhrabharati.com/dictionary/index.php
+  copyright_notes: Pre-1965 dictionaries (e.g. Brown 1852/1903, Sabdaratnakaramu 1912) are PD in their original form; the site's digitised versions and post-1965 works are not.
+  evidence_urls:
+  - "https://www.andhrabharati.com/dictionary/index.php"
+  verification_status: Verified
+  verification_method: Dictionary selection list read (51 entries, authors, years), footer and credits read
+  corpus_value: High
+  processing_needs: Best single Telugu lexical resource; dialect dictionaries are unique for dialect work.
+
+- record_id: TEL-LEX-002
+  record_type: Collection
+  source_name: Digital Dictionaries of South Asia (DSAL)
+  collection_name: DSAL — Brown's Telugu-English Dictionary (1903) and Gwynn's Telugu-English Dictionary
+  organization: University of Chicago Library (DSAL project)
+  org_type: Academic
+  official_url: https://dsal.uchicago.edu/dictionaries/
+  collection_url: https://dsal.uchicago.edu/dictionaries/brown/
+  description: Searchable full-text versions of C.P. Brown's Telugu-English Dictionary (2nd ed., 1903) and J.P.L. Gwynn's Telugu-English Dictionary (1991), plus a combined Telugu search.
+  secondary_categories: [PAR]
+  historical_period: "1903; 1991"
+  languages: [te, en]
+  telugu_scope: Telugu-majority
+  formats: [HTML]
+  content_types: [dictionary entries]
+  size_telugu: Two dictionaries (Brown 1903 is a ~1,400-page work)
+  size_confidence: Estimate
+  digitization: Digital text (retyped/edited)
+  bulk_download: "No"
+  acquisition_method: Online search; Brown 1903 page scans are also on Internet Archive / Wikisource (PD).
+  license: DSAL terms (no explicit licence on index page); Brown 1903 is public domain, Gwynn 1991 is in copyright (OUP)
+  license_scope: Varies per item
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://dsal.uchicago.edu/dictionaries/
+  evidence_urls:
+  - "https://dsal.uchicago.edu/dictionaries/"
+  - "https://dsal.uchicago.edu/dictionaries/brown/"
+  verification_status: Partially Verified
+  verification_method: Index and Brown pages fetched; terms of use not found on page
+  unresolved_issues: DSAL terms of use for bulk extraction.
+  corpus_value: Medium
+
+- record_id: TEL-LEX-003
+  record_type: Dataset
+  source_name: Wikimedia
+  collection_name: Telugu Wiktionary (విక్షనరీ) dumps
+  organization: Wikimedia Foundation / community
+  org_type: Non-profit
+  official_url: https://te.wiktionary.org/
+  collection_url: https://dumps.wikimedia.org/tewiktionary/latest/
+  description: Telugu Wiktionary with 107,744 content pages (largely imported from Brown's dictionary and bot-created entries), with meanings, etymology, translations.
+  secondary_categories: [PAR]
+  languages: [te, en]
+  telugu_scope: Telugu-majority
+  formats: [XML dump (bz2)]
+  content_types: [dictionary entries]
+  size_telugu: "107,744 content pages; pages-articles dump 15.3 MB bz2 (2026-11-02)"
+  size_confidence: Confirmed
+  annotations: [part of speech, translations, etymology (partial)]
+  digitization: Born-digital text
+  api_endpoint: https://te.wiktionary.org/w/api.php
+  bulk_download: "Yes"
+  acquisition_method: "wget https://dumps.wikimedia.org/tewiktionary/latest/tewiktionary-latest-pages-articles.xml.bz2"
+  license: CC BY-SA 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://te.wiktionary.org/w/api.php?action=query&meta=siteinfo&siprop=rightsinfo&format=json
+  evidence_urls:
+  - "https://te.wiktionary.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json"
+  - "https://dumps.wikimedia.org/tewiktionary/latest/"
+  verification_status: Verified
+  verification_method: siteinfo API (stats + rights) and dump listing
+  corpus_value: Medium
+  processing_needs: Parse wikitext templates; many entries are thin.
+
+- record_id: TEL-LEX-004
+  record_type: Dataset
+  source_name: IndoWordNet (CFILT, IIT Bombay)
+  collection_name: Telugu WordNet (IndoWordNet)
+  organization: Dravidian University, Kuppam (creator) / CFILT IIT Bombay (IndoWordNet)
+  org_type: Academic
+  official_url: https://www.cfilt.iitb.ac.in/indowordnet/
+  collection_url: https://www.cfilt.iitb.ac.in/indowordnet/
+  description: Telugu wordnet linked to Hindi and Princeton WordNet via the IndoWordNet expansion approach.
+  languages: [te, hi, en]
+  telugu_scope: Telugu subset of multilingual
+  formats: [database/text files, Java API]
+  content_types: [synsets, glosses, examples, relations]
+  size_telugu: "21,091 synsets (12,078 noun / 2,795 verb / 5,776 adjective / 442 adverb); older figure 21,925"
+  size_confidence: Reported by source
+  annotations: [semantic relations, cross-lingual links]
+  digitization: Born-digital text
+  bulk_download: "Partial"
+  acquisition_method: Download/request via CFILT IndoWordNet site; also embedded in ai4bharat/indic-align 'IndoWordNet' subset.
+  license: Hindi WordNet released under GNU licence (2006); Telugu terms not confirmed
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://www.cfilt.iitb.ac.in/indowordnet/
+  duplicates_mirrors: [TEL-ANN-027]
+  evidence_urls:
+  - "https://arxiv.org/pdf/2201.02977"
+  - "https://aclweb.org/anthology/2018.gwc-1.47.pdf"
+  verification_status: Partially Verified
+  verification_method: Counts from 2022 arXiv and 2018 GWC papers; site not opened
+  unresolved_issues: Confirm licence and download procedure.
+  corpus_value: Medium
+
+- record_id: TEL-LEX-005
+  record_type: Platform
+  source_name: Bharatavani (CIIL)
+  collection_name: Bharatavani — Telugu dictionaries, textbooks and knowledge texts
+  organization: Central Institute of Indian Languages (CIIL), Mysuru, Ministry of Education
+  org_type: Government
+  official_url: https://bharatavani.in/
+  collection_url: https://bharatavani.in/
+  description: Multilingual knowledge portal hosting dictionaries (incl. Telugu bilingual/trilingual and terminology glossaries), textbooks and books contributed by government bodies and publishers.
+  secondary_categories: [EDU]
+  languages: [te, en, hi]
+  telugu_scope: Telugu subset of multilingual
+  formats: [PDF, HTML dictionary apps]
+  content_types: [dictionaries, books]
+  size_telugu: Unknown
+  size_confidence: Unknown
+  digitization: Mixed
+  bulk_download: "Partial"
+  acquisition_method: Browse by language (Telugu); PDF downloads per item.
+  license: Per contributor (many government publications)
+  license_scope: Varies per item
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://bharatavani.in/
+  evidence_urls:
+  - "https://bharatavani.in/"
+  verification_status: Partially Verified
+  verification_method: Site reachable (HTTP 200); Telugu holdings not enumerated
+  unresolved_issues: Enumerate Telugu dictionaries and licences.
+  corpus_value: Medium
+
+- record_id: TEL-LEX-006
+  record_type: Collection
+  source_name: Various (CRL SAMP, Wikimedia Commons, Telugu University)
+  collection_name: Telugu encyclopedias — Andhra Vijnana Sarvasvamu (1912-34), Andhra Vijnanamu (1938-41), Telugu Vignana Sarvasvam (Telugu Bhasha Samithi / Telugu University)
+  organization: Komarraju Lakshmana Rao (Vijnana Chandrika Mandali); Telugu Bhasha Samithi; Potti Sreeramulu Telugu University
+  org_type: Academic
+  official_url: https://en.wikipedia.org/wiki/Andhra_Vignana_Sarvasvam
+  collection_url: https://catalog.crl.edu/Record/fa477d8b-2c57-5d3d-835c-1175321c55f4/Description?lng=en
+  description: Early and modern Telugu encyclopedias; the 1932-34 Andhra Vijnana Sarvasvamu is digitised by CRL SAMP; volume 6 (world literature) of the Telugu Bhasha Samithi Vignana Sarvasvam is a PDF on Wikimedia Commons; others appear in DLI scans.
+  secondary_categories: [ACAD]
+  historical_period: "1912-1990s"
+  telugu_scope: Telugu-only
+  modality: Image
+  formats: [PDF scans]
+  content_types: [encyclopedia volumes]
+  size_telugu: Several multi-volume works (counts not established)
+  size_confidence: Unknown
+  digitization: Original scans/images only
+  bulk_download: "Partial"
+  acquisition_method: CRL catalogue (SAMP digitised), Commons file, DLI/IA search 'vijnana sarvasvamu'.
+  license: Early volumes PD; later volumes in copyright
+  license_scope: Varies per item
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://catalog.crl.edu/Record/fa477d8b-2c57-5d3d-835c-1175321c55f4/Description?lng=en
+  evidence_urls:
+  - "https://commons.wikimedia.org/wiki/File:Vignana_sarvaswamu_arava_samputam_vishvasahiti.pdf"
+  verification_status: Partially Verified
+  verification_method: CRL record and Commons file found via search
+  unresolved_issues: Locate all volumes; Telugu University's encyclopedia digitisation status.
+  corpus_value: Medium
+
+- record_id: TEL-LEX-007
+  record_type: Dataset
+  source_name: Wikidata
+  collection_name: Wikidata lexemes — Telugu (Q8097)
+  organization: Wikimedia Foundation / community
+  org_type: Non-profit
+  official_url: https://www.wikidata.org/
+  collection_url: https://www.wikidata.org/wiki/Wikidata:Lexicographical_data
+  description: Structured lexicographic data (lemmas, forms, senses); Telugu coverage is negligible — a clear contribution opportunity.
+  telugu_scope: Telugu subset of multilingual
+  formats: [JSON, RDF (SPARQL), lexeme dumps]
+  content_types: [lexemes, forms]
+  size_telugu: "87 lexemes; 139 forms with grammatical features (SPARQL, 2026-11-09)"
+  size_confidence: Confirmed
+  annotations: [lexical category, grammatical features]
+  digitization: Born-digital text
+  api_endpoint: https://query.wikidata.org/sparql
+  bulk_download: "Yes"
+  acquisition_method: SPARQL query for dct:language wd:Q8097, or lexeme JSON dumps.
+  license: CC0 1.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed
+  commercial_use: Allowed
+  license_evidence_url: https://www.wikidata.org/wiki/Wikidata:Licensing
+  evidence_urls:
+  - "https://query.wikidata.org/sparql"
+  verification_status: Verified
+  verification_method: SPARQL count queries
+  corpus_value: Low
+  processing_needs: Opportunity — import PD dictionary data (e.g. Brown 1903) as CC0 lexemes.
+
+- record_id: TEL-LEX-008
+  record_type: Dataset
+  source_name: Wikimedia
+  collection_name: Telugu Wikiquote and Wikibooks
+  organization: Wikimedia Foundation / community
+  org_type: Non-profit
+  official_url: https://te.wikiquote.org/
+  collection_url: https://te.wikiquote.org/
+  description: Small Wikimedia projects — Telugu Wikiquote (884 content pages; proverbs, quotations) and Telugu Wikibooks (287 content pages).
+  secondary_categories: [TXT, EDU]
+  telugu_scope: Telugu-only
+  formats: [XML dumps]
+  content_types: [quotations, proverbs, textbooks]
+  size_telugu: "Wikiquote 884 content / 4,953 total pages; Wikibooks 287 content / 2,564 total pages"
+  size_confidence: Confirmed
+  digitization: Born-digital text
+  api_endpoint: https://te.wikiquote.org/w/api.php
+  bulk_download: "Yes"
+  acquisition_method: dumps.wikimedia.org/tewikiquote and /tewikibooks
+  license: CC BY-SA 4.0
+  license_scope: Uniform (single license)
+  redistribution: Allowed with conditions
+  commercial_use: Allowed
+  license_evidence_url: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use
+  duplicates_mirrors:
+  - "https://te.wikibooks.org/"
+  evidence_urls:
+  - "https://te.wikiquote.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json"
+  - "https://te.wikibooks.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json"
+  verification_status: Verified
+  verification_method: siteinfo statistics API
+  corpus_value: Low
+
+- record_id: TEL-LEX-009
+  record_type: Dataset
+  source_name: LDC-IL / Telugu Akademi / AP Sahitya Akademi
+  collection_name: Telugu Akademi and state-academy dictionaries and terminology glossaries
+  organization: Telugu Akademi (Hyderabad); AP Sahitya Akademi; Commission for Scientific and Technical Terminology (CSTT)
+  org_type: Government
+  official_url: https://www.cstt.education.gov.in/
+  collection_url: https://www.cstt.education.gov.in/
+  description: Government-produced Telugu dictionaries, dialect word-lists and scientific/administrative terminology glossaries (several are integrated into AndhraBharati's search).
+  secondary_categories: [EDU, DIAL]
+  languages: [te, en, hi]
+  telugu_scope: Telugu subset of multilingual
+  formats: [print; some PDFs]
+  content_types: [glossaries, dictionaries]
+  size_telugu: Unknown
+  size_confidence: Unknown
+  digitization: Unknown
+  bulk_download: "Unknown"
+  acquisition_method: Check CSTT e-glossary downloads and Telugu Akademi publications list.
+  license: Government copyright
+  license_scope: Unknown
+  redistribution: Unclear
+  commercial_use: Unclear
+  license_evidence_url: https://www.cstt.education.gov.in/
+  duplicates_mirrors: [TEL-LEX-001]
+  evidence_urls:
+  - "https://www.andhrabharati.com/dictionary/index.php"
+  verification_status: Unverified
+  verification_method: Known from AndhraBharati credits; CSTT/Telugu Akademi sites not inspected
+  unresolved_issues: Confirm availability of Telugu glossaries for download.
+  corpus_value: Medium
+
+- record_id: TEL-LEX-010
+  record_type: Dataset
+  source_name: Universal Dependencies
+  collection_name: UD_Telugu-MTG treebank
+  organization: Taraka Rama & Sowmya Vajjala (annotators); Universal Dependencies
+  org_type: Academic
+  official_url: https://universaldependencies.org/
+  collection_url: https://github.com/UniversalDependencies/UD_Telugu-MTG
+  description: Dependency treebank of sentences from Krishnamurti & Gwynn's 'A Grammar of Modern Telugu' (1985), manually annotated in UD, with Roman transliteration.
+  secondary_categories: [ANN]
+  languages: [te]
+  scripts: [Telu, Latn]
+  telugu_scope: Telugu-only
+  formats: [CoNLL-U]
+  content_types: [annotated sentences]
+  size_telugu: "1,328 sentences; 6,465 tokens"
+  size_confidence: Reported by source
+  annotations: [UPOS, features, lemmas, dependency relations]
+  digitization: Digital text (retyped/edited)
+  bulk_download: "Yes"
+  acquisition_method: "git clone https://github.com/UniversalDependencies/UD_Telugu-MTG"
+  license: "README metadata: CC BY-SA 4.0 (prose also mentions CC BY-NC-SA 3.0)"
+  license_scope: Unknown
+  redistribution: Allowed with conditions
+  commercial_use: Unclear
+  license_evidence_url: https://github.com/UniversalDependencies/UD_Telugu-MTG
+  duplicates_mirrors: [TEL-ANN-016]
+  evidence_urls:
+  - "https://raw.githubusercontent.com/UniversalDependencies/UD_Telugu-MTG/HEAD/README.md"
+  verification_status: Verified
+  verification_method: README read (size, annotators, licence fields)
+  unresolved_issues: README contains two different licences — confirm with LICENSE file / maintainers.
+  corpus_value: Low
+  processing_needs: Tiny and grammar-book style; insufficient for robust parsers.
+
+- record_id: TEL-LEX-011
+  record_type: Tool/Resource
+  source_name: IIIT Hyderabad LTRC and open-source NLP toolkits
+  collection_name: Telugu NLP tools — morphological analysers, POS taggers, shallow parsers, tokenisers (IIIT-H LTRC, Indic NLP Library, Stanza, iNLTK)
+  organization: LTRC IIIT Hyderabad; AI4Bharat (Indic NLP Library); Stanford (Stanza); iNLTK
+  org_type: Academic
+  official_url: https://ltrc.iiit.ac.in/
+  collection_url: https://github.com/anoopkunchukuttan/indic_nlp_library
+  description: Processing tools needed to build a Telugu corpus — normalisation, tokenisation, script conversion (Indic NLP Library), UD-based tagging/parsing (Stanza te model trained on UD_Telugu-MTG), IIIT-H shallow parser and morph analyser for Telugu (ILMT project), Hyderabad Dependency Treebank (ICON 2009/2010 tools contests).
+  secondary_categories: [ANN]
+  languages: [te]
+  telugu_scope: Telugu subset of multilingual
+  formats: [Python packages, source code]
+  content_types: [software, models]
+  size_telugu: n/a
+  size_confidence: Unknown
+  digitization: Born-digital text
+  bulk_download: "Yes"
+  acquisition_method: "pip install indic-nlp-library stanza; LTRC tools via ltrc.iiit.ac.in downloads"
+  license: MIT (Indic NLP Library); Apache 2.0 (Stanza); LTRC tools per-tool licences
+  license_scope: Varies per subset
+  redistribution: Allowed with conditions
+  commercial_use: Varies
+  license_evidence_url: https://github.com/anoopkunchukuttan/indic_nlp_library
+  evidence_urls:
+  - "https://github.com/anoopkunchukuttan/indic_nlp_library"
+  verification_status: Partially Verified
+  verification_method: Known repositories; LTRC downloads page not inspected this pass
+  unresolved_issues: Availability of the HyDT-Telugu treebank and ILMT Telugu morph analyser.
+  corpus_value: Medium
