@@ -1,0 +1,134 @@
+{
+ "bstd_telugu": {
+  "checked": 16,
+  "correct": 13,
+  "wrong": 2,
+  "unreadable": 0,
+  "error_rate": 0.125,
+  "ci95": [
+   0.035,
+   0.36
+  ]
+ },
+ "hw_uc_telugu": {
+  "checked": 16,
+  "correct": 14,
+  "wrong": 1,
+  "unreadable": 0,
+  "error_rate": 0.062,
+  "ci95": [
+   0.011,
+   0.283
+  ]
+ },
+ "hw_words_telugu": {
+  "checked": 16,
+  "correct": 15,
+  "wrong": 1,
+  "unreadable": 0,
+  "error_rate": 0.062,
+  "ci95": [
+   0.011,
+   0.283
+  ]
+ },
+ "ihwwr1_telugu": {
+  "checked": 16,
+  "correct": 16,
+  "wrong": 0,
+  "unreadable": 0,
+  "error_rate": 0.0,
+  "ci95": [
+   0.0,
+   0.194
+  ]
+ },
+ "indicdlp_eval_sample_te": {
+  "checked": 10,
+  "correct": 10,
+  "wrong": 0,
+  "unreadable": 0,
+  "error_rate": 0.0,
+  "ci95": [
+   -0.0,
+   0.278
+  ]
+ },
+ "indicstr12_telugu": {
+  "checked": 16,
+  "correct": 14,
+  "wrong": 2,
+  "unreadable": 0,
+  "error_rate": 0.125,
+  "ci95": [
+   0.035,
+   0.36
+  ]
+ },
+ "mozhi_telugu": {
+  "checked": 16,
+  "correct": 15,
+  "wrong": 0,
+  "unreadable": 0,
+  "error_rate": 0.0,
+  "ci95": [
+   0.0,
+   0.194
+  ]
+ },
+ "sarvam_ocr_bench_te": {
+  "checked": 16,
+  "correct": 16,
+  "wrong": 0,
+  "unreadable": 0,
+  "error_rate": 0.0,
+  "ci95": [
+   0.0,
+   0.194
+  ]
+ },
+ "synthetic_indicstr_telugu": {
+  "checked": 16,
+  "correct": 12,
+  "wrong": 0,
+  "unreadable": 4,
+  "error_rate": 0.0,
+  "ci95": [
+   0.0,
+   0.194
+  ]
+ },
+ "synthetic_m_telugu": {
+  "checked": 16,
+  "correct": 16,
+  "wrong": 0,
+  "unreadable": 0,
+  "error_rate": 0.0,
+  "ci95": [
+   0.0,
+   0.194
+  ]
+ },
+ "synthetic_r_telugu": {
+  "checked": 16,
+  "correct": 16,
+  "wrong": 0,
+  "unreadable": 0,
+  "error_rate": 0.0,
+  "ci95": [
+   0.0,
+   0.194
+  ]
+ },
+ "wirindic_telugu": {
+  "checked": 16,
+  "correct": 8,
+  "wrong": 0,
+  "unreadable": 1,
+  "error_rate": 0.0,
+  "ci95": [
+   0.0,
+   0.194
+  ]
+ }
+}

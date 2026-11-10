@@ -1,0 +1,9 @@
+{
+ "shards": 876,
+ "rows": 4300229,
+ "checksum_mismatches": [],
+ "undecodable_or_bad_mode_images": 0,
+ "bad_labels": 0,
+ "duplicate_uids": 0,
+ "groups_in_more_than_one_split": 0
+}

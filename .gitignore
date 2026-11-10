@@ -4,3 +4,6 @@ __pycache__/
 ~$*.xlsx
 .DS_Store
 .~lock.*#
+
+# OCR acquisition: bulk downloads stay local (see ocr/acquisition/VERIFIED_DOWNLOADS.csv)
+ocr/acquisition/data/

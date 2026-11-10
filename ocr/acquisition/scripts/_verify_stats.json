@@ -1,0 +1,515 @@
+[
+ {
+  "id": "ACQ-01",
+  "dataset": "WIRIndic-Telugu (ICPR 2024 scene-text word recognition)",
+  "pairs_listed": 20000,
+  "labelled_pairs": 20000,
+  "splits": {
+   "train": 17500,
+   "val": 2500
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 0,
+  "unique_labels": 4580,
+  "labels_with_latin": 0,
+  "pure_telugu_labels": 20000,
+  "non_nfc_labels": 0,
+  "median_label_chars": 6.0,
+  "median_img_w": 58.0,
+  "median_img_h": 34.0,
+  "top_labels": [
+   [
+    "సెంటర్",
+    441
+   ],
+   [
+    "జనరల్",
+    394
+   ],
+   [
+    "శ్రీ",
+    367
+   ],
+   [
+    "మరియు",
+    220
+   ],
+   [
+    "కామారెడ్డి",
+    219
+   ]
+  ]
+ },
+ {
+  "id": "ACQ-02",
+  "dataset": "IHWWR-1.0 Telugu training set (ICDAR 2024 handwritten words)",
+  "pairs_listed": 77625,
+  "labelled_pairs": 77625,
+  "splits": {
+   "train": 77625
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 175,
+  "unique_labels": 21500,
+  "labels_with_latin": 2,
+  "pure_telugu_labels": 63285,
+  "non_nfc_labels": 0,
+  "median_label_chars": 5,
+  "median_img_w": 403,
+  "median_img_h": 187,
+  "top_labels": [
+   [
+    ".",
+    7783
+   ],
+   [
+    ",",
+    2443
+   ],
+   [
+    "ఈ",
+    1274
+   ],
+   [
+    "ఒక",
+    789
+   ],
+   [
+    "నుండి",
+    555
+   ]
+  ]
+ },
+ {
+  "id": "ACQ-03",
+  "dataset": "Bharat Scene Text Dataset (BSTD) - Telugu cropped words",
+  "pairs_listed": 2760,
+  "labelled_pairs": 2760,
+  "splits": {
+   "train": 2215,
+   "test": 545
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 3,
+  "unique_labels": 1976,
+  "labels_with_latin": 1,
+  "pure_telugu_labels": 2478,
+  "non_nfc_labels": 0,
+  "median_label_chars": 7.0,
+  "median_img_w": 122.5,
+  "median_img_h": 54.0,
+  "top_labels": [
+   [
+    "కెవలరీ",
+    25
+   ],
+   [
+    "బ్యారక్స్",
+    22
+   ],
+   [
+    "తెల౦గాణ",
+    18
+   ],
+   [
+    "స్వామి",
+    16
+   ],
+   [
+    "వారి",
+    15
+   ]
+  ]
+ },
+ {
+  "id": "ACQ-04",
+  "dataset": "Sarvam Indic OCR Bench - Telugu rows (test)",
+  "pairs_listed": 300,
+  "labelled_pairs": 300,
+  "splits": {
+   "test": 300
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 0,
+  "unique_labels": 300,
+  "labels_with_latin": 110,
+  "pure_telugu_labels": 8,
+  "non_nfc_labels": 1,
+  "median_label_chars": 183.5,
+  "median_img_w": 804.0,
+  "median_img_h": 265.0,
+  "top_labels": [
+   [
+    "కాయము.",
+    1
+   ],
+   [
+    "భూగోళశాస్త్రం-",
+    1
+   ],
+   [
+    "1. హైదరాబాద్ (39,43,323)\n2. మేడ్చల్ (22,50,267)\n3. రంగారెడ్డి (14,20,152)",
+    1
+   ],
+   [
+    "రామ=రాముఁడు. ఆకాశ=ఆకాశము.",
+    1
+   ],
+   [
+    "(1) తత్సమములు (2) తత్త్వవములు (3) దేశ్యములు\n(4) గ్రామ్యములు.",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "ACQ-05",
+  "dataset": "IndicDLP block-level OCR eval set - public Telugu sample",
+  "pairs_listed": 10,
+  "labelled_pairs": 10,
+  "splits": {
+   "Telugu": 10
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 0,
+  "unique_labels": 10,
+  "labels_with_latin": 8,
+  "pure_telugu_labels": 0,
+  "non_nfc_labels": 0,
+  "median_label_chars": 27.0,
+  "median_img_w": 551.0,
+  "median_img_h": 74.0,
+  "top_labels": [
+   [
+    "డాక్టర్ బి.ఆర్ . అంబేద్కర్",
+    1
+   ],
+   [
+    "Stanika Palana",
+    1
+   ],
+   [
+    "April - 2009",
+    1
+   ],
+   [
+    "ఏప్రిల్ 2009",
+    1
+   ],
+   [
+    "ఏప్రిల్ 2009 \\n స్థానిక పాలన\\n గ్రామీణ వికాస మాసపత్రిక\\n 1 సంచిక : 3 పేజీలు : 64 వెల  : రూ. 20/ -",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "ACQ-06",
+  "dataset": "IIIT-Synthetic-M-Telugu (synthetic printed words)",
+  "pairs_listed": 138585,
+  "labelled_pairs": 138585,
+  "splits": {
+   "train": 138585
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 32,
+  "unique_labels": 68898,
+  "labels_with_latin": 181,
+  "pure_telugu_labels": 105401,
+  "non_nfc_labels": 0,
+  "median_label_chars": 6,
+  "median_img_w": 55,
+  "median_img_h": 32,
+  "top_labels": [
+   [
+    "ఆ",
+    1082
+   ],
+   [
+    "అని",
+    680
+   ],
+   [
+    "ఈ",
+    663
+   ],
+   [
+    "-",
+    567
+   ],
+   [
+    "నా",
+    562
+   ]
+  ]
+ },
+ {
+  "id": "ACQ-07",
+  "dataset": "Mozhi-Telugu printed words (HF mirror darknight054/indic-mozhi-ocr, verified against official test split)",
+  "pairs_listed": 100024,
+  "labelled_pairs": 100024,
+  "splits": {
+   "train": 80337,
+   "val": 9811,
+   "test": 9876
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 3,
+  "unique_labels": 54856,
+  "labels_with_latin": 91,
+  "pure_telugu_labels": 76695,
+  "non_nfc_labels": 0,
+  "median_label_chars": 6.0,
+  "median_img_w": 141.0,
+  "median_img_h": 48.0,
+  "top_labels": [
+   [
+    "ఆ",
+    758
+   ],
+   [
+    "అని",
+    465
+   ],
+   [
+    "ఈ",
+    442
+   ],
+   [
+    "నా",
+    403
+   ],
+   [
+    "-",
+    325
+   ]
+  ]
+ },
+ {
+  "id": "ACQ-08",
+  "dataset": "Mozhi-Telugu official test split (ILOCR akshara/test.zip)",
+  "pairs_listed": 9876,
+  "labelled_pairs": 9876,
+  "splits": {
+   "test": 9876
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 0,
+  "unique_labels": 7481,
+  "labels_with_latin": 12,
+  "pure_telugu_labels": 7567,
+  "non_nfc_labels": 0,
+  "median_label_chars": 6.0,
+  "median_img_w": 141.0,
+  "median_img_h": 48.0,
+  "top_labels": [
+   [
+    "ఆ",
+    89
+   ],
+   [
+    "అని",
+    48
+   ],
+   [
+    "కూడా",
+    41
+   ],
+   [
+    "నా",
+    40
+   ],
+   [
+    "ఈ",
+    39
+   ]
+  ]
+ },
+ {
+  "id": "ACQ-09",
+  "dataset": "IndicSTR12-Telugu real scene-text words (ILOCR v0.5)",
+  "pairs_listed": 1200,
+  "labelled_pairs": 1200,
+  "splits": {
+   "train": 900,
+   "test": 300
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 0,
+  "unique_labels": 827,
+  "labels_with_latin": 0,
+  "pure_telugu_labels": 1159,
+  "non_nfc_labels": 0,
+  "median_label_chars": 6.0,
+  "median_img_w": 120.0,
+  "median_img_h": 54.0,
+  "top_labels": [
+   [
+    "శ్రీ",
+    28
+   ],
+   [
+    "స్టోర్స్",
+    10
+   ],
+   [
+    "తెలుగు",
+    9
+   ],
+   [
+    "బ్యాంక్",
+    9
+   ],
+   [
+    "పార్టీ",
+    6
+   ]
+  ]
+ },
+ {
+  "id": "ACQ-10",
+  "dataset": "IndicSTR12 crops Telugu (HF mirror darknight054/indicstr12-crops)",
+  "pairs_listed": 1183,
+  "labelled_pairs": 1183,
+  "splits": {
+   "train": 933,
+   "val": 117,
+   "test": 133
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 0,
+  "unique_labels": 821,
+  "labels_with_latin": 0,
+  "pure_telugu_labels": 1112,
+  "non_nfc_labels": 0,
+  "median_label_chars": 6,
+  "median_img_w": 122,
+  "median_img_h": 54,
+  "top_labels": [
+   [
+    "శ్రీ",
+    28
+   ],
+   [
+    "స్టోర్స్",
+    10
+   ],
+   [
+    "తెలుగు",
+    9
+   ],
+   [
+    "బ్యాంక్",
+    9
+   ],
+   [
+    "పార్టీ",
+    6
+   ]
+  ]
+ },
+ {
+  "id": "ACQ-12",
+  "dataset": "IndicSTR12 full scene images Telugu with word boxes (HF mirror darknight054/indicstr12-full)",
+  "pairs_listed": 298,
+  "labelled_pairs": 298,
+  "splits": {
+   "train": 235,
+   "val": 26,
+   "test": 37
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 0,
+  "unique_labels": 284,
+  "labels_with_latin": 0,
+  "pure_telugu_labels": 259,
+  "non_nfc_labels": 0,
+  "median_label_chars": 20.0,
+  "median_img_w": 738.5,
+  "median_img_h": 333.5,
+  "top_labels": [
+   [
+    "శ్రీమంతుడు",
+    4
+   ],
+   [
+    "ఐడియా",
+    2
+   ],
+   [
+    "ఫార్మసి అపోలో",
+    2
+   ],
+   [
+    "డోమినోస్",
+    2
+   ],
+   [
+    "రామగుండం",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "ACQ-11",
+  "dataset": "Telugu Wikisource validated pages - 6-page probe",
+  "pairs_listed": 6,
+  "labelled_pairs": 6,
+  "splits": {
+   "sample": 6
+  },
+  "missing_images": 0,
+  "empty_labels": 0,
+  "unreadable_in_sample": 0,
+  "duplicate_images": 0,
+  "unique_labels": 6,
+  "labels_with_latin": 4,
+  "pure_telugu_labels": 0,
+  "non_nfc_labels": 0,
+  "median_label_chars": 631.5,
+  "median_img_w": 1280.0,
+  "median_img_h": 1755.5,
+  "top_labels": [
+   [
+    "వాక్కు, మనస్సు, బుద్ధి ఈ 8 న్ని దుఃఖములకు కారణము7 లగుటచే శాకకారణణాష్టకమనబడును.\n\n{{Center|\n{{p}}21. వుర్యష్టకము.</p>\n}}\n\nజ్నానేంద్రియంబులును, కర్మేంద్రియంబులును, అంతఃకరణచతుష్టయంబును, ప్రాణాదిపంచకంబును, వియదాదిపంచకంబును, కామమును, కర్మంబును, తమస్సు యీ8దియును వుర్యష్టక మనబడును.\n\n{{Center|\n{{p}}22. అష్టతనువులు.</p>\n}}\n\nస్థూలము, సూక్ష్మము, కారణము, మహాకారణము యీ4న్ను జీవసంబంధమైన తనువులు.\n\nవిరాద్రూపశరీరము, హిరణ్యగర్భశరీరము, అవ్యాకృతశరీరము, మూలప్రకృతిశరీరము యీ4న్ను ఈశ్వరసంబంధమైన శరీరములు. ఈ అన్నియుంగూడి అష్టతనువు లనంబడును.అందు,\nస్తూలము--ఇరువైఅయిదుతత్వములతో గూడియుండునది స్తూలమనంబడు.\n\nఇందు కవస్ద, జాగ్రత్త, నేత్రములు స్దానము, యుక్తభోగము, క్రియాశక్తి, రాజసగుణము, విశ్వు డభిమాని, అకారముమాత్రుక, ఆత్మ జీవాత్మ.\n\nసూక్ష్మశరీరము -- పదియేడుతత్వములతో గూడి యుండునది సూక్ష మనబడును.\n\nఇందు కవస్ద, స్వప్నము, కంకస్దానము, ఇచ్చాశక్తి, తెజనుండభిమాని, సాత్వికగుణము, ఉపకారము మాత్రుక, స్వేచ్చాభోగము, ఆత్మ అంతరాత్మ.\n\nకారణశరీరము -- సర్వేంద్రియ వ్యాపార శూన్యమైయుండునది కారణమనంబడును.\n\nఇందు కవస్ద, సుషుప్తి, హ్రుదయస్దానము, ప్ర్రాజ్ఞ డభిమాని, ద్రవ్యశక్తి, ఆనందభోగము, తామసగుణము, మకారము మాత్రుక, యిందులన్యాప కాత్మ పరమాత్మ యీ సౌజ్ఞలు గలది.  కార్యరంగము.\n\nమహాకారణశరీరము -- పంచబ్రహ్మలు, పంచశక్తులు,పంచకళలు,",
+    1
+   ],
+   [
+    "{|   align=\"center\"  border=1 cellpadding=30px\n|-\n|{{xx-larger|'''అంకితం'''\n<br />\n'''మిత్రులకు'''}}\n|}",
+    1
+   ],
+   [
+    "'''ఎఱ్ఱగుడిపాడు శాసనము\n\nఇచట 'కొట్టము'అనునది బోయకొట్టము వలె నొక దేశవిభాగమని చెప్పి ఆవిభాగములోని భూమిని దానము చేసిరని దీనిని ప్రకటించినవారు చెప్పిరి. కాని 'కొట్టంబు 'అనునది రాజనగరమను చెప్పి అందుండు ఒకపాఱకు (బ్రహ్మణునికి) దానమొసగిరి యనుట బాగుండును.లేకున్నచో ప్రతిగ్రహీతయగు బ్రాహ్మాణుని పేరుచెప్పలేదు,సరికదా ఆయన నివాస స్థలముకూడ చెప్పబడ కపోవును.ప్రతిగ్రహీతల నివాస స్థానములు సాధారణగా శాసనాల్లో చెప్పుట కలదు.అయితే యిచ్చినభూమిగల దేశ విభాగము నిర్దేశింపబడకుండుట లోపమగును కదా యనినచో యీ శాసనశిల యున్నదేశమే అదియగునని సరిపెట్టుకోవచ్చును.అట్లనేక శాసనాలు కలవు. బ్రాహ్మాణుని నివాసమే కొట్టము. ఇరువదియాదినాల్కు-అనునది సంఖ్యావాచకము. ఇరువది (రెండుపదులు)అది(=మొదటగల)నాల్కు(=నాల్గు) అనగా 20...4 అని పూర్వము శాసనాల్లో ೨೦ ముందువేసి కొంతవ్యవధి వదలి  ೪ అంకెను వేయువారు.అట్లే మిగిలిన అంకెలను కూడవ్రాయువారు.కనుక ఇరువది మొదటగల నాలుగు అని వ్రాయబడెను. దశ, శత, సహాస్రాది స్థానములను బాగుగ వాడుట అప్పటికింకా చేతకాదనిపిస్తుంది. పదులస్థానములో సున్నను మాని ೨ మాత్రమే వేసి దగ్గరలో ೪ నువ్రాయుట తెలిసిన తరు వాత ఇరువదినాలుగు అని 'ఆది'ని వదలి వ్రాయుట నేర్చిరి.ఈ విధంగా మూడు వాక్యాలతో శాసనం పూర్తి అయినది. రాజును, దానము చేసిన రాజోద్యోగిని చెప్పుటకొక వాక్యము,సాక్షులను చెప్పుటకొక వాక్యము. ఏ వాక్యములోను సమాపక క్రియ లేదు.మూడు వాక్యములలోను ఇచ్చిన పన్నస అని క్రియాజన్య విశేషణముతోనే కర్మ నిర్దేశింపబడినది. అయిన ను పైజెప్పిన సందేహాలు ప్రతిగ్రహీత పేరులేకుండట,కొందరి సాక్షుల పేర్లు లేకుండుట, మున్నగు లోపములు కొన్ని శాసనంలో కలవు. రచనలో తప్పులు లేవనవచ్చును.\n\nఇవి కొత్తగా భాష నేర్చుకొనేవారి వాక్యములు.ప్రథమా విభక్తిలో ఏక వచన బహువచనములు.'పాఱకు ' 'రాజుల్ల ' అనునవి కలవు. సప్తమిలో 'కొట్టంబున' అని యున్నది. ఇంతకుమించిన విభక్తి ప్రత్యయములు వాదబడ లేదు. అంటే వాక్యరచనను మెఱుగు పెట్టుటకై కారక విశేషము లంతగా వాడుట యింకా బాగుగ తెలియదనిపించును.",
+    1
+   ],
+   [
+    "<poem>మయూరి (ఆడనెమలి) ఆసనము\nఉత్కటాసనము\nపాదగుష్టాసనము\nత్రికోణాసనము\nగరుడాసనము\nచక్రాసనము\nనిరాలంబ చక్రాసనము\nజాను శిరసాసనము\nశీరసాసనము\nఊర్థ్వ పద్మాసనము\nశవాసనము\nజేష్టికాసనము\nఅద్వాసనము\nమృతాసనము\nసేతుబంద ఆసనము\nహస్తస్థితి ఊర్థ్వపాదాసనము\nషట్క్రియలు లేక షట్కర్మలు\nషట్కర్మలను చేయూ విధానము (ధౌతి)\nభస్తి కర్మ\nనేతి కర్మసా\nత్రాటిక కర్మ\nనౌళి కర్మ\nకపాలభౌతి\nజలంధర బంధము\nఉడ్వాన బంధము\nమూలబంధము\n\nముద్రలు : - \nమహాముద్ర\nమహాబంధము\nమహావేధ\nఖేచలి ముద్ర\nవిపరీతకరణి ముద్ర\nవజ్రోలి ముద్ర\nసరస్వతీ చాలనము\nపరీదానయుక్తి పరీచాలన క్రియ\nచేయు పద్ధతి :-\nశాంభవీ ముద్ర\nషణ్ముఖ ముద్ర\nఉన్మనీ ముద్ర\nప్రాణాయామము.\nనాడీశోధనము కొరకు ప్రాణాయామము చేయు పద్ధతి\nసూర్యభేద ప్రాణాయామము\nఉజ్జాయి ప్రాణాయామము\nసీత్కారి ప్రాణాయామము<poem></poem>\nసీతలి ప్రాణాయామము\nభస్తికా ప్రాణాయామము\nభ్రామరీ కుంభకము\nమూర్చా కుంభకము\nప్లావనీకుంభక ప్రాణాయామము\nప్రాణాయామము అభ్యసించు విధమును సంక్షిప్తముగా బెప్పబడుచున్నది.\nసాధన సందర్భములో సాధకుడు జాగ్రత్త పడవలసిన విషయములు\nప్రత్యాహారము/<poem>",
+    1
+   ],
+   [
+    "{{c|{{p|fs150}}గబ్బిలము</p>\n<br>\nనవయుగ కవిచక్రవర్తి\n\nజి. జాషువ<br><br>\n\nప్రతులకు:<br>\n\nహేమలతాలవణం<br>\n\nపటమట, విజయవాడ-520006<br>}}",
+    1
+   ]
+  ]
+ }
+]

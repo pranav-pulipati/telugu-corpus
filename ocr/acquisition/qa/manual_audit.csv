@@ -1,0 +1,271 @@
+source,item,uid,split,label,verdict,corrected,note
+bstd_telugu,0,351f7bf76cda1431,train,రిజిస్ట్రేషన్,wrong,సంస్థలకు,label is a different word
+bstd_telugu,1,f01ccd26fc610f14,test,పంచాయతీ రాజ్,correct,,
+bstd_telugu,2,4a68acb140d4291f,train,నకాపలి,correct,,
+bstd_telugu,3,bb71ed90285b5f85,train,శ్రీశ్రీశ్రీ,correct,,
+bstd_telugu,4,45d7aa77c2643d2b,val,వరంగల్,correct,,
+bstd_telugu,5,6b1afcb11dec2fa5,train,చికిత్సాలయ,correct,,
+bstd_telugu,6,aaa37e1947cd0324,train,శ్రీలక్ష్మి,correct,,
+bstd_telugu,7,59ae3902ab9cfe25,test,గద్జాలజిల్లా,wrong,గద్వాలజిల్లా,ద్వ written as ద్జ
+bstd_telugu,8,7efb1e43c25db4fa,val,వస్త్రములు,correct,,
+bstd_telugu,9,58f3e11607b1535b,val,బజార్,correct,,
+bstd_telugu,10,5886b05d09b05a67,test,హెచ్చరిక,correct,,
+bstd_telugu,11,2ec5b2e4cb413c91,test,వరసిద్ధి,correct,,
+bstd_telugu,12,c1db0049fc140ba5,test,సంఘం,correct,,
+bstd_telugu,13,fea8e247751b2ad7,train,మెరెంట్,unclear,,small/occluded
+bstd_telugu,14,3cad11e68504dc9f,val,మెమోరియల్,correct,,
+bstd_telugu,15,373d2177b08fa88a,train,మమత,correct,,
+hw_uc_telugu,0,40e85798b3c1847f,train,తమక,unclear,,last akshara ambiguous (క/కు)
+hw_uc_telugu,1,93bbb06b664832e0,train,ప్రమాదంలో,correct,,
+hw_uc_telugu,2,a0c8aed2ad3bce98,train,పక్షాలతో,correct,,
+hw_uc_telugu,3,b67036384b59cc9e,train,నాశనమైపోయినట్లే,correct,,
+hw_uc_telugu,4,532ef04ff5e1f625,train,కొందరు,correct,,
+hw_uc_telugu,5,cdc78cda0fc69cad,train,నటచింది.,wrong,నటించింది.,label drops ిం
+hw_uc_telugu,6,e3ff2ea4d2918777,train,వారికి,correct,,
+hw_uc_telugu,7,df9f2b3f7e2fedbe,train,ఆంశాలపై,correct,,
+hw_uc_telugu,8,ed4900d35b8ea269,train,గురించిన,correct,,
+hw_uc_telugu,9,0c1cf6ea8739ed3b,train,ఇది,correct,,
+hw_uc_telugu,10,1b151fd97cea88d5,train,రాజ్యముమీదికి,correct,,
+hw_uc_telugu,11,139120a1abfc750d,train,విధంగా,correct,,
+hw_uc_telugu,12,68a8a12d382a747f,train,ఆరాధించిన,correct,,
+hw_uc_telugu,13,7c8ece7ccc6e4010,train,సొంతం,correct,,
+hw_uc_telugu,14,3cf321ec69f53962,train,ఆయన,correct,,
+hw_uc_telugu,15,7acd91670b01c487,train,ఉన్నవి.,correct,,
+hw_words_telugu,0,ddc60ef7e63cdcf5,val,చూపిస్తానంటోంది,correct,,
+hw_words_telugu,1,51480979a7cc70de,train,మద్రాసు,correct,,
+hw_words_telugu,2,dfab3a81d6b93dbb,val,ప్రస్ఫుటించింది,correct,,
+hw_words_telugu,3,ca35c5767ebe4808,train,కుటుంబాన్ని,correct,,
+hw_words_telugu,4,c48f6ac854e40ce5,train,అమ్మాయిల,correct,,
+hw_words_telugu,5,bd1f2d4cfa255e50,train,చేస్తున్నారో,correct,,
+hw_words_telugu,6,3f0fbcedb9d06d18,train,ప్రాధాన్యతనిస్తే,correct,,
+hw_words_telugu,7,bd105a0fafce6d03,test,కనే్నసి,wrong,కన్నేసి,legacy byte order (vowel sign before virama); flagged invalid_sign_sequence
+hw_words_telugu,8,5c89af8d6406aabb,train,అడ్రియానా,correct,,
+hw_words_telugu,9,1a1f6cfa3d53dd31,train,సమస్థాయిలో,correct,,
+hw_words_telugu,10,3d4926edd163adb2,train,చవిచూసి,correct,,
+hw_words_telugu,11,43b6331d4a69552b,train,ఆకట్టుకున్నారు,correct,,
+hw_words_telugu,12,c4846f02a52e01b4,train,ఎముకల,correct,,
+hw_words_telugu,13,4f586a5c61d00b19,train,తింటారట,correct,,
+hw_words_telugu,14,6bd603c93293f143,train,చేసినవాడిని,correct,,
+hw_words_telugu,15,32430f0168af7a2f,val,స్వతంత్రించి,correct,,
+ihwwr1_telugu,0,79e62467840f2d05,test,చేసుకోవలసి,correct,,
+ihwwr1_telugu,1,a77ffa84cf215e01,train,పరిశోధనా,correct,,
+ihwwr1_telugu,2,c4da444cb9a0da9c,val,ఆ,correct,,
+ihwwr1_telugu,3,f01e4386b911a67b,train,ఆడ,correct,,brackets/comma in crop not in label
+ihwwr1_telugu,4,d432bec5c5b69bbe,train,సందర్శకులు,correct,,
+ihwwr1_telugu,5,8429e7d7cd1c3e93,train,కాదు,correct,,comma in crop not in label
+ihwwr1_telugu,6,de6792e7d0b2b7ed,train,వెలువడే,correct,,
+ihwwr1_telugu,7,b3527651fafd7a32,train,ఉండాలని,correct,,
+ihwwr1_telugu,8,8d7e3dec579b7818,train,అని,correct,,
+ihwwr1_telugu,9,c88adb829728dea0,train,ఆమె,correct,,
+ihwwr1_telugu,10,aa5450d3bceef544,val,ఇది,correct,,
+ihwwr1_telugu,11,de1ded3a2d1df3bd,train,తన,correct,,
+ihwwr1_telugu,12,61ff4d126b0195f7,train,పేరును,correct,,
+ihwwr1_telugu,13,9fd863c6e3bcb04f,train,పటేల్,correct,,
+ihwwr1_telugu,14,6df10d0c5d6093dc,test,కాపరి,correct,,
+ihwwr1_telugu,15,7f039c395f1cdf2b,train,పర్యంగా,correct,,
+indicdlp_eval_sample_te,0,a336438460acc33d,test,April - 2009,correct,,
+indicdlp_eval_sample_te,1,9967d42098d8d0db,test,"సామాజిక న్యాయానికి
+పితామహుడు",correct,,
+indicdlp_eval_sample_te,2,ad7afc8d60cf715c,test,డాక్టర్ బి.ఆర్ . అంబేద్కర్,correct,,
+indicdlp_eval_sample_te,3,a5a3116f8853aed0,test,"ఆణిముత్యాల్లాంటి అంబేద్కర్ వ్యాఖ్యల గురించి ఇట్లా ఎన్నయినా చెప్పుకోవచ్చు. దళితుల జీవితాల దశను,
+దిశను సమూలంగా మార్చివేసిన ఆ మహనీయుడి జయంతి సందర్భంగా ఇదే మా నివాళి.",correct,,
+indicdlp_eval_sample_te,4,b329b692914f357c,test,17/04/09 3:14 PM,correct,,
+indicdlp_eval_sample_te,5,6f675b2a01f40ce1,test,"ఇరవయ్యవ శతాబ్దానికి చెందిన ఓ గొప్ప మహనీయుడు డాక్టర్ బాబా సాహెబ్ అంబేద్కర్. అట్టడుగు ప్రజల
+విముక్తికి ఆయన చేసిన కృషి జరిపిన పోరాటాలకు మానవ చరిత్రలో సాటి రాగలిగిన ఉదంతాలు అరుదనే
+చెప్పాలి. 'అంటరాని వారు' గా ఆనాటి సమాజం అమానుషంగా ముద్ర వేసిన కుటుంబంలో జన్మించిన అంబేద్కర్
+విజ్ఞానం, పాండిత్యం, నాయకత్వం, రాజనీతిజ్ఞ రంగాల్లో అత్యున్నత స్థాయికి ఎదిగిన వైనం అపూర్వం.",correct,,
+indicdlp_eval_sample_te,6,8ffe4543afac3f1b,test,"ఏప్రిల్ 2009
+స్థానిక పాలన
+గ్రామీణ వికాస మాసపత్రిక
+1 సంచిక : 3 పేజీలు : 64 వెల : రూ. 20/ -",correct,,
+indicdlp_eval_sample_te,7,c0de8a2c6e59bd18,test,April_Stanikapalana_1.indd 1,correct,,
+indicdlp_eval_sample_te,8,4d2b11363a958306,test,Stanika Palana,correct,,
+indicdlp_eval_sample_te,9,22ae7cc4176be461,test,ఏప్రిల్ 2009,correct,,
+indicstr12_telugu,0,0d80353ca5587702,test,అండ్,correct,,
+indicstr12_telugu,1,d28fbf96f1581acc,train,కేఫ్,correct,,
+indicstr12_telugu,2,f36e5309e37a575b,test,కాంప్లెక్స్,correct,,
+indicstr12_telugu,3,9b4f074cbe849aaf,test,వారంటీ,correct,,
+indicstr12_telugu,4,4a18c7e73e022c35,test,రిలయన్స్,correct,,
+indicstr12_telugu,5,c6559b4484efeae6,val,నిపుణులు,correct,,
+indicstr12_telugu,6,5b06515c35815cf6,test,హోలేసేల్,wrong,హోల్‌సేల్,
+indicstr12_telugu,7,1ac2f6561c8c7ed1,val,హస్పటల్,wrong,హాస్పిటల్,
+indicstr12_telugu,8,663206e50b248906,val,శ్రీ,correct,,
+indicstr12_telugu,9,d03a6ae90eb3a204,val,మూర్తి,correct,,
+indicstr12_telugu,10,cb5bd2038efb07d0,train,న్యూ,correct,,
+indicstr12_telugu,11,a00e47071beca571,test,దిల్ సుఖ్ నగర్,correct,,
+indicstr12_telugu,12,f4f100aa803772ff,test,పోస్టర్,correct,,
+indicstr12_telugu,13,ff8a3a789525134f,val,సిమెంట్,correct,,
+indicstr12_telugu,14,6cd17b700a9a4102,val,సాయి,correct,,
+indicstr12_telugu,15,daa977d5e5224e5c,val,సాఫల్య,correct,,
+mozhi_telugu,0,8529939a6a1dd66e,train,ఆ,correct,,
+mozhi_telugu,1,b34f5843b9889172,train,మొన్న,correct,,
+mozhi_telugu,2,c58afa57fdaea9f0,train,రోజుల,correct,,
+mozhi_telugu,3,4eb42bae34853de1,train,వారి,correct,,
+mozhi_telugu,4,4ba3d26d32201fb0,train,"""వండ్రపుల్""",correct,,"curly quotes in print, straight quotes in label"
+mozhi_telugu,5,b5c0ae7ff308747f,val,భోగము,correct,,
+mozhi_telugu,6,3ad44fe72b8bc956,train,వాళ్ళందరికీ,correct,,
+mozhi_telugu,7,d1b1be546b8fcf00,train,సరత్,correct,,
+mozhi_telugu,8,5e1c6675fe41ed8d,train,తీవ్రత,correct,,
+mozhi_telugu,9,ed48ba3b3369524d,train,"లైలా""",correct,,quote style
+mozhi_telugu,10,c4dc0c87ff7f4bfd,train,వివరంగా,correct,,
+mozhi_telugu,11,0a26ea42f47d943e,val,బళి!',correct,,
+mozhi_telugu,12,2d68e82dd7333e1b,train,పత్రికలలో,correct,,
+mozhi_telugu,13,2e82beda6685bec4,train,వర్తమాన,correct,,
+mozhi_telugu,14,0c1e6038f822d321,train,పొందిన,correct,,
+mozhi_telugu,15,a065a3ca94e2c671,train,పూ,unclear,,ప/ఫ ambiguous at this resolution
+sarvam_ocr_bench_te,0,50a46e42442a8035,test,"సాగే తంతుయుత పైపొర
+కండరపొర
+అవకాశిక
+ఎండోథిలియం",correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,1,18ea196c3ecb7c68,test,"శుద్ధి చేసే సందర్భంలో 50-60 శాతం మరల భూగర్భంలోకి
+ఇంకకుండా తగు జాగ్రత్తలు తీసుకోవాలి.
+
+• వ్యర్ధ పదార్థాల నిర్వహణకు గ్రామ పంచాయతీలకు అవపరమయిన
+సామర్థ్యాలను పెంపొందించాలి. సాంకేతిక మద్దతు అందచేయాలి.
+
+• సురక్షిత నీటిని వినియోగించటం వల్ల ప్రజలకు కలిగే లాభాలను
+గూర్చి అవగాహన కల్పించటంలో గ్రామ సభకు ప్రాధాన్యం ఇవ్వాలి.
+
+• గ్రామంలో తరతరాలుగా రాన్నటువంటి మంచినీటి వనరులను
+సంరక్షించాలి.
+
+• సమ్మిళిత అభివృద్ధికి కట్టుబడి శుభ్రమైన రక్షిత నీటిని సమాజంలోని
+అట్టడుగు వర్గాలకు కూడా అందేట్లు తగు చర్యలు తీసుకోవాలి.
+నిరుపేదరికం సురక్షితమైన త్రాగునీటిని పొందటానికి అడ్డంకి కాకుండా
+జాగ్రత్తలు తీసుకోవాలి. నీటిపై అధికారం ఏ ఒక్కరికో స్వంతం అనే
+భావన సమాజంలో రాకుండా శ్రద్ధ వహించాలి.",correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,2,0adc363021346f21,test,"చుక్కల చదరంపై, వక్రరేఖలలో రెండు లేక ఎక్కువ
+చుక్కలను కలపండి. ముగ్గులాగా చిత్ర విన్యాసాన్ని
+గీయండి.",correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,3,9e0c3271575df94b,test,"ఇది అంతరాంగ అవయవాలలో ఉంటుంది. రక్తనాళాలు, వాయినాళాలు, శ్వాసనాళాలు, జీర్ణాశయము,
+పేగు వంటి అవయవాల్లో ఉంటుంది. దీనిని అంతరాంగ కండరము అని అంటారు.",correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,4,5267b03a8bbb5955,test,రెండు భుజాల పాడవులు మాత్రమే ఇచ్చినప్పుడు మీ త్రిభుజానికి తద్రూపిగానున్న త్రిభుజం గీయడానికి కాదు.,correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,5,762d93634e847303,test,"The vowel ఌ Lu as in will run, shall read, is rare-
+ly used, and the learner may safely neglect it. Indeed
+్ల (that is, the consonant L) is generally substituted,
+Thus clripta క్లృప్త (short) is written క్లుప్త and pro-
+nounced clupta. The word ప్లుత pluta 'extension' is
+written ప్లుత. Plava ప్లవ the name of a year is pro-
+nounced like the English word Plover. In fact ఌ is
+peculiar to a few Sanscrit words, and ought to be pro-
+nounced lri as in bell-ringer. But no one gives it that
+sound.",correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,6,d7c9888694d9a672,test,"I have admitted ఱ and ఁ into the spelling of words. But as
+there is often great doubt and controversy regarding the words
+containing these sounds, and as it is my imperative duty not to
+disappoint any reasonable referrer, I have inserted such words with
+both spellings in their respective places alphabetically, so far as they
+have come to my notice.",correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,7,b56c4213e3abff32,test,వ్రేళ్ళను ఉపయోగించి ఈ అక్షరాలను ఎలా తెలుసుకుంటున్నారో చూడండి.,correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,8,3432b6df4fc2f931,test,"sufficiently, in-suf-fish'ent-ly, adv. చాలక,
+తక్కువగా. This house is insufficiently fur-
+nished ఈ యింట్లో సామాను తక్కువగానున్నది.
+insular, in'shŭ-lar, adj. దీవిసంబంధమైన, ద్వీప
+సంబంధమైన, లంకసంబంధమైన. The insu-
+lar chiefs ఆలంకసంబంధమైన ప్రభువులు.",correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,9,b337717fb31baad1,test,"1. అతి పెద్ద సంఖ్య అతి చిన్న సంఖ్య
+i 15892 15370
+ii 25800 25073
+iii 44687 44602
+iv 75671 75610
+v 34899 34891
+
+2. i 375, 1475, 4713, 15951 ii 9347, 12300, 19035, 22570
+
+3. i 89715, 89254, 45321, 1876 ii 18500, 8700, 3900, 3000
+
+4. i < ii > iii > iv >
+
+5. i డెబ్బై రెండు వేల ఆరువందల నలభై రెండు.
+ii యాభై ఐదు వేల మూడు వందల నలభై ఐదు.
+iii అరవై ఆరువేల ఆరు వందలు
+iv ముప్పై వేల మూడు వందల ఒకటి
+
+6. i 40270 ii 14064 iii 9700 iv 60000
+
+7. i పెద్ద సంఖ్య 7430 ii చిన్న సంఖ్య 3047
+
+8. i 1000 ii 9999 iii 10000 iv 99999",correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,10,de911963f187d3c0,test,"మిడిమిడిలాడు miḍimiḍilāḍu, v, n. To
+be excessively hot, as applied to
+the sun.",correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,11,ddce8dc1c9c9fb78,test,"ఫొటో ఫీచర్ను 'ఫొటో ఎస్సే' అని కూడా అంటారు. ఆ పేరును బట్టే, అది కొన్ని ఫొటోల ఆధారంగా ఒక
+విషయాన్ని గురించి చెప్పే ఒక కథ లేదా వ్యాసం అని అర్థమవుతుంది. ఏదైనా ఒక ప్రదేశం లేదా వ్యక్తి ఫొటోలతో
+దీనిని రూపొందించవచ్చు.",correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,12,7ca91f9a9b48f07d,test,ప్రాణాధారమైన గాలి ఇంకా కలుషితం కాకుండా కొన్ని చర్యలు తీసుకుంటే ముందు తరాలు మనగలుగుతాయి,correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,13,aac137feaf218a67,test,"తెరిపి sub. తెరిపి|తెరవులు. A cessation; a suspension; also, figuratively,
+a disclosure. అతనిపనిఅంతా తెరిపిక్రిందవచ్చినది. The whole of his bu-
+siness is brought to a stand. ఆస్థితులువారికి తెరిపిచెయ్యి. Make a dis-
+closure of those circumstances to them. తెరిపికావడం. To cease; to
+leave off. వానయింకా తెరిపిఅయినదికాదు. The rain has not yet
+ceased.",correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,14,ee392c14ff478c58,test,ఆంధ్రప్రదేశ్ పంచాయితీ రాజ్ చట్టం రీత్యా గ్రామ పంచాయతీల కార్య నిర్వహణకు సూచనలు,correct,,"checked at block/content level, not character-exact"
+sarvam_ocr_bench_te,15,3544849fa3d5f83b,test,"Saddle, sad'dle, n. పల్లము, జీని. Or loins, as
+a saddle of mutton గొఱ్ఱెయొక్క వీపు;
+a pack saddle గంత; a side saddle దొరసా
+నులు ఎక్కే జీని; saddle bags పల్లానికి రెండు
+పక్కను ఉండే సంచులు.",correct,,"checked at block/content level, not character-exact"
+synthetic_indicstr_telugu,0,4a597412f9099e17,train,పెంపుకు,unreadable,,near-black render
+synthetic_indicstr_telugu,1,dbc09e757d241849,train,అందఱకు,unreadable,,left half unreadable
+synthetic_indicstr_telugu,2,9b9e4c485026b856,val,విల్దెర్నెస్స్,correct,,
+synthetic_indicstr_telugu,3,fca11d6cdeda2f01,train,చొచ్చుకొనిపోవటంలో,correct,,
+synthetic_indicstr_telugu,4,51e09df2ce7fbf28,train,గినియా,correct,,
+synthetic_indicstr_telugu,5,b624f59b20eacbda,train,సంఘటితమవుతూ,unreadable,,faint
+synthetic_indicstr_telugu,6,d826fdfb37b44e4f,train,పరిచయమైనట్లు,correct,,
+synthetic_indicstr_telugu,7,be2562938616b3cb,train,మొగలప్ప,correct,,
+synthetic_indicstr_telugu,8,9b34102b1130508d,train,ఎంపయర్,correct,,
+synthetic_indicstr_telugu,9,09f73b11fb20271b,val,మనగలగడానికి,correct,,
+synthetic_indicstr_telugu,10,395cb73478a26e4d,train,ఓహోయోలోని,unreadable,,background clutter
+synthetic_indicstr_telugu,11,1e0e2fb755495532,train,నేవీ,correct,,
+synthetic_indicstr_telugu,12,6fa2f84708b1f30a,train,సెక్రటీగా,correct,,
+synthetic_indicstr_telugu,13,c6ddb6da40794b85,val,బ్రెంతాలో,correct,,
+synthetic_indicstr_telugu,14,e728290566acf4f3,val,బాలశౌరిరెడ్డి,correct,,
+synthetic_indicstr_telugu,15,b26185b4d08d0790,val,గుండవరపు,correct,,
+synthetic_m_telugu,0,636fa108359188fb,train,కలుసుకోవడం,correct,,
+synthetic_m_telugu,1,f90d5774d0163db9,train,పరిహారం,correct,,
+synthetic_m_telugu,2,eebb8c050be64919,train,రాంబాబు,correct,,
+synthetic_m_telugu,3,592ee34708dd1234,train,జేర్చెను.,correct,,
+synthetic_m_telugu,4,f2872a343ab4d5d0,train,మీకు,correct,,
+synthetic_m_telugu,5,f52d32946fc5c0ea,train,మముగాచుటకొరకు,correct,,
+synthetic_m_telugu,6,1ecc2abd42d3e82b,train,కసి,correct,,
+synthetic_m_telugu,7,b40ad198c8637da2,train,చ.,correct,,
+synthetic_m_telugu,8,091aab014b00b093,train,తా,correct,,
+synthetic_m_telugu,9,19de8394597a11c8,train,శ్రీ,correct,,
+synthetic_m_telugu,10,00ce8fd63e9843a2,train,సాధువు,correct,,
+synthetic_m_telugu,11,662210d6ef390c33,train,పాఠాంతరములు,correct,,
+synthetic_m_telugu,12,5b69e3b87eb7972d,train,"""బాబుకు",correct,,
+synthetic_m_telugu,13,3fb434c764b32713,train,రచనారంభానికి,correct,,
+synthetic_m_telugu,14,9f55d012800364c6,train,స్ర్తీసహజమైన,correct,,label uses legacy స్ర్తీ order; render matches label
+synthetic_m_telugu,15,40368fd6b4f71c42,train,విరతి,correct,,
+synthetic_r_telugu,0,a1e4f929fa38afef,train,చదరమును,correct,,
+synthetic_r_telugu,1,8ba6db5cd7a109d7,train,వేతనాలకి,correct,,
+synthetic_r_telugu,2,38d153e5b22c12e2,val,చేస్తాయన్న,correct,,
+synthetic_r_telugu,3,2fb2070013e2ee77,val,వంతపాడటం,correct,,
+synthetic_r_telugu,4,611fd4509fe5ec38,train,వుంటానుమార్చి,correct,,
+synthetic_r_telugu,5,5a8e14fb45fbfa34,train,ప్రసాద్చాలామంది,correct,,
+synthetic_r_telugu,6,b4bbf0b031635588,train,నువ్వొకమాటిస్తానంటేదాట్ల,correct,,
+synthetic_r_telugu,7,824992f4928746ed,train,రావటమంటేదర్శకుడిగా,correct,,
+synthetic_r_telugu,8,c77c518f0ce530f1,train,సమానుల్ని,correct,,
+synthetic_r_telugu,9,827a7e76a90f5ea2,train,తేజేశ్వరరావు,correct,,
+synthetic_r_telugu,10,0e60ab4d20526f09,train,గుహుడికథ,correct,,
+synthetic_r_telugu,11,65e9bd5f5e7aa5a3,train,మరుసటేల,correct,,
+synthetic_r_telugu,12,08465632a68fb359,train,ఒగటే,correct,,
+synthetic_r_telugu,13,fa92e2fe62a5c1c0,train,దేవదేవం,correct,,
+synthetic_r_telugu,14,e29de4bbf203d2ed,train,చేసినంతకాలమూ,correct,,
+synthetic_r_telugu,15,7c3364bb554a9b00,train,ప్రేమించరాదు,correct,,
+wirindic_telugu,0,8fdd34e393b876b0,train,అందుబాటు,correct,,
+wirindic_telugu,1,8fcf513c360610cf,test,వెంకట,correct,,
+wirindic_telugu,2,42c7572ddd498a2d,train,జనరిక్,correct,,
+wirindic_telugu,3,91bdf4a78bd16a50,test,నిజామాబాద్,partial_crop,,lower half of word only
+wirindic_telugu,4,f7449944a20a60ee,test,పత్రికలు,unreadable,,heavy blur
+wirindic_telugu,5,a8e43922de7c0adf,train,మమత,partial_crop,,crop includes second line
+wirindic_telugu,6,3a507cee578c7380,train,రేణుక,correct,,
+wirindic_telugu,7,d923c1bc8d5f2ab6,val,కామారెడ్డి,partial_crop,,last letters cut
+wirindic_telugu,8,058e0bcdc81bad8f,train,సాయి,partial_crop,,last letter cut
+wirindic_telugu,9,8206125d20b56353,train,బ్యాంక్,correct,,
+wirindic_telugu,10,9fc7221af3a5373a,val,సంబంధించిన,correct,,
+wirindic_telugu,11,df511d1a743749d6,train,డెయిరీ,partial_crop,,left part cut
+wirindic_telugu,12,5cb797b77151c5ed,train,తెలంగాణ,partial_crop,,right edge cut
+wirindic_telugu,13,f9c8a0d7bee04d9e,test,ఆటో,correct,,
+wirindic_telugu,14,5ddc8a902b738d1f,train,జనరల్,partial_crop,,last letter cut
+wirindic_telugu,15,c13176abb549e5b6,train,సూపర్,correct,,
