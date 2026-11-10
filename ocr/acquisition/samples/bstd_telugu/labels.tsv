@@ -1,0 +1,9 @@
+file	uid	split	text	licence	source_url
+00.jpg	782899e6aa8d4ad8	train	జిల్లా మహ	Apache-2.0	https://github.com/Bhashini-IITJ/BharatSceneTextDataset
+01.jpg	0b27e7be2f02fb8b	train	బేగంపేట్	Apache-2.0	https://github.com/Bhashini-IITJ/BharatSceneTextDataset
+02.jpg	3dd239353715ca77	train	కార్యాలయం	Apache-2.0	https://github.com/Bhashini-IITJ/BharatSceneTextDataset
+03.jpg	f5337611cc56044b	val	సేప	Apache-2.0	https://github.com/Bhashini-IITJ/BharatSceneTextDataset
+04.jpg	a0d543eea152ebc0	val	స్టేషన్	Apache-2.0	https://github.com/Bhashini-IITJ/BharatSceneTextDataset
+05.jpg	92078032b4c234c9	val	పి	Apache-2.0	https://github.com/Bhashini-IITJ/BharatSceneTextDataset
+06.jpg	eaaa2105d0e98815	test	వాహనము	Apache-2.0	https://github.com/Bhashini-IITJ/BharatSceneTextDataset
+07.jpg	68180c3b41792c4a	test	సందర్భంలో	Apache-2.0	https://github.com/Bhashini-IITJ/BharatSceneTextDataset

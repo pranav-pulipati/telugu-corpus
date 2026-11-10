@@ -1,0 +1,50 @@
+{
+ "bstd_telugu": {
+  "near_dup_label_groups_across_splits": 0,
+  "exact_pixel_groups_across_splits": 0
+ },
+ "hw_uc_telugu": {
+  "near_dup_label_groups_across_splits": 1,
+  "exact_pixel_groups_across_splits": 0
+ },
+ "hw_words_telugu": {
+  "near_dup_label_groups_across_splits": 0,
+  "exact_pixel_groups_across_splits": 0
+ },
+ "ihwwr1_telugu": {
+  "near_dup_label_groups_across_splits": 0,
+  "exact_pixel_groups_across_splits": 0
+ },
+ "indicdlp_eval_sample_te": {
+  "near_dup_label_groups_across_splits": 0,
+  "exact_pixel_groups_across_splits": 0
+ },
+ "indicstr12_telugu": {
+  "near_dup_label_groups_across_splits": 0,
+  "exact_pixel_groups_across_splits": 0
+ },
+ "mozhi_telugu": {
+  "near_dup_label_groups_across_splits": 8,
+  "exact_pixel_groups_across_splits": 0
+ },
+ "sarvam_ocr_bench_te": {
+  "near_dup_label_groups_across_splits": 0,
+  "exact_pixel_groups_across_splits": 0
+ },
+ "synthetic_indicstr_telugu": {
+  "near_dup_label_groups_across_splits": 0,
+  "exact_pixel_groups_across_splits": 0
+ },
+ "synthetic_m_telugu": {
+  "near_dup_label_groups_across_splits": 0,
+  "exact_pixel_groups_across_splits": 0
+ },
+ "synthetic_r_telugu": {
+  "near_dup_label_groups_across_splits": 1270,
+  "exact_pixel_groups_across_splits": 0
+ },
+ "wirindic_telugu": {
+  "near_dup_label_groups_across_splits": 0,
+  "exact_pixel_groups_across_splits": 0
+ }
+}
