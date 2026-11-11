@@ -1,0 +1,1067 @@
+{
+"rakeshvar/banti_training": {
+"size_kb": 184188,
+"license": null,
+"desc": "Datasets to train Telugu OCR using theanet.",
+"pushed": "2021-07-28T10:15:15Z",
+"files": 568,
+"truncated": false,
+"images": 467,
+"ext": {
+"bmp": 467,
+"prms": 71,
+"bz2": 11,
+"py": 6,
+"scl": 3,
+"txt": 3
+},
+"label_files": [],
+"img_dirs": [
+[
+"data/data48",
+457
+],
+[
+"data/numbers",
+10
+]
+],
+"readme_data": []
+},
+"srikarym/OCR_Telugu_code": {
+"size_kb": 95865,
+"license": null,
+"desc": null,
+"pushed": "2022-05-13T04:49:10Z",
+"files": 60,
+"truncated": false,
+"images": 24,
+"ext": {
+"png": 23,
+"md": 8,
+"py": 8,
+"json": 8,
+"hdf5": 7,
+"txt": 2
+},
+"label_files": [],
+"img_dirs": [
+[
+"code/output",
+20
+],
+[
+"code/img.jpg",
+1
+],
+[
+"example.png",
+1
+],
+[
+"models/accuracies-character.png",
+1
+],
+[
+"models/accuracies-vattu.png",
+1
+]
+],
+"readme_data": [
+"- Set file name training_testing/main_character/model_code.py, h5_file_location = 'YOURPATH/final_dataset.hdf5'",
+"- Set file name in training_testing/vattu_gunintam/model_code.py, h5_file_location = 'YOURPATH/final_dataset.hdf5'",
+"## Dataset",
+"Dataset used can be downloaded [here](https://drive.google.com/file/d/1ucYy_Emht9MRLjQPaUydSKZzN1ZQ77dd/view)."
+]
+},
+"harsha-desaraju/TeluguOCR": {
+"size_kb": 127202,
+"license": "MIT",
+"desc": "An OCR model for Telugu which beats Tesseract, PaddleOCR and SuryaOCR in Telugu. ",
+"pushed": "2026-10-12T14:03:11Z",
+"files": 130,
+"truncated": false,
+"images": 2,
+"ext": {
+"py": 67,
+"ttf": 30,
+"yaml": 9,
+"json": 8,
+"ipynb": 3,
+"md": 2
+},
+"label_files": [],
+"img_dirs": [
+[
+"benchmark/telugu_ocr_error_rates.png",
+1
+],
+[
+"benchmark/telugu_ocr_exact_match.png",
+1
+]
+],
+"readme_data": [
+"Real labelled Telugu line images barely exist, so most of the work is manufacturing them.",
+"**Real lines from Wikisource.** Proofread page scans are cut into lines with Tesseract's",
+"Wikisource images",
+"Key datasets on the Hub:",
+"| dataset | what it is |",
+"| [`telugu-line-ocr-bench`](https://huggingface.co/datasets/harsha-desaraju/telugu-line-ocr-bench) | the human-verified evaluation set used above |",
+"| [`telugu-wikisource-text-images`](https://huggingface.co/datasets/harsha-desaraju/telugu-wikisource-text-images) | real line crops with aligned transcripts |",
+"| [`telugu-synthetic-line-images`](https://huggingface.co/datasets/harsha-desaraju/telugu-synthetic-line-images) | synthetic rendered lines |"
+]
+},
+"Bhavani-Pisini/Image-Binarization-Project": {
+"size_kb": 5079,
+"license": null,
+"desc": "The first free and open-source Telugu palm leaf dataset to advance research in digitization and Optical Character Recognition (OCR) of ancient Telugu scripts.",
+"pushed": "2024-07-12T12:14:29Z",
+"files": 7,
+"truncated": false,
+"images": 0,
+"ext": {
+"ipynb": 3,
+"gitignore": 1,
+"pptx": 1,
+"pdf": 1,
+"md": 1
+},
+"label_files": [],
+"img_dirs": [],
+"readme_data": [
+"The first free and open-source Telugu palm leaf dataset to advance research in digitization and Optical Character Recognition (OCR) of ancient Telugu scripts.The dataset consists of 36 images of Telug"
+]
+},
+"Sriram1908/TeluguManuscriptOCRandTextReconstruction": {
+"size_kb": 14265,
+"license": null,
+"desc": "A OCR Model to read the Telugu Palm Leaf ",
+"pushed": "2026-10-25T17:37:15Z",
+"files": 1831,
+"truncated": false,
+"images": 1777,
+"ext": {
+"png": 1777,
+"txt": 42,
+"py": 9,
+"md": 1,
+"pkl": 1,
+"ipynb": 1
+},
+"label_files": [],
+"img_dirs": [
+[
+"mappings/model_10_chars",
+487
+],
+[
+"mappings/model_hand_chars",
+445
+],
+[
+"mappings/model_5_chars",
+416
+],
+[
+"mappings/model_20_chars",
+413
+],
+[
+"corpus/tests",
+14
+]
+],
+"readme_data": [
+"So we did character segmentation of the images we obtain each character of palm leaf's and mapped to it's ground value, and other few values we did on our own writting."
+]
+},
+"UthejKaramalapudi/Handwritten_Charcater_Classificaition_For_Telugu_Palmleaf_Document_Images": {
+"size_kb": 3704,
+"license": null,
+"desc": null,
+"pushed": "2024-07-12T09:52:46Z",
+"files": 10,
+"truncated": false,
+"images": 0,
+"ext": {
+"py": 7,
+"zip": 1,
+"md": 1
+},
+"label_files": [],
+"img_dirs": [],
+"readme_data": [
+"# HandWritten_Charcater_Classificaition_For_Telugu_Palmleaf_Document_Images"
+]
+},
+"Vishwanath-123/Telugu_OCR": {
+"size_kb": 2034912,
+"license": null,
+"desc": null,
+"pushed": "2024-05-07T08:12:14Z",
+"files": 38,
+"truncated": false,
+"images": 1,
+"ext": {
+"py": 18,
+"pyc": 16,
+"gitignore": 1,
+"md": 1,
+"txt": 1,
+"jpg": 1
+},
+"label_files": [],
+"img_dirs": [
+[
+"testimage.jpg",
+1
+]
+],
+"readme_data": []
+},
+"gopalvarun03/Telugu-OCR": {
+"size_kb": 1136636,
+"license": null,
+"desc": "Implementation of OCR on scripted telugu text",
+"pushed": "2025-12-25T20:46:20Z",
+"files": 536,
+"truncated": false,
+"images": 66,
+"ext": {
+"pth": 272,
+"txt": 90,
+"png": 65,
+"pt": 28,
+"py": 24,
+"ipynb": 23
+},
+"label_files": [
+"html_transcriptions/A no bhadrAH Suktam.txt",
+"html_transcriptions/Advaita Shatakam.txt",
+"html_transcriptions/Agni Suktam.txt",
+"html_transcriptions/Bhagya Suktam or Pratah Suktam.txt",
+"html_transcriptions/Chamakaprashna.txt",
+"html_transcriptions/Dhruvasuktam Rigveda.txt"
+],
+"img_dirs": [
+[
+"training_Models/python_files_Using gru",
+26
+],
+[
+"training_Models/python_files_Transformer_Encoder_Decoder",
+23
+],
+[
+"Losses/Losses_GRU.png",
+1
+],
+[
+"Losses/Losses_GRU1.png",
+1
+],
+[
+"Losses/Losses_LSTM.png",
+1
+]
+],
+"readme_data": [
+"A deep learning-based OCR system for recognizing Telugu text from images, specifically optimized for Vedic Sanskrit texts written in Telugu script. This project uses a CNN-RNN hybrid architecture with",
+"- Synthetic dataset generation from Telugu fonts",
+"- **`making_dataset.ipynb`** - Synthetic dataset generation from text files",
+"- **`NoiseAddingtoImages.ipynb`** - Image augmentation with noise",
+"- **`html_transcriptions/`** - Source text files (85+ Vedic texts)",
+"- **`labels.txt`** - Ground truth labels for all training images (75,075 lines)",
+"- **`test1.png, test2.png, testimage.jpg`** - Sample test images",
+"### 1. Dataset Generation"
+]
+},
+"axlevisu/CNN-Telugu-OCR": {
+"size_kb": 244465,
+"license": null,
+"desc": "CNN to classify telugu numbers",
+"pushed": "2017-04-29T02:14:25Z",
+"files": 67286,
+"truncated": false,
+"images": 67263,
+"ext": {
+"tiff": 45217,
+"png": 19034,
+"bmp": 3000,
+"jpg": 12,
+"py": 12,
+"txt": 3
+},
+"label_files": [
+"data/devanagri-characters/test/labels.txt",
+"data/devanagri-characters/train/labels.txt"
+],
+"img_dirs": [
+[
+"data/64characters",
+45217
+],
+[
+"data/devanagri-characters",
+19034
+],
+[
+"data/numbers",
+3000
+],
+[
+"mid-report files/a.jpg",
+1
+],
+[
+"mid-report files/b.jpg",
+1
+]
+],
+"readme_data": []
+},
+"DIVYANSH-TEJA-09/telugu-ocr-dataset": {
+"size_kb": 26475,
+"license": null,
+"desc": null,
+"pushed": "2026-02-04T15:50:40Z",
+"files": 769,
+"truncated": false,
+"images": 0,
+"ext": {
+"json": 755,
+"ipynb": 5,
+"md": 3,
+"py": 3,
+"template": 1,
+"gitignore": 1
+},
+"label_files": [
+"ground_truth/1947/చందమామ_1947_07.json",
+"ground_truth/1947/చందమామ_1947_08.json",
+"ground_truth/1947/చందమామ_1947_09.json",
+"ground_truth/1947/చందమామ_1947_10.json",
+"ground_truth/1947/చందమామ_1947_11.json",
+"ground_truth/1947/చందమామ_1947_12.json"
+],
+"img_dirs": [],
+"readme_data": [
+"# Telugu OCR Dataset Preparation Pipeline",
+"A specialized pipeline for creating a high-quality, large-scale Telugu OCR dataset from Chandamama magazine archives (1947–2012). This repository focuses on extraction, alignment, and Hugging Face upl",
+"To generate a **Paragraph-Level Telugu OCR Dataset** suitable for fine-tuning modern Transformer models (TrOCR, PaddleOCR).",
+"**Dataset Scale:** ~70,000 Paragraphs",
+"**Source:** Chandamama Kathalu (35k+ Pages)",
+"1.  **Ingestion:** Reads raw scanned images and ground truth JSONs.",
+"*   **OCR:** Tesseract (Telugu) extracts text from images.",
+"3.  **Upload:** Pushes the final dataset to Hugging Face Hub."
+]
+},
+"saikrishnawanted/Telugu_OCR_Tesseract_Training": {
+"size_kb": 363108,
+"license": "GPL-3.0",
+"desc": "Training Tesseract over numerous Telugu fonts to OCR old Telugu Literature. Flawless in identifying Print documents or modern documents",
+"pushed": "2021-09-20T05:25:43Z",
+"files": 293,
+"truncated": false,
+"images": 1,
+"ext": {
+"unicharset": 47,
+"cpp": 39,
+"xheights": 32,
+"h": 25,
+"txt": 19,
+"punc": 15
+},
+"label_files": [],
+"img_dirs": [
+[
+"train/tel.Nandini.exp0.tif",
+1
+]
+],
+"readme_data": []
+},
+"alfahimmohammad/Telugu-Handwritten-Text-Recognition": {
+"size_kb": 98051,
+"license": null,
+"desc": "This repository contains the codes used for my project on Telugu Handwritten Text Recongition written in Keras. ",
+"pushed": "2023-08-09T08:55:41Z",
+"files": 118,
+"truncated": false,
+"images": 42,
+"ext": {
+"png": 30,
+"txt": 15,
+"jpg": 12,
+"py": 8,
+"dart": 6,
+"xml": 5
+},
+"label_files": [
+"Android Application for Telugu HTR/android/app/src/main/res/drawable/launch_background.xml"
+],
+"img_dirs": [
+[
+"Android Application for Telugu HTR/ios",
+18
+],
+[
+"Android Application for Telugu HTR/android",
+5
+],
+[
+"Convolutional Recurrent Neural Network/19.jpg",
+1
+],
+[
+"Convolutional Recurrent Neural Network/20.jpg",
+1
+],
+[
+"Convolutional Recurrent Neural Network/21.jpg",
+1
+]
+],
+"readme_data": [
+"The dataset for this work can be downloaded from [here](https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data)."
+]
+},
+"siddartharc/Scriptify-Tool-for-Telugu-Character-Detection": {
+"size_kb": 88805,
+"license": "MIT",
+"desc": "A Tool for converting handwritten text documents to text files",
+"pushed": "2024-10-04T11:21:32Z",
+"files": 50,
+"truncated": false,
+"images": 16,
+"ext": {
+"png": 11,
+"py": 11,
+"pyc": 11,
+"jpg": 5,
+"txt": 5,
+"md": 2
+},
+"label_files": [],
+"img_dirs": [
+[
+"data/image",
+8
+],
+[
+"Screenshot 2024-05-09 215815.jpg",
+1
+],
+[
+"Screenshot 2024-05-16 131952.png",
+1
+],
+[
+"Screenshot 2024-05-16 132018.png",
+1
+],
+[
+"Screenshot 2024-05-16 132102.png",
+1
+]
+],
+"readme_data": [
+"This tool facilitates the conversion of handwritten images to text files using various options and configurations.",
+"- This option preprocesses the images using cosine similarity.",
+"- Upload images for preprocessing to `\\Tool\\data\\image\\input`.",
+"- Convert text images to text files.",
+"1. Clone or download the repository to your local machine.",
+"- For image preprocessing, upload images to `\\Tool\\data\\image\\input` and adjust settings in `preprocessing.py`.",
+"- Preprocessed images: `\\Tool\\data\\image\\output`"
+]
+},
+"chaitusvk/sharada": {
+"size_kb": 46622,
+"license": null,
+"desc": "Telugu OCR",
+"pushed": "2020-11-29T14:33:53Z",
+"files": 26,
+"truncated": false,
+"images": 2,
+"ext": {
+"ipynb": 10,
+"txt": 7,
+"ttf": 2,
+"gitattributes": 1,
+"gitignore": 1,
+"md": 1
+},
+"label_files": [
+"telugu_labeler/akshara_regexp.txt"
+],
+"img_dirs": [
+[
+"cairo_scribe/chaitu.png",
+1
+],
+[
+"telugu_scribe_PIL/check_image.jpg",
+1
+]
+],
+"readme_data": []
+},
+"chaitusvk/telugu_ocr_multi_line": {
+"size_kb": 39828,
+"license": null,
+"desc": "telugu ocr CRNN mult line",
+"pushed": "2021-05-10T20:16:45Z",
+"files": 280,
+"truncated": false,
+"images": 246,
+"ext": {
+"png": 246,
+"py": 15,
+"pyc": 12,
+"html": 2,
+"md": 1,
+"pth": 1
+},
+"label_files": [],
+"img_dirs": [
+[
+"tel_ocr_img_multi/noise_less",
+79
+],
+[
+"tel_ocr_img_multi/old_iamges",
+10
+],
+[
+"tel_ocr_img_multi/my_old",
+8
+],
+[
+"tel_ocr_img_multi/working",
+6
+],
+[
+"1.png",
+1
+]
+],
+"readme_data": []
+},
+"arbdwj/telugu-ocr": {
+"size_kb": 91804,
+"license": null,
+"desc": "telugu crnn",
+"pushed": "2019-03-20T18:52:11Z",
+"files": 40,
+"truncated": false,
+"images": 4,
+"ext": {
+"py": 9,
+"swp": 6,
+"ttf": 5,
+"pdf": 3,
+"txt": 2,
+"doc": 2
+},
+"label_files": [],
+"img_dirs": [
+[
+"1.jpg",
+1
+],
+[
+"download.jpeg",
+1
+],
+[
+"test.jpeg",
+1
+],
+[
+"test.png",
+1
+]
+],
+"readme_data": []
+},
+"diuguide/telugu-ocr": {
+"size_kb": 47255,
+"license": null,
+"desc": null,
+"pushed": "2026-06-25T07:14:03Z",
+"files": 12096,
+"truncated": false,
+"images": 1954,
+"ext": {
+"json": 5168,
+"txt": 4909,
+"png": 989,
+"jpg": 965,
+"csv": 26,
+"py": 17
+},
+"label_files": [
+"phase_1/ground_truth/manifests/ground_truth_manifest.csv",
+"phase_1/selected_ground_truth_pages.txt"
+],
+"img_dirs": [
+[
+"data/image_data",
+1924
+],
+[
+"written_reports/supporting_docs",
+30
+]
+],
+"readme_data": [
+"### `binarize_images.py`",
+"- **Script path:** `bin/phase_2/binarize_images.py`",
+"- **Script name:** `binarize_images.py`",
+"### `crop_images.py`",
+"- **Script path:** `bin/phase_2/crop_images.py`",
+"- **Script name:** `crop_images.py`",
+"### `denoise_images.py`",
+"- **Script path:** `bin/phase_2/denoise_images.py`"
+]
+},
+"SAMI-CODEAI/OCR-for-Telugu": {
+"size_kb": 32625,
+"license": null,
+"desc": null,
+"pushed": "2025-12-26T07:00:49Z",
+"files": 43,
+"truncated": false,
+"images": 3,
+"ext": {
+"ttf": 14,
+"py": 10,
+"otf": 4,
+"txt": 2,
+"png": 2,
+"hdf5": 2
+},
+"label_files": [],
+"img_dirs": [
+[
+"custom_models/Images",
+2
+],
+[
+"metrics/accuracy_loss_curves.png",
+1
+]
+],
+"readme_data": [
+"- Input: 32×32 grayscale images",
+"Comparison against Tesseract OCR 4.0 (Telugu language pack) on a test set of 1000 Telugu text images:",
+"- ⚠️ **Resource Requirements**: Requires GPU for optimal performance",
+"The Images folder contain the images for ocr with the output is in .html format (for displying Telugu text)"
+]
+},
+"prathamm-k/Telugu-OCR-legacy": {
+"size_kb": 59619,
+"license": "MIT",
+"desc": null,
+"pushed": "2025-06-05T16:25:02Z",
+"files": 12,
+"truncated": false,
+"images": 0,
+"ext": {
+"json": 4,
+"py": 2,
+"md": 1,
+"txt": 1,
+"pdf": 1,
+"bat": 1
+},
+"label_files": [],
+"img_dirs": [],
+"readme_data": [
+"[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+"A powerful and user-friendly Optical Character Recognition (OCR) web application built with Streamlit, specifically designed for Telugu text extraction from PDFs and images. This application makes it ",
+"- 📝 Extract text from PDF files and images",
+"- 💾 Download extracted text as a file",
+"- Windows: Download from [Poppler for Windows](http://blog.alivate.com.au/poppler-windows/)",
+"source ocr_env/bin/activate  # On Linux/Mac",
+"5. View the extracted text and download it as a text file",
+"Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**."
+]
+},
+"Pumapumapumas/ml-class-project": {
+"size_kb": 31423,
+"license": "MIT",
+"desc": "Telugu OCR Project",
+"pushed": "2026-07-04T16:05:04Z",
+"files": 305,
+"truncated": false,
+"images": 51,
+"ext": {
+"py": 59,
+"js": 46,
+"md": 39,
+"jpg": 36,
+"txt": 32,
+"css": 22
+},
+"label_files": [],
+"img_dirs": [
+[
+"data/external",
+30
+],
+[
+"reports/figures",
+21
+]
+],
+"readme_data": [
+"End-to-end pipeline that extracts clean Unicode text from scanned Telugu document images using vision-capable Large Language Models, with an accompanying validation framework that uses LLMs to assess ",
+"1. Ingests scanned Telugu page images (`.jpg` / `.png`)",
+"- **A 30-year-old classical OCR baseline (Tesseract) beats Google's flagship vision LLM (Gemini Flash) by 18pp on Telugu.** Vision LLMs are not automatically superior for low-resource scripts.",
+"Full project specification is in [`downloads/Telugu-OCR-Project.qmd`](downloads/Telugu-OCR-Project.qmd). The instructor's submission-instruction and presentation-instruction announcements are in [`dow",
+"├── downloads/          ← Project spec, instructor announcements",
+"├── src/                ← Pipeline source code: ocr/, preprocessing/, validation/, utils/",
+"├── reports/            ← Quarto source + rendered PDFs and HTMLs for the report",
+"source .venv/bin/activate"
+]
+},
+"harshinisannidhi/TeluguHandwrittenOCR": {
+"size_kb": 25148,
+"license": null,
+"desc": "Telugu Handwritten Character Recognition using MobileNetV3 and Image Processing",
+"pushed": "2026-10-25T14:40:58Z",
+"files": 68,
+"truncated": false,
+"images": 20,
+"ext": {
+"png": 20,
+"csv": 9,
+"html": 7,
+"pt": 7,
+"json": 6,
+"txt": 4
+},
+"label_files": [],
+"img_dirs": [
+[
+"Code/backend",
+14
+],
+[
+"Code/Frontend",
+6
+]
+],
+"readme_data": []
+},
+"LakshmiNarayana-9990/Telugu_Character_Recognition-English_Letter_Prediction": {
+"size_kb": 27385,
+"license": null,
+"desc": "This Project is all about Telugu Handwriting character Recognition and predicting its equivalent letters in English.",
+"pushed": "2020-08-23T14:04:53Z",
+"files": 23,
+"truncated": false,
+"images": 13,
+"ext": {
+"png": 13,
+"html": 3,
+"py": 2,
+"rar": 2,
+"pdf": 1,
+"md": 1
+},
+"label_files": [],
+"img_dirs": [
+[
+"images/1.png",
+1
+],
+[
+"images/2.png",
+1
+],
+[
+"images/3.png",
+1
+],
+[
+"images/4.png",
+1
+],
+[
+"images/5.png",
+1
+]
+],
+"readme_data": []
+},
+"sreeramkasulu/Telugu-Character-Recognition": {
+"size_kb": 17396,
+"license": null,
+"desc": null,
+"pushed": "2025-08-20T13:00:54Z",
+"files": 14,
+"truncated": false,
+"images": 5,
+"ext": {
+"png": 4,
+"css": 3,
+"py": 2,
+"md": 1,
+"csv": 1,
+"h5": 1
+},
+"label_files": [
+"telugu/combined_labels.csv"
+],
+"img_dirs": [
+[
+"telugu/static",
+4
+],
+[
+"telugu/logo.png.jpg",
+1
+]
+],
+"readme_data": [
+"**Predict Telugu characters instantly from uploaded images!**",
+"- Ensure `/static/images` contains `logo.png` or hero images"
+]
+},
+"Harathi123/Telugu-Character-Recognition-using-CNN": {
+"size_kb": 1043,
+"license": null,
+"desc": "Handwritten Telugu Character Recognition using Convolutional Neural Networks",
+"pushed": "2018-08-27T18:05:33Z",
+"files": 5,
+"truncated": false,
+"images": 0,
+"ext": {
+"pdf": 2,
+"ipynb": 2,
+"md": 1
+},
+"label_files": [],
+"img_dirs": [],
+"readme_data": [
+"Data set for my project:",
+"The dataset is downloaded from HP Labs India website (http://lipitk.sourceforge.net/datasets/teluguchardata.htm).This dataset contains approx. 270 samples of each of 166 Telugu \"characters\" written by",
+"The dataset used in the project is preprocessed dataset. The algorithm used for preprocessing is also included with the name preprocess_data.ipynb. All the characters in the dataset were not used as s"
+]
+},
+"jaganmohanreddy2106/Telugu-Handwritten-Digit-Recognition": {
+"size_kb": 28,
+"license": null,
+"desc": null,
+"pushed": "2018-09-17T03:49:36Z",
+"files": 15,
+"truncated": false,
+"images": 10,
+"ext": {
+"bmp": 10,
+"py": 3,
+"gitignore": 1,
+"md": 1
+},
+"label_files": [],
+"img_dirs": [
+[
+"images/eight.bmp",
+1
+],
+[
+"images/five.bmp",
+1
+],
+[
+"images/four.bmp",
+1
+],
+[
+"images/nine.bmp",
+1
+],
+[
+"images/one.bmp",
+1
+]
+],
+"readme_data": [
+"The input dataset format should be in the following form.",
+"<th><img src=\"images/one.bmp\" width=\"30\" height=\"30\"/></th>",
+"<th><img src=\"images/zero.bmp\" width=\"30\" height=\"30\"/></th>",
+"<th><img src=\"images/two.bmp\" width=\"30\" height=\"30\"/></th>",
+"<th><img src=\"images/three.bmp\" width=\"30\" height=\"30\"/></th>",
+"<th><img src=\"images/four.bmp\" width=\"30\" height=\"30\"/></th>",
+"<th><img src=\"images/five.bmp\" width=\"30\" height=\"30\"/></th>",
+"<th><img src=\"images/six.bmp\" width=\"30\" height=\"30\"/></th>"
+]
+},
+"Mitradatta/Telugu-Character-Recognition": {
+"size_kb": 44,
+"license": null,
+"desc": "This project implements a machine learning model designed for recognizing and classifying Telugu handwritten characters. The dataset was created by collecting handwritten samples, ensuring a wide variety of Telugu script representations.",
+"pushed": "2022-04-10T10:04:54Z",
+"files": 1,
+"truncated": false,
+"images": 0,
+"ext": {
+"md": 1
+},
+"label_files": [],
+"img_dirs": [],
+"readme_data": [
+"- [Dataset Description](#description)",
+"another. Dataset plays an important role in the design of supervised learning systems. Since the datasets available for Telugu characters is very limited and not",
+"available as open source, we have created our own dataset, by collecting samples from different aged people consisting of about 250 samples for each character.",
+"Then we have pre-processed the collected data to make it applicable for our research. In this project we have used convolutional neural networks to identify the hand",
+"In one of the papers, they proposed a hybrid approach for recognition of handwritten Telugu CV type characters, as offline images, using a combination of",
+"accuracy even when they use few samples per character which makes it efficient and suitable for handwritten character recognition.",
+"## Dataset Description",
+"<img width=\"220\" alt=\"Screenshot 2022-04-09 at 9 10 19 AM\" src=\"https://user-images.githubusercontent.com/54971204/162554967-8665bb1f-838e-4f08-b319-141e22220fa0.png\">"
+]
+},
+"syamkakarla98/Telugu_Character_Recognition": {
+"size_kb": 3769,
+"license": "GPL-3.0",
+"desc": "Uses different techniques for Telugu handwritten characters recognition",
+"pushed": "2020-10-11T09:30:32Z",
+"files": 26,
+"truncated": false,
+"images": 6,
+"ext": {
+"ipynb": 14,
+"png": 6,
+"csv": 2,
+"md": 2,
+"py": 1
+},
+"label_files": [],
+"img_dirs": [
+[
+"NoteBooks/output_5_0.png",
+1
+],
+[
+"NoteBooks/output_7_0.png",
+1
+],
+[
+"output_13_1.png",
+1
+],
+[
+"output_14_1.png",
+1
+],
+[
+"output_15_0.png",
+1
+]
+],
+"readme_data": [
+"df = pd.read_csv(\"E://Telugu Character Recogniton//CSV_dataset//CSV_datasetsix_vowel_dataset_with_class.csv\")",
+"f.suptitle(\"Images with respective Classes(1-3)\")",
+"f.suptitle(\"Images with respective Classes(4-6)\")"
+]
+},
+"JayanthKalluri/TeluguWordRecognizer": {
+"size_kb": 8210,
+"license": null,
+"desc": "The Telugu OCR for recognizing Handwritten words.",
+"pushed": "2024-09-16T18:40:56Z",
+"files": 4,
+"truncated": false,
+"images": 0,
+"ext": {
+"txt": 2,
+"md": 1,
+"ipynb": 1
+},
+"label_files": [],
+"img_dirs": [],
+"readme_data": [
+"### Step-1 Downloading Dataset",
+"create a new folder outside of WordTOCR and name it \"handwritten_telugu_word_dataset\"",
+"Download the dataset from the link: https://drive.google.com/drive/folders/1OWdHJhDH-x6n257ck4avON7eIybb5aIR?usp=share_link and store it in  \"handwritten_telugu_word_dataset\".",
+"### step-2 Downloading the weights",
+"Download the weights form the link: https://drive.google.com/drive/folders/1r_UYkVKrSZDG6Uf93e03-AmYWwVHrIem?usp=share_link rename in to Training and store it in the WordTOCR folder with final_Word_TO"
+]
+},
+"munindra289/Telugu-Braille-OCR-": {
+"size_kb": 7283,
+"license": null,
+"desc": null,
+"pushed": "2024-07-25T11:40:34Z",
+"files": 8,
+"truncated": false,
+"images": 4,
+"ext": {
+"jpg": 4,
+"py": 1,
+"ipynb": 1,
+"h5": 1,
+"txt": 1
+},
+"label_files": [],
+"img_dirs": [
+[
+"home_image.jpg",
+1
+],
+[
+"info.jpg",
+1
+],
+[
+"output.jpg",
+1
+],
+[
+"uploaded_image.jpg",
+1
+]
+],
+"readme_data": []
+},
+"rakeshvar/chamanti_ocr_theano": {
+"size_kb": 3807,
+"license": "Apache-2.0",
+"desc": "Telugu OCR framework using RNN, CTC in Theano & Python3.",
+"pushed": "2021-05-25T16:01:14Z",
+"files": 59,
+"truncated": false,
+"images": 4,
+"ext": {
+"ast": 29,
+"py": 8,
+"txt": 4,
+"pstats": 4,
+"md": 3,
+"ipynb": 3
+},
+"label_files": [],
+"img_dirs": [
+[
+"data/praasa.tif",
+1
+],
+[
+"data/praasa_tiny.tif",
+1
+],
+[
+"data/twilight.jpg",
+1
+],
+[
+"data/twilight.tiff",
+1
+]
+],
+"readme_data": []
+}
+}

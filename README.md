@@ -11,6 +11,10 @@ The list was audited on 2026-11-09:
 
 The audit results are in the `audit/` folder; start with `audit/AUDIT_REPORT.md`.
 
+**Telugu OCR datasets:** a separate, more detailed directory of every Telugu OCR dataset found (181 rows, 92 distinct
+datasets) is in [`telugu_ocr_final.csv`](telugu_ocr_final.csv). How to read it, the counts and the reports are in
+[`ocr/directory/README.md`](ocr/directory/README.md).
+
 For each source, the list records:
 - the link
 - what is inside

@@ -1,0 +1,5490 @@
+[
+[
+false,
+2026,
+0,
+"telugu-ocr",
+"https://doi.org/10.57967/hf/9079",
+"Hugging Face"
+],
+[
+false,
+2011,
+20,
+"Towards Improving the Accuracy of Telugu OCR Systems",
+"https://doi.org/10.1109/icdar.2011.185",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2015,
+29,
+"Telugu OCR Framework using Deep Learning",
+"https://doi.org/10.48550/arxiv.1509.05962",
+"arXiv (Cornell University)"
+],
+[
+false,
+2014,
+6,
+"IMPROVEMENT OF TELUGU OCR BY SEGMENTATION OF TOUCHING CHARACTERS",
+"https://doi.org/10.15623/ijret.2014.0310054",
+"International Journal of Research in Engineering and Technology"
+],
+[
+false,
+2004,
+4,
+"Candidate search and elimination approach for Telugu OCR",
+"https://doi.org/10.1109/tencon.2003.1273278",
+"IEEE Region 10 Conference (TENCON)"
+],
+[
+false,
+2017,
+4,
+"SVM with Inverse Fringe as Feature for Improving Accuracy of Telugu OCR Systems",
+"https://doi.org/10.1007/978-981-10-3373-5_25",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2023,
+1,
+"Comprehensive study of deep learning based Telugu OCR: A survey",
+"https://doi.org/10.30574/ijsra.2023.8.1.0050",
+"International Journal of Science and Research Archive"
+],
+[
+false,
+2022,
+0,
+"Telugu OCR Framework Using a HMM and Transfer Learning Approach",
+"https://doi.org/10.1007/978-3-031-22405-8_32",
+"Communications in computer and information science"
+],
+[
+false,
+2002,
+111,
+"An OCR system for Telugu",
+"https://doi.org/10.1109/icdar.2001.953958",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2020,
+6,
+"Comprehensive study of Deep learning based Telugu OCR",
+"https://doi.org/10.1109/icssit48917.2020.9214087",
+"International Conference on Smart Systems and Inventive Technology (ICSSIT)"
+],
+[
+false,
+2019,
+3,
+"Telugu OCR using Dictionary Learning and Multi-Layer Perceptrons",
+"https://openalex.org/W2998867159",
+"International Conference on Computing, Power and Communication Technologies (GUCON)"
+],
+[
+false,
+2023,
+0,
+"COMPREHENSIVE STUDY OF DEEP LEARNING BASED TELUGU OCR",
+"https://doi.org/10.46647/ijetms.2023.v07i03.133",
+"International Journal of Engineering Technology and Management Sciences"
+],
+[
+false,
+2025,
+0,
+"A Probabilistic Character Computing Approach For Telugu Ocr Post-Processing",
+"https://doi.org/10.64252/xsy5jb35",
+"International Journal of Environmental Sciences"
+],
+[
+false,
+2004,
+109,
+"A bilingual OCR for Hindi-Telugu documents and its applications",
+"https://doi.org/10.1109/icdar.2003.1227699",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+true,
+2018,
+26,
+"Optical Character Recognition (OCR) for Telugu: Database, Algorithm and Application",
+"https://doi.org/10.1109/icip.2018.8451438",
+"Proceedings - International Conference on Image Processing"
+],
+[
+false,
+2019,
+3,
+"A Survey On OCR For Telugu Language",
+"https://openalex.org/W2995647077",
+"International journal of scientific and technology research"
+],
+[
+false,
+2006,
+18,
+"OCR of Printed Telugu Text with High Recognition Accuracies",
+"https://doi.org/10.1007/11949619_70",
+"Lecture notes in computer science"
+],
+[
+true,
+2015,
+0,
+"Determination of optimal features database for OCR of printed Telugu text",
+"https://doi.org/10.1109/natsys.2015.7489112",
+"National Systems Conference (NSC)"
+],
+[
+false,
+2003,
+23,
+"On developing high accuracy OCR systems for Telugu and other Indian scripts",
+"https://doi.org/10.1109/lec.2002.1182286",
+null
+],
+[
+false,
+2014,
+1,
+"OCR of Printed Telugu Text with High Recognition Accuracies",
+"https://openalex.org/W2558530076",
+null
+],
+[
+true,
+2026,
+0,
+"\"Handwritten Telugu Alphabet Dataset: Vowels and Consonants (Varnamala) for OCR and Pattern Recognition\"",
+"https://doi.org/10.21227/qdy8-qb25",
+"IEEE DataPort"
+],
+[
+false,
+2003,
+14,
+"A multi-font OCR system for printed Telugu text",
+"https://doi.org/10.1109/lec.2002.1182284",
+null
+],
+[
+false,
+2004,
+13,
+"A high accuracy OCR system for printed Telugu text",
+"https://doi.org/10.1109/tencon.2003.1273274",
+"IEEE Region 10 Conference (TENCON)"
+],
+[
+false,
+2026,
+1,
+"An End-to-End OCR-to-Speech Framework for Multi-Font Telugu Documents",
+"https://doi.org/10.1109/ccic68129.2026.11486238",
+"Contemporary Computing Innovations Conference (CCIC)"
+],
+[
+false,
+2025,
+5,
+"Design of an Iterative Method for Telugu Language OCR Leveraging Transformer-Based Models and Adaptive Thresholding",
+"https://doi.org/10.1007/s42979-025-03816-6",
+"SN Computer Science"
+],
+[
+false,
+2021,
+24,
+"A Novel Approach for Optical Character Recognition (OCR) of Handwritten Telugu Alphabets using Convolutional Neural Networks",
+"https://doi.org/10.1109/icesc51422.2021.9532658",
+"International Conference on Electronics and Sustainable Communication Systems (ICESC)"
+],
+[
+false,
+2005,
+0,
+"A novel approach for improving recognition accuracies in OCR of printed telugu text",
+"https://doi.org/10.1109/spcom.2004.1458396",
+"International Conference on Signal Processing and Communications (SPCOM)"
+],
+[
+true,
+2019,
+10,
+"UHTelPCC: A Dataset for Telugu Printed Character Recognition",
+"https://doi.org/10.1007/978-981-13-9187-3_3",
+"Communications in computer and information science"
+],
+[
+false,
+2016,
+1,
+"OCR- The 3 Layered Approach for Decision Making State and Identification of Telugu Hand Written and Printed Consonants and Conjunct Consonants by Usin",
+"https://doi.org/10.5121/ijaia.2016.7303",
+"International Journal of Artificial Intelligence & Applications"
+],
+[
+false,
+2023,
+5,
+"Optical Character Recognition for Handwritten Telugu Text",
+"https://doi.org/10.1109/spin57001.2023.10117279",
+"International Conference on Signal Processing and Integrated Networks (SPIN)"
+],
+[
+false,
+2025,
+1,
+"Recognition of Telugu handwritten text using ZFNet CNN model",
+"https://doi.org/10.1201/9781003559139-37",
+"CRC Press eBooks"
+],
+[
+false,
+2021,
+4,
+"Multilingual Translational Optical Character Recognition System for Printed Telugu Text",
+"https://doi.org/10.1109/icccnt51525.2021.9579619",
+"International Conference on Computing, Communication and Networking Technologies (ICCCNT)"
+],
+[
+false,
+2024,
+4,
+"Optical character recognition for Telugu handwritten text using SqueezeNet convolutional neural networks model",
+"https://doi.org/10.11591/ijaas.v13.i3.pp487-496",
+"International Journal of Advances in Applied Sciences"
+],
+[
+false,
+2022,
+34,
+"An Efficient Deep Learning Model with Interrelated Tagging Prototype with Segmentation for Telugu Optical Character Recognition",
+"https://doi.org/10.1155/2022/1059004",
+"Scientific Programming"
+],
+[
+false,
+2023,
+0,
+"Application of Deep Convolutional Neural Networks to Telugu Scriptsfor Optical Character Recognition",
+"https://doi.org/10.14445/22312803/ijctt-v71i1p108",
+"International Journal of Computer Trends and Technology"
+],
+[
+false,
+2025,
+1,
+"In-Depth Analysis and Challenges of Handwritten Telugu Character Recognition with an Improved CNN Model for Solutions",
+"https://doi.org/10.1007/978-981-96-1267-3_8",
+"Lecture notes in networks and systems"
+],
+[
+false,
+2021,
+18,
+"Multi Variant Handwritten Telugu Character Recognition Using Transfer Learning",
+"https://doi.org/10.1088/1757-899x/1042/1/012026",
+"IOP Conference Series Materials Science and Engineering"
+],
+[
+false,
+2016,
+0,
+"OCR - The 3 Layered Approach for Classification and Identification of Telugu Hand Written Mixed Consonants and Conjunct Consonants by Using Advanced F",
+"https://doi.org/10.5121/csit.2016.60407",
+null
+],
+[
+false,
+2025,
+0,
+"Optical Character Recognition for Telugu Handwritten Characters",
+"https://doi.org/10.17148/ijarcce.2025.14417",
+"IJARCCE"
+],
+[
+false,
+2004,
+39,
+"An optical character recognition system for printed Telugu text",
+"https://doi.org/10.1007/s10044-004-0217-2",
+"Pattern Analysis and Applications"
+],
+[
+false,
+2018,
+7,
+"Improved Symbol Segmentation for TELUGU Optical Character Recognition",
+"https://doi.org/10.1007/978-3-319-76348-4_48",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2024,
+0,
+"Handwritten Telugu Character Recognition & Signature Verification",
+"https://doi.org/10.55041/ijsrem31955",
+"INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT"
+],
+[
+false,
+2011,
+6,
+"On Multifont Character Classification in Telugu",
+"https://doi.org/10.1007/978-3-642-19403-0_14",
+"Communications in computer and information science"
+],
+[
+false,
+2015,
+6,
+"An Implicit Segmentation Approach for Telugu Text Recognition Based on Hidden Markov Models",
+"https://doi.org/10.1007/978-3-319-28658-7_54",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2016,
+0,
+"Optical Character Recognition (OCR)-Decision Making State and Identification of Telugu Hand Written Touching Conjuct Consonants and Mixed Consonants b",
+"https://doi.org/10.5958/2277-4912.2016.00030.8",
+"INROADS- An International Journal of Jaipur National University"
+],
+[
+false,
+2016,
+12,
+"A Zone Based Approach for Classification and Recognition Of Telugu Handwritten Characters",
+"https://doi.org/10.11591/ijece.v6i4.pp1647-1653",
+"International Journal of Electrical and Computer Engineering (IJECE)"
+],
+[
+false,
+2012,
+5,
+"Segmentation of Ancient Telugu Text Documents",
+"https://doi.org/10.5815/ijigsp.2012.06.02",
+"International Journal of Image Graphics and Signal Processing"
+],
+[
+false,
+2024,
+0,
+"Computationally efficient handwritten Telugu text recognition",
+"https://doi.org/10.11591/ijeecs.v34.i3.pp1618-1626",
+"Indonesian Journal of Electrical Engineering and Computer Science"
+],
+[
+false,
+2017,
+42,
+"Off-line Telugu handwritten characters recognition using optical character recognition",
+"https://doi.org/10.1109/iceca.2017.8212801",
+"International Conference on Electronics, Communication and Aerospace Technology (ICECA)"
+],
+[
+false,
+2021,
+4,
+"Deep Learning Approach for Prediction of Handwritten Telugu Vowels",
+"https://doi.org/10.1007/978-981-33-4443-3_35",
+"Smart innovation, systems and technologies"
+],
+[
+false,
+2014,
+0,
+"Extracting the characters from scanned Telugu document images",
+"https://openalex.org/W2277966370",
+"ZENITH International Journal of Multidisciplinary Research"
+],
+[
+false,
+2004,
+44,
+"An intelligent character recognizer for Telugu scripts using multiresolution analysis and associative memory",
+"https://doi.org/10.1016/j.imavis.2004.03.027",
+"Image and Vision Computing"
+],
+[
+false,
+2013,
+1,
+"Classification and Segmentation of Telugu Touching Characters",
+"https://openalex.org/W68585322",
+"CiiT international journal of digital image processing"
+],
+[
+false,
+2009,
+22,
+"Robust Text Line, Word And Character Extraction from Telugu Document Image",
+"https://doi.org/10.1109/icetet.2009.196",
+"International Conference on Emerging Trends in Engineering and Technology (ICETET)"
+],
+[
+false,
+2024,
+2,
+"Computationally efficient ResNet based Telugu handwritten text detection",
+"https://doi.org/10.11591/eei.v13i6.8170",
+"Bulletin of Electrical Engineering and Informatics"
+],
+[
+false,
+2013,
+3,
+"An Approach for Telugu Numeral Recognitionby Moment Invariants in Wavelet TransformDomain",
+"https://openalex.org/W2314720594",
+"International Journal of Innovative Research in Computer and Communication Engineering"
+],
+[
+false,
+2026,
+0,
+"Recognition with Translation of Telugu and Sanskrit Words using Deep Learning",
+"https://doi.org/10.1109/assic70037.2026.11717027",
+"International Conference on Advancements in Smart, Secure and Intelligent Computing (ASSIC)"
+],
+[
+false,
+2024,
+5,
+"Optical Character Recognition Systems for Accurate Interpretation of Handwritten Telugu Scripts",
+"https://doi.org/10.1109/ic2pct60090.2024.10486323",
+"IEEE International Conference on Computing, Power and Communication Technologies (IC2PCT)"
+],
+[
+false,
+2018,
+4,
+"A New Hybrid Algorithm for Telugu Word Retrieval and Recognition",
+"https://doi.org/10.22266/ijies2018.0831.12",
+"International journal of intelligent engineering and systems"
+],
+[
+false,
+2016,
+9,
+"A Performance Efficient Technique for Recognition of Telugu Script Using Template Matching",
+"https://doi.org/10.5815/ijigsp.2016.08.03",
+"International Journal of Image Graphics and Signal Processing"
+],
+[
+false,
+2015,
+10,
+"Innovative Feature Sets for Machine Learning based Telugu Character Recognition",
+"https://doi.org/10.17485/ijst/2015/v8i24/79996",
+"Indian Journal of Science and Technology"
+],
+[
+false,
+2011,
+19,
+"Fringe Map Based Text Line Segmentation of Printed Telugu Document Images",
+"https://doi.org/10.1109/icdar.2011.260",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2022,
+1,
+"Optical Character Recognition of Telugu Text Using Inception Model",
+"https://doi.org/10.1007/978-981-16-7330-6_74",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2025,
+1,
+"Real Time Implementation of Telugu Character Recognition Using Raspberry Pi",
+"https://doi.org/10.1109/aimla63829.2025.11040466",
+"International Conference on Artificial Intelligence and Machine Learning Applications Theme: Healthcare and Internet of Things (AIMLA)"
+],
+[
+false,
+2022,
+1,
+"Deep Learning Based Residual Network Features for Telugu Printed Character Recognition",
+"https://doi.org/10.32604/iasc.2022.026940",
+"Intelligent Automation & Soft Computing"
+],
+[
+false,
+2016,
+2,
+"Searching for TELUGU Script in Noisy Images Using SURF descriptors",
+"https://doi.org/10.1109/iacc.2016.95",
+"IEEE International Conference on Advanced Computing (IACC)"
+],
+[
+false,
+2017,
+2,
+"An Enhanced Template Matching Technique for Recognition of Telugu Script",
+"https://openalex.org/W2784687132",
+null
+],
+[
+false,
+2024,
+0,
+"Efficient deep learning models for Telugu handwritten text recognition",
+"https://doi.org/10.11591/ijeecs.v36.i3.pp1564-1572",
+"Indonesian Journal of Electrical Engineering and Computer Science"
+],
+[
+false,
+2024,
+1,
+"Telugu Braille Character Detection Using Deep Learning",
+"https://doi.org/10.1109/gccit63234.2024.10862904",
+"Global Conference on Communications and Information Technologies (GCCIT)"
+],
+[
+false,
+2012,
+7,
+"IDENTIFICATION OF TELUGU, DEVANAGARI AND ENGLISH SCRIPTS USING DISCRIMINATING FEATURES",
+"https://openalex.org/W2490616440",
+null
+],
+[
+false,
+2012,
+4,
+"Segmentation of Touching Hand written Telugu Characters by using Drop Fall Algorithm",
+"https://doi.org/10.24297/ijct.v3i2c.2897",
+"INTERNATIONAL JOURNAL OF COMPUTERS & TECHNOLOGY"
+],
+[
+false,
+2007,
+7,
+"Middle Zone Component Extraction and Recognition of Telugu Document Image",
+"https://doi.org/10.1109/icdar.2007.4376982",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2024,
+0,
+"Performance Comparison of various CNN Models for Recognition of Handwritten Telugu Text",
+"https://openalex.org/W7218300880",
+"Journal of Electrical Systems"
+],
+[
+false,
+2025,
+0,
+"Enhancing Telugu handwritten character recognition: A deep learning perspective",
+"https://doi.org/10.1201/9781003606185-40",
+"CRC Press eBooks"
+],
+[
+false,
+2025,
+1,
+"A survey on automated evaluation system for handwritten Telugu answer books",
+"https://doi.org/10.1063/5.0279820",
+"AIP conference proceedings"
+],
+[
+false,
+2021,
+3,
+"An Efficient Telugu Word Image Retrieval System using Deep Cluster",
+"https://openalex.org/W3167659395",
+"Turkish Journal of Computer and Mathematics Education (TURCOMAT)"
+],
+[
+false,
+2019,
+3,
+"Telugu Word Segmentation Using Fringe Maps",
+"https://doi.org/10.1007/978-981-13-9361-7_8",
+"Communications in computer and information science"
+],
+[
+false,
+2014,
+43,
+"Telugu Handwritten Character Recognition Using Zoning Features",
+"https://doi.org/10.1109/icitcs.2014.7021817",
+"International Conference on IT Convergence and Security (ICITCS)"
+],
+[
+false,
+2025,
+0,
+"Attention-Driven CNN-LSTM Model for Telugu Handwritten Character Recognition",
+"https://doi.org/10.1109/iconecct67014.2025.11470211",
+"International Conference on Electrical, Communication, and Computing Technologies (iCONECCT)"
+],
+[
+true,
+2024,
+0,
+"Preserving Telugu Manuscripts: Exploring Binarisation Techniques with Accessible Dataset",
+"https://doi.org/10.2139/ssrn.4903434",
+"SSRN Electronic Journal"
+],
+[
+false,
+2022,
+1,
+"Optical Character Recognition System of Telugu Language Characters Using Convolutional Neural Networks",
+"https://doi.org/10.1007/978-981-19-5482-5_53",
+"Lecture notes in electrical engineering"
+],
+[
+false,
+2018,
+4,
+"Neural-Based Hit-Count Feature Extraction Method for Telugu Script Optical Character Recognition",
+"https://doi.org/10.1007/978-981-10-8204-7_48",
+"Lecture notes in networks and systems"
+],
+[
+false,
+2018,
+2,
+"A Novel Telugu Script Recognition and Retrieval Approach Based on Hash Coded Hamming",
+"https://doi.org/10.1007/978-981-13-0212-1_58",
+"Lecture notes in electrical engineering"
+],
+[
+false,
+2025,
+0,
+"Transformers for Document Text Processing with a Focus on Complex Telugu Scripts",
+"https://doi.org/10.1109/icaiss61471.2025.11042037",
+"International Conference on Augmented Intelligence and Sustainable Systems (ICAISS)"
+],
+[
+false,
+2025,
+1,
+"Development of Real Time CNN-Based System for Telugu Word Recognition on Raspberry Pi",
+"https://doi.org/10.1109/icdici66477.2025.11135424",
+"International Conference on Data Intelligence and Cognitive Informatics (ICDICI)"
+],
+[
+false,
+2021,
+12,
+"Automated Telugu Printed and Handwritten Character Recognition in Single Image using Aquila Optimizer based Deep Learning Model",
+"https://doi.org/10.14569/ijacsa.2021.0121275",
+"International Journal of Advanced Computer Science and Applications"
+],
+[
+false,
+2015,
+4,
+"Automatic detection of telugu single and multi-character text blocks in handwritten words",
+"https://doi.org/10.1109/coconet.2015.7411192",
+"International Conference on Computing and Network Communications"
+],
+[
+false,
+2021,
+1,
+"A Survey On Telugu Optical Character Recognition From Digital Images",
+"https://doi.org/10.17762/turcomat.v12i6.2412",
+"Türk bilgisayar ve matematik eğitimi dergisi"
+],
+[
+false,
+2017,
+8,
+"Orthographic Properties Based Telugu Text Recognition Using Hidden Markov Models",
+"https://doi.org/10.1109/icdar.2017.327",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2024,
+5,
+"A top-down character segmentation approach for Assamese and Telugu handwritten documents",
+"https://doi.org/10.1007/s12652-024-04805-y",
+"Journal of Ambient Intelligence and Humanized Computing"
+],
+[
+false,
+2021,
+3,
+"Telugu Optical Character Recognition Using Cloud Computing And Python",
+"https://doi.org/10.24247/ijcseitrjun20219",
+"International journal of computer science engineering and information technology research"
+],
+[
+false,
+2015,
+11,
+"Hybrid Approach for Telugu Handwritten Character Recognition Using k-NN and SVM Classifiers",
+"https://doi.org/10.15866/irecos.v10i9.7249",
+"International Review on Computers and Software (IRECOS)"
+],
+[
+false,
+2024,
+5,
+"CMViT OCR: printed Indian language recognition using CMViT",
+"https://doi.org/10.1109/spin60856.2024.10511992",
+"International Conference on Signal Processing and Integrated Networks (SPIN)"
+],
+[
+false,
+2012,
+5,
+"Discrimination Of English To Other Indian Languages (Kannada And Hindi) For Ocr System",
+"https://doi.org/10.5121/ijcsea.2012.2214",
+"International Journal of Computer Science Engineering and Applications"
+],
+[
+false,
+2015,
+4,
+"Post-processing methodology for word level Telugu character recognition systems using Unicode Approximation Models",
+"https://doi.org/10.1109/itact.2015.7492681",
+"International Conference on Trends in Automation, Communications and Computing Technology (I-TACT)"
+],
+[
+false,
+2017,
+1,
+"Multi-font Telugu Text Recognition Using Hidden Markov Models and Akshara Bi-grams",
+"https://doi.org/10.1007/978-3-319-68124-5_21",
+"Lecture notes in computer science"
+],
+[
+false,
+2011,
+0,
+"Text level performance evaluation of Indic OCR using split & merge",
+"https://doi.org/10.1145/2034617.2034634",
+null
+],
+[
+false,
+2026,
+0,
+"Hybrid Differential Evolution-Based Neural Network for Improved and Accurate Recognition of Telugu Handwritten Text",
+"https://doi.org/10.1142/s0218126626502385",
+"Journal of Circuits Systems and Computers"
+],
+[
+false,
+2023,
+9,
+"A comparative Study of Classification Algorithm for Printed Telugu Character Recognition",
+"https://doi.org/10.5281/zenodo.7851936",
+"Zenodo (CERN European Organization for Nuclear Research)"
+],
+[
+false,
+2017,
+6,
+"Hand Written Telugu Character Recognition Using Bayesian Classifier",
+"https://doi.org/10.21817/ijet/2017/v9i3/170903s007",
+"International Journal of Engineering and Technology"
+],
+[
+false,
+2026,
+0,
+"An intelligent handwritten character recognition framework using dual attention vision transformer–aided adaptive residual dilated dense network in Te",
+"https://doi.org/10.1142/s0219691326500219",
+"International Journal of Wavelets Multiresolution and Information Processing"
+],
+[
+false,
+2004,
+0,
+"Document processing methods for Telugu and other South East Asian scripts",
+"https://doi.org/10.1109/tencon.2004.1414549",
+"IEEE Region 10 Conference (TENCON)"
+],
+[
+false,
+2024,
+11,
+"Towards Deployable OCR Models for Indic Languages",
+"https://doi.org/10.1007/978-3-031-78495-8_11",
+"Lecture notes in computer science"
+],
+[
+true,
+2022,
+7,
+"OCR Synthetic Benchmark Dataset for Indic Languages",
+"https://doi.org/10.48550/arxiv.2205.02543",
+"arXiv (Cornell University)"
+],
+[
+false,
+2026,
+0,
+"AI-POWERED MULTILINGUAL OCR SYSTEM FOR DIGITIZATION OF HISTORICAL HANDWRITTEN AND REGISTERED DOCUMENTS IN REGIONAL INDIAN LANGUAGES",
+"https://doi.org/10.21474/ijar01/23496",
+"International Journal of Advanced Research"
+],
+[
+false,
+2014,
+1,
+"Handwritten Character Recognition for English and Telugu Scripts Using Multi Layer Perceptions (MLP)",
+"https://openalex.org/W3152909582",
+"International Journal of Scientific Engineering and Technology"
+],
+[
+false,
+2025,
+0,
+"Enhanced Augmented CNN Model Using Optimized Optical Character Recognition For Off-Line Telugu Characters",
+"https://doi.org/10.64252/wveqfx36",
+"International Journal of Environmental Sciences"
+],
+[
+false,
+2023,
+24,
+"Handwritten OCR for word in Indic Language using Deep Networks",
+"https://doi.org/10.1109/spin57001.2023.10117106",
+"International Conference on Signal Processing and Integrated Networks (SPIN)"
+],
+[
+false,
+2026,
+0,
+"AI-POWERED MULTILINGUAL OCR SYSTEM FOR DIGITIZATION OF HISTORICAL HANDWRITTEN AND REGISTERED DOCUMENTS IN REGIONAL INDIAN LANGUAGES",
+"https://doi.org/10.5281/zenodo.20604818",
+"Zenodo (CERN European Organization for Nuclear Research)"
+],
+[
+false,
+2019,
+0,
+"Extracting Text from Telugu Color Documents by Removing Dither Patterns",
+"https://doi.org/10.5120/ijca2019918653",
+"International Journal of Computer Applications"
+],
+[
+false,
+2016,
+4,
+"Key word spotting using HMM in printed Telugu documents",
+"https://doi.org/10.1109/scopes.2016.7955797",
+"International Conference on Signal Processing, Communication, Power and Embedded System (SCOPES)"
+],
+[
+false,
+2009,
+0,
+"Monothetic Separation of Telugu, Hindi and English Text Lines From a Multilingual.",
+"https://openalex.org/W164566380",
+"Conference proceedings/Conference proceedings - IEEE International Conference on Systems, Man, and Cybernetics"
+],
+[
+false,
+2024,
+1,
+"Retrieval of Telugu Word from Hand Written Text using Densenet-CNN",
+"https://doi.org/10.12694/scpe.v25i5.3176",
+"Scalable Computing Practice and Experience"
+],
+[
+false,
+2022,
+1,
+"Improved Telugu Scene Text Recognition with Thin Plate Spline Transform",
+"https://doi.org/10.1007/978-981-16-9113-3_65",
+"Lecture notes on data engineering and communications technologies"
+],
+[
+false,
+2026,
+0,
+"UniLipi: A Unified Multi-script OCR for Historical Indic Manuscripts",
+"https://doi.org/10.1007/978-3-032-36039-7_9",
+"Lecture notes in computer science"
+],
+[
+false,
+2009,
+9,
+"Monothetic separation of Telugu, Hindi and English text lines from a multi script document",
+"https://doi.org/10.1109/icsmc.2009.5346045",
+"Conference proceedings/Conference proceedings - IEEE International Conference on Systems, Man, and Cybernetics"
+],
+[
+false,
+2012,
+3,
+"On performance analysis of end-to-end OCR systems of Indic scripts",
+"https://doi.org/10.1145/2432553.2432577",
+"Workshop on Document Analysis and Recognition (DAR)"
+],
+[
+false,
+2014,
+0,
+"A Novel Way of Identifying Telugu, Tamil and English Scripts by Priority check using Discerning Features",
+"https://doi.org/10.9790/2834-09612834",
+"IOSR Journal of Electronics and Communication Engineering"
+],
+[
+false,
+2017,
+1,
+"Multi-stage Strategy to Classify Handwritten Characters of Telugu",
+"https://doi.org/10.7324/ijcrr.2017.9209",
+"International Journal of Current Research and Review"
+],
+[
+false,
+2022,
+4,
+"A Survey of Optical Character Recognition Techniques on Indic Script",
+"https://doi.org/10.1149/10701.6507ecst",
+"ECS Transactions"
+],
+[
+false,
+2026,
+1,
+"Improved recognition of Telugu handwritten characters through synthetic data generation and attention-based modeling",
+"https://doi.org/10.1088/2631-8695/ae9c8f",
+"Engineering Research Express"
+],
+[
+true,
+2021,
+2,
+"Benchmarking Scene Text Recognition in Devanagari, Telugu and Malayalam",
+"https://doi.org/10.48550/arxiv.2104.04437",
+"arXiv (Cornell University)"
+],
+[
+false,
+2025,
+1,
+"ScriptAdaptNet: A Deep Learning Framework for Cross-Script Diacritic Error Correction in Telugu, Kannada and Devanagari Handwritten Text Recognition",
+"https://doi.org/10.1109/icsit65336.2025.11295371",
+"International Conference on Sustainability, Innovation & Technology (ICSIT)"
+],
+[
+false,
+2026,
+0,
+"IndicPage-OCR: Robust Low-Resource Adaptation for Multi-Script Indic Handwritten Page Recognition",
+"https://doi.org/10.1007/978-3-032-36207-0_19",
+"Lecture notes in computer science"
+],
+[
+false,
+2023,
+2,
+"Unicode-driven Deep Learning Handwritten Telugu-to-English Character Recognition and Translation System",
+"https://doi.org/10.17762/ijritcc.v11i10.8497",
+"International Journal on Recent and Innovation Trends in Computing and Communication"
+],
+[
+false,
+2015,
+22,
+"Word-level script identification for handwritten Indic scripts",
+"https://doi.org/10.1109/icdar.2015.7333932",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2023,
+1,
+"Fusion of RNCNN-BRHA for Recognition of Telugu Word from Handwritten Text",
+"https://doi.org/10.18280/ria.370127",
+"Revue d intelligence artificielle"
+],
+[
+false,
+2020,
+19,
+"Telugu handwritten character recognition using deep residual learning",
+"https://doi.org/10.1109/i-smac49090.2020.9243348",
+"International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC)"
+],
+[
+false,
+2022,
+3,
+"A Deep Learning Approach to Recognize Telugu Handwritten Numerals",
+"https://doi.org/10.1109/gcat55367.2022.9971984",
+"IEEE Global Conference for Advancement in Technology (GCAT)"
+],
+[
+false,
+2025,
+0,
+"CNN-Based Approach for Real-Time Telugu Handwritten Character Recognition",
+"https://doi.org/10.52756/ijerr.2025.v48.013",
+"International Journal of experimental research and review"
+],
+[
+false,
+2017,
+11,
+"Feature Optimization to Recognize Telugu Handwritten Characters by Implementing DE and PSO Techniques",
+"https://doi.org/10.1007/978-981-10-3156-4_41",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2012,
+9,
+"A syntactic PR approach to Telugu handwritten character recognition",
+"https://doi.org/10.1145/2432553.2432579",
+"Workshop on Document Analysis and Recognition (DAR)"
+],
+[
+false,
+2016,
+13,
+"Telugu handwritten character recognition using adaptive and static zoning methods",
+"https://doi.org/10.1109/techsym.2016.7872700",
+"IEEE Students’ Technology Symposium"
+],
+[
+false,
+2020,
+7,
+"Optimization with ADAM and RMSprop in Convolution neural Network (CNN): A Case study for Telugu Handwritten Characters",
+"https://doi.org/10.30534/ijeter/2020/38892020",
+"International Journal of Emerging Trends in Engineering Research"
+],
+[
+false,
+2018,
+2,
+"A Moment-Based Representation for Online Telugu Handwritten Character Recognition",
+"https://doi.org/10.1007/978-981-13-2514-4_3",
+"Lecture notes in networks and systems"
+],
+[
+false,
+2015,
+11,
+"Telugu Handwritten Isolated Characters Recognition using Two Dimensional Fast Fourier Transform and Support Vector Machine",
+"https://doi.org/10.5120/20330-0820",
+"International Journal of Computer Applications"
+],
+[
+false,
+2016,
+0,
+"Telugu handwritten character recognition using adaptive and static zoning methods",
+"https://openalex.org/W2746448511",
+"IEEE Conference Proceedings"
+],
+[
+false,
+2026,
+0,
+"Comparative Analysis of Deep Learning Models for Telugu Handwritten Text Recognition",
+"https://doi.org/10.1109/icissgt67741.2026.11483721",
+"IEEE International Conference on Intelligent Systems, Smart and Green Technologies (ICISSGT)"
+],
+[
+false,
+2010,
+32,
+"CLASSIFICATION AND IDENTIFICATION OF TELUGU HANDWRITTEN CHARACTERS EXTRACTED FROM PALM LEAVES USING DECISION TREE APPROACH",
+"https://openalex.org/W2138504096",
+null
+],
+[
+false,
+2019,
+0,
+"Automatic Telugu Handwritten Character Recognition with the Help of Legendre-Sobolev Divergent Machine Learning Model",
+"https://doi.org/10.35940/ijrte.b2630.078219",
+"International Journal of Recent Technology and Engineering (IJRTE)"
+],
+[
+false,
+2022,
+23,
+"An Intelligent Telugu Handwritten Character Recognition Using Multi-Objective Mayfly Optimization with Deep Learning–Based DenseNet Model",
+"https://doi.org/10.1145/3520439",
+"ACM Transactions on Asian and Low-Resource Language Information Processing"
+],
+[
+false,
+2025,
+5,
+"Developing adaptive Yolov5-based Telugu handwritten character segmentation and classification framework using Enhanced Chef-Based Optimization Algorit",
+"https://doi.org/10.1016/j.compeleceng.2025.110533",
+"Computers & Electrical Engineering"
+],
+[
+false,
+2023,
+6,
+"Handwritten Character Recognition of Telugu Characters",
+"https://doi.org/10.1109/i2ct57861.2023.10126377",
+"IEEE International Conference for Convergence in Technology (I2CT)"
+],
+[
+false,
+2016,
+8,
+"Online recognition of handwritten Telugu script characters",
+"https://doi.org/10.1109/scopes.2016.7955866",
+"International Conference on Signal Processing, Communication, Power and Embedded System (SCOPES)"
+],
+[
+false,
+2022,
+3,
+"Document Text Analysis and Recognition of Handwritten Telugu Scripts",
+"https://doi.org/10.1109/icccmla56841.2022.9989012",
+"IEEE International Conference on Cybernetics, Cognition and Machine Learning Applications (ICCCMLA)"
+],
+[
+false,
+2020,
+27,
+"Handwritten Telugu Compound Character Prediction using Convolutional Neural Network",
+"https://doi.org/10.1109/ic-etite47903.2020.349",
+"International Conference on Emerging Trends in Information Technology and Engineering (ICETITE)"
+],
+[
+false,
+2010,
+26,
+"Writer Identification for Handwritten Telugu Documents Using Directional Morphological Features",
+"https://doi.org/10.1109/icfhr.2010.108",
+"International Conference on Frontiers in Handwriting Recognition"
+],
+[
+false,
+2018,
+3,
+"A Robust Zonal Fractal Dimension Method for the Recognition of Handwritten Telugu Digits",
+"https://doi.org/10.5815/ijigsp.2018.09.06",
+"International Journal of Image Graphics and Signal Processing"
+],
+[
+false,
+2006,
+103,
+"Online Handwritten Character Recognition of Devanagari and Telugu Characters using Support Vector Machines",
+"https://openalex.org/W1566222897",
+"HAL"
+],
+[
+false,
+2017,
+3,
+"Glyph Segmentation for Offline Handwritten Telugu Characters",
+"https://doi.org/10.1007/978-981-10-3223-3_21",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2025,
+0,
+"Enhancing Handwritten Telugu Text Detection: An Application of ResNet Models",
+"https://doi.org/10.1109/incowoco68239.2025.11407273",
+"IEEE International Conference for Women in Computing (InCoWoCo)"
+],
+[
+false,
+2021,
+4,
+"CNN Architectures to Recognize Handwritten Telugu Characters",
+"https://doi.org/10.1007/978-981-16-0878-0_23",
+"Smart innovation, systems and technologies"
+],
+[
+true,
+2019,
+2,
+"Offline Handwritten Telugu Character Dataset and Recognition",
+"https://doi.org/10.1109/indicon47234.2019.9028977",
+"IEEE India Conference"
+],
+[
+false,
+2025,
+0,
+"Handwritten Recognition of Telugu Characters Using Various Pretrained Convolutional Neural Networks",
+"https://doi.org/10.38094/jastt62267",
+"Journal of Applied Science and Technology Trends"
+],
+[
+false,
+2024,
+3,
+"Handwritten Telugu Character Recognition Using Machine Learning",
+"https://doi.org/10.1109/icdcot61034.2024.10515646",
+"International Conference on Distributed Computing and Optimization Techniques (ICDCOT)"
+],
+[
+false,
+2022,
+9,
+"A CNN based Approach for Handwritten Character Identification of Telugu Guninthalu using Various Optimizers",
+"https://doi.org/10.14569/ijacsa.2022.0130482",
+"International Journal of Advanced Computer Science and Applications"
+],
+[
+false,
+2007,
+49,
+"Elastic Matching of Online Handwritten Tamil and Telugu Scripts Using Local Features",
+"https://doi.org/10.1109/icdar.2007.4377071",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2008,
+40,
+"Neural network based handwritten numeral recognition of Kannada and Telugu scripts",
+"https://doi.org/10.1109/tencon.2008.4766450",
+"IEEE Region 10 Conference (TENCON)"
+],
+[
+false,
+2021,
+55,
+"Machine Learning Based Online Handwritten Telugu Letters Recognition for Different Domains",
+"https://doi.org/10.1007/978-3-030-76653-5_12",
+"Intelligent systems reference library"
+],
+[
+false,
+2016,
+4,
+"Glyph-based recognition of offline handwritten Telugu characters: GBRoOHTC",
+"https://doi.org/10.1109/iccic.2016.7919567",
+"IEEE International Conference on Computational Intelligence and Computing Research (ICCIC)"
+],
+[
+false,
+2016,
+1,
+"A Method of Baseline Correction for Offline Handwritten Telugu Text Lines",
+"https://doi.org/10.1007/978-81-322-2755-7_29",
+"Advances in intelligent systems and computing"
+],
+[
+true,
+2022,
+2,
+"UHTelHwCC: A Dataset for Telugu Off-line Handwritten Character Recognition",
+"https://doi.org/10.1007/978-3-031-07005-1_22",
+"Communications in computer and information science"
+],
+[
+false,
+2017,
+0,
+"Preprocessing of online handwritten Telugu character recognition",
+"https://doi.org/10.21833/ijaas.2017.07.025",
+"International Journal of ADVANCED AND APPLIED SCIENCES"
+],
+[
+false,
+2024,
+0,
+"Hybrid Approach for Recognition of Isolated Handwritten Fraction Notations in Telugu Script",
+"https://doi.org/10.5120/ijca2024923600",
+"International Journal of Computer Applications"
+],
+[
+false,
+2019,
+3,
+"RECOGNITION OF ONLINE HANDWRITTEN TELUGU LETTERS FOR DIFFERENT DOMAINS AND ORGANIZATIONS",
+"https://openalex.org/W2997352267",
+"Journal of Critical Reviews"
+],
+[
+false,
+2011,
+0,
+"Some studies on recognition of handwritten Telugu characters",
+"https://openalex.org/W2096442940",
+"Shodhganga"
+],
+[
+false,
+2023,
+0,
+"HANDWRITTEN TELUGU COMPOUND CHARACTER PREDICTION USING CONVOLUTIONAL NEURAL NETWORK",
+"https://doi.org/10.55041/ijsrem18047",
+"INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT"
+],
+[
+false,
+2014,
+0,
+"Authentication Based On Handwritten Telugu Character Recognition By Integrating Multiple Contexts",
+"https://doi.org/10.26634/jpr.1.3.3213",
+"i-manager’s Journal on Pattern Recognition"
+],
+[
+false,
+2010,
+19,
+"Kannada, Telugu and Devanagari Handwritten Numeral Recognition with Probabilistic Neural Network: A Novel Approach",
+"https://openalex.org/W1559276448",
+"International Journal of Computer Applications"
+],
+[
+false,
+2023,
+4,
+"A Novel Approach to Recognize Handwritten Telugu Words Using Character Level CNN",
+"https://doi.org/10.1109/incet57972.2023.10170305",
+"International Conference for Emerging Technology (INCET)"
+],
+[
+false,
+2013,
+23,
+"An efficient multiclassifier system based on convolutional neural network for offline handwritten Telugu character recognition",
+"https://doi.org/10.1109/ncc.2013.6488008",
+"National Conference on Communications"
+],
+[
+false,
+2019,
+1,
+"Prototype Selection of Online Handwritten Telugu Characters Recognition Using Voronoi Tessellation",
+"https://doi.org/10.1007/978-981-13-8676-3_25",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2011,
+20,
+"\"Kannada, Telugu and Devanagari Handwritten Numeral Recognition with Probabilistic Neural Network: A Script Independent Approach\"",
+"https://doi.org/10.5120/3134-4319",
+"International Journal of Computer Applications"
+],
+[
+false,
+2018,
+11,
+"A Deep Learning Approach to Recognize Handwritten Telugu Character Using Convolution Neural Networks",
+"https://openalex.org/W3121606594",
+"SSRN Electronic Journal"
+],
+[
+false,
+2011,
+12,
+"A SCRIPT INDEPENDENT APPROACH FOR HANDWRITTEN BILINGUAL KANNADA AND TELUGU DIGITS RECOGNITION",
+"https://doi.org/10.9735/0975-2927.3.3.155-159",
+"International Journal of Machine Intelligence"
+],
+[
+false,
+2025,
+5,
+"TeluguScriptify: A Custom Deep Learning Model for Handwritten Telugu Text Recognition and Tool Development",
+"https://doi.org/10.1007/s42979-025-03677-z",
+"SN Computer Science"
+],
+[
+false,
+2024,
+0,
+"Unicode-Powered Handwritten Telugu-to-English Character Recognition and Translation System using Deep Learning",
+"https://openalex.org/W7218133120",
+"International Journal of Intelligent Systems and Applications in Engineering"
+],
+[
+false,
+2025,
+0,
+"Automated LSTM Based Deep Learning Model for Handwritten Telugu Answer Script Analysis",
+"https://doi.org/10.52783/cana.v32.3796",
+"Communications on Applied Nonlinear Analysis"
+],
+[
+false,
+2018,
+2,
+"A novel method for segmenting and straightening of text lines in handwritten Telugu documents based on smearing and regression approach",
+"https://doi.org/10.14419/ijet.v7i3.13286",
+"International Journal of Engineering & Technology"
+],
+[
+false,
+2025,
+0,
+"Handwritten Telugu two-digit recognition and novel computational analysis of the ancient fractional notations",
+"https://doi.org/10.1201/9781003635680-63",
+"CRC Press eBooks"
+],
+[
+false,
+2022,
+6,
+"Handwritten Telugu Vowel Character Classification Using Modified 25-Layer AlexNET With Transfer Learning",
+"https://doi.org/10.1109/smartgencon56628.2022.10084300",
+"International Conference on Smart Generation Computing, Communication and Networking (SMART GENCON)"
+],
+[
+false,
+2022,
+1,
+"Recognition of online handwritten Telugu stroke by detected dominant points using curvature estimation",
+"https://doi.org/10.1504/ijdats.2022.124754",
+"International Journal of Data Analysis Techniques and Strategies"
+],
+[
+false,
+2020,
+0,
+"Online Handwritten Telugu Stroke Recognition using Direction Operator for Feature Extraction",
+"https://doi.org/10.61841/gtp8s419",
+"International Journal of Psychosocial Rehabilitation"
+],
+[
+false,
+2024,
+0,
+"Performance Comparison of Online Handwritten Telugu Character Recognition Using Various Local and Global Features",
+"https://doi.org/10.1142/s0219877024400029",
+"International Journal of Innovation and Technology Management"
+],
+[
+false,
+2016,
+2,
+"A Comparative Study on Efficiency of Classification Techniques with Zone Level Gabor Features towards Handwritten Telugu Character Recognition",
+"https://doi.org/10.5120/ijca2016910991",
+"International Journal of Computer Applications"
+],
+[
+false,
+2016,
+3,
+"An Unsupervised Classification of Printed and Handwritten Telugu Words in Pre-printed Documents Using Text Discrimination Coefficient",
+"https://doi.org/10.1007/978-981-10-2471-9_67",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2023,
+6,
+"Novel Heuristic Recurrent Neural Network Framework to Handle Automatic Telugu Text Categorization from Handwritten Text Image",
+"https://doi.org/10.17762/ijritcc.v11i4s.6567",
+"International Journal on Recent and Innovation Trends in Computing and Communication"
+],
+[
+false,
+2019,
+0,
+"Learning Enhancement of Online Handwritten Telugu Character Modeling for Various Features Sets",
+"https://doi.org/10.35940/ijeat.a3087.109119",
+"International Journal of Engineering and Advanced Technology"
+],
+[
+false,
+2021,
+4,
+"Online Handwritten Telugu Character Recognition Using Normalized Differential Chain Code Feature",
+"https://doi.org/10.14704/web/v18si04/web18110",
+"Webology"
+],
+[
+false,
+2023,
+4,
+"Handwritten Character Recognition for Telugu Palm Leaf Images Using Convolutional Neural Network",
+"https://doi.org/10.1109/icaecc59324.2023.10560336",
+"International Conference on Advances in Electronics Computers and Communications"
+],
+[
+false,
+2018,
+0,
+"A Robust Method for the Recognition of Handwritten Telugu Vowels and Consonants Using Multi Circular Sub Regions (MCSR) Model",
+"https://openalex.org/W2941019006",
+null
+],
+[
+false,
+2024,
+0,
+"Maqldlht: Design of an Automated Quad Lstm Based Deep Learning Language Processing Model for Handwritten Telugu Answer Book Analysis",
+"https://doi.org/10.2139/ssrn.4914596",
+"SSRN Electronic Journal"
+],
+[
+false,
+2022,
+18,
+"Telugu Optical Character Recognition Using Deep Learning",
+"https://doi.org/10.1109/incet54531.2022.9824278",
+"International Conference for Emerging Technology (INCET)"
+],
+[
+false,
+2024,
+7,
+"Tri-stage offline Telugu character recognition system based on fusion of HOG and ULBP",
+"https://doi.org/10.1016/j.measen.2024.101059",
+"Measurement Sensors"
+],
+[
+false,
+2017,
+8,
+"Text Independent Writer Identification for Telugu Script Using Directional Filter Based Features",
+"https://doi.org/10.1109/icdar.2017.330",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+1995,
+48,
+"RECOGNITION OF TELUGU CHARACTERS USING NEURAL NETWORKS",
+"https://doi.org/10.1142/s0129065795000238",
+"International Journal of Neural Systems"
+],
+[
+false,
+2007,
+183,
+"Handwritten Numeral Recognition of Six Popular Indian Scripts",
+"https://doi.org/10.1109/icdar.2007.4377015",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2007,
+58,
+"HMM-Based Online Handwriting Recognition System for Telugu Symbols",
+"https://doi.org/10.1109/icdar.2007.4378676",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2007,
+31,
+"Modular Approach to Recognition of Strokes in Telugu Script",
+"https://doi.org/10.1109/icdar.2007.4378760",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2019,
+0,
+"Telugu Character Recognition using Adaptive Fuzzy Membership Functions With Adaptive Genetic Algorithm Based Techniques",
+"https://doi.org/10.35940/ijrte.c4973.098319",
+"International Journal of Recent Technology and Engineering (IJRTE)"
+],
+[
+false,
+2026,
+0,
+"Designing Channel Attention Guided Stacking-Based Contextual Graph CNN For Telugu Text Categorization And Recognition With Character Segmentation Thro",
+"https://doi.org/10.51483/ijaiml.6.7s.2026.282-299",
+"International Journal of Artificial Intelligence and Machine Learning"
+],
+[
+false,
+2026,
+0,
+"CALLIGRAPHY IDENTIFICATION OF MULTISCRIPT TELUGU DOCUMENTS",
+"https://openalex.org/W7218008754",
+"International Journal of Data Science and IoT Management System"
+],
+[
+false,
+2019,
+15,
+"Telugu and Hindi Script Recognition using Deep learning Techniques",
+"https://doi.org/10.35940/ijitee.k1755.0981119",
+"International Journal of Innovative Technology and Exploring Engineering"
+],
+[
+false,
+2017,
+0,
+"PERFORMANCE OF FITNESS MEASURES TO RECOGNIZE TELUGU CHARACTERS",
+"https://doi.org/10.26483/ijarcs.v8i7.4280",
+"International Journal of Advanced Research in Computer Science"
+],
+[
+false,
+2024,
+0,
+"Isolated Telugu Language Character Recognition Using Deep Learning",
+"https://doi.org/10.1007/978-981-99-2832-3_46",
+"Advanced technologies and societal change"
+],
+[
+false,
+2018,
+37,
+"Towards Spotting and Recognition of Handwritten Words in Indic Scripts",
+"https://doi.org/10.1109/icfhr-2018.2018.00015",
+"International Conference on Frontiers in Handwriting Recognition"
+],
+[
+false,
+2026,
+0,
+"A Hybrid Deep Learning and Generative AI Framework for Knowledge‐Aware Evaluation of Handwritten Indic Scripts",
+"https://doi.org/10.1111/coin.70304",
+"Computational Intelligence"
+],
+[
+false,
+2015,
+21,
+"Analysis of Telugu Palm Leaf Character Recognition Using 3D Feature",
+"https://doi.org/10.1109/cine.2015.17",
+"International Conference on Computational Intelligence and Networks (CINE)"
+],
+[
+false,
+2008,
+29,
+"Handwritten Character Recognition of Popular South Indian Scripts",
+"https://doi.org/10.1007/978-3-540-78199-8_15",
+"Springer eBooks"
+],
+[
+false,
+2021,
+5,
+"Performance Analysis of Telugu Characters Using Deep Learning Networks",
+"https://doi.org/10.1007/978-981-15-9019-1_28",
+"Lecture notes in electrical engineering"
+],
+[
+true,
+2021,
+42,
+"iiit-indic-hw-words: A Dataset for Indic Handwritten Text Recognition",
+"https://doi.org/10.1007/978-3-030-86337-1_30",
+"Lecture notes in computer science"
+],
+[
+false,
+2024,
+1,
+"Enhancing the Recognition of Hand Written Telugu Characters: Natural Language Processing and Machine Learning Approach",
+"https://doi.org/10.1109/inc460750.2024.10649114",
+"IEEE International Conference on Contemporary Computing and Communications (InC4)"
+],
+[
+true,
+2009,
+7,
+"XML standard for Indic online handwritten database",
+"https://doi.org/10.1145/1577802.1577823",
+"International Workshop on Multilingual OCR (MOCR)"
+],
+[
+true,
+2017,
+95,
+"PHDIndic_11: page-level handwritten document image dataset of 11 official Indic scripts for script identification",
+"https://doi.org/10.1007/s11042-017-4373-y",
+"Multimedia Tools and Applications"
+],
+[
+false,
+2016,
+26,
+"A novel 3D approach to recognize Telugu palm leaf text",
+"https://doi.org/10.1016/j.jestch.2016.06.006",
+"Engineering Science and Technology an International Journal"
+],
+[
+false,
+2025,
+6,
+"Enhancing Accuracy in Indic Handwritten Text Recognition",
+"https://doi.org/10.1007/978-3-031-93688-3_17",
+"Communications in computer and information science"
+],
+[
+false,
+2016,
+14,
+"Recognition of Handwritten Indic Script Numerals Using Mojette Transform",
+"https://doi.org/10.1007/978-981-10-2035-3_47",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2020,
+42,
+"Offline recognition of handwritten Indic scripts: A state-of-the-art survey and future perspectives",
+"https://doi.org/10.1016/j.cosrev.2020.100302",
+"Computer Science Review"
+],
+[
+true,
+2024,
+1,
+"Unconstrained Camera Captured Indic Offline Handwritten Dataset",
+"https://doi.org/10.1007/978-3-031-78495-8_21",
+"Lecture notes in computer science"
+],
+[
+false,
+2015,
+20,
+"Generation of synthetic training data for handwritten Indic script recognition",
+"https://doi.org/10.1109/icdar.2015.7333810",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2013,
+26,
+"Statistical Texture Features based Handwritten and Printed Text Classification in South Indian Documents",
+"https://doi.org/10.48550/arxiv.1303.3087",
+"arXiv (Cornell University)"
+],
+[
+false,
+2026,
+0,
+"SECURE AI - BASED HANDWRITTEN TEXT RECOGNITION FOR INDIAN SCRIPTS",
+"https://doi.org/10.56975/ijedr.v14i3.309130",
+"International Journal of Engineering Development and Research"
+],
+[
+false,
+2019,
+2,
+"Indic script identification from handwritten document images",
+"https://doi.org/10.1504/ijista.2019.099341",
+"International Journal of Intelligent Systems Technologies and Applications"
+],
+[
+false,
+2018,
+4,
+"A New Algorithm for Skew Detection of Telugu Language Document based on Principle-axis Farthest Pairs Quadrilateral (PFPQ)",
+"https://doi.org/10.5815/ijigsp.2018.03.06",
+"International Journal of Image Graphics and Signal Processing"
+],
+[
+false,
+2017,
+5,
+"A Two‐Stage Approach to Handwritten Indic Script Identification",
+"https://doi.org/10.1002/9781119242963.ch3",
+"Wiley eBooks"
+],
+[
+false,
+2019,
+24,
+"A Study on the Effect of CNN-Based Transfer Learning on Handwritten Indic and Mixed Numeral Recognition",
+"https://doi.org/10.1007/978-981-13-9361-7_4",
+"Communications in computer and information science"
+],
+[
+false,
+2021,
+3,
+"Comparative Study of Handwritten Character Recognition System for Indian Languages",
+"https://doi.org/10.1007/978-981-16-4177-0_78",
+"Smart innovation, systems and technologies"
+],
+[
+false,
+2017,
+3,
+"Statistical Textural Features for Text-Line Level Handwritten Indic Script Identification",
+"https://doi.org/10.1007/978-981-10-3391-9_9",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2010,
+38,
+"A Hybrid Model for Recognition of Online Handwriting in Indian Scripts",
+"https://doi.org/10.1109/icfhr.2010.74",
+"International Conference on Frontiers in Handwriting Recognition"
+],
+[
+true,
+2010,
+49,
+"On-line Handwriting Recognition of Indian Scripts - The First Benchmark",
+"https://doi.org/10.1109/icfhr.2010.39",
+"International Conference on Frontiers in Handwriting Recognition"
+],
+[
+false,
+2022,
+1,
+"A Survey of Methods and Techniques in Offline Telugu Character Segmentation and Recognition",
+"https://doi.org/10.1007/978-981-19-3571-8_58",
+"Smart innovation, systems and technologies"
+],
+[
+false,
+2020,
+40,
+"Online handwriting recognition systems for Indic and non-Indic scripts: a review",
+"https://doi.org/10.1007/s10462-020-09886-7",
+"Artificial Intelligence Review"
+],
+[
+false,
+2021,
+0,
+"Recognition of Offline Hand Written Telugu Script using Deep Learning",
+"https://doi.org/10.5281/zenodo.21687673",
+"Zenodo (CERN European Organization for Nuclear Research)"
+],
+[
+true,
+2004,
+19,
+"Experiences in Collection of Handwriting Data for Online Handwriting Recognition in Indic Scripts",
+"https://doi.org/10.63317/58utgfkytti7",
+"Language Resources and Evaluation Conference (LREC)"
+],
+[
+false,
+2023,
+18,
+"Indic script family and its offline handwriting recognition for characters/digits and words: a comprehensive survey",
+"https://doi.org/10.1007/s10462-023-10597-y",
+"Artificial Intelligence Review"
+],
+[
+false,
+2016,
+0,
+"HMM Based Text-to-Speech Synthesis for Telugu",
+"https://openalex.org/W2615042318",
+"Research Archive of Indian Institute of Technology Hyderabad (Indian Institute of Technology Hyderabad)"
+],
+[
+false,
+2022,
+1,
+"Puzzle optimization algorithm with capsule networks based Telugu character recognition model",
+"https://doi.org/10.11591/ijeecs.v27.i3.pp1681-1688",
+"Indonesian Journal of Electrical Engineering and Computer Science"
+],
+[
+false,
+2021,
+15,
+"A Thresholded Gabor-CNN Based Writer Identification System for Indic Scripts",
+"https://doi.org/10.1109/access.2021.3114799",
+"IEEE Access"
+],
+[
+false,
+2017,
+3,
+"Online Handwritten Text Recognition for Indian Scripts",
+"https://doi.org/10.9790/4200-0704013950",
+"IOSR Journal of VLSI and Signal processing"
+],
+[
+false,
+2020,
+4,
+"A Survey on Writer Identification System for Indic Scripts",
+"https://doi.org/10.2139/ssrn.3538594",
+"SSRN Electronic Journal"
+],
+[
+false,
+2020,
+0,
+"STUDY ON CROSS LINGUISTIC FEATURE WITHIN DRAVIDIAN AND ENGLISH SCRIPT TO ESTABLISH THE SOURCE OF QUESTIONED DOCUMENT",
+"https://doi.org/10.5281/zenodo.5807623",
+"Zenodo (CERN European Organization for Nuclear Research)"
+],
+[
+false,
+2018,
+43,
+"Writer Identification System for Indic and Non-Indic Scripts: State-of-the-Art Survey",
+"https://doi.org/10.1007/s11831-018-9278-z",
+"Archives of Computational Methods in Engineering"
+],
+[
+false,
+2008,
+26,
+"EFFICIENT ZONE BASED FEATURE EXTRATION ALGORITHM FOR HANDWRITTEN NUMERAL RECOGNITION OF FOUR POPULAR SOUTH INDIAN SCRIPTS",
+"https://openalex.org/W1567187141",
+null
+],
+[
+false,
+2009,
+29,
+"HANDWRITTEN NUMERAL/MIXED NUMERALS RECOGNITION OF SOUTH-INDIAN SCRIPTS: THE ZONE- BASED FEATURE EXTRACTION METHOD",
+"https://openalex.org/W318871428",
+null
+],
+[
+false,
+2010,
+2,
+"The Zone-Based Projection Distance Feature Extraction Method for Handwritten Numeral/Mixed Numerals Recognition of Indian Scripts",
+"https://doi.org/10.1109/icfhr.2010.101",
+"International Conference on Frontiers in Handwriting Recognition"
+],
+[
+false,
+2019,
+1,
+"A Survey on Offline Handwritten Text Recognition of Popular Indian Scripts",
+"https://doi.org/10.26438/ijcse/v7i7.138149",
+"International Journal of Computer Sciences and Engineering"
+],
+[
+false,
+2018,
+34,
+"Cross-language framework for word recognition and spotting of Indic scripts",
+"https://doi.org/10.1016/j.patcog.2018.01.034",
+"Pattern Recognition"
+],
+[
+true,
+2026,
+0,
+"Sapta Lipi HCR : Handwritten Character Dataset for Seven Indic Scripts",
+"https://doi.org/10.17632/r5vjyykm3x",
+"Mendeley Data"
+],
+[
+false,
+2024,
+3,
+"An Effective Handwritten Character Recognition Framework for South Indian Languages Using Adaptive Deep Learning Network",
+"https://doi.org/10.1142/s0219467827500082",
+"International Journal of Image and Graphics"
+],
+[
+false,
+2018,
+28,
+"Handwritten Indic Character Recognition using Capsule Networks",
+"https://doi.org/10.1109/aspcon.2018.8748550",
+"IEEE Applied Signal Processing Conference (ASPCON)"
+],
+[
+false,
+2023,
+6,
+"A Comparative Analysis And Classification Of Telugu Characters Extracted From Palm Leaves",
+"https://doi.org/10.1109/icaecc59324.2023.10560237",
+"International Conference on Advances in Electronics Computers and Communications"
+],
+[
+false,
+2019,
+1,
+"Augmentation of Local, Global Feature Analysis for online Character Recognition System for Telugu Language using Feed Forward Neural Networks (FFNN)",
+"https://doi.org/10.35940/ijitee.i8099.078919",
+"International Journal of Innovative Technology and Exploring Engineering"
+],
+[
+false,
+2015,
+11,
+"A Survey on Handwritten Character Recognition Techniques for Various Indian Languages",
+"https://doi.org/10.5120/20114-2159",
+"International Journal of Computer Applications"
+],
+[
+false,
+2021,
+35,
+"Deep Learning for Word-Level Handwritten Indic Script Identification",
+"https://doi.org/10.1007/978-981-16-0507-9_42",
+"Communications in computer and information science"
+],
+[
+false,
+2018,
+11,
+"Smart Device Authentication Based on Online Handwritten Script Identification and Word Recognition in Indic Scripts Using Zone-Wise Features",
+"https://doi.org/10.4018/ijismd.2018010102",
+"International Journal of Information System Modeling and Design"
+],
+[
+false,
+2019,
+46,
+"Improved word-level handwritten Indic script identification by integrating small convolutional neural networks",
+"https://doi.org/10.1007/s00521-019-04111-1",
+"Neural Computing and Applications"
+],
+[
+false,
+2023,
+0,
+"A Review of online handwritten character and word recognition of Indian Languages",
+"https://doi.org/10.56726/irjmets45209",
+"International Research Journal of Modernization in Engineering Technology and Science"
+],
+[
+false,
+2018,
+17,
+"A Study of Different Classifier Combination Approaches for Handwritten Indic Script Recognition",
+"https://doi.org/10.3390/jimaging4020039",
+"Journal of Imaging"
+],
+[
+false,
+2019,
+46,
+"Indic handwritten script identification using offline-online multi-modal deep network",
+"https://doi.org/10.1016/j.inffus.2019.10.010",
+"Information Fusion"
+],
+[
+false,
+2015,
+8,
+"A BIDIRECTIONAL TEXT TRANSCRIPTION OF BRAILLE FOR ODIA, HINDI, TELUGU AND ENGLISH VIA IMAGE PROCESSING ON FPGA",
+"https://doi.org/10.15623/ijret.2015.0407078",
+"International Journal of Research in Engineering and Technology"
+],
+[
+false,
+2025,
+7,
+"PLATTER: A Page-Level Handwritten Text Recognition System for Indic Scripts",
+"https://doi.org/10.48550/arxiv.2502.06172",
+"arXiv (Cornell University)"
+],
+[
+false,
+2022,
+6,
+"Enhancing Indic Handwritten Text Recognition Using Global Semantic Information",
+"https://doi.org/10.1007/978-3-031-21648-0_25",
+"Lecture notes in computer science"
+],
+[
+false,
+2018,
+0,
+"A Study of Indian Script Handwritten Characters Using Neural Networks: Exploring a novel MLP neural network approach for handwritten numeral recogniti",
+"https://openalex.org/W7216730569",
+"Journal of Advances and Scholarly Researches in Allied Education"
+],
+[
+false,
+2017,
+0,
+"A TRANSITORY SURVEY OF TOPICAL TRENDS IN INDIC HANDWRITTEN CHARACTERS RECOGNITION",
+"https://doi.org/10.26483/ijarcs.v8i8.4791",
+"International Journal of Advanced Research in Computer Science"
+],
+[
+false,
+2023,
+0,
+"Comparison of Various Algorithms for Handwritten Character Recognition of Indian Languages",
+"https://doi.org/10.22214/ijraset.2023.56079",
+"International Journal for Research in Applied Science and Engineering Technology"
+],
+[
+false,
+2017,
+1,
+"A comparative study of complexity of handwritten Bharati characters with that of major Indian scripts",
+"https://doi.org/10.1109/ijcnn.2017.7966235",
+"International Joint Conference on Neural Networks (IJCNN)"
+],
+[
+false,
+2015,
+7,
+"Convolution Based Technique for Indic Script Identification from Handwritten Document Images",
+"https://doi.org/10.5815/ijigsp.2015.05.06",
+"International Journal of Image Graphics and Signal Processing"
+],
+[
+false,
+2021,
+12,
+"A Hybrid Swarm and Gravitation-based feature selection algorithm for handwritten Indic script classification problem",
+"https://doi.org/10.1007/s40747-020-00237-1",
+"Complex & Intelligent Systems"
+],
+[
+false,
+2016,
+7,
+"An Efficient Framework for 2-Dimensional Gesture Based Telugu Character Recognition",
+"https://doi.org/10.1109/iacc.2016.89",
+"IEEE International Conference on Advanced Computing (IACC)"
+],
+[
+false,
+2014,
+2,
+"Real Time Implementation of Telugu Character Recognition using Raspberry Pi",
+"https://openalex.org/W2189610578",
+null
+],
+[
+false,
+2016,
+0,
+"An Efficient Framework for 2-Dimensional Gesture Based Telugu Character Recognition",
+"https://openalex.org/W2750327084",
+"IEEE Conference Proceedings"
+],
+[
+false,
+2023,
+0,
+"Deep Convolutional Neural Network with a Stochastic Gradient Descent Optimizer (PDCNN-SGD) model for telugu character recognition",
+"https://doi.org/10.26634/jip.10.1.19250",
+"i-manager’s Journal on Image Processing"
+],
+[
+false,
+2011,
+9,
+"Performance Comparison of Radial Basis Function Networks and Probabilistic Neural Networks for Telugu Character Recognition",
+"https://openalex.org/W2980971793",
+"Global Journal of Computer Science and Technology"
+],
+[
+false,
+2017,
+8,
+"Telugu character recognition for degraded palm leaf documents using optimal feature selection techniques - a 3D approach",
+"https://doi.org/10.1504/ijsise.2017.087764",
+"International Journal of Signal and Imaging Systems Engineering"
+],
+[
+false,
+1977,
+53,
+"Recognition of Printed Telugu Characters",
+"https://doi.org/10.1016/0146-664x(77)90028-4",
+"Computer Graphics and Image Processing"
+],
+[
+false,
+1991,
+10,
+"Automatic Generation and Recognition of Telugu Script Characters",
+"https://doi.org/10.1080/03772063.1991.11437004",
+"IETE Journal of Research"
+],
+[
+false,
+2009,
+1,
+"An investigation into Telugu font and character recognition",
+"https://openalex.org/W956263096",
+"INFLIBNET"
+],
+[
+false,
+2015,
+0,
+"Optical character recognition for telugu",
+"https://openalex.org/W2585487109",
+"Shodhganga"
+],
+[
+false,
+1987,
+0,
+"Adaptive statistical recognition of hand-printed Telugu characters",
+"https://openalex.org/W57712609",
+"RIT Scholar Works (Rochester Institute of Technology)"
+],
+[
+false,
+2010,
+0,
+"RECOGNITION OF IMAGES AND PRINTED TELUGU CHARACTERS",
+"https://openalex.org/W2801634414",
+"Shodhganga"
+],
+[
+false,
+2018,
+0,
+"Pattern model for recognition of subset of Telugu characters on palm leaf scribings",
+"https://openalex.org/W3198046940",
+"Shodhganga"
+],
+[
+false,
+2012,
+15,
+"Two Schemas for Online Character Recognition of Telugu Script Based on Support Vector Machines",
+"https://doi.org/10.1109/icfhr.2012.286",
+"International Conference on Frontiers in Handwriting Recognition"
+],
+[
+false,
+2017,
+0,
+"ONLINE TELUGU HAND WRITTEN CHARACTER RECOGNITION: A REVIEW",
+"https://openalex.org/W3198094053",
+"IJCRT - International Journal of Creative Research Thoughts (IJCRT)"
+],
+[
+false,
+2019,
+2,
+"A Convolution Neural Networks Based Character and Word Recognition System for Similar Script Languages Kannada and Telugu",
+"https://doi.org/10.1007/978-3-030-30577-2_26",
+"Lecture notes in electrical engineering"
+],
+[
+false,
+2012,
+15,
+"Isolated Telugu Palm leaf character recognition using Radon Transform — A novel approach",
+"https://doi.org/10.1109/wict.2012.6409183",
+"World Congress on Information and Communication Technologies"
+],
+[
+false,
+2014,
+0,
+"Efficient Recognition of Telugu Characters Based on Critical Points Generated Using Morphological Methods",
+"https://openalex.org/W2182279097",
+null
+],
+[
+false,
+2015,
+0,
+"Segmentation and recognition of touching characters in machine printed Telugu documents using average character widths and central moments features",
+"https://openalex.org/W2296923765",
+"International Journal of Applied Engineering Research"
+],
+[
+false,
+2015,
+0,
+"Multi-font Optical Character Recognition System for Printed Telugu Text",
+"https://openalex.org/W2623412657",
+"International Journal of Modern Trends in Engineering and Research"
+],
+[
+false,
+2005,
+27,
+"Localization, extraction and recognition of text in Telugu document images",
+"https://doi.org/10.1109/icdar.2003.1227846",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2002,
+16,
+"Telugu script recognition-a feature based approach",
+"https://doi.org/10.1109/icdar.1995.599004",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2013,
+4,
+"Printed Telugu Numeral Recognition based on Structural, Skeleton and Water Reservoir Features",
+"https://doi.org/10.24297/ijct.v10i7.7042",
+"INTERNATIONAL JOURNAL OF COMPUTERS & TECHNOLOGY"
+],
+[
+false,
+2020,
+0,
+"A Dynamic Line Segmentation Technique For Extracting Telugu Characters From Document Images",
+"https://openalex.org/W3104356524",
+"Solid State Technology"
+],
+[
+false,
+2014,
+7,
+"A Survey of Feature Extraction and Classification Techniques Used In Character Recognition for Indian Scripts",
+"https://openalex.org/W2183798260",
+null
+],
+[
+false,
+2008,
+0,
+"Combining spatial and transform features for the recognition of middle zone components of Telugu",
+"https://doi.org/10.1109/tencon.2008.4766721",
+"IEEE Region 10 Conference (TENCON)"
+],
+[
+false,
+2026,
+0,
+"Multilingual Self-Supervised Fine-Tuning for Low-Resource Telugu Automatic Speech Recognition",
+"https://doi.org/10.1109/access.2026.3678805",
+"IEEE Access"
+],
+[
+false,
+2026,
+0,
+"Automatic speech recognition for Telugu: a comparative analysis of Wav2Vec 2.0 model variants and hyperparameter tuning",
+"https://doi.org/10.3389/frai.2026.1813668",
+"Frontiers in Artificial Intelligence"
+],
+[
+false,
+2004,
+6,
+"Localization and extraction of text in Telugu document images",
+"https://doi.org/10.1109/tencon.2003.1273279",
+"IEEE Region 10 Conference (TENCON)"
+],
+[
+false,
+2025,
+0,
+"Automatic Speech Recognition for Telugu Language Using Pre-trained Wav2Vec 2.0 Model",
+"https://doi.org/10.1007/978-981-95-3841-6_33",
+"Springer proceedings in mathematics & statistics"
+],
+[
+false,
+2012,
+6,
+"A data acquisition and analysis system for palm leaf documents in Telugu",
+"https://doi.org/10.1145/2432553.2432578",
+"Workshop on Document Analysis and Recognition (DAR)"
+],
+[
+false,
+2019,
+0,
+"Efficient Technique for word identification and recognition in Telugu Documents",
+"https://doi.org/10.35940/ijrte.b3793.078219",
+"International Journal of Recent Technology and Engineering (IJRTE)"
+],
+[
+false,
+2003,
+0,
+"DEVELOPMENT OF AN OPTICAL RECOGNITION SYSTEM FOR PRINTED TELUGU TEXT",
+"https://openalex.org/W2801428854",
+"Shodhganga"
+],
+[
+false,
+2010,
+2,
+"Syllable segmentation of Telugu document images",
+"https://doi.org/10.1109/icsps.2010.5555217",
+"International Conference on Signal Processing Systems (ICSPS)"
+],
+[
+false,
+1949,
+0,
+"Archæological Survey of India. South Indian Inscriptions (Texts). Vol. X. Telugu Inscriptions from the Madras Presidency. Edited by Kalaprapurna J. Ra",
+"https://doi.org/10.1017/s0035869x00103090",
+"Journal of the Royal Asiatic Society"
+],
+[
+false,
+2024,
+0,
+"Enhancing Abstractive Text Summarization using Two-Staged Network for Telugu Language (EATS2N)",
+"https://openalex.org/W7217851159",
+"International Journal of Intelligent Systems and Applications in Engineering"
+],
+[
+false,
+2020,
+3,
+"A Knowledge Based Word Sense Disambiguation in Telugu Language",
+"https://doi.org/10.35940/ijeat.a1911.1010120",
+"International Journal of Engineering and Advanced Technology"
+],
+[
+false,
+2024,
+3,
+"CUET_Binary_Hackers@DravidianLangTech EACL2024: Hate and Offensive Language Detection in Telugu Code-Mixed Text Using Sentence Similarity BERT",
+"https://doi.org/10.18653/v1/2024.dravidianlangtech-1.32",
+"Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech)"
+],
+[
+false,
+2020,
+0,
+"Global Word Sense Disambiguation of Polysemous Words in Telugu Language",
+"https://doi.org/10.35940/ijeat.a1915.1010120",
+"International Journal of Engineering and Advanced Technology"
+],
+[
+false,
+2024,
+0,
+"Sentiment Analysis Framework for Telugu Text Based on Novel Contrived Passive Aggressive with Fuzzy Weighting Classifier (CPSC-FWC)",
+"https://doi.org/10.15622/ia.23.1.2",
+"Informatics and Automation"
+],
+[
+false,
+2026,
+0,
+"AI-Based Intelligent Document Translator And Audio Reader For Telugu Language",
+"https://doi.org/10.63503/acset.978-81-995593-9-4.54",
+"Adroid Conference Series Engineering and Technology"
+],
+[
+false,
+2025,
+0,
+"Bridging Eras: Telugu Literatures Progress from Palm Leaves to Pixels",
+"https://doi.org/10.56975/jnrid.v3i9.701629",
+"JOURNAL OF NOVEL RESEARCH AND INNOVATIVE DEVELOPMENT"
+],
+[
+false,
+2011,
+12,
+"Named Entity Recognition in Telugu language using Language Dependent Features and Rule based Approach",
+"https://doi.org/10.5120/2602-3628",
+"International Journal of Computer Applications"
+],
+[
+false,
+2012,
+1,
+"Substitution Error Analysis for Improving the Word Accuracy in Telugu Language Automatic Speech Recognition System",
+"https://doi.org/10.9790/0661-0340710",
+"IOSR Journal of Computer Engineering"
+],
+[
+false,
+2026,
+0,
+"A comparative analysis of pretrained Wav2Vec XLSR-53 and Whisper-Small models for automatic speech recognition in the Telugu language",
+"https://doi.org/10.3389/frai.2026.1878977",
+"Frontiers in Artificial Intelligence"
+],
+[
+false,
+2019,
+1,
+"Feature Extraction Techniques for Text Recognition of Indian Scripts",
+"https://doi.org/10.22214/ijraset.2019.5549",
+"International Journal for Research in Applied Science and Engineering Technology"
+],
+[
+false,
+2014,
+4,
+"Line-wise Script Segmentation for Indian Language Documents",
+"https://doi.org/10.5120/18943-0411",
+"International Journal of Computer Applications"
+],
+[
+false,
+2024,
+8,
+"Lightweight, Multi-Speaker, Multi-Lingual Indic Text-to-Speech",
+"https://doi.org/10.1109/ojsp.2024.3379092",
+"IEEE Open Journal of Signal Processing"
+],
+[
+true,
+2023,
+12,
+"IndicSTR12: A Dataset for Indic Scene Text Recognition",
+"https://doi.org/10.1007/978-3-031-41498-5_17",
+"Lecture notes in computer science"
+],
+[
+false,
+2024,
+3,
+"IndicOCR: A Pipeline for Recognizing Printed Documents for Indian Languages",
+"https://doi.org/10.1145/3632410.3632502",
+"Joint International Conference on Data Science & Management of Data (CODS-COMAD)"
+],
+[
+true,
+2026,
+1,
+"Bharat scene text: a novel comprehensive dataset and benchmark for indian language scene text understanding",
+"https://doi.org/10.1007/s10032-026-00583-9",
+"International Journal on Document Analysis and Recognition (IJDAR)"
+],
+[
+false,
+2010,
+1,
+"Multi-Script Line Identification System for Indian Languages",
+"https://openalex.org/W2254789320",
+null
+],
+[
+false,
+2024,
+6,
+"A Hybrid Scene Text Script Identification Network for Regional Indian Languages",
+"https://doi.org/10.1145/3649439",
+"ACM Transactions on Asian and Low-Resource Language Information Processing"
+],
+[
+true,
+2017,
+59,
+"Benchmarking Scene Text Recognition in Devanagari, Telugu and Malayalam",
+"https://doi.org/10.1109/icdar.2017.364",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2022,
+1,
+"A Versatile Scene Text Recognition Approach for Telugu",
+"https://doi.org/10.2139/ssrn.4216201",
+"SSRN Electronic Journal"
+],
+[
+false,
+2024,
+1,
+"Tewodros@DravidianLangTech 2024: Hate Speech Recognition in Telugu Codemixed Text",
+"https://doi.org/10.18653/v1/2024.dravidianlangtech-1.15",
+"Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech)"
+],
+[
+false,
+2018,
+1,
+"Text independent emotion recognition for Telugu speech by using prosodic features",
+"https://doi.org/10.14419/ijet.v7i2.7.10887",
+"International Journal of Engineering & Technology"
+],
+[
+false,
+2016,
+2,
+"On Authorship Attribution of Telugu Text",
+"https://doi.org/10.17485/ijst/2016/v9i35/98735",
+"Indian Journal of Science and Technology"
+],
+[
+false,
+2014,
+0,
+"Minimum data generation for Telugu speech recognition",
+"https://doi.org/10.1007/s10772-014-9262-4",
+"International Journal of Speech Technology"
+],
+[
+false,
+2020,
+0,
+"Online Signature Recognition and Verification in Telugu Script",
+"https://doi.org/10.5281/zenodo.18656355",
+"Zenodo (CERN European Organization for Nuclear Research)"
+],
+[
+false,
+2025,
+3,
+"DNNT (Deep Neural Network for Telugu): a framework for speech recognition of Telugu language with parallel computing approach",
+"https://doi.org/10.1007/s10772-025-10186-0",
+"International Journal of Speech Technology"
+],
+[
+false,
+2017,
+16,
+"DNN-HMM Acoustic Modeling for Large Vocabulary Telugu Speech Recognition",
+"https://doi.org/10.1007/978-3-319-71928-3_19",
+"Lecture notes in computer science"
+],
+[
+false,
+2021,
+3,
+"Telugu Scene Text Detection Using Dense Textbox",
+"https://doi.org/10.1007/978-981-33-6981-8_40",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2019,
+5,
+"Statistical Method for Named Entity Recognition in Telugu, an Indian Language",
+"https://doi.org/10.35940/ijrte.b3500.078219",
+"International Journal of Recent Technology and Engineering (IJRTE)"
+],
+[
+false,
+2012,
+6,
+"Isolated Word Recognition using Morph - Knowledge for Telugu Language",
+"https://openalex.org/W2121492312",
+null
+],
+[
+false,
+2017,
+10,
+"Accent Recognition System Using Deep Belief Networks for Telugu Speech Signals",
+"https://doi.org/10.1007/978-981-10-3153-3_10",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2025,
+0,
+"Test Model for Converting Text or Audio to ISL for Telugu Language",
+"https://doi.org/10.1109/icscc66177.2025.11233311",
+"International Conference on Smart Computing and Communications (ICSCC)"
+],
+[
+false,
+2025,
+0,
+"Sign Language Recognition for Telugu Akshara Mala Using Transfer Learning",
+"https://doi.org/10.1007/978-981-96-4410-0_25",
+"Smart innovation, systems and technologies"
+],
+[
+false,
+2015,
+7,
+"Transcription of Telugu TV news using ASR",
+"https://doi.org/10.1109/icacci.2015.7275832",
+"International Conference on Advances in Computing, Communications and Informatics (ICACCI)"
+],
+[
+false,
+2026,
+0,
+"Enhancement In Telugu Speech-To-Text Transformation With Generative AI And Signal Processing Techniques",
+"https://doi.org/10.29284/64qy1616",
+"International Journal of Advances in Signal and Image Sciences"
+],
+[
+false,
+2011,
+2,
+"Extended Encoding of Telugu Text for Hiding Compatibility",
+"https://doi.org/10.5120/3641-5085",
+"International Journal of Computer Applications"
+],
+[
+true,
+2020,
+4,
+"Unsupervised stemmed text corpus for language modeling and transcription of Telugu broadcast news",
+"https://doi.org/10.1007/s10772-020-09749-0",
+"International Journal of Speech Technology"
+],
+[
+false,
+2019,
+0,
+"Telugu Accent Recognition Using MFCC and GMM",
+"https://doi.org/10.32622/ijrat.72201957",
+"International Journal of Research in Advent Technology"
+],
+[
+false,
+2024,
+8,
+"A survey on NLP tasks, resources and techniques for low-resource Telugu-English code-mixed text",
+"https://doi.org/10.1145/3695766",
+"ACM Transactions on Asian and Low-Resource Language Information Processing"
+],
+[
+true,
+2022,
+5,
+"A Dataset for Detecting Humor in Telugu Social Media Text",
+"https://doi.org/10.18653/v1/2022.dravidianlangtech-1.2",
+"Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech)"
+],
+[
+false,
+2015,
+3,
+"Authorship Attribution based on Data Compression for Telugu Text",
+"https://doi.org/10.5120/19277-0686",
+"International Journal of Computer Applications"
+],
+[
+false,
+2016,
+6,
+"Speech recognition using arithmetic coding and MFCC for Telugu language",
+"https://openalex.org/W2547726687",
+null
+],
+[
+false,
+2024,
+2,
+"Findings of the Shared Task on Hate and Offensive Language Detection in Telugu Codemixed Text (HOLD-Telugu)@DravidianLangTech 2024",
+"https://doi.org/10.18653/v1/2024.dravidianlangtech-1.8",
+"Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech)"
+],
+[
+true,
+2025,
+4,
+"Named Entity Recognition for Telugu and Kannada on Naamapadam Dataset Using Various Machine Learning and Deep Learning Algorithms",
+"https://doi.org/10.1016/j.procs.2025.04.595",
+"Procedia Computer Science"
+],
+[
+false,
+2026,
+0,
+"RegionNormVLM: QLoRA-Enhanced Vision–Language Model with Region Proposals and Indic Normalisation for Telugu Scene Text Captioning",
+"https://doi.org/10.1007/978-3-032-28094-7_79",
+"Lecture notes in networks and systems"
+],
+[
+false,
+2020,
+10,
+"Enhancing the Performance of Telugu Named Entity Recognition Using Gazetteer Features",
+"https://doi.org/10.3390/info11020082",
+"Information"
+],
+[
+false,
+2020,
+37,
+"Identification of regional dialects of Telugu language using text independent speech processing models",
+"https://doi.org/10.1007/s10772-020-09678-y",
+"International Journal of Speech Technology"
+],
+[
+false,
+2024,
+3,
+"Sentiment Analysis of Telugu News Articles Decoding Textual Nuances",
+"https://doi.org/10.1109/ic-etite58242.2024.10493230",
+"International Conference on Emerging Trends in Information Technology and Engineering (ICETITE)"
+],
+[
+false,
+2024,
+5,
+"Sign Language Recognition based on YOLOv5 Algorithm for the Telugu Sign Language",
+"https://doi.org/10.48550/arxiv.2406.10231",
+"arXiv (Cornell University)"
+],
+[
+false,
+2017,
+5,
+"Speech Recognition with Combined MFCC, MODGDF and ZCPA Features Extraction Techniques Using NTN and MNTN Conventional Classifiers for Telugu Language",
+"https://doi.org/10.1007/978-981-10-5699-4_66",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2019,
+1,
+"Telugu based Emotion Recognition System using Hybrid Features",
+"https://doi.org/10.5120/ijca2019918359",
+"International Journal of Computer Applications"
+],
+[
+false,
+2022,
+6,
+"Exploring the Effect of Dialect Mismatched Language Models in Telugu Automatic Speech Recognition",
+"https://doi.org/10.18653/v1/2022.naacl-srw.36",
+"Conference of the North American Chapter of the Association for Computational Linguistics: Student Research Workshop (NAACL SRW)"
+],
+[
+true,
+2021,
+12,
+"Corpus Creation and Language Identification in Low-Resource Code-Mixed Telugu-English Text",
+"https://doi.org/10.26615/978-954-452-072-4_085",
+"International conference Recent advances in natural language processing"
+],
+[
+false,
+2019,
+1,
+"Unsupervised Stemming based Language Model for Telugu Broadcast News Transcription",
+"https://doi.org/10.48550/arxiv.1908.03734",
+"arXiv (Cornell University)"
+],
+[
+false,
+2024,
+4,
+"Scene text recognition: an Indic perspective",
+"https://doi.org/10.1007/s10032-024-00489-4",
+"International Journal on Document Analysis and Recognition (IJDAR)"
+],
+[
+false,
+2021,
+22,
+"Transfer Learning for Scene Text Recognition in Indian Languages",
+"https://doi.org/10.1007/978-3-030-86198-8_14",
+"Lecture notes in computer science"
+],
+[
+false,
+2022,
+0,
+"NLP-Based Conversion of Telugu Scientific Terms in Telugu Medium Textbooks into English",
+"https://doi.org/10.22214/ijraset.2022.46689",
+"International Journal for Research in Applied Science and Engineering Technology"
+],
+[
+false,
+2013,
+16,
+"A Comparative study on Term Weighting Methods for Automated Telugu Text Categorization with Effective Classifiers",
+"https://doi.org/10.5121/ijdkp.2013.3606",
+"International Journal of Data Mining & Knowledge Management Process"
+],
+[
+false,
+2022,
+3,
+"Event Extraction from Telugu-English Code Mixed Social Media Text",
+"https://doi.org/10.1109/icces54183.2022.9835861",
+"International Conference on Communication and Electronics Systems (ICCES)"
+],
+[
+false,
+2019,
+9,
+"Real-time transcription, keyword spotting, archival and retrieval for telugu TV news using ASR",
+"https://doi.org/10.1007/s10772-019-09598-6",
+"International Journal of Speech Technology"
+],
+[
+true,
+2019,
+13,
+"Corpus Creation and Analysis for Named Entity Recognition in Telugu-English Code-Mixed Social Media Data",
+"https://doi.org/10.18653/v1/p19-2025",
+"Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (ACL SRW)"
+],
+[
+false,
+2026,
+0,
+"Language Identification in Transliteration-Based Code-Mixed Text: A Study on Telugu–English Data",
+"https://doi.org/10.26438/ijcse.v14i6.7479",
+"International Journal of Computer Sciences and Engineering"
+],
+[
+false,
+2025,
+0,
+"A Hybrid Feature Selection Method to Detect Sarcasm in Telugu Text Leveraging AdaBoost Classifier.",
+"https://doi.org/10.52783/jisem.v10i38s.6832",
+"Journal of Information Systems Engineering & Management"
+],
+[
+false,
+2024,
+1,
+"Sarcasm Detection in Telugu Language Text Using Distinct Machine Learning Classification Algorithms",
+"https://doi.org/10.5120/ijca2024924040",
+"International Journal of Computer Applications"
+],
+[
+false,
+2025,
+0,
+"Computational Social Linguistics for Telugu Cultural Preservation: Novel Algorithms for Chandassu Metrical Pattern Recognition",
+"https://doi.org/10.48550/arxiv.2510.01233",
+"arXiv (Cornell University)"
+],
+[
+false,
+2026,
+1,
+"Hybrid non-maximum suppression-based Telugu scene text detection",
+"https://doi.org/10.19101/ijatee.2025.121220525",
+"International Journal of Advanced Technology and Engineering Exploration"
+],
+[
+false,
+2014,
+0,
+"PROBLEMS OF TRANSLATING DALIT TEXTS INTO ENGLISH: WITH SPECIAL REFERENCE TO TELUGU NOVEL 'ANTARANIVASANTHAM'",
+"https://openalex.org/W2185628633",
+null
+],
+[
+false,
+2024,
+3,
+"Indic Scene Text on the Roadside",
+"https://doi.org/10.1007/978-3-031-70549-6_16",
+"Lecture notes in computer science"
+],
+[
+false,
+2026,
+0,
+"S2TR: A Squeeze-Excited 2D Transformer Recognizer for Indic Scene Text Recognition",
+"https://doi.org/10.1109/icetci71772.2026.11710630",
+"International Conference on Emerging Techniques in Computational Intelligence (ICETCI)"
+],
+[
+false,
+2024,
+0,
+"Recognition And Classification of Indian Scripts in Natural Scene Images",
+"https://doi.org/10.55041/ijsrem36661",
+"INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT"
+],
+[
+false,
+2023,
+13,
+"Sentiment Analysis of Code-Mixed Telugu-English Data Leveraging Syllable and Word Embeddings",
+"https://doi.org/10.1145/3620670",
+"ACM Transactions on Asian and Low-Resource Language Information Processing"
+],
+[
+false,
+2022,
+10,
+"Improving Scene Text Recognition for Indian Languages with Transfer Learning and Font Diversity",
+"https://doi.org/10.3390/jimaging8040086",
+"Journal of Imaging"
+],
+[
+false,
+2018,
+7,
+"Offline Extraction of Indic Regional Language from Natural Scene Image Using Text Segmentation and Deep Convolutional Sequence",
+"https://doi.org/10.1007/978-981-13-2345-4_5",
+"Springer eBooks"
+],
+[
+false,
+2026,
+1,
+"Integrated framework utilizing scene text detection and recognition techniques for enhancing point of interest extraction from name boards in all Indi",
+"https://doi.org/10.1038/s41598-026-40742-w",
+"Scientific Reports"
+],
+[
+false,
+2023,
+2,
+"Lightweight, Multi-Speaker, Multi-Lingual Indic Text-to-Speech",
+"https://doi.org/10.1109/icassp49357.2023.10433926",
+"IEEE International Conference on Acoustics Speech and Signal Processing"
+],
+[
+false,
+2024,
+3,
+"Navigating Text-to-Image Generative Bias Across Indic Languages",
+"https://doi.org/10.1007/978-3-031-73223-2_4",
+"Lecture notes in computer science"
+],
+[
+false,
+2025,
+2,
+"Enhancing Script Identification in Dravidian Languages using Ensemble of Deep and Texture Features",
+"https://doi.org/10.71426/jcdt.v1.i1.pp50-58",
+"Journal of Computing and Data Technology"
+],
+[
+false,
+2008,
+3,
+"Canonical syllable segmentation of Telugu document images",
+"https://doi.org/10.1109/tencon.2008.4766756",
+"IEEE Region 10 Conference (TENCON)"
+],
+[
+false,
+2014,
+1,
+"Telugu Document Image Segmentation Methods",
+"https://doi.org/10.17812/ijra.1.3(16)2014",
+"International Journal of Research and Applications"
+],
+[
+true,
+2006,
+6,
+"Enabling Search over Large Collections of Telugu Document Images – An Automatic Annotation Based Approach",
+"https://doi.org/10.1007/11949619_75",
+"Lecture notes in computer science"
+],
+[
+false,
+2011,
+3,
+"An Application of Statistical indexing for Searching and Ranking of documents A Case Study on Telugu Script",
+"https://doi.org/10.5120/3368-4651",
+"International Journal of Computer Applications"
+],
+[
+false,
+2025,
+0,
+"Multi-modal document processing for enhanced accessibility: integrating PyMuPDF, gTTS, Google translate, and Sumy for intelligent summarization and Te",
+"https://doi.org/10.1201/9781003685364-68",
+"CRC Press eBooks"
+],
+[
+false,
+2021,
+3,
+"Neural Abstractive Text Summarizer for Telugu Language",
+"https://doi.org/10.48550/arxiv.2101.07120",
+"arXiv (Cornell University)"
+],
+[
+false,
+2012,
+6,
+"Word and Sentence Level Emotion Analyzation in Telugu Blog and News",
+"https://doi.org/10.5121/ijcsea.2012.2317",
+"International Journal of Computer Science Engineering and Applications"
+],
+[
+false,
+2021,
+22,
+"Sentiment Analysis in Code-Mixed Telugu-English Text with Unsupervised Data Normalization",
+"https://doi.org/10.26615/978-954-452-072-4_086",
+"International conference Recent advances in natural language processing"
+],
+[
+false,
+2023,
+3,
+"Democratizing Spiritual Sphere: Radical Bhakti Traditions in the Telugu-Speaking Region in India",
+"https://doi.org/10.26812/caste.v4i2.680",
+"CASTE / A Global Journal on Social Exclusion"
+],
+[
+false,
+2023,
+6,
+"HSFO: Hunter Sail Fish Optimizer enabled deep learning for single document abstractive summarization based on semantic role labelling for Telugu text",
+"https://doi.org/10.21203/rs.3.rs-2889668/v1",
+"Research Square"
+],
+[
+false,
+2022,
+3,
+"Text Summarization on Telugu e-News based on Long-Short Term Memory with Rectified Adam Optimizer",
+"https://doi.org/10.12785/ijcds/110130",
+"International Journal of Computing and Digital Systems"
+],
+[
+false,
+2007,
+69,
+"Multilingual OCR system for South Indian scripts and English documents: An approach based on Fourier transform and principal component analysis",
+"https://doi.org/10.1016/j.engappai.2007.05.009",
+"Engineering Applications of Artificial Intelligence"
+],
+[
+false,
+2025,
+0,
+"LinBGN-Net: A Unified Linguistic Framework for Multi-Task Text Classification in Telugu Using BERT, GCN, and Naive Bayes",
+"https://doi.org/10.30564/fls.v7i7.9470",
+"Forum for Linguistic Studies"
+],
+[
+false,
+2015,
+0,
+"Word-wise Script Identification of South Indian Document Images",
+"https://doi.org/10.17148/ijarcce.2015.48103",
+"IJARCCE"
+],
+[
+false,
+2026,
+0,
+"Emotion and Sentiment Detection in Telugu Text Using Multilingual Transformer Models",
+"https://doi.org/10.1109/ickecs70176.2026.11527911",
+"International Conference on Knowledge Engineering and Communication Systems (ICKECS)"
+],
+[
+false,
+2023,
+11,
+"Extractive Summarization of Telugu Text Using Modified Text Rank and Maximum Marginal Relevance",
+"https://doi.org/10.1145/3600224",
+"ACM Transactions on Asian and Low-Resource Language Information Processing"
+],
+[
+false,
+2026,
+1,
+"IndicDetect: Evaluating Cross-Lingual LLM-Generated Text Detection for Hindi, Telugu, and Tamil",
+"https://doi.org/10.18653/2026.findings-emnlp.885",
+"Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)"
+],
+[
+false,
+2024,
+0,
+"DLRG-DravidianLangTech@EACL2024 : Combating Hate Speech in Telugu Code-mixed Text on Social Media",
+"https://doi.org/10.18653/v1/2024.dravidianlangtech-1.23",
+"Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech)"
+],
+[
+false,
+2024,
+2,
+"IIITDWD_SVC@DravidianLangTech-2024: Breaking Language Barriers; Hate Speech Detection in Telugu-English Code-Mixed Text",
+"https://doi.org/10.18653/v1/2024.dravidianlangtech-1.19",
+"Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech)"
+],
+[
+false,
+2026,
+0,
+"Text Line Extraction for Indic Scripts: A Comprehensive Survey of Recent Indian Research Efforts",
+"https://doi.org/10.1007/978-3-032-19681-1_34",
+"Lecture notes in networks and systems"
+],
+[
+true,
+2018,
+9,
+"BCSAT : A Benchmark Corpus for Sentiment Analysis in Telugu Using Word-level Annotations",
+"https://doi.org/10.18653/v1/p18-3014",
+"Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (ACL SRW)"
+],
+[
+false,
+2012,
+0,
+"Estimation of Word Net-Based Lexical Semantic Similarity Measure for Telugu Documents",
+"https://doi.org/10.9790/0661-0122430",
+"IOSR Journal of Computer Engineering"
+],
+[
+false,
+2023,
+0,
+"Teachers’ experiences of teaching an ancestral language in a multilingual context : the case of Telugu in Mauritius.",
+"https://doi.org/10.29086/10413/23111",
+"ResearchSpace (University of KwaZulu-Natal)"
+],
+[
+false,
+2021,
+25,
+"Motion event descriptions in Swedish, French, Thai and Telugu: a study in post-Talmian motion event typology",
+"https://doi.org/10.1080/03740463.2020.1865692",
+"Acta Linguistica Hafniensia"
+],
+[
+false,
+1976,
+1,
+"A phonetic and phonological study of some characteristic features of Telugu English including reference to the source and target languages.",
+"https://doi.org/10.25501/soas.00028493",
+"SOAS Research Online (SOAS University of London)"
+],
+[
+false,
+2025,
+0,
+"Framing Public Health in Digital News: a Sentiment Analysis of Kanti Velugu Coverage in Telugu - Language Online Newspapers",
+"https://doi.org/10.36948/ijfmr.2025.v07i04.51786",
+"International Journal For Multidisciplinary Research"
+],
+[
+false,
+2024,
+1,
+"AUTOMATIC TEXT SUMMARIZATION FOR INDIAN LANGUAGES",
+"https://doi.org/10.59094/emsj.v57i1.83",
+"Everyman s Science"
+],
+[
+false,
+2026,
+0,
+"VaaniCLIP: Cross-Lingual Speech-Text Retrieval for Indic Languages",
+"https://doi.org/10.18653/2026.mrl-1.16",
+"Workshop on Multilingual Representation Learning (MRL)"
+],
+[
+true,
+2024,
+11,
+"Multilingual Text Style Transfer: Datasets & Models for Indian Languages",
+"https://doi.org/10.18653/v1/2024.inlg-main.41",
+"International Conference on Natural Language Generation"
+],
+[
+false,
+2013,
+13,
+"Comparative Study of Text Summarization in Indian Languages",
+"https://doi.org/10.5120/13115-0449",
+"International Journal of Computer Applications"
+],
+[
+true,
+2022,
+153,
+"DravidianCodeMix: sentiment analysis and offensive language identification dataset for Dravidian languages in code-mixed text",
+"https://doi.org/10.1007/s10579-022-09583-7",
+"Language Resources and Evaluation"
+],
+[
+false,
+2021,
+1,
+"Distributed Training of Deep Neural Network for Segmentation-Free Telugu Word Recognition",
+"https://doi.org/10.1007/978-981-33-4046-6_11",
+"Algorithms for intelligent systems"
+],
+[
+false,
+2019,
+1,
+"Robust Algorithm for Telugu Word Image Retrieval and Recognition",
+"https://doi.org/10.26782/jmcms.2019.02.00015",
+"JOURNAL OF MECHANICS OF CONTINUA AND MATHEMATICAL SCIENCES"
+],
+[
+false,
+2016,
+4,
+"Development of word lists in Telugu for assessing speech recognition threshold: alternative forms to existing word lists",
+"https://doi.org/10.18203/issn.2454-5929.ijohns20162181",
+"International Journal of Otorhinolaryngology and Head and Neck Surgery"
+],
+[
+false,
+2020,
+0,
+"Telugu Word Image Recognition and Retrieval using Non-Sub Sampled Contourlet Transform",
+"https://openalex.org/W3042507810",
+null
+],
+[
+false,
+2014,
+0,
+"Substitution Error Analysis for Improving the Word Accuracy in Telugu Language Automatic Speech Recognition System",
+"https://doi.org/10.6084/m9.figshare.1145809",
+"Figshare"
+],
+[
+false,
+2022,
+13,
+"Telugu named entity recognition using bert",
+"https://doi.org/10.1007/s41060-021-00305-w",
+"International Journal of Data Science and Analytics"
+],
+[
+false,
+2012,
+16,
+"Speech Recognition Performance of Adults: A Proposal for a Battery for Telugu",
+"https://doi.org/10.4304/tpls.2.2.193-204",
+"Theory and Practice in Language Studies"
+],
+[
+false,
+2012,
+7,
+"Developing efficient speech recognition system for Telugu letter recognition",
+"https://doi.org/10.1109/iccca.2012.6179184",
+"International Conference on Computing, Communication and Applications (ICCCA)"
+],
+[
+false,
+2010,
+11,
+"NAMED ENTITY RECOGNITION FOR TELUGU USING MAXIMUM ENTROPY MODEL",
+"https://openalex.org/W2184786793",
+null
+],
+[
+false,
+2012,
+7,
+"Error analysis to improve the speech recognition accuracy on Telugu language",
+"https://doi.org/10.1007/s12046-012-0109-x",
+"Sadhana"
+],
+[
+false,
+2015,
+0,
+"Performance Analysis of MLP, Modified ERNN and TDNN on Telugu Command Recognition",
+"https://doi.org/10.7753/ijcatr0406.1010",
+"International Journal of Computer Applications Technology and Research"
+],
+[
+false,
+2017,
+9,
+"Development of equally intelligible Telugu sentence-lists to test speech recognition in noise",
+"https://doi.org/10.1080/14992027.2017.1307530",
+"International Journal of Audiology"
+],
+[
+false,
+2026,
+0,
+"Mother tongue Telugu word history",
+"https://doi.org/10.66483/jsp.2026.001.ch36",
+null
+],
+[
+false,
+2006,
+1,
+"BUILDING LEXICON FOR TELUGU SPEECH RECOGNITION",
+"https://doi.org/10.24297/ijct.v5i1.4381",
+"INTERNATIONAL JOURNAL OF COMPUTERS & TECHNOLOGY"
+],
+[
+false,
+2020,
+33,
+"Word Level Language Identification in English Telugu Code Mixed Data",
+"https://doi.org/10.48550/arxiv.2010.04482",
+"Institutional Repositories DataBase (IRDB)"
+],
+[
+false,
+2017,
+3,
+"Telugu Speech Recognition Using Combined MFCC, MODGDF Feature Extraction Techniques and MLP, TLRN Classifiers",
+"https://doi.org/10.1007/978-981-10-5699-4_65",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2012,
+0,
+"Error Analysis and Improving the Speech Recognition Accuracy on Telugu Language",
+"https://doi.org/10.1007/978-3-642-35615-5_46",
+"Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering"
+],
+[
+false,
+2022,
+0,
+"Phonetic–Acoustic Characteristics of Telugu Lateral Approximants",
+"https://doi.org/10.1007/s00034-021-01949-6",
+"Circuits Systems and Signal Processing"
+],
+[
+false,
+2020,
+0,
+"A KNOWLEDGE BASED APPROACHFOR WORD SENSE DISAMBIGUATION OF TELUGU LANGUAGE",
+"https://doi.org/10.61841/1zpt2h62",
+"International Journal of Psychosocial Rehabilitation"
+],
+[
+false,
+2019,
+0,
+"Word N-Gram Based Advice for Word Sense Disambiguation in Telugu Natural Language Processing",
+"https://doi.org/10.35940/ijitee.f1199.0486s419",
+"International Journal of Innovative Technology and Exploring Engineering"
+],
+[
+false,
+2011,
+0,
+"Analyzing and Correction of Errors to Improve the Speech Recognition Accuracy for Telugu Language",
+"https://openalex.org/W2740949665",
+"CiiT international journal of artificial intelligent systems and machine learning"
+],
+[
+false,
+2014,
+0,
+"Recognition of Isolated Telugu Words with Soft and Hard Sounds using Hidden Markov Models",
+"https://doi.org/10.5120/17257-7603",
+"International Journal of Computer Applications"
+],
+[
+false,
+2020,
+1,
+"Unsupervised Separation of Native and Loanwords for Malayalam and Telugu",
+"https://doi.org/10.48550/arxiv.2002.05527",
+"arXiv (Cornell University)"
+],
+[
+false,
+2025,
+0,
+"Telugu Transcription for YouTube Videos Using LLMS",
+"https://doi.org/10.46632/jdaai/4/1/71",
+"REST Journal on Data Analytics and Artificial Intelligence"
+],
+[
+false,
+2017,
+0,
+"RULE BASED PSEUDO N-GRAM MODEL FOR TELUGU SCRIPT",
+"https://doi.org/10.15623/ijret.2017.0601002",
+"International Journal of Research in Engineering and Technology"
+],
+[
+false,
+2017,
+3,
+"Word spotting techniques for Indian scripts: A survey",
+"https://doi.org/10.1109/ipact.2017.8245062",
+"Innovations in Power and Advanced Computing Technologies (i-PACT)"
+],
+[
+false,
+2023,
+0,
+"Identification and Analysis Of The Existence of Word Stress Variation Between The Pronunciation Of Certain English Words Of Native English Speakers an",
+"https://doi.org/10.47611/jsrhs.v12i3.5060",
+"Journal of Student Research"
+],
+[
+false,
+2026,
+1,
+"Familiar and Common Telugu Trisyllabic Words for Speech Perception Assessment: A Sociolinguistic Perspective",
+"https://doi.org/10.24297/jal.v17i.9831",
+"JOURNAL OF ADVANCES IN LINGUISTICS"
+],
+[
+false,
+0,
+0,
+"A descriptive catalogue of the Telugu manuscripts in the Government Oriental Manuscripts Library, Madras",
+"https://openalex.org/W7145936977",
+"Institutional Repositories DataBase (IRDB)"
+],
+[
+false,
+1932,
+0,
+"An alphabetical index of Telugu manuscripts in the Government Oriental Manuscripts Library, Madras",
+"https://openalex.org/W1998194517",
+null
+],
+[
+false,
+0,
+0,
+"A descriptive catalogue of the Telugu manuscripts in the Government Oriental manuscripts library, Madras /",
+"https://openalex.org/W7204341452",
+"University of Michigan Library Repository"
+],
+[
+false,
+1915,
+0,
+"A descriptive catalogue of the Telugu manuscripts in the Government Oriental Manuscripts Library, Madras",
+"https://openalex.org/W2025970028",
+null
+],
+[
+false,
+2021,
+3,
+"An Effective Slant Detection and Correction Method Based on the Tilted Rectangle Method for Telugu Manuscript Terms",
+"https://doi.org/10.4018/ijitpm.2021100103",
+"International Journal of Information Technology Project Management"
+],
+[
+false,
+2026,
+0,
+"scSE-Augmented SegFormer for Incised Stroke Segmentation in Telugu Palm Leaf Manuscripts",
+"https://doi.org/10.2139/ssrn.6762738",
+"SSRN Electronic Journal"
+],
+[
+false,
+0,
+0,
+"A triennial catalogue of manuscripts collected during the triennium ... for the Government Oriental Manuscripts Library, Madras. Telugu.",
+"https://openalex.org/W7204334717",
+"University of Michigan Library Repository"
+],
+[
+false,
+2001,
+3,
+"South Indian scripts in Sanskrit manuscripts and prints : Grantha Tamil, Malayalam, Telugu, Kannada, Nandinagari",
+"https://openalex.org/W586237208",
+null
+],
+[
+false,
+2002,
+0,
+"Grünendahl, Reinhold, South Indian Scripts in Sanskrit Manuscripts and Prints. Grantha Tamil – Malayalam – Telugu –Kannada – Nandinagari",
+"https://doi.org/10.1163/000000002124994865",
+"Indo-Iranian Journal"
+],
+[
+false,
+2022,
+0,
+"Impact of Writing Tools in the Evolution of Telugu Script",
+"https://doi.org/10.1007/978-3-030-94277-9_29",
+"Lecture notes in networks and systems"
+],
+[
+false,
+2021,
+2,
+"Automated Evaluation of Telugu Text Essays Using Latent Semantic Analysis",
+"https://doi.org/10.17762/turcomat.v12i10.5332",
+"Türk bilgisayar ve matematik eğitimi dergisi"
+],
+[
+false,
+2026,
+0,
+"Linguistic capital, cultural recognition, and educational inclusion: the place of Telangana Telugu in school education",
+"https://doi.org/10.66483/jsp.2026.001.ch29",
+null
+],
+[
+false,
+2019,
+0,
+"Digitizing Penn’s Indic Manuscripts",
+"https://openalex.org/W2982023963",
+"ScholarlyCommons (University of Pennsylvania)"
+],
+[
+false,
+2026,
+0,
+"Exploring Wav2Vec2 XLSR-53 and Whisper-small for Telugu language speech-to-text: a fine-tuning approach",
+"https://doi.org/10.3389/frai.2026.1883049",
+"Frontiers in Artificial Intelligence"
+],
+[
+true,
+2023,
+2,
+"Dravidian Manuscripts as a Part of Indian Collection of the Institute of Oriental Manuscripts of RAS",
+"https://doi.org/10.55512/wmo114798",
+"Written Monuments of the Orient"
+],
+[
+false,
+2026,
+0,
+"Heritage of Indian Script and Knowledge Tradition",
+"https://doi.org/10.48175/ijarsct-36849",
+"International Journal of Advanced Research in Science Communication and Technology"
+],
+[
+false,
+2019,
+38,
+"Indiscapes: Instance Segmentation Networks for Layout Parsing of Historical Indic Manuscripts",
+"https://doi.org/10.1109/icdar.2019.00164",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2021,
+1,
+"Automated Evaluation ofTelugu Text Essays Using Latent Semantic Analysis",
+"https://doi.org/10.17762/turcomat.v12i5.2267",
+"Türk bilgisayar ve matematik eğitimi dergisi"
+],
+[
+false,
+2022,
+8,
+"Data and knowledge-driven approaches for multilingual training to improve the performance of speech recognition systems of Indian languages",
+"https://doi.org/10.48550/arxiv.2201.09494",
+"arXiv (Cornell University)"
+],
+[
+false,
+2020,
+1,
+"The development of typographic forms for the Kannada and Telugu scripts (1801–1900)",
+"https://doi.org/10.48683/1926.00099826",
+"CentAUR (University of Reading)"
+],
+[
+false,
+2024,
+22,
+"Comparative study: enhancing legibility of ancient Indian script images from diverse stone background structures using 34 different pre-processing met",
+"https://doi.org/10.1186/s40494-024-01169-6",
+"Heritage Science"
+],
+[
+true,
+2012,
+2,
+"Digitization of documentary heritage collections in Indic language: Comparative study of five major digital library initiatives in India",
+"https://openalex.org/W235501173",
+"E-LIS Repository (University of Naples Federico II)"
+],
+[
+false,
+2024,
+0,
+"Recent Trends in Text to Speech Synthesis in Context with Indian Languages",
+"https://doi.org/10.1007/978-3-031-75164-6_33",
+"Communications in computer and information science"
+],
+[
+true,
+2025,
+10,
+"MILPaC: A Novel Benchmark for Evaluating Translation of Legal Text to Indian Languages",
+"https://doi.org/10.1145/3748313",
+"ACM Transactions on Asian and Low-Resource Language Information Processing"
+],
+[
+false,
+2025,
+0,
+"LinguAIsts@DravidianLangTech 2025: Abusive Tamil and Malayalam Text targeting Women on Social Media",
+"https://doi.org/10.18653/v1/2025.dravidianlangtech-1.116",
+"Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech)"
+],
+[
+false,
+2025,
+1,
+"LinguAIsts@DravidianLangTech 2025: Abusive Tamil and Malayalam Text targeting Women on Social Media",
+"https://doi.org/10.18653/v1/2025.dravidianlangtech-1.51",
+"Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech)"
+],
+[
+false,
+2025,
+2,
+"Long-Context Non-Factoid Question Answering in Indic Languages",
+"https://doi.org/10.2139/ssrn.5113749",
+"SSRN Electronic Journal"
+],
+[
+false,
+2026,
+0,
+"Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts",
+"https://doi.org/10.48550/arxiv.2609.05661",
+"arXiv (Cornell University)"
+],
+[
+false,
+2014,
+7,
+"Automatic Keyword Extraction from Dravidian Language",
+"https://openalex.org/W2942796020",
+"ePrints@Bangalore University (Bangalore University)"
+],
+[
+false,
+2024,
+0,
+"Bilingual Inscriptions from India: Combining Arabic and Persian with Indic Languages",
+"https://doi.org/10.1515/9783111380544-014",
+"De Gruyter eBooks"
+],
+[
+false,
+2014,
+6,
+"IndoWordnet Visualizer: A Graphical User Interface for Browsing and Exploring Wordnets of Indian Languages",
+"https://doi.org/10.18653/v1/w14-0147",
+"Global WordNet Conference (GWC)"
+],
+[
+false,
+2016,
+1,
+"Writer Recognition for South Indian Languages Using Statistical Feature Extraction and Distance Classifier",
+"https://doi.org/10.5121/ijnlc.2016.5403",
+"International Journal on Natural Language Computing"
+],
+[
+false,
+2013,
+0,
+"Telugu: Script",
+"https://openalex.org/W7133418643",
+"RUNE (Research UNE)"
+],
+[
+false,
+2021,
+3,
+"Text Summarization of Telugu Scripts",
+"https://doi.org/10.1109/i-smac52330.2021.9640729",
+"International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC)"
+],
+[
+false,
+2019,
+3,
+"Root Based Stemmer for Telugu Script",
+"https://doi.org/10.35940/ijeat.f8734.088619",
+"International Journal of Engineering and Advanced Technology"
+],
+[
+false,
+2002,
+14,
+"An Adaptive Character Recognizer for Telugu Scripts Using Multiresolution Analysis, Associative Memory.",
+"https://openalex.org/W218279803",
+"Indian Conference on Computer Vision, Graphics and Image Processing"
+],
+[
+false,
+2007,
+0,
+"Extraction and recognition of middle zone components of telugu script using language model",
+"https://openalex.org/W2788772719",
+"Shodhganga"
+],
+[
+false,
+1984,
+2,
+"Alphanumeric CRT Terminal for Telugu and Hindi Scripts",
+"https://doi.org/10.1080/03772063.1984.11453270",
+"IETE Journal of Research"
+],
+[
+false,
+2004,
+33,
+"Processing phonological information in a semi-syllabic script: Developmental data from Telugu",
+"https://doi.org/10.1023/b:read.0000013830.55257.3a",
+"Reading and Writing"
+],
+[
+false,
+2025,
+0,
+"From Script to Sound: Building an Effective Text-to-Speech System for Telugu Language",
+"https://doi.org/10.1109/asiancon66527.2025.11281221",
+"Asian Conference on Innovation in Technology (ASIANCON)"
+],
+[
+false,
+2014,
+0,
+"A Novel Way of Identifying Telugu, Tamil and English Scripts by Priority check using Discerning Features",
+"https://doi.org/10.6084/m9.figshare.1227921",
+"Figshare"
+],
+[
+false,
+2026,
+0,
+"FinePDFs audit: complex-script text is often corrupted (text-layer path) or fabricated (rolmOCR path for Tamil, Malayalam, Telugu, Kannada)",
+"https://doi.org/10.5281/zenodo.23432200",
+"Zenodo (CERN European Organization for Nuclear Research)"
+],
+[
+false,
+2026,
+0,
+"ROBUST MULTILINGUAL SENTIMENT CLASSIFICATION FOR LOW-RESOURCE TELUGU AND TELUGU-ENGLISH CODE-MIXED TEXT",
+"https://doi.org/10.5281/zenodo.23942297",
+"Zenodo (CERN European Organization for Nuclear Research)"
+],
+[
+false,
+2008,
+4,
+"Analysis of N-gram model on Telugu document classification",
+"https://doi.org/10.1109/cec.2008.4631231",
+"IEEE Congress on Evolutionary Computation (CEC)"
+],
+[
+false,
+2009,
+1,
+"Analysis of Text Complexity in a Crypto System – A Case Study on Telugu",
+"https://doi.org/10.1007/978-3-642-10847-1_35",
+"Communications in computer and information science"
+],
+[
+false,
+2022,
+1,
+"Characteristics of Telugu in Middle Dravidian Languages",
+"https://doi.org/10.34256/irjt22s52",
+"International Research Journal of Tamil"
+],
+[
+false,
+2009,
+11,
+"Transliteration Based Text Input Methods for Telugu",
+"https://doi.org/10.1007/978-3-642-00831-3_12",
+"Lecture notes in computer science"
+],
+[
+false,
+2025,
+1,
+"Bridging the Gap: Real-Time Telugu and Tamil sign Language Recognition using AI and computer vision",
+"https://doi.org/10.1109/iccrtee64519.2025.11053042",
+"International Conference on Computational Robotics, Testing and Engineering Evaluation (ICCRTEE)"
+],
+[
+false,
+2009,
+1,
+"Approaches of Dimensionality Reduction for Telugu Document Classification",
+"https://doi.org/10.1109/ialp.2009.82",
+"International Conference on Asian Language Processing"
+],
+[
+false,
+2019,
+11,
+"Text Processing of Telugu–English Code Mixed Languages",
+"https://doi.org/10.1007/978-3-030-24322-7_19",
+"Learning and analytics in intelligent systems"
+],
+[
+false,
+2022,
+3,
+"Feature Analysis of Indus Valley and Dravidian Language Scripts with Similarity Matrices",
+"https://doi.org/10.1145/3548785.3548801",
+"International Database Engineering and Applications Symposium (IDEAS)"
+],
+[
+false,
+2020,
+4,
+"Handwritten Digit String Recognition for Indian Scripts",
+"https://doi.org/10.1007/978-3-030-41299-9_21",
+"Lecture notes in computer science"
+],
+[
+false,
+2013,
+3,
+"Text Normalization for Telugu Text-to-Speech Synthesis",
+"https://doi.org/10.24297/ijct.v11i2.1176",
+"INTERNATIONAL JOURNAL OF COMPUTERS & TECHNOLOGY"
+],
+[
+false,
+2023,
+2,
+"Comparative Analysis of Spoken Telugu digits using MFCC and LPCC via Hidden Markov Models",
+"https://doi.org/10.1109/spin57001.2023.10116567",
+"International Conference on Signal Processing and Integrated Networks (SPIN)"
+],
+[
+false,
+2022,
+6,
+"TELUGU ANKELU: A Telugu Spoken Digits Corpora for Mobile Speech Recognition",
+"https://doi.org/10.1109/icprs54038.2022.9854065",
+"International Conference on Pattern Recognition Systems (ICPRS)"
+],
+[
+false,
+2023,
+3,
+"Telugu Spoken Digits Modeling using Convolutional Neural Networks",
+"https://doi.org/10.1109/icprs58416.2023.10178989",
+"International Conference on Pattern Recognition Systems (ICPRS)"
+],
+[
+false,
+2010,
+15,
+"Gender Based Emotion Recognition System for Telugu Rural Dialects Using Hidden Markov Models",
+"https://doi.org/10.48550/arxiv.1006.4548",
+"arXiv (Cornell University)"
+],
+[
+false,
+2008,
+10,
+"Named Entity Recognition in Indian Languages Using Maximum Entropy Approach",
+"https://doi.org/10.1142/s1793840608001913",
+"International Journal of Computer Processing Of Languages"
+],
+[
+false,
+2024,
+0,
+"MUCS@DravidianLangTech-2024: Role of Learning Approaches in Strengthening Hate-Alert Systems for code-mixed text",
+"https://doi.org/10.18653/v1/2024.dravidianlangtech-1.42",
+"Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech)"
+],
+[
+true,
+2026,
+1,
+"PSP: An Interpretable Per-Dimension Accent Benchmark for Indic Text-to-Speech",
+"https://doi.org/10.48550/arxiv.2604.25476",
+"arXiv (Cornell University)"
+],
+[
+false,
+2026,
+0,
+"A Novel Hybrid GRU-LSTM Model for Robust Speech Recognition of Indian Languages in Noisy Environments",
+"https://doi.org/10.21203/rs.3.rs-9454210/v1",
+"Research Square"
+],
+[
+false,
+2016,
+7,
+"DNN-based Speech Synthesis for Indian Languages from ASCII text",
+"https://doi.org/10.21437/ssw.2016-12",
+"ISCA Speech Synthesis Workshop (SSW)"
+],
+[
+false,
+2022,
+6,
+"indic-punct: An automatic punctuation restoration and inverse text normalization framework for Indic languages",
+"https://doi.org/10.48550/arxiv.2203.16825",
+"arXiv (Cornell University)"
+],
+[
+false,
+2025,
+4,
+"SafeSpeech: a three-module pipeline for hate intensity mitigation of social media texts in Indic languages",
+"https://doi.org/10.1007/s13278-024-01393-9",
+"Social Network Analysis and Mining"
+],
+[
+false,
+2026,
+0,
+"Efficiency Measured in English: Tokeniser Coverage Bounds Small Language Models on Indic Scripts",
+"https://doi.org/10.48550/arxiv.2610.24818",
+"arXiv (Cornell University)"
+],
+[
+false,
+2008,
+0,
+"Intelligent Script Identification Systems in the context of indian Languages",
+"https://openalex.org/W1940902384",
+null
+],
+[
+false,
+2014,
+8,
+"A Survey of Named Entity Recognition in Assamese and other Indian Languages",
+"https://doi.org/10.5121/ijnlc.2014.3310",
+"International Journal on Natural Language Computing"
+],
+[
+false,
+2017,
+0,
+"Recognition of South Indian Language Numerals Using Minimum Distance Classifier",
+"https://doi.org/10.19026/rjaset.14.4160",
+"Research Journal of Applied Sciences Engineering and Technology"
+],
+[
+false,
+2009,
+15,
+"Zone Based Hybrid Feature Extraction Algorithm for Handwritten Numeral Recognition of South Indian Scripts",
+"https://doi.org/10.1007/978-3-642-03547-0_14",
+"Communications in computer and information science"
+],
+[
+false,
+2009,
+7,
+"Zone-based hybrid feature extraction algorithm for handwritten numeral recognition of four Indian scripts",
+"https://doi.org/10.1109/icsmc.2009.5346007",
+"Conference proceedings/Conference proceedings - IEEE International Conference on Systems, Man, and Cybernetics"
+],
+[
+false,
+1943,
+3,
+"A Grammar of the oldest Kanarese inscriptions. By A. N. Narasimhia. (University of Mysore Studies in Dravidian Philology, No. 1.) Pp. xxiv + 375. Myso",
+"https://doi.org/10.2307/410325",
+"Language"
+],
+[
+false,
+2026,
+0,
+"SCRIBE: Diagnostic Evaluation and Rich Transcription Models for Indic ASR",
+"https://doi.org/10.21437/interspeech.2026-3436",
+"Interspeech (USB)"
+],
+[
+false,
+2017,
+15,
+"SMPOST: Parts of Speech Tagger for Code-Mixed Indic Social Media Text",
+"https://doi.org/10.48550/arxiv.1702.00167",
+"arXiv (Cornell University)"
+],
+[
+false,
+2021,
+29,
+"\"A Passage to India\": Pre-trained Word Embeddings for Indian Languages",
+"https://doi.org/10.48550/arxiv.2112.13800",
+"arXiv (Cornell University)"
+],
+[
+false,
+2001,
+0,
+"A Dictionary of the Mixed Dialects and Foreign Words Used in Telugu: With an Explanation of the Telugu Alphabet",
+"https://openalex.org/W562959147",
+null
+],
+[
+true,
+2021,
+0,
+"A Novel 3D Hand Gesture Based Telugu Alphabet Dataset Creation for Text Input and Analysis of Hybrid Filtering Technique with Accelerometer Sensor Dat",
+"https://doi.org/10.1007/978-981-33-6912-2_65",
+null
+],
+[
+false,
+2010,
+6,
+"A New Approach to Telugu Text Steganography by Shifting Inherent Vowel Signs",
+"https://openalex.org/W2347363634",
+"CiiT international journal of networking and communication engineering"
+],
+[
+false,
+2017,
+6,
+"Writer Identification in Indic Scripts: A Stroke Distribution Based Approach",
+"https://doi.org/10.1109/acpr.2017.158",
+"Asian Conference on Pattern Recognition"
+],
+[
+false,
+2017,
+8,
+"Development of multilingual phone recognition system for Indian languages",
+"https://doi.org/10.1109/spices.2017.8091271",
+"IEEE International Conference on Signal Processing, Informatics, Communication and Energy Systems (SPICES)"
+],
+[
+false,
+2019,
+8,
+"Development and analysis of multilingual phone recognition systems using Indian languages",
+"https://doi.org/10.1007/s10772-018-09589-z",
+"International Journal of Speech Technology"
+],
+[
+false,
+2020,
+4,
+"Articulatory-feature-based methods for performance improvement of Multilingual Phone Recognition Systems using Indian languages",
+"https://doi.org/10.1007/s12046-020-01428-9",
+"Sadhana"
+],
+[
+false,
+2011,
+0,
+"Approximate String Matching and Applications to Indian Scripts",
+"https://openalex.org/W2280691682",
+"SHAREOK (University of Oklahoma; Oklahoma State University; Central Oklahoma University)"
+],
+[
+false,
+2020,
+5,
+"Multilingual and multimode phone recognition system for Indian languages",
+"https://doi.org/10.1016/j.specom.2020.02.006",
+"Speech Communication"
+],
+[
+false,
+2015,
+0,
+"Effect of Dravidian vernacular, English and Hindi during onscreen reading text: A physiological, subjective and objective evaluation study",
+"https://doi.org/10.16910/jemr.8.2.4",
+"Journal of Eye Movement Research"
+],
+[
+false,
+2026,
+0,
+"Akshara: Script-Aware, Grapheme-Cluster-Correct Array Operations for Indic Text",
+"https://doi.org/10.5281/zenodo.21697081",
+"Zenodo (CERN European Organization for Nuclear Research)"
+],
+[
+false,
+2017,
+2,
+"An Empirical Study of Effectiveness of Post-Processing in Indic Scripts",
+"https://doi.org/10.1109/icdar.2017.362",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2019,
+5,
+"Recent Trends in Text to Speech Synthesis of Indian Languages",
+"https://doi.org/10.29042/2019-4931-4936",
+"Helix"
+],
+[
+false,
+2025,
+0,
+"Novel Method to Annotate Text Properties for Indic Language Kannada",
+"https://doi.org/10.14445/22315381/ijett-v73i1p126",
+"International Journal of Engineering Trends and Technology"
+],
+[
+false,
+2015,
+0,
+"A Survey of Language – Detection, Font – Detection and Font – Conversion Systems for Indian Languages",
+"https://doi.org/10.5121/ijci.2015.4302",
+"International Journal on Cybernetics & Informatics"
+],
+[
+false,
+2017,
+0,
+"Language Expert Rendering Unicode Text On ASCII Editor For Indian Languages With Language Engin",
+"https://doi.org/10.46243/jstj.2017.v2.i2.114",
+"Journal of Science and Technology"
+],
+[
+true,
+2017,
+3,
+"ON DOCUMENTING LOW RESOURCED INDIAN LANGUAGES INSIGHTS FROM KANAUJI SPEECH CORPUS",
+"https://doi.org/10.1344/dialectologia2017.19.4",
+"Dialectologia"
+],
+[
+false,
+2026,
+0,
+"Performance of Grapheme-Based Tokenizers on Word-level and Natural Language Understanding tasks for Indic Languages",
+"https://doi.org/10.18653/2026.findings-emnlp.1093",
+"Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)"
+],
+[
+false,
+2017,
+1,
+"Multilingual Conversation ASCII to Unicode in Indic Script",
+"https://doi.org/10.5121/csit.2017.70308",
+null
+],
+[
+false,
+2017,
+25,
+"Error Detection and Corrections in Indic OCR Using LSTMs",
+"https://doi.org/10.1109/icdar.2017.13",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2016,
+11,
+"Error Detection in Indic OCRs",
+"https://doi.org/10.1109/das.2016.31",
+"IAPR International Workshop on Document Analysis Systems (DAS)"
+],
+[
+false,
+2017,
+12,
+"A Framework for Document Specific Error Detection and Corrections in Indic OCR",
+"https://doi.org/10.1109/icdar.2017.308",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2009,
+84,
+"Guide to OCR for Indic Scripts",
+"https://doi.org/10.1007/978-1-84800-330-9",
+"Advances in pattern recognition"
+],
+[
+false,
+2016,
+49,
+"Multilingual OCR for Indic Scripts",
+"https://doi.org/10.1109/das.2016.68",
+"IAPR International Workshop on Document Analysis Systems (DAS)"
+],
+[
+false,
+2014,
+27,
+"Towards a Robust OCR System for Indic Scripts",
+"https://doi.org/10.1109/das.2014.74",
+"IAPR International Workshop on Document Analysis Systems (DAS)"
+],
+[
+false,
+2025,
+3,
+"Printed OCR for Extremely Low-Resource Indic Languages",
+"https://doi.org/10.1007/978-3-031-93691-3_9",
+"Communications in computer and information science"
+],
+[
+false,
+2019,
+11,
+"Sub-Word Embeddings for OCR Corrections in Highly Fusional Indic Languages",
+"https://doi.org/10.1109/icdar.2019.00034",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2011,
+0,
+"An OCR System for Printed Indic Scripts",
+"https://doi.org/10.1007/978-3-642-19403-0_58",
+"Communications in computer and information science"
+],
+[
+false,
+2020,
+21,
+"An OCR for Classical Indic Documents Containing Arbitrarily Long Words",
+"https://doi.org/10.1109/cvprw50498.2020.00288",
+"IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+],
+[
+false,
+2022,
+2,
+"A Systematic Review on OCRs for Indic Documents & Manuscripts",
+"https://doi.org/10.1109/icdsaai55433.2022.10028802",
+"International Conference on Data Science, Agents & Artificial Intelligence (ICDSAAI)"
+],
+[
+false,
+2025,
+0,
+"Label-Free Adaptation of Indic Printed OCR",
+"https://doi.org/10.1145/3774521.3774533",
+"Indian Conference on Computer Vision, Graphics and Image Processing"
+],
+[
+false,
+2025,
+0,
+"Integrating OCR, Transliteration, and Translation through AI and Indic Language Processing",
+"https://doi.org/10.13140/rg.2.2.24374.97604",
+null
+],
+[
+false,
+2023,
+1,
+"Handwritten OCR for Indic Scripts: A Comprehensive Overview of Machine Learning and Deep Learning Techniques",
+"https://doi.org/10.17762/ijritcc.v11i9.9230",
+"International Journal on Recent and Innovation Trends in Computing and Communication"
+],
+[
+false,
+2015,
+3,
+"Comparison of Visual and Logical Character Segmentation in Tesseract OCR Language Data for Indic Writing Scripts",
+"https://openalex.org/W2787650158",
+null
+],
+[
+false,
+2025,
+0,
+"SemiHastakshar: Generalizable Indic Handwritten OCR through Semi-Supervised Learning",
+"https://doi.org/10.1145/3774521.3774605",
+"Indian Conference on Computer Vision, Graphics and Image Processing"
+],
+[
+false,
+2018,
+33,
+"Handwritten Indic Script Identification in Multi-Script Document Images: A Survey",
+"https://doi.org/10.1142/s0218001418560128",
+"International Journal of Pattern Recognition and Artificial Intelligence"
+],
+[
+false,
+2004,
+1,
+"DL Architecture for Indic Scripts",
+"https://doi.org/10.1007/978-3-540-28640-0_3",
+"Lecture notes in computer science"
+],
+[
+false,
+2014,
+48,
+"Offline Script Identification from multilingual Indic-script documents: A state-of-the-art",
+"https://doi.org/10.1016/j.cosrev.2014.12.001",
+"Computer Science Review"
+],
+[
+false,
+2025,
+0,
+"Towards Digitizing Filled Indic Handwritten Forms",
+"https://doi.org/10.1007/978-3-031-93694-4_27",
+"Communications in computer and information science"
+],
+[
+false,
+2009,
+1,
+"On OCR of Major Indian Scripts: Bangla and Devanagari",
+"https://doi.org/10.1007/978-1-84800-330-9_2",
+"Advances in pattern recognition"
+],
+[
+false,
+2017,
+108,
+"A multi-scale deep quad tree based feature extraction method for the recognition of isolated handwritten characters of popular indic scripts",
+"https://doi.org/10.1016/j.patcog.2017.05.022",
+"Pattern Recognition"
+],
+[
+false,
+2019,
+11,
+"Efficient Gabor-Based Recognition for Handwritten Arabic-Indic Digits",
+"https://doi.org/10.14569/ijacsa.2019.0100114",
+"International Journal of Advanced Computer Science and Applications"
+],
+[
+false,
+2018,
+21,
+"A comprehensive handwritten Indic script recognition system: a tree-based approach",
+"https://doi.org/10.1007/s12652-018-1052-4",
+"Journal of Ambient Intelligence and Humanized Computing"
+],
+[
+false,
+2021,
+1,
+"A Survey on Line Segmentation Techniques for Indic Scripts",
+"https://doi.org/10.1007/978-981-16-0507-9_43",
+"Communications in computer and information science"
+],
+[
+false,
+2026,
+0,
+"Multilingual Indic Cyberbullying Detection with Text-Meme Fusion, Severity Grading, LIME Explainability, and RealTime Streamlit Deployment",
+"https://doi.org/10.25258/ijddt.16.58s.22",
+"International Journal of Drug Delivery Technology"
+],
+[
+false,
+2009,
+2,
+"Digital Image Enhancement of Indic Historical Manuscripts",
+"https://doi.org/10.1007/978-1-84800-330-9_13",
+"Advances in pattern recognition"
+],
+[
+true,
+2016,
+10,
+"A new dataset of word-level offline handwritten numeral images from four official Indic scripts and its benchmarking using image transform fusion",
+"https://doi.org/10.1504/ijiei.2016.074497",
+"International Journal of Intelligent Engineering Informatics"
+],
+[
+false,
+2015,
+12,
+"Transform based approach for Indic script identification from handwritten document images",
+"https://doi.org/10.1109/icscn.2015.7219852",
+"International Conference on Signal Processing, Communication and Networking (ICSCN)"
+],
+[
+false,
+2015,
+14,
+"Indic script identification from handwritten document images — An unconstrained block-level approach",
+"https://doi.org/10.1109/retis.2015.7232880",
+"IEEE International Conference on Recent Trends in Information Systems"
+],
+[
+false,
+2018,
+1,
+"Automatic Text-Line Level Handwritten Indic Script Recognition: A Two-Stage Framework",
+"https://doi.org/10.1007/978-981-10-7563-6_39",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2018,
+24,
+"Review of Advances in Digital Recognition of Indian Language Manuscripts",
+"https://doi.org/10.32628/ijsrset1841215",
+"International Journal of Scientific Research in Science Engineering and Technology"
+],
+[
+false,
+2016,
+114,
+"HMM-based Indic handwritten word recognition using zone segmentation",
+"https://doi.org/10.1016/j.patcog.2016.04.012",
+"Pattern Recognition"
+],
+[
+false,
+2022,
+5,
+"Machine Learning: A Review on Supervised Classification Algorithms and their Applications to Optical Character Recognition in Indic Scripts",
+"https://doi.org/10.1149/10701.6233ecst",
+"ECS Transactions"
+],
+[
+false,
+2024,
+0,
+"QUENCH: Measuring the gap between Indic and Non-Indic Contextual General Reasoning in LLMs",
+"https://doi.org/10.48550/arxiv.2412.11763",
+"arXiv (Cornell University)"
+],
+[
+false,
+2004,
+11,
+"Tools for enabling digital access to multi-lingual indic documents",
+"https://doi.org/10.1109/dial.2004.1263244",
+"International Conference on Document Image Analysis for Libraries (DIAL)"
+],
+[
+false,
+2015,
+2,
+"Handwritten Indic Script Identification from Document Images—A Statistical Comparison of Different Attribute Selection Techniques in Multi-classifier ",
+"https://doi.org/10.1007/978-81-322-2526-3_51",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2012,
+2,
+"Handwritten Text Image Compression for Indic Script Document",
+"https://doi.org/10.5120/7183-9888",
+"International Journal of Computer Applications"
+],
+[
+false,
+2026,
+0,
+"A Topological Feature-Based Segmentation for Multi-Touched Handwritten Indic Words: A Case Study on Kannada Scripts",
+"https://doi.org/10.1109/access.2026.3740152",
+"IEEE Access"
+],
+[
+false,
+2018,
+15,
+"Synthetic data generation for Indic handwritten text recognition",
+"https://doi.org/10.48550/arxiv.1804.06254",
+"arXiv (Cornell University)"
+],
+[
+false,
+2016,
+8,
+"Line Parameter based Word-Level Indic Script Identification System",
+"https://doi.org/10.4018/ijcvip.2016070102",
+"International Journal of Computer Vision and Image Processing"
+],
+[
+false,
+2023,
+1,
+"Optical Script Identification for multi-lingual Indic-script",
+"https://doi.org/10.48550/arxiv.2308.05780",
+"arXiv (Cornell University)"
+],
+[
+false,
+2017,
+1,
+"Document Image Analysis for a Major Indic Script Bangla - Advancement and Scope",
+"https://doi.org/10.1007/978-981-10-4859-3_12",
+"Communications in computer and information science"
+],
+[
+false,
+2024,
+4,
+"Pralekha: Cross-Lingual Document Alignment for Indic Languages",
+"https://doi.org/10.48550/arxiv.2411.19096",
+"arXiv (Cornell University)"
+],
+[
+false,
+2018,
+5,
+"Handwritten Indic Script Recognition Based on the Dempster–Shafer Theory of Evidence",
+"https://doi.org/10.1515/jisys-2017-0431",
+"Journal of Intelligent Systems"
+],
+[
+false,
+2026,
+0,
+"LittiChoQA: Literary Texts in Indic Languages Chosen for Question Answering",
+"https://doi.org/10.48550/arxiv.2601.03025",
+"arXiv (Cornell University)"
+],
+[
+false,
+2023,
+0,
+"MACHINE LEARNING AND EASYOCR BASED LANGUAGE RECOGNITION FOR HANDWRITTEN INDIC EXTRACTION AND CLASSIFICATION",
+"https://doi.org/10.5281/zenodo.7688717",
+"Zenodo (CERN European Organization for Nuclear Research)"
+],
+[
+false,
+2018,
+7,
+"Recognition of a Medieval Indic-Modi Script using Empirically Determined Heuristics in Hybrid Feature Space",
+"https://doi.org/10.26438/ijcse/v6i2.136142",
+"International Journal of Computer Sciences and Engineering"
+],
+[
+false,
+2026,
+0,
+"Hybrid CNN–Capsule–Transformer Architecture for Indic Handwritten Text Recognition with Cross-Script Evaluation",
+"https://doi.org/10.70917/ijcisim-2026-1860",
+"International Journal of Computer Information Systems and Industrial Management Applications"
+],
+[
+false,
+2011,
+115,
+"HMM-Based Lexicon-Driven and Lexicon-Free Word Recognition for Online Handwritten Indic Scripts",
+"https://doi.org/10.1109/tpami.2011.234",
+"IEEE Transactions on Pattern Analysis and Machine Intelligence"
+],
+[
+false,
+2021,
+0,
+"Handwritten Indic Digit Recognition Using Deep Hybrid Capsule Network",
+"https://doi.org/10.1007/978-981-16-0586-4_43",
+"Algorithms for intelligent systems"
+],
+[
+false,
+2019,
+35,
+"Multiobjective optimization for recognition of isolated handwritten Indic scripts",
+"https://doi.org/10.1016/j.patrec.2019.09.019",
+"Pattern Recognition Letters"
+],
+[
+false,
+2011,
+11,
+"Lexicon-Free, Novel Segmentation of Online Handwritten Indic Words",
+"https://doi.org/10.1109/icdar.2011.237",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2019,
+30,
+"A clustering‐based feature selection framework for handwritten Indic script classification",
+"https://doi.org/10.1111/exsy.12459",
+"Expert Systems"
+],
+[
+false,
+2018,
+16,
+"Extreme learning machine for handwritten Indic script identification in multiscript documents",
+"https://doi.org/10.1117/1.jei.27.5.051214",
+"Journal of Electronic Imaging"
+],
+[
+true,
+2006,
+38,
+"A Complete Handwritten Numeral Database of Bangla – A Major Indic Script",
+"https://openalex.org/W2545058703",
+null
+],
+[
+false,
+2006,
+29,
+"Recognition of Handwritten Indic Script Using Clonal Selection Algorithm",
+"https://doi.org/10.1007/11823940_20",
+"Lecture notes in computer science"
+],
+[
+false,
+2015,
+6,
+"An Approach for Automatic Indic Script Identification from Handwritten Document Images",
+"https://doi.org/10.1007/978-81-322-2653-6_3",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2025,
+0,
+"Writer Identification from Multilingual Handwritten Indic Text Document Images",
+"https://doi.org/10.1145/3774521.3774586",
+"Indian Conference on Computer Vision, Graphics and Image Processing"
+],
+[
+false,
+2019,
+4,
+"Handwritten Indic Script Identification – A Multi-level Approach",
+"https://doi.org/10.1007/978-981-13-8581-0_9",
+"Communications in computer and information science"
+],
+[
+false,
+2021,
+1,
+"Genetic Dropout: An Application to Handwritten Indic Script Classification",
+"https://doi.org/10.1007/978-981-16-4435-1_1",
+"Lecture notes in networks and systems"
+],
+[
+false,
+2022,
+1,
+"Classification of Handwritten Indic Scripts Using Deep Learning",
+"https://doi.org/10.1007/978-981-16-6309-3_47",
+"Lecture notes in networks and systems"
+],
+[
+false,
+2018,
+7,
+"SVM and HMM Classifier Combination Based Approach for Online Handwritten Indic Character Recognition",
+"https://doi.org/10.2174/2213275912666181127124711",
+"Recent Advances in Computer Science and Communications"
+],
+[
+false,
+2019,
+23,
+"Understanding NFC-Net: a deep learning approach to word-level handwritten Indic script recognition",
+"https://doi.org/10.1007/s00521-019-04235-4",
+"Neural Computing and Applications"
+],
+[
+false,
+2025,
+1,
+"A Survey of Handwritten Text Recognition Approaches for Low-Resource Indic Scripts",
+"https://doi.org/10.1109/punecon67554.2025.11378784",
+"IEEE Pune Section International Conference (PuneCon)"
+],
+[
+false,
+2016,
+12,
+"Separating Indic Scripts with matra for Effective Handwritten Script Identification in Multi-Script Documents",
+"https://doi.org/10.1142/s0218001417530032",
+"International Journal of Pattern Recognition and Artificial Intelligence"
+],
+[
+true,
+2015,
+6,
+"A Corpus of Word-Level Offline Handwritten Numeral Images from Official Indic Scripts",
+"https://doi.org/10.1007/978-81-322-2517-1_67",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2015,
+1,
+"HMM based – Character Recognition for offline Handwritten Indic Scripts",
+"https://openalex.org/W1510806376",
+null
+],
+[
+false,
+2024,
+2,
+"Handwritten Indic Script Recognition Using Deep Neural Network",
+"https://doi.org/10.1007/978-981-97-5412-0_41",
+"Lecture notes in networks and systems"
+],
+[
+false,
+2015,
+7,
+"Handwritten word spotting in Indic scripts using foreground and background information",
+"https://doi.org/10.1109/acpr.2015.7486539",
+"Asian Conference on Pattern Recognition"
+],
+[
+false,
+2015,
+0,
+"HMM based – Character Recognition for online Handwritten Indic Scripts",
+"https://doi.org/10.17577/ijertv4is060810",
+"International Journal of Engineering Research and"
+],
+[
+false,
+2014,
+6,
+"Gabor Filter Based Technique for Offline Indic Script Identification from Handwritten Document Images",
+"https://doi.org/10.1109/icdccom.2014.7024723",
+null
+],
+[
+false,
+2022,
+5,
+"Handwritten Indic scripts recognition using neuro-evolutionary adaptive PSO based convolutional neural networks",
+"https://doi.org/10.1007/s12046-021-01787-x",
+"Sadhana"
+],
+[
+false,
+2011,
+2,
+"A survey of handwritten document pre-processing techniques and customizing for Indic script",
+"https://doi.org/10.1145/1980022.1980065",
+"International Conference & Workshop on Emerging Trends in Technology"
+],
+[
+false,
+2017,
+43,
+"Automatic Indic script identification from handwritten documents: page, block, line and word-level approach",
+"https://doi.org/10.1007/s13042-017-0702-8",
+"International Journal of Machine Learning and Cybernetics"
+],
+[
+false,
+2024,
+0,
+"Recognition of Handwritten Indic Digits using a Hybridisation of Capsule Network and ANN features through mRMR Optimisation",
+"https://doi.org/10.1504/ijimr.2024.138979",
+"International Journal of Intelligent Machines and Robotics"
+],
+[
+true,
+2021,
+3,
+"A Case Study on Handwritten Indic Script Classification: Benchmarking of the Results at Page, Block, Text-line, and Word Levels",
+"https://doi.org/10.1145/3476102",
+"ACM Transactions on Asian and Low-Resource Language Information Processing"
+],
+[
+true,
+2013,
+3,
+"Rare handwritten manuscript collection in Indic Languages at Scindia Oriental Research Institute (SORI), India",
+"https://openalex.org/W402608675",
+null
+],
+[
+false,
+2015,
+1,
+"Visual Analytic-Based Technique for Handwritten Indic Script Identification—A Greedy Heuristic Feature Fusion Framework",
+"https://doi.org/10.1007/978-81-322-2695-6_19",
+"Advances in intelligent systems and computing"
+],
+[
+false,
+2018,
+67,
+"Character and numeral recognition for non-Indic and Indic scripts: a survey",
+"https://doi.org/10.1007/s10462-017-9607-x",
+"Artificial Intelligence Review"
+],
+[
+false,
+2018,
+27,
+"A comprehensive survey on word recognition for non-Indic and Indic scripts",
+"https://doi.org/10.1007/s10044-018-0731-2",
+"Pattern Analysis and Applications"
+],
+[
+false,
+2019,
+5,
+"Fusion of Spatio-temporal Information for Indic Word Recognition Combining Online and Offline Text Data",
+"https://doi.org/10.1145/3364533",
+"ACM Transactions on Asian and Low-Resource Language Information Processing"
+],
+[
+false,
+2009,
+31,
+"Online Handwriting Recognition for Indic Scripts",
+"https://doi.org/10.1007/978-1-84800-330-9_11",
+"Advances in pattern recognition"
+],
+[
+false,
+2017,
+1,
+"Recurrent neural networks based Indic word-wise script identification using character-wise training",
+"https://doi.org/10.48550/arxiv.1709.03209",
+"arXiv (Cornell University)"
+],
+[
+false,
+2022,
+2,
+"Classification of North and South Indian Handwritten Scripts using Gabor Wavelet Features",
+"https://doi.org/10.17485/ijst/v15i16.88",
+"Indian Journal of Science and Technology"
+],
+[
+false,
+2019,
+21,
+"A survey of mono- and multi-lingual character recognition using deep and shallow architectures: indic and non-indic scripts",
+"https://doi.org/10.1007/s10462-019-09720-9",
+"Artificial Intelligence Review"
+],
+[
+false,
+2025,
+1,
+"Text Recognition in Indic Scripts using Deep Learning - A Comprehensive Analysis",
+"https://doi.org/10.1109/iciscn64258.2025.10934495",
+"International Conference on Intelligent Systems and Computational Networks (ICISCN)"
+],
+[
+false,
+2023,
+5,
+"Strike off removal in Indic scripts with transfer learning",
+"https://doi.org/10.1007/s00521-023-08433-z",
+"Neural Computing and Applications"
+],
+[
+false,
+2023,
+7,
+"ICDAR 2023 Competition on Indic Handwriting Text Recognition",
+"https://doi.org/10.1007/978-3-031-41679-8_25",
+"Lecture notes in computer science"
+],
+[
+false,
+2022,
+1,
+"One-Shot Approach for Multilingual Classification of Indic Scripts",
+"https://doi.org/10.1109/icitiit54346.2022.9744238",
+"International Conference on Innovative Trends in Information Technology (ICITIIT)"
+],
+[
+false,
+2017,
+25,
+"Indic Manuscript Cultures through the Ages",
+"https://doi.org/10.1515/9783110543100",
+"De Gruyter eBooks"
+],
+[
+false,
+2025,
+0,
+"IndicSTR12: Indic Scene Text Recognition",
+"https://doi.org/10.34740/kaggle/dsv/13849272",
+"Kaggle"
+],
+[
+false,
+2026,
+0,
+"Efficient Multimodal Fine-Tuning for Indic Scene Text Generation Using Region Proposals and Script Normalisation",
+"https://doi.org/10.2139/ssrn.6986037",
+"SSRN Electronic Journal"
+],
+[
+true,
+2022,
+0,
+"How to handle bi/tri-lingual Indic texts in a single image? A new dataset of natural scene and born-digital images",
+"https://doi.org/10.1007/s11042-022-12596-7",
+"Multimedia Tools and Applications"
+],
+[
+false,
+2022,
+0,
+"An Hour-Glass CNN for Language Identification of Indic Texts in Digital Images",
+"https://doi.org/10.1007/978-3-031-11349-9_3",
+"Communications in computer and information science"
+],
+[
+false,
+2024,
+1,
+"ICPR 2024 Competition on Word Image Recognition from Indic Scene Images",
+"https://doi.org/10.1007/978-3-031-80139-6_9",
+"Lecture notes in computer science"
+],
+[
+false,
+2023,
+0,
+"Metafont/MetaPost and a complex Indic script: Malayalam",
+"https://doi.org/10.47397/tb/44-2/tb137radhakrishnan-malayalam",
+"TUGboat"
+],
+[
+false,
+2014,
+23,
+"Birds, Bards, Buffoons and Brahmans : (Re-)Tracing the Indic Roots of some Ancient and Modern Performing Characters from Java and Bali",
+"https://doi.org/10.4000/archipel.555",
+"Archipel"
+],
+[
+false,
+2023,
+10,
+"Validity of Machine Learning in Assessing Large Texts Through Sustainability Indicators",
+"https://doi.org/10.1007/s11205-023-03075-z",
+"Social Indicators Research"
+],
+[
+false,
+2021,
+9,
+"IIITT@Dravidian-CodeMix-FIRE2021: Transliterate or translate? Sentiment analysis of code-mixed text in Dravidian languages",
+"https://doi.org/10.48550/arxiv.2111.07906",
+"arXiv (Cornell University)"
+],
+[
+true,
+2009,
+6,
+"Building Data Sets for Indian Language OCR Research",
+"https://doi.org/10.1007/978-1-84800-330-9_1",
+"Advances in pattern recognition"
+],
+[
+false,
+2002,
+176,
+"An OCR system to read two Indian language scripts: Bangla and Devnagari (Hindi)",
+"https://doi.org/10.1109/icdar.1997.620662",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2025,
+2,
+"A Review of Usage of Tesseract OCR Engine with Vernacular Indian Languages",
+"https://doi.org/10.1007/978-3-031-77081-4_1",
+"Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering"
+],
+[
+false,
+2000,
+29,
+"OCR Error Correction of an Inflectional Indian Language Using Morphological Parsing",
+"https://doi.org/10.6688/jise.2000.16.6.6",
+null
+],
+[
+false,
+1996,
+20,
+"OCR error detection and correction of an inflectional Indian language script",
+"https://doi.org/10.1109/icpr.1996.546947",
+"Proceedings - International Conference on Pattern Recognition/Proceedings/International Conference on Pattern Recognition"
+],
+[
+false,
+2005,
+23,
+"OCR in Indian Scripts: A Survey",
+"https://doi.org/10.1080/02564602.2005.11657904",
+"IETE Technical Review"
+],
+[
+false,
+2009,
+29,
+"A Detailed Study and Analysis of OCR Research in South Indian Scripts",
+"https://doi.org/10.1109/artcom.2009.45",
+"International Conference on Advances in Recent Technologies in Communication and Computing (ARTCom)"
+],
+[
+false,
+2004,
+568,
+"Indian script character recognition: a survey",
+"https://doi.org/10.1016/j.patcog.2004.02.003",
+"Pattern Recognition"
+],
+[
+false,
+2011,
+37,
+"Review on OCR for Handwritten Indian Scripts Character Recognition",
+"https://doi.org/10.1007/978-3-642-24055-3_28",
+"Communications in computer and information science"
+],
+[
+false,
+2003,
+8,
+"Tools for Developing OCRs for Indian Scripts",
+"https://doi.org/10.1109/cvprw.2003.10023",
+"IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+],
+[
+false,
+2011,
+27,
+"Experiences of integration and performance testing of multilingual OCR for printed Indian scripts",
+"https://doi.org/10.1145/2034617.2034628",
+null
+],
+[
+false,
+2021,
+0,
+"An Innovative Approach for Automatic Character Recognition of Indian Languages",
+"https://doi.org/10.36348/merjet.2021.v01i01.005",
+"Middle East Research Journal of Engineering and Technology"
+],
+[
+false,
+2014,
+3,
+"Degraded Script Identification for Indian Language- A Survey",
+"https://doi.org/10.5120/18914-0222",
+"International Journal of Computer Applications"
+],
+[
+true,
+2020,
+4,
+"A Benchmark System for Indian Language Text Recognition",
+"https://doi.org/10.1007/978-3-030-57058-3_6",
+"Lecture notes in computer science"
+],
+[
+false,
+2014,
+11,
+"Script identification and language detection of 12 Indian languages using DWT and template matching of Frequently Occurring Character(s)",
+"https://doi.org/10.1109/confluence.2014.6949300",
+"International Conference on Cloud Computing, Data Science & Engineering (Confluence)"
+],
+[
+false,
+2025,
+0,
+"Bilingual Handwritten Indian Language Translation",
+"https://doi.org/10.5269/bspm.78563",
+"Boletim da Sociedade Paranaense de Matemática"
+],
+[
+false,
+2019,
+12,
+"Handwritten multilingual word segmentation using polygonal approximation of digital curves for Indian languages",
+"https://doi.org/10.1007/s11042-019-7286-0",
+"Multimedia Tools and Applications"
+],
+[
+false,
+2024,
+1,
+"Text Extraction and Translation in the Context of Indian Languages",
+"https://doi.org/10.4018/979-8-3693-4252-7.ch006",
+"Advances in computational intelligence and robotics book series"
+],
+[
+false,
+2005,
+3,
+"An approach for stemming in symbolically compressed Indian language imaged documents",
+"https://doi.org/10.1109/icdar.2005.45",
+"IAPR International Conference on Document Analysis and Recognition (ICDAR)"
+],
+[
+false,
+2019,
+0,
+"Mobile Based OCR Systems State-of-the-art Survey for Indian Scripts",
+"https://doi.org/10.26438/ijcse/v7i4.457461",
+"International Journal of Computer Sciences and Engineering"
+],
+[
+false,
+2019,
+1,
+"An Efficient Multi Lingual Optical Character Recognition System for Indian Languages Through Use of Bharati Script",
+"https://doi.org/10.1007/978-981-13-9361-7_7",
+"Communications in computer and information science"
+],
+[
+false,
+2013,
+3,
+"Language identification and correction in corrupted texts of regional Indian languages",
+"https://doi.org/10.1109/icsda.2013.6709877",
+"International Conference Oriental COCOSDA held jointly with Conference on Asian Spoken Language Research and Evaluation"
+],
+[
+false,
+2020,
+1,
+"A Review on Handwritten Indian Script Identification",
+"https://doi.org/10.1007/978-981-15-1420-3_14",
+"Lecture notes in electrical engineering"
+],
+[
+false,
+2003,
+12,
+"Compression of scan-digitized Indian language printed text",
+"https://doi.org/10.1145/958220.958254",
+"ACM Symposium on Document Engineering (DocEng)"
+],
+[
+false,
+2021,
+15,
+"Optical Character Recognition of Indian Language Manuscripts using Convolutional Neural Networks",
+"https://doi.org/10.17762/de.v2021i3.7789",
+"Design Engineering"
+],
+[
+false,
+2006,
+7,
+"Summarization of JBIG2 Compressed Indian Language Textual Images",
+"https://doi.org/10.1109/icpr.2006.1090",
+"Proceedings - International Conference on Pattern Recognition/Proceedings/International Conference on Pattern Recognition"
+],
+[
+false,
+2003,
+0,
+"Collaborative Creation of Digital Content in Indian Languages",
+"https://doi.org/10.48550/arxiv.cs/0308016",
+"arXiv (Cornell University)"
+],
+[
+false,
+2012,
+0,
+"Script Identification System for South Indian Triplets",
+"https://openalex.org/W2179042438",
+null
+],
+[
+false,
+2024,
+1,
+"Handwritten Character Recognition for South Indian Languages Using Deep Learning",
+"https://doi.org/10.1007/978-981-99-9704-6_5",
+"Lecture notes in networks and systems"
+],
+[
+false,
+2003,
+0,
+"Compression of scan-digitized Indian language printed text",
+"https://doi.org/10.1145/958252.958254",
+"ACM Symposium on Document Engineering (DocEng)"
+],
+[
+true,
+2025,
+6,
+"Indic-ST: A Large-Scale Multilingual Corpus for Low-Resource Speech-to-Text Translation",
+"https://doi.org/10.1145/3736720",
+"ACM Transactions on Asian and Low-Resource Language Information Processing"
+],
+[
+true,
+2025,
+4,
+"IndicDLP: A Foundational Dataset for Multi-lingual and Multi-domain Document Layout Parsing",
+"https://doi.org/10.1007/978-3-032-04614-7_2",
+"Lecture notes in computer science"
+],
+[
+false,
+2018,
+3,
+"The Seven Siddhi Texts: The Oḍiyāna Mahāmudrā Lineage in its Indic and Tibetan Contexts",
+"https://openalex.org/W2953027723",
+"eScholarship (California Digital Library)"
+],
+[
+false,
+2015,
+0,
+"Online Handwritten Character Recognition for South Indian Scripts Using Support Vector Machines",
+"https://openalex.org/W2278703558",
+"World Academy of Science, Engineering and Technology, International Journal of Electronics and Communication Engineering"
+],
+[
+false,
+2010,
+0,
+"Zone based feature extraction algorithms for handwritten numeral recognition of south indian scripts",
+"https://openalex.org/W947798777",
+"Shodhganga"
+],
+[
+false,
+2021,
+6,
+"Retracted: An Efficient Translation of Tulu to Kannada South Indian Scripts using Optical Character Recognition",
+"https://doi.org/10.1109/iccmc51019.2021.9418225",
+"International Conference on Computing Methodologies and Communication (ICCMC)"
+],
+[
+false,
+2021,
+0,
+"Retraction Notice: An Efficient Translation of Tulu to Kannada South Indian Scripts using Optical Character Recognition",
+"https://doi.org/10.1109/iccmc51019.2021.11570772",
+"International Conference on Computing Methodologies and Communication (ICCMC)"
+],
+[
+false,
+2009,
+21,
+"Zone-based hybrid feature extraction algorithm for handwritten numeral recognition of two popular Indian scripts",
+"https://doi.org/10.1109/nabic.2009.5393386",
+"World Congress on Nature and Biologically Inspired Computing (NaBIC)"
+],
+[
+false,
+2022,
+3,
+"A Review of Scene Text Detection and Recognition of South Indian Languages in Natural Scene Images",
+"https://doi.org/10.1007/978-981-19-2350-0_14",
+"Cognitive science and technology"
+],
+[
+false,
+2015,
+3,
+"Handwritten digit recognition of Indian scripts: A cascade of distances approach",
+"https://doi.org/10.1109/ijcnn.2015.7280451",
+"International Joint Conference on Neural Networks (IJCNN)"
+],
+[
+false,
+2022,
+10,
+"Recognizing Ancient South Indian Language Using Opposition Based Grey Wolf Optimization",
+"https://doi.org/10.32604/iasc.2023.028349",
+"Intelligent Automation & Soft Computing"
+],
+[
+false,
+2025,
+1,
+"Enhancing Indian Language Speech Recognition Systems with Language-Independent Phonetic Script: An Experimental Exploration",
+"https://doi.org/10.3844/jcssp.2025.1176.1186",
+"Journal of Computer Science"
+],
+[
+false,
+2007,
+13,
+"AN ACCURATE AND EFFICIENT SKEW ESTIMATION TECHNIQUE FOR SOUTH INDIAN DOCUMENTS: A NEW BOUNDARY GROWING AND NEAREST NEIGHBOR CLUSTERING BASED APPROACH",
+"https://doi.org/10.2316/journal.206.2007.4.206-2992",
+"International Journal of Robotics and Automation"
+],
+[
+false,
+2022,
+2,
+"Does Native Script Exposure Influence Second Language Early Literacy Skills?: A Preliminary Study in South Indian Preschoolers",
+"https://doi.org/10.1055/s-0042-1743491",
+"Journal of Child Science"
+],
+[
+false,
+2015,
+3,
+"Exploration of Improved Methodology for Character Image Recognition of Two Popular Indian Scripts using Gabor Feature with Hidden Markov Model",
+"https://doi.org/10.5120/20459-2817",
+"International Journal of Computer Applications"
+],
+[
+false,
+2025,
+4,
+"ASR Under the Stethoscope: Evaluating Biases in Clinical Speech Recognition across Indian Languages",
+"https://doi.org/10.48550/arxiv.2512.10967",
+"arXiv (Cornell University)"
+],
+[
+false,
+2025,
+0,
+"TAFSIL: Taxonomy Adaptable Fine-grained Entity Recognition through Distant Supervision for Indian Languages",
+"https://doi.org/10.1145/3726302.3730341",
+"International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)"
+],
+[
+false,
+2025,
+0,
+"Ensemble of Deep and Texture Features for Script Identification from Camera Based Dravidian Languages",
+"https://doi.org/10.2139/ssrn.5162768",
+"SSRN Electronic Journal"
+],
+[
+false,
+2025,
+0,
+"Script-Agnosticism and its Impact on Language Identification for Dravidian Languages",
+"https://doi.org/10.18653/v1/2025.naacl-long.377",
+"Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)"
+],
+[
+false,
+2026,
+0,
+"BHARATI: Morphology-Aware Tokenizers for Classical Indian Languages with Subword Fertility Analysis",
+"https://doi.org/10.48550/arxiv.2607.23319",
+"arXiv (Cornell University)"
+],
+[
+false,
+2025,
+3,
+"Telugu text for high-quality bird imagery synthesis with an enhanced stable diffusion model",
+"https://doi.org/10.1007/s41870-025-02564-3",
+"International Journal of Information Technology"
+],
+[
+true,
+2024,
+10,
+"IIST BCI Dataset-4 for Selected 100 Telugu words",
+"https://doi.org/10.36227/techrxiv.171387874.40408574/v1",
+null
+],
+[
+false,
+2024,
+1,
+"Sandalphon@DravidianLangTech-EACL2024: Hate and Offensive Language Detection in Telugu Code-mixed Text using Transliteration-Augmentation",
+"https://doi.org/10.18653/v1/2024.dravidianlangtech-1.28",
+"Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech)"
+],
+[
+false,
+2024,
+2,
+"IIITDWD-zk@DravidianLangTech-2024: Leveraging the Power of Language Models for Hate Speech Detection in Telugu-English Code-Mixed Text",
+"https://doi.org/10.18653/v1/2024.dravidianlangtech-1.22",
+"Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech)"
+]
+]

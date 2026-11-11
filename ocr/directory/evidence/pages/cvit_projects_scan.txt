@@ -1,0 +1,12 @@
+projects 38
+ - IndicDLP : A Foundational Dataset for Multi-Lingual and Multi-Domain Document Layout Parsing | /research/projects/cvit-projects/indicdlp
+ - Link | /research/projects/cvit-projects/indic-hw-data
+ - Scene Text Recognition in Indian Scripts | /research/projects/cvit-projects/iiit-ilst
+ - Bringing Semantics in Word Image Representation | /research/projects/cvit-projects/sem-embed
+ - First Person Action Recognition | /research/projects/cvit-projects/first-person-action-recognition
+ - Fine-Grained Descriptions for Domain Specific Videos | /research/projects/cvit-projects/fine-grained-descriptions-for-domain-specific-videos
+ - IIIT 5K-word | /research/projects/cvit-projects/the-iiit-5k-word-dataset
+ - IIIT Scene Text Retrieval (IIIT STR) | /research/projects/cvit-projects/the-iiit-scene-text-retrieval-str-dataset
+ - Video Scene Text Retrieval Datasets (Sports-10K and TV series-1M) | /research/projects/cvit-projects/sports-10k-and-tv-series-1m-video-datasets
+ - Decomposing Bag of Words Histograms | /research/projects/cvit-projects/decomposing-bag-of-words-histograms
+ - Action Recognition using Canonical Correlation Kernels | /research/projects/cvit-projects/action-recognition-using-canonical-correlation-kernels

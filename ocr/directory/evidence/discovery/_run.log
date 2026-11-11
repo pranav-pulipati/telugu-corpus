@@ -1,0 +1,23 @@
+openalex unique hits 3237 queries 34
+zenodo unique hits 0 queries 34
+hf unique hits 1517 queries 106
+figshare unique hits 326 queries 34
+github unique hits 610 queries 34
+Traceback (most recent call last):
+  File "ocr/directory/scripts/discover.py", line 219, in <module>
+    time.sleep(3.5)
+           ~~~^^^^^
+  File "ocr/directory/scripts/discover.py", line 178, in s2
+    return hits, log
+            ^^^^^^^^
+    
+    
+  File "ocr/directory/scripts/discover.py", line 36, in get
+    return {'_error': err[:120]}
+                      ^^^
+UnboundLocalError: cannot access local variable 'err' where it is not associated with a value
+datacite unique hits 542 queries 34
+dataverse unique hits 1803 queries 34
+archive unique hits 745 queries 9
+zenodo unique hits 1737 queries 35
+arxiv unique hits 147 queries 12

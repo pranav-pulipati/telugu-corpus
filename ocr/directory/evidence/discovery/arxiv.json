@@ -1,0 +1,1412 @@
+{
+"platform": "arxiv",
+"queried": "2026-11-11",
+"queries": [
+{
+"query": "all:telugu AND all:ocr",
+"hits": 11
+},
+{
+"query": "all:telugu AND all:handwritten",
+"hits": 8
+},
+{
+"query": "all:telugu AND all:\"text recognition\"",
+"hits": 2
+},
+{
+"query": "all:telugu AND all:\"character recognition\"",
+"hits": 9
+},
+{
+"query": "all:telugu AND all:\"scene text\"",
+"hits": 2
+},
+{
+"query": "all:indic AND all:ocr AND all:dataset",
+"hits": 51
+},
+{
+"query": "all:indic AND all:handwritten AND all:dataset",
+"hits": 50
+},
+{
+"query": "all:indic AND all:\"scene text\"",
+"hits": 26
+},
+{
+"query": "all:telugu AND all:document AND all:image",
+"hits": 5
+},
+{
+"query": "all:\"indian languages\" AND all:ocr",
+"hits": 7
+},
+{
+"query": "all:indic AND all:\"document layout\"",
+"hits": 8
+},
+{
+"query": "all:telugu AND all:manuscript",
+"hits": 1
+}
+],
+"hits": {
+"http://arxiv.org/abs/1711.07245v2": {
+"id": "http://arxiv.org/abs/1711.07245v2",
+"title": "Optical Character Recognition (OCR) for Telugu: Database, Algorithm and Application",
+"published": "2017-11-20T10:33:29Z",
+"abstract": "Telugu is a Dravidian language spoken by more than 80 million people worldwide. The optical character recognition (OCR) of the Telugu script has wide ranging applications including education, health-care, administration etc. The beautiful Telugu script however is very different from Germanic scripts like English and German. This makes the use of transfer learning of Germanic OCR solutions to Telugu a non-trivial task. To address the challenge of OCR for Telugu, we make three contributions in this work: (i) a database of Telugu characters, (ii) a deep learning based OCR algorithm, and (iii) a c",
+"queries": [
+"all:telugu AND all:ocr",
+"all:telugu AND all:\"character recognition\""
+]
+},
+"http://arxiv.org/abs/1509.05962v2": {
+"id": "http://arxiv.org/abs/1509.05962v2",
+"title": "Telugu OCR Framework using Deep Learning",
+"published": "2015-09-20T03:35:05Z",
+"abstract": "In this paper, we address the task of Optical Character Recognition(OCR) for the Telugu script. We present an end-to-end framework that segments the text image, classifies the characters and extracts lines using a language model. The segmentation is based on mathematical morphology. The classification module, which is the most challenging task of the three, is a deep convolutional neural network. The language is modelled as a third degree markov chain at the glyph level. Telugu script is a complex alphasyllabary and the language is agglutinative, making the problem hard. In this paper we apply",
+"queries": [
+"all:telugu AND all:ocr",
+"all:telugu AND all:\"character recognition\""
+]
+},
+"http://arxiv.org/abs/2602.16430v1": {
+"id": "http://arxiv.org/abs/2602.16430v1",
+"title": "Designing Production-Scale OCR for India: Multilingual and Domain-Specific Systems",
+"published": "2026-02-18T13:03:05Z",
+"abstract": "Designing Optical Character Recognition (OCR) systems for India requires balancing linguistic diversity, document heterogeneity, and deployment constraints. In this paper, we study two training strategies for building multilingual OCR systems with Vision-Language Models through the Chitrapathak series. We first follow a popular multimodal approach, pairing a generic vision encoder with a strong multilingual language model and training the system end-to-end for OCR. Alternatively, we explore fine-tuning an existing OCR model, despite not being trained for the target languages. Through extensive",
+"queries": [
+"all:telugu AND all:ocr",
+"all:telugu AND all:\"character recognition\""
+]
+},
+"http://arxiv.org/abs/1205.2164v1": {
+"id": "http://arxiv.org/abs/1205.2164v1",
+"title": "Discrimination of English to other Indian languages (Kannada and Hindi) for OCR system",
+"published": "2012-05-10T06:14:51Z",
+"abstract": "India is a multilingual multi-script country. In every state of India there are two languages one is state local language and the other is English. For example in Andhra Pradesh, a state in India, the document may contain text words in English and Telugu script. For Optical Character Recognition (OCR) of such a bilingual document, it is necessary to identify the script before feeding the text words to the OCRs of individual scripts. In this paper, we are introducing a simple and efficient technique of script identification for Kannada, English and Hindi text words of a printed document. The pr",
+"queries": [
+"all:telugu AND all:ocr",
+"all:telugu AND all:\"character recognition\"",
+"all:telugu AND all:document AND all:image",
+"all:\"indian languages\" AND all:ocr"
+]
+},
+"http://arxiv.org/abs/2610.20461v1": {
+"id": "http://arxiv.org/abs/2610.20461v1",
+"title": "Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR",
+"published": "2026-10-14T16:44:22Z",
+"abstract": "Character Error Rate (CER), the standard metric for OCR and vision-language models (VLMs), charges a typo as much as a wrong name. We introduce semCER, which keeps CER's alignment and denominator and charges each grapheme edit a severity from an LLM judge, with no word segmentation. Normalized CER keeps the score of a whole transcription, where it tracks readers as well as semCER or better, and semCER breaks that score down into named edits. The charges track readers' ratings edit by edit in English, Vietnamese, and Chinese and put the edits readers rate most severe near the top of a sorted li",
+"queries": [
+"all:telugu AND all:ocr"
+]
+},
+"http://arxiv.org/abs/1106.5156v2": {
+"id": "http://arxiv.org/abs/1106.5156v2",
+"title": "Morphological Reconstruction for Word Level Script Identification",
+"published": "2011-06-25T18:16:59Z",
+"abstract": "A line of a bilingual document page may contain text words in regional language and numerals in English. For Optical Character Recognition (OCR) of such a document page, it is necessary to identify different script forms before running an individual OCR system. In this paper, we have identified a tool of morphological opening by reconstruction of an image in different directions and regional descriptors for script identification at word level, based on the observation that every text has a distinct visual appearance. The proposed system is developed for three Indian major bilingual documents, ",
+"queries": [
+"all:telugu AND all:ocr",
+"all:telugu AND all:\"character recognition\"",
+"all:telugu AND all:document AND all:image"
+]
+},
+"http://arxiv.org/abs/2009.07435v1": {
+"id": "http://arxiv.org/abs/2009.07435v1",
+"title": "A New Approach for Texture based Script Identification At Block Level using Quad Tree Decomposition",
+"published": "2020-09-16T02:50:03Z",
+"abstract": "A considerable amount of success has been achieved in developing monolingual OCR systems for Indic scripts. But in a country like India, where multi-script scenario is prevalent, identifying scripts beforehand becomes obligatory. In this paper, we present the significance of Gabor wavelets filters in extracting directional energy and entropy distributions for 11 official handwritten scripts namely, Bangla, Devanagari, Gujarati, Gurumukhi, Kannada, Malayalam, Oriya, Tamil, Telugu, Urdu and Roman. The experimentation is conducted at block level based on a quad-tree decomposition approach and eva",
+"queries": [
+"all:telugu AND all:ocr",
+"all:telugu AND all:handwritten"
+]
+},
+"http://arxiv.org/abs/2009.07433v1": {
+"id": "http://arxiv.org/abs/2009.07433v1",
+"title": "Handwritten Script Identification from Text Lines",
+"published": "2020-09-16T02:43:24Z",
+"abstract": "In a multilingual country like India where 12 different official scripts are in use, automatic identification of handwritten script facilitates many important applications such as automatic transcription of multilingual documents, searching for documents on the web/digital archives containing a particular script and for the selection of script specific Optical Character Recognition (OCR) system in a multilingual environment. In this paper, we propose a robust method towards identifying scripts from the handwritten documents at text line-level. The recognition is based upon features extracted u",
+"queries": [
+"all:telugu AND all:ocr",
+"all:telugu AND all:handwritten",
+"all:telugu AND all:\"character recognition\""
+]
+},
+"http://arxiv.org/abs/2505.10791v1": {
+"id": "http://arxiv.org/abs/2505.10791v1",
+"title": "Analyzing Patterns and Influence of Advertising in Print Newspapers",
+"published": "2025-05-16T02:05:53Z",
+"abstract": "This paper investigates advertising practices in print newspapers across India using a novel data-driven approach. We develop a pipeline employing image processing and OCR techniques to extract articles and advertisements from digital versions of print newspapers with high accuracy. Applying this methodology to five popular newspapers that span multiple regions and three languages, English, Hindi, and Telugu, we assembled a dataset of more than 12,000 editions containing several hundred thousand advertisements. Collectively, these newspapers reach a readership of over 100 million people. Using",
+"queries": [
+"all:telugu AND all:ocr",
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2111.09027v1": {
+"id": "http://arxiv.org/abs/2111.09027v1",
+"title": "Discriminative Dictionary Learning based on Statistical Methods",
+"published": "2021-11-17T10:45:10Z",
+"abstract": "Sparse Representation (SR) of signals or data has a well founded theory with rigorous mathematical error bounds and proofs. SR of a signal is given by superposition of very few columns of a matrix called Dictionary, implicitly reducing dimensionality. Training dictionaries such that they represent each class of signals with minimal loss is called Dictionary Learning (DL). Dictionary learning methods like Method of Optimal Directions (MOD) and K-SVD have been successfully used in reconstruction based applications in image processing like image \"denoising\", \"inpainting\" and others. Other diction",
+"queries": [
+"all:telugu AND all:ocr"
+]
+},
+"http://arxiv.org/abs/2004.01551v1": {
+"id": "http://arxiv.org/abs/2004.01551v1",
+"title": "Sparse Concept Coded Tetrolet Transform for Unconstrained Odia Character Recognition",
+"published": "2020-04-03T13:20:12Z",
+"abstract": "Feature representation in the form of spatio-spectral decomposition is one of the robust techniques adopted in automatic handwritten character recognition systems. In this regard, we propose a new image representation approach for unconstrained handwritten alphanumeric characters using sparse concept coded Tetrolets. Tetrolets, which does not use fixed dyadic square blocks for spectral decomposition like conventional wavelets, preserve the localized variations in handwritings by adopting tetrominoes those capture the shape geometry. The sparse concept coding of low entropy Tetrolet representat",
+"queries": [
+"all:telugu AND all:ocr",
+"all:telugu AND all:handwritten",
+"all:telugu AND all:\"character recognition\""
+]
+},
+"http://arxiv.org/abs/1303.2751v1": {
+"id": "http://arxiv.org/abs/1303.2751v1",
+"title": "Gaussian Mixture Model for Handwritten Script Identification",
+"published": "2013-03-12T02:32:02Z",
+"abstract": "This paper presents a Gaussian Mixture Model (GMM) to identify the script of handwritten words of Roman, Devanagari, Kannada and Telugu scripts. It emphasizes the significance of directional energies for identification of script of the word. It is robust to varied image sizes and different styles of writing. A GMM is modeled using a set of six novel features derived from directional energy distributions of the underlying image. The standard deviation of directional energy distributions are computed by decomposing an image matrix into right and left diagonals. Furthermore, deviation of horizont",
+"queries": [
+"all:telugu AND all:handwritten"
+]
+},
+"http://arxiv.org/abs/1303.3087v1": {
+"id": "http://arxiv.org/abs/1303.3087v1",
+"title": "Statistical Texture Features based Handwritten and Printed Text Classification in South Indian Documents",
+"published": "2013-03-13T04:51:22Z",
+"abstract": "In this paper, we use statistical texture features for handwritten and printed text classification. We primarily aim for word level classification in south Indian scripts. Words are first extracted from the scanned document. For each extracted word, statistical texture features are computed such as mean, standard deviation, smoothness, moment, uniformity, entropy and local range including local entropy. These feature vectors are then used to classify words via k-NN classifier. We have validated the approach over several different datasets. Scripts like Kannada, Telugu, Malayalam and Hindi i.e.",
+"queries": [
+"all:telugu AND all:handwritten"
+]
+},
+"http://arxiv.org/abs/2108.06663v4": {
+"id": "http://arxiv.org/abs/2108.06663v4",
+"title": "HCR-Net: A deep learning based script independent handwritten character recognition network",
+"published": "2021-08-15T05:48:07Z",
+"abstract": "Handwritten character recognition (HCR) remains a challenging pattern recognition problem despite decades of research, and lacks research on script independent recognition techniques. {\\color{black}This is mainly because of similar character structures, different handwriting styles, diverse scripts, handcrafted feature extraction techniques, unavailability of data and code, and the development of script-specific deep learning techniques. To address these limitations, we have proposed a script independent deep learning network for HCR research, called HCR-Net, that sets a new research direction",
+"queries": [
+"all:telugu AND all:handwritten",
+"all:telugu AND all:\"character recognition\""
+]
+},
+"http://arxiv.org/abs/2405.18924v1": {
+"id": "http://arxiv.org/abs/2405.18924v1",
+"title": "MDIW-13: a New Multi-Lingual and Multi-Script Database and Benchmark for Script Identification",
+"published": "2024-05-29T09:29:09Z",
+"abstract": "Script identification plays a vital role in applications that involve handwriting and document analysis within a multi-script and multi-lingual environment. Moreover, it exhibits a profound connection with human cognition. This paper provides a new database for benchmarking script identification algorithms, which contains both printed and handwritten documents collected from a wide variety of scripts, such as Arabic, Bengali (Bangla), Gujarati, Gurmukhi, Devanagari, Japanese, Kannada, Malayalam, Oriya, Roman, Tamil, Telugu, and Thai. The dataset consists of 1,135 documents scanned from local n",
+"queries": [
+"all:telugu AND all:handwritten"
+]
+},
+"http://arxiv.org/abs/1801.07211v4": {
+"id": "http://arxiv.org/abs/1801.07211v4",
+"title": "Handwriting Trajectory Recovery using End-to-End Deep Encoder-Decoder Network",
+"published": "2018-01-22T17:25:05Z",
+"abstract": "In this paper, we introduce a novel technique to recover the pen trajectory of offline characters which is a crucial step for handwritten character recognition. Generally, online acquisition approach has more advantage than its offline counterpart as the online technique keeps track of the pen movement. Hence, pen tip trajectory retrieval from offline text can bridge the gap between online and offline methods. Our proposed framework employs sequence to sequence model which consists of an encoder-decoder LSTM module. Our encoder module consists of Convolutional LSTM network, which takes an offl",
+"queries": [
+"all:telugu AND all:handwritten",
+"all:telugu AND all:\"character recognition\"",
+"all:telugu AND all:document AND all:image"
+]
+},
+"http://arxiv.org/abs/2104.04437v1": {
+"id": "http://arxiv.org/abs/2104.04437v1",
+"title": "Benchmarking Scene Text Recognition in Devanagari, Telugu and Malayalam",
+"published": "2021-04-09T15:36:33Z",
+"abstract": "Inspired by the success of Deep Learning based approaches to English scene text recognition, we pose and benchmark scene text recognition for three Indic scripts - Devanagari, Telugu and Malayalam. Synthetic word images rendered from Unicode fonts are used for training the recognition system. And the performance is bench-marked on a new IIIT-ILST dataset comprising of hundreds of real scene images containing text in the above mentioned scripts. We use a segmentation free, hybrid but end-to-end trainable CNN-RNN deep neural network for transcribing the word images to the corresponding texts. Th",
+"queries": [
+"all:telugu AND all:\"text recognition\"",
+"all:telugu AND all:\"scene text\"",
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2201.03180v1": {
+"id": "http://arxiv.org/abs/2201.03180v1",
+"title": "Transfer Learning for Scene Text Recognition in Indian Languages",
+"published": "2022-01-10T06:14:49Z",
+"abstract": "Scene text recognition in low-resource Indian languages is challenging because of complexities like multiple scripts, fonts, text size, and orientations. In this work, we investigate the power of transfer learning for all the layers of deep scene text recognition networks from English to two common Indian languages. We perform experiments on the conventional CRNN model and STAR-Net to ensure generalisability. To study the effect of change in different scripts, we initially run our experiments on synthetic word images rendered using Unicode fonts. We show that the transfer of English models to ",
+"queries": [
+"all:telugu AND all:\"text recognition\"",
+"all:telugu AND all:\"scene text\"",
+"all:telugu AND all:document AND all:image"
+]
+},
+"http://arxiv.org/abs/2205.02543v1": {
+"id": "http://arxiv.org/abs/2205.02543v1",
+"title": "OCR Synthetic Benchmark Dataset for Indic Languages",
+"published": "2022-05-05T10:07:57Z",
+"abstract": "We present the largest publicly available synthetic OCR benchmark dataset for Indic languages. The collection contains a total of 90k images and their ground truth for 23 Indic languages. OCR model validation in Indic languages require a good amount of diverse data to be processed in order to create a robust and reliable model. Generating such a huge amount of data would be difficult otherwise but with synthetic data, it becomes far easier. It can be of great importance to fields like Computer Vision or Image Processing where once an initial synthetic data is developed, model creation becomes ",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2608.22366v1": {
+"id": "http://arxiv.org/abs/2608.22366v1",
+"title": "When Do VLMs Help Arabic Manuscript OCR? A Cross-Dataset Study",
+"published": "2026-08-23T11:12:06Z",
+"abstract": "Vision-language models (VLMs) are increasingly being used for document understanding, yet their role in Arabic and Islamic manuscript recognition remains underexplored. To address such a gap in this paper, we evaluate traditional OCR, general-purpose VLMs, Arabic-specialized VLMs, and OCR-conditioned VLM correction across eight Arabic text datasets spanning historical manuscripts, aged printed books, clean print, multi-domain documents, and handwriting. The results show that no single approach dominates across setups. On line-level historical manuscripts, VLMs are close to Tesseract; on page-l",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2205.06740v2": {
+"id": "http://arxiv.org/abs/2205.06740v2",
+"title": "Towards Deployable OCR models for Indic languages",
+"published": "2022-05-13T16:19:21Z",
+"abstract": "Recognition of text on word or line images, without the need for sub-word segmentation has become the mainstream of research and development of text recognition for Indian languages. Modelling unsegmented sequences using Connectionist Temporal Classification (CTC) is the most commonly used approach for segmentation-free OCR. In this work we present a comprehensive empirical study of various neural network models that uses CTC for transcribing step-wise predictions in the neural network output to a Unicode sequence. The study is conducted for 13 Indian languages, using an internal dataset that ",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:\"indian languages\" AND all:ocr"
+]
+},
+"http://arxiv.org/abs/2511.04161v2": {
+"id": "http://arxiv.org/abs/2511.04161v2",
+"title": "Seeing Straight: Document Orientation Detection for Efficient OCR",
+"published": "2025-11-06T08:04:57Z",
+"abstract": "Despite significant advances in document understanding, determining the correct orientation of scanned or photographed documents remains a critical pre-processing step in the real world settings. Accurate rotation correction is essential for enhancing the performance of downstream tasks such as Optical Character Recognition (OCR) where misalignment commonly arises due to user errors, particularly incorrect base orientations of the camera during capture. In this study, we first introduce OCR-Rotation-Bench (ORB), a new benchmark for evaluating OCR robustness to image rotations, comprising (i) O",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1912.07025v1": {
+"id": "http://arxiv.org/abs/1912.07025v1",
+"title": "Indiscapes: Instance Segmentation Networks for Layout Parsing of Historical Indic Manuscripts",
+"published": "2019-12-15T11:42:27Z",
+"abstract": "Historical palm-leaf manuscript and early paper documents from Indian subcontinent form an important part of the world's literary and cultural heritage. Despite their importance, large-scale annotated Indic manuscript image datasets do not exist. To address this deficiency, we introduce Indiscapes, the first ever dataset with multi-regional layout annotations for historical Indic manuscripts. To address the challenge of large diversity in scripts and presence of dense, irregular layout elements (e.g. text lines, pictures, multiple documents per image), we adapt a Fully Convolutional Deep Neura",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2305.07131v1": {
+"id": "http://arxiv.org/abs/2305.07131v1",
+"title": "Combining OCR Models for Reading Early Modern Printed Books",
+"published": "2023-05-11T20:43:50Z",
+"abstract": "In this paper, we investigate the usage of fine-grained font recognition on OCR for books printed from the 15th to the 18th century. We used a newly created dataset for OCR of early printed books for which fonts are labeled with bounding boxes. We know not only the font group used for each character, but the locations of font changes as well. In books of this period, we frequently find font group changes mid-line or even mid-word that indicate changes in language. We consider 8 different font groups present in our corpus and investigate 13 different subsets: the whole dataset and text lines wi",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2502.06172v1": {
+"id": "http://arxiv.org/abs/2502.06172v1",
+"title": "PLATTER: A Page-Level Handwritten Text Recognition System for Indic Scripts",
+"published": "2025-02-10T05:50:26Z",
+"abstract": "In recent years, the field of Handwritten Text Recognition (HTR) has seen the emergence of various new models, each claiming to perform competitively better than the other in specific scenarios. However, making a fair comparison of these models is challenging due to inconsistent choices and diversity in test sets. Furthermore, recent advancements in HTR often fail to account for the diverse languages, especially Indic languages, likely due to the scarcity of relevant labeled datasets. Moreover, much of the previous work has focused primarily on character-level or word-level recognition, overlo",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2511.19806v1": {
+"id": "http://arxiv.org/abs/2511.19806v1",
+"title": "Reading Between the Lines: Abstaining from VLM-Generated OCR Errors via Latent Representation Probes",
+"published": "2025-11-25T00:24:42Z",
+"abstract": "As VLMs are deployed in safety-critical applications, their ability to abstain from answering when uncertain becomes crucial for reliability, especially in Scene Text Visual Question Answering (STVQA) tasks. For example, OCR errors like misreading \"50 mph\" as \"60 mph\" could cause severe traffic accidents. This leads us to ask: Can VLMs know when they can't see? Existing abstention methods suggest pessimistic answers: they either rely on miscalibrated output probabilities or require semantic agreement unsuitable for OCR tasks. However, this failure may indicate we are looking in the wrong place",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2408.15626v1": {
+"id": "http://arxiv.org/abs/2408.15626v1",
+"title": "Can Visual Language Models Replace OCR-Based Visual Question Answering Pipelines in Production? A Case Study in Retail",
+"published": "2024-08-28T08:25:41Z",
+"abstract": "Most production-level deployments for Visual Question Answering (VQA) tasks are still build as processing pipelines of independent steps including image pre-processing, object- and text detection, Optical Character Recognition (OCR) and (mostly supervised) object classification. However, the recent advances in vision Foundation Models [25] and Vision Language Models (VLMs) [23] raise the question if these custom trained, multi-step approaches can be replaced with pre-trained, single-step VLMs. This paper analyzes the performance and limits of various VLMs in the context of VQA and OCR [5, 9, 1",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2512.20236v1": {
+"id": "http://arxiv.org/abs/2512.20236v1",
+"title": "IndicDLP: A Foundational Dataset for Multi-Lingual and Multi-Domain Document Layout Parsing",
+"published": "2025-12-23T10:49:37Z",
+"abstract": "Document layout analysis is essential for downstream tasks such as information retrieval, extraction, OCR, and digitization. However, existing large-scale datasets like PubLayNet and DocBank lack fine-grained region labels and multilingual diversity, making them insufficient for representing complex document layouts. In contrast, human-annotated datasets such as M6Doc and D4LA offer richer labels and greater domain diversity, but are too small to train robust models and lack adequate multilingual coverage. This gap is especially pronounced for Indic documents, which encompass diverse scripts y",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:indic AND all:\"document layout\""
+]
+},
+"http://arxiv.org/abs/2005.04596v1": {
+"id": "http://arxiv.org/abs/2005.04596v1",
+"title": "A Hybrid Swarm and Gravitation based feature selection algorithm for Handwritten Indic Script Classification problem",
+"published": "2020-05-10T07:27:55Z",
+"abstract": "In any multi-script environment, handwritten script classification is of paramount importance before the document images are fed to their respective Optical Character Recognition (OCR) engines. Over the years, this complex pattern classification problem has been solved by researchers proposing various feature vectors mostly having large dimension, thereby increasing the computation complexity of the whole classification model. Feature Selection (FS) can serve as an intermediate step to reduce the size of the feature vectors by restricting them only to the essential and relevant features. In ou",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2201.00267v4": {
+"id": "http://arxiv.org/abs/2201.00267v4",
+"title": "On the Cross-dataset Generalization in License Plate Recognition",
+"published": "2022-01-02T00:56:09Z",
+"abstract": "Automatic License Plate Recognition (ALPR) systems have shown remarkable performance on license plates (LPs) from multiple regions due to advances in deep learning and the increasing availability of datasets. The evaluation of deep ALPR systems is usually done within each dataset; therefore, it is questionable if such results are a reliable indicator of generalization ability. In this paper, we propose a traditional-split versus leave-one-dataset-out experimental setup to empirically assess the cross-dataset generalization of 12 Optical Character Recognition (OCR) models applied to LP recognit",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2306.03491v1": {
+"id": "http://arxiv.org/abs/2306.03491v1",
+"title": "SciCap+: A Knowledge Augmented Dataset to Study the Challenges of Scientific Figure Captioning",
+"published": "2023-06-06T08:16:16Z",
+"abstract": "In scholarly documents, figures provide a straightforward way of communicating scientific findings to readers. Automating figure caption generation helps move model understandings of scientific documents beyond text and will help authors write informative captions that facilitate communicating scientific findings. Unlike previous studies, we reframe scientific figure captioning as a knowledge-augmented image captioning task that models need to utilize knowledge embedded across modalities for caption generation. To this end, we extended the large-scale SciCap dataset~\\cite{hsu-etal-2021-scicap-",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2607.02290v2": {
+"id": "http://arxiv.org/abs/2607.02290v2",
+"title": "DisciplineGen-1M: A Large-Scale Dataset for Multidisciplinary Visual Generation and Editing",
+"published": "2026-07-02T15:07:47Z",
+"abstract": "Recent image generation and editing models can produce visually appealing natural images, yet they remain unreliable when the target image is a knowledge-intensive diagram whose correctness depends on disciplinary concepts, symbolic structure, and precise spatial relations. We introduce DisciplineGen-1M, a million-scale multidisciplinary dataset that supports text-to-image generation and image editing. It contains 1.2M samples spanning mathematics, physics, chemistry, biology, geography, computer science, economics, history, music, and sports. To construct the dataset, we design a scalable fra",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2601.03609v1": {
+"id": "http://arxiv.org/abs/2601.03609v1",
+"title": "Unveiling Text in Challenging Stone Inscriptions: A Character-Context-Aware Patching Strategy for Binarization",
+"published": "2026-01-07T05:37:29Z",
+"abstract": "Binarization is a popular first step towards text extraction in historical artifacts. Stone inscription images pose severe challenges for binarization due to poor contrast between etched characters and the stone background, non-uniform surface degradation, distracting artifacts, and highly variable text density and layouts. These conditions frequently cause existing binarization techniques to fail and struggle to isolate coherent character regions. Many approaches sub-divide the image into patches to improve text fragment resolution and improve binarization performance. With this in mind, we p",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2606.05018v1": {
+"id": "http://arxiv.org/abs/2606.05018v1",
+"title": "Handwriting Extraction and Analysis of Signature Lists in Swiss Popular Initiatives",
+"published": "2026-06-03T15:41:30Z",
+"abstract": "Popular initiatives and referendums are central to Swiss democracy, yet the validation of handwritten signature lists remains a labor-intensive manual process. This paper investigates the potential of automated document analysis methods, including OCR and AI-based handwriting analysis, to support this task. We propose a pipeline combining template-based line segmentation with text recognition and writer retrieval techniques, evaluated on a dataset of 443 handwritten entries from 418 writers. Results show that OCR struggles with out-of-vocabulary handwriting, with a CER of 29.6% for first names",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2404.06101v1": {
+"id": "http://arxiv.org/abs/2404.06101v1",
+"title": "Making Old Kurdish Publications Processable by Augmenting Available Optical Character Recognition Engines",
+"published": "2024-04-09T08:08:03Z",
+"abstract": "Kurdish libraries have many historical publications that were printed back in the early days when printing devices were brought to Kurdistan. Having a good Optical Character Recognition (OCR) to help process these publications and contribute to the Kurdish languages resources which is crucial as Kurdish is considered a low-resource language. Current OCR systems are unable to extract text from historical documents as they have many issues, including being damaged, very fragile, having many marks left on them, and often written in non-standard fonts and more. This is a massive obstacle in proces",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2212.00999v1": {
+"id": "http://arxiv.org/abs/2212.00999v1",
+"title": "Information Retrieval from the Digitized Books",
+"published": "2022-12-02T06:36:57Z",
+"abstract": "Extracting the relevant information out of a large number of documents is a challenging and tedious task. The quality of results generated by the traditionally available full-text search engine and text-based image retrieval systems is not optimal. Information retrieval (IR) tasks become more challenging with the nontraditional language scripts, as in the case of Indic scripts. The authors have developed OCR (Optical Character Recognition) Search Engine to make an Information Retrieval & Extraction (IRE) system that replicates the current state-of-the-art methods using the IRE and Natural Lang",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2610.26362v1": {
+"id": "http://arxiv.org/abs/2610.26362v1",
+"title": "GAIDA: Generative AI for Human-in-the-Loop Document Annotation",
+"published": "2026-10-19T13:22:13Z",
+"abstract": "Document annotation is a fundamental yet labor-intensive step in building document information extraction systems. While Optical Character Recognition (OCR) and Large Language Models (LLMs) can automate parts of this process, we argue that annotation systems should be judged not by how completely they remove human effort, but by how effectively they redirect it toward review and correction. We propose a modular human-in-the-loop architecture that integrates OCR-based extraction, LLM-based semantic pre-annotation, and human validation in a single editable workflow, and present \\textbf{GAIDA}, a",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2307.02499v1": {
+"id": "http://arxiv.org/abs/2307.02499v1",
+"title": "mPLUG-DocOwl: Modularized Multimodal Large Language Model for Document Understanding",
+"published": "2023-07-04T11:28:07Z",
+"abstract": "Document understanding refers to automatically extract, analyze and comprehend information from various types of digital documents, such as a web page. Existing Multi-model Large Language Models (MLLMs), including mPLUG-Owl, have demonstrated promising zero-shot capabilities in shallow OCR-free text recognition, indicating their potential for OCR-free document understanding. Nevertheless, without in-domain training, these models tend to ignore fine-grained OCR features, such as sophisticated tables or large blocks of text, which are essential for OCR-free document understanding. In this paper,",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2510.09032v2": {
+"id": "http://arxiv.org/abs/2510.09032v2",
+"title": "Exploring Cross-Lingual Knowledge Transfer via Transliteration-Based MLM Fine-Tuning for Critically Low-resource Chakma Language",
+"published": "2025-10-10T06:07:14Z",
+"abstract": "As an Indo-Aryan language with limited available data, Chakma remains largely underrepresented in language models. In this work, we introduce a novel corpus of contextually coherent Bangla-transliterated Chakma, curated from Chakma literature, and validated by native speakers. Using this dataset, we fine-tune six encoder-based transformer models, including multilingual (mBERT, XLM-RoBERTa, DistilBERT), regional (BanglaBERT, IndicBERT), and monolingual English (DeBERTaV3) variants on masked language modeling (MLM) tasks. Our experiments show that fine-tuned multilingual models outperform their ",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2604.23685v1": {
+"id": "http://arxiv.org/abs/2604.23685v1",
+"title": "Reading in the Dark: Low-light Scene Text Recognition",
+"published": "2026-04-26T12:57:48Z",
+"abstract": "Accurate text recognition in low-light environments is essential for intelligent systems in applications ranging from autonomous vehicles to smart surveillance. However, challenges such as poor illumination and noise interference remain underexplored. To address this gap, we introduce LSTR, a large-scale Low-light Scene Text Recognition dataset comprising 11,273 low-light images generated from well-lit datasets (ICDAR2015, IIIT5K, and WordArt), along with ESTR, which includes 60 real nighttime street-scene images in English and Spanish for exclusive evaluation. We explore two solution strategi",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/1708.05529v6": {
+"id": "http://arxiv.org/abs/1708.05529v6",
+"title": "Word Searching in Scene Image and Video Frame in Multi-Script Scenario using Dynamic Shape Coding",
+"published": "2017-08-18T07:47:05Z",
+"abstract": "Retrieval of text information from natural scene images and video frames is a challenging task due to its inherent problems like complex character shapes, low resolution, background noise, etc. Available OCR systems often fail to retrieve such information in scene/video frames. Keyword spotting, an alternative way to retrieve information, performs efficient text searching in such scenarios. However, current word spotting techniques in scene/video images are script-specific and they are mainly developed for Latin script. This paper presents a novel word spotting framework using dynamic shape co",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2601.14697v1": {
+"id": "http://arxiv.org/abs/2601.14697v1",
+"title": "When Text-as-Vision Meets Semantic IDs in Generative Recommendation: An Empirical Study",
+"published": "2026-01-21T06:18:57Z",
+"abstract": "Semantic ID learning is a key interface in Generative Recommendation (GR) models, mapping items to discrete identifiers grounded in side information, most commonly via a pretrained text encoder. However, these text encoders are primarily optimized for well-formed natural language. In real-world recommendation data, item descriptions are often symbolic and attribute-centric, containing numerals, units, and abbreviations. These text encoders can break these signals into fragmented tokens, weakening semantic coherence and distorting relationships among attributes. Worse still, when moving to mult",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2603.13385v1": {
+"id": "http://arxiv.org/abs/2603.13385v1",
+"title": "VisualLeakBench: Auditing the Fragility of Large Vision-Language Models against PII Leakage and Social Engineering",
+"published": "2026-03-11T05:47:24Z",
+"abstract": "As Large Vision-Language Models (LVLMs) are increasingly deployed in agent-integrated workflows and other deployment-relevant settings, their robustness against semantic visual attacks remains under-evaluated -- alignment is typically tested on explicit harmful content rather than privacy-critical multimodal scenarios. We introduce VisualLeakBench, an evaluation suite to audit LVLMs against OCR Injection and Contextual PII Leakage using 1,000 synthetically generated adversarial images with 8 PII types, validated on 50 in-the-wild (IRL) real-world screenshots spanning diverse visual contexts. W",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2310.09147v1": {
+"id": "http://arxiv.org/abs/2310.09147v1",
+"title": "Exploring Sparse Spatial Relation in Graph Inference for Text-Based VQA",
+"published": "2023-10-13T14:39:34Z",
+"abstract": "Text-based visual question answering (TextVQA) faces the significant challenge of avoiding redundant relational inference. To be specific, a large number of detected objects and optical character recognition (OCR) tokens result in rich visual relationships. Existing works take all visual relationships into account for answer prediction. However, there are three observations: (1) a single subject in the images can be easily detected as multiple objects with distinct bounding boxes (considered repetitive objects). The associations between these repetitive objects are superfluous for answer reaso",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1706.07422v1": {
+"id": "http://arxiv.org/abs/1706.07422v1",
+"title": "Single Classifier-based Passive System for Source Printer Classification using Local Texture Features",
+"published": "2017-06-22T17:53:57Z",
+"abstract": "An important aspect of examining printed documents for potential forgeries and copyright infringement is the identification of source printer as it can be helpful for ascertaining the leak and detecting forged documents. This paper proposes a system for classification of source printer from scanned images of printed documents using all the printed letters simultaneously. This system uses local texture patterns based features and a single classifier for classifying all the printed letters. Letters are extracted from scanned images using connected component analysis followed by morphological fil",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2606.19103v1": {
+"id": "http://arxiv.org/abs/2606.19103v1",
+"title": "ProductConsistency: Improving Product Identity Preservation in Instruction-Based Image Editing via SFT and RL",
+"published": "2026-06-17T14:16:47Z",
+"abstract": "Recent advances in instruction-based image editing have enabled models to perform complex visual edits from natural language instructions. However, in product-centric scenarios where preserving product features, branding, and textual elements are critical, current open and closed source models often struggle to maintain this fine-grained object identity. This issue is further compounded by the lack of datasets for instruction-based product image editing with text fidelity constraints, leaving it largely treated as an implicit capability of instruction-based image editing models. In this work, ",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2603.10267v2": {
+"id": "http://arxiv.org/abs/2603.10267v2",
+"title": "A Robust Deep Learning Framework for Bangla License Plate Recognition Using YOLO and Vision-Language OCR",
+"published": "2026-03-10T22:55:59Z",
+"abstract": "An Automatic License Plate Recognition (ALPR) system constitutes a crucial element in an intelligent traffic management system. However, the detection of Bangla license plates remains challenging because of the complicated character scheme and uneven layouts. This paper presents a robust Bangla License Plate Recognition system that integrates a deep learning-based object detection model for license plate localization with Optical Character Recognition for text extraction. Multiple object detection architectures, including U-Net and several YOLO (You Only Look Once) variants, are compared for l",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2611.10679v1": {
+"id": "http://arxiv.org/abs/2611.10679v1",
+"title": "RankShift: Evaluating Ranking Instability Across Benchmark Dimensions in Document Parsing",
+"published": "2026-11-07T11:52:28Z",
+"abstract": "Document parsing benchmarks are often treated as stable measures of model quality, yet rankings may depend substantially on benchmark design choices. In this work, we present RankShift, a systematic study comparing OCR and vision-language models (VLMs) under controlled variation in dataset composition, matching strategy, and scoring methodology. Using OmniDocBench as a case study, we evaluate the ranking stability of 16 models across 3 dataset configurations, 6 matching strategies, and 3 scoring metrics. We quantify rank stability using pairwise rank correlation, top-k churn, and pairwise reve",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1002.4007v1": {
+"id": "http://arxiv.org/abs/1002.4007v1",
+"title": "Word level Script Identification from Bangla and Devanagri Handwritten Texts mixed with Roman Script",
+"published": "2010-02-21T19:48:16Z",
+"abstract": " India is a multi-lingual country where Roman script is often used alongside different Indic scripts in a text document. To develop a script specific handwritten Optical Character Recognition (OCR) system, it is therefore necessary to identify the scripts of handwritten text correctly. In this paper, we present a system, which automatically separates the scripts of handwritten words from a document, written in Bangla or Devanagri mixed with Roman scripts. In this script separation technique, we first, extract the text lines and words from document pages using a script independent Neighboring C",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2608.27753v1": {
+"id": "http://arxiv.org/abs/2608.27753v1",
+"title": "What Can Low Resource Languages Learn From Each Other?",
+"published": "2026-08-27T22:32:35Z",
+"abstract": "Despite the rapid advancement of Vision-Language Models (VLMs), their linguistic reach remains largely confined to high-resource languages, leaving the majority of the world's 7,000+ living languages on the wrong side of a growing digital divide. This disparity is especially pronounced in Optical Character Recognition (OCR), where low-resource scripts lack the massive datasets required for traditional scaling laws. We investigate OCR adaptation in extreme data-scarce regimes (<10K real and <250K synthetic images), demonstrating that conventional fine-tuning strategies often reach a performance",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2406.13719v1": {
+"id": "http://arxiv.org/abs/2406.13719v1",
+"title": "GUI Action Narrator: Where and When Did That Action Take Place?",
+"published": "2024-06-19T17:22:11Z",
+"abstract": "The advent of Multimodal LLMs has significantly enhanced image OCR recognition capabilities, making GUI automation a viable reality for increasing efficiency in digital tasks. One fundamental aspect of developing a GUI automation system is understanding primitive GUI actions. This comprehension is crucial as it enables agents to learn from user demonstrations, an essential element of automation. To rigorously evaluate such capabilities, we developed a video captioning benchmark for GUI actions, comprising 4,189 diverse video captioning samples. This task presents unique challenges compared to ",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2511.12206v1": {
+"id": "http://arxiv.org/abs/2511.12206v1",
+"title": "A Novel AI-Driven System for Real-Time Detection of Mirror Absence, Helmet Non-Compliance, and License Plates Using YOLOv8 and OCR",
+"published": "2025-11-15T13:18:17Z",
+"abstract": "Road safety is a critical global concern, with manual enforcement of helmet laws and vehicle safety standards (e.g., rear-view mirror presence) being resource-intensive and inconsistent. This paper presents an AI-powered system to automate traffic violation detection, significantly enhancing enforcement efficiency and road safety. The system leverages YOLOv8 for robust object detection and EasyOCR for license plate recognition. Trained on a custom dataset of annotated images (augmented for diversity), it identifies helmet non-compliance, the absence of rear-view mirrors on motorcycles, an inno",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2606.31537v1": {
+"id": "http://arxiv.org/abs/2606.31537v1",
+"title": "DataEvolver: Self-Evolving Multi-Agent Data Construction for Text-Rich Image Generation",
+"published": "2026-06-30T11:52:22Z",
+"abstract": "Text-rich image generation is one of the most challenging settings in image generation, since models must simultaneously produce visually realistic images and render legible, semantically aligned, and layout-consistent text. Existing data pipelines usually follow a static crawl-filter-freeze paradigm. They collect candidate samples, filter them once, and freeze the accepted data for training. However, rejected samples are usually discarded, although they often contain useful failure signals such as OCR errors and semantic mismatches. As a result, later construction rounds may repeat the same f",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2406.10085v2": {
+"id": "http://arxiv.org/abs/2406.10085v2",
+"title": "Enhancing Question Answering on Charts Through Effective Pre-training Tasks",
+"published": "2024-06-14T14:40:10Z",
+"abstract": "To completely understand a document, the use of textual information is not enough. Understanding visual cues, such as layouts and charts, is also required. While the current state-of-the-art approaches for document understanding (both OCR-based and OCR-free) work well, a thorough analysis of their capabilities and limitations has not yet been performed. Therefore, in this work, we addresses the limitation of current VisualQA models when applied to charts and plots. To investigate shortcomings of the state-of-the-art models, we conduct a comprehensive behavioral analysis, using ChartQA as a cas",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2407.16076v1": {
+"id": "http://arxiv.org/abs/2407.16076v1",
+"title": "PLayerTV: Advanced Player Tracking and Identification for Automatic Soccer Highlight Clips",
+"published": "2024-07-22T22:27:57Z",
+"abstract": "In the rapidly evolving field of sports analytics, the automation of targeted video processing is a pivotal advancement. We propose PlayerTV, an innovative framework which harnesses state-of-the-art AI technologies for automatic player tracking and identification in soccer videos. By integrating object detection and tracking, Optical Character Recognition (OCR), and color analysis, PlayerTV facilitates the generation of player-specific highlight clips from extensive game footage, significantly reducing the manual labor traditionally associated with such tasks. Preliminary results from the eval",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2501.09552v4": {
+"id": "http://arxiv.org/abs/2501.09552v4",
+"title": "Exploring AI-based System Design for Pixel-level Protected Health Information Detection in Medical Images",
+"published": "2025-01-16T14:12:33Z",
+"abstract": "De-identification of medical images is a critical step to ensure privacy during data sharing in research and clinical settings. The initial step in this process involves detecting Protected Health Information (PHI), which can be found in image metadata or imprinted within image pixels. Despite the importance of such systems, there has been limited evaluation of existing AI-based solutions, creating barriers to the development of reliable and robust tools. In this study, we present an AI-based pipeline for PHI detection, comprising three key modules: text detection, text extraction, and text an",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2408.14998v2": {
+"id": "http://arxiv.org/abs/2408.14998v2",
+"title": "FastTextSpotter: A High-Efficiency Transformer for Multilingual Scene Text Spotting",
+"published": "2024-08-27T12:28:41Z",
+"abstract": "The proliferation of scene text in both structured and unstructured environments presents significant challenges in optical character recognition (OCR), necessitating more efficient and robust text spotting solutions. This paper presents FastTextSpotter, a framework that integrates a Swin Transformer visual backbone with a Transformer Encoder-Decoder architecture, enhanced by a novel, faster self-attention unit, SAC2, to improve processing speeds while maintaining accuracy. FastTextSpotter has been validated across multiple datasets, including ICDAR2015 for regular texts and CTW1500 and TotalT",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2606.25935v1": {
+"id": "http://arxiv.org/abs/2606.25935v1",
+"title": "Overview of HIPE-2026: Person-Place Relation Extraction from Multilingual Historical Texts",
+"published": "2026-06-24T15:09:12Z",
+"abstract": "Was this person ever at that place, and if so, when? Answering such questions from noisy, multilingual historical documents is the central challenge of HIPE-2026, the third edition of the HIPE evaluation series. Moving from named entity recognition and linking (HIPE-2020, HIPE-2022) to reasoning about relationships between entities, HIPE-2026 targets two temporally grounded relation types: $at$, indicating that a person was present at a location at some point prior to a document's publication date, and $isAt$, indicating presence contemporaneous with that date. This paper presents the results ",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1803.00085v1": {
+"id": "http://arxiv.org/abs/1803.00085v1",
+"title": "Chinese Text in the Wild",
+"published": "2018-02-28T21:03:58Z",
+"abstract": "We introduce Chinese Text in the Wild, a very large dataset of Chinese text in street view images. While optical character recognition (OCR) in document images is well studied and many commercial tools are available, detection and recognition of text in natural images is still a challenging problem, especially for more complicated character sets such as Chinese text. Lack of training data has always been a problem, especially for deep learning methods which require massive training data. In this paper we provide details of a newly created dataset of Chinese text with about 1 million Chinese ch",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2609.31403v1": {
+"id": "http://arxiv.org/abs/2609.31403v1",
+"title": "Sorry Robot, Happy Human: Vision-Language Models Read Only One of Two Legible Typographic Layers",
+"published": "2026-09-25T15:27:21Z",
+"abstract": "Vision-language models (VLMs), despite their success in optical character recognition (OCR) tasks, are vulnerable to typographic attacks and have a fragile structure for images with multiple text layers. In this study, the DecoyBench dataset was created using the Decoy Font method. The dataset consists of 300 images, each containing text with sharp contour lines superimposed on another text with soft shading. Six recent closed-source models from three different model families were evaluated using this dataset under two different prompting conditions (naive and guided) and at two different reso",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2407.14212v1": {
+"id": "http://arxiv.org/abs/2407.14212v1",
+"title": "Braille-to-Speech Generator: Audio Generation Based on Joint Fine-Tuning of CLIP and Fastspeech2",
+"published": "2024-07-19T11:18:44Z",
+"abstract": "An increasing number of Chinese people are troubled by different degrees of visual impairment, which has made the modal conversion between a single image or video frame in the visual field and the audio expressing the same information a research hotspot. Deep learning technologies such as OCR+Vocoder and Im2Wav enable English audio synthesis or image-to-sound matching in a self-supervised manner. However, the audio data used for training is limited and English is not universal for visually impaired people with different educational levels. Therefore, for the sake of solving the problems of dat",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2512.01348v1": {
+"id": "http://arxiv.org/abs/2512.01348v1",
+"title": "Handwritten Text Recognition for Low Resource Languages",
+"published": "2025-12-01T07:01:52Z",
+"abstract": "Despite considerable progress in handwritten text recognition, paragraph-level handwritten text recognition, especially in low-resource languages, such as Hindi, Urdu and similar scripts, remains a challenging problem. These languages, often lacking comprehensive linguistic resources, require special attention to develop robust systems for accurate optical character recognition (OCR). This paper introduces BharatOCR, a novel segmentation-free paragraph-level handwritten Hindi and Urdu text recognition. We propose a ViT-Transformer Decoder-LM architecture for handwritten text recognition, where",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2401.00971v1": {
+"id": "http://arxiv.org/abs/2401.00971v1",
+"title": "Efficient Multi-domain Text Recognition Deep Neural Network Parameterization with Residual Adapters",
+"published": "2024-01-01T23:01:40Z",
+"abstract": "Recent advancements in deep neural networks have markedly enhanced the performance of computer vision tasks, yet the specialized nature of these networks often necessitates extensive data and high computational power. Addressing these requirements, this study presents a novel neural network model adept at optical character recognition (OCR) across diverse domains, leveraging the strengths of multi-task learning to improve efficiency and generalization. The model is designed to achieve rapid adaptation to new domains, maintain a compact size conducive to reduced computational resource demand, e",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2510.21862v2": {
+"id": "http://arxiv.org/abs/2510.21862v2",
+"title": "A Multi-Stage Hybrid Framework for Automated Interpretation of Multi-View Engineering Drawings Using Vision Language Model",
+"published": "2025-10-23T09:07:31Z",
+"abstract": "Engineering drawings are fundamental to manufacturing communication, serving as the primary medium for conveying design intent, tolerances, and production details. However, interpreting complex multi-view drawings with dense annotations remains challenging using manual methods, generic optical character recognition (OCR) systems, or traditional deep learning approaches, due to varied layouts, orientations, and mixed symbolic-textual content. To address these challenges, this paper proposes a three-stage hybrid framework for the automated interpretation of 2D multi-view engineering drawings usi",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2409.11402v2": {
+"id": "http://arxiv.org/abs/2409.11402v2",
+"title": "NVLM: Open Frontier-Class Multimodal LLMs",
+"published": "2024-09-17T17:59:06Z",
+"abstract": "We introduce NVLM 1.0, a family of frontier-class multimodal large language models (LLMs) that achieve state-of-the-art results on vision-language tasks, rivaling the leading proprietary models (e.g., GPT-4o) and open-access models (e.g., Llama 3-V 405B and InternVL 2). Remarkably, NVLM 1.0 shows improved text-only performance over its LLM backbone after multimodal training. In terms of model design, we perform a comprehensive comparison between decoder-only multimodal LLMs (e.g., LLaVA) and cross-attention-based models (e.g., Flamingo). Based on the strengths and weaknesses of both approaches",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2311.00734v2": {
+"id": "http://arxiv.org/abs/2311.00734v2",
+"title": "On Manipulating Scene Text in the Wild with Diffusion Models",
+"published": "2023-11-01T11:31:50Z",
+"abstract": "Diffusion models have gained attention for image editing yielding impressive results in text-to-image tasks. On the downside, one might notice that generated images of stable diffusion models suffer from deteriorated details. This pitfall impacts image editing tasks that require information preservation e.g., scene text editing. As a desired result, the model must show the capability to replace the text on the source image to the target text while preserving the details e.g., color, font size, and background. To leverage the potential of diffusion models, in this work, we introduce Diffusion-B",
+"queries": [
+"all:indic AND all:ocr AND all:dataset",
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2412.14197v1": {
+"id": "http://arxiv.org/abs/2412.14197v1",
+"title": "Advancing Vehicle Plate Recognition: Multitasking Visual Language Models with VehiclePaliGemma",
+"published": "2024-12-14T16:22:10Z",
+"abstract": "License plate recognition (LPR) involves automated systems that utilize cameras and computer vision to read vehicle license plates. Such plates collected through LPR can then be compared against databases to identify stolen vehicles, uninsured drivers, crime suspects, and more. The LPR system plays a significant role in saving time for institutions such as the police force. In the past, LPR relied heavily on Optical Character Recognition (OCR), which has been widely explored to recognize characters in images. Usually, collected plate images suffer from various limitations, including noise, blu",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2408.15002v2": {
+"id": "http://arxiv.org/abs/2408.15002v2",
+"title": "Knowledge Discovery in Optical Music Recognition: Enhancing Information Retrieval with Instance Segmentation",
+"published": "2024-08-27T12:34:41Z",
+"abstract": "Optical Music Recognition (OMR) automates the transcription of musical notation from images into machine-readable formats like MusicXML, MEI, or MIDI, significantly reducing the costs and time of manual transcription. This study explores knowledge discovery in OMR by applying instance segmentation using Mask R-CNN to enhance the detection and delineation of musical symbols in sheet music. Unlike Optical Character Recognition (OCR), OMR must handle the intricate semantics of Common Western Music Notation (CWMN), where symbol meanings depend on shape, position, and context. Our approach leverage",
+"queries": [
+"all:indic AND all:ocr AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1804.06254v1": {
+"id": "http://arxiv.org/abs/1804.06254v1",
+"title": "Synthetic data generation for Indic handwritten text recognition",
+"published": "2018-04-17T13:52:59Z",
+"abstract": "This paper presents a novel approach to generate synthetic dataset for handwritten word recognition systems. It is difficult to recognize handwritten scripts for which sufficient training data is not readily available or it may be expensive to collect such data. Hence, it becomes hard to train recognition systems owing to lack of proper dataset. To overcome such problems, synthetic data could be used to create or expand the existing training dataset to improve recognition performance. Any available digital data from online newspaper and such sources can be used to generate synthetic data. In t",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1901.00166v1": {
+"id": "http://arxiv.org/abs/1901.00166v1",
+"title": "Handwritten Indic Character Recognition using Capsule Networks",
+"published": "2019-01-01T15:33:13Z",
+"abstract": "Convolutional neural networks(CNNs) has become one of the primary algorithms for various computer vision tasks. Handwritten character recognition is a typical example of such task that has also attracted attention. CNN architectures such as LeNet and AlexNet have become very prominent over the last two decades however the spatial invariance of the different kernels has been a prominent issue till now. With the introduction of capsule networks, kernels can work together in consensus with one another with the help of dynamic routing, that combines individual opinions of multiple groups of kernel",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1908.01242v1": {
+"id": "http://arxiv.org/abs/1908.01242v1",
+"title": "Kannada-MNIST: A new handwritten digits dataset for the Kannada language",
+"published": "2019-08-03T22:33:52Z",
+"abstract": "In this paper, we disseminate a new handwritten digits-dataset, termed Kannada-MNIST, for the Kannada script, that can potentially serve as a direct drop-in replacement for the original MNIST dataset. In addition to this dataset, we disseminate an additional real world handwritten dataset (with $10k$ images), which we term as the Dig-MNIST dataset that can serve as an out-of-domain test dataset. We also duly open source all the code as well as the raw scanned images along with the scanner settings so that researchers who want to try out different signal processing pipelines can perform end-to-",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2605.30235v1": {
+"id": "http://arxiv.org/abs/2605.30235v1",
+"title": "BullingerDB: A Dataset for Handwritten Text Recognition and Writer Retrieval",
+"published": "2026-05-28T17:05:20Z",
+"abstract": "We present BullingerDB, a large-scale benchmark dataset for historical document analysis based on the correspondence of Heinrich Bullinger (1504-1575). The corpus comprises 20,898 pages and 499,222 text lines written by 796 writers over six decades, featuring stylistic variation, multilingual content (mostly Latin and Early New High German) as well as meta-information such as writer identity and time. We evaluate BullingerDB on text recognition and writer retrieval. TrOCR, the best performing model, achieves a CER of 9.1%. For writer retrieval, we introduce a temporal nDCG metric to assess tim",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2306.03954v1": {
+"id": "http://arxiv.org/abs/2306.03954v1",
+"title": "Recognition of Handwritten Japanese Characters Using Ensemble of Convolutional Neural Networks",
+"published": "2023-06-06T18:30:51Z",
+"abstract": "The Japanese writing system is complex, with three character types of Hiragana, Katakana, and Kanji. Kanji consists of thousands of unique characters, further adding to the complexity of character identification and literature understanding. Being able to translate handwritten Japanese characters into digital text is useful for data analysis, translation, learning and cultural preservation. In this study, a machine learning approach to analyzing and recognizing handwritten Japanese characters (Kanji) is proposed. The study used an ensemble of three convolutional neural networks (CNNs) for reco",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2108.09436v1": {
+"id": "http://arxiv.org/abs/2108.09436v1",
+"title": "Palmira: A Deep Deformable Network for Instance Segmentation of Dense and Uneven Layouts in Handwritten Manuscripts",
+"published": "2021-08-21T04:41:46Z",
+"abstract": "Handwritten documents are often characterized by dense and uneven layout. Despite advances, standard deep network based approaches for semantic layout segmentation are not robust to complex deformations seen across semantic regions. This phenomenon is especially pronounced for the low-resource Indic palm-leaf manuscript domain. To address the issue, we first introduce Indiscapes2, a new large-scale diverse dataset of Indic manuscripts with semantic layout annotations. Indiscapes2 contains documents from four different historical collections and is 150% larger than its predecessor, Indiscapes. ",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1802.06194v2": {
+"id": "http://arxiv.org/abs/1802.06194v2",
+"title": "HWNet v2: An Efficient Word Image Representation for Handwritten Documents",
+"published": "2018-02-17T05:12:03Z",
+"abstract": "We present a framework for learning an efficient holistic representation for handwritten word images. The proposed method uses a deep convolutional neural network with traditional classification loss. The major strengths of our work lie in: (i) the efficient usage of synthetic data to pre-train a deep network, (ii) an adapted version of the ResNet-34 architecture with the region of interest pooling (referred to as HWNet v2) which learns discriminative features for variable sized word images, and (iii) a realistic augmentation of training data with multiple scales and distortions which mimics t",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2108.02561v1": {
+"id": "http://arxiv.org/abs/2108.02561v1",
+"title": "Sentence-level Online Handwritten Chinese Character Recognition",
+"published": "2021-07-04T14:26:06Z",
+"abstract": "Single online handwritten Chinese character recognition~(single OLHCCR) has achieved prominent performance. However, in real application scenarios, users always write multiple Chinese characters to form one complete sentence and the contextual information within these characters holds the significant potential to improve the accuracy, robustness and efficiency of sentence-level OLHCCR. In this work, we first propose a simple and straightforward end-to-end network, namely vanilla compositional network~(VCN) to tackle the sentence-level OLHCCR. It couples convolutional neural network with sequen",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1712.06908v2": {
+"id": "http://arxiv.org/abs/1712.06908v2",
+"title": "Cross-language Framework for Word Recognition and Spotting of Indic Scripts",
+"published": "2017-12-19T13:12:29Z",
+"abstract": "Handwritten word recognition and spotting of low-resource scripts are difficult as sufficient training data is not available and it is often expensive for collecting data of such scripts. This paper presents a novel cross language platform for handwritten word recognition and spotting for such low-resource scripts where training is performed with a sufficiently large dataset of an available script (considered as source script) and testing is done on other scripts (considered as target script). Training with one source script and testing with another script to have a reasonable result is not ea",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2605.27487v1": {
+"id": "http://arxiv.org/abs/2605.27487v1",
+"title": "Diffusion-Based Ukrainian Handwritten Text Generation with Cross-Domain Style Transfer",
+"published": "2026-05-26T15:28:21Z",
+"abstract": "Handwritten text generation (HTG) conditioned on writer style has been widely studied for Latin scripts, but remains underexplored for low-resource and non-Latin writing systems, leaving open how well existing models generalise beyond the Latin domain. Cyrillic, particularly Ukrainian, lacks both large-scale writer-labeled datasets and empirical evidence of such generalisation. To address this gap, we construct a Ukrainian handwritten word dataset of 126,177 images from 308 writers using connected-component segmentation, quality filtering, and targeted oversampling of underrepresented Ukrainia",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2507.08636v1": {
+"id": "http://arxiv.org/abs/2507.08636v1",
+"title": "Normalized vs Diplomatic Annotation: A Case Study of Automatic Information Extraction from Handwritten Uruguayan Birth Certificates",
+"published": "2025-07-11T14:40:07Z",
+"abstract": "This study evaluates the recently proposed Document Attention Network (DAN) for extracting key-value information from Uruguayan birth certificates, handwritten in Spanish. We investigate two annotation strategies for automatically transcribing handwritten documents, fine-tuning DAN with minimal training data and annotation effort. Experiments were conducted on two datasets containing the same images (201 scans of birth certificates written by more than 15 different writers) but with different annotation methods. Our findings indicate that normalized annotation is more effective for fields that",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1812.11489v2": {
+"id": "http://arxiv.org/abs/1812.11489v2",
+"title": "A High-Performance CNN Method for Offline Handwritten Chinese Character Recognition and Visualization",
+"published": "2018-12-30T08:23:34Z",
+"abstract": "Recent researches introduced fast, compact and efficient convolutional neural networks (CNNs) for offline handwritten Chinese character recognition (HCCR). However, many of them did not address the problem of network interpretability. We propose a new architecture of a deep CNN with high recognition performance which is capable of learning deep features for visualization. A special characteristic of our model is the bottleneck layers which enable us to retain its expressiveness while reducing the number of multiply-accumulate operations and the required storage. We introduce a modification of ",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2503.15195v3": {
+"id": "http://arxiv.org/abs/2503.15195v3",
+"title": "Benchmarking Large Language Models for Handwritten Text Recognition",
+"published": "2025-03-19T13:33:29Z",
+"abstract": "Traditional machine learning models for Handwritten Text Recognition (HTR) rely on supervised training, requiring extensive manual annotations, and often produce errors due to the separation between layout and text processing. In contrast, Multimodal Large Language Models (MLLMs) offer a general approach to recognizing diverse handwriting styles without the need for model-specific training. The study benchmarks various proprietary and open-source LLMs against Transkribus models, evaluating their performance on both modern and historical datasets written in English, French, German, and Italian.",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1709.01618v1": {
+"id": "http://arxiv.org/abs/1709.01618v1",
+"title": "PageNet: Page Boundary Extraction in Historical Handwritten Documents",
+"published": "2017-09-05T22:54:49Z",
+"abstract": "When digitizing a document into an image, it is common to include a surrounding border region to visually indicate that the entire document is present in the image. However, this border should be removed prior to automated processing. In this work, we present a deep learning based system, PageNet, which identifies the main page region in an image in order to segment content from both textual and non-textual border noise. In PageNet, a Fully Convolutional Network obtains a pixel-wise segmentation which is post-processed into the output quadrilateral region. We evaluate PageNet on 4 collections ",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1904.03734v5": {
+"id": "http://arxiv.org/abs/1904.03734v5",
+"title": "Measuring Human Perception to Improve Handwritten Document Transcription",
+"published": "2019-04-07T20:23:31Z",
+"abstract": "The subtleties of human perception, as measured by vision scientists through the use of psychophysics, are important clues to the internal workings of visual recognition. For instance, measured reaction time can indicate whether a visual stimulus is easy for a subject to recognize, or whether it is hard. In this paper, we consider how to incorporate psychophysical measurements of visual perception into the loss function of a deep neural network being trained for a recognition task, under the assumption that such information can enforce consistency with human behavior. As a case study to assess",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2308.10493v1": {
+"id": "http://arxiv.org/abs/2308.10493v1",
+"title": "Semantic Graph Representation Learning for Handwritten Mathematical Expression Recognition",
+"published": "2023-08-21T06:23:41Z",
+"abstract": "Handwritten mathematical expression recognition (HMER) has attracted extensive attention recently. However, current methods cannot explicitly study the interactions between different symbols, which may fail when faced similar symbols. To alleviate this issue, we propose a simple but efficient method to enhance semantic interaction learning (SIL). Specifically, we firstly construct a semantic graph based on the statistical symbol co-occurrence probabilities. Then we design a semantic aware module (SAM), which projects the visual and classification feature into semantic space. The cosine distanc",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1708.05545v1": {
+"id": "http://arxiv.org/abs/1708.05545v1",
+"title": "Spotting Separator Points at Line Terminals in Compressed Document Images for Text-line Segmentation",
+"published": "2017-08-18T09:51:17Z",
+"abstract": "Line separators are used to segregate text-lines from one another in document image analysis. Finding the separator points at every line terminal in a document image would enable text-line segmentation. In particular, identifying the separators in handwritten text could be a thrilling exercise. Obviously it would be challenging to perform this in the compressed version of a document image and that is the proposed objective in this research. Such an effort would prevent the computational burden of decompressing a document for text-line segmentation. Since document images are generally compresse",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2512.06290v1": {
+"id": "http://arxiv.org/abs/2512.06290v1",
+"title": "StrokeNet: Unveiling How to Learn Fine-Grained Interactions in Online Handwritten Stroke Classification",
+"published": "2025-12-06T04:41:08Z",
+"abstract": "Stroke classification remains challenging due to variations in writing style, ambiguous content, and dynamic writing positions. The core challenge in stroke classification is modeling the semantic relationships between strokes. Our observations indicate that stroke interactions are typically localized, making it difficult for existing deep learning methods to capture such fine-grained relationships. Although viewing strokes from a point-level perspective can address this issue, it introduces redundancy. However, by selecting reference points and using their sequential order to represent stroke",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2210.08836v4": {
+"id": "http://arxiv.org/abs/2210.08836v4",
+"title": "MSDS: A Large-Scale Chinese Signature and Token Digit String Dataset for Handwriting Verification",
+"published": "2022-10-17T08:23:12Z",
+"abstract": "Although online handwriting verification has made great progress recently, the verification performances are still far behind the real usage owing to the small scale of the datasets as well as the limited biometric mediums. Therefore, this paper proposes a new handwriting verification benchmark dataset named Multimodal Signature and Digit String (MSDS), which consists of two subsets: MSDS-ChS (Chinese Signatures) and MSDS-TDS (Token Digit Strings), contributed by 402 users, with 20 genuine samples and 20 skilled forgeries per user per subset. MSDS-ChS consists of handwritten Chinese signatures",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1809.06846v4": {
+"id": "http://arxiv.org/abs/1809.06846v4",
+"title": "MNIST Dataset Classification Utilizing k-NN Classifier with Modified Sliding-window Metric",
+"published": "2018-09-18T17:55:53Z",
+"abstract": "The MNIST dataset of the handwritten digits is known as one of the commonly used datasets for machine learning and computer vision research. We aim to study a widely applicable classification problem and apply a simple yet efficient K-nearest neighbor classifier with an enhanced heuristic. We evaluate the performance of the K-nearest neighbor classification algorithm on the MNIST dataset where the $L2$ Euclidean distance metric is compared to a modified distance metric which utilizes the sliding window technique in order to avoid performance degradation due to slight spatial misalignments. The",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2103.01403v3": {
+"id": "http://arxiv.org/abs/2103.01403v3",
+"title": "A Minimalist Dataset for Systematic Generalization of Perception, Syntax, and Semantics",
+"published": "2021-03-02T01:32:54Z",
+"abstract": "Inspired by humans' exceptional ability to master arithmetic and generalize to new problems, we present a new dataset, Handwritten arithmetic with INTegers (HINT), to examine machines' capability of learning generalizable concepts at three levels: perception, syntax, and semantics. In HINT, machines are tasked with learning how concepts are perceived from raw signals such as images (i.e., perception), how multiple concepts are structurally combined to form a valid expression (i.e., syntax), and how concepts are realized to afford various reasoning tasks (i.e., semantics), all in a weakly super",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1905.08633v1": {
+"id": "http://arxiv.org/abs/1905.08633v1",
+"title": "Fonts-2-Handwriting: A Seed-Augment-Train framework for universal digit classification",
+"published": "2019-05-16T20:38:05Z",
+"abstract": "In this paper, we propose a Seed-Augment-Train/Transfer (SAT) framework that contains a synthetic seed image dataset generation procedure for languages with different numeral systems using freely available open font file datasets. This seed dataset of images is then augmented to create a purely synthetic training dataset, which is in turn used to train a deep neural network and test on held-out real world handwritten digits dataset spanning five Indic scripts, Kannada, Tamil, Gujarati, Malayalam, and Devanagari. We showcase the efficacy of this approach both qualitatively, by training a Bounda",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1811.01396v5": {
+"id": "http://arxiv.org/abs/1811.01396v5",
+"title": "Handwriting Recognition in Low-resource Scripts using Adversarial Learning",
+"published": "2018-11-04T16:24:09Z",
+"abstract": "Handwritten Word Recognition and Spotting is a challenging field dealing with handwritten text possessing irregular and complex shapes. The design of deep neural network models makes it necessary to extend training datasets in order to introduce variations and increase the number of samples; word-retrieval is therefore very difficult in low-resource scripts. Much of the existing literature comprises preprocessing strategies which are seldom sufficient to cover all possible variations. We propose the Adversarial Feature Deformation Module (AFDM) that learns ways to elastically warp extracted fe",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1812.02621v2": {
+"id": "http://arxiv.org/abs/1812.02621v2",
+"title": "Hybrid Feature Learning for Handwriting Verification",
+"published": "2018-11-19T02:02:28Z",
+"abstract": "We propose an effective Hybrid Deep Learning (HDL) architecture for the task of determining the probability that a questioned handwritten word has been written by a known writer. HDL is an amalgamation of Auto-Learned Features (ALF) and Human-Engineered Features (HEF). To extract auto-learned features we use two methods: First, Two Channel Convolutional Neural Network (TC-CNN); Second, Two Channel Autoencoder (TC-AE). Furthermore, human-engineered features are extracted by using two methods: First, Gradient Structural Concavity (GSC); Second, Scale Invariant Feature Transform (SIFT). Experimen",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2604.00207v1": {
+"id": "http://arxiv.org/abs/2604.00207v1",
+"title": "Lead Zirconate Titanate Reservoir Computing for Classification of Written and Spoken Digits",
+"published": "2026-03-31T20:19:28Z",
+"abstract": "In this paper we extend our earlier work of (Rietman et al. 2022) presenting an application of physical Reservoir Computing (RC) to the classification of handwritten and spoken digits. We utilize an unpoled cube of Lead Zirconate Titanate (PZT) as a computational substrate to process these datasets. Our results demonstrate that the PZT reservoir achieves 89.0% accuracy on MNIST handwritten digits, representing a 2.4 percentage point improvement over logistic regression baselines applied to the same preprocessed data. However, for the AudioMNIST spoken digits dataset, the reservoir system (88.2",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1811.07115v1": {
+"id": "http://arxiv.org/abs/1811.07115v1",
+"title": "Unsupervised Online Learning With Multiple Postsynaptic Neurons Based on Spike-Timing-Dependent Plasticity Using a TFT-Type NOR Flash Memory Array",
+"published": "2018-11-17T07:48:27Z",
+"abstract": "We present a two-layer fully connected neuromorphic system based on a thin-film transistor (TFT)-type NOR flash memory array with multiple postsynaptic (POST) neurons. Unsupervised online learning by spike-timing-dependent plasticity (STDP) on the binary MNIST handwritten datasets is implemented, and its recognition result is determined by measuring firing rate of POST neurons. Using a proposed learning scheme, we investigate the impact of the number of POST neurons in terms of recognition rate. In this neuromorphic system, lateral inhibition function and homeostatic property are exploited for",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2305.02593v1": {
+"id": "http://arxiv.org/abs/2305.02593v1",
+"title": "How to Choose Pretrained Handwriting Recognition Models for Single Writer Fine-Tuning",
+"published": "2023-05-04T07:00:28Z",
+"abstract": "Recent advancements in Deep Learning-based Handwritten Text Recognition (HTR) have led to models with remarkable performance on both modern and historical manuscripts in large benchmark datasets. Nonetheless, those models struggle to obtain the same performance when applied to manuscripts with peculiar characteristics, such as language, paper support, ink, and author handwriting. This issue is very relevant for valuable but small collections of documents preserved in historical archives, for which obtaining sufficient annotated training data is costly or, in some cases, unfeasible. To overcome",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1712.02781v2": {
+"id": "http://arxiv.org/abs/1712.02781v2",
+"title": "On Usage of Autoencoders and Siamese Networks for Online Handwritten Signature Verification",
+"published": "2017-12-07T18:55:42Z",
+"abstract": "In this paper, we propose a novel writer-independent global feature extraction framework for the task of automatic signature verification which aims to make robust systems for automatically distinguishing negative and positive samples. Our method consists of an autoencoder for modeling the sample space into a fixed length latent space and a Siamese Network for classifying the fixed-length samples obtained from the autoencoder based on the reference samples of a subject as being \"Genuine\" or \"Forged.\" During our experiments, usage of Attention Mechanism and applying Downsampling significantly i",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2409.19754v1": {
+"id": "http://arxiv.org/abs/2409.19754v1",
+"title": "Offline Signature Verification Based on Feature Disentangling Aided Variational Autoencoder",
+"published": "2024-09-29T19:54:47Z",
+"abstract": "Offline handwritten signature verification systems are used to verify the identity of individuals, through recognizing their handwritten signature image as genuine signatures or forgeries. The main tasks of signature verification systems include extracting features from signature images and training a classifier for classification. The challenges of these tasks are twofold. First, genuine signatures and skilled forgeries are highly similar in their appearances, resulting in a small inter-class distance. Second, the instances of skilled forgeries are often unavailable, when signature verificati",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2606.18788v1": {
+"id": "http://arxiv.org/abs/2606.18788v1",
+"title": "HandwritingAgent: Language-Driven Handwriting Synthesis in Scalable Vector Space",
+"published": "2026-06-17T08:02:19Z",
+"abstract": "Teaching machines to emulate natural handwriting styles remains an open challenge, as it requires synthesizing stroke sequences that dynamically vary in shape, texture, pressure and script - not only across individuals, but also within a single person's handwriting. Attempts at this challenge have largely explored deep learning methods in both online and offline settings. However, these approaches are often constrained by style-specific architectural choices, heavy reliance on large datasets, high compute costs, and a lack of flexible control over writing styles through natural language. To th",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2111.08014v1": {
+"id": "http://arxiv.org/abs/2111.08014v1",
+"title": "Tensor network to learn the wavefunction of data",
+"published": "2021-11-15T19:00:01Z",
+"abstract": "How many different ways are there to handwrite digit 3? To quantify this question imagine extending a dataset of handwritten digits MNIST by sampling additional images until they start repeating. We call the collection of all resulting images of digit 3 the \"full set.\" To study the properties of the full set we introduce a tensor network architecture which simultaneously accomplishes both classification (discrimination) and sampling tasks. Qualitatively, our trained network represents the indicator function of the full set. It therefore can be used to characterize the data itself. We illustrat",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1807.08091v1": {
+"id": "http://arxiv.org/abs/1807.08091v1",
+"title": "Streaming Methods for Restricted Strongly Convex Functions with Applications to Prototype Selection",
+"published": "2018-07-21T06:16:42Z",
+"abstract": "In this paper, we show that if the optimization function is restricted-strongly-convex (RSC) and restricted-smooth (RSM) -- a rich subclass of weakly submodular functions -- then a streaming algorithm with constant factor approximation guarantee is possible. More generally, our results are applicable to any monotone weakly submodular function with submodularity ratio bounded from above. This (positive) result which provides a sufficient condition for having a constant factor streaming guarantee for weakly submodular functions may be of special interest given the recent negative result (Elenber",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2608.06221v1": {
+"id": "http://arxiv.org/abs/2608.06221v1",
+"title": "Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation",
+"published": "2026-08-06T16:12:18Z",
+"abstract": "Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot. The resulting human-like robot motion is recognised as a key factor in building trust and enabling natural collaboration in human-robot interaction. This paper presents a framework for learning human-like robot motion from demonstration, including data collection, probabilistic trajectory learning, and perceptual user evaluation. A dataset of 3,142 handwriting demonstr",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2509.20420v1": {
+"id": "http://arxiv.org/abs/2509.20420v1",
+"title": "Quasi-Synthetic Riemannian Data Generation for Writer-Independent Offline Signature Verification",
+"published": "2025-09-24T12:28:16Z",
+"abstract": "Offline handwritten signature verification remains a challenging task, particularly in writer-independent settings where models must generalize across unseen individuals. Recent developments have highlighted the advantage of geometrically inspired representations, such as covariance descriptors on Riemannian manifolds. However, past or present, handcrafted or data-driven methods usually depend on real-world signature datasets for classifier training. We introduce a quasi-synthetic data generation framework leveraging the Riemannian geometry of Symmetric Positive Definite matrices (SPD). A smal",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2012.06186v3": {
+"id": "http://arxiv.org/abs/2012.06186v3",
+"title": "Writer Identification and Writer Retrieval Based on NetVLAD with Re-ranking",
+"published": "2020-12-11T08:22:28Z",
+"abstract": "This paper addresses writer identification and writer retrieval which is considered as a challenging problem in the document analysis and recognition field. In this work, a novel pipeline is proposed for the problem at hand by employing a unified neural network architecture consisting of the ResNet-20 as a feature extractor and an integrated NetVLAD layer, inspired by the vector of locally aggregated descriptors (VLAD), in the head of the latter part. Having defined this architecture, the triplet semi-hard loss function is used to directly learn an embedding for individual input image patches.",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2407.12506v3": {
+"id": "http://arxiv.org/abs/2407.12506v3",
+"title": "Classification and reconstruction for single-pixel imaging with classical and quantum neural networks",
+"published": "2024-07-17T11:38:57Z",
+"abstract": "Single-pixel cameras are an effective solution for imaging outside the visible spectrum, where traditional CMOS/CCD cameras have challenges. When combined with machine learning, they can analyze images quickly enough for practical applications. Solving the problem of high-dimensional single-pixel visualization can potentially be accelerated via quantum machine learning, thereby expanding the range of practical problems. In this work, we simulated a single-pixel imaging experiment using Hadamard basis patterns, where images from the MNIST handwritten digit dataset and FashionMNIST items of clot",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2204.09153v1": {
+"id": "http://arxiv.org/abs/2204.09153v1",
+"title": "Characterization and Optimization of Integrated Silicon-Photonic Neural Networks under Fabrication-Process Variations",
+"published": "2022-04-19T23:03:36Z",
+"abstract": "Silicon-photonic neural networks (SPNNs) have emerged as promising successors to electronic artificial intelligence (AI) accelerators by offering orders of magnitude lower latency and higher energy efficiency. Nevertheless, the underlying silicon photonic devices in SPNNs are sensitive to inevitable fabrication-process variations (FPVs) stemming from optical lithography imperfections. Consequently, the inferencing accuracy in an SPNN can be highly impacted by FPVs -- e.g., can drop to below 10% -- the impact of which is yet to be fully studied. In this paper, we, for the first time, model and ",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2605.18058v1": {
+"id": "http://arxiv.org/abs/2605.18058v1",
+"title": "Threats to Arabic Handwriting Recognition: Investigating Black-Box Adversarial Attacks on embedded ConvNet models",
+"published": "2026-05-18T08:45:16Z",
+"abstract": "Arabic handwriting recognition (AHR) has made significant progress with deep learning models. AHR research has largely focused on performance, with security receiving little attention. This study provides what appears to be a new line of inquiry by demonstrating the vulnerability of high-performing models to adversarial black-box attacks. The focus on black-box attacks reflects real-world scenarios where the attacker has no prior knowledge of the model architecture. Extensive experiments were conducted on two benchmark AHR datasets containing Arabic handwritten Characters. Results demonstrated",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2008.13210v2": {
+"id": "http://arxiv.org/abs/2008.13210v2",
+"title": "Multiway $p$-spectral graph cuts on Grassmann manifolds",
+"published": "2020-08-30T16:25:04Z",
+"abstract": "Nonlinear reformulations of the spectral clustering method have gained a lot of recent attention due to their increased numerical benefits and their solid mathematical background. We present a novel direct multiway spectral clustering algorithm in the $p$-norm, for $p \\in (1, 2]$. The problem of computing multiple eigenvectors of the graph $p$-Laplacian, a nonlinear generalization of the standard graph Laplacian, is recasted as an unconstrained minimization problem on a Grassmann manifold. The value of $p$ is reduced in a pseudocontinuous manner, promoting sparser solution vectors that corresp",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2102.03239v1": {
+"id": "http://arxiv.org/abs/2102.03239v1",
+"title": "Applications of Machine Learning in Document Digitisation",
+"published": "2021-02-05T15:35:28Z",
+"abstract": "Data acquisition forms the primary step in all empirical research. The availability of data directly impacts the quality and extent of conclusions and insights. In particular, larger and more detailed datasets provide convincing answers even to complex research questions. The main problem is that 'large and detailed' usually implies 'costly and difficult', especially when the data medium is paper and books. Human operators and manual transcription have been the traditional approach for collecting historical data. We instead advocate the use of modern machine learning techniques to automate the",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/1909.13563v3": {
+"id": "http://arxiv.org/abs/1909.13563v3",
+"title": "A Gradient Free Neural Network Framework Based on Universal Approximation Theorem",
+"published": "2019-09-30T10:04:15Z",
+"abstract": "We present a numerical scheme for computation of Artificial Neural Networks (ANN) weights, which stems from the Universal Approximation Theorem, avoiding laborious iterations. The proposed algorithm adheres to the underlying theory, is highly fast, and results in remarkably low errors when applied for regression and classification of complex data-sets, such as the Griewank function of multiple variables $\\mathbf{x} \\in \\mathbb{R}^{100}$ with random noise addition, and MNIST database for handwritten digits recognition, with $7\\times10^4$ images. The same mathematical formulation is found capabl",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2503.12543v3": {
+"id": "http://arxiv.org/abs/2503.12543v3",
+"title": "A quantitative analysis of Galilei's observations of Jupiter satellites from the Sidereus Nuncius",
+"published": "2025-03-16T15:24:46Z",
+"abstract": "We present a new careful and comprehensive analysis the observations of the satellites of Jupiter from the Sidereus Nuncius that extends and complements previous similar studies. Each observation is compared to the predictions obtained using a modern sky simulator, verifying and trying to understand them individually. The work considers both the information that can be extracted from the sketches and the angular measurements reported by Galilei. Angular measurements allow assessing the absolute accuracy in relation to modern ephemerides. We evaluate the performances of the telescope in terms o",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2504.04893v7": {
+"id": "http://arxiv.org/abs/2504.04893v7",
+"title": "SCAM: A Real-World Typographic Robustness Evaluation for Multimodal Foundation Models",
+"published": "2025-04-07T10:01:38Z",
+"abstract": "Typographic attacks exploit the interplay between text and visual content in multimodal foundation models, causing misclassifications when misleading text is embedded within images. Existing datasets are limited in size and diversity, making it difficult to study such vulnerabilities. In this paper, we introduce SCAM, the largest and most diverse dataset of real-world typographic attack images to date, containing 1162 images across hundreds of object categories and attack words. Through extensive benchmarking of Vision-Language Models on SCAM, we demonstrate that typographic attacks significan",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2608.11269v1": {
+"id": "http://arxiv.org/abs/2608.11269v1",
+"title": "CosMAP: Contrastive Manifold Approximation and Projection for Dimensionality Reduction of Omics and Genealogical Data",
+"published": "2026-08-11T00:22:31Z",
+"abstract": "Omics datasets, particularly single-cell RNA sequencing data, are high-dimensional, sparse, noisy, and dominated by zero values, making faithful low-dimensional representation challenging. Existing dimensionality-reduction methods may distort local neighbourhoods, global organization, or the cohesion of meaningful populations, with similar limitations arising in genealogical data. We introduce Contrastive Manifold Approximation and Projection (CosMAP), a graph-based unsupervised dimensionality-reduction method for producing faithful and interpretable embeddings. CosMAP extends the graph-based ",
+"queries": [
+"all:indic AND all:handwritten AND all:dataset"
+]
+},
+"http://arxiv.org/abs/2212.01982v1": {
+"id": "http://arxiv.org/abs/2212.01982v1",
+"title": "Exploring Stroke-Level Modifications for Scene Text Editing",
+"published": "2022-12-05T02:10:59Z",
+"abstract": "Scene text editing (STE) aims to replace text with the desired one while preserving background and styles of the original text. However, due to the complicated background textures and various text styles, existing methods fall short in generating clear and legible edited text images. In this study, we attribute the poor editing performance to two problems: 1) Implicit decoupling structure. Previous methods of editing the whole image have to learn different translation rules of background and text regions simultaneously. 2) Domain gap. Due to the lack of edited real scene text images, the netwo",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2401.10041v1": {
+"id": "http://arxiv.org/abs/2401.10041v1",
+"title": "CMFN: Cross-Modal Fusion Network for Irregular Scene Text Recognition",
+"published": "2024-01-18T15:05:57Z",
+"abstract": "Scene text recognition, as a cross-modal task involving vision and text, is an important research topic in computer vision. Most existing methods use language models to extract semantic information for optimizing visual recognition. However, the guidance of visual cues is ignored in the process of semantic mining, which limits the performance of the algorithm in recognizing irregular scene text. To tackle this issue, we propose a novel cross-modal fusion network (CMFN) for irregular scene text recognition, which incorporates visual cues into the semantic mining process. Specifically, CMFN cons",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2308.02905v3": {
+"id": "http://arxiv.org/abs/2308.02905v3",
+"title": "FASTER: A Font-Agnostic Scene Text Editing and Rendering Framework",
+"published": "2023-08-05T15:54:06Z",
+"abstract": "Scene Text Editing (STE) is a challenging research problem, that primarily aims towards modifying existing texts in an image while preserving the background and the font style of the original text. Despite its utility in numerous real-world applications, existing style-transfer-based approaches have shown sub-par editing performance due to (1) complex image backgrounds, (2) diverse font attributes, and (3) varying word lengths within the text. To address such limitations, in this paper, we propose a novel font-agnostic scene text editing and rendering framework, named FASTER, for simultaneousl",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2405.04377v1": {
+"id": "http://arxiv.org/abs/2405.04377v1",
+"title": "Choose What You Need: Disentangled Representation Learning for Scene Text Recognition, Removal and Editing",
+"published": "2024-05-07T15:00:11Z",
+"abstract": "Scene text images contain not only style information (font, background) but also content information (character, texture). Different scene text tasks need different information, but previous representation learning methods use tightly coupled features for all tasks, resulting in sub-optimal performance. We propose a Disentangled Representation Learning framework (DARLING) aimed at disentangling these two types of features for improved adaptability in better addressing various downstream tasks (choose what you really need). Specifically, we synthesize a dataset of image pairs with identical sty",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2209.02397v2": {
+"id": "http://arxiv.org/abs/2209.02397v2",
+"title": "A Scene-Text Synthesis Engine Achieved Through Learning from Decomposed Real-World Data",
+"published": "2022-09-06T11:15:58Z",
+"abstract": "Scene-text image synthesis techniques that aim to naturally compose text instances on background scene images are very appealing for training deep neural networks due to their ability to provide accurate and comprehensive annotation information. Prior studies have explored generating synthetic text images on two-dimensional and three-dimensional surfaces using rules derived from real-world observations. Some of these studies have proposed generating scene-text images through learning; however, owing to the absence of a suitable training dataset, unsupervised frameworks have been explored to le",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2211.06565v1": {
+"id": "http://arxiv.org/abs/2211.06565v1",
+"title": "MSLKANet: A Multi-Scale Large Kernel Attention Network for Scene Text Removal",
+"published": "2022-11-12T04:04:55Z",
+"abstract": "Scene text removal aims to remove the text and fill the regions with perceptually plausible background information in natural images. It has attracted increasing attention due to its various applications in privacy protection, scene text retrieval, and text editing. With the development of deep learning, the previous methods have achieved significant improvements. However, most of the existing methods seem to ignore the large perceptive fields and global information. The pioneer method can get significant improvements by only changing training data from the cropped image to the full image. In ",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2403.08007v1": {
+"id": "http://arxiv.org/abs/2403.08007v1",
+"title": "IndicSTR12: A Dataset for Indic Scene Text Recognition",
+"published": "2024-03-12T18:14:48Z",
+"abstract": "The importance of Scene Text Recognition (STR) in today's increasingly digital world cannot be overstated. Given the significance of STR, data intensive deep learning approaches that auto-learn feature mappings have primarily driven the development of STR solutions. Several benchmark datasets and substantial work on deep learning models are available for Latin languages to meet this need. On more complex, syntactically and semantically, Indian languages spoken and read by 1.3 billion people, there is less work and datasets available. This paper aims to address the Indian space's lack of a comp",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2311.13120v3": {
+"id": "http://arxiv.org/abs/2311.13120v3",
+"title": "Multi-modal In-Context Learning Makes an Ego-evolving Scene Text Recognizer",
+"published": "2023-11-22T02:46:57Z",
+"abstract": "Scene text recognition (STR) in the wild frequently encounters challenges when coping with domain variations, font diversity, shape deformations, etc. A straightforward solution is performing model fine-tuning tailored to a specific scenario, but it is computationally intensive and requires multiple model copies for various scenarios. Recent studies indicate that large language models (LLMs) can learn from a few demonstration examples in a training-free manner, termed \"In-Context Learning\" (ICL). Nevertheless, applying LLMs as a text recognizer is unacceptably resource-consuming. Moreover, our",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2103.06495v1": {
+"id": "http://arxiv.org/abs/2103.06495v1",
+"title": "Read Like Humans: Autonomous, Bidirectional and Iterative Language Modeling for Scene Text Recognition",
+"published": "2021-03-11T06:47:45Z",
+"abstract": "Linguistic knowledge is of great benefit to scene text recognition. However, how to effectively model linguistic rules in end-to-end deep networks remains a research challenge. In this paper, we argue that the limited capacity of language models comes from: 1) implicitly language modeling; 2) unidirectional feature representation; and 3) language model with noise input. Correspondingly, we propose an autonomous, bidirectional and iterative ABINet for scene text recognition. Firstly, the autonomous suggests to block gradient flow between vision and language models to enforce explicitly language",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2307.08723v2": {
+"id": "http://arxiv.org/abs/2307.08723v2",
+"title": "Revisiting Scene Text Recognition: A Data Perspective",
+"published": "2023-07-17T11:19:41Z",
+"abstract": "This paper aims to re-assess scene text recognition (STR) from a data-oriented perspective. We begin by revisiting the six commonly used benchmarks in STR and observe a trend of performance saturation, whereby only 2.91% of the benchmark images cannot be accurately recognized by an ensemble of 13 representative models. While these results are impressive and suggest that STR could be considered solved, however, we argue that this is primarily due to the less challenging nature of the common benchmarks, thus concealing the underlying issues that STR faces. To this end, we consolidate a large-sca",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2203.05122v1": {
+"id": "http://arxiv.org/abs/2203.05122v1",
+"title": "DEER: Detection-agnostic End-to-End Recognizer for Scene Text Spotting",
+"published": "2022-03-10T02:41:05Z",
+"abstract": "Recent end-to-end scene text spotters have achieved great improvement in recognizing arbitrary-shaped text instances. Common approaches for text spotting use region of interest pooling or segmentation masks to restrict features to single text instances. However, this makes it hard for the recognizer to decode correct sequences when the detection is not accurate i.e. one or more characters are cropped out. Considering that it is hard to accurately decide word boundaries with only the detector, we propose a novel Detection-agnostic End-to-End Recognizer, DEER, framework. The proposed method redu",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2112.07917v6": {
+"id": "http://arxiv.org/abs/2112.07917v6",
+"title": "SPTS: Single-Point Text Spotting",
+"published": "2021-12-15T06:44:21Z",
+"abstract": "Existing scene text spotting (i.e., end-to-end text detection and recognition) methods rely on costly bounding box annotations (e.g., text-line, word-level, or character-level bounding boxes). For the first time, we demonstrate that training scene text spotting models can be achieved with an extremely low-cost annotation of a single-point for each instance. We propose an end-to-end scene text spotting method that tackles scene text spotting as a sequence prediction task. Given an image as input, we formulate the desired detection and recognition results as a sequence of discrete tokens and use",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/1309.6691v1": {
+"id": "http://arxiv.org/abs/1309.6691v1",
+"title": "Characterness: An Indicator of Text in the Wild",
+"published": "2013-09-25T23:30:18Z",
+"abstract": "Text in an image provides vital information for interpreting its contents, and text in a scene can aide with a variety of tasks from navigation, to obstacle avoidance, and odometry. Despite its value, however, identifying general text in images remains a challenging research problem. Motivated by the need to consider the widely varying forms of natural text, we propose a bottom-up approach to the problem which reflects the `characterness' of an image region. In this sense our approach mirrors the move from saliency detection methods to measures of `objectness'. In order to measure the characte",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/1806.06208v2": {
+"id": "http://arxiv.org/abs/1806.06208v2",
+"title": "Offline Extraction of Indic Regional Language from Natural Scene Image using Text Segmentation and Deep Convolutional Sequence",
+"published": "2018-06-16T08:31:06Z",
+"abstract": "Regional language extraction from a natural scene image is always a challenging proposition due to its dependence on the text information extracted from Image. Text Extraction on the other hand varies on different lighting condition, arbitrary orientation, inadequate text information, heavy background influence over text and change of text appearance. This paper presents a novel unified method for tackling the above challenges. The proposed work uses an image correction and segmentation technique on the existing Text Detection Pipeline an Efficient and Accurate Scene Text Detector (EAST). EAST",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2507.13374v1": {
+"id": "http://arxiv.org/abs/2507.13374v1",
+"title": "Smart Routing for Multimodal Video Retrieval: When to Search What",
+"published": "2025-07-12T15:45:03Z",
+"abstract": "We introduce ModaRoute, an LLM-based intelligent routing system that dynamically selects optimal modalities for multimodal video retrieval. While dense text captions can achieve 75.9% Recall@5, they require expensive offline processing and miss critical visual information present in 34% of clips with scene text not captured by ASR. By analyzing query intent and predicting information needs, ModaRoute reduces computational overhead by 41% while achieving 60.9% Recall@5. Our approach uses GPT-4.1 to route queries across ASR (speech), OCR (text), and visual indices, averaging 1.78 modalities per ",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/1602.04348v1": {
+"id": "http://arxiv.org/abs/1602.04348v1",
+"title": "Character Proposal Network for Robust Text Extraction",
+"published": "2016-02-13T15:55:17Z",
+"abstract": "Maximally stable extremal regions (MSER), which is a popular method to generate character proposals/candidates, has shown superior performance in scene text detection. However, the pixel-level operation limits its capability for handling some challenging cases (e.g., multiple connected characters, separated parts of one character and non-uniform illumination). To better tackle these cases, we design a character proposal network (CPN) by taking advantage of the high capacity and fast computing of fully convolutional network (FCN). Specifically, the network simultaneously predicts characterness ",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2309.01380v2": {
+"id": "http://arxiv.org/abs/2309.01380v2",
+"title": "Understanding Video Scenes through Text: Insights from Text-based Video Question Answering",
+"published": "2023-09-04T06:11:00Z",
+"abstract": "Researchers have extensively studied the field of vision and language, discovering that both visual and textual content is crucial for understanding scenes effectively. Particularly, comprehending text in videos holds great significance, requiring both scene text understanding and temporal reasoning. This paper focuses on exploring two recently introduced datasets, NewsVideoQA and M4-ViteVQA, which aim to address video question answering based on textual content. The NewsVideoQA dataset contains question-answer pairs related to the text in news videos, while M4-ViteVQA comprises question-answe",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2603.13886v1": {
+"id": "http://arxiv.org/abs/2603.13886v1",
+"title": "Multi-Modal Character Localization and Extraction for Chinese Text Recognition",
+"published": "2026-03-14T10:53:47Z",
+"abstract": "Scene text recognition (STR) methods have demonstrated their excellent capability in English text images. However, due to the complex inner structures of Chinese and the extensive character categories, it poses challenges for recognizing Chinese text in images. Recently, studies have shown that the methods designed for English text recognition encounter an accuracy bottleneck when recognizing Chinese text images. This raises the question: Is it appropriate to apply the model developed for English to the Chinese STR task? To explore this issue, we propose a novel method named LER, which explici",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2012.04150v2": {
+"id": "http://arxiv.org/abs/2012.04150v2",
+"title": "Dynamic Anchor Learning for Arbitrary-Oriented Object Detection",
+"published": "2020-12-08T01:30:06Z",
+"abstract": "Arbitrary-oriented objects widely appear in natural scenes, aerial photographs, remote sensing images, etc., thus arbitrary-oriented object detection has received considerable attention. Many current rotation detectors use plenty of anchors with different orientations to achieve spatial alignment with ground truth boxes, then Intersection-over-Union (IoU) is applied to sample the positive and negative candidates for training. However, we observe that the selected positive anchors cannot always ensure accurate detections after regression, while some negative samples can achieve accurate localiz",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2404.14745v6": {
+"id": "http://arxiv.org/abs/2404.14745v6",
+"title": "You Think, You ACT: The New Task of Arbitrary Text to Motion Generation",
+"published": "2024-04-23T04:54:32Z",
+"abstract": "Text to Motion aims to generate human motions from texts. Existing settings rely on limited Action Texts that include action labels, which limits flexibility and practicability in scenarios difficult to describe directly. This paper extends limited Action Texts to arbitrary ones. Scene texts without explicit action labels can enhance the practicality of models in complex and diverse industries such as virtual human interaction, robot behavior generation, and film production, while also supporting the exploration of potential implicit behavior patterns. However, newly introduced Scene Texts may",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2306.04362v1": {
+"id": "http://arxiv.org/abs/2306.04362v1",
+"title": "Youku-mPLUG: A 10 Million Large-scale Chinese Video-Language Dataset for Pre-training and Benchmarks",
+"published": "2023-06-07T11:52:36Z",
+"abstract": "To promote the development of Vision-Language Pre-training (VLP) and multimodal Large Language Model (LLM) in the Chinese community, we firstly release the largest public Chinese high-quality video-language dataset named Youku-mPLUG, which is collected from Youku, a well-known Chinese video-sharing website, with strict criteria of safety, diversity, and quality. Youku-mPLUG contains 10 million Chinese video-text pairs filtered from 400 million raw videos across a wide range of 45 diverse categories for large-scale pre-training. In addition, to facilitate a comprehensive evaluation of video-lan",
+"queries": [
+"all:indic AND all:\"scene text\""
+]
+},
+"http://arxiv.org/abs/2608.23920v1": {
+"id": "http://arxiv.org/abs/2608.23920v1",
+"title": "Wontopos Tablet 2: Measuring Multilingual and Multimodal Memory Retrieval Without Lexical Matching",
+"published": "2026-08-24T23:54:08Z",
+"abstract": "We measure tablet-2, a production long-term memory engine for language models, on the text benchmarks the field already uses and on cross-lingual retrieval of photographs stored with no text at all. Its retrieval path contains no lexical matching, no keyword scoring, and no language model of its own. On LongMemEval-S (500 questions) it scores 95.7% [93.4, 97.1]; on BEAM-1M (700 questions, 2.21M stored memories) 67.5% [64.8, 70.2]. Those are question-sampling intervals, not the run-to-run spread, which is an order of magnitude narrower. Most of the paper is about how little they mean alone. Hol",
+"queries": [
+"all:telugu AND all:document AND all:image"
+]
+},
+"http://arxiv.org/abs/1301.0167v1": {
+"id": "http://arxiv.org/abs/1301.0167v1",
+"title": "Classifier Fusion Method to Recognize Handwritten Kannada Numerals",
+"published": "2013-01-02T04:45:44Z",
+"abstract": "Optical Character Recognition (OCR) is one of the important fields in image processing and pattern recognition domain. Handwritten character recognition has always been a challenging task. Only a little work can be traced towards the recognition of handwritten characters for the south Indian languages. Kannada is one such south Indian language which is also one of the official language of India. Accurate recognition of Kannada characters is a challenging task because of the high degree of similarity between the characters. Hence, good quality features are to be extracted and better classifiers",
+"queries": [
+"all:\"indian languages\" AND all:ocr"
+]
+},
+"http://arxiv.org/abs/2208.12666v1": {
+"id": "http://arxiv.org/abs/2208.12666v1",
+"title": "Effectiveness of Mining Audio and Text Pairs from Public Data for Improving ASR Systems for Low-Resource Languages",
+"published": "2022-08-26T13:37:45Z",
+"abstract": "End-to-end (E2E) models have become the default choice for state-of-the-art speech recognition systems. Such models are trained on large amounts of labelled data, which are often not available for low-resource languages. Techniques such as self-supervised learning and transfer learning hold promise, but have not yet been effective in training accurate models. On the other hand, collecting labelled datasets on a diverse set of domains and speakers is very expensive. In this work, we demonstrate an inexpensive and effective alternative to these approaches by ``mining'' text and audio pairs for I",
+"queries": [
+"all:\"indian languages\" AND all:ocr"
+]
+},
+"http://arxiv.org/abs/1001.5352v1": {
+"id": "http://arxiv.org/abs/1001.5352v1",
+"title": "Kannada Character Recognition System A Review",
+"published": "2010-01-29T08:29:57Z",
+"abstract": " Intensive research has been done on optical character recognition ocr and a large number of articles have been published on this topic during the last few decades. Many commercial OCR systems are now available in the market, but most of these systems work for Roman, Chinese, Japanese and Arabic characters. There are no sufficient number of works on Indian language character recognition especially Kannada script among 12 major scripts in India. This paper presents a review of existing work on printed Kannada script and their results. The characteristics of Kannada script and Kannada Character ",
+"queries": [
+"all:\"indian languages\" AND all:ocr"
+]
+},
+"http://arxiv.org/abs/2511.04727v1": {
+"id": "http://arxiv.org/abs/2511.04727v1",
+"title": "IndicVisionBench: Benchmarking Cultural and Multilingual Understanding in VLMs",
+"published": "2025-11-06T18:01:22Z",
+"abstract": "Vision-language models (VLMs) have demonstrated impressive generalization across multimodal tasks, yet most evaluation benchmarks remain Western-centric, leaving open questions about their performance in culturally diverse and multilingual settings. To address this gap, we introduce IndicVisionBench, the first large-scale benchmark centered on the Indian subcontinent. Covering English and 10 Indian languages, our benchmark spans 3 multimodal tasks, including Optical Character Recognition (OCR), Multimodal Machine Translation (MMT), and Visual Question Answering (VQA), covering 6 kinds of quest",
+"queries": [
+"all:\"indian languages\" AND all:ocr"
+]
+},
+"http://arxiv.org/abs/2402.09811v1": {
+"id": "http://arxiv.org/abs/2402.09811v1",
+"title": "TEXTRON: Weakly Supervised Multilingual Text Detection through Data Programming",
+"published": "2024-02-15T09:18:18Z",
+"abstract": "Several recent deep learning (DL) based techniques perform considerably well on image-based multilingual text detection. However, their performance relies heavily on the availability and quality of training data. There are numerous types of page-level document images consisting of information in several modalities, languages, fonts, and layouts. This makes text detection a challenging problem in the field of computer vision (CV), especially for low-resource or handwritten languages. Furthermore, there is a scarcity of word-level labeled data for text detection, especially for multilingual sett",
+"queries": [
+"all:\"indian languages\" AND all:ocr"
+]
+},
+"http://arxiv.org/abs/2505.14381v3": {
+"id": "http://arxiv.org/abs/2505.14381v3",
+"title": "SCAN: Semantic Document Layout Analysis for Textual and Visual Retrieval-Augmented Generation",
+"published": "2025-05-20T14:03:24Z",
+"abstract": "With the increasing adoption of Large Language Models (LLMs) and Vision-Language Models (VLMs), rich document analysis technologies for applications like Retrieval-Augmented Generation (RAG) and visual RAG are gaining significant attention. Recent research indicates that using VLMs yields better RAG performance, but processing rich documents remains a challenge since a single page contains large amounts of information. In this paper, we present SCAN (SemantiC Document Layout ANalysis), a novel approach that enhances both textual and visual Retrieval-Augmented Generation (RAG) systems that work",
+"queries": [
+"all:indic AND all:\"document layout\""
+]
+},
+"http://arxiv.org/abs/2606.17644v1": {
+"id": "http://arxiv.org/abs/2606.17644v1",
+"title": "Bounding Box Label Propagation for Re-Annotation of Document Layout Analysis Datasets",
+"published": "2026-06-16T08:04:27Z",
+"abstract": "Datasets in practical document processing scenarios typically grow over time, and their class annotations undergo continuous refinement. This creates significant re-annotation efforts, which are time-consuming and costly. A promising remedy is to re-annotate only a small subset of available documents manually and apply semi-supervised learning techniques that leverage both labelled and unlabelled data. Although there are numerous approaches to tackle this problem for classification, there exists no adaptation for the problem of re-classifying object detection instances, e.g. for document layou",
+"queries": [
+"all:indic AND all:\"document layout\""
+]
+},
+"http://arxiv.org/abs/2110.11864v1": {
+"id": "http://arxiv.org/abs/2110.11864v1",
+"title": "Deep learning-based NLP Data Pipeline for EHR Scanned Document Information Extraction",
+"published": "2021-09-14T03:56:56Z",
+"abstract": "Scanned documents in electronic health records (EHR) have been a challenge for decades, and are expected to stay in the foreseeable future. Current approaches for processing often include image preprocessing, optical character recognition (OCR), and text mining. However, there is limited work that evaluates the choice of image preprocessing methods, the selection of NLP models, and the role of document layout. The impact of each element remains unknown. We evaluated this method on a use case of two key indicators for sleep apnea, Apnea hypopnea index (AHI) and oxygen saturation (SaO2) values, ",
+"queries": [
+"all:indic AND all:\"document layout\""
+]
+},
+"http://arxiv.org/abs/2402.09841v1": {
+"id": "http://arxiv.org/abs/2402.09841v1",
+"title": "LAPDoc: Layout-Aware Prompting for Documents",
+"published": "2024-02-15T10:00:49Z",
+"abstract": "Recent advances in training large language models (LLMs) using massive amounts of solely textual data lead to strong generalization across many domains and tasks, including document-specific tasks. Opposed to that there is a trend to train multi-modal transformer architectures tailored for document understanding that are designed specifically to fuse textual inputs with the corresponding document layout. This involves a separate fine-tuning step for which additional training data is required. At present, no document transformers with comparable generalization to LLMs are available That raises ",
+"queries": [
+"all:indic AND all:\"document layout\""
+]
+},
+"http://arxiv.org/abs/2402.14579v1": {
+"id": "http://arxiv.org/abs/2402.14579v1",
+"title": "Text Role Classification in Scientific Charts Using Multimodal Transformers",
+"published": "2024-02-08T13:21:44Z",
+"abstract": "Text role classification involves classifying the semantic role of textual elements within scientific charts. For this task, we propose to finetune two pretrained multimodal document layout analysis models, LayoutLMv3 and UDOP, on chart datasets. The transformers utilize the three modalities of text, image, and layout as input. We further investigate whether data augmentation and balancing methods help the performance of the models. The models are evaluated on various chart datasets, and results show that LayoutLMv3 outperforms UDOP in all experiments. LayoutLMv3 achieves the highest F1-macro ",
+"queries": [
+"all:indic AND all:\"document layout\""
+]
+},
+"http://arxiv.org/abs/2507.05805v1": {
+"id": "http://arxiv.org/abs/2507.05805v1",
+"title": "DREAM: Document Reconstruction via End-to-end Autoregressive Model",
+"published": "2025-07-08T09:24:07Z",
+"abstract": "Document reconstruction constitutes a significant facet of document analysis and recognition, a field that has been progressively accruing interest within the scholarly community. A multitude of these researchers employ an array of document understanding models to generate predictions on distinct subtasks, subsequently integrating their results into a holistic document reconstruction format via heuristic principles. Nevertheless, these multi-stage methodologies are hindered by the phenomenon of error propagation, resulting in suboptimal performance. Furthermore, contemporary studies utilize ge",
+"queries": [
+"all:indic AND all:\"document layout\""
+]
+},
+"http://arxiv.org/abs/2508.06988v1": {
+"id": "http://arxiv.org/abs/2508.06988v1",
+"title": "TADoc: Robust Time-Aware Document Image Dewarping",
+"published": "2025-08-09T13:55:55Z",
+"abstract": "Flattening curved, wrinkled, and rotated document images captured by portable photographing devices, termed document image dewarping, has become an increasingly important task with the rise of digital economy and online working. Although many methods have been proposed recently, they often struggle to achieve satisfactory results when confronted with intricate document structures and higher degrees of deformation in real-world scenarios. Our main insight is that, unlike other document restoration tasks (e.g., deblurring), dewarping in real physical scenes is a progressive motion rather than a ",
+"queries": [
+"all:indic AND all:\"document layout\""
+]
+},
+"http://arxiv.org/abs/2504.13615v2": {
+"id": "http://arxiv.org/abs/2504.13615v2",
+"title": "Long-context Non-factoid Question Answering in Indic Languages",
+"published": "2025-04-18T10:43:21Z",
+"abstract": "Question Answering (QA) tasks, which involve extracting answers from a given context, are relatively straightforward for modern Large Language Models (LLMs) when the context is short. However, long contexts pose challenges due to the quadratic complexity of the self-attention mechanism. This challenge is compounded in Indic languages, which are often low-resource. This study explores context-shortening techniques, including Open Information Extraction (OIE), coreference resolution, Answer Paragraph Selection (APS), and their combinations, to improve QA performance. Compared to the baseline of ",
+"queries": [
+"all:telugu AND all:manuscript"
+]
+}
+}
+}

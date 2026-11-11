@@ -1,0 +1,338 @@
+Dataset ID,Field,URL,HTTP status,Final URL
+TOCR-001,Official webpage URL,https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data,200,https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data
+TOCR-001,Direct download URL,https://cvit.iiit.ac.in/images/Projects/wordlevel-Indicscripts/IIIT-HW-Telugu.zip,200,https://cvit.iiit.ac.in/images/Projects/wordlevel-Indicscripts/IIIT-HW-Telugu.zip
+TOCR-001,Research paper URL,https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2018/spotting-recognition-handwritten.pdf,200,https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2018/spotting-recognition-handwritten.pdf
+TOCR-002,Official webpage URL,https://ilocr.iiit.ac.in/dataset/23/,200,https://ilocr.iiit.ac.in/dataset/23/
+TOCR-002,Research paper URL,https://doi.org/10.1007/978-3-030-86337-1_30,200,https://link.springer.com/chapter/10.1007/978-3-030-86337-1_30?error=cookies_not_supported&code=2d1d0303-1439-4928-a4c6-4db2bc3b8664
+TOCR-003,Official webpage URL,https://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-indic-hw-words,200,https://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-indic-hw-words
+TOCR-003,Research paper URL,https://doi.org/10.1007/978-3-030-86337-1_30,200,https://link.springer.com/chapter/10.1007/978-3-030-86337-1_30?error=cookies_not_supported&code=2d1d0303-1439-4928-a4c6-4db2bc3b8664
+TOCR-004,Official webpage URL,https://cvit.iiit.ac.in/ihtr2022/dataset.html,200,https://cvit.iiit.ac.in/ihtr2022/dataset.html
+TOCR-005,Official webpage URL,https://ilocr.iiit.ac.in/ihtr/dataset.html,200,https://ilocr.iiit.ac.in/ihtr/dataset.html
+TOCR-005,Direct download URL,https://ilocr.iiit.ac.in/ihtr/assets/dataset/trainingset/telugu.zip,200,https://cdn.iiit.ac.in/cdn/ilocr.iiit.ac.in/ihtr/assets/dataset/trainingset/telugu.zip
+TOCR-006,Official webpage URL,https://cvit.iiit.ac.in/usodi/ucciohd.php,200,https://cvit.iiit.ac.in/usodi/ucciohd.php
+TOCR-006,Direct download URL,https://cvit.iiit.ac.in/images/datasets/indic_handwritten/telugu.zip,200,https://cvit.iiit.ac.in/images/datasets/indic_handwritten/telugu.zip
+TOCR-006,Research paper URL,https://doi.org/10.1007/978-3-031-78495-8_21,200,https://link.springer.com/chapter/10.1007/978-3-031-78495-8_21?error=cookies_not_supported&code=6ef70b7d-8162-4565-80df-13aa7e0ac16a
+TOCR-007,Official webpage URL,https://ilocr.iiit.ac.in/icdar_2024_hwd/dataset.html,200,https://ilocr.iiit.ac.in/icdar_2024_hwd/dataset.html
+TOCR-007,Direct download URL,https://ilocr.iiit.ac.in/icdar_2024_hwd/assets/dataset/IHWR-1.0/Training-Set/Word_Level_Telugu_Training_Set.zip,200,https://cdn.iiit.ac.in/cdn/ilocr.iiit.ac.in/icdar_2024_hwd/assets/dataset/IHWR-1.0/Training-Set/Word_Level_Telugu_Training_Set.zip
+TOCR-007,Research paper URL,https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2024/Competition_on_Recognition_and_VQA_on_Handwritten_Documents.pdf,200,https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2024/Competition_on_Recognition_and_VQA_on_Handwritten_Documents.pdf
+TOCR-008,Official webpage URL,https://ilocr.iiit.ac.in/icdar_2024_hwd/dataset.html,200,https://ilocr.iiit.ac.in/icdar_2024_hwd/dataset.html
+TOCR-008,Direct download URL,https://ilocr.iiit.ac.in/icdar_2024_hwd/assets/dataset/PLHWTR-1.0/Training-Set/Page_Level_Telugu_Training_Set.zip,200,https://cdn.iiit.ac.in/cdn/ilocr.iiit.ac.in/icdar_2024_hwd/assets/dataset/PLHWTR-1.0/Training-Set/Page_Level_Telugu_Training_Set.zip
+TOCR-009,Official webpage URL,https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR/dataset.html,200,https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR/dataset.html
+TOCR-010,Official webpage URL,https://lalithaevani.github.io/SemiHastakshar-page/,200,https://lalithaevani.github.io/SemiHastakshar-page/
+TOCR-010,Hugging Face URL,https://huggingface.co/datasets/evanilalitha/IIIT-INDIC-HW-WILD,200,https://huggingface.co/datasets/evanilalitha/IIIT-INDIC-HW-WILD
+TOCR-010,GitHub URL,https://github.com/LalithaEvani/SemiHastakshar,200,https://github.com/LalithaEvani/SemiHastakshar
+TOCR-010,Research paper URL,https://doi.org/10.1145/3774521.3774605,403,https://doi.org/10.1145/3774521.3774605
+TOCR-011,Official webpage URL,https://ieee-dataport.org/documents/assamese-and-telugu-handwritten-text-dataset,403,https://ieee-dataport.org/documents/assamese-and-telugu-handwritten-text-dataset
+TOCR-012,Official webpage URL,https://www.futurebeeai.com/dataset/ocr-dataset/telugu-sticky-notes-ocr-image-dataset,200,https://www.futurebeeai.com/dataset/ocr-dataset/telugu-sticky-notes-ocr-image-dataset
+TOCR-013,Official webpage URL,https://www.futurebeeai.com/dataset/ocr-dataset/telugu-shopping-list-ocr-image-dataset,200,https://www.futurebeeai.com/dataset/ocr-dataset/telugu-shopping-list-ocr-image-dataset
+TOCR-014,Official webpage URL,https://chrizandr.github.io/IIITS-THDB/,200,https://chrizandr.github.io/IIITS-THDB/
+TOCR-014,Research paper URL,https://digitalcommons.isical.ac.in/conf-articles/110,200,https://digitalcommons.isical.ac.in/conf-articles/110/
+TOCR-015,Official webpage URL,https://ieee-dataport.org/open-access/phdindic11-page-level-handwritten-document-image-dataset-11-official-indic-scripts,200,https://ieee-dataport.org/open-access/phdindic11-page-level-handwritten-document-image-dataset-11-official-indic-scripts
+TOCR-015,Research paper URL,https://doi.org/10.1007/s11042-017-4373-y,200,https://link.springer.com/article/10.1007/s11042-017-4373-y?error=cookies_not_supported&code=a380c18f-2bfb-4d49-b888-ece4f44f6960
+TOCR-016,Official webpage URL,https://huggingface.co/datasets/badrivishalk/TEXTRON_INDIC_DATASETS,200,https://huggingface.co/datasets/badrivishalk/TEXTRON_INDIC_DATASETS
+TOCR-016,Hugging Face URL,https://huggingface.co/datasets/badrivishalk/TEXTRON_INDIC_DATASETS,200,https://huggingface.co/datasets/badrivishalk/TEXTRON_INDIC_DATASETS
+TOCR-017,Official webpage URL,https://www.kaggle.com/datasets/himanshukumarrajak/indic-data,200,https://www.kaggle.com/datasets/himanshukumarrajak/indic-data
+TOCR-017,Kaggle URL,https://www.kaggle.com/datasets/himanshukumarrajak/indic-data,200,https://www.kaggle.com/datasets/himanshukumarrajak/indic-data
+TOCR-018,Official webpage URL,https://github.com/JayanthKalluri/TeluguWordRecognizer,200,https://github.com/JayanthKalluri/TeluguWordRecognizer
+TOCR-018,Direct download URL,https://drive.google.com/drive/folders/1OWdHJhDH-x6n257ck4avON7eIybb5aIR,200,https://accounts.google.com/v3/signin/identifier?continue=https://drive.google.com/drive/folders/1OWdHJhDH-x6n257ck4avON7eIybb5aIR&followup=https://drive.google.com/drive/folders/1OWdHJhDH-x6n257ck4avON7eIybb5aIR&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S456655422:1794384237259045
+TOCR-018,GitHub URL,https://github.com/JayanthKalluri/TeluguWordRecognizer,200,https://github.com/JayanthKalluri/TeluguWordRecognizer
+TOCR-019,Official webpage URL,https://universe.roboflow.com/teluguocr/telugu-handwritten-ocr,403,https://universe.roboflow.com/teluguocr/telugu-handwritten-ocr
+TOCR-020,Official webpage URL,https://universe.roboflow.com/centurion-university-n60kx/telugu-handwritten,403,https://universe.roboflow.com/centurion-university-n60kx/telugu-handwritten
+TOCR-021,Official webpage URL,https://lipitk.sourceforge.net/datasets/teluguchardata.htm,200,https://lipitk.sourceforge.net/datasets/teluguchardata.htm
+TOCR-022,Official webpage URL,https://ieee-dataport.org/documents/offline-handwritten-telugu-characters,200,https://ieee-dataport.org/documents/offline-handwritten-telugu-characters
+TOCR-022,Zenodo / Figshare / archive URL,https://dspace.uohyd.ac.in/handle/1/8547,503,https://dspace.uohyd.ac.in/handle/1/8547
+TOCR-022,Research paper URL,https://doi.org/10.1109/indicon47234.2019.9028977,202,https://ieeexplore.ieee.org/document/9028977/
+TOCR-023,Official webpage URL,https://doi.org/10.1007/978-3-031-07005-1_22,200,https://link.springer.com/chapter/10.1007/978-3-031-07005-1_22?error=cookies_not_supported&code=08810366-96d1-4605-a457-bb82a10e32aa
+TOCR-023,Research paper URL,https://doi.org/10.1007/978-3-031-07005-1_22,200,https://link.springer.com/chapter/10.1007/978-3-031-07005-1_22?error=cookies_not_supported&code=08810366-96d1-4605-a457-bb82a10e32aa
+TOCR-024,Official webpage URL,https://ieee-dataport.org/open-access/telugu-handwritten-character-dataset,200,https://ieee-dataport.org/open-access/telugu-handwritten-character-dataset
+TOCR-024,Research paper URL,https://doi.org/10.1007/978-981-16-7330-6_74,200,https://link.springer.com/chapter/10.1007/978-981-16-7330-6_74?error=cookies_not_supported&code=6f320bbe-f055-4b3a-bd91-bb25349c140c
+TOCR-025,Official webpage URL,https://www.kaggle.com/datasets/sarath02003/telugu-handwritten,200,https://www.kaggle.com/datasets/sarath02003/telugu-handwritten
+TOCR-025,Kaggle URL,https://www.kaggle.com/datasets/pavankalyand515/data-telugu-handwritten,200,https://www.kaggle.com/datasets/pavankalyand515/data-telugu-handwritten
+TOCR-026,Official webpage URL,https://ieee-dataport.org/documents/telugu-handwritten-vowels,200,https://ieee-dataport.org/documents/telugu-handwritten-vowels
+TOCR-026,Research paper URL,https://doi.org/10.3138/jmbs-27676-sujjuri,403,https://doi.org/10.3138/jmbs-27676-sujjuri
+TOCR-027,Official webpage URL,https://doi.org/10.21227/phg6-m127,404,https://doi.org/10.21227/phg6-m127
+TOCR-028,Official webpage URL,https://ieee-dataport.org/documents/astel-offline-assamese-and-telugu-handwritten-characters,403,https://ieee-dataport.org/documents/astel-offline-assamese-and-telugu-handwritten-characters
+TOCR-028,Research paper URL,https://doi.org/10.1007/s13369-025-10169-y,200,https://link.springer.com/article/10.1007/s13369-025-10169-y?error=cookies_not_supported&code=c42ce8e8-afb7-4621-87eb-d18b20367bff
+TOCR-029,Official webpage URL,https://ieee-dataport.org/documents/handwritten-telugu-alphabet-dataset-vowels-and-consonants-varnamala-ocr-and-pattern,200,https://ieee-dataport.org/documents/handwritten-telugu-alphabet-dataset-vowels-and-consonants-varnamala-ocr-and-pattern
+TOCR-030,Official webpage URL,https://data.mendeley.com/datasets/r5vjyykm3x/1,200,https://data.mendeley.com/datasets/r5vjyykm3x/1
+TOCR-031,Official webpage URL,https://data.mendeley.com/datasets/mpjbr7nfv9/1,200,https://data.mendeley.com/datasets/mpjbr7nfv9/1
+TOCR-032,Official webpage URL,https://www.tensorflow.org/datasets/catalog/cmaterdb,200,https://www.tensorflow.org/datasets/catalog/cmaterdb
+TOCR-032,GitHub URL,https://github.com/prabhuomkar/CMATERdb,200,https://github.com/prabhuomkar/CMATERdb
+TOCR-032,Research paper URL,https://doi.org/10.1016/j.asoc.2011.11.030,200,https://linkinghub.elsevier.com/retrieve/pii/S1568494611004728
+TOCR-033,Official webpage URL,https://arxiv.org/abs/2004.03848,200,https://arxiv.org/abs/2004.03848
+TOCR-033,Research paper URL,https://arxiv.org/abs/2004.03848,200,https://arxiv.org/abs/2004.03848
+TOCR-034,Official webpage URL,https://www.kaggle.com/datasets/ayu8sh/hdr-datasets,200,https://www.kaggle.com/datasets/ayu8sh/hdr-datasets
+TOCR-034,Kaggle URL,https://www.kaggle.com/datasets/ayu8sh/hdr-datasets,200,https://www.kaggle.com/datasets/ayu8sh/hdr-datasets
+TOCR-035,Official webpage URL,https://www.kaggle.com/datasets/syamkakarla/telugu-6-vowel-dataset,200,https://www.kaggle.com/datasets/syamkakarla/telugu-6-vowel-dataset
+TOCR-035,GitHub URL,https://github.com/syamkakarla98/Telugu_Character_Recognition,200,https://github.com/syamkakarla98/Telugu_Character_Recognition
+TOCR-035,Kaggle URL,https://www.kaggle.com/datasets/syamkakarla/telugu-6-vowel-dataset,200,https://www.kaggle.com/datasets/syamkakarla/telugu-6-vowel-dataset
+TOCR-036,Official webpage URL,https://www.kaggle.com/datasets/bhaveshkarapu/handwritten-telugu-characters,200,https://www.kaggle.com/datasets/bhaveshkarapu/handwritten-telugu-characters
+TOCR-036,Kaggle URL,https://www.kaggle.com/datasets/bhaveshkarapu/handwritten-telugu-characters,200,https://www.kaggle.com/datasets/bhaveshkarapu/handwritten-telugu-characters
+TOCR-037,Official webpage URL,https://zenodo.org/records/10530992,200,https://zenodo.org/records/10530992
+TOCR-037,Research paper URL,https://doi.org/10.11591/ijres.v13.i1.pp217-226,200,https://ijres.iaescore.com/index.php/IJRES/article/view/20760
+TOCR-038,Official webpage URL,https://github.com/axlevisu/CNN-Telugu-OCR,200,https://github.com/axlevisu/CNN-Telugu-OCR
+TOCR-038,GitHub URL,https://github.com/axlevisu/CNN-Telugu-OCR,200,https://github.com/axlevisu/CNN-Telugu-OCR
+TOCR-039,Official webpage URL,https://github.com/srikarym/OCR_Telugu_code,200,https://github.com/srikarym/OCR_Telugu_code
+TOCR-039,Direct download URL,https://drive.google.com/file/d/1ucYy_Emht9MRLjQPaUydSKZzN1ZQ77dd/view,404,https://drive.google.com/file/d/1ucYy_Emht9MRLjQPaUydSKZzN1ZQ77dd/view
+TOCR-039,GitHub URL,https://github.com/srikarym/OCR_Telugu_code,200,https://github.com/srikarym/OCR_Telugu_code
+TOCR-040,Official webpage URL,https://github.com/Mitradatta/Telugu-Character-Recognition,200,https://github.com/Mitradatta/Telugu-Character-Recognition
+TOCR-040,GitHub URL,https://github.com/Mitradatta/Telugu-Character-Recognition,200,https://github.com/Mitradatta/Telugu-Character-Recognition
+TOCR-041,Official webpage URL,https://cvit.iiit.ac.in/usodi/tdocrmil.php,200,https://cvit.iiit.ac.in/usodi/tdocrmil.php
+TOCR-041,Hugging Face URL,https://huggingface.co/datasets/darknight054/indic-mozhi-ocr,200,https://huggingface.co/datasets/darknight054/indic-mozhi-ocr
+TOCR-041,Zenodo / Figshare / archive URL,https://ilocr.iiit.ac.in/dataset/14/,500,https://ilocr.iiit.ac.in/dataset/14/
+TOCR-041,Research paper URL,https://arxiv.org/abs/2205.06740,200,https://arxiv.org/abs/2205.06740
+TOCR-042,Official webpage URL,https://huggingface.co/datasets/darknight054/indic-mozhi-ocr,200,https://huggingface.co/datasets/darknight054/indic-mozhi-ocr
+TOCR-042,Hugging Face URL,https://huggingface.co/datasets/darknight054/indic-mozhi-ocr,200,https://huggingface.co/datasets/darknight054/indic-mozhi-ocr
+TOCR-043,Official webpage URL,https://doi.org/10.1109/DAS.2016.68,202,https://ieeexplore.ieee.org/document/7490115/
+TOCR-043,Research paper URL,https://doi.org/10.1109/DAS.2016.68,202,https://ieeexplore.ieee.org/document/7490115/
+TOCR-045,Official webpage URL,https://doi.org/10.1007/978-1-84800-330-9_1,200,https://link.springer.com/chapter/10.1007/978-1-84800-330-9_1?error=cookies_not_supported&code=2a4f4e3e-73ef-42a2-9bd0-271b392f88f8
+TOCR-045,Research paper URL,https://doi.org/10.1007/978-1-84800-330-9_1,200,https://link.springer.com/chapter/10.1007/978-1-84800-330-9_1?error=cookies_not_supported&code=2a4f4e3e-73ef-42a2-9bd0-271b392f88f8
+TOCR-046,Official webpage URL,https://tdil-dc.in/index.php?lang=en&option=com_download&task=showresourceDetails&toolid=264,ERR URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certi,https://tdil-dc.in/index.php?lang=en&option=com_download&task=showresourceDetails&toolid=264
+TOCR-047,Official webpage URL,http://scis.uohyd.ac.in/~chakcs/UHTelPCC.html,404,http://scis.uohyd.ac.in/~chakcs/UHTelPCC.html
+TOCR-047,Zenodo / Figshare / archive URL,https://dspace.uohyd.ac.in/handle/1/8703,503,https://dspace.uohyd.ac.in/handle/1/8703
+TOCR-047,Research paper URL,https://doi.org/10.1007/978-981-13-9187-3_3,200,https://link.springer.com/chapter/10.1007/978-981-13-9187-3_3?error=cookies_not_supported&code=1f10dada-ef39-422e-a6d4-2caf7a40e53a
+TOCR-048,Official webpage URL,https://scis.uohyd.ac.in/~chakcs/datasets/UHIndicPCwS.html,200,https://scis.uohyd.ac.in/~chakcs/datasets/UHIndicPCwS.html
+TOCR-048,Direct download URL,https://scis.uohyd.ac.in/~chakcs/datasets/UHIndicPCwS.pkl,200,https://scis.uohyd.ac.in/~chakcs/datasets/UHIndicPCwS.pkl
+TOCR-049,Official webpage URL,https://te.wikisource.org/,200,https://te.wikisource.org/wiki/%E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF_%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80
+TOCR-049,Direct download URL,https://dumps.wikimedia.org/tewikisource/,200,https://dumps.wikimedia.org/tewikisource/
+TOCR-050,Official webpage URL,https://huggingface.co/datasets/AlbertoChestnut/telugu-ocr,200,https://huggingface.co/datasets/AlbertoChestnut/telugu-ocr
+TOCR-050,Hugging Face URL,https://huggingface.co/datasets/AlbertoChestnut/telugu-ocr,200,https://huggingface.co/datasets/AlbertoChestnut/telugu-ocr
+TOCR-051,Official webpage URL,https://huggingface.co/datasets/harsha-desaraju/telugu-wikisource-text-images,200,https://huggingface.co/datasets/harsha-desaraju/telugu-wikisource-text-images
+TOCR-051,Hugging Face URL,https://huggingface.co/datasets/harsha-desaraju/telugu-wikisource-text-images,200,https://huggingface.co/datasets/harsha-desaraju/telugu-wikisource-text-images
+TOCR-051,GitHub URL,https://github.com/harsha-desaraju/TeluguOCR,200,https://github.com/harsha-desaraju/TeluguOCR
+TOCR-052,Official webpage URL,https://huggingface.co/datasets/harsha-desaraju/telugu-line-ocr-bench,200,https://huggingface.co/datasets/harsha-desaraju/telugu-line-ocr-bench
+TOCR-052,Hugging Face URL,https://huggingface.co/datasets/harsha-desaraju/telugu-line-ocr-bench,200,https://huggingface.co/datasets/harsha-desaraju/telugu-line-ocr-bench
+TOCR-053,Official webpage URL,https://huggingface.co/datasets/harsha-desaraju/telugu-line-text-image,200,https://huggingface.co/datasets/harsha-desaraju/telugu-line-text-image
+TOCR-053,Hugging Face URL,https://huggingface.co/datasets/harsha-desaraju/telugu-line-text-image,200,https://huggingface.co/datasets/harsha-desaraju/telugu-line-text-image
+TOCR-054,Official webpage URL,https://huggingface.co/datasets/harsha-desaraju/Telugu-book-text-images,200,https://huggingface.co/datasets/harsha-desaraju/Telugu-book-text-images
+TOCR-054,Hugging Face URL,https://huggingface.co/datasets/harsha-desaraju/Telugu-book-text-images,200,https://huggingface.co/datasets/harsha-desaraju/Telugu-book-text-images
+TOCR-055,Official webpage URL,https://huggingface.co/datasets/harsha-desaraju/telugu-book-line-images,200,https://huggingface.co/datasets/harsha-desaraju/telugu-book-line-images
+TOCR-055,Hugging Face URL,https://huggingface.co/datasets/harsha-desaraju/telugu-book-line-images,200,https://huggingface.co/datasets/harsha-desaraju/telugu-book-line-images
+TOCR-056,Official webpage URL,https://huggingface.co/datasets/harsha-desaraju/consensus-labelling,200,https://huggingface.co/datasets/harsha-desaraju/consensus-labelling
+TOCR-056,Hugging Face URL,https://huggingface.co/datasets/harsha-desaraju/consensus-labelling,200,https://huggingface.co/datasets/harsha-desaraju/consensus-labelling
+TOCR-057,Official webpage URL,https://huggingface.co/datasets/harsha-desaraju/telugu-pdf-line-image-text,200,https://huggingface.co/datasets/harsha-desaraju/telugu-pdf-line-image-text
+TOCR-057,Hugging Face URL,https://huggingface.co/datasets/harsha-desaraju/telugu-pdf-line-image-text,200,https://huggingface.co/datasets/harsha-desaraju/telugu-pdf-line-image-text
+TOCR-058,Official webpage URL,https://huggingface.co/datasets/Divs0910/telugu-ocr-dataset,200,https://huggingface.co/datasets/Divs0910/telugu-ocr-dataset
+TOCR-058,Hugging Face URL,https://huggingface.co/datasets/Divs0910/telugu-ocr-dataset,200,https://huggingface.co/datasets/Divs0910/telugu-ocr-dataset
+TOCR-058,GitHub URL,https://github.com/DIVYANSH-TEJA-09/telugu-ocr-dataset,200,https://github.com/DIVYANSH-TEJA-09/telugu-ocr-dataset
+TOCR-059,Official webpage URL,https://huggingface.co/datasets/sarvamai/indic-ocr-bench,200,https://huggingface.co/datasets/sarvamai/indic-ocr-bench
+TOCR-059,Hugging Face URL,https://huggingface.co/datasets/sarvamai/indic-ocr-bench,200,https://huggingface.co/datasets/sarvamai/indic-ocr-bench
+TOCR-060,Official webpage URL,https://huggingface.co/datasets/onath/indicdlp-eval-set-22-sample,200,https://huggingface.co/datasets/onath/indicdlp-eval-set-22-sample
+TOCR-060,Hugging Face URL,https://huggingface.co/datasets/onath/indicdlp-eval-set-22-sample,200,https://huggingface.co/datasets/onath/indicdlp-eval-set-22-sample
+TOCR-061,Official webpage URL,https://huggingface.co/datasets/Cognitive-Lab/NayanaOCRBench_Natural,200,https://huggingface.co/datasets/Cognitive-Lab/NayanaOCRBench_Natural
+TOCR-061,Hugging Face URL,https://huggingface.co/datasets/Cognitive-Lab/NayanaOCRBench_Natural,200,https://huggingface.co/datasets/Cognitive-Lab/NayanaOCRBench_Natural
+TOCR-062,Official webpage URL,https://huggingface.co/datasets/meharuhanzz/OCR-Bench1000-Telugu,200,https://huggingface.co/datasets/meharuhanzz/OCR-Bench1000-Telugu
+TOCR-062,Hugging Face URL,https://huggingface.co/datasets/meharuhanzz/OCR-Bench1000-Telugu,200,https://huggingface.co/datasets/meharuhanzz/OCR-Bench1000-Telugu
+TOCR-063,Official webpage URL,https://huggingface.co/datasets/kailasa-ngpt/gemini-3.7-flash-ocr-26-aug-2026,200,https://huggingface.co/datasets/kailasa-ngpt/gemini-3.7-flash-ocr-26-aug-2026
+TOCR-063,Hugging Face URL,https://huggingface.co/datasets/kailasa-ngpt/gemini-3.7-flash-ocr-26-aug-2026,200,https://huggingface.co/datasets/kailasa-ngpt/gemini-3.7-flash-ocr-26-aug-2026
+TOCR-064,Official webpage URL,https://zenodo.org/records/16778120,200,https://zenodo.org/records/16778120
+TOCR-064,Research paper URL,https://doi.org/10.5281/zenodo.16778120,200,https://zenodo.org/records/16778120
+TOCR-065,Official webpage URL,https://www.futurebeeai.com/dataset/ocr-dataset/telugu-newspaper-book-magazine-ocr-image-dataset,200,https://www.futurebeeai.com/dataset/ocr-dataset/telugu-newspaper-book-magazine-ocr-image-dataset
+TOCR-066,Official webpage URL,https://www.futurebeeai.com/dataset/ocr-dataset/telugu-product-image-ocr-dataset,200,https://www.futurebeeai.com/dataset/ocr-dataset/telugu-product-image-ocr-dataset
+TOCR-067,Official webpage URL,https://github.com/diuguide/telugu-ocr,200,https://github.com/diuguide/telugu-ocr
+TOCR-067,GitHub URL,https://github.com/diuguide/telugu-ocr,200,https://github.com/diuguide/telugu-ocr
+TOCR-068,Official webpage URL,https://github.com/Pumapumapumas/ml-class-project,200,https://github.com/Pumapumapumas/ml-class-project
+TOCR-068,GitHub URL,https://github.com/Pumapumapumas/ml-class-project,200,https://github.com/Pumapumapumas/ml-class-project
+TOCR-069,Official webpage URL,https://github.com/ChillarAnand/likitham,200,https://github.com/ChillarAnand/likitham
+TOCR-069,GitHub URL,https://github.com/ChillarAnand/likitham,200,https://github.com/ChillarAnand/likitham
+TOCR-070,Official webpage URL,https://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-ilst,200,https://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-ilst
+TOCR-070,Direct download URL,https://cvit.iiit.ac.in/images/datasets/iiit-ilst/IIIT-ILST.zip,200,https://cvit.iiit.ac.in/images/datasets/iiit-ilst/IIIT-ILST.zip
+TOCR-070,GitHub URL,https://github.com/mineshmathew/IndicSceneTextRendering,200,https://github.com/mineshmathew/IndicSceneTextRendering
+TOCR-070,Research paper URL,https://arxiv.org/abs/2104.04437,200,https://arxiv.org/abs/2104.04437
+TOCR-071,Official webpage URL,https://cvit.iiit.ac.in/research/projects/cvit-projects/indicstr,200,https://cvit.iiit.ac.in/research/projects/cvit-projects/indicstr
+TOCR-071,Direct download URL,https://cvit.iiit.ac.in/images/datasets/IndicSTR12/real.zip,200,https://cvit.iiit.ac.in/images/datasets/IndicSTR12/real.zip
+TOCR-071,GitHub URL,https://github.com/harshlunia7/IndicSTR12_ICDAR,200,https://github.com/harshlunia7/IndicSTR12_ICDAR
+TOCR-071,Research paper URL,https://arxiv.org/abs/2403.08007,200,https://arxiv.org/abs/2403.08007
+TOCR-072,Official webpage URL,https://ilocr.iiit.ac.in/dataset/36/,200,https://ilocr.iiit.ac.in/dataset/36/
+TOCR-073,Official webpage URL,https://huggingface.co/datasets/darknight054/indicstr12-crops,200,https://huggingface.co/datasets/darknight054/indicstr12-crops
+TOCR-073,Hugging Face URL,https://huggingface.co/datasets/darknight054/indicstr12-crops,200,https://huggingface.co/datasets/darknight054/indicstr12-crops
+TOCR-074,Official webpage URL,https://huggingface.co/datasets/darknight054/indicstr12-full,200,https://huggingface.co/datasets/darknight054/indicstr12-full
+TOCR-074,Hugging Face URL,https://huggingface.co/datasets/darknight054/indicstr12-full,200,https://huggingface.co/datasets/darknight054/indicstr12-full
+TOCR-075,Official webpage URL,https://huggingface.co/datasets/ananya12k/INDICSTR12_REAL_IMAGES,200,https://huggingface.co/datasets/ananya12k/INDICSTR12_REAL_IMAGES
+TOCR-075,Hugging Face URL,https://huggingface.co/datasets/ananya12k/INDICSTR12_REAL_IMAGES,200,https://huggingface.co/datasets/ananya12k/INDICSTR12_REAL_IMAGES
+TOCR-076,Official webpage URL,https://huggingface.co/datasets/jai23023/indicstr12-signboards,200,https://huggingface.co/datasets/jai23023/indicstr12-signboards
+TOCR-076,Hugging Face URL,https://huggingface.co/datasets/jai23023/indicstr12-signboards,200,https://huggingface.co/datasets/jai23023/indicstr12-signboards
+TOCR-077,Official webpage URL,https://www.kaggle.com/datasets/prathmeshzade/indicstr12-indic-scene-text-recognition,200,https://www.kaggle.com/datasets/prathmeshzade/indicstr12-indic-scene-text-recognition
+TOCR-077,Kaggle URL,https://www.kaggle.com/datasets/prathmeshzade/indicstr12-indic-scene-text-recognition,200,https://www.kaggle.com/datasets/prathmeshzade/indicstr12-indic-scene-text-recognition
+TOCR-077,Zenodo / Figshare / archive URL,https://www.kaggle.com/dsv/13849272,200,https://www.kaggle.com/datasets/prathmeshzade/indicstr12-indic-scene-text-recognition/versions/1
+TOCR-078,Official webpage URL,https://www.kaggle.com/datasets/srivarshachivukula5/telugu-scene-text,200,https://www.kaggle.com/datasets/srivarshachivukula5/telugu-scene-text
+TOCR-078,Kaggle URL,https://www.kaggle.com/datasets/srivarshachivukula5/telugu-scene-text,200,https://www.kaggle.com/datasets/srivarshachivukula5/telugu-scene-text
+TOCR-079,Official webpage URL,https://cvit.iiit.ac.in/usodi/istr.php,200,https://cvit.iiit.ac.in/usodi/istr.php
+TOCR-079,Direct download URL,https://cvit.iiit.ac.in/images/datasets/indic_scene_text_roadside/telugu.tar.gz,200,https://cvit.iiit.ac.in/images/datasets/indic_scene_text_roadside/telugu.tar.gz
+TOCR-080,Official webpage URL,https://ilocr.iiit.ac.in/icpr_2024_wirindic/dataset.html,200,https://ilocr.iiit.ac.in/icpr_2024_wirindic/dataset.html
+TOCR-081,Official webpage URL,https://huggingface.co/datasets/Saumya-Mundra/MIST-Dataset,200,https://huggingface.co/datasets/Saumya-Mundra/MIST-Dataset
+TOCR-081,Hugging Face URL,https://huggingface.co/datasets/Saumya-Mundra/MIST-Dataset,200,https://huggingface.co/datasets/Saumya-Mundra/MIST-Dataset
+TOCR-082,Official webpage URL,https://github.com/Bhashini-IITJ/BharatSceneTextDataset,200,https://github.com/Bhashini-IITJ/BharatSceneTextDataset
+TOCR-082,Direct download URL,https://drive.google.com/file/d/1d8yOLWrStRTmB8nIJG3mi-w5P9IzB_z8,200,https://drive.google.com/file/d/1d8yOLWrStRTmB8nIJG3mi-w5P9IzB_z8/edit
+TOCR-082,Hugging Face URL,https://huggingface.co/datasets/Bhashini-IITJ/Bharat-Scene-Text-Dataset,200,https://huggingface.co/datasets/Bhashini-IITJ/Bharat-Scene-Text-Dataset
+TOCR-082,GitHub URL,https://github.com/Bhashini-IITJ/BharatSceneTextDataset,200,https://github.com/Bhashini-IITJ/BharatSceneTextDataset
+TOCR-082,Research paper URL,https://arxiv.org/abs/2511.23071,200,https://arxiv.org/abs/2511.23071
+TOCR-083,Official webpage URL,https://huggingface.co/datasets/Bhashini-IITJ/Bharat-Scene-Text-Dataset,200,https://huggingface.co/datasets/Bhashini-IITJ/Bharat-Scene-Text-Dataset
+TOCR-083,Hugging Face URL,https://huggingface.co/datasets/Bhashini-IITJ/Bharat-Scene-Text-Dataset,200,https://huggingface.co/datasets/Bhashini-IITJ/Bharat-Scene-Text-Dataset
+TOCR-084,Official webpage URL,https://huggingface.co/datasets/Litap007/indic-citizen-information-board,200,https://huggingface.co/datasets/Litap007/indic-citizen-information-board
+TOCR-084,Hugging Face URL,https://huggingface.co/datasets/Litap007/indic-citizen-information-board,200,https://huggingface.co/datasets/Litap007/indic-citizen-information-board
+TOCR-085,Official webpage URL,https://www.kaggle.com/datasets/surajx7x/new-dataset,200,https://www.kaggle.com/datasets/surajx7x/new-dataset
+TOCR-085,Kaggle URL,https://www.kaggle.com/datasets/surajx7x/new-dataset,200,https://www.kaggle.com/datasets/surajx7x/new-dataset
+TOCR-086,Official webpage URL,https://ilocr.iiit.ac.in/dataset/40/,200,https://ilocr.iiit.ac.in/dataset/40/
+TOCR-086,Direct download URL,https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/telugu/IIIT-Synthetic-M-Telugu/train.zip,200,https://cdn.iiit.ac.in/cdn/ilocr.iiit.ac.in/public/printed/phase-0/v0.5/telugu/IIIT-Synthetic-M-Telugu/train.zip
+TOCR-087,Official webpage URL,https://ilocr.iiit.ac.in/dataset/55/,200,https://ilocr.iiit.ac.in/dataset/55/
+TOCR-088,Official webpage URL,https://ilocr.iiit.ac.in/dataset/68/,200,https://ilocr.iiit.ac.in/dataset/68/
+TOCR-089,Official webpage URL,https://cvit.iiit.ac.in/research/projects/cvit-projects/indicstr,200,https://cvit.iiit.ac.in/research/projects/cvit-projects/indicstr
+TOCR-089,Direct download URL,https://cvit.iiit.ac.in/images/datasets/IndicSTR12/synthetic.tar.gz,200,https://cvit.iiit.ac.in/images/datasets/IndicSTR12/synthetic.tar.gz
+TOCR-089,Research paper URL,https://arxiv.org/abs/2403.08007,200,https://arxiv.org/abs/2403.08007
+TOCR-090,Official webpage URL,https://www.kaggle.com/datasets/gottumukkalamadhuri/telugu-scene-text-iiit,200,https://www.kaggle.com/datasets/gottumukkalamadhuri/telugu-scene-text-iiit
+TOCR-090,Kaggle URL,https://www.kaggle.com/datasets/gottumukkalamadhuri/telugu-scene-text-iiit,200,https://www.kaggle.com/datasets/gottumukkalamadhuri/telugu-scene-text-iiit
+TOCR-091,Official webpage URL,https://www.kaggle.com/datasets/gottumukkalamadhuri/telugu-handwritten-dataset,200,https://www.kaggle.com/datasets/gottumukkalamadhuri/telugu-handwritten-dataset
+TOCR-091,Kaggle URL,https://www.kaggle.com/datasets/gottumukkalamadhuri/telugu-handwritten-dataset,200,https://www.kaggle.com/datasets/gottumukkalamadhuri/telugu-handwritten-dataset
+TOCR-092,Official webpage URL,https://huggingface.co/datasets/gksriharsha/chitralekha,200,https://huggingface.co/datasets/gksriharsha/chitralekha
+TOCR-092,Hugging Face URL,https://huggingface.co/datasets/gksriharsha/chitralekha,200,https://huggingface.co/datasets/gksriharsha/chitralekha
+TOCR-093,Official webpage URL,https://huggingface.co/datasets/harsha-desaraju/telugu-synthetic-line-images,200,https://huggingface.co/datasets/harsha-desaraju/telugu-synthetic-line-images
+TOCR-093,Hugging Face URL,https://huggingface.co/datasets/harsha-desaraju/telugu-synthetic-line-images,200,https://huggingface.co/datasets/harsha-desaraju/telugu-synthetic-line-images
+TOCR-094,Official webpage URL,https://huggingface.co/datasets/harsha-desaraju/Telugu-text-image,200,https://huggingface.co/datasets/harsha-desaraju/Telugu-text-image
+TOCR-094,Hugging Face URL,https://huggingface.co/datasets/harsha-desaraju/Telugu-text-image,200,https://huggingface.co/datasets/harsha-desaraju/Telugu-text-image
+TOCR-095,Official webpage URL,https://www.kaggle.com/datasets/amancapy/telugu-scans,200,https://www.kaggle.com/datasets/amancapy/telugu-scans
+TOCR-095,Kaggle URL,https://www.kaggle.com/datasets/amancapy/telugu-scans,200,https://www.kaggle.com/datasets/amancapy/telugu-scans
+TOCR-096,Official webpage URL,https://gts.ai/dataset-download/telugu-document-image-dataset/,200,https://gts.ai/dataset-download/telugu-document-image-dataset/
+TOCR-096,Zenodo / Figshare / archive URL,https://doi.org/10.5281/zenodo.14965382,200,https://zenodo.org/records/14965382
+TOCR-097,Official webpage URL,https://huggingface.co/datasets/Cognitive-Lab/NayanaOCR_Corpus_2025,200,https://huggingface.co/datasets/Cognitive-Lab/NayanaOCR_Corpus_2025
+TOCR-097,Hugging Face URL,https://huggingface.co/datasets/Cognitive-Lab/NayanaOCR_Corpus_2025,200,https://huggingface.co/datasets/Cognitive-Lab/NayanaOCR_Corpus_2025
+TOCR-098,Official webpage URL,https://huggingface.co/Nayana-cognitivelab,200,https://huggingface.co/Nayana-cognitivelab
+TOCR-098,Hugging Face URL,https://huggingface.co/Nayana-cognitivelab,200,https://huggingface.co/Nayana-cognitivelab
+TOCR-099,Official webpage URL,https://huggingface.co/datasets/Nayana-cognitivelab/NayanaBench,200,https://huggingface.co/datasets/Nayana-cognitivelab/NayanaBench
+TOCR-099,Hugging Face URL,https://huggingface.co/datasets/Nayana-cognitivelab/NayanaBench,200,https://huggingface.co/datasets/Nayana-cognitivelab/NayanaBench
+TOCR-100,Official webpage URL,https://huggingface.co/datasets/WueNLP/Synthdog-Multilingual-100,200,https://huggingface.co/datasets/WueNLP/Synthdog-Multilingual-100
+TOCR-100,Hugging Face URL,https://huggingface.co/datasets/WueNLP/Synthdog-Multilingual-100,200,https://huggingface.co/datasets/WueNLP/Synthdog-Multilingual-100
+TOCR-100,Research paper URL,https://gregor-ge.github.io/Centurio/,200,https://gregor-ge.github.io/Centurio/
+TOCR-101,Official webpage URL,https://huggingface.co/datasets/remiai3/synthetic-captchas-library,200,https://huggingface.co/datasets/remiai3/synthetic-captchas-library
+TOCR-101,Hugging Face URL,https://huggingface.co/datasets/remiai3/synthetic-captchas-library,200,https://huggingface.co/datasets/remiai3/synthetic-captchas-library
+TOCR-102,Official webpage URL,https://arxiv.org/abs/2205.02543,200,https://arxiv.org/abs/2205.02543
+TOCR-102,Research paper URL,https://arxiv.org/abs/2205.02543,200,https://arxiv.org/abs/2205.02543
+TOCR-103,Official webpage URL,https://www.kaggle.com/datasets/yvenkatasriramreddy/final-telugu-manuscript-data,200,https://www.kaggle.com/datasets/yvenkatasriramreddy/final-telugu-manuscript-data
+TOCR-103,Kaggle URL,https://www.kaggle.com/datasets/yvenkatasriramreddy/final-telugu-manuscript-data,200,https://www.kaggle.com/datasets/yvenkatasriramreddy/final-telugu-manuscript-data
+TOCR-104,Official webpage URL,https://github.com/rakeshvar/banti_training,200,https://github.com/rakeshvar/banti_training
+TOCR-104,GitHub URL,https://github.com/rakeshvar/banti_training,200,https://github.com/rakeshvar/banti_training
+TOCR-104,Research paper URL,https://arxiv.org/abs/1509.05962,200,https://arxiv.org/abs/1509.05962
+TOCR-105,Official webpage URL,https://github.com/saikrishnawanted/Telugu_OCR_Tesseract_Training,200,https://github.com/saikrishnawanted/Telugu_OCR_Tesseract_Training
+TOCR-105,GitHub URL,https://github.com/saikrishnawanted/Telugu_OCR_Tesseract_Training,200,https://github.com/saikrishnawanted/Telugu_OCR_Tesseract_Training
+TOCR-106,Official webpage URL,https://github.com/chaitusvk/telugu_ocr_multi_line,200,https://github.com/chaitusvk/telugu_ocr_multi_line
+TOCR-106,GitHub URL,https://github.com/chaitusvk/telugu_ocr_multi_line,200,https://github.com/chaitusvk/telugu_ocr_multi_line
+TOCR-107,Official webpage URL,https://arxiv.org/abs/1711.07245,200,https://arxiv.org/abs/1711.07245
+TOCR-107,Research paper URL,https://arxiv.org/abs/1711.07245,200,https://arxiv.org/abs/1711.07245
+TOCR-108,Official webpage URL,https://ieee-dataport.org/documents/ocr-telugu-image-dataset,200,https://ieee-dataport.org/documents/ocr-telugu-image-dataset
+TOCR-109,Official webpage URL,https://cvit.iiit.ac.in/research/projects/cvit-projects/indicdlp,200,https://cvit.iiit.ac.in/research/projects/cvit-projects/indicdlp
+TOCR-109,Direct download URL,https://aikosh.indiaai.gov.in/home/datasets/details/indicdlp.html,ERR TimeoutError: The read operation timed out,https://aikosh.indiaai.gov.in/home/datasets/details/indicdlp.html
+TOCR-109,Hugging Face URL,https://huggingface.co/datasets/ai4bharat/indicdlp,200,https://huggingface.co/datasets/ai4bharat/indicdlp
+TOCR-109,GitHub URL,https://github.com/AI4Bharat/IndicDLP,200,https://github.com/AI4Bharat/IndicDLP
+TOCR-109,Zenodo / Figshare / archive URL,https://doi.org/10.5281/zenodo.15881917,200,https://zenodo.org/records/15881917
+TOCR-109,Research paper URL,https://arxiv.org/abs/2512.20236,200,https://arxiv.org/abs/2512.20236
+TOCR-110,Official webpage URL,https://huggingface.co/datasets/onath/dlp-sample,200,https://huggingface.co/datasets/onath/dlp-sample
+TOCR-110,Hugging Face URL,https://huggingface.co/datasets/onath/dlp-sample,200,https://huggingface.co/datasets/onath/dlp-sample
+TOCR-111,Official webpage URL,https://ihdia.iiit.ac.in/,200,https://ihdia.iiit.ac.in/
+TOCR-111,Research paper URL,https://arxiv.org/abs/1912.07025,200,https://arxiv.org/abs/1912.07025
+TOCR-112,Official webpage URL,https://huggingface.co/datasets/badrivishalk/MUSTARD,200,https://huggingface.co/datasets/badrivishalk/MUSTARD
+TOCR-112,Hugging Face URL,https://huggingface.co/datasets/badrivishalk/MUSTARD,200,https://huggingface.co/datasets/badrivishalk/MUSTARD
+TOCR-112,GitHub URL,https://github.com/IITB-LEAP-OCR/SPRINT,200,https://github.com/IITB-LEAP-OCR/SPRINT
+TOCR-112,Research paper URL,https://arxiv.org/abs/2503.11932,200,https://arxiv.org/abs/2503.11932
+TOCR-113,Official webpage URL,https://doi.org/10.5281/zenodo.6376096,200,https://zenodo.org/records/6376096
+TOCR-113,Zenodo / Figshare / archive URL,https://doi.org/10.5281/zenodo.6376096,200,https://zenodo.org/records/6376096
+TOCR-113,Research paper URL,https://arxiv.org/abs/2405.18924,200,https://arxiv.org/abs/2405.18924
+TOCR-114,Official webpage URL,https://www.kaggle.com/datasets/abhisheksubhashswami/indian-scripts,200,https://www.kaggle.com/datasets/abhisheksubhashswami/indian-scripts
+TOCR-114,Kaggle URL,https://www.kaggle.com/datasets/abhisheksubhashswami/indian-scripts,200,https://www.kaggle.com/datasets/abhisheksubhashswami/indian-scripts
+TOCR-115,Official webpage URL,https://www.kaggle.com/datasets/akash034/english-hindi-telugu-text-images,200,https://www.kaggle.com/datasets/akash034/english-hindi-telugu-text-images
+TOCR-115,Kaggle URL,https://www.kaggle.com/datasets/akash034/english-hindi-telugu-text-images,200,https://www.kaggle.com/datasets/akash034/english-hindi-telugu-text-images
+TOCR-116,Official webpage URL,https://huggingface.co/datasets/loopdesk-ai/lipika-eval,200,https://huggingface.co/datasets/loopdesk-ai/lipika-eval
+TOCR-116,Hugging Face URL,https://huggingface.co/datasets/loopdesk-ai/lipika-eval,200,https://huggingface.co/datasets/loopdesk-ai/lipika-eval
+TOCR-117,Official webpage URL,https://archive.org/details/telugu-palm-leaf,200,https://archive.org/details/telugu-palm-leaf
+TOCR-117,Zenodo / Figshare / archive URL,https://archive.org/details/telugu-palm-leaf,200,https://archive.org/details/telugu-palm-leaf
+TOCR-118,Official webpage URL,https://github.com/Bhavani-Pisini/Image-Binarization-Project,200,https://github.com/Bhavani-Pisini/Image-Binarization-Project
+TOCR-118,GitHub URL,https://github.com/Bhavani-Pisini/Image-Binarization-Project,200,https://github.com/Bhavani-Pisini/Image-Binarization-Project
+TOCR-118,Research paper URL,https://doi.org/10.2139/ssrn.4903434,403,https://doi.org/10.2139/ssrn.4903434
+TOCR-119,Official webpage URL,https://github.com/Sriram1908/TeluguManuscriptOCRandTextReconstruction,200,https://github.com/Sriram1908/TeluguManuscriptOCRandTextReconstruction
+TOCR-119,GitHub URL,https://github.com/Sriram1908/TeluguManuscriptOCRandTextReconstruction,200,https://github.com/Sriram1908/TeluguManuscriptOCRandTextReconstruction
+TOCR-120,Official webpage URL,https://www.griet.ac.in/images/1-s2.0-S2215098616303627-main.pdf,200,https://griet.ac.in/images/1-s2.0-S2215098616303627-main.pdf
+TOCR-120,Research paper URL,https://doi.org/10.1016/j.jestch.2016.06.006,200,https://linkinghub.elsevier.com/retrieve/pii/S2215098616303627
+TOCR-121,Official webpage URL,https://perspectivia.net/receive/pnet_mods_00006709,302,https://perspectivia.net/receive/pnet_mods_00006709
+TOCR-122,Official webpage URL,https://archive.org/search?query=language%3A%28Telugu+OR+tel%29,200,https://archive.org/search?query=language%3A%28Telugu+OR+tel%29
+TOCR-123,Official webpage URL,https://archive.org/search?query=collection%3Adigitallibraryindia,200,https://archive.org/search?query=collection%3Adigitallibraryindia
+TOCR-124,Official webpage URL,https://archive.org/details/newspapers-telugu,200,https://archive.org/details/newspapers-telugu
+TOCR-125,Official webpage URL,https://archive.org/search?query=title%3A%28%22andhra+patrika%22%29,200,https://archive.org/search?query=title%3A%28%22andhra+patrika%22%29
+TOCR-126,Official webpage URL,https://pressacademyarchives.ap.nic.in/,ERR URLError: <urlopen error [Errno -5] No address associated with hostname>,https://pressacademyarchives.ap.nic.in/
+TOCR-127,Official webpage URL,https://www.kaggle.com/datasets/harishml/telugu-chandamama-books,200,https://www.kaggle.com/datasets/harishml/telugu-chandamama-books
+TOCR-127,Kaggle URL,https://www.kaggle.com/datasets/harishml/telugu-chandamama-books,200,https://www.kaggle.com/datasets/harishml/telugu-chandamama-books
+TOCR-128,Official webpage URL,https://arxiv.org/abs/2507.15655,200,https://arxiv.org/abs/2507.15655
+TOCR-128,Research paper URL,https://arxiv.org/abs/2507.15655,200,https://arxiv.org/abs/2507.15655
+TOCR-129,Official webpage URL,https://archive.org/search?query=collection%3Achandamama-magazine,200,https://archive.org/search?query=collection%3Achandamama-magazine
+TOCR-130,Official webpage URL,https://huggingface.co/datasets/krutrim-ai-labs/IndicVisionBench,200,https://huggingface.co/datasets/krutrim-ai-labs/IndicVisionBench
+TOCR-130,Hugging Face URL,https://huggingface.co/datasets/krutrim-ai-labs/IndicVisionBench,200,https://huggingface.co/datasets/krutrim-ai-labs/IndicVisionBench
+TOCR-130,GitHub URL,https://github.com/ola-krutrim/IndicVisionBench,200,https://github.com/ola-krutrim/IndicVisionBench
+TOCR-130,Research paper URL,https://arxiv.org/abs/2511.04727,200,https://arxiv.org/abs/2511.04727
+TOCR-131,Official webpage URL,https://huggingface.co/datasets/arnodjiang/MInfoVisQA,200,https://huggingface.co/datasets/arnodjiang/MInfoVisQA
+TOCR-131,Hugging Face URL,https://huggingface.co/datasets/arnodjiang/MInfoVisQA,200,https://huggingface.co/datasets/arnodjiang/MInfoVisQA
+TOCR-132,Official webpage URL,https://huggingface.co/datasets/Reubencf/adaption-multilingual-doc-qa,200,https://huggingface.co/datasets/Reubencf/adaption-multilingual-doc-qa
+TOCR-132,Hugging Face URL,https://huggingface.co/datasets/Reubencf/adaption-multilingual-doc-qa,200,https://huggingface.co/datasets/Reubencf/adaption-multilingual-doc-qa
+TOCR-133,Official webpage URL,https://huggingface.co/datasets/nvidia/miracl-vision,200,https://huggingface.co/datasets/nvidia/miracl-vision
+TOCR-133,Hugging Face URL,https://huggingface.co/datasets/nvidia/miracl-vision,200,https://huggingface.co/datasets/nvidia/miracl-vision
+TOCR-134,Official webpage URL,https://huggingface.co/datasets/Litap007/indic-citizen-information-board-pmgsy,200,https://huggingface.co/datasets/Litap007/indic-citizen-information-board-pmgsy
+TOCR-134,Hugging Face URL,https://huggingface.co/datasets/Litap007/indic-citizen-information-board-pmgsy,200,https://huggingface.co/datasets/Litap007/indic-citizen-information-board-pmgsy
+TOCR-135,Official webpage URL,https://huggingface.co/datasets/wikimedia/wikisource,200,https://huggingface.co/datasets/wikimedia/wikisource
+TOCR-135,Hugging Face URL,https://huggingface.co/datasets/wikimedia/wikisource,200,https://huggingface.co/datasets/wikimedia/wikisource
+TOCR-136,Official webpage URL,https://huggingface.co/datasets/ai4bharat/sangraha,200,https://huggingface.co/datasets/ai4bharat/sangraha
+TOCR-136,Hugging Face URL,https://huggingface.co/datasets/ai4bharat/sangraha,200,https://huggingface.co/datasets/ai4bharat/sangraha
+TOCR-137,Official webpage URL,https://huggingface.co/datasets/ai4bharat/IndicCorpV2,200,https://huggingface.co/datasets/ai4bharat/IndicCorpV2
+TOCR-137,Hugging Face URL,https://huggingface.co/datasets/ai4bharat/IndicCorpV2,200,https://huggingface.co/datasets/ai4bharat/IndicCorpV2
+TOCR-138,Official webpage URL,https://huggingface.co/datasets/uonlp/CulturaX,200,https://huggingface.co/datasets/uonlp/CulturaX
+TOCR-138,Hugging Face URL,https://huggingface.co/datasets/uonlp/CulturaX,200,https://huggingface.co/datasets/uonlp/CulturaX
+TOCR-139,Official webpage URL,https://dumps.wikimedia.org/tewiki/latest/,200,https://dumps.wikimedia.org/tewiki/latest/
+TOCR-140,Official webpage URL,https://huggingface.co/datasets/harsha-desaraju/telugu-ocr-text,200,https://huggingface.co/datasets/harsha-desaraju/telugu-ocr-text
+TOCR-140,Hugging Face URL,https://huggingface.co/datasets/harsha-desaraju/telugu-ocr-text,200,https://huggingface.co/datasets/harsha-desaraju/telugu-ocr-text
+TOCR-141,Official webpage URL,https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line,200,https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line
+TOCR-141,Hugging Face URL,https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line,200,https://huggingface.co/datasets/eswardivi/indiccorp_telugu_line
+TOCR-142,Official webpage URL,https://github.com/TeluguOCR/corpora,200,https://github.com/TeluguOCR/corpora
+TOCR-142,GitHub URL,https://github.com/TeluguOCR/corpora,200,https://github.com/TeluguOCR/corpora
+TOCR-143,Official webpage URL,https://dblp.org/rec/conf/icfhr/MondalBPDM10,202,https://dblp.org/rec/conf/icfhr/MondalBPDM10
+TOCR-143,Research paper URL,https://doi.org/10.1109/ICFHR.2010.39,202,https://ieeexplore.ieee.org/document/5693524/
+TOCR-144,Official webpage URL,https://ilocr.iiit.ac.in/api_list/,200,https://ilocr.iiit.ac.in/api_list/
+TOCR-145,Official webpage URL,https://bhashini.gov.in/ulca,200,https://bhashini.gov.in/ulca
+TOCR-146,Official webpage URL,https://aikosh.indiaai.gov.in/home/datasets,ERR TimeoutError: The read operation timed out,https://aikosh.indiaai.gov.in/home/datasets
+TOCR-147,Official webpage URL,https://github.com/tesseract-ocr/tessdata_best/blob/main/tel.traineddata,200,https://github.com/tesseract-ocr/tessdata_best/blob/main/tel.traineddata
+TOCR-148,Official webpage URL,https://fonts.google.com/?subset=telugu,200,https://fonts.google.com/?subset=telugu
+TOCR-149,Official webpage URL,https://github.com/Bhashini-IITJ/IndicPhotoOCR,200,https://github.com/Bhashini-IITJ/IndicPhotoOCR
+TOCR-149,GitHub URL,https://github.com/Bhashini-IITJ/IndicPhotoOCR,200,https://github.com/Bhashini-IITJ/IndicPhotoOCR
+TOCR-150,Official webpage URL,https://github.com/TeluguOCR,200,https://github.com/TeluguOCR
+TOCR-150,GitHub URL,https://github.com/TeluguOCR/datagen_initio,200,https://github.com/TeluguOCR/datagen_initio
+TOCR-151,Official webpage URL,https://github.com/mineshmathew/IndicSceneTextRendering,200,https://github.com/mineshmathew/IndicSceneTextRendering
+TOCR-151,GitHub URL,https://github.com/mineshmathew/IndicSceneTextRendering,200,https://github.com/mineshmathew/IndicSceneTextRendering
+TOCR-152,Official webpage URL,https://github.com/gopalvarun03/Telugu-OCR,200,https://github.com/gopalvarun03/Telugu-OCR
+TOCR-152,GitHub URL,https://github.com/gopalvarun03/Telugu-OCR,200,https://github.com/gopalvarun03/Telugu-OCR
+TOCR-153,Official webpage URL,https://github.com/harsha-desaraju/TeluguOCR,200,https://github.com/harsha-desaraju/TeluguOCR
+TOCR-153,GitHub URL,https://github.com/harsha-desaraju/TeluguOCR,200,https://github.com/harsha-desaraju/TeluguOCR
+TOCR-154,Official webpage URL,https://ieee-dataport.org/documents/3d-telugu-character-recognition,200,https://ieee-dataport.org/documents/3d-telugu-character-recognition
+TOCR-155,Official webpage URL,https://data.mendeley.com/datasets/dkmxgd8n79/1,200,https://data.mendeley.com/datasets/dkmxgd8n79/1
+TOCR-156,Official webpage URL,https://data.mendeley.com/datasets/98rd3nx2n4/1,200,https://data.mendeley.com/datasets/98rd3nx2n4/1
+TOCR-157,Official webpage URL,https://doi.org/10.5281/zenodo.20604818,200,https://zenodo.org/records/20604819
+TOCR-158,Official webpage URL,https://huggingface.co/datasets/nvidia/OCR-Synthetic-Multilingual-v1,200,https://huggingface.co/datasets/nvidia/OCR-Synthetic-Multilingual-v1
+TOCR-159,Official webpage URL,https://rrc.cvc.uab.es/?ch=15,ERR URLError: <urlopen error [Errno -2] Name or service not known>,https://rrc.cvc.uab.es/?ch=15
+TOCR-160,Official webpage URL,https://doi.org/10.1007/s11042-022-12596-7,200,https://link.springer.com/article/10.1007/s11042-022-12596-7?error=cookies_not_supported&code=3bf7b65e-89f9-496e-891f-45b6b12e2edb
+TOCR-161,Official webpage URL,https://cvit.iiit.ac.in/research/projects/cvit-projects/transfer-learning-for-scene-text-recognition-in-indian-languages,200,https://cvit.iiit.ac.in/research/projects/cvit-projects/transfer-learning-for-scene-text-recognition-in-indian-languages
+TOCR-162,Official webpage URL,https://huggingface.co/datasets/interfaze-ai/ocr-mlt-50m,200,https://huggingface.co/datasets/interfaze-ai/ocr-mlt-50m
+TOCR-163,Official webpage URL,https://huggingface.co/datasets/AbhishekBhandari/Indic-post-ocr-correction,200,https://huggingface.co/datasets/AbhishekBhandari/Indic-post-ocr-correction
+TOCR-164,Official webpage URL,https://huggingface.co/datasets/Aus-23/indic-synthetic-scene-text-1000,200,https://huggingface.co/datasets/Aus-23/indic-synthetic-scene-text-1000
+TOCR-165,Official webpage URL,https://huggingface.co/datasets/floschne/xm3600,200,https://huggingface.co/datasets/floschne/xm3600
+TOCR-166,Official webpage URL,https://huggingface.co/datasets/wikimedia/wit_base,200,https://huggingface.co/datasets/wikimedia/wit_base
+TOCR-167,Official webpage URL,https://huggingface.co/datasets/ai-enthusiasm-community/CC3M-35L,200,https://huggingface.co/datasets/ai-enthusiasm-community/CC3M-35L
+TOCR-168,Official webpage URL,https://huggingface.co/datasets/visheratin/laion-coco-nllb,200,https://huggingface.co/datasets/visheratin/laion-coco-nllb
+TOCR-169,Official webpage URL,https://huggingface.co/datasets/ARTPARK-IISc/Vaani,200,https://huggingface.co/datasets/ARTPARK-IISc/Vaani
+TOCR-170,Official webpage URL,https://huggingface.co/datasets/13ari/DRISHTIKON,200,https://huggingface.co/datasets/13ari/DRISHTIKON
+TOCR-171,Official webpage URL,https://huggingface.co/datasets/neulab/CulturalGround,200,https://huggingface.co/datasets/neulab/CulturalGround
+TOCR-172,Official webpage URL,https://huggingface.co/datasets/krutrim-ai-labs/ocr_rotation_bench,200,https://huggingface.co/datasets/krutrim-ai-labs/ocr_rotation_bench
+TOCR-173,Official webpage URL,https://www.shaip.com/solutions/optical-character-recognition-ocr-machine-learning/,200,https://www.shaip.com/solutions/optical-character-recognition-ocr-machine-learning/
+TOCR-174,Official webpage URL,https://github.com/UthejKaramalapudi/Handwritten_Charcater_Classificaition_For_Telugu_Palmleaf_Document_Images,200,https://github.com/UthejKaramalapudi/Handwritten_Charcater_Classificaition_For_Telugu_Palmleaf_Document_Images
+TOCR-175,Official webpage URL,https://github.com/Harathi123/Telugu-Character-Recognition-using-CNN,200,https://github.com/Harathi123/Telugu-Character-Recognition-using-CNN
+TOCR-176,Official webpage URL,https://github.com/alfahimmohammad/Telugu-Handwritten-Text-Recognition,200,https://github.com/alfahimmohammad/Telugu-Handwritten-Text-Recognition
+TOCR-177,Official webpage URL,https://github.com/jaganmohanreddy2106/Telugu-Handwritten-Digit-Recognition,200,https://github.com/jaganmohanreddy2106/Telugu-Handwritten-Digit-Recognition
+TOCR-178,Official webpage URL,https://doi.org/10.5281/zenodo.20079705,410,https://doi.org/10.5281/zenodo.20079705
+TOCR-179,Official webpage URL,https://www.kaggle.com/datasets/sudalairajkumar/telugu-nlp,200,https://www.kaggle.com/datasets/sudalairajkumar/telugu-nlp
+TOCR-180,Official webpage URL,https://www.kaggle.com/datasets/ocrteamriad/rs-synth-indic-data,200,https://www.kaggle.com/datasets/ocrteamriad/rs-synth-indic-data
+TOCR-180,Kaggle URL,https://www.kaggle.com/datasets/ocrteamriad/rs-synth-indic-data,200,https://www.kaggle.com/datasets/ocrteamriad/rs-synth-indic-data
+TOCR-181,Official webpage URL,https://www.kaggle.com/datasets/harishk2209/ocr-stress-test-v2,200,https://www.kaggle.com/datasets/harishk2209/ocr-stress-test-v2
+TOCR-181,Kaggle URL,https://www.kaggle.com/datasets/harishk2209/ocr-stress-test-v2,200,https://www.kaggle.com/datasets/harishk2209/ocr-stress-test-v2

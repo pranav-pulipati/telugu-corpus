@@ -1,0 +1,1867 @@
+{
+"1": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"2": {
+"code": 200,
+"name": "IIIT-INDIC-HW-WORDS-Bengali",
+"lang": "Bengali",
+"modality": "Handwritten",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/bengali/IIIT-INDIC-HW-WORDS-Bengali/train.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/bengali/IIIT-INDIC-HW-WORDS-Bengali/test.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/bengali/IIIT-INDIC-HW-WORDS-Bengali/val.zip"
+]
+},
+"3": {
+"code": 200,
+"name": "Mozhi-Assamese",
+"lang": "Assamese",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/assamese/akshara/train.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/assamese/akshara/test.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/assamese/akshara/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"4": {
+"code": 200,
+"name": "Mozhi-Bengali",
+"lang": "Bengali",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/bengali/akshara/train.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/bengali/akshara/test.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/bengali/akshara/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"5": {
+"code": 200,
+"name": "Mozhi-Gujarati",
+"lang": "Gujarati",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/gujarati/akshara/train.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/gujarati/akshara/test.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/gujarati/akshara/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"6": {
+"code": 200,
+"name": "Mozhi-Punjabi",
+"lang": "Punjabi",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/punjabi/akshara/train.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/punjabi/akshara/test.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/punjabi/akshara/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"7": {
+"code": 200,
+"name": "Mozhi-Hindi",
+"lang": "Hindi",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/hindi/akshara/train.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/hindi/akshara/test.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/hindi/akshara/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"8": {
+"code": 200,
+"name": "Mozhi-Kannada",
+"lang": "Kannada",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/kannada/akshara/train.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/kannada/akshara/test.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/kannada/akshara/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"9": {
+"code": 200,
+"name": "Mozhi-Malayalam",
+"lang": "Malayalam",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/malayalam/akshara/train.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/malayalam/akshara/test.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/malayalam/akshara/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"10": {
+"code": 200,
+"name": "Mozhi-Marathi",
+"lang": "Marathi",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/marathi/akshara/train.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/marathi/akshara/test.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/marathi/akshara/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"11": {
+"code": 200,
+"name": "Mozhi-Manipuri",
+"lang": "Manipuri",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/manipuri/akshara/train.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/manipuri/akshara/test.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/manipuri/akshara/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"12": {
+"code": 200,
+"name": "Mozhi-Oriya",
+"lang": "Oriya",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/oriya/akshara/train.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/oriya/akshara/test.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/oriya/akshara/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"13": {
+"code": 500,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"14": {
+"code": 500,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"15": {
+"code": 200,
+"name": "Mozhi-Urdu",
+"lang": "Urdu",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/urdu/akshara/train.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/urdu/akshara/test.zip",
+"https://ilocr.iiit.ac.in/public/printed/phase-0/v0.5/urdu/akshara/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"16": {
+"code": 200,
+"name": "IIIT-INDIC-HW-WORDS-Gujarati",
+"lang": "Gujarati",
+"modality": "Handwritten",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/gujarati/IIIT-INDIC-HW-WORDS-Gujarati/train.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/gujarati/IIIT-INDIC-HW-WORDS-Gujarati/test.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/gujarati/IIIT-INDIC-HW-WORDS-Gujarati/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"17": {
+"code": 200,
+"name": "IIIT-INDIC-HW-WORDS-Punjabi",
+"lang": "Punjabi",
+"modality": "Handwritten",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/punjabi/IIIT-INDIC-HW-WORDS-Gurumukhi/train.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/punjabi/IIIT-INDIC-HW-WORDS-Gurumukhi/test.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/punjabi/IIIT-INDIC-HW-WORDS-Gurumukhi/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"18": {
+"code": 200,
+"name": "IIIT-INDIC-HW-WORDS-Hindi",
+"lang": "Hindi",
+"modality": "Handwritten",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/hindi/IIIT-INDIC-HW-WORDS-Devanagari/train.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/hindi/IIIT-INDIC-HW-WORDS-Devanagari/test.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/hindi/IIIT-INDIC-HW-WORDS-Devanagari/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"19": {
+"code": 200,
+"name": "IIIT-INDIC-HW-WORDS-Kannada",
+"lang": "Kannada",
+"modality": "Handwritten",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/kannada/IIIT-INDIC-HW-WORDS-Kannada/train.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/kannada/IIIT-INDIC-HW-WORDS-Kannada/test.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/kannada/IIIT-INDIC-HW-WORDS-Kannada/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"20": {
+"code": 200,
+"name": "IIIT-INDIC-HW-WORDS-Malayalam",
+"lang": "Malayalam",
+"modality": "Handwritten",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/malayalam/IIIT-INDIC-HW-WORDS-Malayalam/train.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/malayalam/IIIT-INDIC-HW-WORDS-Malayalam/test.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/malayalam/IIIT-INDIC-HW-WORDS-Malayalam/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"21": {
+"code": 200,
+"name": "IIIT-INDIC-HW-WORDS-Oriya",
+"lang": "Oriya",
+"modality": "Handwritten",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/oriya/IIIT-INDIC-HW-WORDS-Oriya/train.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/oriya/IIIT-INDIC-HW-WORDS-Oriya/test.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/oriya/IIIT-INDIC-HW-WORDS-Oriya/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"22": {
+"code": 200,
+"name": "IIIT-INDIC-HW-WORDS-Tamil",
+"lang": "Tamil",
+"modality": "Handwritten",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/tamil/IIIT-INDIC-HW-WORDS-Tamil/Train.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/tamil/IIIT-INDIC-HW-WORDS-Tamil/Test.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/tamil/IIIT-INDIC-HW-WORDS-Tamil/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"23": {
+"code": 200,
+"name": "IIIT-INDIC-HW-WORDS-Telugu",
+"lang": "Telugu",
+"modality": "Handwritten",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/telugu/IIIT-INDIC-HW-WORDS-Telugu/train.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/telugu/IIIT-INDIC-HW-WORDS-Telugu/test.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/telugu/IIIT-INDIC-HW-WORDS-Telugu/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"24": {
+"code": 200,
+"name": "IIIT-INDIC-HW-WORDS-Urdu",
+"lang": "Urdu",
+"modality": "Handwritten",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/urdu/IIIT-INDIC-HW-WORDS-Urdu/train.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/urdu/IIIT-INDIC-HW-WORDS-Urdu/test.zip",
+"https://ilocr.iiit.ac.in/public/handwritten/phase-0/v0.5/urdu/IIIT-INDIC-HW-WORDS-Urdu/val.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"25": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"26": {
+"code": 200,
+"name": "IndicSTR12-Bengali",
+"lang": "Bengali",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/bengali/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/bengali/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"27": {
+"code": 200,
+"name": "IndicSTR12-Assamese",
+"lang": "Assamese",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/assamese/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/assamese/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"28": {
+"code": 200,
+"name": "IndicSTR12-Gujarati",
+"lang": "Gujarati",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/gujarati/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/gujarati/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"29": {
+"code": 200,
+"name": "IndicSTR12-Punjabi",
+"lang": "Punjabi",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/punjbai/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/punjabi/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"30": {
+"code": 200,
+"name": "IndicSTR12-Hindi",
+"lang": "Hindi",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/hindi/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/hindi/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"31": {
+"code": 200,
+"name": "IndicSTR12-Kannada",
+"lang": "Kannada",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/kannada/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/kannada/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"32": {
+"code": 200,
+"name": "IndicSTR12-Malayalam",
+"lang": "Malayalam",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/malayalam/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/malayalam/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"33": {
+"code": 200,
+"name": "IndicSTR12-Marathi",
+"lang": "Marathi",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/marathi/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/marathi/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"34": {
+"code": 200,
+"name": "IndicSTR12-Oriya",
+"lang": "Oriya",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/oriya/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/oriya/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"35": {
+"code": 200,
+"name": "IndicSTR12-Tamil",
+"lang": "Tamil",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/tamil/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/tamil/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"36": {
+"code": 200,
+"name": "IndicSTR12-Telugu",
+"lang": "Telugu",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/telugu/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/telugu/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"37": {
+"code": 200,
+"name": "IndicSTR12-Urdu",
+"lang": "Urdu",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/urdu/IndicSTR12/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/urdu/IndicSTR12/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"38": {
+"code": 200,
+"name": "IIIT-Urdu",
+"lang": "Urdu",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/hindi/IIIT-Urdu/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/hindi/IIIT-Urdu/test.zip",
+"https://docs.google.com/document/d/11pw7dZu1Ya7GuyQL29Su_qnI7KX0Ktcv/edit?usp=drive_link&amp;ouid=116638035596039145388&amp;rtpof=true&amp;sd=true"
+]
+},
+"39": {
+"code": 200,
+"name": "IIIT-Synthetic-M-Hindi",
+"lang": "Hindi",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/hindi/IIIT-Synthetic-M-Hindi/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/hindi/IIIT-Synthetic-M-Hindi/train.zip"
+]
+},
+"40": {
+"code": 200,
+"name": "IIIT-Synthetic-M-Telugu",
+"lang": "Telugu",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/hindi/IIIT-Synthetic-M-Telugu/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/hindi/IIIT-Synthetic-M-Telugu/train.zip"
+]
+},
+"41": {
+"code": 200,
+"name": "IIIT-Synthetic-M-Malayalam",
+"lang": "Malayalam",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/hindi/IIIT-Synthetic-M-Malayalam/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/hindi/IIIT-Synthetic-M-Malayalam/train.zip"
+]
+},
+"42": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Assamese",
+"lang": "Assamese",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/assamese/IIIT-Synthetic-R-Assamese/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/assamese/IIIT-Synthetic-R-Assamese/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/assamese/IIIT-Synthetic-R-Assamese/val.zip"
+]
+},
+"43": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Malayalam",
+"lang": "Malayalam",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/malayalam/IIIT-Synthetic-R-Malayalam/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/malayalam/IIIT-Synthetic-R-Malayalam/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/malayalam/IIIT-Synthetic-R-Malayalam/val.zip"
+]
+},
+"44": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"45": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"46": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Bengali",
+"lang": "Bengali",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/bengali/IIIT-Synthetic-R-Bengali/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/bengali/IIIT-Synthetic-R-Bengali/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/bengali/IIIT-Synthetic-R-Bengali/val.zip"
+]
+},
+"47": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Gujarati",
+"lang": "Gujarati",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/gujarati/IIIT-Synthetic-R-Gujarati/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/gujarati/IIIT-Synthetic-R-Gujarati/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/gujarati/IIIT-Synthetic-R-Gujarati/val.zip"
+]
+},
+"48": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Punjabi",
+"lang": "Punjabi",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/punjabi/IIIT-Synthetic-R-Punjabi/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/punjabi/IIIT-Synthetic-R-Punjabi/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/punjabi/IIIT-Synthetic-R-Punjabi/val.zip"
+]
+},
+"49": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Hindi",
+"lang": "Hindi",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/hindi/IIIT-Synthetic-R-Hindi/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/hindi/IIIT-Synthetic-R-Hindi/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/hindi/IIIT-Synthetic-R-Hindi/val.zip"
+]
+},
+"50": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Kannada",
+"lang": "Kannada",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/kannada/IIIT-Synthetic-R-Kannada/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/kannada/IIIT-Synthetic-R-Kannada/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/kannada/IIIT-Synthetic-R-Kannada/val.zip"
+]
+},
+"51": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Manipuri",
+"lang": "Manipuri",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/manipuri/IIIT-Synthetic-R-Manipuri/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/manipuri/IIIT-Synthetic-R-Manipuri/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/manipuri/IIIT-Synthetic-R-Manipuri/val.zip"
+]
+},
+"52": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Marathi",
+"lang": "Marathi",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/marathi/IIIT-Synthetic-R-Marathi/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/marathi/IIIT-Synthetic-R-Marathi/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/marathi/IIIT-Synthetic-R-Marathi/val.zip"
+]
+},
+"53": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Oriya",
+"lang": "Oriya",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/oriya/IIIT-Synthetic-R-Oriya/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/oriya/IIIT-Synthetic-R-Oriya/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/oriya/IIIT-Synthetic-R-Oriya/val.zip"
+]
+},
+"54": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Tamil",
+"lang": "Tamil",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/tamil/IIIT-Synthetic-R-Tamil/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/tamil/IIIT-Synthetic-R-Tamil/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/tamil/IIIT-Synthetic-R-Tamil/val.zip"
+]
+},
+"55": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Telugu",
+"lang": "Telugu",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/telugu/IIIT-Synthetic-R-Telugu/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/telugu/IIIT-Synthetic-R-Telugu/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/telugu/IIIT-Synthetic-R-Telugu/val.zip"
+]
+},
+"56": {
+"code": 200,
+"name": "IIIT-Synthetic-R-Urdu",
+"lang": "Urdu",
+"modality": "Printed",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/urdu/IIIT-Synthetic-R-Urdu/train.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/urdu/IIIT-Synthetic-R-Urdu/test.zip",
+"https://ilocr.iiit.ac.in//public/printed/phase-0/v0.5/urdu/IIIT-Synthetic-R-Urdu/val.zip"
+]
+},
+"57": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Assame",
+"lang": "Assamese",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/assamese/IIIT-Synthetic-Assamese/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/assamese/IIIT-Synthetic-Assamese/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/assamese/IIIT-Synthetic-Assamese/val.zip"
+]
+},
+"58": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Bengal",
+"lang": "Bengali",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/bengali/IIIT-Synthetic-Bengali/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/bengali/IIIT-Synthetic-Bengali/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/bengali/IIIT-Synthetic-Bengali/val.zip"
+]
+},
+"59": {
+"code": 500,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"60": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Hindi",
+"lang": "Hindi",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/hindi/IIIT-Synthetic-Hindi/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/hindi/IIIT-Synthetic-Hindi/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/hindi/IIIT-Synthetic-Hindi/val.zip"
+]
+},
+"61": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Kannad",
+"lang": "Kannada",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/kannada/IIIT-Synthetic-Kannada/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/kannada/IIIT-Synthetic-Kannada/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/kannada/IIIT-Synthetic-Kannada/val.zip"
+]
+},
+"62": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Malaya",
+"lang": "Malayalam",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/malayalam/IIIT-Synthetic-Malayalam/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/malayalam/IIIT-Synthetic-Malayalam/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/malayalam/IIIT-Synthetic-Malayalam/val.zip"
+]
+},
+"63": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Manipu",
+"lang": "Manipuri",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/manipuri/IIIT-Synthetic-Manipuri/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/manipuri/IIIT-Synthetic-Manipuri/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/manipuri/IIIT-Synthetic-Manipuri/val.zip"
+]
+},
+"64": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Marath",
+"lang": "Marathi",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/marathi/IIIT-Synthetic-Marathi/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/marathi/IIIT-Synthetic-Marathi/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/marathi/IIIT-Synthetic-Marathi/val.zip"
+]
+},
+"65": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Oriya",
+"lang": "Oriya",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/oriya/IIIT-Synthetic-Oriya/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/oriya/IIIT-Synthetic-Oriya/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/oriya/IIIT-Synthetic-Oriya/val.zip"
+]
+},
+"66": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Punjab",
+"lang": "Punjabi",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/punjabi/IIIT-Synthetic-Punjabi/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/punjabi/IIIT-Synthetic-Punjabi/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/punjabi/IIIT-Synthetic-Punjabi/val.zip"
+]
+},
+"67": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Tamil",
+"lang": "Tamil",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/tamil/IIIT-Synthetic-Tamil/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/tamil/IIIT-Synthetic-Tamil/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/tamil/IIIT-Synthetic-Tamil/val.zip"
+]
+},
+"68": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Telugu",
+"lang": "Telugu",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/telugu/IIIT-Synthetic-Telugu/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/telugu/IIIT-Synthetic-Telugu/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/telugu/IIIT-Synthetic-Telugu/val.zip"
+]
+},
+"69": {
+"code": 200,
+"name": "IIIT-Synthetic-IndicSTR-Urdu",
+"lang": "Urdu",
+"modality": "Scene Text",
+"error": false,
+"links": [
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/urdu/IIIT-Synthetic-Urdu/train.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/urdu/IIIT-Synthetic-Urdu/test.zip",
+"https://ilocr.iiit.ac.in/public/scenetext/phase-0/v0.5/urdu/IIIT-Synthetic-Urdu/val.zip"
+]
+},
+"70": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"71": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"72": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"73": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"74": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"75": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"76": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"77": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"78": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"79": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"80": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"81": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"82": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"83": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"84": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"85": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"86": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"87": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"88": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"89": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"90": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"91": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"92": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"93": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"94": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"95": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"96": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"97": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"98": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"99": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"100": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"101": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"102": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"103": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"104": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"105": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"106": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"107": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"108": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"109": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"110": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"111": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"112": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"113": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"114": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"115": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"116": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"117": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"118": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"119": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"120": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"121": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"122": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"123": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"124": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"125": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"126": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"127": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"128": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"129": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"130": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"131": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"132": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"133": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"134": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"135": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"136": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"137": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"138": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"139": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"140": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"141": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"142": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"143": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"144": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"145": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"146": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"147": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"148": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"149": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"150": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"151": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"152": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"153": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"154": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"155": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"156": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"157": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"158": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"159": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"160": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"161": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"162": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"163": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"164": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"165": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"166": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"167": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"168": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"169": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"170": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"171": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"172": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"173": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"174": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"175": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"176": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"177": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"178": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"179": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"180": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"181": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"182": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"183": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"184": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"185": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"186": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"187": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"188": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"189": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"190": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"191": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"192": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"193": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"194": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"195": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"196": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"197": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"198": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"199": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+},
+"200": {
+"code": 404,
+"name": null,
+"lang": null,
+"modality": null,
+"error": false,
+"links": []
+}
+}

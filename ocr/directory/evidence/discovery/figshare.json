@@ -1,0 +1,3415 @@
+{
+"platform": "figshare",
+"queried": "2026-11-11",
+"queries": [
+{
+"query": "telugu ocr",
+"hits": 0
+},
+{
+"query": "telugu handwritten",
+"hits": 0
+},
+{
+"query": "telugu handwriting",
+"hits": 0
+},
+{
+"query": "telugu handwritten character",
+"hits": 0
+},
+{
+"query": "telugu handwritten word",
+"hits": 0
+},
+{
+"query": "telugu character recognition",
+"hits": 0
+},
+{
+"query": "telugu printed text",
+"hits": 0
+},
+{
+"query": "telugu text recognition",
+"hits": 0
+},
+{
+"query": "telugu scene text",
+"hits": 0
+},
+{
+"query": "telugu document image",
+"hits": 0
+},
+{
+"query": "telugu text line",
+"hits": 0
+},
+{
+"query": "telugu word recognition",
+"hits": 2
+},
+{
+"query": "telugu manuscript",
+"hits": 0
+},
+{
+"query": "telugu palm leaf",
+"hits": 0
+},
+{
+"query": "telugu newspaper ocr",
+"hits": 0
+},
+{
+"query": "telugu synthetic text images",
+"hits": 0
+},
+{
+"query": "telugu document layout",
+"hits": 0
+},
+{
+"query": "telugu script",
+"hits": 3
+},
+{
+"query": "telugu digits",
+"hits": 1
+},
+{
+"query": "telugu numerals",
+"hits": 9
+},
+{
+"query": "telugu alphabet",
+"hits": 1
+},
+{
+"query": "telugu akshara",
+"hits": 0
+},
+{
+"query": "telugu glyph",
+"hits": 0
+},
+{
+"query": "indic ocr",
+"hits": 100
+},
+{
+"query": "indic handwritten",
+"hits": 69
+},
+{
+"query": "indic scene text",
+"hits": 79
+},
+{
+"query": "indian language ocr",
+"hits": 1
+},
+{
+"query": "multilingual ocr indic",
+"hits": 1
+},
+{
+"query": "indic document layout",
+"hits": 70
+},
+{
+"query": "south indian script recognition",
+"hits": 0
+},
+{
+"query": "dravidian script ocr",
+"hits": 0
+},
+{
+"query": "telugu captcha",
+"hits": 0
+},
+{
+"query": "telugu image text",
+"hits": 1
+},
+{
+"query": "telugu vision language",
+"hits": 0
+}
+],
+"hits": {
+"27910710": {
+"id": 27910710,
+"title": "LENA ASP validation for adult and child segments (Meera et al., 2025)",
+"doi": "10.23641/asha.27910710.v2",
+"url": "https://asha.figshare.com/articles/online_resource/LENA_ASP_validation_for_adult_and_child_segments_Meera_et_al_2024_/27910710",
+"type": "online resource",
+"queries": [
+"telugu word recognition"
+]
+},
+"4836665": {
+"id": 4836665,
+"title": "Development of equally intelligible Telugu sentence-lists to test speech recognition in noise",
+"doi": "10.6084/m9.figshare.4836665.v1",
+"url": "https://tandf.figshare.com/articles/journal_contribution/Development_of_equally_intelligible_Telugu_sentence-lists_to_test_speech_recognition_in_noise/4836665",
+"type": "journal contribution",
+"queries": [
+"telugu word recognition",
+"telugu numerals"
+]
+},
+"32253816": {
+"id": 32253816,
+"title": "<i>The Same Word</i>",
+"doi": "10.25417/uic.32253816.v1",
+"url": "https://indigo.uic.edu/articles/media/_i_The_Same_Word_i_/32253816",
+"type": "media",
+"queries": [
+"telugu script",
+"telugu digits",
+"telugu alphabet",
+"telugu image text"
+]
+},
+"26961113": {
+"id": 26961113,
+"title": "Properties of a neural network trained to recognize words.",
+"doi": "10.1371/journal.pcbi.1012430.g001",
+"url": "https://plos.figshare.com/articles/figure/Properties_of_a_neural_network_trained_to_recognize_words_/26961113",
+"type": "figure",
+"queries": [
+"telugu script"
+]
+},
+"25239355": {
+"id": 25239355,
+"title": "cantnlp@LT-EDI-2024: Automatic Detection of Anti-LGBTQ+ Hate Speech in Under-resourced Languages",
+"doi": "10.6084/m9.figshare.25239355.v2",
+"url": "https://figshare.com/articles/poster/Untitled_Itemcantnlp_LT-EDI-2024_Automatic_Detection_of_Anti-LGBTQ_Hate_Speech_in_Under-resourced_Languages/25239355",
+"type": "poster",
+"queries": [
+"telugu script"
+]
+},
+"33474967": {
+"id": 33474967,
+"title": "Table 8_Exploring Wav2Vec2 XLSR-53 and Whisper-small for Telugu language speech-to-text: a fine-tuning approach.docx",
+"doi": "10.3389/frai.2026.1883049.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table_8_Exploring_Wav2Vec2_XLSR-53_and_Whisper-small_for_Telugu_language_speech-to-text_a_fine-tuning_approach_docx/33474967",
+"type": "dataset",
+"queries": [
+"telugu numerals"
+]
+},
+"33474958": {
+"id": 33474958,
+"title": "Table 5_Exploring Wav2Vec2 XLSR-53 and Whisper-small for Telugu language speech-to-text: a fine-tuning approach.docx",
+"doi": "10.3389/frai.2026.1883049.s004",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table_5_Exploring_Wav2Vec2_XLSR-53_and_Whisper-small_for_Telugu_language_speech-to-text_a_fine-tuning_approach_docx/33474958",
+"type": "dataset",
+"queries": [
+"telugu numerals"
+]
+},
+"33474961": {
+"id": 33474961,
+"title": "Table 6_Exploring Wav2Vec2 XLSR-53 and Whisper-small for Telugu language speech-to-text: a fine-tuning approach.docx",
+"doi": "10.3389/frai.2026.1883049.s003",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table_6_Exploring_Wav2Vec2_XLSR-53_and_Whisper-small_for_Telugu_language_speech-to-text_a_fine-tuning_approach_docx/33474961",
+"type": "dataset",
+"queries": [
+"telugu numerals"
+]
+},
+"33474964": {
+"id": 33474964,
+"title": "Table 7_Exploring Wav2Vec2 XLSR-53 and Whisper-small for Telugu language speech-to-text: a fine-tuning approach.docx",
+"doi": "10.3389/frai.2026.1883049.s002",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table_7_Exploring_Wav2Vec2_XLSR-53_and_Whisper-small_for_Telugu_language_speech-to-text_a_fine-tuning_approach_docx/33474964",
+"type": "dataset",
+"queries": [
+"telugu numerals"
+]
+},
+"33474949": {
+"id": 33474949,
+"title": "Table 2_Exploring Wav2Vec2 XLSR-53 and Whisper-small for Telugu language speech-to-text: a fine-tuning approach.docx",
+"doi": "10.3389/frai.2026.1883049.s007",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table_2_Exploring_Wav2Vec2_XLSR-53_and_Whisper-small_for_Telugu_language_speech-to-text_a_fine-tuning_approach_docx/33474949",
+"type": "dataset",
+"queries": [
+"telugu numerals"
+]
+},
+"33474952": {
+"id": 33474952,
+"title": "Table 3_Exploring Wav2Vec2 XLSR-53 and Whisper-small for Telugu language speech-to-text: a fine-tuning approach.docx",
+"doi": "10.3389/frai.2026.1883049.s006",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table_3_Exploring_Wav2Vec2_XLSR-53_and_Whisper-small_for_Telugu_language_speech-to-text_a_fine-tuning_approach_docx/33474952",
+"type": "dataset",
+"queries": [
+"telugu numerals"
+]
+},
+"33474955": {
+"id": 33474955,
+"title": "Table 4_Exploring Wav2Vec2 XLSR-53 and Whisper-small for Telugu language speech-to-text: a fine-tuning approach.docx",
+"doi": "10.3389/frai.2026.1883049.s005",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table_4_Exploring_Wav2Vec2_XLSR-53_and_Whisper-small_for_Telugu_language_speech-to-text_a_fine-tuning_approach_docx/33474955",
+"type": "dataset",
+"queries": [
+"telugu numerals"
+]
+},
+"33474946": {
+"id": 33474946,
+"title": "Table 1_Exploring Wav2Vec2 XLSR-53 and Whisper-small for Telugu language speech-to-text: a fine-tuning approach.docx",
+"doi": "10.3389/frai.2026.1883049.s008",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table_1_Exploring_Wav2Vec2_XLSR-53_and_Whisper-small_for_Telugu_language_speech-to-text_a_fine-tuning_approach_docx/33474946",
+"type": "dataset",
+"queries": [
+"telugu numerals"
+]
+},
+"34925442": {
+"id": 34925442,
+"title": "<b>Dataset on the Impacts of Drought Disasters in Mainland China, 1950–2025</b>",
+"doi": "10.6084/m9.figshare.34925442.v1",
+"url": "https://figshare.com/articles/dataset/_b_Dataset_on_the_Impacts_of_Drought_Disasters_in_Mainland_China_1950_2025_b_/34925442",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"34919454": {
+"id": 34919454,
+"title": "Theaflavins trigger autophagy-associated cell death in human breast, hepatocellular and cervical carcinoma cells potentially through a Beclin-1-independent non-canonical mechanism",
+"doi": "10.6084/m9.figshare.34919454.v1",
+"url": "https://tandf.figshare.com/articles/journal_contribution/Theaflavins_trigger_autophagy-associated_cell_death_in_human_breast_hepatocellular_and_cervical_carcinoma_cells_potentially_through_a_Beclin-1-independent_non-canonical_mechanism/34919454",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"34856253": {
+"id": 34856253,
+"title": "Table 1_Caloric restriction and time-restricted feeding differentially modulate metabolic, adipose tissue, and neurobehavioral outcomes in obese rats fed a high-sugar diet.docx",
+"doi": "10.3389/fnut.2026.1933559.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table_1_Caloric_restriction_and_time-restricted_feeding_differentially_modulate_metabolic_adipose_tissue_and_neurobehavioral_outcomes_in_obese_rats_fed_a_high-sugar_diet_docx/34856253",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"34829850": {
+"id": 34829850,
+"title": "<b>APPLICATION OF FOURIER TRANSFORM TECHNIQUES TO IMPROVE INFORMATION RETRIEVAL IN DIGITAL LIBRARIES</b>",
+"doi": "10.6084/m9.figshare.34829850.v1",
+"url": "https://figshare.com/articles/preprint/_b_APPLICATION_OF_FOURIER_TRANSFORM_TECHNIQUES_TO_IMPROVE_INFORMATION_RETRIEVAL_IN_DIGITAL_LIBRARIES_b_/34829850",
+"type": "preprint",
+"queries": [
+"indic ocr"
+]
+},
+"34739892": {
+"id": 34739892,
+"title": "<p>Extraordinary diversity in onthophagine horn morphology correlates with distinct modes of <i>cis</i>-regulatory evolution.</p>",
+"doi": "10.1371/journal.pgen.1012338.g001",
+"url": "https://plos.figshare.com/articles/figure/_p_Extraordinary_diversity_in_onthophagine_horn_morphology_correlates_with_distinct_modes_of_i_cis_i_-regulatory_evolution_p_/34739892",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"34683567": {
+"id": 34683567,
+"title": "Transitioning power distribution grid into nanostructured ecosystem :  prosumer-centric sovereignty",
+"doi": "",
+"url": "https://outputs.ncl.ac.uk/articles/thesis/Transitioning_power_distribution_grid_into_nanostructured_ecosystem_prosumer-centric_sovereignty/34683567",
+"type": "thesis",
+"queries": [
+"indic ocr"
+]
+},
+"34552500": {
+"id": 34552500,
+"title": "Lightweight and Maintainable Approach for Table Detection",
+"doi": "10.25405/ncl.34552500.v1",
+"url": "https://outputs.ncl.ac.uk/articles/conference_contribution/Lightweight_and_Maintainable_Approach_for_Table_Detection/34552500",
+"type": "conference contribution",
+"queries": [
+"indic ocr",
+"indic document layout"
+]
+},
+"34268169": {
+"id": 34268169,
+"title": "What makes an online consumer review trustworthy?",
+"doi": "10.25405/ncl.34268169.v1",
+"url": "https://outputs.ncl.ac.uk/articles/journal_contribution/What_makes_an_online_consumer_review_trustworthy_/34268169",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"34109083": {
+"id": 34109083,
+"title": "<p>Revised network attributes.</p>",
+"doi": "10.1371/journal.pone.0359981.t001",
+"url": "https://plos.figshare.com/articles/dataset/_p_Revised_network_attributes_p_/34109083",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"32641341": {
+"id": 32641341,
+"title": "Enhancing the effectiveness of radiotherapy by targeting tumour metabolism: a microfluidic approach to nanotherapeutic formulation",
+"doi": "10.17034/32641341.v1",
+"url": "https://orr.qub.ac.uk/articles/thesis/Enhancing_the_effectiveness_of_radiotherapy_by_targeting_tumour_metabolism_a_microfluidic_approach_to_nanotherapeutic_formulation/32641341",
+"type": "thesis",
+"queries": [
+"indic ocr"
+]
+},
+"33942475": {
+"id": 33942475,
+"title": "AncientTreeDB",
+"doi": "10.6084/m9.figshare.33942475.v2",
+"url": "https://figshare.com/articles/dataset/CHANTT_v1_0/33942475",
+"type": "dataset",
+"queries": [
+"indic ocr",
+"indic document layout"
+]
+},
+"33909202": {
+"id": 33909202,
+"title": "Bridging the Theory–Experiment\nGap in Vibrational\nSpectra for Molecular Structure Elucidation",
+"doi": "10.1021/prechem.6c00079.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Bridging_the_Theory_Experiment_Gap_in_Vibrational_Spectra_for_Molecular_Structure_Elucidation/33909202",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"33896554": {
+"id": 33896554,
+"title": "Unveiling the contribution of the reproductive system of individual Caenorhabditis elegans on oxygen consumption by single-point scanning electrochemical microscopy measurements",
+"doi": "10.1016/j.aca.2020.12.030",
+"url": "https://figshare.warwick.ac.uk/articles/journal_contribution/Unveiling_the_contribution_of_the_reproductive_system_of_individual_Caenorhabditis_elegans_on_oxygen_consumption_by_single-point_scanning_electrochemical_microscopy_measurements/33896554",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"33895384": {
+"id": 33895384,
+"title": "Numerical and experimental investigation of fluid flow and heat transfer in hairpin end-winding for an oil-injected cooled traction motor",
+"doi": "10.1109/TTE.2024.3524666",
+"url": "https://figshare.warwick.ac.uk/articles/journal_contribution/Numerical_and_experimental_investigation_of_fluid_flow_and_heat_transfer_in_hairpin_end-winding_for_an_oil-injected_cooled_traction_motor/33895384",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"27250686": {
+"id": 27250686,
+"title": "XF_Mdivi.csv",
+"doi": "10.6084/m9.figshare.27250686.v1",
+"url": "https://figshare.com/articles/dataset/XF_Mdivi_csv/27250686",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"27250797": {
+"id": 27250797,
+"title": "XF_S1QEL.csv",
+"doi": "10.6084/m9.figshare.27250797.v1",
+"url": "https://figshare.com/articles/dataset/XF_S1QEL_csv/27250797",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"33424024": {
+"id": 33424024,
+"title": "<b>Supplementary Figure S3. Fatty acid oxidation contributes to norepinephrine-induced maximal mitochondrial respiration</b>.",
+"doi": "10.6084/m9.figshare.33424024.v1",
+"url": "https://figshare.com/articles/figure/_b_Supplementary_Figure_S3_Fatty_acid_oxidation_contributes_to_norepinephrine-induced_maximal_mitochondrial_respiration_b_/33424024",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33423994": {
+"id": 33423994,
+"title": "<b>Supplementary Figure S2. PKA inhibition attenuates norepinephrine-induced mitochondrial respiration and cytosolic Ca²</b><b>⁺</b><b> elevation</b>.",
+"doi": "10.6084/m9.figshare.33423994.v1",
+"url": "https://figshare.com/articles/figure/_b_Supplementary_Figure_S2_PKA_inhibition_attenuates_norepinephrine-induced_mitochondrial_respiration_and_cytosolic_Ca_b_b_b_b_elevation_b_/33423994",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33423658": {
+"id": 33423658,
+"title": "<b>Supplementary Figure S1. cAMP-induced mitochondrial activation requires cytosolic Ca²</b><b>⁺</b><b>.</b>",
+"doi": "10.6084/m9.figshare.33423658.v2",
+"url": "https://figshare.com/articles/figure/_b_Supplementary_Figure_S1_cAMP-induced_mitochondrial_activation_requires_cytosolic_Ca_b_b_b_b_b_/33423658",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33374603": {
+"id": 33374603,
+"title": "<p>Mitochondrial OAA accumulation impairs mitochondrial structure.</p>",
+"doi": "10.1371/journal.pbio.3003649.g004",
+"url": "https://plos.figshare.com/articles/figure/_p_Mitochondrial_OAA_accumulation_impairs_mitochondrial_structure_p_/33374603",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33248900": {
+"id": 33248900,
+"title": "<p>SKN-1B controls mitochondrial morphology and activity in a sex-specific manner.</p>",
+"doi": "10.1371/journal.pgen.1012239.g002",
+"url": "https://plos.figshare.com/articles/figure/_p_SKN-1B_controls_mitochondrial_morphology_and_activity_in_a_sex-specific_manner_p_/33248900",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33200009": {
+"id": 33200009,
+"title": "<p>Execution time statistics (s) on the Jetson CPU.</p>",
+"doi": "10.1371/journal.pone.0355858.t013",
+"url": "https://plos.figshare.com/articles/dataset/_p_Execution_time_statistics_s_on_the_Jetson_CPU_p_/33200009",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"33199994": {
+"id": 33199994,
+"title": "<p>LPNR model validation results.</p>",
+"doi": "10.1371/journal.pone.0355858.t008",
+"url": "https://plos.figshare.com/articles/dataset/_p_LPNR_model_validation_results_p_/33199994",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"33199991": {
+"id": 33199991,
+"title": "<p>LPD model test results.</p>",
+"doi": "10.1371/journal.pone.0355858.t007",
+"url": "https://plos.figshare.com/articles/dataset/_p_LPD_model_test_results_p_/33199991",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"33199988": {
+"id": 33199988,
+"title": "<p>LPD model validation results.</p>",
+"doi": "10.1371/journal.pone.0355858.t006",
+"url": "https://plos.figshare.com/articles/dataset/_p_LPD_model_validation_results_p_/33199988",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"33199979": {
+"id": 33199979,
+"title": "<p>Class names and count of Dataset-02.</p>",
+"doi": "10.1371/journal.pone.0355858.t003",
+"url": "https://plos.figshare.com/articles/dataset/_p_Class_names_and_count_of_Dataset-02_p_/33199979",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"33199976": {
+"id": 33199976,
+"title": "<p>Dataset descriptions.</p>",
+"doi": "10.1371/journal.pone.0355858.t002",
+"url": "https://plos.figshare.com/articles/dataset/_p_Dataset_descriptions_p_/33199976",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"33199973": {
+"id": 33199973,
+"title": "<p>Related previous work summary.</p>",
+"doi": "10.1371/journal.pone.0355858.t001",
+"url": "https://plos.figshare.com/articles/dataset/_p_Related_previous_work_summary_p_/33199973",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"33199946": {
+"id": 33199946,
+"title": "<p>LPNR model test Precision–Recall curve.</p>",
+"doi": "10.1371/journal.pone.0355858.g026",
+"url": "https://plos.figshare.com/articles/figure/_p_LPNR_model_test_Precision_Recall_curve_p_/33199946",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199937": {
+"id": 33199937,
+"title": "<p>LPNR model validation Precision–Recall curve.</p>",
+"doi": "10.1371/journal.pone.0355858.g024",
+"url": "https://plos.figshare.com/articles/figure/_p_LPNR_model_validation_Precision_Recall_curve_p_/33199937",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199934": {
+"id": 33199934,
+"title": "<p>LPNR model train time vs epoch.</p>",
+"doi": "10.1371/journal.pone.0355858.g023",
+"url": "https://plos.figshare.com/articles/figure/_p_LPNR_model_train_time_vs_epoch_p_/33199934",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199922": {
+"id": 33199922,
+"title": "<p>A LPNR model training batch.</p>",
+"doi": "10.1371/journal.pone.0355858.g020",
+"url": "https://plos.figshare.com/articles/figure/_p_A_LPNR_model_training_batch_p_/33199922",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199919": {
+"id": 33199919,
+"title": "<p>F1 confidence curve of the LPD model test set.</p>",
+"doi": "10.1371/journal.pone.0355858.g019",
+"url": "https://plos.figshare.com/articles/figure/_p_F1_confidence_curve_of_the_LPD_model_test_set_p_/33199919",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199916": {
+"id": 33199916,
+"title": "<p>LPD model testing confusion matrix.</p>",
+"doi": "10.1371/journal.pone.0355858.g018",
+"url": "https://plos.figshare.com/articles/figure/_p_LPD_model_testing_confusion_matrix_p_/33199916",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199907": {
+"id": 33199907,
+"title": "<p>LPD model validation confusion matrix.</p>",
+"doi": "10.1371/journal.pone.0355858.g015",
+"url": "https://plos.figshare.com/articles/figure/_p_LPD_model_validation_confusion_matrix_p_/33199907",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199898": {
+"id": 33199898,
+"title": "<p>A LPD model training batch.</p>",
+"doi": "10.1371/journal.pone.0355858.g012",
+"url": "https://plos.figshare.com/articles/figure/_p_A_LPD_model_training_batch_p_/33199898",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199895": {
+"id": 33199895,
+"title": "<p>LPD model train time vs epoch.</p>",
+"doi": "10.1371/journal.pone.0355858.g011",
+"url": "https://plos.figshare.com/articles/figure/_p_LPD_model_train_time_vs_epoch_p_/33199895",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199892": {
+"id": 33199892,
+"title": "<p>VLPDR model architecture.</p>",
+"doi": "10.1371/journal.pone.0355858.g010",
+"url": "https://plos.figshare.com/articles/figure/_p_VLPDR_model_architecture_p_/33199892",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199889": {
+"id": 33199889,
+"title": "<p>Top view of the used Jetson device.</p>",
+"doi": "10.1371/journal.pone.0355858.g009",
+"url": "https://plos.figshare.com/articles/figure/_p_Top_view_of_the_used_Jetson_device_p_/33199889",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199886": {
+"id": 33199886,
+"title": "<p>Convolution network structure.</p>",
+"doi": "10.1371/journal.pone.0355858.g008",
+"url": "https://plos.figshare.com/articles/figure/_p_Convolution_network_structure_p_/33199886",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199883": {
+"id": 33199883,
+"title": "<p> grids of the input image.</p>",
+"doi": "10.1371/journal.pone.0355858.g007",
+"url": "https://plos.figshare.com/articles/figure/_p_grids_of_the_input_image_p_/33199883",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33199874": {
+"id": 33199874,
+"title": "<p>Classes used in the Dataset-02.</p>",
+"doi": "10.1371/journal.pone.0355858.g004",
+"url": "https://plos.figshare.com/articles/figure/_p_Classes_used_in_the_Dataset-02_p_/33199874",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"33167168": {
+"id": 33167168,
+"title": "<i>Mycoplasma gallisepticum</i> uses itaconate-associated mitochondrial inhibition to suppress host immunometabolism",
+"doi": "10.6084/m9.figshare.33167168.v1",
+"url": "https://figshare.com/articles/dataset/_i_Mycoplasma_gallisepticum_i_uses_itaconate-associated_mitochondrial_inhibition_to_suppress_host_immunometabolism/33167168",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"33062251": {
+"id": 33062251,
+"title": "Determination\nof Cellular Oxygen Consumption Rate\nBased on Phosphorescence Intensity Measurements Using a Blue-Emitting\nHydrophilic Ir(III) Complex",
+"doi": "10.1021/acs.analchem.6c04068.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Determination_of_Cellular_Oxygen_Consumption_Rate_Based_on_Phosphorescence_Intensity_Measurements_Using_a_Blue-Emitting_Hydrophilic_Ir_III_Complex/33062251",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"32953058": {
+"id": 32953058,
+"title": "Supplementary file 1_Material-dependent oxygen transport governs ischemia-reperfusion injury and drug response in a kidney microphysiological system.docx",
+"doi": "10.3389/ftox.2026.1854389.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_1_Material-dependent_oxygen_transport_governs_ischemia-reperfusion_injury_and_drug_response_in_a_kidney_microphysiological_system_docx/32953058",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"32949674": {
+"id": 32949674,
+"title": "<p>T3SS-dependent and -independent growth of ST are enhanced in high energetic RAW macrophages.</p>",
+"doi": "10.1371/journal.ppat.1014348.g002",
+"url": "https://plos.figshare.com/articles/figure/_p_T3SS-dependent_and_-independent_growth_of_ST_are_enhanced_in_high_energetic_RAW_macrophages_p_/32949674",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"32946101": {
+"id": 32946101,
+"title": "High-Fidelity Synthetic Dataset for Handwritten Digit Recognition",
+"doi": "10.6084/m9.figshare.32946101.v1",
+"url": "https://figshare.com/articles/dataset/High-Fidelity_Synthetic_Dataset_for_Handwritten_Digit_Recognition/32946101",
+"type": "dataset",
+"queries": [
+"indic ocr",
+"indic handwritten"
+]
+},
+"32779587": {
+"id": 32779587,
+"title": "Illusions for Machines Benchmark Dataset: Adversarial Attacks on OCR via Human Visual Patterns Benchmark Dataset",
+"doi": "10.6084/m9.figshare.32779587.v1",
+"url": "https://figshare.com/articles/dataset/Illusions_for_Machines_Benchmark_Dataset_Adversarial_Attacks_on_OCR_via_Human_Visual_Patterns_Benchmark_Dataset/32779587",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"32779560": {
+"id": 32779560,
+"title": "Illusions for Machines Persian Dataset",
+"doi": "10.6084/m9.figshare.32779560.v1",
+"url": "https://figshare.com/articles/dataset/Illusions_for_Machines_Persian_Dataset/32779560",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"32773584": {
+"id": 32773584,
+"title": "<p>Effect of AGEs on mitochondrial respiration and bioenergetics.</p>",
+"doi": "10.1371/journal.pone.0352355.g005",
+"url": "https://plos.figshare.com/articles/figure/_p_Effect_of_AGEs_on_mitochondrial_respiration_and_bioenergetics_p_/32773584",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"32769850": {
+"id": 32769850,
+"title": "Figure 1 from Increased Glucose Availability Sensitizes Pancreatic Cancer to Macrophage-Targeting Immunotherapies",
+"doi": "10.1158/2767-9764.32769850",
+"url": "https://aacr.figshare.com/articles/figure/Figure_1_from_Increased_Glucose_Availability_Sensitizes_Pancreatic_Cancer_to_Macrophage-Targeting_Immunotherapies/32769850",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"32714332": {
+"id": 32714332,
+"title": "Supplementary Figure S7 from TR-107, an Agonist of Caseinolytic Peptidase Proteolytic Subunit, Disrupts Mitochondrial Metabolism and Inhibits the Growth of Human Colorectal Cancer Cells",
+"doi": "10.1158/1535-7163.32714332",
+"url": "https://aacr.figshare.com/articles/journal_contribution/Supplementary_Figure_S7_from_TR-107_an_Agonist_of_Caseinolytic_Peptidase_Proteolytic_Subunit_Disrupts_Mitochondrial_Metabolism_and_Inhibits_the_Growth_of_Human_Colorectal_Cancer_Cells/32714332",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"32714329": {
+"id": 32714329,
+"title": "Supplementary Figure S8 from TR-107, an Agonist of Caseinolytic Peptidase Proteolytic Subunit, Disrupts Mitochondrial Metabolism and Inhibits the Growth of Human Colorectal Cancer Cells",
+"doi": "10.1158/1535-7163.32714329",
+"url": "https://aacr.figshare.com/articles/journal_contribution/Supplementary_Figure_S8_from_TR-107_an_Agonist_of_Caseinolytic_Peptidase_Proteolytic_Subunit_Disrupts_Mitochondrial_Metabolism_and_Inhibits_the_Growth_of_Human_Colorectal_Cancer_Cells/32714329",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"32714326": {
+"id": 32714326,
+"title": "Supplementary Figure S9 from TR-107, an Agonist of Caseinolytic Peptidase Proteolytic Subunit, Disrupts Mitochondrial Metabolism and Inhibits the Growth of Human Colorectal Cancer Cells",
+"doi": "10.1158/1535-7163.32714326",
+"url": "https://aacr.figshare.com/articles/journal_contribution/Supplementary_Figure_S9_from_TR-107_an_Agonist_of_Caseinolytic_Peptidase_Proteolytic_Subunit_Disrupts_Mitochondrial_Metabolism_and_Inhibits_the_Growth_of_Human_Colorectal_Cancer_Cells/32714326",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"32702190": {
+"id": 32702190,
+"title": "Figure 2 from Cyclin-Dependent Kinase-9 and Oxidative Phosphorylation Inhibition Overcomes Ibrutinib Resistance in Mantle Cell Lymphoma",
+"doi": "10.1158/2767-9764.32702190",
+"url": "https://aacr.figshare.com/articles/figure/Figure_2_from_Cyclin-Dependent_Kinase-9_and_Oxidative_Phosphorylation_Inhibition_Overcomes_Ibrutinib_Resistance_in_Mantle_Cell_Lymphoma/32702190",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"32700473": {
+"id": 32700473,
+"title": "Supplementary Figure 4 from Chromatin Helicase CHD6 Establishes Proinflammatory Enhancers and Is a Synthetic Lethal Target in FH-Deficient Renal Cell Carcinoma",
+"doi": "10.1158/0008-5472.32700473",
+"url": "https://aacr.figshare.com/articles/journal_contribution/Supplementary_Figure_4_from_Chromatin_Helicase_CHD6_Establishes_Proinflammatory_Enhancers_and_Is_a_Synthetic_Lethal_Target_in_FH-Deficient_Renal_Cell_Carcinoma/32700473",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"26934563": {
+"id": 26934563,
+"title": "Figure 4 from Multistate Gene Cluster Switches Determine the Adaptive Mitochondrial and Metabolic Landscape of Breast Cancer",
+"doi": "10.1158/0008-5472.26934563",
+"url": "https://aacr.figshare.com/articles/figure/Figure_4_from_Multistate_Gene_Cluster_Switches_Determine_the_Adaptive_Mitochondrial_and_Metabolic_Landscape_of_Breast_Cancer/26934563",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"32673348": {
+"id": 32673348,
+"title": "Data Sheet 1_Relative increase of memory B-cell subsets under s.c. B-cell-depleting therapies in multiple sclerosis.docx",
+"doi": "10.3389/fimmu.2026.1812392.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Relative_increase_of_memory_B-cell_subsets_under_s_c_B-cell-depleting_therapies_in_multiple_sclerosis_docx/32673348",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"32552664": {
+"id": 32552664,
+"title": "Implementation of YOLOv5 and Vision OCR Hybrid Model for GD&T Recognition",
+"doi": "",
+"url": "https://repository.mmu.ac.uk/articles/conference_contribution/Implementation_of_YOLOv5_and_Vision_OCR_Hybrid_Model_for_GD_T_Recognition/32552664",
+"type": "conference contribution",
+"queries": [
+"indic ocr"
+]
+},
+"32490891": {
+"id": 32490891,
+"title": "Advanced Optimal Twin‐Setting Protection Coordination Scheme for Maximizing Microgrid Resilience",
+"doi": "",
+"url": "https://repository.mmu.ac.uk/articles/journal_contribution/Advanced_Optimal_Twin_Setting_Protection_Coordination_Scheme_for_Maximizing_Microgrid_Resilience/32490891",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"32247512": {
+"id": 32247512,
+"title": "<p>Lipidomic analysis and OCR of <i>Pb</i>Cls KO and WT.</p>",
+"doi": "10.1371/journal.ppat.1014215.s006",
+"url": "https://plos.figshare.com/articles/journal_contribution/_p_Lipidomic_analysis_and_OCR_of_i_Pb_i_Cls_KO_and_WT_p_/32247512",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"32129772": {
+"id": 32129772,
+"title": "Measuring organised crime in Italy: dual composite indicators integrating text mining and oﬃcial statistics",
+"doi": "10.6084/m9.figshare.32129772.v1",
+"url": "https://tandf.figshare.com/articles/journal_contribution/Measuring_organised_crime_in_Italy_dual_composite_indicators_integrating_text_mining_and_o_cial_statistics/32129772",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"32079456": {
+"id": 32079456,
+"title": "<p>6-AN inhibits glycolysis and rebalances mitochondrial respiration.</p>",
+"doi": "10.1371/journal.ppat.1014165.g005",
+"url": "https://plos.figshare.com/articles/figure/_p_6-AN_inhibits_glycolysis_and_rebalances_mitochondrial_respiration_p_/32079456",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31976078": {
+"id": 31976078,
+"title": "Additional file 1 of Optimized culture of primary human alveolar type II cell–derived 3D organoids from fibrotic lung tissue with phenotypic and metabolic profiling",
+"doi": "10.6084/m9.figshare.31976078.v1",
+"url": "https://springernature.figshare.com/articles/journal_contribution/Additional_file_1_of_Optimized_culture_of_primary_human_alveolar_type_II_cell_derived_3D_organoids_from_fibrotic_lung_tissue_with_phenotypic_and_metabolic_profiling/31976078",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"31967039": {
+"id": 31967039,
+"title": "<p>Contribution of aerobic glycolysis and lactate to ATP generation during retinal development.</p>",
+"doi": "10.1371/journal.pgen.1012100.g001",
+"url": "https://plos.figshare.com/articles/figure/_p_Contribution_of_aerobic_glycolysis_and_lactate_to_ATP_generation_during_retinal_development_p_/31967039",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31947294": {
+"id": 31947294,
+"title": "Data Sheet 1_Role of dual specificity phosphatase 1 in influencing inflammatory pathways in macrophages modulated by Borrelia burgdorferi lipoproteins.pdf",
+"doi": "10.3389/fimmu.2026.1766756.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Role_of_dual_specificity_phosphatase_1_in_influencing_inflammatory_pathways_in_macrophages_modulated_by_Borrelia_burgdorferi_lipoproteins_pdf/31947294",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"31811044": {
+"id": 31811044,
+"title": "Figure 3 from 3D “Emboli” Culture Models Epithelial Breast Cancer Cell Oxidative Mitochondrial Metabolism with Relevance for Lung Metastasis",
+"doi": "10.1158/2767-9764.31811044",
+"url": "https://aacr.figshare.com/articles/figure/Figure_3_from_3D_Emboli_Culture_Models_Epithelial_Breast_Cancer_Cell_Oxidative_Mitochondrial_Metabolism_with_Relevance_for_Lung_Metastasis/31811044",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31785094": {
+"id": 31785094,
+"title": "Supplementary file 2_Safe dosage and potential risks of chlorogenic acid: insights from in vitro and in vivo studies.pdf",
+"doi": "10.3389/fphar.2026.1740609.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_2_Safe_dosage_and_potential_risks_of_chlorogenic_acid_insights_from_in_vitro_and_in_vivo_studies_pdf/31785094",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"31785079": {
+"id": 31785079,
+"title": "Supplementary file 1_Safe dosage and potential risks of chlorogenic acid: insights from in vitro and in vivo studies.docx",
+"doi": "10.3389/fphar.2026.1740609.s002",
+"url": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_1_Safe_dosage_and_potential_risks_of_chlorogenic_acid_insights_from_in_vitro_and_in_vivo_studies_docx/31785079",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"31783981": {
+"id": 31783981,
+"title": "Data Sheet 1_The critical role of Atpif1 in Her2-targeted CAR-T cell therapy for solid tumor via modulation of metabolism and mtDNA-STING signal pathway.pdf",
+"doi": "10.3389/fimmu.2026.1733753.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_The_critical_role_of_Atpif1_in_Her2-targeted_CAR-T_cell_therapy_for_solid_tumor_via_modulation_of_metabolism_and_mtDNA-STING_signal_pathway_pdf/31783981",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"31658953": {
+"id": 31658953,
+"title": "<p>αKG activation of M2 polarization is dependence OXPHOS and autophagy.</p>",
+"doi": "10.1371/journal.ppat.1014053.g006",
+"url": "https://plos.figshare.com/articles/figure/_p_KG_activation_of_M2_polarization_is_dependence_OXPHOS_and_autophagy_p_/31658953",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31430086": {
+"id": 31430086,
+"title": "OCR-Based vs. End-to-End Transformer Pipelines for Receipt Information Extraction: A Comparative Study on SROIE 2019",
+"doi": "10.6084/m9.figshare.31430086.v1",
+"url": "https://figshare.com/articles/preprint/OCR-Based_vs_End-to-End_Transformer_Pipelines_for_Receipt_Information_Extraction_A_Comparative_Study_on_SROIE_2019/31430086",
+"type": "preprint",
+"queries": [
+"indic ocr"
+]
+},
+"31322869": {
+"id": 31322869,
+"title": "Image 2_Enhancing antioxidant capacity via NRF2 pathway activation to mitigate heat stress‐induced oxidative damage in bovine granulosa cells, oocytes, and embryos.jpeg",
+"doi": "10.3389/fcell.2026.1777760.s003",
+"url": "https://frontiersin.figshare.com/articles/figure/Image_2_Enhancing_antioxidant_capacity_via_NRF2_pathway_activation_to_mitigate_heat_stress_induced_oxidative_damage_in_bovine_granulosa_cells_oocytes_and_embryos_jpeg/31322869",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31322872": {
+"id": 31322872,
+"title": "Image 1_Enhancing antioxidant capacity via NRF2 pathway activation to mitigate heat stress‐induced oxidative damage in bovine granulosa cells, oocytes, and embryos.jpeg",
+"doi": "10.3389/fcell.2026.1777760.s002",
+"url": "https://frontiersin.figshare.com/articles/figure/Image_1_Enhancing_antioxidant_capacity_via_NRF2_pathway_activation_to_mitigate_heat_stress_induced_oxidative_damage_in_bovine_granulosa_cells_oocytes_and_embryos_jpeg/31322872",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31322881": {
+"id": 31322881,
+"title": "Table 1_Enhancing antioxidant capacity via NRF2 pathway activation to mitigate heat stress‐induced oxidative damage in bovine granulosa cells, oocytes, and embryos.docx",
+"doi": "10.3389/fcell.2026.1777760.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table_1_Enhancing_antioxidant_capacity_via_NRF2_pathway_activation_to_mitigate_heat_stress_induced_oxidative_damage_in_bovine_granulosa_cells_oocytes_and_embryos_docx/31322881",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"31322842": {
+"id": 31322842,
+"title": "Image 4_Enhancing antioxidant capacity via NRF2 pathway activation to mitigate heat stress‐induced oxidative damage in bovine granulosa cells, oocytes, and embryos.jpeg",
+"doi": "10.3389/fcell.2026.1777760.s005",
+"url": "https://frontiersin.figshare.com/articles/figure/Image_4_Enhancing_antioxidant_capacity_via_NRF2_pathway_activation_to_mitigate_heat_stress_induced_oxidative_damage_in_bovine_granulosa_cells_oocytes_and_embryos_jpeg/31322842",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31322854": {
+"id": 31322854,
+"title": "Image 3_Enhancing antioxidant capacity via NRF2 pathway activation to mitigate heat stress‐induced oxidative damage in bovine granulosa cells, oocytes, and embryos.jpeg",
+"doi": "10.3389/fcell.2026.1777760.s004",
+"url": "https://frontiersin.figshare.com/articles/figure/Image_3_Enhancing_antioxidant_capacity_via_NRF2_pathway_activation_to_mitigate_heat_stress_induced_oxidative_damage_in_bovine_granulosa_cells_oocytes_and_embryos_jpeg/31322854",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31242799": {
+"id": 31242799,
+"title": "<p>Validating assay performance.</p>",
+"doi": "10.1371/journal.pone.0341334.g002",
+"url": "https://plos.figshare.com/articles/figure/_p_Validating_assay_performance_p_/31242799",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31087375": {
+"id": 31087375,
+"title": "Culture\nDimensionality Modulates Gallium Maltolate\nResponse in Glioblastoma: Comparative Analyses in 2D and 3D Models",
+"doi": "10.1021/acs.molpharmaceut.5c01472.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Culture_Dimensionality_Modulates_Gallium_Maltolate_Response_in_Glioblastoma_Comparative_Analyses_in_2D_and_3D_Models/31087375",
+"type": "journal contribution",
+"queries": [
+"indic ocr"
+]
+},
+"31002558": {
+"id": 31002558,
+"title": "<p>Unsupervised clustering predicts that an increased proton leak may underlie the bioenergetic phenotype measured in Parkin KO dopaminergic neurons (Giguiere et al, 2018).</p>",
+"doi": "10.1371/journal.pone.0339326.g006",
+"url": "https://plos.figshare.com/articles/figure/_p_Unsupervised_clustering_predicts_that_an_increased_proton_leak_may_underlie_the_bioenergetic_phenotype_measured_in_Parkin_KO_dopaminergic_neurons_Giguiere_et_al_2018_p_/31002558",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31002555": {
+"id": 31002555,
+"title": "<p>Unsupervised clustering separates impairments according to the induced bioenergetic phenotype.</p>",
+"doi": "10.1371/journal.pone.0339326.g005",
+"url": "https://plos.figshare.com/articles/figure/_p_Unsupervised_clustering_separates_impairments_according_to_the_induced_bioenergetic_phenotype_p_/31002555",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31002549": {
+"id": 31002549,
+"title": "<p>Simulating impairments of critical model components predicts their impact on bioenergetic parameters.</p>",
+"doi": "10.1371/journal.pone.0339326.g003",
+"url": "https://plos.figshare.com/articles/figure/_p_Simulating_impairments_of_critical_model_components_predicts_their_impact_on_bioenergetic_parameters_p_/31002549",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31002546": {
+"id": 31002546,
+"title": "<p>Simulating impairments in model components provides mechanistic insight.</p>",
+"doi": "10.1371/journal.pone.0339326.g002",
+"url": "https://plos.figshare.com/articles/figure/_p_Simulating_impairments_in_model_components_provides_mechanistic_insight_p_/31002546",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31002543": {
+"id": 31002543,
+"title": "<p>Schematic of the components and fluxes included in the computational model, and comparison of model simulations with experimental measurements.</p>",
+"doi": "10.1371/journal.pone.0339326.g001",
+"url": "https://plos.figshare.com/articles/figure/_p_Schematic_of_the_components_and_fluxes_included_in_the_computational_model_and_comparison_of_model_simulations_with_experimental_measurements_p_/31002543",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"31002540": {
+"id": 31002540,
+"title": "<p>Clustering simulated OCR metrics with experimental phenotype from a transgenic Alzheimer’s model (TgAD) confirms reduced substrate supply as the underlying molecular defect.</p>",
+"doi": "10.1371/journal.pone.0339326.s002",
+"url": "https://plos.figshare.com/articles/figure/_p_Clustering_simulated_OCR_metrics_with_experimental_phenotype_from_a_transgenic_Alzheimer_s_model_TgAD_confirms_reduced_substrate_supply_as_the_underlying_molecular_defect_p_/31002540",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30876457": {
+"id": 30876457,
+"title": "LBX2-AS1 in acceleration of glycolysis and cancer angiogenesis via miR-491-5p/MDK signaling axis in colorectal cancer: an experimental study",
+"doi": "10.6084/m9.figshare.30876457.v1",
+"url": "https://tandf.figshare.com/articles/dataset/LBX2-AS1_in_acceleration_of_glycolysis_and_cancer_angiogenesis_via_miR-491-5p_MDK_signaling_axis_in_colorectal_cancer_an_experimental_study/30876457",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"30794864": {
+"id": 30794864,
+"title": "SCN regulates thermogenic capacity via sympathetic signaling.",
+"doi": "10.1371/journal.pbio.3003534.g003",
+"url": "https://plos.figshare.com/articles/figure/SCN_regulates_thermogenic_capacity_via_sympathetic_signaling_/30794864",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30794819": {
+"id": 30794819,
+"title": "Sympathetic regulation and thermogenic gene expression in BAT.",
+"doi": "10.1371/journal.pbio.3003534.s003",
+"url": "https://plos.figshare.com/articles/figure/Sympathetic_regulation_and_thermogenic_gene_expression_in_BAT_/30794819",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30710350": {
+"id": 30710350,
+"title": "Figure 5 from Tumor-Derived Lactic Acid Modulates Activation and Metabolic Status of Draining Lymph Node Stroma",
+"doi": "10.1158/2326-6066.30710350",
+"url": "https://aacr.figshare.com/articles/figure/Figure_5_from_Tumor-Derived_Lactic_Acid_Modulates_Activation_and_Metabolic_Status_of_Draining_Lymph_Node_Stroma/30710350",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30697052": {
+"id": 30697052,
+"title": "Polo-like kinase 1 (PLK1) induces Vemurafenib resistance in melanoma.",
+"doi": "10.1371/journal.pbio.3003490.g003",
+"url": "https://plos.figshare.com/articles/figure/Polo-like_kinase_1_PLK1_induces_Vemurafenib_resistance_in_melanoma_/30697052",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30464477": {
+"id": 30464477,
+"title": "Original date",
+"doi": "10.6084/m9.figshare.30464477.v1",
+"url": "https://figshare.com/articles/dataset/Original_date/30464477",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"30320004": {
+"id": 30320004,
+"title": "Mitochondrial respiration and energetic metabolism measured and calculated on H9c2 cells exposed without LPS for 24 hours (n = 6) or at 0.5 (n = 3); 1 (n = 3); 2.5 (n = 3); 5 (n = 4) µg/mL of LPS and for 48 hours at 0 (n = 3); 2.5 (n = 3); 5 (n = 3) µg/mL.",
+"doi": "10.1371/journal.pone.0334234.g003",
+"url": "https://plos.figshare.com/articles/figure/Mitochondrial_respiration_and_energetic_metabolism_measured_and_calculated_on_H9c2_cells_exposed_without_LPS_for_24_hours_n_6_or_at_0_5_n_3_1_n_3_2_5_n_3_5_n_4_g_mL_of_LPS_and_for_48_hours_at_0_n_3_2_5_n_3_5_n_3_g_mL_/30320004",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30255833": {
+"id": 30255833,
+"title": "Supplementary Figure 3 from Hypoxia-Induced Creatine Uptake Reprograms Metabolism to Antagonize PARP1-Mediated Cell Death and Facilitate Tumor Progression in Hepatocellular Carcinoma",
+"doi": "10.1158/0008-5472.30255833",
+"url": "https://aacr.figshare.com/articles/figure/Supplementary_Figure_3_from_Hypoxia-Induced_Creatine_Uptake_Reprograms_Metabolism_to_Antagonize_PARP1-Mediated_Cell_Death_and_Facilitate_Tumor_Progression_in_Hepatocellular_Carcinoma/30255833",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30255830": {
+"id": 30255830,
+"title": "Supplementary Figure 4 from Hypoxia-Induced Creatine Uptake Reprograms Metabolism to Antagonize PARP1-Mediated Cell Death and Facilitate Tumor Progression in Hepatocellular Carcinoma",
+"doi": "10.1158/0008-5472.30255830",
+"url": "https://aacr.figshare.com/articles/figure/Supplementary_Figure_4_from_Hypoxia-Induced_Creatine_Uptake_Reprograms_Metabolism_to_Antagonize_PARP1-Mediated_Cell_Death_and_Facilitate_Tumor_Progression_in_Hepatocellular_Carcinoma/30255830",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30255827": {
+"id": 30255827,
+"title": "Supplementary Figure 5 from Hypoxia-Induced Creatine Uptake Reprograms Metabolism to Antagonize PARP1-Mediated Cell Death and Facilitate Tumor Progression in Hepatocellular Carcinoma",
+"doi": "10.1158/0008-5472.30255827",
+"url": "https://aacr.figshare.com/articles/figure/Supplementary_Figure_5_from_Hypoxia-Induced_Creatine_Uptake_Reprograms_Metabolism_to_Antagonize_PARP1-Mediated_Cell_Death_and_Facilitate_Tumor_Progression_in_Hepatocellular_Carcinoma/30255827",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30255818": {
+"id": 30255818,
+"title": "Supplementary Figure 7 from Hypoxia-Induced Creatine Uptake Reprograms Metabolism to Antagonize PARP1-Mediated Cell Death and Facilitate Tumor Progression in Hepatocellular Carcinoma",
+"doi": "10.1158/0008-5472.30255818",
+"url": "https://aacr.figshare.com/articles/figure/Supplementary_Figure_7_from_Hypoxia-Induced_Creatine_Uptake_Reprograms_Metabolism_to_Antagonize_PARP1-Mediated_Cell_Death_and_Facilitate_Tumor_Progression_in_Hepatocellular_Carcinoma/30255818",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30255815": {
+"id": 30255815,
+"title": "Supplementary Figure 8 from Hypoxia-Induced Creatine Uptake Reprograms Metabolism to Antagonize PARP1-Mediated Cell Death and Facilitate Tumor Progression in Hepatocellular Carcinoma",
+"doi": "10.1158/0008-5472.30255815",
+"url": "https://aacr.figshare.com/articles/figure/Supplementary_Figure_8_from_Hypoxia-Induced_Creatine_Uptake_Reprograms_Metabolism_to_Antagonize_PARP1-Mediated_Cell_Death_and_Facilitate_Tumor_Progression_in_Hepatocellular_Carcinoma/30255815",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30140740": {
+"id": 30140740,
+"title": "Impact of HK2 depletion and glucose inhibition in the metabolic profile of A375 melanoma cells.",
+"doi": "10.1371/journal.pbio.3003364.s002",
+"url": "https://plos.figshare.com/articles/figure/Impact_of_HK2_depletion_and_glucose_inhibition_in_the_metabolic_profile_of_A375_melanoma_cells_/30140740",
+"type": "figure",
+"queries": [
+"indic ocr"
+]
+},
+"30111682": {
+"id": 30111682,
+"title": "Supplementary materials: Matching-adjusted indirect comparisons of diroximel fumarate, ocrelizumab and interferon beta-1a for relapsing multiple sclerosis",
+"doi": "10.6084/m9.figshare.30111682.v1",
+"url": "https://becaris.figshare.com/articles/dataset/Supplementary_materials_Matching-adjusted_indirect_comparisons_of_diroximel_fumarate_ocrelizumab_and_interferon_beta-1a_for_relapsing_multiple_sclerosis/30111682",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"30049789": {
+"id": 30049789,
+"title": "Data Sheet 1_Novel RNA-methylase HNRNPC promotes gastric cancer tumorigenesis by triggering the lactate-induced ferroptosis resistance.zip",
+"doi": "10.3389/fimmu.2025.1612935.s002",
+"url": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Novel_RNA-methylase_HNRNPC_promotes_gastric_cancer_tumorigenesis_by_triggering_the_lactate-induced_ferroptosis_resistance_zip/30049789",
+"type": "dataset",
+"queries": [
+"indic ocr"
+]
+},
+"32301111": {
+"id": 32301111,
+"title": "A non-computer aided manually Constructed Realization of a Doubly Diagonalized Metric Square of Order 26 with Linguistic Mapping for Intelligence Activation.",
+"doi": "10.6084/m9.figshare.32301111.v12",
+"url": "https://figshare.com/articles/journal_contribution/A_Constructive_Realization_of_a_Doubly_Diagonalized_Latin_Square_of_Order_26_with_Linguistic_Mapping_for_Intelligent_ActivationA_Constructive_Realization_of_a_Doubly_Diagonalized_Latin_Square_of_Order_26_with_Linguistic_Mapping_for_Intellig/32301111",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"33973987": {
+"id": 33973987,
+"title": "Quantifying Variability,\nSymmetry, and Nonlinearity\nof Protonic Electrochemical Random-Access Memory for Hardware Neural\nNetwork Training",
+"doi": "10.1021/acsnano.6c09861.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Quantifying_Variability_Symmetry_and_Nonlinearity_of_Protonic_Electrochemical_Random-Access_Memory_for_Hardware_Neural_Network_Training/33973987",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"33700984": {
+"id": 33700984,
+"title": "Effectiveness of random testing of embedded systems",
+"doi": "10.1109/HICSS.2012.233",
+"url": "https://figshare.warwick.ac.uk/articles/conference_contribution/Effectiveness_of_random_testing_of_embedded_systems/33700984",
+"type": "conference contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"33594172": {
+"id": 33594172,
+"title": "The impact of obesity on drug prescribing in primary care",
+"doi": "10.82444/warw.33594172",
+"url": "https://figshare.warwick.ac.uk/articles/journal_contribution/The_impact_of_obesity_on_drug_prescribing_in_primary_care/33594172",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"33495328": {
+"id": 33495328,
+"title": "Sanlam Donates Ansteys Building to National Monuments Council",
+"doi": "10.25415/ujhb.33495328.v1",
+"url": "https://repository.uj.ac.za/articles/report/Sanlam_Donates_Ansteys_Building_to_National_Monuments_Council/33495328",
+"type": "report",
+"queries": [
+"indic handwritten"
+]
+},
+"33493525": {
+"id": 33493525,
+"title": "Feedforward neural networks with constrained weights",
+"doi": "10.82444/warw.33493525",
+"url": "https://figshare.warwick.ac.uk/articles/thesis/Feedforward_neural_networks_with_constrained_weights/33493525",
+"type": "thesis",
+"queries": [
+"indic handwritten"
+]
+},
+"32946173": {
+"id": 32946173,
+"title": "Pay It Forward: Analysis of a novel peer-to-peer support initiative for individuals receiving treatment for head and neck cancer",
+"doi": "",
+"url": "https://openresearch.newcastle.edu.au/articles/journal_contribution/Pay_It_Forward_Analysis_of_a_novel_peer-to-peer_support_initiative_for_individuals_receiving_treatment_for_head_and_neck_cancer/32946173",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"32621922": {
+"id": 32621922,
+"title": "Beyond the Balcony: Portraits of Defiance and Solidarity",
+"doi": "10.57831/32621922",
+"url": "https://griffith.figshare.com/articles/event/Beyond_the_Balcony_Portraits_of_Defiance_and_Solidarity/32621922",
+"type": "event",
+"queries": [
+"indic handwritten"
+]
+},
+"32245395": {
+"id": 32245395,
+"title": "<p>Ablation experiment results of MDA-TSK-FS.</p>",
+"doi": "10.1371/journal.pone.0348610.t003",
+"url": "https://plos.figshare.com/articles/dataset/_p_Ablation_experiment_results_of_MDA-TSK-FS_p_/32245395",
+"type": "dataset",
+"queries": [
+"indic handwritten"
+]
+},
+"32245389": {
+"id": 32245389,
+"title": "<p>Classification Accuracy of Different Models.</p>",
+"doi": "10.1371/journal.pone.0348610.t001",
+"url": "https://plos.figshare.com/articles/dataset/_p_Classification_Accuracy_of_Different_Models_p_/32245389",
+"type": "dataset",
+"queries": [
+"indic handwritten"
+]
+},
+"32245383": {
+"id": 32245383,
+"title": "<p>Distribution of rule parameters across datasets.</p>",
+"doi": "10.1371/journal.pone.0348610.g003",
+"url": "https://plos.figshare.com/articles/figure/_p_Distribution_of_rule_parameters_across_datasets_p_/32245383",
+"type": "figure",
+"queries": [
+"indic handwritten"
+]
+},
+"32245380": {
+"id": 32245380,
+"title": "<p>MDA-TSK-FS Convergence curves of all datasets.</p>",
+"doi": "10.1371/journal.pone.0348610.g002",
+"url": "https://plos.figshare.com/articles/figure/_p_MDA-TSK-FS_Convergence_curves_of_all_datasets_p_/32245380",
+"type": "figure",
+"queries": [
+"indic handwritten"
+]
+},
+"32245377": {
+"id": 32245377,
+"title": "<p>Architecture of the MDA-TSK-FS model.</p>",
+"doi": "10.1371/journal.pone.0348610.g001",
+"url": "https://plos.figshare.com/articles/figure/_p_Architecture_of_the_MDA-TSK-FS_model_p_/32245377",
+"type": "figure",
+"queries": [
+"indic handwritten"
+]
+},
+"31946628": {
+"id": 31946628,
+"title": "Downfall and Xenophilia: Dostoevsky and European Modernists",
+"doi": "10.25394/PGS.31946628.v1",
+"url": "https://hammer.purdue.edu/articles/thesis/Downfall_and_Xenophilia_Dostoevsky_and_European_Modernists/31946628",
+"type": "thesis",
+"queries": [
+"indic handwritten"
+]
+},
+"31754680": {
+"id": 31754680,
+"title": "Highly\nStable Chip-Scale\nTellurium Memtransistor Based\non Field-Induced Oxygen Vacancy Migration",
+"doi": "10.1021/acsami.5c20005.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Highly_Stable_Chip-Scale_Tellurium_Memtransistor_Based_on_Field-Induced_Oxygen_Vacancy_Migration/31754680",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"31735396": {
+"id": 31735396,
+"title": "Web Based Enrollment System for Maranatha Christian Academy of Santa Rosa Laguna",
+"doi": "10.6084/m9.figshare.31735396.v1",
+"url": "https://figshare.com/articles/thesis/Web_Based_Enrollment_System_for_Maranatha_Christian_Academy_of_Santa_Rosa_Laguna/31735396",
+"type": "thesis",
+"queries": [
+"indic handwritten"
+]
+},
+"31607104": {
+"id": 31607104,
+"title": "Smartpens in second or other language learning environments",
+"doi": "",
+"url": "https://curate.curtin.edu.au/articles/conference_contribution/Smartpens_in_second_or_other_language_learning_environments/31607104",
+"type": "conference contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"31161997": {
+"id": 31161997,
+"title": "<p><i>Gwynia capsula</i> (Jeffreys, 1859) from the Helgoland trench.</p>",
+"doi": "10.1371/journal.pone.0341600.g002",
+"url": "https://plos.figshare.com/articles/figure/_p_i_Gwynia_capsula_i_Jeffreys_1859_from_the_Helgoland_trench_p_/31161997",
+"type": "figure",
+"queries": [
+"indic handwritten"
+]
+},
+"31091131": {
+"id": 31091131,
+"title": "<p>Comparison of classification performance among different kernel functions on the handwritten digits dataset (red indicates optimal values).</p>",
+"doi": "10.1371/journal.pone.0340686.t001",
+"url": "https://plos.figshare.com/articles/dataset/_p_Comparison_of_classification_performance_among_different_kernel_functions_on_the_handwritten_digits_dataset_red_indicates_optimal_values_p_/31091131",
+"type": "dataset",
+"queries": [
+"indic handwritten"
+]
+},
+"30926090": {
+"id": 30926090,
+"title": "<b>Perceived Effectiveness of Handwritten and Digital Concept Maps among Second-Year MBBS Students: A Cross-Sectional Comparative Study</b>",
+"doi": "10.6084/m9.figshare.30926090.v1",
+"url": "https://figshare.com/articles/dataset/_b_Perceived_Effectiveness_of_Handwritten_and_Digital_Concept_Maps_among_Second-Year_MBBS_Students_A_Cross-Sectional_Comparative_Study_b_/30926090",
+"type": "dataset",
+"queries": [
+"indic handwritten"
+]
+},
+"30905298": {
+"id": 30905298,
+"title": "Data sources.",
+"doi": "10.1371/journal.pgph.0005550.t001",
+"url": "https://plos.figshare.com/articles/dataset/Data_sources_/30905298",
+"type": "dataset",
+"queries": [
+"indic handwritten"
+]
+},
+"30436834": {
+"id": 30436834,
+"title": "AI to protect AI: A modular pipeline for detecting label-flipping poisoning attacks",
+"doi": "",
+"url": "https://aru.figshare.com/articles/journal_contribution/AI_to_protect_AI_A_modular_pipeline_for_detecting_label-flipping_poisoning_attacks/30436834",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"30412165": {
+"id": 30412165,
+"title": "Contributions to Special Variants of Digital Signatures",
+"doi": "10.71747/uow-r3gk326m.30412165.v1",
+"url": "https://ro.uow.edu.au/articles/thesis/Contributions_to_Special_Variants_of_Digital_Signatures/30412165",
+"type": "thesis",
+"queries": [
+"indic handwritten"
+]
+},
+"29975366": {
+"id": 29975366,
+"title": "Reconfigurable\nCounterion Gradient around Charged\nMetal Nanoparticles Enables Self-Rectifying and Volatile Artificial\nSynapse",
+"doi": "10.1021/acs.nanolett.5c03221.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Reconfigurable_Counterion_Gradient_around_Charged_Metal_Nanoparticles_Enables_Self-Rectifying_and_Volatile_Artificial_Synapse/29975366",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"29949973": {
+"id": 29949973,
+"title": "Using a Modified Drop-Off/Pick-Up Survey to Reduce Costs and Increase Response Rates",
+"doi": "10.6084/m9.figshare.29949973.v1",
+"url": "https://tandf.figshare.com/articles/journal_contribution/Using_a_Modified_Drop-Off_Pick-Up_Survey_to_Reduce_Costs_and_Increase_Response_Rates/29949973",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"25648902": {
+"id": 25648902,
+"title": "Test datasets for evaluating automated transcription of primary specimen labels on herbarium specimen sheets",
+"doi": "10.26188/25648902.v4",
+"url": "https://figshare.unimelb.edu.au/articles/dataset/Test_datasets_for_evaluating_automated_transcription_of_institutional_labels_on_herbarium_specimen_sheets/25648902",
+"type": "dataset",
+"queries": [
+"indic handwritten"
+]
+},
+"29073348": {
+"id": 29073348,
+"title": "Bias Sweep-Induced\nAnalog Memristor Behavior, Using\na Cuprous Iodide Thin Film, for Neuromorphic Computing",
+"doi": "10.1021/acsaelm.5c00529.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Bias_Sweep-Induced_Analog_Memristor_Behavior_Using_a_Cuprous_Iodide_Thin_Film_for_Neuromorphic_Computing/29073348",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"28736073": {
+"id": 28736073,
+"title": "Integrated\nOpto-Synaptic IGZO Transistors for Image\nRecognition Fabricated at Room Temperature",
+"doi": "10.1021/acsphotonics.4c01809.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Integrated_Opto-Synaptic_IGZO_Transistors_for_Image_Recognition_Fabricated_at_Room_Temperature/28736073",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"25686267": {
+"id": 25686267,
+"title": "Handwritten notebook page in the permanent exhibition at the Nelson Mandela Centre of Memory, Houghton, Johannesburg, Gauteng, South Africa",
+"doi": "10.17028/rd.lboro.25686267.v2",
+"url": "https://repository.lboro.ac.uk/articles/figure/Handwritten_notebook_page_in_the_permanent_exhibition_at_the_Nelson_Mandela_Centre_of_Memory_Houghton_Johannesburg_Gauteng_South_Africa/25686267",
+"type": "figure",
+"queries": [
+"indic handwritten"
+]
+},
+"27599955": {
+"id": 27599955,
+"title": "Off-line handwritten text recognition with cross-outs and corrections using deep learning",
+"doi": "10.25439/rmt.27599955",
+"url": "https://research-repository.rmit.edu.au/articles/thesis/Off-line_handwritten_text_recognition_with_cross-outs_and_corrections_using_deep_learning/27599955",
+"type": "thesis",
+"queries": [
+"indic handwritten"
+]
+},
+"27815565": {
+"id": 27815565,
+"title": "Handwritten Font Classification Method Based on Ghost Imaging",
+"doi": "",
+"url": "https://ro.uow.edu.au/articles/journal_contribution/Handwritten_Font_Classification_Method_Based_on_Ghost_Imaging/27815565",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"27707805": {
+"id": 27707805,
+"title": "Video enhanced multiple choice questions - personalising eLearning",
+"doi": "",
+"url": "https://ro.uow.edu.au/articles/journal_contribution/Video_enhanced_multiple_choice_questions_-_personalising_eLearning/27707805",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"27377480": {
+"id": 27377480,
+"title": "Synaptic Properties\nof an Interfacial Memristor Based\non a Ga<sub>2</sub>O<sub>3</sub>/Nb:SrTiO<sub>3</sub> Heterojunction",
+"doi": "10.1021/acs.jpclett.4c02548.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Synaptic_Properties_of_an_Interfacial_Memristor_Based_on_a_Ga_sub_2_sub_O_sub_3_sub_Nb_SrTiO_sub_3_sub_Heterojunction/27377480",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"25933405": {
+"id": 25933405,
+"title": "Japanese POW",
+"doi": "10.25446/oxford.25933405.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/Japanese_POW/25933405",
+"type": "online resource",
+"queries": [
+"indic handwritten"
+]
+},
+"25924213": {
+"id": 25924213,
+"title": "The HMT Rohna Tragedy and Private H. W. Bly, Royal Army Medical Corps",
+"doi": "10.25446/oxford.25924213.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/The_HMT_Rohna_Tragedy_and_Private_H_W_Bly_Royal_Army_Medical_Corps/25924213",
+"type": "online resource",
+"queries": [
+"indic handwritten"
+]
+},
+"25898521": {
+"id": 25898521,
+"title": "Reginald Ellis Brown and Marie Leslie Jervis Brown",
+"doi": "10.25446/oxford.25898521.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/Reginald_Ellis_Brown_and_Marie_Leslie_Jervis_Brown/25898521",
+"type": "online resource",
+"queries": [
+"indic handwritten"
+]
+},
+"25018382": {
+"id": 25018382,
+"title": "Exploration and analysis of On-Surface and In-Air handwriting attributes to improve dysgraphia disorder diagnosis in children based on machine learning methods",
+"doi": "10.1016/j.bspc.2023.104715",
+"url": "https://manara.qnl.qa/articles/journal_contribution/Exploration_and_analysis_of_On-Surface_and_In-Air_handwriting_attributes_to_improve_dysgraphia_disorder_diagnosis_in_children_based_on_machine_learning_methods/25018382",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"25013768": {
+"id": 25013768,
+"title": "6498: Albert Alty, South Lancashire Regiment.",
+"doi": "10.25446/oxford.25013768.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/6498_Albert_Alty_South_Lancashire_Regiment_/25013768",
+"type": "online resource",
+"queries": [
+"indic handwritten"
+]
+},
+"25013816": {
+"id": 25013816,
+"title": "12463: Frank Kirkland, Gordon Highlanders",
+"doi": "10.25446/oxford.25013816.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/12463_Frank_Kirkland_Gordon_Highlanders/25013816",
+"type": "online resource",
+"queries": [
+"indic handwritten"
+]
+},
+"24991197": {
+"id": 24991197,
+"title": "1599: George Bourne (medals; postcards; Christmas cards)",
+"doi": "10.25446/oxford.24991197.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/1599_George_Bourne_medals_postcards_Christmas_cards_/24991197",
+"type": "online resource",
+"queries": [
+"indic handwritten"
+]
+},
+"24969396": {
+"id": 24969396,
+"title": "7283: Herefordshire Regiment, D Company: nominal roll of men proceeding abroad",
+"doi": "10.25446/oxford.24969396.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/7283_Herefordshire_Regiment_D_Company_nominal_roll_of_men_proceeding_abroad/24969396",
+"type": "online resource",
+"queries": [
+"indic handwritten"
+]
+},
+"24835737": {
+"id": 24835737,
+"title": "New Approaches in Data for AI-Driven Forensics Applications",
+"doi": "10.7274/tb09j389k3v",
+"url": "https://curate.nd.edu/articles/thesis/New_Approaches_in_Data_for_AI-Driven_Forensics_Applications/24835737",
+"type": "thesis",
+"queries": [
+"indic handwritten",
+"indic scene text"
+]
+},
+"24310738": {
+"id": 24310738,
+"title": "Highly Efficient\nOrganic Host/Guest Phosphorescent\nSystem with Tunable Lifetime\nand Color",
+"doi": "10.1021/acs.jpcc.3c05354.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Highly_Efficient_Organic_Host_Guest_Phosphorescent_System_with_Tunable_Lifetime_and_Color/24310738",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"24214661": {
+"id": 24214661,
+"title": "Effects of Mg Doping\nto a LiCoO<sub>2</sub> Channel\non the Synaptic Plasticity of Li Ion-Gated Transistors",
+"doi": "10.1021/acsami.3c07833.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Effects_of_Mg_Doping_to_a_LiCoO_sub_2_sub_Channel_on_the_Synaptic_Plasticity_of_Li_Ion-Gated_Transistors/24214661",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"23744883": {
+"id": 23744883,
+"title": "68.01 / Le Cid. Tragicomédie",
+"doi": "10.25446/oxford.23744883.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/physical_object/68_01_Le_Cid_Tragicom_die/23744883",
+"type": "physical object",
+"queries": [
+"indic handwritten"
+]
+},
+"22898069": {
+"id": 22898069,
+"title": "To Ezra Pound. Sunday, 5 December 1937",
+"doi": "10.25446/oxford.22898069.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/dataset/To_Ezra_Pound_Sunday_5_December_1937/22898069",
+"type": "dataset",
+"queries": [
+"indic handwritten"
+]
+},
+"23433788": {
+"id": 23433788,
+"title": "UNIMELB_FITZPATRICK-Casey_VYT-LOCAL-2023.mp4",
+"doi": "10.26188/23433788.v1",
+"url": "https://figshare.unimelb.edu.au/articles/poster/UNIMELB_FITZPATRICK-Casey_VYT-LOCAL-2023_mp4/23433788",
+"type": "poster",
+"queries": [
+"indic handwritten"
+]
+},
+"22572527": {
+"id": 22572527,
+"title": "Proton-Gated Synaptic\nTransistors, Based on an Electron-Beam\nPatterned Nafion Electrolyte",
+"doi": "10.1021/acsami.3c00756.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Proton-Gated_Synaptic_Transistors_Based_on_an_Electron-Beam_Patterned_Nafion_Electrolyte/22572527",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"22047882": {
+"id": 22047882,
+"title": "Mimicking Pain-Perceptual\nSensitization and Pattern\nRecognition Based on Capacitance- and Conductance-Regulated Neuroplasticity\nin Neural Network",
+"doi": "10.1021/acsami.2c20297.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Mimicking_Pain-Perceptual_Sensitization_and_Pattern_Recognition_Based_on_Capacitance-_and_Conductance-Regulated_Neuroplasticity_in_Neural_Network/22047882",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"21725521": {
+"id": 21725521,
+"title": "Flexible Floating-Gate\nElectric-Double-Layer Organic\nTransistor for Neuromorphic Computing",
+"doi": "10.1021/acsami.2c20925.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Flexible_Floating-Gate_Electric-Double-Layer_Organic_Transistor_for_Neuromorphic_Computing/21725521",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"13440650": {
+"id": 13440650,
+"title": "Video enhanced multiple choice questions - Personalising eLearning",
+"doi": "",
+"url": "https://acquire.cqu.edu.au/articles/journal_contribution/Video_enhanced_multiple_choice_questions_-_Personalising_eLearning/13440650",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"19566823": {
+"id": 19566823,
+"title": "The Effects Of Mind Mapping And Outlining On Vietnamese EFL Students' Writing Performance And Attitudes: An Explanatory Sequential Mixed Methods Study",
+"doi": "10.26686/wgtn.19566823",
+"url": "https://openaccess.wgtn.ac.nz/articles/thesis/The_Effects_Of_Mind_Mapping_And_Outlining_On_Vietnamese_EFL_Students_Writing_Performance_And_Attitudes_An_Explanatory_Sequential_Mixed_Methods_Study/19566823",
+"type": "thesis",
+"queries": [
+"indic handwritten"
+]
+},
+"17194394": {
+"id": 17194394,
+"title": "Table4_Is There a (Dis-)Fluency Effect in Learning With Handwritten Instructional Texts? Evidence From Three Studies.DOCX",
+"doi": "10.3389/feduc.2021.678798.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table4_Is_There_a_Dis-_Fluency_Effect_in_Learning_With_Handwritten_Instructional_Texts_Evidence_From_Three_Studies_DOCX/17194394",
+"type": "dataset",
+"queries": [
+"indic handwritten"
+]
+},
+"16912888": {
+"id": 16912888,
+"title": "Analog\nSynaptic Transistor with Al-Doped HfO<sub>2</sub> Ferroelectric Thin\nFilm",
+"doi": "10.1021/acsami.1c12735.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Analog_Synaptic_Transistor_with_Al-Doped_HfO_sub_2_sub_Ferroelectric_Thin_Film/16912888",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"14662821": {
+"id": 14662821,
+"title": "Motivating children to 'write' stories through the use of visual art and technology",
+"doi": "10.32920/ryerson.14662821.v1",
+"url": "https://rshare.library.torontomu.ca/articles/thesis/Motivating_children_to_write_stories_through_the_use_of_visual_art_and_technology/14662821",
+"type": "thesis",
+"queries": [
+"indic handwritten"
+]
+},
+"13463354": {
+"id": 13463354,
+"title": "Andrew Goldie's memoir : 1875 - 1879",
+"doi": "",
+"url": "https://acquire.cqu.edu.au/articles/journal_contribution/Andrew_Goldie_s_memoir_1875_-_1879/13463354",
+"type": "journal contribution",
+"queries": [
+"indic handwritten",
+"indic scene text"
+]
+},
+"12249056": {
+"id": 12249056,
+"title": "A Pen Based Intelligent System for Educating Arabic Handwriting",
+"doi": "10.6084/m9.figshare.12249056.v1",
+"url": "https://figshare.com/articles/thesis/A_Pen_Based_Intelligent_System_for_Educating_Arabic_Handwriting/12249056",
+"type": "thesis",
+"queries": [
+"indic handwritten"
+]
+},
+"12055233": {
+"id": 12055233,
+"title": "BiFeO<sub>3</sub>‑Based Flexible Ferroelectric\nMemristors for Neuromorphic Pattern Recognition",
+"doi": "10.1021/acsaelm.0c00094.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/BiFeO_sub_3_sub_Based_Flexible_Ferroelectric_Memristors_for_Neuromorphic_Pattern_Recognition/12055233",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"7263215": {
+"id": 7263215,
+"title": "Katrina Sa'ade to Abdullah and Mariam Sa'ade, 1937",
+"doi": "10.25377/sussex.7263215.v1",
+"url": "https://sussex.figshare.com/articles/dataset/Katrina_Sa_ade_to_Abdullah_and_Mariam_Sa_ade_1937/7263215",
+"type": "dataset",
+"queries": [
+"indic handwritten"
+]
+},
+"11365910": {
+"id": 11365910,
+"title": "Robust Ag/ZrO<sub>2</sub>/WS<sub>2</sub>/Pt Memristor for Neuromorphic Computing",
+"doi": "10.1021/acsami.9b17160.s001",
+"url": "https://acs.figshare.com/articles/journal_contribution/Robust_Ag_ZrO_sub_2_sub_WS_sub_2_sub_Pt_Memristor_for_Neuromorphic_Computing/11365910",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"13434551": {
+"id": 13434551,
+"title": "Video enhanced multiple choice questions : personalising eLearning",
+"doi": "",
+"url": "https://acquire.cqu.edu.au/articles/conference_contribution/Video_enhanced_multiple_choice_questions_personalising_eLearning/13434551",
+"type": "conference contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"5671777": {
+"id": 5671777,
+"title": "The Probability to Prove the Distinguishing Handwriting Between Natural and Disguise of Egyptian Arab Writing",
+"doi": "10.6084/m9.figshare.5671777.v1",
+"url": "https://figshare.com/articles/journal_contribution/The_Probability_to_Prove_the_Distinguishing_Handwriting_Between_Natural_and_Disguise_of_Egyptian_Arab_Writing/5671777",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"4484435": {
+"id": 4484435,
+"title": "SPATIAL ANALYSIS OF HANDWRITTEN TEXTS AS AN INDICATOR OF COGNITIVE CONTROL",
+"doi": "10.6084/m9.figshare.4484435.v5",
+"url": "https://figshare.com/articles/dataset/DataRepositoryPlos2017_xlsx/4484435",
+"type": "dataset",
+"queries": [
+"indic handwritten"
+]
+},
+"9369770": {
+"id": 9369770,
+"title": "Student perceptions of screencast feedback on mathematics assessment",
+"doi": "",
+"url": "https://repository.lboro.ac.uk/articles/journal_contribution/Student_perceptions_of_screencast_feedback_on_mathematics_assessment/9369770",
+"type": "journal contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"1596889": {
+"id": 1596889,
+"title": "Priors for synaptic weights improve generalization capability.",
+"doi": "10.1371/journal.pcbi.1004485.g002",
+"url": "https://plos.figshare.com/articles/figure/_Priors_for_synaptic_weights_improve_generalization_capability_/1596889",
+"type": "figure",
+"queries": [
+"indic handwritten"
+]
+},
+"1596892": {
+"id": 1596892,
+"title": "Inherent compensation for network perturbations.",
+"doi": "10.1371/journal.pcbi.1004485.g005",
+"url": "https://plos.figshare.com/articles/figure/_Inherent_compensation_for_network_perturbations_/1596892",
+"type": "figure",
+"queries": [
+"indic handwritten"
+]
+},
+"20992189": {
+"id": 20992189,
+"title": "Using a circular grid for offline handwritten character recognition",
+"doi": "",
+"url": "https://dro.deakin.edu.au/articles/conference_contribution/Using_a_circular_grid_for_offline_handwritten_character_recognition/20992189",
+"type": "conference contribution",
+"queries": [
+"indic handwritten"
+]
+},
+"178422": {
+"id": 178422,
+"title": "GFP expression in newborn somatotrophs in situ and in vivo.",
+"doi": "10.1371/journal.pone.0054437.g006",
+"url": "https://plos.figshare.com/articles/figure/_GFP_expression_in_newborn_somatotrophs_in_situ_and_in_vivo_/178422",
+"type": "figure",
+"queries": [
+"indic handwritten"
+]
+},
+"34335066": {
+"id": 34335066,
+"title": "SAR Optical Dataset with Semantic Masks",
+"doi": "10.6084/m9.figshare.34335066.v2",
+"url": "https://figshare.com/articles/dataset/SAR_Optical_Dataset_with_Semantic_Masks/34335066",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"33829459": {
+"id": 33829459,
+"title": "Volunteer motivation and leadership in emergency volunteering",
+"doi": "10.25959/33829459.v1",
+"url": "https://figshare.utas.edu.au/articles/thesis/Volunteer_motivation_and_leadership_in_emergency_volunteering/33829459",
+"type": "thesis",
+"queries": [
+"indic scene text"
+]
+},
+"33909307": {
+"id": 33909307,
+"title": "‘But you do need some help’ : shared agency in dispatch decision making",
+"doi": "10.1186/s13049-025-01490-4",
+"url": "https://figshare.warwick.ac.uk/articles/conference_contribution/_But_you_do_need_some_help_shared_agency_in_dispatch_decision_making/33909307",
+"type": "conference contribution",
+"queries": [
+"indic scene text"
+]
+},
+"31825117": {
+"id": 31825117,
+"title": "Intention Prediction as Affordance Perception: Kinematics, Context, and the Agent–Environment System.",
+"doi": "10.25949/31825117.v1",
+"url": "https://figshare.mq.edu.au/articles/thesis/Intention_Prediction_as_Affordance_Perception_Kinematics_Context_and_the_Agent_Environment_System_/31825117",
+"type": "thesis",
+"queries": [
+"indic scene text"
+]
+},
+"32810011": {
+"id": 32810011,
+"title": "<p>Influence of the number of deep tokens on <i>mIoU</i>.</p>",
+"doi": "10.1371/journal.pone.0352325.g005",
+"url": "https://plos.figshare.com/articles/figure/_p_Influence_of_the_number_of_deep_tokens_on_i_mIoU_i_p_/32810011",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"32733933": {
+"id": 32733933,
+"title": "<p>Effect sizes of NCA.</p>",
+"doi": "10.1371/journal.pone.0351115.t012",
+"url": "https://plos.figshare.com/articles/dataset/_p_Effect_sizes_of_NCA_p_/32733933",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"32733918": {
+"id": 32733918,
+"title": "<p>Mediation effects (bootstrapping) results.</p>",
+"doi": "10.1371/journal.pone.0351115.t007",
+"url": "https://plos.figshare.com/articles/dataset/_p_Mediation_effects_bootstrapping_results_p_/32733918",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"32733915": {
+"id": 32733915,
+"title": "<p>Path coefficient results.</p>",
+"doi": "10.1371/journal.pone.0351115.t006",
+"url": "https://plos.figshare.com/articles/dataset/_p_Path_coefficient_results_p_/32733915",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"32733912": {
+"id": 32733912,
+"title": "<p>Discriminant validity results.</p>",
+"doi": "10.1371/journal.pone.0351115.t005",
+"url": "https://plos.figshare.com/articles/dataset/_p_Discriminant_validity_results_p_/32733912",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"32733909": {
+"id": 32733909,
+"title": "<p>Structural reliability and validity results.</p>",
+"doi": "10.1371/journal.pone.0351115.t004",
+"url": "https://plos.figshare.com/articles/dataset/_p_Structural_reliability_and_validity_results_p_/32733909",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"32733906": {
+"id": 32733906,
+"title": "<p>Sample demographic characteristics.</p>",
+"doi": "10.1371/journal.pone.0351115.t003",
+"url": "https://plos.figshare.com/articles/dataset/_p_Sample_demographic_characteristics_p_/32733906",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"32733897": {
+"id": 32733897,
+"title": "<p>Measurement items of latent variables.</p>",
+"doi": "10.1371/journal.pone.0351115.t001",
+"url": "https://plos.figshare.com/articles/dataset/_p_Measurement_items_of_latent_variables_p_/32733897",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"32733882": {
+"id": 32733882,
+"title": "<p>The conceptual model.</p>",
+"doi": "10.1371/journal.pone.0351115.g001",
+"url": "https://plos.figshare.com/articles/figure/_p_The_conceptual_model_p_/32733882",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"32650059": {
+"id": 32650059,
+"title": "<p>Main categories and corresponding concepts.</p>",
+"doi": "10.1371/journal.pone.0351084.t003",
+"url": "https://plos.figshare.com/articles/dataset/_p_Main_categories_and_corresponding_concepts_p_/32650059",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"32650056": {
+"id": 32650056,
+"title": "<p>Example of open coding.</p>",
+"doi": "10.1371/journal.pone.0351084.t002",
+"url": "https://plos.figshare.com/articles/dataset/_p_Example_of_open_coding_p_/32650056",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"32650053": {
+"id": 32650053,
+"title": "<p>Coding reference table (Partial).</p>",
+"doi": "10.1371/journal.pone.0351084.t001",
+"url": "https://plos.figshare.com/articles/dataset/_p_Coding_reference_table_Partial_p_/32650053",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"32650035": {
+"id": 32650035,
+"title": "<p>The result of open coding.</p>",
+"doi": "10.1371/journal.pone.0351084.s002",
+"url": "https://plos.figshare.com/articles/journal_contribution/_p_The_result_of_open_coding_p_/32650035",
+"type": "journal contribution",
+"queries": [
+"indic scene text"
+]
+},
+"32582472": {
+"id": 32582472,
+"title": "Scene Descriptions for 12 Film Scenes Used in Generative AI Video Analysis",
+"doi": "10.6084/m9.figshare.32582472.v1",
+"url": "https://figshare.com/articles/dataset/Scene_Descriptions_for_12_Film_Scenes_Used_in_Generative_AI_Video_Analysis/32582472",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"31869637": {
+"id": 31869637,
+"title": "Video 1_Intent-driven LLM ensemble planning for flexible multi-robot manipulation.mp4",
+"doi": "10.3389/frobt.2026.1727433.s001",
+"url": "https://frontiersin.figshare.com/articles/media/Video_1_Intent-driven_LLM_ensemble_planning_for_flexible_multi-robot_manipulation_mp4/31869637",
+"type": "media",
+"queries": [
+"indic scene text"
+]
+},
+"23181812": {
+"id": 23181812,
+"title": "The Trojan Women",
+"doi": "",
+"url": "https://figshare.utas.edu.au/articles/event/The_Trojan_Women/23181812",
+"type": "event",
+"queries": [
+"indic scene text"
+]
+},
+"31793553": {
+"id": 31793553,
+"title": "<p>Significance indicators of act dimensions.</p>",
+"doi": "10.1371/journal.pone.0341626.g007",
+"url": "https://plos.figshare.com/articles/figure/_p_Significance_indicators_of_act_dimensions_p_/31793553",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"31793550": {
+"id": 31793550,
+"title": "<p>Significance indicators of narrative dimensions.</p>",
+"doi": "10.1371/journal.pone.0341626.g006",
+"url": "https://plos.figshare.com/articles/figure/_p_Significance_indicators_of_narrative_dimensions_p_/31793550",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"22877483": {
+"id": 22877483,
+"title": "Pigs Hearts and Human Bodies: A Cultural Approach to Xenotransplantation",
+"doi": "",
+"url": "https://figshare.utas.edu.au/articles/journal_contribution/Pigs_Hearts_and_Human_Bodies_A_Cultural_Approach_to_Xenotransplantation/22877483",
+"type": "journal contribution",
+"queries": [
+"indic scene text"
+]
+},
+"30985069": {
+"id": 30985069,
+"title": "SignSpotter: Scene Text-Aware Cross-Modal Semantic Consistency Verification for Street View Images and POI Data",
+"doi": "10.6084/m9.figshare.30985069.v1",
+"url": "https://figshare.com/articles/dataset/SignSpotter_Scene_Text-Aware_Cross-Modal_Semantic_Consistency_Verification_for_Street_View_Images_and_POI_Data/30985069",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"29991565": {
+"id": 29991565,
+"title": "<b>Quasi-Embodiment as a Catalyst for Self-Bypass in LLMs. Pochinova Alina.</b>",
+"doi": "10.6084/m9.figshare.29991565.v2",
+"url": "https://figshare.com/articles/preprint/_b_Quasi-Embodiment_as_a_Catalyst_for_Self-Bypass_in_LLMs_b_/29991565",
+"type": "preprint",
+"queries": [
+"indic scene text"
+]
+},
+"29033927": {
+"id": 29033927,
+"title": "Wolfgang Iser and literary anthropology",
+"doi": "",
+"url": "https://openresearch.newcastle.edu.au/articles/thesis/Wolfgang_Iser_and_literary_anthropology/29033927",
+"type": "thesis",
+"queries": [
+"indic scene text"
+]
+},
+"28985849": {
+"id": 28985849,
+"title": "Musical accent in action: expressive accent and auditory-biography in live music performance",
+"doi": "",
+"url": "https://openresearch.newcastle.edu.au/articles/thesis/Musical_accent_in_action_expressive_accent_and_auditory-biography_in_live_music_performance/28985849",
+"type": "thesis",
+"queries": [
+"indic scene text"
+]
+},
+"28894291": {
+"id": 28894291,
+"title": "Number of Topics (Second Image).",
+"doi": "10.1371/journal.pone.0322078.g003",
+"url": "https://plos.figshare.com/articles/figure/Number_of_Topics_Second_Image_/28894291",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"28894288": {
+"id": 28894288,
+"title": "Number of Topics (First Image).",
+"doi": "10.1371/journal.pone.0322078.g002",
+"url": "https://plos.figshare.com/articles/figure/Number_of_Topics_First_Image_/28894288",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"28894285": {
+"id": 28894285,
+"title": "Research Methodology.",
+"doi": "10.1371/journal.pone.0322078.g001",
+"url": "https://plos.figshare.com/articles/figure/Research_Methodology_/28894285",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"28894264": {
+"id": 28894264,
+"title": "GPT-4V responses to paired images.",
+"doi": "10.1371/journal.pone.0322078.s002",
+"url": "https://plos.figshare.com/articles/journal_contribution/GPT-4V_responses_to_paired_images_/28894264",
+"type": "journal contribution",
+"queries": [
+"indic scene text"
+]
+},
+"28894261": {
+"id": 28894261,
+"title": "Human participants’ responses to paired images.",
+"doi": "10.1371/journal.pone.0322078.s001",
+"url": "https://plos.figshare.com/articles/journal_contribution/Human_participants_responses_to_paired_images_/28894261",
+"type": "journal contribution",
+"queries": [
+"indic scene text"
+]
+},
+"28824320": {
+"id": 28824320,
+"title": "Minimizing The Costs in Generalized Interactive Annotation Learning",
+"doi": "10.1184/R1/28824320.v1",
+"url": "https://kilthub.cmu.edu/articles/thesis/Minimizing_The_Costs_in_Generalized_Interactive_Annotation_Learning/28824320",
+"type": "thesis",
+"queries": [
+"indic scene text"
+]
+},
+"28598195": {
+"id": 28598195,
+"title": "Phonological intervention and tDCS in PPA (Nickels et al., 2025)",
+"doi": "10.23641/asha.28598195.v1",
+"url": "https://asha.figshare.com/articles/online_resource/Phonological_intervention_and_tDCS_in_PPA_Nickels_et_al_2025_/28598195",
+"type": "online resource",
+"queries": [
+"indic scene text"
+]
+},
+"28554065": {
+"id": 28554065,
+"title": "BSTID.zip",
+"doi": "10.6084/m9.figshare.28554065.v1",
+"url": "https://figshare.com/articles/dataset/BSTID_zip/28554065",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"28384140": {
+"id": 28384140,
+"title": "Comparison of keypoint-MoSeq results between multi-animal DeepLabCut and vmTracking.",
+"doi": "10.1371/journal.pbio.3003002.s004",
+"url": "https://plos.figshare.com/articles/figure/Comparison_of_keypoint-MoSeq_results_between_multi-animal_DeepLabCut_and_vmTracking_/28384140",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"27580260": {
+"id": 27580260,
+"title": "One in a Million Girl: a fictocritical screenplay for a feminist musical",
+"doi": "10.25439/rmt.27580260",
+"url": "https://research-repository.rmit.edu.au/articles/thesis/One_in_a_Million_Girl_a_fictocritical_screenplay_for_a_feminist_musical/27580260",
+"type": "thesis",
+"queries": [
+"indic scene text"
+]
+},
+"26920669": {
+"id": 26920669,
+"title": "Investigations of binocularity and reading performance in healthy subjects and patients with mild traumatic brain injury",
+"doi": "",
+"url": "https://openarchive.ki.se/articles/thesis/Investigations_of_binocularity_and_reading_performance_in_healthy_subjects_and_patients_with_mild_traumatic_brain_injury/26920669",
+"type": "thesis",
+"queries": [
+"indic scene text"
+]
+},
+"24403531": {
+"id": 24403531,
+"title": "Stepping into someone else’s shoes: children create spatial mental models from the protagonist’s point of view",
+"doi": "",
+"url": "https://repository.lincoln.ac.uk/articles/journal_contribution/Stepping_into_someone_else_s_shoes_children_create_spatial_mental_models_from_the_protagonist_s_point_of_view/24403531",
+"type": "journal contribution",
+"queries": [
+"indic scene text"
+]
+},
+"24411553": {
+"id": 24411553,
+"title": "Blasted at the Queens Hotel: coincidence of sign and site",
+"doi": "",
+"url": "https://repository.lincoln.ac.uk/articles/journal_contribution/Blasted_at_the_Queens_Hotel_coincidence_of_sign_and_site/24411553",
+"type": "journal contribution",
+"queries": [
+"indic scene text"
+]
+},
+"24390094": {
+"id": 24390094,
+"title": "Misfitting in America: Paul Leni, Conrad Veidt, and The Man Who Laughs",
+"doi": "",
+"url": "https://repository.lincoln.ac.uk/articles/chapter/Misfitting_in_America_Paul_Leni_Conrad_Veidt_and_The_Man_Who_Laughs/24390094",
+"type": "chapter",
+"queries": [
+"indic scene text"
+]
+},
+"25199849": {
+"id": 25199849,
+"title": "Knoxville TN Urban Renewal Mapping Data",
+"doi": "10.6084/m9.figshare.25199849.v3",
+"url": "https://figshare.com/articles/dataset/Knoxville_TN_Urban_Renewal_Mapping_Data/25199849",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"24334747": {
+"id": 24334747,
+"title": "Electric moving shadow garden",
+"doi": "",
+"url": "https://repository.lincoln.ac.uk/articles/chapter/Electric_moving_shadow_garden/24334747",
+"type": "chapter",
+"queries": [
+"indic scene text"
+]
+},
+"24736248": {
+"id": 24736248,
+"title": "Distressed Histories: Late Modernism and Everyday Life, 1929-1945",
+"doi": "10.7274/8336h130p4q",
+"url": "https://curate.nd.edu/articles/thesis/Distressed_Histories_Late_Modernism_and_Everyday_Life_1929-1945/24736248",
+"type": "thesis",
+"queries": [
+"indic scene text"
+]
+},
+"23460620": {
+"id": 23460620,
+"title": "Visualising the game frame: constructing political competition through television images in referendum coverage",
+"doi": "",
+"url": "https://sussex.figshare.com/articles/journal_contribution/Visualising_the_game_frame_constructing_political_competition_through_television_images_in_referendum_coverage/23460620",
+"type": "journal contribution",
+"queries": [
+"indic scene text"
+]
+},
+"23358932": {
+"id": 23358932,
+"title": "Teaching safety precautions in a laboratory DVE: the effects of information location and interactivity",
+"doi": "",
+"url": "https://sussex.figshare.com/articles/journal_contribution/Teaching_safety_precautions_in_a_laboratory_DVE_the_effects_of_information_location_and_interactivity/23358932",
+"type": "journal contribution",
+"queries": [
+"indic scene text"
+]
+},
+"23057003": {
+"id": 23057003,
+"title": "Indo-Persian Historical Thoughts and Writings: India 1350-1750",
+"doi": "",
+"url": "https://figshare.utas.edu.au/articles/chapter/Indo-Persian_Historical_Thoughts_and_Writings_India_1350-1750/23057003",
+"type": "chapter",
+"queries": [
+"indic scene text"
+]
+},
+"22780852": {
+"id": 22780852,
+"title": "Schematic illustrations of the five blur treatments applied to each of the six photographs of full-scale railway scenes.",
+"doi": "10.1371/journal.pone.0285423.g001",
+"url": "https://plos.figshare.com/articles/figure/Schematic_illustrations_of_the_five_blur_treatments_applied_to_each_of_the_six_photographs_of_full-scale_railway_scenes_/22780852",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"20590932": {
+"id": 20590932,
+"title": "Renewing Cultural Studies",
+"doi": "",
+"url": "https://dro.deakin.edu.au/articles/journal_contribution/Renewing_Cultural_Studies/20590932",
+"type": "journal contribution",
+"queries": [
+"indic scene text"
+]
+},
+"19653780": {
+"id": 19653780,
+"title": "The Necessary Biography of Elysia Martinez-Smith by Ezra Speckman",
+"doi": "10.25394/PGS.19653780.v1",
+"url": "https://hammer.purdue.edu/articles/thesis/The_Necessary_Biography_of_Elysia_Martinez-Smith_by_Ezra_Speckman/19653780",
+"type": "thesis",
+"queries": [
+"indic scene text"
+]
+},
+"14638602": {
+"id": 14638602,
+"title": "A Picturesque Photographic Tour Through Scotland",
+"doi": "10.32920/ryerson.14638602.v1",
+"url": "https://rshare.library.torontomu.ca/articles/journal_contribution/A_Picturesque_Photographic_Tour_Through_Scotland/14638602",
+"type": "journal contribution",
+"queries": [
+"indic scene text"
+]
+},
+"14455304": {
+"id": 14455304,
+"title": "‘Fixed’ and wormhole conditions.",
+"doi": "10.1371/journal.pone.0247818.g002",
+"url": "https://plos.figshare.com/articles/figure/_Fixed_and_wormhole_conditions_/14455304",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"13661540": {
+"id": 13661540,
+"title": "Robust multilingual OCR: from Ancient Indic texts to modern Indian Street signs",
+"doi": "10.26180/13661540.v2",
+"url": "https://bridges.monash.edu/articles/thesis/Robust_multilingual_OCR_from_Ancient_Indic_texts_to_modern_India_Street_signs/13661540",
+"type": "thesis",
+"queries": [
+"indic scene text",
+"indian language ocr",
+"multilingual ocr indic"
+]
+},
+"10112255": {
+"id": 10112255,
+"title": "Virtual environment.",
+"doi": "10.1371/journal.pone.0224651.g001",
+"url": "https://plos.figshare.com/articles/figure/Virtual_environment_/10112255",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"9955124": {
+"id": 9955124,
+"title": "Data_Sheet_1_Pragmatic Language Disorder in Parkinson’s Disease and the Potential Effect of Cognitive Reserve.pdf",
+"doi": "10.3389/fpsyg.2019.01220.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Pragmatic_Language_Disorder_in_Parkinson_s_Disease_and_the_Potential_Effect_of_Cognitive_Reserve_pdf/9955124",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"9865436": {
+"id": 9865436,
+"title": "Satellite images (VIIRS and OLCI) and <i>in situ</i> pictures of <i>Sargassum</i> aggregations and rafts observed east of the Caribbean arc during the <i>West Atlantic</i> cruise (S8).",
+"doi": "10.1371/journal.pone.0222584.g005",
+"url": "https://plos.figshare.com/articles/figure/Satellite_images_VIIRS_and_OLCI_and_i_in_situ_i_pictures_of_i_Sargassum_i_aggregations_and_rafts_observed_east_of_the_Caribbean_arc_during_the_i_West_Atlantic_i_cruise_S8_/9865436",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"8292944": {
+"id": 8292944,
+"title": "Data_Sheet_1_Pragmatic Language Disorder in Parkinson’s Disease and the Potential Effect of Cognitive Reserve.pdf",
+"doi": "10.3389/fpsyg.2019.01220.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Pragmatic_Language_Disorder_in_Parkinson_s_Disease_and_the_Potential_Effect_of_Cognitive_Reserve_pdf/8292944",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"8182766": {
+"id": 8182766,
+"title": "Overview of computations in observer model.",
+"doi": "10.1371/journal.pcbi.1007063.g005",
+"url": "https://plos.figshare.com/articles/figure/Overview_of_computations_in_observer_model_/8182766",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"7476860": {
+"id": 7476860,
+"title": "Image_2_Task-Related Differences in Eye Movements in Individuals With Aphasia.tif",
+"doi": "10.3389/fpsyg.2018.02430.s003",
+"url": "https://frontiersin.figshare.com/articles/figure/Image_2_Task-Related_Differences_in_Eye_Movements_in_Individuals_With_Aphasia_tif/7476860",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"7476863": {
+"id": 7476863,
+"title": "Table_1_Task-Related Differences in Eye Movements in Individuals With Aphasia.docx",
+"doi": "10.3389/fpsyg.2018.02430.s004",
+"url": "https://frontiersin.figshare.com/articles/dataset/Table_1_Task-Related_Differences_in_Eye_Movements_in_Individuals_With_Aphasia_docx/7476863",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"7476854": {
+"id": 7476854,
+"title": "Data_Sheet_1_Task-Related Differences in Eye Movements in Individuals With Aphasia.doc",
+"doi": "10.3389/fpsyg.2018.02430.s001",
+"url": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Task-Related_Differences_in_Eye_Movements_in_Individuals_With_Aphasia_doc/7476854",
+"type": "dataset",
+"queries": [
+"indic scene text"
+]
+},
+"7476857": {
+"id": 7476857,
+"title": "Image_1_Task-Related Differences in Eye Movements in Individuals With Aphasia.tif",
+"doi": "10.3389/fpsyg.2018.02430.s002",
+"url": "https://frontiersin.figshare.com/articles/figure/Image_1_Task-Related_Differences_in_Eye_Movements_in_Individuals_With_Aphasia_tif/7476857",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"13910777": {
+"id": 13910777,
+"title": "E07147: The Greek Life of *Spyridon (bishop of Trimithous in Cyprus, ob. 348, S00790) by Theodore, bishop of Paphos, paraphrases a biography of the saint by Triphyllios, which was written in verse in the late 4th century (now lost). Theodore augments Triphyllios’ poem with a miracle account derived from a version of the saint’s life, reportedly found in Egypt, and five miracle stories collected by the author himself. Written around AD 656 and read at the saint's festival in Trimithous.",
+"doi": "10.25446/oxford.13910777.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/E07147_The_Greek_Life_of_Spyridon_bishop_of_Trimithous_in_Cyprus_ob_348_S00790_by_Theodore_bishop_of_Paphos_paraphrases_a_biography_of_the_saint_by_Triphyllios_which_was_written_in_verse_in_the_late_4th_century_now_lost_Theodore_augments_Tr/13910777",
+"type": "online resource",
+"queries": [
+"indic scene text"
+]
+},
+"13908530": {
+"id": 13908530,
+"title": "E06874: The Greek Martyrdom of *Leontios (martyr of Tripolis, Phoenicia, S00216), tells the tale of two soldiers, Hypatos and Theodoulos, who are converted by a Christian preacher, Leontios, in Tripoli, and martyred; Leontios is then martyred as well, after undergoing repeated torture. The text was written somewhere in the Greek-speaking eastern Roman empire possibly in the 7th-9th century; however, there is appended to it a miraculous story involving the saint and a pious married couple, Ioannia and Mauros, which may be derived from a hypothetical lost Greek Martyrdom of Leontios presumably written in Tripolis in the 5th century.",
+"doi": "10.25446/oxford.13908530.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/E06874_The_Greek_Martyrdom_of_Leontios_martyr_of_Tripolis_Phoenicia_S00216_tells_the_tale_of_two_soldiers_Hypatos_and_Theodoulos_who_are_converted_by_a_Christian_preacher_Leontios_in_Tripoli_and_martyred_Leontios_is_then_martyred_as_well_af/13908530",
+"type": "online resource",
+"queries": [
+"indic scene text"
+]
+},
+"13898144": {
+"id": 13898144,
+"title": "E06234: The Greek Martyrdom of *Petros (bishop and martyr of Alexandria, S00247) recounts the protagonist's last days, his martyrdom and the tumult surrounding his burial in a western suburb of Alexandria. The story also features his successor *Alexandros (bishop of Alexandria, ob. 326/328, S00733) and mentions the four martyred Egyptian bishops commemorated by Eusebius of Caesarea: *Phileas (bishop of Thmuis, martyr of Alexandria, S00125), *Hesychios (S00248), *Pachomios (Pachymios, S00156) and *Theodoros (S02704), as well as several of the preceding archbishops of Alexandria. It also provides details about the martyrium and tomb of *Mark the Evangelist (S00293) in the quarter of Alexandria called ta Boukolou. Written in Alexandria, probably in the 5th century, possibly with later additions by the early 7th century.",
+"doi": "10.25446/oxford.13898144.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/E06234_The_Greek_Martyrdom_of_Petros_bishop_and_martyr_of_Alexandria_S00247_recounts_the_protagonist_s_last_days_his_martyrdom_and_the_tumult_surrounding_his_burial_in_a_western_suburb_of_Alexandria_The_story_also_features_his_successor_Ale/13898144",
+"type": "online resource",
+"queries": [
+"indic scene text"
+]
+},
+"6228677": {
+"id": 6228677,
+"title": "The depth of the rotational image difference function (rotIDF) is inversely related to the fractal dimension (FD) of natural scenes.",
+"doi": "10.1371/journal.pone.0196227.g005",
+"url": "https://plos.figshare.com/articles/figure/The_depth_of_the_rotational_image_difference_function_rotIDF_is_inversely_related_to_the_fractal_dimension_FD_of_natural_scenes_/6228677",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"13836629": {
+"id": 13836629,
+"title": "E03564: The 5th/6th century Greek Martyrdom of *Philemon, Apollonios, Areianos, and Companions (martyrs of Antinoopolis, S00386), recounts the martyrdom of eight martyrs, referring to various extravagant details and miracles. Their shrine is at Antinoopolis (Middle Egypt), and their feast is held in the month Phamenoth (4, 7 and 16 March), and on 14 December. Probably written in Egypt.",
+"doi": "10.25446/oxford.13836629.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/E03564_The_5th_6th_century_Greek_Martyrdom_of_Philemon_Apollonios_Areianos_and_Companions_martyrs_of_Antinoopolis_S00386_recounts_the_martyrdom_of_eight_martyrs_referring_to_various_extravagant_details_and_miracles_Their_shrine_is_at_Antino/13836629",
+"type": "online resource",
+"queries": [
+"indic scene text"
+]
+},
+"13820543": {
+"id": 13820543,
+"title": "E02367: The so-called 'complex of *John the Baptist (S00020)' in Gerasa/Jerash (Roman province of Arabia) comprises three churches (two oratories/eukteria and one naos), dedicated respectively to John the Baptist, *George (soldier and martyr, S00259), and *Kosmas and Damianos (brothers, physicians martyrs of Syria, S00385). Floor-mosaic inscriptions with dedicatory poems date the completion and paving of the church of George to 529/530, of John to 531, and of Kosmas and Damianos to 533. Two reliquaries were found in the church of George.",
+"doi": "10.25446/oxford.13820543.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/E02367_The_so-called_complex_of_John_the_Baptist_S00020_in_Gerasa_Jerash_Roman_province_of_Arabia_comprises_three_churches_two_oratories_eukteria_and_one_naos_dedicated_respectively_to_John_the_Baptist_George_soldier_and_martyr_S00259_and_K/13820543",
+"type": "online resource",
+"queries": [
+"indic scene text"
+]
+},
+"13804385": {
+"id": 13804385,
+"title": "E01085: Silver casket, probably re-used as a reliquary, decorated with depictions of *Konon (one of the several homonymous martyrs of Anatolia), *Theκla (follower of the Apostle Paul, S00092), Christ flanked by the Apostles *Peter (S00036) and *Paul (S00008), and with Greek invocations, apparently of Konon, asked for health. Found at Çirga near Mut (Isauria, southern Asia Minor). Very probably late 5th c.",
+"doi": "10.25446/oxford.13804385.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/E01085_Silver_casket_probably_re-used_as_a_reliquary_decorated_with_depictions_of_Konon_one_of_the_several_homonymous_martyrs_of_Anatolia_The_la_follower_of_the_Apostle_Paul_S00092_Christ_flanked_by_the_Apostles_Peter_S00036_and_Paul_S00008/13804385",
+"type": "online resource",
+"queries": [
+"indic scene text"
+]
+},
+"13802789": {
+"id": 13802789,
+"title": "E00946: Latin poem on the martyrdom of *Romanos (martyr of Antioch, S00120) is composed by Prudentius, writing c. 400 in Calahorra (northern Spain). The poem, part of his Crowns of the Martyrs (Peristephanon), is an elaborate account of the tortures and miracles that occurred around the saint's death. Overview of Peristephanon X",
+"doi": "10.25446/oxford.13802789.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/E00946_Latin_poem_on_the_martyrdom_of_Romanos_martyr_of_Antioch_S00120_is_composed_by_Prudentius_writing_c_400_in_Calahorra_northern_Spain_The_poem_part_of_his_Crowns_of_the_Martyrs_Peristephanon_is_an_elaborate_account_of_the_tortures_and_/13802789",
+"type": "online resource",
+"queries": [
+"indic scene text"
+]
+},
+"13757626": {
+"id": 13757626,
+"title": "E00669: Athanasius of Alexandria recounts the death of *Antony ('the Great', monk of Egypt, ob. 356, S00098): he demands to be buried at a secret place, and distributes his poor belongings to two bishops and two of his fellow monks, who keep them as valuables. Account in Athanasius’ Life of Antony (Ε00631), written in Greek in Alexandria (Egypt) in c. 360.",
+"doi": "10.25446/oxford.13757626.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/E00669_Athanasius_of_Alexandria_recounts_the_death_of_Antony_the_Great_monk_of_Egypt_ob_356_S00098_he_demands_to_be_buried_at_a_secret_place_and_distributes_his_poor_belongings_to_two_bishops_and_two_of_his_fellow_monks_who_keep_them_as_val/13757626",
+"type": "online resource",
+"queries": [
+"indic scene text"
+]
+},
+"10124543": {
+"id": 10124543,
+"title": "Alternative approaches to optophonic mappings",
+"doi": "",
+"url": "https://figshare.le.ac.uk/articles/thesis/Alternative_approaches_to_optophonic_mappings/10124543",
+"type": "thesis",
+"queries": [
+"indic scene text"
+]
+},
+"21004738": {
+"id": 21004738,
+"title": "Identifying annotations for adventure game generation from fiction text",
+"doi": "",
+"url": "https://dro.deakin.edu.au/articles/conference_contribution/Identifying_annotations_for_adventure_game_generation_from_fiction_text/21004738",
+"type": "conference contribution",
+"queries": [
+"indic scene text"
+]
+},
+"21002290": {
+"id": 21002290,
+"title": "Evaluating parts-of-speech taggers for use in a text-to-scene conversion system",
+"doi": "",
+"url": "https://dro.deakin.edu.au/articles/conference_contribution/Evaluating_parts-of-speech_taggers_for_use_in_a_text-to-scene_conversion_system/21002290",
+"type": "conference contribution",
+"queries": [
+"indic scene text"
+]
+},
+"952532": {
+"id": 952532,
+"title": "Satellite Albedo.",
+"doi": "10.1371/journal.pone.0090705.g005",
+"url": "https://plos.figshare.com/articles/figure/_Satellite_Albedo_/952532",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"784197": {
+"id": 784197,
+"title": "Subpopulation of dictionary elements (“CRFs”) studied.",
+"doi": "10.1371/journal.pcbi.1003191.g001",
+"url": "https://plos.figshare.com/articles/figure/_Subpopulation_of_dictionary_elements_8220_CRFs_8221_studied_/784197",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"708844": {
+"id": 708844,
+"title": "Confusion matrices.",
+"doi": "10.1371/journal.pone.0064937.g003",
+"url": "https://plos.figshare.com/articles/figure/_Confusion_matrices_/708844",
+"type": "figure",
+"queries": [
+"indic scene text"
+]
+},
+"34788999": {
+"id": 34788999,
+"title": "VosGraph: A Web-Based Visual Analytics Tool for Science Mapping and Complex Networks",
+"doi": "10.6084/m9.figshare.34788999.v3",
+"url": "https://figshare.com/articles/software/VosGraph_A_Web-Based_Visual_Analytics_Tool_for_Science_Mapping_and_Complex_Networks/34788999",
+"type": "software",
+"queries": [
+"indic document layout"
+]
+},
+"34228899": {
+"id": 34228899,
+"title": "VosGraph: An Interactive Web Platform for Science Mapping and Complex Network Analysis",
+"doi": "10.6084/m9.figshare.34228899.v1",
+"url": "https://figshare.com/articles/software/VosGraph_An_Interactive_Web_Platform_for_Science_Mapping_and_Complex_Network_Analysis/34228899",
+"type": "software",
+"queries": [
+"indic document layout"
+]
+},
+"33435805": {
+"id": 33435805,
+"title": "Supporting data for \"Scaling urban heat analysis: From city-level cool urban form to pedestrian-level AI-driven heat visioning via isotherms\"",
+"doi": "10.25442/hku.33435805.v1",
+"url": "https://datahub.hku.hk/articles/dataset/Supporting_data_for_Scaling_urban_heat_analysis_From_city-level_cool_urban_form_to_pedestrian-level_AI-driven_heat_visioning_via_isotherms_/33435805",
+"type": "dataset",
+"queries": [
+"indic document layout"
+]
+},
+"31044391": {
+"id": 31044391,
+"title": "Replication Package \"Technical and Emotional Dynamics in Programming Languages Development\"",
+"doi": "10.6084/m9.figshare.31044391.v1",
+"url": "https://figshare.com/articles/journal_contribution/Replication_Package_Technical_and_Emotional_Dynamics_in_Programming_Languages_Development_/31044391",
+"type": "journal contribution",
+"queries": [
+"indic document layout"
+]
+},
+"34054200": {
+"id": 34054200,
+"title": "Remote Work: Reshaping Physical Space in the Post-Pandemic Era",
+"doi": "10.26686/0mpf-rj59",
+"url": "https://openaccess.wgtn.ac.nz/articles/thesis/Remote_Work_Reshaping_Physical_Space_in_the_Post-Pandemic_Era/34054200",
+"type": "thesis",
+"queries": [
+"indic document layout"
+]
+},
+"33481357": {
+"id": 33481357,
+"title": "'that whyche ys nedefoulle and nesesary': the nature and purpose of the original furnishings and decoration of Hardwick Hall, Derbyshire",
+"doi": "10.82444/warw.33481357",
+"url": "https://figshare.warwick.ac.uk/articles/thesis/_that_whyche_ys_nedefoulle_and_nesesary_the_nature_and_purpose_of_the_original_furnishings_and_decoration_of_Hardwick_Hall_Derbyshire/33481357",
+"type": "thesis",
+"queries": [
+"indic document layout"
+]
+},
+"11770587": {
+"id": 11770587,
+"title": "Screenshot of a 3D Model of the Small Mosque at Gede",
+"doi": "10.25375/uct.11770587.v4",
+"url": "https://zivahub.uct.ac.za/articles/figure/Oblique_Views_File_Set_of_the_Small_Mosque_Gede_Ruins/11770587",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"11770440": {
+"id": 11770440,
+"title": "Screenshots of 3D Models at the Gede heritage site",
+"doi": "10.25375/uct.11770440.v4",
+"url": "https://zivahub.uct.ac.za/articles/figure/Oblique_Views_File_Set_of_Gede_Ruins_/11770440",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"33348999": {
+"id": 33348999,
+"title": "Enzymatic degradation performance of biopolymers: A systematic comparative review and meta-analysis of literature",
+"doi": "10.6084/m9.figshare.33348999.v1",
+"url": "https://tandf.figshare.com/articles/journal_contribution/Enzymatic_degradation_performance_of_biopolymers_A_systematic_comparative_review_and_meta-analysis_of_literature/33348999",
+"type": "journal contribution",
+"queries": [
+"indic document layout"
+]
+},
+"33050804": {
+"id": 33050804,
+"title": "<b>The Aroma That Brings Back Memories: Designing 3D Animation of </b><b><i>Lakse Kuah</i></b><b> as a Medium for Traditional Culinary Preservation in Supporting SDG</b><b> </b><b>11</b>",
+"doi": "10.6084/m9.figshare.33050804.v3",
+"url": "https://figshare.com/articles/dataset/_b_The_Aroma_That_Brings_Back_Memories_Designing_3D_Animation_of_b_b_i_Lakse_Kuah_i_b_b_as_a_Medium_for_Traditional_Culinary_Preservation_in_Supporting_SDG_b_b_b_b_11_b_/33050804",
+"type": "dataset",
+"queries": [
+"indic document layout"
+]
+},
+"11770272": {
+"id": 11770272,
+"title": "A 3D Model at the Gede heritage site",
+"doi": "10.25375/uct.11770272.v1",
+"url": "https://zivahub.uct.ac.za/articles/media/A_3D_Model_at_the_Gede_heritage_site/11770272",
+"type": "media",
+"queries": [
+"indic document layout"
+]
+},
+"11770113": {
+"id": 11770113,
+"title": "A 3D Model of the Palace, surveyed in 2010 at Gede",
+"doi": "10.25375/uct.11770113.v1",
+"url": "https://zivahub.uct.ac.za/articles/media/A_3D_Model_of_the_Palace_surveyed_in_2010_at_Gede/11770113",
+"type": "media",
+"queries": [
+"indic document layout"
+]
+},
+"11770098": {
+"id": 11770098,
+"title": "A 3D Model of the Small Mosque at Gede",
+"doi": "10.25375/uct.11770098.v1",
+"url": "https://zivahub.uct.ac.za/articles/media/A_3D_Model_of_the_Small_Mosque_at_Gede/11770098",
+"type": "media",
+"queries": [
+"indic document layout"
+]
+},
+"11770491": {
+"id": 11770491,
+"title": "Screenshots of a 3D Model of the Palace, surveyed in 2010 at Gede",
+"doi": "10.25375/uct.11770491.v4",
+"url": "https://zivahub.uct.ac.za/articles/figure/Oblique_Views_File_Set_of_the_Palace_Gede_Ruins/11770491",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"11770482": {
+"id": 11770482,
+"title": "Sections of a 3D Model of the Palace, surveyed in 2010 at Gede",
+"doi": "10.25375/uct.11770482.v4",
+"url": "https://zivahub.uct.ac.za/articles/figure/Sections_File_Set_of_the_Palace_Gede_Ruins/11770482",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"11770467": {
+"id": 11770467,
+"title": "Plans of a 3D Model of the Palace, surveyed in 2010 at Gede",
+"doi": "10.25375/uct.11770467.v4",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_the_Palace_Gede_Ruins/11770467",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"11770461": {
+"id": 11770461,
+"title": "Elevations of a 3D Model of the Palace, surveyed in 2010 at Gede",
+"doi": "10.25375/uct.11770461.v4",
+"url": "https://zivahub.uct.ac.za/articles/figure/Elevations_File_Set_of_the_Palace_Gede_Ruins/11770461",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"11770458": {
+"id": 11770458,
+"title": "Sections of a 3D Model of the Great Mosque, surveyed in 2010 at Gede",
+"doi": "10.25375/uct.11770458.v4",
+"url": "https://zivahub.uct.ac.za/articles/figure/Sections_File_Set_of_the_Friday_Mosque_Gede_Ruins/11770458",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"11770455": {
+"id": 11770455,
+"title": "Screenshots of a 3D Model of the Great Mosque, surveyed in 2010 at Gede",
+"doi": "10.25375/uct.11770455.v4",
+"url": "https://zivahub.uct.ac.za/articles/figure/Oblique_Views_File_Set_of_the_Friday_Mosque_Gede_Ruins/11770455",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"11770452": {
+"id": 11770452,
+"title": "Plans of a 3D Model of the Great Mosque, surveyed in 2010 at Gede",
+"doi": "10.25375/uct.11770452.v4",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_the_Friday_Mosque_Gede_Ruins/11770452",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"11770446": {
+"id": 11770446,
+"title": "Elevations of a 3D Model of the Great Mosque, surveyed in 2010 at Gede",
+"doi": "10.25375/uct.11770446.v4",
+"url": "https://zivahub.uct.ac.za/articles/figure/Elevations_File_Set_of_the_Friday_Mosque_Gede_Ruins/11770446",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"32479848": {
+"id": 32479848,
+"title": "Application of lichen-biomonitoring to assess spatial variability of urban air quality in Manchester, UK",
+"doi": "10.83056/mmu.32479848.v1",
+"url": "https://repository.mmu.ac.uk/articles/thesis/Application_of_lichen-biomonitoring_to_assess_spatial_variability_of_urban_air_quality_in_Manchester_UK/32479848",
+"type": "thesis",
+"queries": [
+"indic document layout"
+]
+},
+"32036553": {
+"id": 32036553,
+"title": "Peterborough Celebrates, Report and Rhythmanalysis",
+"doi": "10.25416/edgehill.32036553.v1",
+"url": "https://figshare.edgehill.ac.uk/articles/report/Peterborough_Celebrates_Report_and_Rhythmanalysis/32036553",
+"type": "report",
+"queries": [
+"indic document layout"
+]
+},
+"31341679": {
+"id": 31341679,
+"title": "<b>Gut </b><b>microbiomes</b><b> data of four Australian stink bug species, and fitness effects of a dominant </b><b><i>Pantoea</i></b><b>-like symbiont in </b><b><i>Biprorulus bibax</i></b>",
+"doi": "10.6084/m9.figshare.31341679.v2",
+"url": "https://figshare.com/articles/dataset/_b_Gut_b_b_microbiomes_b_b_data_of_four_Australian_stink_bug_species_and_fitness_effects_of_a_dominant_b_b_i_Pantoea_i_b_b_-like_symbiont_in_b_b_i_Biprorulus_bibax_i_b_/31341679",
+"type": "dataset",
+"queries": [
+"indic document layout"
+]
+},
+"32020578": {
+"id": 32020578,
+"title": "Plans of a 3D Model at Mapungubwe Hill heritage site",
+"doi": "10.25375/uct.32020578.v1",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_of_a_3D_Model_at_Mapungubwe_Hill_heritage_site/32020578",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"32020503": {
+"id": 32020503,
+"title": "Maps of Mapungubwe Hill heritage site",
+"doi": "10.25375/uct.32020503.v1",
+"url": "https://zivahub.uct.ac.za/articles/figure/Maps_of_Mapungubwe_Hill_heritage_site/32020503",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"31705975": {
+"id": 31705975,
+"title": "Analysis and Synthesis of Metadata Goals for Scientific Data",
+"doi": "",
+"url": "https://curate.curtin.edu.au/articles/journal_contribution/Analysis_and_Synthesis_of_Metadata_Goals_for_Scientific_Data/31705975",
+"type": "journal contribution",
+"queries": [
+"indic document layout"
+]
+},
+"11854452": {
+"id": 11854452,
+"title": "Gede Heritage Spatial Documentation Metadata Dataset",
+"doi": "10.25375/uct.11854452.v3",
+"url": "https://zivahub.uct.ac.za/articles/dataset/Gede_Ruins_Heritage_Spatial_Documentation_Metadata_Dataset/11854452",
+"type": "dataset",
+"queries": [
+"indic document layout"
+]
+},
+"11770608": {
+"id": 11770608,
+"title": "Zamani Project Media Library of Gede",
+"doi": "10.25375/uct.11770608.v3",
+"url": "https://zivahub.uct.ac.za/articles/media/Zamani_Project_Media_Library_of_the_Gede_Ruins/11770608",
+"type": "media",
+"queries": [
+"indic document layout"
+]
+},
+"11770581": {
+"id": 11770581,
+"title": "Sections of a 3D Model of the Small Mosque at Gede",
+"doi": "10.25375/uct.11770581.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Sections_File_Set_of_the_Small_Mosque_Gede_Ruins/11770581",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"11770506": {
+"id": 11770506,
+"title": "Plans of a 3D Model of the Small Mosque at Gede",
+"doi": "10.25375/uct.11770506.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_the_Small_Mosque_Gede_Ruins/11770506",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"11770494": {
+"id": 11770494,
+"title": "Elevations of a 3D Model of the Small Mosque at Gede",
+"doi": "10.25375/uct.11770494.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Elevations_File_Set_of_the_Small_Mosque_Gede_Ruins/11770494",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"11770428": {
+"id": 11770428,
+"title": "A Panorama Tour of the Gede heritage site",
+"doi": "10.25375/uct.11770428.v3",
+"url": "https://zivahub.uct.ac.za/articles/media/A_Panorama_Tour_of_the_Gede_Ruins_Archaeological_Site/11770428",
+"type": "media",
+"queries": [
+"indic document layout"
+]
+},
+"11708295": {
+"id": 11708295,
+"title": "Geospatial data of the Gede heritage site",
+"doi": "10.25375/uct.11708295.v3",
+"url": "https://zivahub.uct.ac.za/articles/dataset/GIS_Spatial_Data_Package_of_the_Gede_ruins_heritage_site/11708295",
+"type": "dataset",
+"queries": [
+"indic document layout"
+]
+},
+"10641320": {
+"id": 10641320,
+"title": "Plans of a 3D Model of the Mosque 3 & Pillar Tomb at Kua Ruins",
+"doi": "10.25375/uct.10641320.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_Mosque_3_Pillar_Tomb_Kua_Ruins/10641320",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"10637783": {
+"id": 10637783,
+"title": "Plans of a 3D Model of the Pillar Tomb at Kua Ruins",
+"doi": "10.25375/uct.10637783.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_the_Pillar_Tomb_Kua_Ruins/10637783",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"10636265": {
+"id": 10636265,
+"title": "Plans of a 3D Model of the Mosque 6 at Kua Ruins",
+"doi": "10.25375/uct.10636265.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_Mosque_X_6_Kua_Ruins/10636265",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"10634990": {
+"id": 10634990,
+"title": "Plans of a 3D Model of the Mosque 4 & 5 at Kua Ruins",
+"doi": "10.25375/uct.10634990.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_Mosques_4_5_Kua_Ruins/10634990",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"10631450": {
+"id": 10631450,
+"title": "Plans of a 3D Model of the Mosque 3 at Kua Ruins",
+"doi": "10.25375/uct.10631450.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_Mosque_3_Kua_Ruins/10631450",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"10629569": {
+"id": 10629569,
+"title": "Plans of a 3D Model of the Mosque 2 at Kua Ruins",
+"doi": "10.25375/uct.10629569.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_Mosque_2_Kua_Ruins/10629569",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"10628726": {
+"id": 10628726,
+"title": "Plans of a 3D Model of the Mosque 1 at Kua Ruins",
+"doi": "10.25375/uct.10628726.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_Mosque_1_Kua_Ruins/10628726",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"10627127": {
+"id": 10627127,
+"title": "Plans of a 3D Model of the House 5 at Kua Ruins",
+"doi": "10.25375/uct.10627127.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_House_5_Kua_Ruins/10627127",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"10625594": {
+"id": 10625594,
+"title": "Plans of a 3D Model of the House 4 at Kua Ruins",
+"doi": "10.25375/uct.10625594.v3",
+"url": "https://zivahub.uct.ac.za/articles/figure/Plans_File_Set_of_House_4_Kua_Ruins/10625594",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"31522108": {
+"id": 31522108,
+"title": "Perceived usability: How computer interaction design is informing production design",
+"doi": "",
+"url": "https://curate.curtin.edu.au/articles/conference_contribution/Perceived_usability_How_computer_interaction_design_is_informing_production_design/31522108",
+"type": "conference contribution",
+"queries": [
+"indic document layout"
+]
+},
+"31338811": {
+"id": 31338811,
+"title": "Indole-3-acetic acid production by seaweed-associated bacteria: Images",
+"doi": "10.25381/cput.31338811.v1",
+"url": "https://esango.cput.ac.za/articles/dataset/Indole-3-acetic_acid_production_by_seaweed-associated_bacteria_Images/31338811",
+"type": "dataset",
+"queries": [
+"indic document layout"
+]
+},
+"31030252": {
+"id": 31030252,
+"title": "A Multimodal Biomechanics Dataset with Synchronized Kinematics and Internal Tissue Motions during Reaching",
+"doi": "10.6084/m9.figshare.31030252.v1",
+"url": "https://figshare.com/articles/dataset/A_Multimodal_Biomechanics_Dataset_with_Synchronized_Kinematics_and_Internal_Tissue_Motions_during_Reaching/31030252",
+"type": "dataset",
+"queries": [
+"indic document layout"
+]
+},
+"29019218": {
+"id": 29019218,
+"title": "Unanchored Externally Bonded Fiber Reinforced Polymer (EBFRP) System",
+"doi": "10.17608/k6.auckland.29019218.v4",
+"url": "https://auckland.figshare.com/articles/figure/Unanchored_Externally_Bonded_Fiber_Reinforced_Polymer_EBFRP_System/29019218",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"30685154": {
+"id": 30685154,
+"title": "Evolvable Penrose Quasicrystal Wave-Energy Farms with AI Surrogate Optimization<b>Author:</b>Carl Sellman (UnAn0n)",
+"doi": "10.6084/m9.figshare.30685154.v1",
+"url": "https://figshare.com/articles/thesis/Evolvable_Penrose_Quasicrystal_Wave-Energy_Farms_with_AI_Surrogate_Optimization_b_Author_b_Carl_Sellman_UnAn0n_/30685154",
+"type": "thesis",
+"queries": [
+"indic document layout"
+]
+},
+"30226282": {
+"id": 30226282,
+"title": "BABAPPA GUI: A Codeml-Centered Positive Selection Analysis Software",
+"doi": "10.6084/m9.figshare.30226282.v6",
+"url": "https://figshare.com/articles/software/BABAPPA_GUI_A_Codeml-Centered_Positive_Selection_Analysis_Software/30226282",
+"type": "software",
+"queries": [
+"indic document layout"
+]
+},
+"30217915": {
+"id": 30217915,
+"title": "<b>Historical Nifty 50 Constituent Weights (Rolling 20-Year Window)</b>",
+"doi": "10.6084/m9.figshare.30217915.v3",
+"url": "https://figshare.com/articles/dataset/_b_Historical_Nifty_50_Constituent_Weights_Rolling_20-Year_Window_b_/30217915",
+"type": "dataset",
+"queries": [
+"indic document layout"
+]
+},
+"29447684": {
+"id": 29447684,
+"title": "Supplementary material of research articles may be an obstacle for putting Open Science policies into practice",
+"doi": "10.17044/scilifelab.29447684.v1",
+"url": "https://figshare.scilifelab.se/articles/poster/Supplementary_material_of_research_articles_may_be_an_obstacle_for_putting_Open_Science_policies_into_practice/29447684",
+"type": "poster",
+"queries": [
+"indic document layout"
+]
+},
+"29885903": {
+"id": 29885903,
+"title": "Bowl with Relief Lotus and Stamen Decor — Provenance: Official Guan yao Kiln (官窑), Dating: Southern Song – Early Yuan period, 12th–13th century",
+"doi": "10.6084/m9.figshare.29885903.v1",
+"url": "https://figshare.com/articles/figure/Bowl_with_Relief_Lotus_and_Stamen_Decor_Provenance_Official_Guan_yao_Kiln_Dating_Southern_Song_Early_Yuan_period_12th_13th_century/29885903",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+},
+"29381798": {
+"id": 29381798,
+"title": "An inclusive design for dementia standard: enabling future home adaptations in the UK",
+"doi": "10.26174/thesis.lboro.29381798.v1",
+"url": "https://repository.lboro.ac.uk/articles/thesis/An_inclusive_design_for_dementia_standard_enabling_future_home_adaptations_in_the_UK/29381798",
+"type": "thesis",
+"queries": [
+"indic document layout"
+]
+},
+"28083194": {
+"id": 28083194,
+"title": "<i>Salmonella enterica </i>pangenome graph and variant call data for 539,283 genomes",
+"doi": "10.15482/USDA.ADC/28083194.v1",
+"url": "https://agdatacommons.nal.usda.gov/articles/dataset/_i_Salmonella_enterica_i_pangenome_graph_and_variant_call_data_for_539_283_genomes/28083194",
+"type": "dataset",
+"queries": [
+"indic document layout"
+]
+},
+"27443724": {
+"id": 27443724,
+"title": "Table extraction for answer retrieval",
+"doi": "",
+"url": "https://research-repository.rmit.edu.au/articles/journal_contribution/Table_extraction_for_answer_retrieval/27443724",
+"type": "journal contribution",
+"queries": [
+"indic document layout"
+]
+},
+"25174670": {
+"id": 25174670,
+"title": "“The most important document for civilisation:” Magna Carta and the heritage servicescape",
+"doi": "",
+"url": "https://repository.lincoln.ac.uk/articles/conference_contribution/_The_most_important_document_for_civilisation_Magna_Carta_and_the_heritage_servicescape/25174670",
+"type": "conference contribution",
+"queries": [
+"indic document layout"
+]
+},
+"14515541": {
+"id": 14515541,
+"title": "ReferenceUSA Historical Business Datasets",
+"doi": "10.25422/azu.data.14515541.v2",
+"url": "https://arizona.figshare.com/articles/dataset/ReferenceUSA_Historical_Business_Datasets/14515541",
+"type": "dataset",
+"queries": [
+"indic document layout"
+]
+},
+"24733749": {
+"id": 24733749,
+"title": "Cafeteria assessment for elementary schools (CAFES): development, reliability testing, and predictive validity analysis",
+"doi": "10.1186/s12889-018-6032-2",
+"url": "https://curate.nd.edu/articles/journal_contribution/Cafeteria_assessment_for_elementary_schools_CAFES_development_reliability_testing_and_predictive_validity_analysis/24733749",
+"type": "journal contribution",
+"queries": [
+"indic document layout"
+]
+},
+"23192591": {
+"id": 23192591,
+"title": "Heliostat Cost Down Scoping Study - Final Report",
+"doi": "",
+"url": "https://figshare.utas.edu.au/articles/report/Heliostat_Cost_Down_Scoping_Study_-_Final_Report/23192591",
+"type": "report",
+"queries": [
+"indic document layout"
+]
+},
+"16946593": {
+"id": 16946593,
+"title": "Maximum Luminances and Luminance Ratios and their Impact on Users' Discomfort Glare Perception and Productivity in Daylit Offices: Testing the Hypothesis: Maximum Luminance and Ratio Recommendations For Visual Comfort Should be Specific to the Luminous",
+"doi": "10.26686/wgtn.16946593",
+"url": "https://openaccess.wgtn.ac.nz/articles/thesis/Maximum_Luminances_and_Luminance_Ratios_and_their_Impact_on_Users_Discomfort_Glare_Perception_and_Productivity_in_Daylit_Offices_Testing_the_Hypothesis_Maximum_Luminance_and_Ratio_Recommendations_For_Visual_Comfort_Should_be_Specific_to_the/16946593",
+"type": "thesis",
+"queries": [
+"indic document layout"
+]
+},
+"20365488": {
+"id": 20365488,
+"title": "Towards Optimal Table Layout",
+"doi": "10.26180/20365488.v1",
+"url": "https://bridges.monash.edu/articles/report/Towards_Optimal_Table_Layout/20365488",
+"type": "report",
+"queries": [
+"indic document layout"
+]
+},
+"17009513": {
+"id": 17009513,
+"title": "New Zealand learning environments: The role of design and the design process",
+"doi": "10.26686/wgtn.17009513.v1",
+"url": "https://openaccess.wgtn.ac.nz/articles/thesis/New_Zealand_learning_environments_The_role_of_design_and_the_design_process/17009513",
+"type": "thesis",
+"queries": [
+"indic document layout"
+]
+},
+"14660814": {
+"id": 14660814,
+"title": "The visual construction of the individual education plan and parent involvement",
+"doi": "10.32920/ryerson.14660814.v1",
+"url": "https://rshare.library.torontomu.ca/articles/thesis/The_visual_construction_of_the_individual_education_plan_and_parent_involvement/14660814",
+"type": "thesis",
+"queries": [
+"indic document layout"
+]
+},
+"13914890": {
+"id": 13914890,
+"title": "E07536: The Latin Martyrdom of *Albanus (martyr of Verulamium, Britain, S01364) relates the death of the saint, and describes a visit to his tomb by *Germanus (bishop of Auxerre, ob. c.448, S00455), who leaves relics (membra) of apostles and other martyrs and takes with him soil stained with the blood of Albanus. Written probably in Verulamium and possibly before 400, with an interpolation added at Auxerre (central Gaul) c. 450 or later.",
+"doi": "10.25446/oxford.13914890.v1",
+"url": "https://portal.sds.ox.ac.uk/articles/online_resource/E07536_The_Latin_Martyrdom_of_Albanus_martyr_of_Verulamium_Britain_S01364_relates_the_death_of_the_saint_and_describes_a_visit_to_his_tomb_by_Germanus_bishop_of_Auxerre_ob_c_448_S00455_who_leaves_relics_membra_of_apostles_and_other_martyrs_/13914890",
+"type": "online resource",
+"queries": [
+"indic document layout"
+]
+},
+"3175543": {
+"id": 3175543,
+"title": "Kenya Long-term Exclosure Experiment (KLEE) read me. Site and data description",
+"doi": "10.6084/m9.figshare.3175543.v5",
+"url": "https://figshare.com/articles/dataset/Kenya_long_term_exclosure_experiment_KLEE_read_me_Site_and_data_description/3175543",
+"type": "dataset",
+"queries": [
+"indic document layout"
+]
+},
+"10154387": {
+"id": 10154387,
+"title": "How to carry out a field walking test in chronic respiratory disease",
+"doi": "",
+"url": "https://figshare.le.ac.uk/articles/journal_contribution/How_to_carry_out_a_field_walking_test_in_chronic_respiratory_disease/10154387",
+"type": "journal contribution",
+"queries": [
+"indic document layout"
+]
+},
+"2002143": {
+"id": 2002143,
+"title": "Profiles Research Networking Software – System Architecture",
+"doi": "10.6084/m9.figshare.2002143.v1",
+"url": "https://vivo.figshare.com/articles/online_resource/Profiles_Research_Networking_Software_System_Architecture/2002143",
+"type": "online resource",
+"queries": [
+"indic document layout"
+]
+},
+"462212": {
+"id": 462212,
+"title": "Features of selected short reads assembly programs.",
+"doi": "10.1371/journal.pone.0017915.g011",
+"url": "https://plos.figshare.com/articles/figure/_Features_of_selected_short_reads_assembly_programs_/462212",
+"type": "figure",
+"queries": [
+"indic document layout"
+]
+}
+}
+}
