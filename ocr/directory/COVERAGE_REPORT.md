@@ -10,6 +10,7 @@ We **cannot claim** this list includes every Telugu OCR dataset that exists. Wha
 - ILOCR, the main Indian OCR consortium, was checked exhaustively (every dataset ID, the full API list, every competition site).
 - Hits from the API sweeps that matched both Telugu and OCR terms were reviewed. Later query variants mostly brought back datasets we already had, which suggests the open platforms are close to fully covered.
 - Round 2 (citations, theses, Roboflow, AIKosh, ULCA, Wayback, broader platform queries) added 10 distinct datasets. Most of them are unreleased, gated or very new (2025-26), not overlooked open releases. That is further evidence the open channels are close to saturated, but not proof.
+- Round 3 (four independent passes plus a simulated reviewer search) added 12 distinct datasets. Most are small GitHub uploads, paper-only meme/script-ID sets or legacy archives; the major open releases were already present.
 - Gaps are most likely in: datasets described only in paywalled papers or theses, private university collections, Roboflow projects, government portals that need a browser, and commercial vendors.
 
 ## Distinct datasets by category
@@ -21,13 +22,13 @@ We **cannot claim** this list includes every Telugu OCR dataset that exists. Wha
 | OCR image-text: scene text | 5 | 4 | 1 |
 | OCR image-text: synthetic | 16 | 9 | 5 |
 | Machine-labelled OCR (not human ground truth) | 3 | 1 | 1 |
-| Character / glyph classification | 20 | 5 | 10 |
+| Character / glyph classification | 21 | 5 | 10 |
 | Layout / detection (no transcription) | 4 | 2 | 2 |
-| Script identification | 6 | 3 | 4 |
-| Text-in-image benchmark (VQA / document understanding) | 7 | 1 | 3 |
-| Image-only (no transcription) | 7 | 2 | 2 |
-| Image-only (transcription NOT VERIFIED) | 6 | 0 | 2 |
-| Scanned archive (image-only) | 6 | 4 | 1 |
+| Script identification | 7 | 3 | 4 |
+| Text-in-image benchmark (VQA / document understanding) | 8 | 2 | 3 |
+| Image-only (no transcription) | 9 | 3 | 2 |
+| Image-only (transcription NOT VERIFIED) | 11 | 0 | 3 |
+| Scanned archive (image-only) | 7 | 4 | 1 |
 | Text-only corpus (OCR language modelling) | 9 | 6 | 5 |
 
 Telugu image-text OCR datasets by granularity (distinct): Word 12, Page 11, Other 8, Line 5.
@@ -69,4 +70,7 @@ Telugu image-text OCR datasets by granularity (distinct): Word 12, Page 11, Othe
 | Roboflow Universe | **Partly searched** (search snippets only; pages block scripts) |
 | TDIL-DC | **Blocked** (expired certificate; not bypassed) |
 | Paywalled full text, other university repositories | **Not searched** |
+| Hugging Face full paginated listing; GitHub all-pages search + file trees | Exhausted (round 3) |
+| Crossref; Papers with Code archive; OpenDataLab; B2FIND | Exhausted (round 3) |
+| ILOCR re-probe, older competitions (CVSI 2015), British Library EAP | Done (round 3) |
 | Author contact for unreleased data | **Not done** |

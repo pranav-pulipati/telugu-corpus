@@ -12,7 +12,7 @@ COLUMNS = [
     ('quality', 'Dataset quality notes'), ('notes', 'Additional notes'),
     # classification columns (beyond the 36 required)
     ('cat', 'Resource category'), ('distinct', 'Counts as distinct dataset'), ('catalogue', 'Existing catalogue record'),
-    ('round', 'Discovery round'), ('changed', 'Round 2 change'),
+    ('round', 'Discovery round'), ('changed', 'Round 2 change'), ('changed3', 'Round 3 change'),
 ]
 
 STATUSES = ['VERIFIED', 'PARTIALLY VERIFIED', 'UNVERIFIED', 'INACCESSIBLE', 'GATED', 'COMMERCIAL', 'DISCONTINUED', 'REJECTED']
@@ -29,7 +29,7 @@ DEFAULTS = dict(aliases='NONE KNOWN', parent='NONE', version='UNKNOWN', download
                 kaggle='NONE', archive='NONE', paper='NONE FOUND', doi='NONE', inst='UNKNOWN', authors='UNKNOWN', lang='Telugu', script='Telugu',
                 count='UNKNOWN', unit='UNKNOWN', ann='UNKNOWN', ann_type='UNKNOWN', lic='UNKNOWN', comm='UNKNOWN', redis='UNKNOWN',
                 access_req='UNKNOWN', access='UNKNOWN', verified='2026-11-11', overlap='None identified', quality='Not assessed',
-                notes='', catalogue='NONE', round='Round 1 (2026-11-11)', changed='NONE')
+                notes='', catalogue='NONE', round='Round 1 (2026-11-11)', changed='NONE', changed3='NONE')
 
 
 def E(**kw):

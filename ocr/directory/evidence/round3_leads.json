@@ -1,0 +1,113 @@
+{
+ "note": "Leads found in round 3 (2026-11-11) that are NOT rows in telugu_ocr_final.csv because their contents, Telugu content or existence as data could not be confirmed. Listed in MISSING_DATASET_CANDIDATES.csv.",
+ "leads": [
+  {
+   "id": "LEAD-01",
+   "name": "TDIL-DC resource toolid=1892",
+   "url": "http://www.tdil-dc.in/index.php?option=com_download&task=showresourceDetails&toolid=1892&lang=en",
+   "channel": "GitHub README (ChillarAnand/likitham) next to the TDIL Telugu image corpus link (TOCR-046)",
+   "telugu_evidence": "Listed in a Telugu OCR repo README",
+   "reason": "TDIL certificate expired; no Wayback copy; resource type unknown",
+   "next_step": "Open in a browser once TDIL fixes its certificate, or ask TDIL"
+  },
+  {
+   "id": "LEAD-02",
+   "name": "IIT Bombay AIKosh release: handwritten and printed Indian script datasets (part of 16 datasets)",
+   "url": "https://organiser.org/2025/05/31/294768/bharat/spearheading-ai-in-revolution-bharat-iit-bombay-unleashes-16-culturally-rooted-ai-datasets-on-aikosh/amp/",
+   "channel": "News article + AIKosh",
+   "telugu_evidence": "None stated (languages named are Marathi, Tamil, Assamese, Bhojpuri, Sanskrit)",
+   "reason": "AIKosh returned 504/timeouts in rounds 2 and 3; individual dataset pages not enumerable",
+   "next_step": "Browse AIKosh dataset list filtered by IIT Bombay when the portal is up"
+  },
+  {
+   "id": "LEAD-03",
+   "name": "GitHub LakshmiNarayana-9990 teluguletters.rar",
+   "url": "https://github.com/LakshmiNarayana-9990/Telugu_Character_Recognition-English_Letter_Prediction",
+   "channel": "GitHub deep sweep",
+   "telugu_evidence": "Repo is a Telugu handwritten character project",
+   "reason": "RAR archive contents not inspectable without download",
+   "next_step": "Inspect archive listing"
+  },
+  {
+   "id": "LEAD-04",
+   "name": "GitHub sreeramkasulu combined_labels.csv (91 MB)",
+   "url": "https://github.com/sreeramkasulu/Telugu-Character-Recognition",
+   "channel": "GitHub deep sweep",
+   "telugu_evidence": "Telugu character recognition repo",
+   "reason": "Large CSV, probably flattened pixel data from an existing Kaggle set; source unknown",
+   "next_step": "Read CSV header to identify source"
+  },
+  {
+   "id": "LEAD-05",
+   "name": "GitHub vikashmalekar (telugu4lett.zip; Telugu-datasets repo with telugu_a/e/u/O.csv ~13 MB each) and ShanmukhSaiKarnena ('telugu character project.zip')",
+   "url": "https://github.com/vikashmalekar/Telugu_handwriiten_character_recognition_and_predicting_corresponding_english_letter",
+   "channel": "GitHub deep sweep",
+   "telugu_evidence": "Telugu handwritten character projects",
+   "reason": "Small student archives / per-vowel CSVs (probably flattened pixels); contents and source not verified",
+   "next_step": "Read CSV headers / list zip contents to identify source and size"
+  },
+  {
+   "id": "LEAD-06",
+   "name": "Shodhganga Telugu OCR theses (about 20, 2003-2025)",
+   "url": "https://shodhganga.inflibnet.ac.in/",
+   "channel": "Shodhganga API (round 2)",
+   "telugu_evidence": "Telugu character / word / palm-leaf recognition theses",
+   "reason": "Each thesis built private data; none links a public dataset",
+   "next_step": "Request data from authors if needed"
+  },
+  {
+   "id": "LEAD-07",
+   "name": "Enabling Search over Large Collections of Telugu Document Images (ICVGIP 2006)",
+   "url": "https://doi.org/10.1007/11949619_75",
+   "channel": "Crossref",
+   "telugu_evidence": "Telugu document image collection (DLI books)",
+   "reason": "Annotated collection not released; likely same DLI book source as TOCR-044",
+   "next_step": "None (covered by TOCR-044/123)"
+  },
+  {
+   "id": "LEAD-08",
+   "name": "Determination of optimal features database for OCR of printed Telugu text (NATSYS 2015)",
+   "url": "https://doi.org/10.1109/natsys.2015.7489112",
+   "channel": "Crossref",
+   "telugu_evidence": "Printed Telugu OCR",
+   "reason": "A feature database, not an image dataset; no release found",
+   "next_step": "None"
+  },
+  {
+   "id": "LEAD-09",
+   "name": "IIT Madras CNS Lab online Telugu handwriting data (ICFHR 2012 work)",
+   "url": "https://biotech.iitm.ac.in/faculty_website/CNS_LAB/OHwCR.html",
+   "channel": "Web search",
+   "telugu_evidence": "Online Telugu handwriting recognition project",
+   "reason": "Project page links no data",
+   "next_step": "Ask the lab"
+  },
+  {
+   "id": "LEAD-10",
+   "name": "IIIT Hyderabad online Telugu/Malayalam handwriting data (Arora & Namboodiri, ICFHR 2010)",
+   "url": "https://faculty.iiit.ac.in/~anoop/papers/Amit10AHybrid.pdf",
+   "channel": "Web search",
+   "telugu_evidence": "Online Telugu stroke data used in paper",
+   "reason": "No release found; may reuse HP Labs data (TOCR-021)",
+   "next_step": "Check paper data section"
+  },
+  {
+   "id": "LEAD-11",
+   "name": "Method papers citing Telugu dataset hubs that collected private data (e.g. TeluguScriptify 2025, ResNet Telugu text detection 2024, Telugu video text detection 2022)",
+   "url": "https://api.openalex.org/",
+   "channel": "OpenAlex citation sweep (round 2)",
+   "telugu_evidence": "Telugu OCR experiments",
+   "reason": "No dataset release in any of them",
+   "next_step": "None unless authors release data"
+  },
+  {
+   "id": "LEAD-12",
+   "name": "CharanS247/got-ocr2-telugu-handwritten and other Telugu OCR models on HF",
+   "url": "https://huggingface.co/CharanS247/got-ocr2-telugu-handwritten",
+   "channel": "Web search",
+   "telugu_evidence": "Trained on IIIT-HW-Telugu",
+   "reason": "Models, not datasets (rules keep models out of the dataset rows)",
+   "next_step": "None"
+  }
+ ]
+}

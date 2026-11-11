@@ -8,14 +8,15 @@ from collections import Counter
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from common import COLUMNS, CATEGORIES, STATUSES  # noqa: E402
-import entries_a, entries_b, entries_c, entries_d  # noqa: E402
+import entries_a, entries_b, entries_c, entries_d, entries_e  # noqa: E402
 
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
 OUT_CSV = os.path.join(ROOT, 'telugu_ocr_final.csv')
 OUT_STATS = os.path.join(HERE, '..', 'evidence', 'counts.json')
 
-R = entries_a.R + entries_b.R + entries_c.R + entries_d.R
+R = entries_a.R + entries_b.R + entries_c.R + entries_d.R + entries_e.R
 entries_d.apply(R)
+entries_e.apply(R)
 R.sort(key=lambda r: r['id'])
 
 # ---- integrity checks
@@ -60,6 +61,9 @@ stats = dict(
     in_existing_catalogue=sum(r['catalogue'] != 'NONE' for r in R),
     new_in_round2=sum(r['round'].startswith('Round 2') for r in R),
     new_distinct_in_round2=sum(r['round'].startswith('Round 2') and distinct(r) and r['cat'] not in ('Related resource (not a dataset)', 'Rejected') for r in R),
+    new_in_round3=sum(r['round'].startswith('Round 3') for r in R),
+    new_distinct_in_round3=sum(r['round'].startswith('Round 3') and distinct(r) and r['cat'] not in ('Related resource (not a dataset)', 'Rejected') for r in R),
+    changed_in_round3=sum(r['changed3'] not in ('NONE',) and not r['round'].startswith('Round 3') for r in R),
     changed_in_round2=sum(r['changed'] != 'NONE' and not r['round'].startswith('Round 2') for r in R),
 )
 os.makedirs(os.path.dirname(OUT_STATS), exist_ok=True)

@@ -1,0 +1,15 @@
+search telugu 533 1
+search Telugu 533 1
+search tel_ 3164 4
+search -te- 60000 60
+search _te_ 60000 60
+search indic 3852 4
+search ocr 2376 3
+search handwrit 284 1
+search scene-text 12 1
+search scene_text 12 1
+search text-recognition 38 1
+search document 1319 2
+filter language:te 1148 2
+filter language:tel 204 1
+unique datasets 70298 image+telugu evidence 146

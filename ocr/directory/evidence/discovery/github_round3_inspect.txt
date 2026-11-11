@@ -1,0 +1,42 @@
+== medini-r/teluguChar | lic None | size_kb 50194 | created 2020-04-21 | telugu character recogniton dataset
+   images 45217 dirs [('hpl-telugu-iso-char-offline/usr_116', 332), ('hpl-telugu-iso-char-offline/usr_16', 332), ('hpl-telugu-iso-char-offline/usr_17', 332), ('hpl-telugu-iso-char-offline/usr_25', 332), ('hpl-telugu-iso-char-offline/usr_31', 332), ('hpl-telugu-iso-char-offline/usr_41', 332), ('hpl-telugu-iso-char-offline/usr_49', 332), ('hpl-telugu-iso-char-offline/usr_5', 332)]
+   telugu paths ['hpl-telugu-iso-char-offline/usr_0/usr_0_usr_0_usr_0_000t01.tiff', 'hpl-telugu-iso-char-offline/usr_0/usr_0_usr_0_usr_0_000t02.tiff', 'hpl-telugu-iso-char-offline/usr_0/usr_0_usr_0_usr_0_001t01.tiff'] | big files []
+== NamineniBrahmani/multilingual-ocr | lic None | size_kb 99358 | created 2026-10-26 | Multilingual OCR dataset for six Indic scripts
+   images 29263 dirs [('dataset/Nandinagari', 5437), ('dataset/Malayalam', 5249), ('dataset/Kannada', 4753), ('dataset/Devanagari', 4668), ('dataset/Sarada', 4653), ('dataset/Bengali', 4503)]
+   telugu paths [] | big files []
+== bitreaper42/DC_Indic | lic None | size_kb 144702 | created 2025-11-16 | Scene-text dataset with polygon annotations and evaluation suite for IndicPhotoO
+   images 1278 dirs [('IndicPhotoOCR/script_identification', 1093), ('Ground_Truth/dc_1.jpg', 1), ('Ground_Truth/dc_10.jpg', 1), ('Ground_Truth/dc_11.jpg', 1), ('Ground_Truth/dc_12.jpg', 1), ('Ground_Truth/dc_13.jpg', 1), ('Ground_Truth/dc_14.jpg', 1), ('Ground_Truth/dc_15.jpg', 1)]
+   telugu paths [] | big files []
+== madhav007VDEV/telugu-ocr-realtime | lic None | size_kb 10652 | created 2026-02-18 | 
+   images 650 dirs [('dataset/0', 50), ('dataset/1', 50), ('dataset/10', 50), ('dataset/11', 50), ('dataset/12', 50), ('dataset/2', 50), ('dataset/3', 50), ('dataset/4', 50)]
+   telugu paths [] | big files [('telugu_ocr_model.h5', 19557440)]
+== ntbnaren7/telugu-fra-synthesizer | lic MIT | size_kb 49156 | created 2025-09-30 | A tool to generate realistic synthetic Telugu FRA (Forest Rights Act) documents 
+   images 200 dirs [('fra_telugu_docs/fra_telugu_yellow_001.png', 1), ('fra_telugu_docs/fra_telugu_yellow_002.png', 1), ('fra_telugu_docs/fra_telugu_yellow_003.png', 1), ('fra_telugu_docs/fra_telugu_yellow_004.png', 1), ('fra_telugu_docs/fra_telugu_yellow_005.png', 1), ('fra_telugu_docs/fra_telugu_yellow_006.png', 1), ('fra_telugu_docs/fra_telugu_yellow_007.png', 1), ('fra_telugu_docs/fra_telugu_yellow_008.png', 1)]
+   telugu paths ['fra_telugu_docs/fra_telugu_yellow_001.png', 'fra_telugu_docs/fra_telugu_yellow_002.png', 'fra_telugu_docs/fra_telugu_yellow_003.png'] | big files [('fra_telugu_docs.zip', 26387282)]
+== pavankarthik1/Telugu-Hand-Written-character-recognition | lic None | size_kb 61600 | created 2022-02-17 | 
+   images 121 dirs [('data/words', 112), ('ScreenShots/S1.png', 1), ('ScreenShots/s2.png', 1), ('ScreenShots/s3.png', 1), ('ScreenShots/s4.png', 1), ('ScreenShots/s5.png', 1), ('ScreenShots/s6.png', 1), ('doc/1.jpeg', 1)]
+   telugu paths [] | big files [('model/snapshot-1.data-00000-of-00001', 19769728), ('model/snapshot-2.data-00000-of-00001', 19769728), ('model/snapshot-3.data-00000-of-00001', 19769728)]
+== keerthan-381/HandWritten_Charcater_Classificaition_For_Telugu_Palmleaf_Document_Images | lic None | size_kb 3700 | created 2023-06-17 | 
+   images 0 dirs []
+   telugu paths [] | big files [('DATA_LABELS_FINAL.zip', 8670566)]
+== aceveggie/TeluguTFRecords | lic None | size_kb 2090 | created 2017-04-29 | Program to read and write telugu character data
+   images 0 dirs []
+   telugu paths [] | big files [('Telugu_MNIST_Train.tfrecords', 13444695), ('train-images-idx3-ubyte', 13202516)]
+== Saisugandhasri/A-novel-unsupervised-contrastive-learning-framework-for-Telugu-script-character-dataset-construction | lic None | size_kb 30613 | created 2025-12-16 | 
+   images 0 dirs []
+   telugu paths [] | big files [('binarized_images.zip', 9761033), ('outputs.zip', 20718562)]
+== JayanthKalluri/TeluguSentenceRecognizer | lic None | size_kb 8289 | created 2023-05-17 | The Telugu OCR for recognizing Handwritten Sentences.
+   images 0 dirs []
+   telugu paths [] | big files [('Training/model_chars_tccnn-l.hdf5', 10644276)]
+== darshanrao/Ancient-Hand-Writtten-Recognition-Under-Data-Deficiency | lic None | size_kb 173598 | created 2024-03-05 | Ancient Indian Languages OCR: Enhancing handwritten character recognition using 
+   images 79957 dirs [('Tamil/sol', 28080), ('Tamil/train', 14669), ('Sanskrit/archive', 12912), ('Tamil/test', 12574), ('Sanskrit/sanskrit_test_data', 11722)]
+   telugu paths ['Sanskrit/sanskrit_test_data/c_19/cuejtelueu.jpg', 'Sanskrit/sanskrit_test_data/c_19/yzijjbtelp.jpg', 'Sanskrit/sanskrit_test_data/c_25/tdsxrteltd.jpg'] | big files []
+== LakshmiNarayana-9990/Telugu_Character_Recognition-English_Letter_Prediction | lic None | size_kb 27385 | created 2020-08-23 | This Project is all about Telugu Handwriting character Recognition and predictin
+   images 13 dirs [('images/1.png', 1), ('images/2.png', 1), ('images/3.png', 1), ('images/4.png', 1), ('images/5.png', 1), ('images/6.png', 1), ('images/7.png', 1), ('images/8.png', 1)]
+   telugu paths [] | big files [('mymodel.pkl', 24329892), ('video_clip_on_working_of_project.rar', 25509177)]
+== sreeramkasulu/Telugu-Character-Recognition | lic None | size_kb 17396 | created 2024-10-07 | 
+   images 5 dirs [('telugu/static', 4), ('telugu/logo.png.jpg', 1)]
+   telugu paths ['telugu/logo.png.jpg', 'telugu/static/images/background.png', 'telugu/static/images/hero-image.png'] | big files [('telugu/combined_labels.csv', 91475197)]
+== chaitusvk/telugu_ocr_flask | lic None | size_kb 38832 | created 2020-12-26 | Telugu OCR Flask
+   images 116 dirs [('tel_ocr_test_imgs/0.png', 1), ('tel_ocr_test_imgs/1.png', 1), ('tel_ocr_test_imgs/10.png', 1), ('tel_ocr_test_imgs/11.png', 1), ('tel_ocr_test_imgs/12.png', 1), ('tel_ocr_test_imgs/13.png', 1), ('tel_ocr_test_imgs/14.png', 1), ('tel_ocr_test_imgs/15.png', 1)]
+   telugu paths ['tel_ocr_test_imgs/0.png', 'tel_ocr_test_imgs/1.png', 'tel_ocr_test_imgs/10.png'] | big files [('netCRNN_40_1000.pth', 42470351)]

@@ -24,11 +24,14 @@ tag-based listing (`language:te`, image tasks) and model searches (to find the d
 | archive | 9 | 745 | 2026-11-11 |
 | arxiv | 12 | 147 | 2026-11-11 |
 | openalex citations (round 2) | 14 | 79 | 2026-11-11 |
+| crossref (round 3) | 20 | 2,516 | 2026-11-11 |
 | datacite | 34 | 542 | 2026-11-11 |
 | dataverse | 34 | 1,803 | 2026-11-11 |
 | figshare | 34 | 326 | 2026-11-11 |
 | github | 34 | 610 | 2026-11-11 |
+| github deep, all pages + file trees (round 3) | 27 | 1,470 | 2026-11-11 |
 | hf | 106 | 1,517 | 2026-11-11 |
+| hf full paginated listing (round 3) | 14 | 70,298 | 2026-11-11 |
 | kaggle | 30 | 172 | 2026-11-11 |
 | mendeley (round 2) | 11 | 1,231 | 2026-11-11 |
 | openalex | 34 | 3,237 | 2026-11-11 |
@@ -69,6 +72,12 @@ How the hits were screened:
 | Google Scholar | Round 2: redirects scripts to a bot check; covered indirectly by ~25 general web searches |
 | HF datasets-server API | Round 2: Telugu row counts for 7 multilingual sets without downloading |
 | ACL Anthology, JASTT, IOSR and other journal sites | Round 2: papers found through citations/search read for dataset links |
+| Papers with Code archive (pwc-archive/datasets, 15,008 dataset records) | Round 3: full index filtered for Telugu and Indic OCR; nothing new |
+| OpenDataLab / OpenXLab | Round 3: search API and web search; no Telugu datasets |
+| B2FIND (EUDAT metadata aggregator) | Round 3: exact-phrase search; 44 hits, none OCR |
+| IEEE DataPort (DataCite prefix 10.21227 + "telugu") | Round 3: all 48 records listed; every Telugu image dataset already in the CSV |
+| ILOCR dataset catalogue re-probe (IDs 60-130) and competition sites | Round 3: no new Telugu pages; ICDAR 2025 MLT-RSTR found; IHDR/MLT-RSTR zips still 404 |
+| Griffith CVSI-2015 site, British Library EAP, Amrita, NITK repositories | Round 3: legacy competition/archive pages and paper-only datasets |
 | HP Labs / LipiTk site | Dataset page and licence read |
 | CMATERdb (Jadavpur) | Telugu numeral subset confirmed |
 | IHDIA (ihdia.iiit.ac.in) | Indiscapes project pages |
@@ -77,7 +86,7 @@ How the hits were screened:
 | Telugu digital collections: Internet Archive, DLI, Chandamama, AP Press Academy, GOML palm-leaf, perspectivia.net | Collection pages / search APIs |
 | SSRN, ACM DL, Springer, arXiv HTML | Paper pages for dataset links (SSRN/ACM block scripts) |
 
-In total, **41** platforms and sites were investigated (17 by API sweep, 24 directly).
+In total, **50** platforms and sites were investigated (20 by API sweep, 30 directly).
 
 ## 5. ILOCR in depth
 
@@ -89,7 +98,7 @@ In total, **41** platforms and sites were investigated (17 by API sweep, 24 dire
 ## 6. Papers
 
 - 833 paper records were screened by title and abstract (686 OpenAlex + 147 arXiv).
-- 42 papers are linked from directory rows; each was opened to find the dataset link, size, licence and Telugu share.
+- 48 papers are linked from directory rows; each was opened to find the dataset link, size, licence and Telugu share.
 - Citations were followed from the main hubs (IIIT-HW-Telugu, IndicSTR12, IIIT-ILST, Mozhi, IndicDLP, BSTD, Nayana, PHDIndic_11) to related releases. This turned up HW-UC, roadside IndicSTR-Word, MIST and TEXTRON.
 - Round 2 added a systematic OpenAlex citation sweep (Section 7), 100 Semantic Scholar records and 72 Shodhganga theses.
 
@@ -264,19 +273,93 @@ These looked relevant but are not Telugu OCR resources. They are kept in the CSV
 | TOCR-205 | [DataCluster Labs Multilingual OCR Annotation Dataset (Kaggle + HF)](https://huggingface.co/datasets/Dataclusterlabspvtltd/Multilingual_OCR_Annotation_Dataset) | Vendor sample with he/th/ja/ar; no Telugu files. |
 | TOCR-206 | [A Benchmark and Dataset for Post-OCR Text Correction in Sanskrit (AIK...](https://aikosh.indiaai.gov.in/home/datasets/details/a_benchmark_and_dataset_for_post_ocr_text_correction_in_sanskrit.html) | Sanskrit text only (Devanagari); no Telugu. |
 | TOCR-207 | [Indic-VizVQA-v2 (Kaggle armaansingh2340)](https://www.kaggle.com/datasets/armaansingh2340/indic-vizvqa-v2) | Translated VizWiz/VQAv2 questions; images are not text-centric. |
+| TOCR-231 | [HKS-NVC: Handwritten Kadamba Script numerals, vowels, consonants (IEE...](https://doi.org/10.21227/nhvr-w717) | Kadamba script (ancestor of Kannada-Telugu), not Telugu. |
+| TOCR-232 | [GitHub NamineniBrahmani/multilingual-ocr](https://github.com/NamineniBrahmani/multilingual-ocr) | Six scripts (Nandinagari, Malayalam, Kannada, Devanagari, Sarada, Bengali); no Telugu folder. |
+| TOCR-233 | [GitHub bitreaper42/DC_Indic scene-text evaluation set](https://github.com/bitreaper42/DC_Indic) | ground_truth.json has only English and Hindi regions. |
+| TOCR-234 | [GitHub darshanrao/Ancient-Hand-Writtten-Recognition-Under-Data-Defici...](https://github.com/darshanrao/Ancient-Hand-Writtten-Recognition-Under-Data-Deficiency) | Tamil and Sanskrit data only. |
+| TOCR-235 | [HASOC 2025 multimodal meme task (FIRE 2025)](https://ceur-ws.org/Vol-4173/) | Hindi, Gujarati, Bangla and Bodo memes; no Telugu. |
+| TOCR-236 | [Synbols synthetic glyph datasets (ServiceNow)](https://github.com/ServiceNow/synbols) | No Telugu alphabet in the generator (code search 2026-11-11). |
+| TOCR-237 | [Tamil handwritten palm-leaf manuscript dataset (THPLMD)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10864864/) | Tamil only; surfaces in Telugu palm-leaf searches. |
+| TOCR-238 | [Hamburg palm-leaf manuscript word datasets (fdr.uni-hamburg.de)](https://b2find.eudat.eu/dataset/f0497ec0-a60f-5710-96b4-2bf9adef6f56) | Tamil manuscripts; no Telugu. |
+| TOCR-239 | [IIST BCI Telugu datasets (EEG; IEEE DataPort)](https://doi.org/10.21227/32qq-c421) | Brain-signal recordings of Telugu speech/commands, not images. |
 
-Beyond these 35 rows, several hundred search hits were discarded during screening without a row, for example
+Beyond these 44 rows, several hundred search hits were discarded during screening without a row, for example
 Telugu text-only NLP sets, speech sets, and Telugu-tagged HF sets with no images. The `hf_screen.json` and
 `platform_candidates.txt` files in `evidence/discovery/` keep the screening decisions.
 
-## 9. Channels still open
+## 9. Round 3 (adversarial completeness pass, 2026-11-11)
+
+Round 3 assumed an independent reviewer would search for Telugu OCR data and tried to find anything they could find that the CSV lacked.
+Full details, including a reviewer cross-check table, are in [ADVERSARIAL_COMPLETENESS_AUDIT.md](ADVERSARIAL_COMPLETENESS_AUDIT.md).
+
+| Pass | What was searched | Outcome |
+|---|---|---|
+| A. Institutions | IIIT-H/CVIT + ILOCR re-probe, UoH, IIT Bombay, IIT Madras, IISc MILE, C-DAC, NLTM/Bhashini, TDIL, AIKosh, Amrita, NITK, Telugu-state universities | ICDAR 2025 MLT-RSTR (TOCR-213), Amrita palm-leaf DB (212), Rasagna thesis sets (216), NITK memes (214); AIKosh/TDIL still unreachable |
+| B. Papers | Crossref (20 queries, 2,516 records), OpenAlex citations (round 2), DataCite IEEE prefix sweep, arXiv/ACL pages, ICDAR/ICFHR competition reports | CVSI-2015 (210), meme datasets (215, 217, 218), handwritten script-ID sets (219, 220); UHTelPCC size; TOCR-108 conflict recorded |
+| C. Platforms | HF full paginated listing (14 listings, 70,298 datasets), GitHub all-pages search (27 queries, 1,470 repos, 476 file trees), PwC archive, OpenDataLab, B2FIND, Roboflow, Kaggle (round 2) | rendered_wikipedia_te (221), NayanaIR-MonoBench-te (222), tiny CAPTCHA (223), 7 GitHub data repos (224-230); 4 GitHub repos rejected |
+| D. Legacy / obscure | Wayback Machine, archived author pages, older competitions (CVSI 2015), British Library EAP, TDIL references in READMEs, palm-leaf and inscription searches | EAP038 Telugu books/periodicals (211); TDIL toolid 1892 lead; Tamil palm-leaf sets rejected |
+| Reviewer simulation | 14 likely reviewer searches; every dataset-like result mapped to a row | 34/34 dataset results already/now in the CSV |
+
+### New rows added in round 3
+
+| ID | Name | Category | Status | Distinct? |
+|---|---|---|---|---|
+| TOCR-210 | [CVSI-2015 - ICDAR 2015 Competition on Video Script Identifi...](https://www.ict.griffith.edu.au/cvsi2015/Dataset.php) | Script identification | PARTIALLY VERIFIED | Y |
+| TOCR-211 | [British Library Endangered Archives EAP038 - pre-1947 Telug...](https://eap.bl.uk/project/EAP038) | Scanned archive (image-only) | PARTIALLY VERIFIED | Y |
+| TOCR-212 | [Telugu palm-leaf character database (Amrita, 2012)](https://www.amrita.edu/publication/a-data-acquisition-and-analysis-system-for-palm-leaf-documents-in-telugu/) | Character / glyph classification | UNVERIFIED | UNKNOWN |
+| TOCR-213 | [ICDAR 2025 Competition on Multi-lingual Roadside Scene Text...](https://ilocr.iiit.ac.in/icdar_2025_MLT-RSTR/dataset.html) | OCR image-text: scene text | INACCESSIBLE | UNKNOWN (suspected same collection as T... |
+| TOCR-214 | [Telugu Meme Dataset (domain and troll identification, NITK)](https://doi.org/10.1007/978-3-031-58495-4_2) | Image-only (transcription NOT VERIFIED) | UNVERIFIED | Y |
+| TOCR-215 | [LT-EDI 2024 shared task: troll meme classification - Telugu](https://aclanthology.org/2024.ltedi-1.13.pdf) | Image-only (transcription NOT VERIFIED) | UNVERIFIED | N (suspected same data as TOCR-214) |
+| TOCR-216 | [IIIT Telugu document test sets (Rasagna 2013 MS thesis)](https://cvit.iiit.ac.in/research/thesis/thesis-students/studies-in-recognition-of-telugu-document-images) | OCR image-text: printed | UNVERIFIED | UNKNOWN |
+| TOCR-217 | [TelMeMood - multimodal Telugu meme sentiment dataset](https://doi.org/10.1109/isacc65211.2025.10969246) | Image-only (transcription NOT VERIFIED) | UNVERIFIED | Y |
+| TOCR-218 | [Benchmark dataset for hateful memes detection in Telugu](https://doi.org/10.1007/978-3-032-13803-3_27) | Image-only (transcription NOT VERIFIED) | UNVERIFIED | Y |
+| TOCR-219 | [Handwritten Indic script identification data (offline + onl...](https://arxiv.org/abs/1802.08568) | Script identification | UNVERIFIED | UNKNOWN |
+| TOCR-220 | [Handwritten script identification text lines (Singh et al.,...](https://arxiv.org/abs/2009.07433) | Script identification | UNVERIFIED | UNKNOWN |
+| TOCR-221 | [stefania-radu/rendered_wikipedia_te (rendered Telugu Wikipe...](https://huggingface.co/datasets/stefania-radu/rendered_wikipedia_te) | Image-only (no transcription) | VERIFIED | Y |
+| TOCR-222 | [NayanaIR-MonoBench-te (Telugu visual document retrieval)](https://huggingface.co/datasets/Cognitive-Lab/NayanaIR-MonoBench-te) | Text-in-image benchmark (VQA / document... | VERIFIED | Y |
+| TOCR-223 | [Tiny Multilingual CAPTCHA Library - Telugu (remiai3/tiny-ca...](https://huggingface.co/datasets/remiai3/tiny-captcha-library) | OCR image-text: synthetic | VERIFIED | N (smaller release of TOCR-101 generato... |
+| TOCR-224 | [GitHub medini-r/teluguChar (copy of HP Labs offline Telugu ...](https://github.com/medini-r/teluguChar) | Character / glyph classification | VERIFIED | N (mirror of TOCR-021) |
+| TOCR-225 | [GitHub madhav007VDEV/telugu-ocr-realtime - character image ...](https://github.com/madhav007VDEV/telugu-ocr-realtime) | Character / glyph classification | PARTIALLY VERIFIED | Y |
+| TOCR-226 | [GitHub ntbnaren7/telugu-fra-synthesizer - synthetic Telugu ...](https://github.com/ntbnaren7/telugu-fra-synthesizer) | Image-only (transcription NOT VERIFIED) | PARTIALLY VERIFIED | Y |
+| TOCR-227 | [GitHub pavankarthik1/Telugu-Hand-Written-character-recognit...](https://github.com/pavankarthik1/Telugu-Hand-Written-character-recognition) | Image-only (transcription NOT VERIFIED) | PARTIALLY VERIFIED | Y |
+| TOCR-228 | [GitHub keerthan-381 - Telugu palm-leaf handwritten characte...](https://github.com/keerthan-381/HandWritten_Charcater_Classificaition_For_Telugu_Palmleaf_Document_Images) | Character / glyph classification | PARTIALLY VERIFIED | Y |
+| TOCR-229 | [GitHub aceveggie/TeluguTFRecords - Telugu character data in...](https://github.com/aceveggie/TeluguTFRecords) | Character / glyph classification | PARTIALLY VERIFIED | UNKNOWN |
+| TOCR-230 | [GitHub Saisugandhasri - binarised Telugu character images (...](https://github.com/Saisugandhasri/A-novel-unsupervised-contrastive-learning-framework-for-Telugu-script-character-dataset-construction) | Image-only (no transcription) | PARTIALLY VERIFIED | Y |
+| TOCR-231 | [HKS-NVC: Handwritten Kadamba Script numerals, vowels, conso...](https://doi.org/10.21227/nhvr-w717) | Rejected | REJECTED | N |
+| TOCR-232 | [GitHub NamineniBrahmani/multilingual-ocr](https://github.com/NamineniBrahmani/multilingual-ocr) | Rejected | REJECTED | N |
+| TOCR-233 | [GitHub bitreaper42/DC_Indic scene-text evaluation set](https://github.com/bitreaper42/DC_Indic) | Rejected | REJECTED | N |
+| TOCR-234 | [GitHub darshanrao/Ancient-Hand-Writtten-Recognition-Under-D...](https://github.com/darshanrao/Ancient-Hand-Writtten-Recognition-Under-Data-Deficiency) | Rejected | REJECTED | N |
+| TOCR-235 | [HASOC 2025 multimodal meme task (FIRE 2025)](https://ceur-ws.org/Vol-4173/) | Rejected | REJECTED | N |
+| TOCR-236 | [Synbols synthetic glyph datasets (ServiceNow)](https://github.com/ServiceNow/synbols) | Rejected | REJECTED | N |
+| TOCR-237 | [Tamil handwritten palm-leaf manuscript dataset (THPLMD)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10864864/) | Rejected | REJECTED | N |
+| TOCR-238 | [Hamburg palm-leaf manuscript word datasets (fdr.uni-hamburg...](https://b2find.eudat.eu/dataset/f0497ec0-a60f-5710-96b4-2bf9adef6f56) | Rejected | REJECTED | N |
+| TOCR-239 | [IIST BCI Telugu datasets (EEG; IEEE DataPort)](https://doi.org/10.21227/32qq-c421) | Rejected | REJECTED | N |
+
+### Earlier rows changed in round 3
+
+| ID | Name | Change |
+|---|---|---|
+| TOCR-009 | ICDAR 2025 IHDR Telugu (Indic Handwritten Document Recognit... | Links re-checked |
+| TOCR-018 | GitHub JayanthKalluri/TeluguWordRecognizer - "handwritten_t... | Related repo found |
+| TOCR-021 | HPL Isolated Handwritten Telugu Character Dataset (HP Labs ... | LipiTk index page added |
+| TOCR-027 | Handwritten Telugu Gunintam క (Ka) | Working landing page and size found |
+| TOCR-038 | GitHub axlevisu/CNN-Telugu-OCR data folder | Identified as compilation |
+| TOCR-041 | Mozhi-Telugu (printed word images) | Internal page set noted |
+| TOCR-047 | UHTelPCC: Telugu Printed Character Dataset (University of H... | Size from paper abstract |
+| TOCR-106 | chaitusvk/telugu_ocr_multi_line - generated line images | Related repo found |
+| TOCR-108 | "OCR Telugu Image Dataset" (IEEE DataPort a1kv-rj60) | Conflicting descriptions recorded |
+| TOCR-113 | MDIW-13 - Multi-lingual Document Image database for script ... | IEEE DataPort copies noted |
+| TOCR-174 | GitHub UthejKaramalapudi/Handwritten_Charcater_Classificait... | Related repo found |
+
+## 10. Channels still open
 
 - **Semantic Scholar** - partly done: 4 of 36 planned queries attempted and 1 answered before the run was stopped (repeated HTTP 429). Re-run with an API key.
 - **Google Scholar** - blocks scripts; covered only through general web searches.
 - **IEEE Xplore / Springer / Elsevier full text** - paywalled. Only abstracts and open versions were read, so dataset links inside paywalled papers may be missed.
-- **AIKosh full listing** - the portal timed out (HTTP 504) during round 2; pages were found through web search only.
+- **AIKosh full listing** - the portal timed out (HTTP 504 / no response) in rounds 2 and 3; pages were found through web search only.
 - **TDIL-DC** - certificate expired, not bypassed. The Telugu image corpus there is unconfirmed.
 - **Roboflow Universe** - blocks scripts; 8 Telugu projects are known from search snippets only (sizes and classes unconfirmed).
+- **Small GitHub archives** - a few student repos hold RAR/ZIP/CSV character data whose contents were not inspected (see MISSING_DATASET_CANDIDATES.csv).
 - **ULCA downloads** - the two Telugu OCR corpora are listed, but downloading needs a login and a search request.
 - **Institutional repositories beyond Shodhganga** (university DSpace sites) - only UoH was checked.
-- **Direct contact with authors** - not done. CHIPS, UniLipi, the JASTT corpus, UHTelPCC/UHTelHwCC and other unreleased sets could probably be requested by email.
+- **Direct contact with authors** - not done. CHIPS, UniLipi, the JASTT corpus, UHTelPCC/UHTelHwCC, the Telugu meme datasets and other unreleased sets could probably be requested by email.

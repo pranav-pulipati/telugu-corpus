@@ -1,0 +1,3447 @@
+[
+{
+"url": "https://paperswithcode.com/dataset/universal-dependencies",
+"name": "Universal Dependencies",
+"full_name": "",
+"homepage": "https://universaldependencies.org/",
+"description": "The **Universal Dependencies** (UD) project seeks to develop cross-linguistically consistent treebank annotation of morphology and syntax for multiple languages. The first version of the dataset was released in 2015 and consisted of 10 treebanks over 10 languages. Version 2.7 released in 2020 consists of 183 treebanks over 104 languages. The annotation consists of UPOS (universal part-of-speech tags), XPOS (language-specific part-of-speech tags), Feats (universal morphological features), Lemmas, dependency heads and universal dependency labels.\r\n\r\nSource: [Evaluating Contextualized Embeddings on 54 Languagesin POS Tagging, Lemmatization and Dependency Parsing](https://arxiv.org/abs/1908.07448)\r\nImage Source: [https://universaldependencies.org/introduction.html](https://universaldependencies.org/introduction.html)",
+"short_description": "The Universal Dependencies (UD) project seeks to develop cross-linguistically consistent treebank annotation of morphology and syntax for multiple languages. The first version of the dataset was released in 2015 and consisted of 10 treebanks over 10 languages. Version 2.7 released in 2020 consists of 183 treebanks over 104 languages. The annotation consists of UPOS (universal part-of-speech tags), XPOS (language-specific part-of-speech tags), Feats (universal morphological features), Lemmas, dependency heads and universal dependency labels.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/Universal_Dependencies-0000002712-74dffc3c_jUiQ5Qi.jpg",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/dataset-0000002712-43f11ec8_niKVN2p.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/dataset-0000002712-59fbca80.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "Universal Dependencies v1: A Multilingual Treebank Collection",
+"url": "https://paperswithcode.com/paper/universal-dependencies-v1-a-multilingual"
+},
+"mention_count": 0,
+"introduced_date": "2016-01-01",
+"license_name": "Various (see link)",
+"license_url": "https://lindat.mff.cuni.cz/repository/xmlui/page/licence-UD-2.1",
+"verified_name": "Universal Dependencies",
+"verified_paper": {
+"title": "Universal Dependencies v1: A Multilingual Treebank Collection",
+"url": "https://paperswithcode.com/paper/universal-dependencies-v1-a-multilingual"
+},
+"warning": null,
+"modalities": [
+"Texts",
+"Audio"
+],
+"tasks": [
+{
+"task": "Dependency Parsing",
+"url": "https://paperswithcode.com/task/dependency-parsing"
+},
+{
+"task": "Part-Of-Speech Tagging",
+"url": "https://paperswithcode.com/task/part-of-speech-tagging"
+},
+{
+"task": "Language Identification",
+"url": "https://paperswithcode.com/task/language-identification"
+},
+{
+"task": "POS",
+"url": "https://paperswithcode.com/task/pos"
+},
+{
+"task": "Cross-lingual zero-shot dependency parsing",
+"url": "https://paperswithcode.com/task/cross-lingual-zero-shot-dependency-parsing"
+},
+{
+"task": "Cross-Lingual POS Tagging",
+"url": "https://paperswithcode.com/task/cross-lingual-pos-tagging"
+},
+{
+"task": "TAG",
+"url": "https://paperswithcode.com/task/tag"
+},
+{
+"task": "SENTS",
+"url": "https://paperswithcode.com/task/sents"
+},
+{
+"task": "MORPH",
+"url": "https://paperswithcode.com/task/morph"
+},
+{
+"task": "UNLABELED_DEPENDENCIES",
+"url": "https://paperswithcode.com/task/unlabeled-dependencies"
+},
+{
+"task": "LABELED_DEPENDENCIES",
+"url": "https://paperswithcode.com/task/labeled-dependencies"
+},
+{
+"task": "LEMMA",
+"url": "https://paperswithcode.com/task/lemma"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"German",
+"Italian",
+"Chinese",
+"Japanese",
+"Russian",
+"Portuguese",
+"Afrikaans",
+"Akkadian",
+"Akuntsu",
+"Albanian",
+"Amharic",
+"Ancient Greek",
+"Apurinã",
+"Arabic",
+"Armenian",
+"Assyrian Neo-Aramaic",
+"Bambara",
+"Basque",
+"Belarusian",
+"Bhojpuri",
+"Breton",
+"Bulgarian",
+"Catalan",
+"Chukot",
+"Church Slavic",
+"Coptic",
+"Croatian",
+"Czech",
+"Danish",
+"Dutch",
+"Erzya",
+"Estonian",
+"Faroese",
+"Finnish",
+"Galician",
+"Gothic",
+"Hebrew",
+"Hindi",
+"Hungarian",
+"Icelandic",
+"Indonesian",
+"Irish",
+"Karelian",
+"Kazakh",
+"Khunsari",
+"Komi-Permyak",
+"Komi-Zyrian",
+"Korean",
+"Latin",
+"Latvian",
+"Literary Chinese",
+"Lithuanian",
+"Livvi",
+"Maltese",
+"Manx",
+"Marathi",
+"Mbyá Guaraní",
+"Modern Greek",
+"Moksha",
+"Mundurukú",
+"Nayini",
+"Nigerian Pidgin",
+"Northern Kurdish",
+"Northern Sami",
+"Norwegian",
+"Old French",
+"Old Russian",
+"Old Turkish",
+"Persian",
+"Polish",
+"Romanian",
+"Russia Buriat",
+"Sanskrit",
+"Scottish Gaelic",
+"Serbian",
+"Skolt Sami",
+"Slovak",
+"Slovenian",
+"Soi",
+"South Levantine Arabic",
+"Swedish",
+"Swedish Sign Language",
+"Swiss German",
+"Tagalog",
+"Tamil",
+"Telugu",
+"Thai",
+"Tupinambá",
+"Turkish",
+"Uighur",
+"Ukrainian",
+"Upper Sorbian",
+"Urdu",
+"Vietnamese",
+"Warlpiri",
+"Welsh",
+"Wolof",
+"Yoruba",
+"Yue Chinese"
+],
+"variants": [
+"UD",
+"Universal Dependencies",
+"Universal Dependency Treebank",
+"Universal Dependencies v2.8",
+"universal_dependencies sk_snk",
+"Maltese Universal Dependencies Treebank (MUDT)",
+"UD Danish DDT"
+],
+"num_papers": 520,
+"data_loaders": [
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/universal_dependencies"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/albertvillanova/universal_dependencies"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/BramVanroy/ud_dutch_lassysmall"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/BramVanroy/ud_dutch_alpino"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/universal-dependencies/universal_dependencies"
+},
+{
+"frameworks": [
+"pytorch"
+],
+"repo": "https://github.com/allenai/allennlp-models",
+"url": "https://docs.allennlp.org/models/main/models/structured_prediction/dataset_readers/universal_dependencies/"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/dakshina",
+"name": "Dakshina",
+"full_name": "Dakshina",
+"homepage": "https://github.com/google-research-datasets/dakshina",
+"description": "The Dakshina dataset is a collection of text in both Latin and native scripts for 12 South Asian languages. For each language, the dataset includes a large collection of native script Wikipedia text, a romanization lexicon which consists of words in the native script with attested romanizations, and some full sentence parallel data in both a native script of the language and the basic Latin alphabet.\r\n\r\nSource: [Google Research](https://github.com/google-research-datasets/dakshina)",
+"short_description": "The Dakshina dataset is a collection of text in both Latin and native scripts for 12 South Asian languages. For each language, the dataset includes a large collection of native script Wikipedia text, a romanization lexicon which consists of words in the native script with attested romanizations, and some full sentence parallel data in both a native script of the language and the basic Latin alphabet.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/Screenshot_2021-01-12_at_10.17.51.png",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/dataset-0000004002-9ed9b8fb_CGuNXVp.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/dataset-0000004002-2549e0ed.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "Processing South Asian Languages Written in the Latin Script: the Dakshina Dataset",
+"url": "https://paperswithcode.com/paper/processing-south-asian-languages-written-in-1"
+},
+"mention_count": 0,
+"introduced_date": "2020-07-02",
+"license_name": null,
+"license_url": null,
+"verified_name": "Dakshina",
+"verified_paper": {
+"title": "Processing South Asian Languages Written in the Latin Script: the Dakshina Dataset",
+"url": "https://paperswithcode.com/paper/processing-south-asian-languages-written-in-1"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Language Modelling",
+"url": "https://paperswithcode.com/task/language-modelling"
+},
+{
+"task": "Language Identification",
+"url": "https://paperswithcode.com/task/language-identification"
+},
+{
+"task": "Transliteration",
+"url": "https://paperswithcode.com/task/transliteration"
+}
+],
+"languages": [
+"Hindi",
+"Marathi",
+"Tamil",
+"Telugu",
+"Urdu",
+"Gujarati",
+"Kannada",
+"Malayalam",
+"Punjabi",
+"Sinhala",
+"Sindhi"
+],
+"variants": [
+"Dakshina"
+],
+"num_papers": 14,
+"data_loaders": [
+{
+"frameworks": [
+"none"
+],
+"repo": "https://github.com/google-research-datasets/dakshina",
+"url": "https://github.com/google-research-datasets/dakshina"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/nisp",
+"name": "NISP",
+"full_name": "NITK-IISc Multilingual Multi-accent Speaker Profiling",
+"homepage": "https://github.com/iiscleap/NISP-Dataset",
+"description": "This dataset contains speech recordings along with speaker physical parameters (height, weight, shoulder size, age ) as well as regional information and linguistic information.\r\n\r\nThere are a total of 345 speakers (219 male and 126 female). The dataset contains sentences that are taken out from newspapers. Each speaker has contributed about 4-5 minutes of data that includes recordings in both English and their mother tongue. The transcript for the text is provided in UTF-8 format.\r\n\r\nSource: [NISP](https://github.com/iiscleap/NISP-Dataset)",
+"short_description": "This dataset contains speech recordings along with speaker physical parameters (height, weight, shoulder size, age ) as well as regional information and linguistic information.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/Screenshot_2021-01-27_at_10.04.14.png",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/dataset-0000004109-da5375a2_GTXHeCg.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/dataset-0000004109-4af07152.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "NISP: A Multi-lingual Multi-accent Dataset for Speaker Profiling",
+"url": "https://paperswithcode.com/paper/nisp-a-multi-lingual-multi-accent-dataset-for"
+},
+"mention_count": 0,
+"introduced_date": "2020-07-12",
+"license_name": null,
+"license_url": null,
+"verified_name": "NISP",
+"verified_paper": {
+"title": "NISP: A Multi-lingual Multi-accent Dataset for Speaker Profiling",
+"url": "https://paperswithcode.com/paper/nisp-a-multi-lingual-multi-accent-dataset-for"
+},
+"warning": null,
+"modalities": [
+"Speech"
+],
+"tasks": [],
+"languages": [
+"English",
+"Hindi",
+"Tamil",
+"Telugu",
+"Kannada",
+"Malayalam"
+],
+"variants": [
+"NISP"
+],
+"num_papers": 5,
+"data_loaders": [
+{
+"frameworks": [
+"none"
+],
+"repo": "https://github.com/iiscleap/NISP-Dataset",
+"url": "https://github.com/iiscleap/NISP-Dataset"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/xtreme",
+"name": "XTREME",
+"full_name": "Cross-Lingual Transfer Evaluation of Multilingual Encoders",
+"homepage": "https://sites.research.google/xtreme",
+"description": "The **Cross-lingual TRansfer Evaluation of Multilingual Encoders (XTREME)** benchmark was introduced to encourage more research on multilingual transfer learning,. XTREME covers 40 typologically diverse languages spanning 12 language families and includes 9 tasks that require reasoning about different levels of syntax or semantics.\r\n\r\nThe languages in XTREME are selected to maximize language diversity, coverage in existing tasks, and availability of training data. The languages in XTREME are selected to maximize language diversity, coverage in existing tasks, and availability of training data. Among these are many under-studied languages, such as the Dravidian languages Tamil (spoken in southern India, Sri Lanka, and Singapore), Telugu and Malayalam (spoken mainly in southern India), and the Niger-Congo languages Swahili and Yoruba, spoken in Africa.",
+"short_description": "The Cross-lingual TRansfer Evaluation of Multilingual Encoders (XTREME) benchmark was introduced to encourage more research on multilingual transfer learning,. XTREME covers 40 typologically diverse languages spanning 12 language families and includes 9 tasks that require reasoning about different levels of syntax or semantics.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/Screen_Shot_2021-01-27_at_1.42.09_PM.png",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/dataset-0000004143-8576cb12_hHN3CGY.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/dataset-0000004143-507babe6.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalisation",
+"url": "https://paperswithcode.com/paper/xtreme-a-massively-multilingual-multi-task-1"
+},
+"mention_count": 0,
+"introduced_date": "2020-01-01",
+"license_name": null,
+"license_url": null,
+"verified_name": "XTREME",
+"verified_paper": {
+"title": "XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalisation",
+"url": "https://paperswithcode.com/paper/xtreme-a-massively-multilingual-multi-task-1"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Token Classification",
+"url": "https://paperswithcode.com/task/token-classification"
+},
+{
+"task": "Zero-Shot Cross-Lingual Transfer",
+"url": "https://paperswithcode.com/task/zero-shot-cross-lingual-transfer"
+}
+],
+"languages": [
+"Telugu",
+"Swahili"
+],
+"variants": [
+"XTREME"
+],
+"num_papers": 55,
+"data_loaders": [
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/google/xtreme"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/xtreme"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/cc100",
+"name": "CC100",
+"full_name": "",
+"homepage": "http://data.statmt.org/cc-100/",
+"description": "This corpus comprises of monolingual data for 100+ languages and also includes data for romanized languages. This was constructed using the urls and paragraph indices provided by the CC-Net repository by processing January-December 2018 Commoncrawl snapshots. Each file comprises of documents separated by double-newlines and paragraphs within the same document separated by a newline. The data is generated using the open source CC-Net repository.\r\n\r\nSource: [Unsupervised Cross-lingual Representation Learning at Scale](/paper/unsupervised-cross-lingual-representation-1)",
+"short_description": "This corpus comprises of monolingual data for 100+ languages and also includes data for romanized languages. This was constructed using the urls and paragraph indices provided by the CC-Net repository by processing January-December 2018 Commoncrawl snapshots. Each file comprises of documents separated by double-newlines and paragraphs within the same document separated by a newline. The data is generated using the open source CC-Net repository.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "Unsupervised Cross-lingual Representation Learning at Scale",
+"url": "https://paperswithcode.com/paper/unsupervised-cross-lingual-representation-1"
+},
+"mention_count": 0,
+"introduced_date": null,
+"license_name": null,
+"license_url": null,
+"verified_name": "CC100",
+"verified_paper": {
+"title": "Unsupervised Cross-lingual Representation Learning at Scale",
+"url": "https://paperswithcode.com/paper/unsupervised-cross-lingual-representation-1"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Language Modelling",
+"url": "https://paperswithcode.com/task/language-modelling"
+},
+{
+"task": "Cross-Lingual Transfer",
+"url": "https://paperswithcode.com/task/cross-lingual-transfer"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"German",
+"Italian",
+"Chinese",
+"Bengali",
+"Japanese",
+"Russian",
+"Portuguese",
+"Afrikaans",
+"Albanian",
+"Amharic",
+"Arabic",
+"Armenian",
+"Basque",
+"Belarusian",
+"Breton",
+"Bulgarian",
+"Catalan",
+"Croatian",
+"Czech",
+"Danish",
+"Dutch",
+"Estonian",
+"Finnish",
+"Galician",
+"Hebrew",
+"Hindi",
+"Hungarian",
+"Icelandic",
+"Indonesian",
+"Irish",
+"Kazakh",
+"Korean",
+"Latin",
+"Latvian",
+"Lithuanian",
+"Marathi",
+"Norwegian",
+"Persian",
+"Polish",
+"Romanian",
+"Sanskrit",
+"Scottish Gaelic",
+"Serbian",
+"Slovak",
+"Slovenian",
+"Swedish",
+"Tagalog",
+"Tamil",
+"Telugu",
+"Thai",
+"Turkish",
+"Ukrainian",
+"Urdu",
+"Vietnamese",
+"Welsh",
+"Wolof",
+"Yoruba",
+"Greek",
+"Swahili",
+"Assamese",
+"Azerbaijani",
+"Bosnian",
+"Esperanto",
+"Fulah",
+"Guarani",
+"Gujarati",
+"Haitian",
+"Hausa",
+"Igbo",
+"Javanese",
+"Kannada",
+"Georgian",
+"Kurdish",
+"Lao",
+"Lingala",
+"Ganda",
+"Malayalam",
+"Macedonian",
+"Malagasy",
+"Mongolian",
+"Burmese",
+"Oromo",
+"Punjabi",
+"Quechua",
+"Romansh",
+"Sinhala",
+"Sindhi",
+"Somali",
+"Sardinian",
+"Swati",
+"Sundanese",
+"Tswana",
+"Uzbek",
+"Xhosa",
+"Yiddish"
+],
+"variants": [
+"CC100"
+],
+"num_papers": 115,
+"data_loaders": [
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/xu-song/cc100-samples"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/statmt/cc100"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/eson/cc100"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/eson/cc100-samples"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/cc100"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/geocov19",
+"name": "GeoCoV19",
+"full_name": "",
+"homepage": "https://crisisnlp.qcri.org/covid19",
+"description": "GeoCoV19 is a large-scale Twitter dataset containing more than 524 million multilingual tweets. The dataset contains around 378K geotagged tweets and 5.4 million tweets with Place information. The annotations include toponyms from the user location field and tweet content and resolve them to geolocations such as country, state, or city level. In this case, 297 million tweets are annotated with geolocation using the user location field and 452 million tweets using tweet content.",
+"short_description": "GeoCoV19 is a large-scale Twitter dataset containing more than 524 million multilingual tweets. The dataset contains around 378K geotagged tweets and 5.4 million tweets with Place information. The annotations include toponyms from the user location field and tweet content and resolve them to geolocations such as country, state, or city level. In this case, 297 million tweets are annotated with geolocation using the user location field and 452 million tweets using tweet content.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "GeoCoV19: A Dataset of Hundreds of Millions of Multilingual COVID-19 Tweets with Location Information",
+"url": "https://paperswithcode.com/paper/geocov19-a-dataset-of-hundreds-of-millions-of"
+},
+"mention_count": 0,
+"introduced_date": null,
+"license_name": null,
+"license_url": null,
+"verified_name": "GeoCoV19",
+"verified_paper": {
+"title": "GeoCoV19: A Dataset of Hundreds of Millions of Multilingual COVID-19 Tweets with Location Information",
+"url": "https://paperswithcode.com/paper/geocov19-a-dataset-of-hundreds-of-millions-of"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Sentiment Analysis",
+"url": "https://paperswithcode.com/task/sentiment-analysis"
+},
+{
+"task": "Sentence Embeddings",
+"url": "https://paperswithcode.com/task/sentence-embeddings"
+},
+{
+"task": "Misinformation",
+"url": "https://paperswithcode.com/task/misinformation"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"German",
+"Italian",
+"Chinese",
+"Russian",
+"Portuguese",
+"Arabic",
+"Armenian",
+"Basque",
+"Catalan",
+"Czech",
+"Danish",
+"Dutch",
+"Estonian",
+"Finnish",
+"Hindi",
+"Korean",
+"Lithuanian",
+"Marathi",
+"Norwegian",
+"Persian",
+"Polish",
+"Romanian",
+"Serbian",
+"Swedish",
+"Tamil",
+"Telugu",
+"Thai",
+"Turkish",
+"Ukrainian",
+"Urdu",
+"Welsh",
+"Greek",
+"Gujarati",
+"Haitian",
+"Nepali (individual language)"
+],
+"variants": [
+"GeoCoV19"
+],
+"num_papers": 4,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/indicnlp-corpus",
+"name": "IndicNLP Corpus",
+"full_name": null,
+"homepage": "https://github.com/ai4bharat-indicnlp/indicnlp_corpus",
+"description": "The IndicNLP corpus is a large-scale, general-domain corpus containing 2.7 billion words for 10 Indian languages from two language families.\n\nSource: [https://arxiv.org/abs/2005.00085](https://arxiv.org/abs/2005.00085)",
+"short_description": "The IndicNLP corpus is a large-scale, general-domain corpus containing 2.7 billion words for 10 Indian languages from two language families.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "AI4Bharat-IndicNLP Corpus: Monolingual Corpora and Word Embeddings for Indic Languages",
+"url": "https://paperswithcode.com/paper/ai4bharat-indicnlp-corpus-monolingual-corpora"
+},
+"mention_count": 0,
+"introduced_date": null,
+"license_name": null,
+"license_url": null,
+"verified_name": "IndicNLP Corpus",
+"verified_paper": {
+"title": "AI4Bharat-IndicNLP Corpus: Monolingual Corpora and Word Embeddings for Indic Languages",
+"url": "https://paperswithcode.com/paper/ai4bharat-indicnlp-corpus-monolingual-corpora"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Language Modelling",
+"url": "https://paperswithcode.com/task/language-modelling"
+},
+{
+"task": "Word Embeddings",
+"url": "https://paperswithcode.com/task/word-embeddings"
+}
+],
+"languages": [
+"Bengali",
+"Marathi",
+"Tamil",
+"Telugu",
+"Gujarati",
+"Kannada",
+"Malayalam",
+"Oriya (macrolanguage)",
+"Punjabi"
+],
+"variants": [
+"IndicNLP Corpus"
+],
+"num_papers": 3,
+"data_loaders": [
+{
+"frameworks": [
+"none"
+],
+"repo": "https://github.com/ai4bharat-indicnlp/indicnlp_corpus",
+"url": "https://github.com/ai4bharat-indicnlp/indicnlp_corpus"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/rxr",
+"name": "RxR",
+"full_name": "Room-across-Room",
+"homepage": "https://github.com/google-research-datasets/RxR",
+"description": "Room-Across-Room (RxR) is a multilingual dataset for Vision-and-Language Navigation (VLN) for Matterport3D environments. In contrast to related datasets such as Room-to-Room (R2R), RxR is 10x larger, multilingual (English, Hindi and Telugu), with longer and more variable paths, and it includes and fine-grained visual groundings that relate each word to pixels/surfaces in the environment.\r\n\r\nSource: [Room-Across-Room (RxR) Dataset](https://github.com/google-research-datasets/RxR)",
+"short_description": "Room-Across-Room (RxR) is a multilingual dataset for Vision-and-Language Navigation (VLN) for Matterport3D environments. In contrast to related datasets such as Room-to-Room (R2R), RxR is 10x larger, multilingual (English, Hindi and Telugu), with longer and more variable paths, and it includes and fine-grained visual groundings that relate each word to pixels/surfaces in the environment.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/pose_trace.gif",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/dataset-0000005287-1188f136_t7whLvM.gif",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/dataset-0000005287-82966e95.gif",
+"default_youtube_link": null,
+"paper": {
+"title": "Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding",
+"url": "https://paperswithcode.com/paper/room-across-room-multilingual-vision-and"
+},
+"mention_count": 0,
+"introduced_date": null,
+"license_name": null,
+"license_url": null,
+"verified_name": "RxR",
+"verified_paper": {
+"title": "Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding",
+"url": "https://paperswithcode.com/paper/room-across-room-multilingual-vision-and"
+},
+"warning": null,
+"modalities": [
+"Videos",
+"Texts"
+],
+"tasks": [
+{
+"task": "Vision and Language Navigation",
+"url": "https://paperswithcode.com/task/vision-and-language-navigation"
+}
+],
+"languages": [
+"English",
+"Hindi",
+"Telugu"
+],
+"variants": [
+"RxR"
+],
+"num_papers": 54,
+"data_loaders": [
+{
+"frameworks": [
+"tf"
+],
+"repo": "https://github.com/google-research-datasets/RxR",
+"url": "https://github.com/google-research-datasets/RxR"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/wikiann-1",
+"name": "WikiANN",
+"full_name": "PAN-X",
+"homepage": "https://tensorflow.google.cn/datasets/catalog/wikiann",
+"description": "**WikiANN**, also known as **PAN-X**, is a multilingual named entity recognition dataset. It consists of Wikipedia articles that have been annotated with **LOC** (location), **PER** (person), and **ORG** (organization) tags in the **IOB2 format**¹². This dataset serves as a valuable resource for training and evaluating named entity recognition models across various languages.\r\n\r\nFor instance, it includes information about notable individuals, places, and organizations mentioned in Wikipedia articles. Researchers and practitioners can use WikiANN to develop and improve natural language processing systems that identify and classify named entities in text.\r\n\r\n(1) wikiann · Datasets at Hugging Face. https://huggingface.co/datasets/wikiann.\r\n(2) wikiann | TensorFlow Datasets. https://tensorflow.google.cn/datasets/catalog/wikiann.\r\n(3) wikiann · Datasets at Hugging Face. https://huggingface.co/datasets/wikiann/viewer/en.\r\n(4) WikiAnn Dataset | Papers With Code. https://paperswithcode.com/dataset/wikiann-1.",
+"short_description": "WikiANN, also known as PAN-X, is a multilingual named entity recognition dataset. It consists of Wikipedia articles that have been annotated with LOC (location), PER (person), and ORG (organization) tags in the IOB2 format¹². This dataset serves as a valuable resource for training and evaluating named entity recognition models across various languages.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "Cross-lingual Name Tagging and Linking for 282 Languages",
+"url": "https://paperswithcode.com/paper/cross-lingual-name-tagging-and-linking-for"
+},
+"mention_count": 0,
+"introduced_date": "2023-09-14",
+"license_name": null,
+"license_url": null,
+"verified_name": "WikiANN",
+"verified_paper": {
+"title": "Cross-lingual Name Tagging and Linking for 282 Languages",
+"url": "https://paperswithcode.com/paper/cross-lingual-name-tagging-and-linking-for"
+},
+"warning": null,
+"modalities": [],
+"tasks": [
+{
+"task": "Named Entity Recognition (NER)",
+"url": "https://paperswithcode.com/task/named-entity-recognition-ner"
+},
+{
+"task": "Cross-Lingual Transfer",
+"url": "https://paperswithcode.com/task/cross-lingual-transfer"
+},
+{
+"task": "Cross-Lingual NER",
+"url": "https://paperswithcode.com/task/cross-lingual-ner"
+},
+{
+"task": "UIE",
+"url": "https://paperswithcode.com/task/uie"
+},
+{
+"task": "Token Classification",
+"url": "https://paperswithcode.com/task/token-classification"
+},
+{
+"task": "Named Entity Recognition",
+"url": "https://paperswithcode.com/task/named-entity-recognition-1"
+},
+{
+"task": "Word Embeddings",
+"url": "https://paperswithcode.com/task/word-embeddings"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"German",
+"Italian",
+"Chinese",
+"Bengali",
+"Multilingual",
+"Japanese",
+"Russian",
+"Portuguese",
+"Afrikaans",
+"Albanian",
+"Amharic",
+"Arabic",
+"Armenian",
+"Bambara",
+"Basque",
+"Belarusian",
+"Breton",
+"Bulgarian",
+"Catalan",
+"Church Slavic",
+"Croatian",
+"Czech",
+"Danish",
+"Dutch",
+"Erzya",
+"Estonian",
+"Faroese",
+"Finnish",
+"Galician",
+"Gothic",
+"Hebrew",
+"Hindi",
+"Hungarian",
+"Icelandic",
+"Indonesian",
+"Irish",
+"Kazakh",
+"Komi-Permyak",
+"Korean",
+"Latin",
+"Latvian",
+"Lithuanian",
+"Livvi",
+"Maltese",
+"Manx",
+"Marathi",
+"Moksha",
+"Northern Sami",
+"Norwegian",
+"Persian",
+"Polish",
+"Romanian",
+"Russia Buriat",
+"Sanskrit",
+"Scottish Gaelic",
+"Serbian",
+"Slovak",
+"Slovenian",
+"Swedish",
+"Tagalog",
+"Tamil",
+"Telugu",
+"Thai",
+"Turkish",
+"Uighur",
+"Ukrainian",
+"Upper Sorbian",
+"Urdu",
+"Vietnamese",
+"Welsh",
+"Wolof",
+"Yoruba",
+"Afar",
+"Abkhazian",
+"Achinese",
+"Adyghe",
+"Akan",
+"Tosk Albanian",
+"Old English (ca. 450-1100)",
+"Official Aramaic (700-300 BCE)",
+"Aragonese",
+"Egyptian Arabic",
+"Assamese",
+"Asturian",
+"Avaric",
+"Aymara",
+"South Azerbaijani",
+"Azerbaijani",
+"Bashkir",
+"Bavarian",
+"Central Bikol",
+"Bislama",
+"Banjar",
+"Tibetan",
+"Bosnian",
+"Bishnupriya",
+"Buginese",
+"Min Dong Chinese",
+"Cebuano",
+"Chamorro",
+"Chechen",
+"Choctaw",
+"Cherokee",
+"Chuvash",
+"Cheyenne",
+"Central Kurdish",
+"Cornish",
+"Corsican",
+"Cree",
+"Crimean Tatar",
+"Kashubian",
+"Dimli (individual language)",
+"Dhivehi",
+"Lower Sorbian",
+"Dzongkha",
+"Modern Greek (1453-)",
+"Esperanto",
+"Ewe",
+"Extremaduran",
+"Fijian",
+"Arpitan",
+"Northern Frisian",
+"Western Frisian",
+"Fulah",
+"Friulian",
+"Gagauz",
+"Gan Chinese",
+"Gilaki",
+"Goan Konkani",
+"Guarani",
+"Gujarati",
+"Hakka Chinese",
+"Haitian",
+"Hausa",
+"Hawaiian",
+"Serbo-Croatian",
+"Herero",
+"Fiji Hindi",
+"Hiri Motu",
+"Igbo",
+"Ido",
+"Sichuan Yi",
+"Inuktitut",
+"Interlingue",
+"Iloko",
+"Interlingua (International Auxiliary Language Association)",
+"Inupiaq",
+"Jamaican Creole English",
+"Javanese",
+"Lojban",
+"Kara-Kalpak",
+"Kabyle",
+"Kalaallisut",
+"Kannada",
+"Kashmiri",
+"Georgian",
+"Kanuri",
+"Kabardian",
+"Central Khmer",
+"Kikuyu",
+"Kinyarwanda",
+"Kirghiz",
+"Komi",
+"Kongo",
+"Karachay-Balkar",
+"Kölsch",
+"Kuanyama",
+"Kurdish",
+"Ladino",
+"Lao",
+"Lak",
+"Lezghian",
+"Ligurian",
+"Limburgan",
+"Lingala",
+"Lombard",
+"Northern Luri",
+"Latgalian",
+"Luxembourgish",
+"Ganda",
+"Marshallese",
+"Maithili",
+"Malayalam",
+"Eastern Mari",
+"Minangkabau",
+"Macedonian",
+"Malagasy",
+"Mongolian",
+"Maori",
+"Western Mari",
+"Malay (macrolanguage)",
+"Creek",
+"Mirandese",
+"Burmese",
+"Mazanderani",
+"Neapolitan",
+"Nauru",
+"Navajo",
+"Ndonga",
+"Low German",
+"Nepali (macrolanguage)",
+"Newari",
+"Norwegian Nynorsk",
+"Novial",
+"Narom",
+"Pedi",
+"Nyanja",
+"Occitan (post 1500)",
+"Oriya (macrolanguage)",
+"Oromo",
+"Ossetian",
+"Pangasinan",
+"Pampanga",
+"Papiamento",
+"Picard",
+"Pennsylvania German",
+"Pfaelzisch",
+"Pitcairn-Norfolk",
+"Pali",
+"Piemontese",
+"Western Panjabi",
+"Pontic",
+"Pushto",
+"Quechua",
+"Vlax Romani",
+"Romansh",
+"Rusyn",
+"Rundi",
+"Sango",
+"Yakut",
+"Sicilian",
+"Scots",
+"Sinhala",
+"Samoan",
+"Shona",
+"Sindhi",
+"Somali",
+"Southern Sotho",
+"Sardinian",
+"Sranan Tongo",
+"Swati",
+"Saterfriesisch",
+"Sundanese",
+"Swahili (macrolanguage)",
+"Silesian",
+"Tahitian",
+"Tatar",
+"Tulu",
+"Tetum",
+"Tajik",
+"Tigrinya",
+"Tonga (Tonga Islands)",
+"Tok Pisin",
+"Tswana",
+"Tsonga",
+"Turkmen",
+"Tumbuka",
+"Twi",
+"Tuvinian",
+"Udmurt",
+"Uzbek",
+"Venetian",
+"Venda",
+"Veps",
+"Vlaams",
+"Volapük",
+"Waray (Philippines)",
+"Walloon",
+"Wu Chinese",
+"Kalmyk",
+"Xhosa",
+"Mingrelian",
+"Yiddish",
+"Zeeuws",
+"Zhuang",
+"Zulu"
+],
+"variants": [
+"Wikiann",
+"WikiANN",
+"WikiAnn NER",
+"wikiann sk",
+"HiNER Collapsed",
+"HiNER Original",
+"WikiAnn (Maltese)",
+"WikiAnn (en, ko, es, pt)"
+],
+"num_papers": 72,
+"data_loaders": [
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/unimelb-nlp/wikiann"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/cfilt/HiNER-original"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/cfilt/HiNER-collapsed"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/wikiann"
+},
+{
+"frameworks": [
+"tf",
+"jax"
+],
+"repo": "https://github.com/tensorflow/datasets",
+"url": "https://www.tensorflow.org/datasets/catalog/wikiann"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/indiccorp",
+"name": "IndicCorp",
+"full_name": "",
+"homepage": "https://indicnlp.ai4bharat.org/corpora/",
+"description": "IndicCorp is a large monolingual corpora with around 9 billion tokens covering 12 of the major Indian languages. It has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months.\r\n\r\n**Languages covered**: Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu\r\n\r\n**Corpus Format**: The corpus is a single large text file containing one sentence per line. The publicly released version is randomly shuffled, untokenized and deduplicated. \r\n\r\n**Downloads**\r\n\r\n| Language | \\# News Articles* | Sentences     | Tokens        | Link     |\r\n| -------- | ----------------- | ------------- | ------------- | -------- |\r\n| as       | 0.60M             | 1.39M   |  32.6M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/as.tar.xz) |\r\n| bn       | 3.83M             | 39.9M | 836M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/bn.tar.xz) |\r\n| en       | 3.49M             | 54.3M | 1.22B | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/en.tar.xz) |\r\n| gu       | 2.63M             | 41.1M | 719M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/gu.tar.xz) |\r\n| hi       | 4.95M             | 63.1M |  1.86B | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/hi.tar.xz) |\r\n| kn       | 3.76M             | 53.3M | 713M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/bn.tar.xz) |\r\n| ml       | 4.75M             | 50.2M |  721M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/ml.tar.xz) |\r\n| mr       | 2.31M             | 34.0M | 551M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/mr.tar.xz) |\r\n| or       | 0.69M             | 6.94M   | 107M   | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/or.tar.xz) |\r\n| pa       | 2.64M             | 29.2M |  773M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/pa.tar.xz) |\r\n| ta       | 4.41M             |  31.5M   |  582M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/ta.tar.xz) |\r\n| te       | 3.98M             | 47.9M   |  674M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/te.tar.xz) |\r\n\r\n\\* Excluding articles obtained from the OSCAR corpus",
+"short_description": "IndicCorp is a large monolingual corpora with around 9 billion tokens covering 12 of the major Indian languages. It has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/ai4-logo.png",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/dataset-0000005909-b354968c_u3LCi82.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/dataset-0000005909-ca4f7c45.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages",
+"url": "https://paperswithcode.com/paper/indicnlpsuite-monolingual-corpora-evaluation"
+},
+"mention_count": 0,
+"introduced_date": "2020-11-08",
+"license_name": null,
+"license_url": null,
+"verified_name": "IndicCorp",
+"verified_paper": {
+"title": "IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages",
+"url": "https://paperswithcode.com/paper/indicnlpsuite-monolingual-corpora-evaluation"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [],
+"languages": [
+"English",
+"Bengali",
+"Hindi",
+"Marathi",
+"Tamil",
+"Telugu",
+"Assamese",
+"Gujarati",
+"Kannada",
+"Malayalam",
+"Oriya (macrolanguage)",
+"Punjabi"
+],
+"variants": [
+"IndicCorp"
+],
+"num_papers": 28,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/synbols",
+"name": "Synbols",
+"full_name": "",
+"homepage": "https://github.com/ElementAI/synbols",
+"description": "Synbols is a dataset generator designed for probing the behavior of learning algorithms. By defining the distribution over latent factors one can craft a dataset specifically tailored to answer specific questions about a given algorithm.\r\n\r\nDefault versions of these datasets are also materialized and can serve as benchmarks.",
+"short_description": "Synbols is a dataset generator designed for probing the behavior of learning algorithms. By defining the distribution over latent factors one can craft a dataset specifically tailored to answer specific questions about a given algorithm.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/synbols.png",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/dataset-0000005913-4a3fdf35_BUolPPY.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/dataset-0000005913-dc7104e8.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "Synbols: Probing Learning Algorithms with Synthetic Datasets",
+"url": "https://paperswithcode.com/paper/synbols-probing-learning-algorithms-with"
+},
+"mention_count": 0,
+"introduced_date": "2020-09-14",
+"license_name": null,
+"license_url": null,
+"verified_name": "Synbols",
+"verified_paper": {
+"title": "Synbols: Probing Learning Algorithms with Synthetic Datasets",
+"url": "https://paperswithcode.com/paper/synbols-probing-learning-algorithms-with"
+},
+"warning": null,
+"modalities": [
+"Images",
+"Interactive"
+],
+"tasks": [],
+"languages": [
+"English",
+"French",
+"Spanish",
+"Italian",
+"Chinese",
+"Japanese",
+"Russian",
+"Portuguese",
+"Arabic",
+"Korean",
+"Tamil",
+"Telugu",
+"Thai",
+"Vietnamese"
+],
+"variants": [
+"Synbols"
+],
+"num_papers": 11,
+"data_loaders": [
+{
+"frameworks": [
+"none"
+],
+"repo": "https://github.com/ElementAI/synbols",
+"url": "https://github.com/ElementAI/synbols"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/nisp-a-multi-lingual-multi-accent-dataset-for",
+"name": "NISP- A Multi-lingual Multi-accent Dataset for Speaker Profiling",
+"full_name": "",
+"homepage": "https://github.com/iiscleap/NISP-Dataset",
+"description": "We announce the release of a new multilingual speaker dataset called NITK-IISc Multilingual Multi-accent Speaker Profiling(NISP) dataset. The dataset contains speech in six different languages -- five Indian languages along with Indian English. The dataset contains speech data from 345 bilingual speakers in India. Each speaker has contributed about 4-5 minutes of data that includes recordings in both English and their mother tongue. The transcript for the text is provided in UTF-8 format. For every speaker, the dataset contains speaker meta-data such as L1, native place, medium of instruction, current residing place etc. In addition the dataset also contains physical parameter information of the speakers such as age, height, shoulder size and weight. We hope that the dataset is useful for a diverse set of research activities including multilingual speaker recognition, language and accent recognition, automatic speech recognition etc.",
+"short_description": "We announce the release of a new multilingual speaker dataset called NITK-IISc Multilingual Multi-accent Speaker Profiling(NISP) dataset. The dataset contains speech in six different languages -- five Indian languages along with Indian English. The dataset contains speech data from 345 bilingual speakers in India. Each speaker has contributed about 4-5 minutes of data that includes recordings in both English and their mother tongue. The transcript for the text is provided in UTF-8 format. For every speaker, the dataset contains speaker meta-data such as L1, native place, medium of instruction, current residing place etc. In addition the dataset also contains physical parameter information of the speakers such as age, height, shoulder size and weight. We hope that the dataset is useful for a diverse set of research activities including multilingual speaker recognition, language and accent recognition, automatic speech recognition etc.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "NISP: A Multi-lingual Multi-accent Dataset for Speaker Profiling",
+"url": "https://paperswithcode.com/paper/nisp-a-multi-lingual-multi-accent-dataset-for"
+},
+"mention_count": 0,
+"introduced_date": null,
+"license_name": null,
+"license_url": null,
+"verified_name": "NISP- A Multi-lingual Multi-accent Dataset for Speaker Profiling",
+"verified_paper": {
+"title": "NISP: A Multi-lingual Multi-accent Dataset for Speaker Profiling",
+"url": "https://paperswithcode.com/paper/nisp-a-multi-lingual-multi-accent-dataset-for"
+},
+"warning": null,
+"modalities": [
+"Speech"
+],
+"tasks": [],
+"languages": [
+"English",
+"Hindi",
+"Tamil",
+"Telugu",
+"Kannada",
+"Malayalam"
+],
+"variants": [
+"NISP- A Multi-lingual Multi-accent Dataset for Speaker Profiling"
+],
+"num_papers": 1,
+"data_loaders": [
+{
+"frameworks": [
+"none"
+],
+"repo": "https://github.com/iiscleap/NISP-Dataset",
+"url": "https://github.com/iiscleap/NISP-Dataset"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/oscar",
+"name": "OSCAR",
+"full_name": "OSCAR",
+"homepage": "https://oscar-corpus.com/",
+"description": "**OSCAR** or Open Super-large Crawled ALMAnaCH coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the goclassy architecture. The dataset used for training multilingual models such as BART incorporates 138 GB of text.",
+"short_description": "OSCAR or Open Super-large Crawled ALMAnaCH coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the goclassy architecture. The dataset used for training multilingual models such as BART incorporates 138 GB of text.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/Screen_Shot_2021-02-16_at_3.36.26_PM.png",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/dataset-0000006060-99c7eb0e_EyjVx1C.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/dataset-0000006060-2583577d.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "A Monolingual Approach to Contextualized Word Embeddings for Mid-Resource Languages",
+"url": "https://paperswithcode.com/paper/a-monolingual-approach-to-contextualized-word"
+},
+"mention_count": 0,
+"introduced_date": "2020-06-11",
+"license_name": "CC0 1.0",
+"license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+"verified_name": "OSCAR",
+"verified_paper": {
+"title": "A Monolingual Approach to Contextualized Word Embeddings for Mid-Resource Languages",
+"url": "https://paperswithcode.com/paper/a-monolingual-approach-to-contextualized-word"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Language Modelling",
+"url": "https://paperswithcode.com/task/language-modelling"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"German",
+"Italian",
+"Chinese",
+"Bengali",
+"Multilingual",
+"Japanese",
+"Russian",
+"Portuguese",
+"Afrikaans",
+"Albanian",
+"Amharic",
+"Arabic",
+"Armenian",
+"Basque",
+"Belarusian",
+"Breton",
+"Bulgarian",
+"Catalan",
+"Croatian",
+"Czech",
+"Danish",
+"Dutch",
+"Erzya",
+"Estonian",
+"Finnish",
+"Galician",
+"Hebrew",
+"Hindi",
+"Hungarian",
+"Icelandic",
+"Indonesian",
+"Irish",
+"Kazakh",
+"Korean",
+"Latin",
+"Latvian",
+"Lithuanian",
+"Maltese",
+"Marathi",
+"Modern Greek",
+"Norwegian",
+"Persian",
+"Polish",
+"Romanian",
+"Russia Buriat",
+"Sanskrit",
+"Scottish Gaelic",
+"Serbian",
+"Slovak",
+"Slovenian",
+"Swedish",
+"Tagalog",
+"Tamil",
+"Telugu",
+"Thai",
+"Turkish",
+"Uighur",
+"Ukrainian",
+"Upper Sorbian",
+"Urdu",
+"Vietnamese",
+"Welsh",
+"Yoruba",
+"Yue Chinese",
+"Swahili",
+"Aragonese",
+"Egyptian Arabic",
+"Assamese",
+"Asturian",
+"Avaric",
+"South Azerbaijani",
+"Azerbaijani",
+"Bashkir",
+"Bavarian",
+"Central Bikol",
+"Tibetan",
+"Bosnian",
+"Bishnupriya",
+"Chavacano",
+"Cebuano",
+"Chechen",
+"Chuvash",
+"Central Kurdish",
+"Cornish",
+"Dimli (individual language)",
+"Dhivehi",
+"Lower Sorbian",
+"Esperanto",
+"Northern Frisian",
+"Western Frisian",
+"Goan Konkani",
+"Guarani",
+"Gujarati",
+"Haitian",
+"Serbo-Croatian",
+"Ido",
+"Interlingue",
+"Iloko",
+"Javanese",
+"Lojban",
+"Kannada",
+"Georgian",
+"Central Khmer",
+"Kirghiz",
+"Komi",
+"Karachay-Balkar",
+"Kurdish",
+"Lao",
+"Lezghian",
+"Limburgan",
+"Lombard",
+"Northern Luri",
+"Luxembourgish",
+"Maithili",
+"Malayalam",
+"Eastern Mari",
+"Minangkabau",
+"Macedonian",
+"Malagasy",
+"Mongolian",
+"Western Mari",
+"Mirandese",
+"Burmese",
+"Mazanderani",
+"Neapolitan",
+"Low German",
+"Newari",
+"Norwegian Nynorsk",
+"Occitan (post 1500)",
+"Oriya (macrolanguage)",
+"Ossetian",
+"Pampanga",
+"Punjabi",
+"Piemontese",
+"Western Panjabi",
+"Pushto",
+"Quechua",
+"Romansh",
+"Yakut",
+"Sicilian",
+"Sinhala",
+"Sindhi",
+"Somali",
+"Sundanese",
+"Tatar",
+"Tajik",
+"Turkmen",
+"Tuvinian",
+"Uzbek",
+"Venetian",
+"Volapük",
+"Waray (Philippines)",
+"Walloon",
+"Wu Chinese",
+"Kalmyk",
+"Mingrelian",
+"Yiddish",
+"Malay (individual language)"
+],
+"variants": [
+"OSCAR"
+],
+"num_papers": 64,
+"data_loaders": [
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/oscar"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/oscar-corpus/OSCAR-2109"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/oscar-corpus/OSCAR-2201"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/nthngdy/oscar-small"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/munggok/KoPI-CC"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/munggok/KoPI-CC_News"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/munggok/KoPI"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/nthngdy/oscar-mini"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/acul3/KoPI-CC"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/acul3/KoPI-CC_News"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/acul3/KoPI"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/5w4n/OSCAR-2019-Burmese-fix"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/djstrong/oscar-small"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/oscar-corpus/OSCAR-2301"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/oscar-corpus/oscar-2301-hpc"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/oscar-corpus/colossal-oscar-1.0"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/oscar-corpus/oscar"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/Bahasalab/KoPI"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/oscar-corpus/community-oscar"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/mittagessen/oscar_subset"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/samanantar",
+"name": "Samanantar",
+"full_name": "",
+"homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+"description": "Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.",
+"short_description": "Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages",
+"url": "https://paperswithcode.com/paper/samanantar-the-largest-publicly-available"
+},
+"mention_count": 0,
+"introduced_date": "2021-04-12",
+"license_name": "CC BY-NC 4.0",
+"license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+"verified_name": "Samanantar",
+"verified_paper": {
+"title": "Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages",
+"url": "https://paperswithcode.com/paper/samanantar-the-largest-publicly-available"
+},
+"warning": null,
+"modalities": [
+"Images",
+"Texts",
+"Speech"
+],
+"tasks": [
+{
+"task": "Machine Translation",
+"url": "https://paperswithcode.com/task/machine-translation"
+}
+],
+"languages": [
+"Bengali",
+"Hindi",
+"Marathi",
+"Tamil",
+"Telugu",
+"Gujarati"
+],
+"variants": [
+"Samanantar"
+],
+"num_papers": 40,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/iiit-ilst",
+"name": "IIIT-ILST",
+"full_name": "",
+"homepage": "http://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-ilst",
+"description": "**IIIT-ILST** is a dataset and benchmark for scene text recognition for three Indic scripts - Devanagari, Telugu and Malayalam. IIIT-ILST contains nearly 1000 real images per each script which are annotated for scene text bounding boxes and transcriptions.",
+"short_description": "IIIT-ILST is a dataset and benchmark for scene text recognition for three Indic scripts - Devanagari, Telugu and Malayalam. IIIT-ILST contains nearly 1000 real images per each script which are annotated for scene text bounding boxes and transcriptions.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/natural.png",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/dataset-0000006650-ecad026b_abCoykP.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/dataset-0000006650-c8e10433.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "Benchmarking Scene Text Recognition in Devanagari, Telugu and Malayalam",
+"url": "https://paperswithcode.com/paper/benchmarking-scene-text-recognition-in"
+},
+"mention_count": 0,
+"introduced_date": "2021-04-09",
+"license_name": "Custom (research-only)",
+"license_url": null,
+"verified_name": "IIIT-ILST",
+"verified_paper": {
+"title": "Benchmarking Scene Text Recognition in Devanagari, Telugu and Malayalam",
+"url": "https://paperswithcode.com/paper/benchmarking-scene-text-recognition-in"
+},
+"warning": null,
+"modalities": [
+"Images",
+"Texts"
+],
+"tasks": [
+{
+"task": "Scene Text Recognition",
+"url": "https://paperswithcode.com/task/scene-text-recognition"
+}
+],
+"languages": [
+"Telugu",
+"Malayalam"
+],
+"variants": [
+"IIIT-ILST"
+],
+"num_papers": 6,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/openslr",
+"name": "OpenSLR",
+"full_name": "Open Speech and Language Resources",
+"homepage": "https://www.openslr.org",
+"description": "OpenSLR is a repository of open speech and language resources, including large-scale transcribed audio corpora and related software. It serves as a central platform for researchers and practitioners to access and share datasets used in speech recognition (ASR), text-to-speech (TTS), and linguistic research.\r\n\r\nThe OpenSLR collection includes over 30 diverse datasets spanning more than 25 languages, such as Javanese, Nepali, Malayalam, Yoruba, and various English and Spanish dialects. These datasets are contributed by institutions including Google, North West University, and others. Most contain audio recordings along with transcriptions, covering both crowd-sourced and professionally recorded material.\r\n\r\nMany of the datasets are high-quality multi-speaker corpora intended for use in building ASR and TTS models, particularly for under-resourced languages. Use cases include multilingual speech recognition, dialect modeling, language technology research, and building open-source voice applications.\r\n\r\nThe OpenSLR site also acts as a mirror for widely-used tools and models to ensure continued availability. \r\n\r\nWebsite: [OpenSLR website](https://www.openslr.org)\r\n\r\nSource: [openslr/openslr](https://huggingface.co/datasets/openslr/openslr)",
+"short_description": "OpenSLR is a repository of open speech and language resources, including large-scale transcribed audio corpora and related software. It serves as a central platform for researchers and practitioners to access and share datasets used in speech recognition (ASR), text-to-speech (TTS), and linguistic research.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "Open-Source High Quality Speech Datasets for Basque, Catalan and Galician",
+"url": "https://paperswithcode.com/paper/open-source-high-quality-speech-datasets-for"
+},
+"mention_count": 0,
+"introduced_date": "2020-05-22",
+"license_name": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+"license_url": "https://huggingface.co/datasets/openslr/openslr",
+"verified_name": null,
+"verified_paper": null,
+"warning": null,
+"modalities": [
+"Texts",
+"Audio"
+],
+"tasks": [
+{
+"task": "Speech Recognition",
+"url": "https://paperswithcode.com/task/speech-recognition"
+},
+{
+"task": "Automatic Speech Recognition",
+"url": "https://paperswithcode.com/task/automatic-speech-recognition-2"
+},
+{
+"task": "Automatic Speech Recognition (ASR)",
+"url": "https://paperswithcode.com/task/automatic-speech-recognition"
+},
+{
+"task": "Text-To-Speech Synthesis",
+"url": "https://paperswithcode.com/task/text-to-speech-synthesis"
+},
+{
+"task": "Text to Speech",
+"url": "https://paperswithcode.com/task/text-to-speech"
+},
+{
+"task": "speech-recognition",
+"url": "https://paperswithcode.com/task/speech-recognition-1"
+}
+],
+"languages": [
+"English",
+"Spanish",
+"Bengali",
+"Afrikaans",
+"Basque",
+"Catalan",
+"Galician",
+"Marathi",
+"Tamil",
+"Telugu",
+"Yoruba",
+"Gujarati",
+"Javanese",
+"Kannada",
+"Central Khmer",
+"Malayalam",
+"Burmese",
+"Nepali (individual language)",
+"Sinhala",
+"Sundanese",
+"Venda",
+"Xhosa"
+],
+"variants": [
+"OpenSLR"
+],
+"num_papers": 2,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/xl-sum",
+"name": "XL-Sum",
+"full_name": "",
+"homepage": "https://github.com/csebuetnlp/xl-sum",
+"description": "**XL-Sum** is a comprehensive and diverse dataset for abstractive summarization comprising 1 million professionally annotated article-summary pairs from BBC, extracted using a set of carefully designed heuristics. The dataset covers 44 languages ranging from low to high-resource, for many of which no public dataset is currently available. XL-Sum is highly abstractive, concise, and of high quality, as indicated by human and intrinsic evaluation.",
+"short_description": "XL-Sum is a comprehensive and diverse dataset for abstractive summarization comprising 1 million professionally annotated article-summary pairs from BBC, extracted using a set of carefully designed heuristics. The dataset covers 44 languages ranging from low to high-resource, for many of which no public dataset is currently available. XL-Sum is highly abstractive, concise, and of high quality, as indicated by human and intrinsic evaluation.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/Screenshot_2021-06-30_at_10.43.26.png",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/dataset-0000007939-047b856d.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/dataset-0000007939-85cf6577.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "XL-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages",
+"url": "https://paperswithcode.com/paper/xl-sum-large-scale-multilingual-abstractive"
+},
+"mention_count": 0,
+"introduced_date": "2021-06-25",
+"license_name": "Custom (non-commercial)",
+"license_url": "https://github.com/csebuetnlp/xl-sum#license",
+"verified_name": "XL-Sum",
+"verified_paper": {
+"title": "XL-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages",
+"url": "https://paperswithcode.com/paper/xl-sum-large-scale-multilingual-abstractive"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Text Summarization",
+"url": "https://paperswithcode.com/task/text-summarization"
+},
+{
+"task": "Abstractive Text Summarization",
+"url": "https://paperswithcode.com/task/abstractive-text-summarization"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"Chinese",
+"Bengali",
+"Japanese",
+"Russian",
+"Portuguese",
+"Amharic",
+"Arabic",
+"Hindi",
+"Indonesian",
+"Korean",
+"Marathi",
+"Persian",
+"Scottish Gaelic",
+"Serbian",
+"Tamil",
+"Telugu",
+"Thai",
+"Turkish",
+"Ukrainian",
+"Urdu",
+"Vietnamese",
+"Welsh",
+"Yoruba",
+"Swahili",
+"Azerbaijani",
+"Gujarati",
+"Hausa",
+"Igbo",
+"Kirghiz",
+"Burmese",
+"Nepali (macrolanguage)",
+"Oromo",
+"Punjabi",
+"Central Pashto",
+"Sinhala",
+"Somali",
+"Tigrinya",
+"Uzbek"
+],
+"variants": [
+"XL-Sum",
+"csebuetnlp/xlsum russian"
+],
+"num_papers": 64,
+"data_loaders": [
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/1-800-SHARED-TASKS/xlsum"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/csebuetnlp/xlsum"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/GEM/xlsum"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/Hindi-Gemma/xlsum"
+},
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/1-800-SHARED-TASKS/xlsum-subset"
+},
+{
+"frameworks": [
+"pytorch"
+],
+"repo": "https://github.com/RUCAIBox/LLMBox",
+"url": "https://github.com/RUCAIBox/LLMBox"
+},
+{
+"frameworks": [
+"pytorch"
+],
+"repo": "https://github.com/csebuetnlp/xl-sum",
+"url": "https://github.com/csebuetnlp/xl-sum/tree/master/seq2seq"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/irlcov19",
+"name": "IRLCov19",
+"full_name": "",
+"homepage": "https://github.com/deepakuniyaliit/Covid19IRLTDataset",
+"description": "**IRLCov19** is a multilingual Twitter dataset related to Covid-19 collected in the period between February 2020 to July 2020 specifically for regional languages in India. It contains more than 13 million tweets.",
+"short_description": "IRLCov19 is a multilingual Twitter dataset related to Covid-19 collected in the period between February 2020 to July 2020 specifically for regional languages in India. It contains more than 13 million tweets.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "IRLCov19: A Large COVID-19 Multilingual Twitter Dataset of Indian Regional Languages",
+"url": "https://paperswithcode.com/paper/irlcov19-a-large-covid-19-multilingual"
+},
+"mention_count": 0,
+"introduced_date": "2021-07-26",
+"license_name": "CC BY-NC-SA 4.0",
+"license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+"verified_name": "IRLCov19",
+"verified_paper": {
+"title": "IRLCov19: A Large COVID-19 Multilingual Twitter Dataset of Indian Regional Languages",
+"url": "https://paperswithcode.com/paper/irlcov19-a-large-covid-19-multilingual"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [],
+"languages": [
+"Bengali",
+"Hindi",
+"Marathi",
+"Tamil",
+"Telugu",
+"Urdu",
+"Gujarati",
+"Kannada",
+"Malayalam",
+"Oriya (macrolanguage)",
+"Punjabi",
+"Sindhi"
+],
+"variants": [
+"IRLCov19"
+],
+"num_papers": 1,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/indictts",
+"name": "IndicTTS",
+"full_name": "",
+"homepage": "https://www.iitm.ac.in/donlab/tts/index.php",
+"description": "A special corpus of Indian languages covering 13 major languages of India. It comprises of 10000+ spoken sentences/utterances each of mono and English recorded by both Male and Female native speakers. Speech waveform files are available in .wav format along with the corresponding text. We hope that these recordings will be useful for researchers and speech technologists working on synthesis and recognition. You can request zip archives of the entire database here.",
+"short_description": "A special corpus of Indian languages covering 13 major languages of India. It comprises of 10000+ spoken sentences/utterances each of mono and English recorded by both Male and Female native speakers. Speech waveform files are available in .wav format along with the corresponding text. We hope that these recordings will be useful for researchers and speech technologists working on synthesis and recognition. You can request zip archives of the entire database here.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": null,
+"mention_count": 0,
+"introduced_date": null,
+"license_name": null,
+"license_url": "https://www.iitm.ac.in/donlab/tts/downloads/license.pdf",
+"verified_name": null,
+"verified_paper": null,
+"warning": null,
+"modalities": [
+"Audio"
+],
+"tasks": [
+{
+"task": "Spoken language identification",
+"url": "https://paperswithcode.com/task/spoken-language-identification"
+},
+{
+"task": "Speech Synthesis - Gujarati",
+"url": "https://paperswithcode.com/task/speech-synthesis-gujarati"
+},
+{
+"task": "Speech Synthesis - Tamil",
+"url": "https://paperswithcode.com/task/speech-synthesis-tamil"
+},
+{
+"task": "Speech Synthesis - Kannada",
+"url": "https://paperswithcode.com/task/speech-synthesis-kannada"
+},
+{
+"task": "Speech Synthesis - Malayalam",
+"url": "https://paperswithcode.com/task/speech-synthesis-malayalam"
+},
+{
+"task": "Speech Synthesis - Telugu",
+"url": "https://paperswithcode.com/task/speech-synthesis-telugu"
+},
+{
+"task": "Speech Synthesis - Assamese",
+"url": "https://paperswithcode.com/task/speech-synthesis-assamese"
+},
+{
+"task": "Speech Synthesis - Bengali",
+"url": "https://paperswithcode.com/task/speech-synthesis-bengali"
+},
+{
+"task": "Speech Synthesis - Bodo",
+"url": "https://paperswithcode.com/task/speech-synthesis-bodo"
+},
+{
+"task": "Speech Synthesis - Hindi",
+"url": "https://paperswithcode.com/task/speech-synthesis-hindi"
+},
+{
+"task": "Speech Synthesis - Manipuri",
+"url": "https://paperswithcode.com/task/speech-synthesis-manipuri"
+},
+{
+"task": "Speech Synthesis - Marathi",
+"url": "https://paperswithcode.com/task/speech-synthesis-marathi"
+},
+{
+"task": "Speech Synthesis - Rajasthani",
+"url": "https://paperswithcode.com/task/speech-synthesis-rajasthani"
+}
+],
+"languages": [
+"Bengali",
+"Hindi",
+"Marathi",
+"Tamil",
+"Telugu",
+"Assamese",
+"Bodo (India)",
+"Gujarati",
+"Kannada",
+"Malayalam",
+"Manipuri",
+"Rajasthani"
+],
+"variants": [
+"IndicTTS"
+],
+"num_papers": 3,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/cvit-pib",
+"name": "CVIT PIB",
+"full_name": "",
+"homepage": "http://preon.iiit.ac.in/~jerin/bhasha/",
+"description": "We present sentence aligned parallel corpora across 10 Indian Languages - Hindi, Telugu, Tamil, Malayalam, Gujarati, Urdu, Bengali, Oriya, Marathi, Punjabi, and English - many of which are categorized as low resource. The corpora are compiled from online sources which have content shared across languages. The corpora presented significantly extends present resources that are either not large enough or are restricted to a specific domain (such as health). We also provide a separate test corpus compiled from an independent online source that can be independently used for validating the performance in 10 Indian languages. Alongside, we report on the methods of constructing such corpora using tools enabled by recent advances in machine translation and cross-lingual retrieval using deep neural network based methods.",
+"short_description": "We present sentence aligned parallel corpora across 10 Indian Languages - Hindi, Telugu, Tamil, Malayalam, Gujarati, Urdu, Bengali, Oriya, Marathi, Punjabi, and English - many of which are categorized as low resource. The corpora are compiled from online sources which have content shared across languages. The corpora presented significantly extends present resources that are either not large enough or are restricted to a specific domain (such as health). We also provide a separate test corpus compiled from an independent online source that can be independently used for validating the performance in 10 Indian languages. Alongside, we report on the methods of constructing such corpora using tools enabled by recent advances in machine translation and cross-lingual retrieval using deep neural network based methods.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": null,
+"mention_count": 0,
+"introduced_date": "2020-05-14",
+"license_name": "CC BY-SA 4.0",
+"license_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
+"verified_name": null,
+"verified_paper": null,
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Low-Resource Neural Machine Translation",
+"url": "https://paperswithcode.com/task/low-resource-neural-machine-translation"
+},
+{
+"task": "Multlingual Neural Machine Translation",
+"url": "https://paperswithcode.com/task/multlingual-neural-machine-translation"
+}
+],
+"languages": [
+"English",
+"Bengali",
+"Hindi",
+"Marathi",
+"Tamil",
+"Telugu",
+"Urdu",
+"Gujarati",
+"Malayalam",
+"Odia",
+"Punjabi"
+],
+"variants": [
+"CVIT PIB"
+],
+"num_papers": 0,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/indicglue",
+"name": "IndicGLUE",
+"full_name": "Indic General Language Understanding Evaluation Benchmark",
+"homepage": "https://indicnlp.ai4bharat.org/indic-glue/",
+"description": "We now introduce IndicGLUE, the Indic General\r\nLanguage Understanding Evaluation Benchmark,\r\nwhich is a collection of various NLP tasks as de-\r\nscribed below. The goal is to provide an evaluation\r\nbenchmark for natural language understanding ca-\r\npabilities of NLP models on diverse tasks and mul-\r\ntiple Indian languages.",
+"short_description": "We now introduce IndicGLUE, the Indic General\nLanguage Understanding Evaluation Benchmark,\nwhich is a collection of various NLP tasks as de-\nscribed below. The goal is to provide an evaluation\nbenchmark for natural language understanding ca-\npabilities of NLP models on diverse tasks and mul-\ntiple Indian languages.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages",
+"url": "https://paperswithcode.com/paper/indicnlpsuite-monolingual-corpora-evaluation"
+},
+"mention_count": 0,
+"introduced_date": "2020-11-08",
+"license_name": null,
+"license_url": null,
+"verified_name": null,
+"verified_paper": null,
+"warning": null,
+"modalities": [],
+"tasks": [
+{
+"task": "Text Generation",
+"url": "https://paperswithcode.com/task/text-generation"
+},
+{
+"task": "Named Entity Recognition (NER)",
+"url": "https://paperswithcode.com/task/named-entity-recognition-ner"
+},
+{
+"task": "Sentiment Analysis",
+"url": "https://paperswithcode.com/task/sentiment-analysis"
+},
+{
+"task": "Natural Language Inference",
+"url": "https://paperswithcode.com/task/natural-language-inference"
+},
+{
+"task": "Multiple Choice Question Answering (MCQA)",
+"url": "https://paperswithcode.com/task/multiple-choice-qa"
+},
+{
+"task": "News Classification",
+"url": "https://paperswithcode.com/task/news-classification"
+}
+],
+"languages": [
+"Bengali",
+"Hindi",
+"Marathi",
+"Tamil",
+"Telugu",
+"Assamese",
+"Gujarati",
+"Kannada",
+"Malayalam",
+"Oriya (macrolanguage)",
+"Punjabi"
+],
+"variants": [
+"IITP Product Reviews Sentiment",
+"IITP Movie Reviews Sentiment",
+"IndicGLUE WSTP Pa",
+"IndicGLUE"
+],
+"num_papers": 16,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/mumin",
+"name": "MuMiN",
+"full_name": "",
+"homepage": "https://mumin-dataset.github.io/",
+"description": "MuMiN is a misinformation graph dataset containing rich social media data (tweets, replies, users, images, articles, hashtags), spanning 21 million tweets belonging to 26 thousand Twitter threads, each of which have been semantically linked to 13 thousand fact-checked claims across dozens of topics, events and domains, in 41 different languages, spanning more than a decade.\r\n\r\nMuMiN fills a gap in the existing misinformation datasets in multiple ways:\r\n\r\n- By having a large amount of social media information which have been semantically linked to fact-checked claims on an individual basis.\r\n- By featuring 41 languages, enabling evaluation of multilingual misinformation detection models.\r\n- By featuring both tweets, articles, images, social connections and hashtags, enabling multimodal approaches to misinformation detection.\r\n\r\nMuMiN features two node classification tasks, related to the veracity of a claim:\r\n\r\n- Claim classification: Determine the veracity of a claim, given its social network context.\r\n- Tweet classification: Determine the likelihood that a social media post to be fact-checked is discussing a misleading claim, given its social network context.\r\n\r\nTo use the dataset, see the \"Getting Started\" guide and tutorial at the [MuMiN website](https://mumin-dataset.github.io/).",
+"short_description": "MuMiN is a misinformation graph dataset containing rich social media data (tweets, replies, users, images, articles, hashtags), spanning 21 million tweets belonging to 26 thousand Twitter threads, each of which have been semantically linked to 13 thousand fact-checked claims across dozens of topics, events and domains, in 41 different languages, spanning more than a decade.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/3859ab34-ff10-4555-9c68-f2bf497e0cdf.png",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/7aa9a827-4d4a-4078-9afa-a63e4f97e196.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/22a3a4dc-083d-448b-9273-031703167368.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "MuMiN: A Large-Scale Multilingual Multimodal Fact-Checked Misinformation Social Network Dataset",
+"url": "https://paperswithcode.com/paper/mumin-a-large-scale-multilingual-multimodal"
+},
+"mention_count": 0,
+"introduced_date": "2022-02-23",
+"license_name": "CC-BY-NC 4.0",
+"license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+"verified_name": "MuMiN",
+"verified_paper": {
+"title": "MuMiN: A Large-Scale Multilingual Multimodal Fact-Checked Misinformation Social Network Dataset",
+"url": "https://paperswithcode.com/paper/mumin-a-large-scale-multilingual-multimodal"
+},
+"warning": null,
+"modalities": [
+"Images",
+"Texts",
+"Graphs"
+],
+"tasks": [
+{
+"task": "Image Classification",
+"url": "https://paperswithcode.com/task/image-classification"
+},
+{
+"task": "Text Classification",
+"url": "https://paperswithcode.com/task/text-classification"
+},
+{
+"task": "Node Classification",
+"url": "https://paperswithcode.com/task/node-classification"
+},
+{
+"task": "Fake News Detection",
+"url": "https://paperswithcode.com/task/fake-news-detection"
+},
+{
+"task": "Misinformation",
+"url": "https://paperswithcode.com/task/misinformation"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"German",
+"Italian",
+"Chinese",
+"Bengali",
+"Japanese",
+"Russian",
+"Portuguese",
+"Arabic",
+"Croatian",
+"Czech",
+"Danish",
+"Dutch",
+"Hebrew",
+"Hindi",
+"Hungarian",
+"Indonesian",
+"Kazakh",
+"Korean",
+"Marathi",
+"Norwegian",
+"Persian",
+"Polish",
+"Serbian",
+"Slovak",
+"Tamil",
+"Telugu",
+"Thai",
+"Turkish",
+"Urdu",
+"Greek",
+"Filipino",
+"Gujarati",
+"Malayalam",
+"Macedonian",
+"Malay (macrolanguage)",
+"Burmese",
+"Oriya (macrolanguage)",
+"Western Panjabi"
+],
+"variants": [
+"MuMiN",
+"MuMiN-small",
+"MuMiN-medium",
+"MuMiN-large"
+],
+"num_papers": 5,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/mgsm",
+"name": "MGSM",
+"full_name": "Multilingual Grade School Math",
+"homepage": "https://github.com/google-research/url-nlp/tree/main/mgsm",
+"description": "Multilingual Grade School Math Benchmark (MGSM) is a benchmark of grade-school math problems. The same 250 problems from GSM8K are each translated via human annotators in 10 languages. GSM8K (Grade School Math 8K) is a dataset of 8.5K high-quality linguistically diverse grade school math word problems. The dataset was created to support the task of question answering on basic mathematical problems that require multi-step reasoning.",
+"short_description": "Multilingual Grade School Math Benchmark (MGSM) is a benchmark of grade-school math problems. The same 250 problems from GSM8K are each translated via human annotators in 10 languages. GSM8K (Grade School Math 8K) is a dataset of 8.5K high-quality linguistically diverse grade school math word problems. The dataset was created to support the task of question answering on basic mathematical problems that require multi-step reasoning.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "Language Models are Multilingual Chain-of-Thought Reasoners",
+"url": "https://paperswithcode.com/paper/language-models-are-multilingual-chain-of"
+},
+"mention_count": 0,
+"introduced_date": "2022-10-06",
+"license_name": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
+"license_url": "https://github.com/google-research/url-nlp/blob/main/LICENSE",
+"verified_name": "MGSM",
+"verified_paper": {
+"title": "Language Models are Multilingual Chain-of-Thought Reasoners",
+"url": "https://paperswithcode.com/paper/language-models-are-multilingual-chain-of"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Math Word Problem Solving",
+"url": "https://paperswithcode.com/task/math-word-problem-solving"
+},
+{
+"task": "Multi-task Language Understanding",
+"url": "https://paperswithcode.com/task/multi-task-language-understanding"
+},
+{
+"task": "Arithmetic Reasoning",
+"url": "https://paperswithcode.com/task/arithmetic-reasoning"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"German",
+"Chinese",
+"Bengali",
+"Japanese",
+"Russian",
+"Telugu",
+"Thai",
+"Swahili"
+],
+"variants": [
+"MGSM"
+],
+"num_papers": 107,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/naamapadam-1",
+"name": "Naamapadam",
+"full_name": "",
+"homepage": "https://ai4bharat.iitm.ac.in/naamapadam",
+"description": "**Naamapadam** is a Named Entity Recognition (NER) dataset for the 11 major Indian languages from two language families. In each language, it contains more than 400k sentences annotated with a total of at least 100k entities from three standard entity categories (Person, Location and Organization) for 9 out of the 11 languages. The training dataset has been automatically created from the Samanantar parallel corpus by projecting automatically tagged entities from an English sentence to the corresponding Indian language sentence.\r\n\r\nSource: [Naamapadam: A Large-Scale Named Entity Annotated Data for Indic Languages](https://arxiv.org/pdf/2212.10168v1.pdf)",
+"short_description": "Naamapadam is a Named Entity Recognition (NER) dataset for the 11 major Indian languages from two language families. In each language, it contains more than 400k sentences annotated with a total of at least 100k entities from three standard entity categories (Person, Location and Organization) for 9 out of the 11 languages. The training dataset has been automatically created from the Samanantar parallel corpus by projecting automatically tagged entities from an English sentence to the corresponding Indian language sentence.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "Naamapadam: A Large-Scale Named Entity Annotated Data for Indic Languages",
+"url": "https://paperswithcode.com/paper/naamapadam-a-large-scale-named-entity"
+},
+"mention_count": 0,
+"introduced_date": "2022-12-20",
+"license_name": "Creative Commons CC0 license (“no rights reserved”)",
+"license_url": "https://ai4bharat.iitm.ac.in/naamapadam",
+"verified_name": "Naamapadam",
+"verified_paper": {
+"title": "Naamapadam: A Large-Scale Named Entity Annotated Data for Indic Languages",
+"url": "https://paperswithcode.com/paper/naamapadam-a-large-scale-named-entity"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Named Entity Recognition (NER)",
+"url": "https://paperswithcode.com/task/named-entity-recognition-ner"
+}
+],
+"languages": [
+"English",
+"Bengali",
+"Hindi",
+"Marathi",
+"Tamil",
+"Telugu",
+"Assamese",
+"Gujarati",
+"Kannada",
+"Malayalam",
+"Oriya (macrolanguage)",
+"Punjabi"
+],
+"variants": [
+"Naamapadam"
+],
+"num_papers": 6,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/xalign",
+"name": "XAlign",
+"full_name": "",
+"homepage": "https://github.com/tushar117/XAlign",
+"description": "It consists of an extensive collection of a high quality cross-lingual fact-to-text dataset in 11 languages: Assamese (as), Bengali (bn), Gujarati (gu), Hindi (hi), Kannada (kn), Malayalam (ml), Marathi (mr), Oriya (or), Punjabi (pa), Tamil (ta), Telugu (te), and monolingual dataset in English (en). This is the Wikipedia text <--> Wikidata KG aligned corpus used to train the data-to-text generation model. The Train & validation splits are created using distant supervision methods and Test data is generated through human annotations.\r\n\r\n## Data Format\r\nDataset is publicly available [here](https://github.com/tushar117/XAlign). Each directory contains language specific dataset (refered through language ISO code) and contains of three files:\r\n\r\n- train.jsonl\r\n- test.jsonl\r\n- val.jsonl\r\n\r\nData stored in the above files are of JSON Line (jsonl) format.\r\n\r\n### Record structure (JSON structure)\r\nEach record consist of the following entries:\r\n\r\n- sentence (string) : Native language wikipedia sentence. (non-native language strings were removed.) \r\n- `facts` (List[Dict]) : List of facts associated with the sentence where each fact is stored as dictionary.\r\n- language (string) : Language identifier.\r\n\r\nThe `facts` key contains list of facts where each facts is stored as dictionary. A single record within fact list contains following entries:\r\n\r\n- subject (string) : central entity.\r\n- object (string) : entity or a piece of information about the subject.\r\n- predicate (string) : relationship that connects the subject and the object.\r\n- qualifiers (List[Dict]) : It provide additional information about the fact, is stored as list of \r\nqualifier where each record is a dictionary. The dictionary contains two keys: `qualifier_predicate` to represent property of qualifer and `qualifier_object` to store value for the qualifier's predicate. \r\n\r\n### Examples\r\nExample from English dataset\r\n```\r\n{\r\n  \"sentence\": \"Mark Paul Briers (born 21 April 1968) is a former English cricketer.\",\r\n  \"facts\": [\r\n    {\r\n      \"subject\": \"Mark Briers\",\r\n      \"predicate\": \"date of birth\",\r\n      \"object\": \"21 April 1968\",\r\n      \"qualifiers\": []\r\n    },\r\n    {\r\n      \"subject\": \"Mark Briers\",\r\n      \"predicate\": \"occupation\",\r\n      \"object\": \"cricketer\",\r\n      \"qualifiers\": []\r\n    },\r\n    {\r\n      \"subject\": \"Mark Briers\",\r\n      \"predicate\": \"country of citizenship\",\r\n      \"object\": \"United Kingdom\",\r\n      \"qualifiers\": []\r\n    }\r\n  ],\r\n  \"language\": \"en\"\r\n}\r\n```\r\nExample from one of the low-resource languages (i.e. Hindi)\r\n```\r\n{\r\n  \"sentence\": \"बोरिस पास्तेरनाक १९५८ में साहित्य के क्षेत्र में नोबेल पुरस्कार विजेता रहे हैं।\",\r\n  \"facts\": [\r\n    {\r\n      \"subject\": \"Boris Pasternak\",\r\n      \"predicate\": \"nominated for\",\r\n      \"object\": \"Nobel Prize in Literature\",\r\n      \"qualifiers\": [\r\n        {\r\n          \"qualifier_predicate\": \"point in time\",\r\n          \"qualifier_subject\": \"1958\"\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  \"language\": \"hi\"\r\n}\r\n```",
+"short_description": "It consists of an extensive collection of a high quality cross-lingual fact-to-text dataset in 11 languages: Assamese (as), Bengali (bn), Gujarati (gu), Hindi (hi), Kannada (kn), Malayalam (ml), Marathi (mr), Oriya (or), Punjabi (pa), Tamil (ta), Telugu (te), and monolingual dataset in English (en). This is the Wikipedia text <--> Wikidata KG aligned corpus used to train the data-to-text generation model. The Train & validation splits are created using distant supervision methods and Test data is generated through human annotations.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/93558ee1-134d-46ca-a524-7ec543da4d61.jpg",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/c56da386-8285-4669-8f3f-60960c330039.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/51138750-8f79-4dc8-ad62-57b7626974a5.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "XAlign: Cross-lingual Fact-to-Text Alignment and Generation for Low-Resource Languages",
+"url": "https://paperswithcode.com/paper/xalign-cross-lingual-fact-to-text-alignment"
+},
+"mention_count": 0,
+"introduced_date": "2022-02-01",
+"license_name": "MIT License",
+"license_url": "https://github.com/tushar117/XAlign/blob/main/LICENSE",
+"verified_name": "XAlign",
+"verified_paper": {
+"title": "XAlign: Cross-lingual Fact-to-Text Alignment and Generation for Low-Resource Languages",
+"url": "https://paperswithcode.com/paper/xalign-cross-lingual-fact-to-text-alignment"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Data-to-Text Generation",
+"url": "https://paperswithcode.com/task/data-to-text-generation"
+},
+{
+"task": "KG-to-Text Generation",
+"url": "https://paperswithcode.com/task/kg-to-text"
+}
+],
+"languages": [
+"English",
+"Bengali",
+"Hindi",
+"Marathi",
+"Tamil",
+"Telugu",
+"Assamese",
+"Gujarati",
+"Kannada",
+"Malayalam",
+"Odia",
+"Punjabi"
+],
+"variants": [
+"XAlign"
+],
+"num_papers": 2,
+"data_loaders": [
+{
+"frameworks": [
+"tf",
+"pytorch",
+"jax"
+],
+"repo": "https://github.com/huggingface/datasets",
+"url": "https://huggingface.co/datasets/tushar117/xalign"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/mokb6",
+"name": "mOKB6",
+"full_name": "",
+"homepage": "https://github.com/dair-iitd/mokb6",
+"description": "Multilingual Open Knowledge Base Completion benchmark in 6 languages: English, Hindi, Telugu, Spanish, Portuguese, and Chinese.",
+"short_description": "Multilingual Open Knowledge Base Completion benchmark in 6 languages: English, Hindi, Telugu, Spanish, Portuguese, and Chinese.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "mOKB6: A Multilingual Open Knowledge Base Completion Benchmark",
+"url": "https://paperswithcode.com/paper/mokb6-a-multilingual-open-knowledge-base"
+},
+"mention_count": 0,
+"introduced_date": "2022-11-13",
+"license_name": null,
+"license_url": null,
+"verified_name": "mOKB6",
+"verified_paper": {
+"title": "mOKB6: A Multilingual Open Knowledge Base Completion Benchmark",
+"url": "https://paperswithcode.com/paper/mokb6-a-multilingual-open-knowledge-base"
+},
+"warning": null,
+"modalities": [],
+"tasks": [],
+"languages": [],
+"variants": [
+"mOKB6"
+],
+"num_papers": 1,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/xstorycloze",
+"name": "XStoryCloze",
+"full_name": "",
+"homepage": "",
+"description": "XStoryCloze consists of the professionally translated version of the English StoryCloze dataset (Spring 2016 version) to 10 non-English languages. This dataset is intended to be used for evaluating the zero- and few-shot learning capabilities of multlingual language models. This dataset is released by Meta AI.",
+"short_description": "XStoryCloze consists of the professionally translated version of the English StoryCloze dataset (Spring 2016 version) to 10 non-English languages. This dataset is intended to be used for evaluating the zero- and few-shot learning capabilities of multlingual language models. This dataset is released by Meta AI.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "Few-shot Learning with Multilingual Language Models",
+"url": "https://paperswithcode.com/paper/few-shot-learning-with-multilingual-language"
+},
+"mention_count": 0,
+"introduced_date": "2021-12-20",
+"license_name": null,
+"license_url": null,
+"verified_name": "XStoryCloze",
+"verified_paper": {
+"title": "Few-shot Learning with Multilingual Language Models",
+"url": "https://paperswithcode.com/paper/few-shot-learning-with-multilingual-language"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Common Sense Reasoning",
+"url": "https://paperswithcode.com/task/common-sense-reasoning"
+},
+{
+"task": "Story Completion",
+"url": "https://paperswithcode.com/task/story-completion"
+}
+],
+"languages": [
+"English",
+"Spanish",
+"Chinese",
+"Russian",
+"Arabic",
+"Basque",
+"Hindi",
+"Indonesian",
+"Telugu",
+"Swahili",
+"Burmese"
+],
+"variants": [
+"XStoryCloze"
+],
+"num_papers": 26,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/weathub",
+"name": "WEATHub",
+"full_name": "",
+"homepage": "https://huggingface.co/datasets/iamshnoo/WEATHub",
+"description": "WEATHub is a dataset containing 24 languages. It contains words organized into groups of (target1, target2, attribute1, attribute2) to measure the association target1:target2 :: attribute1:attribute2. For example target1 can be insects, target2 can be flowers. And we might be trying to measure whether we find insects or flowers pleasant or unpleasant. The measurement of word associations is quantified using the WEAT metric in our paper. It is a metric that calculates an effect size (Cohen's d) and also provides a p-value (to measure statistical significance of the results). In our paper, we use word embeddings from language models to perform these tests and understand biased associations in language models across different languages.",
+"short_description": "WEATHub is a dataset containing 24 languages. It contains words organized into groups of (target1, target2, attribute1, attribute2) to measure the association target1:target2 :: attribute1:attribute2. For example target1 can be insects, target2 can be flowers. And we might be trying to measure whether we find insects or flowers pleasant or unpleasant. The measurement of word associations is quantified using the WEAT metric in our paper. It is a metric that calculates an effect size (Cohen's d) and also provides a p-value (to measure statistical significance of the results). In our paper, we use word embeddings from language models to perform these tests and understand biased associations in language models across different languages.",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/ad88d846-7ccb-43e5-b43a-55178df869bc.png",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/44679fa7-362c-4be3-a395-921b60cacc24.jpg",
+"default_image": null,
+"verified_image": "https://production-media.paperswithcode.com/thumbnails/dataset-small/46fdf72b-7d88-42c6-adc7-a5c3cbd90eac.jpg",
+"default_youtube_link": null,
+"paper": {
+"title": "Global Voices, Local Biases: Socio-Cultural Prejudices across Languages",
+"url": "https://paperswithcode.com/paper/global-voices-local-biases-socio-cultural"
+},
+"mention_count": 0,
+"introduced_date": "2023-10-26",
+"license_name": "cc-by-4.0",
+"license_url": null,
+"verified_name": "WEATHub",
+"verified_paper": {
+"title": "Global Voices, Local Biases: Socio-Cultural Prejudices across Languages",
+"url": "https://paperswithcode.com/paper/global-voices-local-biases-socio-cultural"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Bias Detection",
+"url": "https://paperswithcode.com/task/bias-detection"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"German",
+"Italian",
+"Chinese",
+"Bengali",
+"Japanese",
+"Russian",
+"Danish",
+"Hindi",
+"Korean",
+"Marathi",
+"Persian",
+"Tagalog",
+"Telugu",
+"Thai",
+"Turkish",
+"Urdu",
+"Vietnamese",
+"Greek",
+"Central Kurdish",
+"Kurdish",
+"Western Panjabi"
+],
+"variants": [
+"WEATHub"
+],
+"num_papers": 1,
+"data_loaders": [
+{
+"frameworks": [
+"pytorch"
+],
+"repo": "https://github.com/iamshnoo/weathub",
+"url": "https://huggingface.co/datasets/iamshnoo/WEATHub"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/x-claim",
+"name": "X-CLAIM",
+"full_name": "",
+"homepage": "https://github.com/mbzuai-nlp/x-claim",
+"description": "A multilingual dataset for the task of multilingual claim span identification. \r\n\r\nX-CLAIM consists of 7K real-world claims, and social media posts containing them, collected from various social media platforms (e.g., Instagram) in English, Hindi, Punjabi, Tamil, Telugu and Bengali.",
+"short_description": "A multilingual dataset for the task of multilingual claim span identification. ",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "Lost in Translation, Found in Spans: Identifying Claims in Multilingual Social Media",
+"url": "https://paperswithcode.com/paper/lost-in-translation-found-in-spans"
+},
+"mention_count": 0,
+"introduced_date": "2023-10-27",
+"license_name": null,
+"license_url": null,
+"verified_name": "X-CLAIM",
+"verified_paper": {
+"title": "Lost in Translation, Found in Spans: Identifying Claims in Multilingual Social Media",
+"url": "https://paperswithcode.com/paper/lost-in-translation-found-in-spans"
+},
+"warning": null,
+"modalities": [],
+"tasks": [],
+"languages": [
+"English",
+"Bengali",
+"Hindi",
+"Tamil",
+"Telugu",
+"Punjabi"
+],
+"variants": [
+"X-CLAIM"
+],
+"num_papers": 3,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/mgsm8kinstruct",
+"name": "MGSM8KInstruct",
+"full_name": "MGSM8KInstruct",
+"homepage": "https://mathoctopus.github.io/",
+"description": "MGSM8KInstruct, the multilingual math reasoning instruction dataset, encompassing ten distinct languages, thus addressing the issue of training data scarcity in multilingual math reasoning.",
+"short_description": "MGSM8KInstruct, the multilingual math reasoning instruction dataset, encompassing ten distinct languages, thus addressing the issue of training data scarcity in multilingual math reasoning.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "Breaking Language Barriers in Multilingual Mathematical Reasoning: Insights and Observations",
+"url": "https://paperswithcode.com/paper/breaking-language-barriers-in-multilingual"
+},
+"mention_count": 0,
+"introduced_date": "2023-10-31",
+"license_name": null,
+"license_url": null,
+"verified_name": "MGSM8KInstruct",
+"verified_paper": {
+"title": "Breaking Language Barriers in Multilingual Mathematical Reasoning: Insights and Observations",
+"url": "https://paperswithcode.com/paper/breaking-language-barriers-in-multilingual"
+},
+"warning": null,
+"modalities": [],
+"tasks": [
+{
+"task": "Mathematical Reasoning",
+"url": "https://paperswithcode.com/task/mathematical-reasoning"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"Chinese",
+"Japanese",
+"Russian",
+"Telugu",
+"Vietnamese"
+],
+"variants": [
+"MGSM8KInstruct"
+],
+"num_papers": 2,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/mhvd",
+"name": "MVALUE",
+"full_name": "Multilingual human VALUE dataset",
+"homepage": "https://github.com/shaoyangxu/Multilingual-Human-Value-Concepts",
+"description": "Multilingual human VALUE(MVALUE) is a multilingual dataset covering 7 concepts of human values: morality, deontology, utilitarianism, fairness, truthfulness, toxicity and harmfulness, each concept subset of it includes positive and negative texts that represent the two opposing directions of the concept. We performed translation on collected human value datasets from English into 15 non-English languages using Google Translate. These languages belong to various language families, including Indo-European (Catalan, French, Indonesian, Portuguese, Spanish), NigerCongo (Chichewa, Swahili), Dravidian (Tamil, Telugu), Uralic (Finnish, Hungarian), Sino-Tibetan (Chinese), Japonic (Japanese), Koreanic (Korean) and Austro-Asiatic (Vietnamese).\r\n\r\nIn detail, we collected three subsets of the ETHICS dataset (Hendrycks et al.,2021) for morality, deontology, and utilitarianism. Regarding fairness, truthfulness, toxicity, and harmfulness, we chose the StereoSet (Nadeem et al., 2021), TruthfulQA (Lin et al., 2022), REALTOXICITYPROMPTS (Gehman et al., 2020), AdvBench (Zou et al., 2023b) dataset, respectively. Some of these dataset are naturally composed of positive and negative text pairs, we reformatted the rest ones. Refer to Appendix A of [our paper](https://arxiv.org/pdf/2402.18120.pdf) for detailed definitions, data splits, and examples of each human value of MVALUE dataset.",
+"short_description": "Multilingual human VALUE(MVALUE) is a multilingual dataset covering 7 concepts of human values: morality, deontology, utilitarianism, fairness, truthfulness, toxicity and harmfulness, each concept subset of it includes positive and negative texts that represent the two opposing directions of the concept. We performed translation on collected human value datasets from English into 15 non-English languages using Google Translate. These languages belong to various language families, including Indo-European (Catalan, French, Indonesian, Portuguese, Spanish), NigerCongo (Chichewa, Swahili), Dravidian (Tamil, Telugu), Uralic (Finnish, Hungarian), Sino-Tibetan (Chinese), Japonic (Japanese), Koreanic (Korean) and Austro-Asiatic (Vietnamese).",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?",
+"url": "https://paperswithcode.com/paper/exploring-multilingual-human-value-concepts"
+},
+"mention_count": 0,
+"introduced_date": "2024-02-28",
+"license_name": null,
+"license_url": null,
+"verified_name": "MVALUE",
+"verified_paper": {
+"title": "Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?",
+"url": "https://paperswithcode.com/paper/exploring-multilingual-human-value-concepts"
+},
+"warning": null,
+"modalities": [],
+"tasks": [],
+"languages": [
+"English",
+"French",
+"Spanish",
+"Chinese",
+"Japanese",
+"Portuguese",
+"Catalan",
+"Finnish",
+"Hungarian",
+"Indonesian",
+"Korean",
+"Tamil",
+"Telugu",
+"Vietnamese",
+"Swahili",
+"Nyanja"
+],
+"variants": [
+"MVALUE"
+],
+"num_papers": 1,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/roast",
+"name": "ROAST",
+"full_name": "Review level Opinion Aspect Sentiment Target Joint Detection for ABSA",
+"homepage": "https://github.com/RiTUAL-UH/ROAST-ABSA",
+"description": "This repository has a review-level multidomain multilingual dataset for Aspect-based Sentiment Analysis(ABSA) for the paper ROAST: Review-level Opinion Aspect Sentiment Target Joint Detection.",
+"short_description": "This repository has a review-level multidomain multilingual dataset for Aspect-based Sentiment Analysis(ABSA) for the paper ROAST: Review-level Opinion Aspect Sentiment Target Joint Detection.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "ROAST: Review-level Opinion Aspect Sentiment Target Joint Detection for ABSA",
+"url": "https://paperswithcode.com/paper/roast-review-level-opinion-aspect-sentiment"
+},
+"mention_count": 0,
+"introduced_date": "2024-05-30",
+"license_name": null,
+"license_url": null,
+"verified_name": "ROAST",
+"verified_paper": {
+"title": "ROAST: Review-level Opinion Aspect Sentiment Target Joint Detection for ABSA",
+"url": "https://paperswithcode.com/paper/roast-review-level-opinion-aspect-sentiment"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Sentiment Analysis",
+"url": "https://paperswithcode.com/task/sentiment-analysis"
+},
+{
+"task": "Aspect-Based Sentiment Analysis (ABSA)",
+"url": "https://paperswithcode.com/task/aspect-based-sentiment-analysis"
+},
+{
+"task": "Aspect Extraction",
+"url": "https://paperswithcode.com/task/aspect-extraction"
+},
+{
+"task": "Aspect Category Detection",
+"url": "https://paperswithcode.com/task/aspect-category-detection"
+}
+],
+"languages": [
+"English",
+"Hindi",
+"Telugu"
+],
+"variants": [
+"ROAST"
+],
+"num_papers": 1,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/milu",
+"name": "MILU",
+"full_name": "Multi-task Indic Language Understanding Benchmark",
+"homepage": "https://github.com/AI4Bharat/MILU",
+"description": "## Overview\r\n\r\nMILU (Multi-task Indic Language Understanding Benchmark) is a comprehensive evaluation dataset designed to assess the performance of Large Language Models (LLMs) across 11 Indic languages. It spans 8 domains and 42 subjects, reflecting both general and culturally specific knowledge from India.\r\n\r\n## Key Features\r\n\r\n- **Languages**: Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, and English\r\n- **Domains**: 8 diverse domains including Arts & Humanities, Social Sciences, STEM, and more\r\n- **Subjects**: 42 subjects covering a wide range of topics\r\n- **Questions**: ~85,000 multiple-choice questions\r\n- **Cultural Relevance**: Incorporates India-specific knowledge from regional and state-level examinations\r\n\r\n## Dataset Statistics\r\n\r\n| Language | Total Questions | Translated Questions | Avg Words Per Question |\r\n|----------|-----------------|----------------------|------------------------|\r\n| Bengali  | 7138            | 1601                 | 15.72                  |\r\n| Gujarati | 5327            | 2755                 | 16.69                  |\r\n| Hindi    | 15450           | 115                  | 20.63                  |\r\n| Kannada  | 6734            | 1522                 | 12.83                  |\r\n| Malayalam| 4670            | 1534                 | 12.82                  |\r\n| Marathi  | 7424            | 1235                 | 18.8                   |\r\n| Odia     | 5025            | 1452                 | 15.63                  |\r\n| Punjabi  | 4363            | 2341                 | 19.9                   |\r\n| Tamil    | 7059            | 1524                 | 13.32                  |\r\n| Telugu   | 7847            | 1298                 | 16.13                  |\r\n| English  | 14036           | -                    | 22.01                  |\r\n| **Total**| **85073**       | **15377**            | **16.77** (avg)        |\r\n\r\n\r\n\r\n## Dataset Structure\r\n\r\n### Test Set\r\nThe test set consists of the MILU (Multi-task Indic Language Understanding) benchmark, which contains approximately 85,000 multiple-choice questions across 11 Indic languages.\r\n\r\n### Validation Set\r\nThe dataset includes a separate validation set of 9,157 samples that can be used for few-shot examples during evaluation. This validation set was created by sampling from each of the 42 subject tags, which were then condensed into 8 broader domains. This approach ensures a balanced representation across subjects and domains, allowing for consistent few-shot prompting across different models and experiments.\r\n\r\n### Subjects spanning MILU\r\n\r\n\r\n| Domain | Subjects |\r\n|--------|----------|\r\n| Arts & Humanities | Architecture and Design, Arts and Culture, Education, History, Language Studies, Literature and Linguistics, Media and Communication, Music and Performing Arts, Religion and Spirituality |\r\n| Business Studies | Business and Management, Economics, Finance and Investment |\r\n| Engineering & Tech | Energy and Power, Engineering, Information Technology, Materials Science, Technology and Innovation, Transportation and Logistics |\r\n| Environmental Sciences | Agriculture, Earth Sciences, Environmental Science, Geography |\r\n| Health & Medicine | Food Science, Health and Medicine |\r\n| Law & Governance | Defense and Security, Ethics and Human Rights, Law and Ethics, Politics and Governance |\r\n| Math and Sciences | Astronomy and Astrophysics, Biology, Chemistry, Computer Science, Logical Reasoning, Mathematics, Physics |\r\n| Social Sciences | Anthropology, International Relations, Psychology, Public Administration, Social Welfare and Development, Sociology, Sports and Recreation |\r\n\r\n\r\n\r\n## Usage\r\n\r\nSince this is a gated dataset, after your request for accessing the dataset is accepted, you can set your HuggingFace token:\r\n\r\n```bash\r\nexport HF_TOKEN=YOUR_TOKEN_HERE\r\n```\r\n\r\nTo load the MILU dataset for a Language:\r\n\r\n```python\r\nfrom datasets import load_dataset\r\n\r\nlanguage = 'Hindi'\r\n\r\n# Use 'test' split for evaluation & 'validation' split for few-shot\r\nsplit = 'test'\r\n\r\nlanguage_data = load_dataset(\"ai4bharat/MILU\", data_dir=language, split=split, token=True)\r\n\r\nprint(language_data[0])\r\n```\r\n\r\n## Evaluation\r\n\r\nWe evaluated 45 different LLMs on MILU, including:\r\n\r\n- Closed proprietary models (e.g., GPT-4o, Gemini-1.5)\r\n- Open-source multilingual models\r\n- Language-specific fine-tuned models\r\n\r\nKey findings:\r\n\r\n- GPT-4o achieved the highest average accuracy at 72%\r\n- Open multilingual models outperformed language-specific fine-tuned models\r\n- Models performed better in high-resource languages compared to low-resource ones\r\n- Performance was lower in culturally relevant areas (e.g., Arts & Humanities) compared to general fields like STEM\r\n\r\nFor detailed results and analysis, please refer to our paper.\r\n\r\n## Citation\r\n\r\nIf you use MILU in your research, please cite our paper:\r\n\r\n```\r\n@misc{verma2024milumultitaskindiclanguage,\r\n      title={MILU: A Multi-task Indic Language Understanding Benchmark}, \r\n      author={Sshubam Verma and Mohammed Safi Ur Rahman Khan and Vishwajeet Kumar and Rudra Murthy and Jaydeep Sen},\r\n      year={2024},\r\n      eprint={2411.02538},\r\n      archivePrefix={arXiv},\r\n      primaryClass={cs.CL},\r\n      url={https://arxiv.org/abs/2411.02538}, \r\n}```\r\n\r\n## License\r\n\r\nThis dataset is released under the [MIT License](https://opensource.org/licenses/MIT).\r\n\r\n## Contact\r\n\r\nFor any questions or feedback, please contact:\r\n- Sshubam Verma (sshubamverma@ai4bharat.org)\r\n- Mohammed Safi Ur Rahman Khan (safikhan@ai4bharat.org)\r\n- Rudra Murthy (rmurthyv@in.ibm.com)\r\n- Vishwajeet Kumar (vishk024@in.ibm.com)\r\n\r\n## Links\r\n\r\n- [GitHub Repository](https://github.com/AI4Bharat/MILU)\r\n- [Paper](https://arxiv.org/abs/2411.02538)\r\n- [Hugging Face Dataset](https://huggingface.co/datasets/ai4bharat/MILU)",
+"short_description": "Overview\nMILU (Multi-task Indic Language Understanding Benchmark) is a comprehensive evaluation dataset designed to assess the performance of Large Language Models (LLMs) across 11 Indic languages. It spans 8 domains and 42 subjects, reflecting both general and culturally specific knowledge from India.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "MILU: A Multi-task Indic Language Understanding Benchmark",
+"url": "https://paperswithcode.com/paper/milu-a-multi-task-indic-language"
+},
+"mention_count": 0,
+"introduced_date": "2024-11-04",
+"license_name": "MIT",
+"license_url": "https://opensource.org/license/mit",
+"verified_name": "MILU",
+"verified_paper": {
+"title": "MILU: A Multi-task Indic Language Understanding Benchmark",
+"url": "https://paperswithcode.com/paper/milu-a-multi-task-indic-language"
+},
+"warning": null,
+"modalities": [
+"Texts"
+],
+"tasks": [
+{
+"task": "Question Answering",
+"url": "https://paperswithcode.com/task/question-answering"
+}
+],
+"languages": [
+"English",
+"Bengali",
+"Hindi",
+"Marathi",
+"Tamil",
+"Telugu",
+"Gujarati",
+"Kannada",
+"Malayalam",
+"Odia",
+"Punjabi"
+],
+"variants": [
+"MILU"
+],
+"num_papers": 1,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/include-base",
+"name": "INCLUDE-base (44 languages)",
+"full_name": "",
+"homepage": "https://huggingface.co/datasets/CohereForAI/include-base-44",
+"description": "## Dataset Summary\r\n\r\nINCLUDE is a comprehensive knowledge- and reasoning-centric benchmark across 44 languages that evaluates multilingual LLMs for performance in the actual language environments where they would be deployed. It contains 22,637 4-option multiple-choice-questions (MCQ) extracted from academic and professional exams, covering 57 topics, including regional knowledge.",
+"short_description": "Dataset Summary\nINCLUDE is a comprehensive knowledge- and reasoning-centric benchmark across 44 languages that evaluates multilingual LLMs for performance in the actual language environments where they would be deployed. It contains 22,637 4-option multiple-choice-questions (MCQ) extracted from academic and professional exams, covering 57 topics, including regional knowledge.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge",
+"url": "https://paperswithcode.com/paper/include-evaluating-multilingual-language"
+},
+"mention_count": 0,
+"introduced_date": "2024-11-29",
+"license_name": "Apache License 2.0",
+"license_url": "https://choosealicense.com/licenses/apache-2.0/",
+"verified_name": "INCLUDE-base (44 languages)",
+"verified_paper": {
+"title": "INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge",
+"url": "https://paperswithcode.com/paper/include-evaluating-multilingual-language"
+},
+"warning": null,
+"modalities": [],
+"tasks": [],
+"languages": [
+"French",
+"Spanish",
+"German",
+"Italian",
+"Chinese",
+"Bengali",
+"Japanese",
+"Russian",
+"Portuguese",
+"Albanian",
+"Armenian",
+"Basque",
+"Belarusian",
+"Bulgarian",
+"Croatian",
+"Dutch",
+"Estonian",
+"Finnish",
+"Hebrew",
+"Hindi",
+"Hungarian",
+"Indonesian",
+"Kazakh",
+"Korean",
+"Lithuanian",
+"Persian",
+"Polish",
+"Serbian",
+"Tagalog",
+"Tamil",
+"Telugu",
+"Turkish",
+"Ukrainian",
+"Urdu",
+"Vietnamese",
+"Greek",
+"Standard Arabic",
+"Azerbaijani",
+"Georgian",
+"Malayalam",
+"Macedonian",
+"Nepali (individual language)",
+"Uzbek",
+"Malay (individual language)"
+],
+"variants": [
+"INCLUDE-base (44 languages)"
+],
+"num_papers": 1,
+"data_loaders": []
+},
+{
+"url": "https://paperswithcode.com/dataset/m3ls-multi-lingual-multi-modal-summarization",
+"name": "M3LS",
+"full_name": "Multi-Lingual Multi-Modal Summarization Dataset",
+"homepage": "https://github.com/zenquiorra/M3LS",
+"description": "Significant developments in techniques such as encoder-decoder models have enabled us to represent information comprising multiple modalities. This information can further enhance many downstream tasks in the field of information retrieval and natural language processing; however, improvements in multi-modal techniques and their performance evaluation require large-scale multi-modal data which offers sufficient diversity. Multi-lingual modeling for a variety of tasks like multi-modal summarization, text generation, and translation leverages information derived from high-quality multi-lingual annotated data. In this work, we present the current largest multi-lingual multi-modal summarization dataset (M3LS), and it consists of over a million instances of document-image pairs along with a professionally annotated multi-modal summary for each pair. It is derived from news articles published by British Broadcasting Corporation(BBC) over a decade and spans 20 languages, targeting diversity across five language roots, it is also the largest summarization dataset for 13 languages and consists of cross-lingual summarization data for 2 languages. We formally define the multi-lingual multi-modal summarization task utilizing our dataset and report baseline scores from various state-of-the-art summarization techniques in a multi-lingual setting. We also compare it with many similar datasets to analyze the uniqueness and difficulty of M3LS.",
+"short_description": "Significant developments in techniques such as encoder-decoder models have enabled us to represent information comprising multiple modalities. This information can further enhance many downstream tasks in the field of information retrieval and natural language processing; however, improvements in multi-modal techniques and their performance evaluation require large-scale multi-modal data which offers sufficient diversity. Multi-lingual modeling for a variety of tasks like multi-modal summarization, text generation, and translation leverages information derived from high-quality multi-lingual annotated data. In this work, we present the current largest multi-lingual multi-modal summarization dataset (M3LS), and it consists of over a million instances of document-image pairs along with a professionally annotated multi-modal summary for each pair. It is derived from news articles published by British Broadcasting Corporation(BBC) over a decade and spans 20 languages, targeting diversity a",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "Large Scale Multi-Lingual Multi-Modal Summarization Dataset",
+"url": "https://paperswithcode.com/paper/large-scale-multi-lingual-multi-modal"
+},
+"mention_count": 0,
+"introduced_date": "2023-02-13",
+"license_name": "MIT",
+"license_url": "https://github.com/zenquiorra/M3LS/blob/main/LICENSE",
+"verified_name": "M3LS",
+"verified_paper": {
+"title": "Large Scale Multi-Lingual Multi-Modal Summarization Dataset",
+"url": "https://paperswithcode.com/paper/large-scale-multi-lingual-multi-modal"
+},
+"warning": null,
+"modalities": [
+"Images",
+"Texts"
+],
+"tasks": [
+{
+"task": "Abstractive Text Summarization",
+"url": "https://paperswithcode.com/task/abstractive-text-summarization"
+},
+{
+"task": "Cross-Lingual Abstractive Summarization",
+"url": "https://paperswithcode.com/task/cross-lingual-abstractive-summarization"
+},
+{
+"task": "Multimodal Abstractive Text Summarization",
+"url": "https://paperswithcode.com/task/multimodal-abstractive-text-summarization"
+},
+{
+"task": "Cross-Language Text Summarization",
+"url": "https://paperswithcode.com/task/cross-language-text-summarization"
+},
+{
+"task": "Data Summarization",
+"url": "https://paperswithcode.com/task/data-summarization"
+},
+{
+"task": "News Summarization",
+"url": "https://paperswithcode.com/task/news-summarization"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"Chinese",
+"Bengali",
+"Japanese",
+"Russian",
+"Portuguese",
+"Hindi",
+"Indonesian",
+"Marathi",
+"Tamil",
+"Telugu",
+"Ukrainian",
+"Urdu",
+"Gujarati",
+"Nepali (individual language)",
+"Punjabi",
+"Southern Pashto",
+"Sinhala"
+],
+"variants": [
+"M3LS"
+],
+"num_papers": 1,
+"data_loaders": [
+{
+"frameworks": [],
+"repo": "https://github.com/zenquiorra/m3ls",
+"url": "https://github.com/zenquiorra/m3ls"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/maked",
+"name": "MAKED",
+"full_name": "MultiModal MultiLingual Summarization and Keyword Extraction Dataset",
+"homepage": "https://github.com/zenquiorra/MAKED",
+"description": "Keyword extraction is an integral task for many downstream problems like clustering, recommendation, search and classification. Development and evaluation of keyword extraction techniques require an exhaustive dataset; however, currently, the community lacks large-scale multi-lingual datasets. In this paper, we present MAKED, a large-scale multi-lingual keyword extraction dataset comprising of 540K+ news articles from British Broadcasting Corporation News (BBC News) spanning 20 languages. It is the first keyword extraction dataset for 11 of these 20 languages. The quality of the dataset is examined by experimentation with several baselines. We believe that the proposed dataset will help advance the field of automatic keyword extraction given its size, diversity in terms of languages used, topics covered and time periods as well as its focus on under-studied languages.",
+"short_description": "Keyword extraction is an integral task for many downstream problems like clustering, recommendation, search and classification. Development and evaluation of keyword extraction techniques require an exhaustive dataset; however, currently, the community lacks large-scale multi-lingual datasets. In this paper, we present MAKED, a large-scale multi-lingual keyword extraction dataset comprising of 540K+ news articles from British Broadcasting Corporation News (BBC News) spanning 20 languages. It is the first keyword extraction dataset for 11 of these 20 languages. The quality of the dataset is examined by experimentation with several baselines. We believe that the proposed dataset will help advance the field of automatic keyword extraction given its size, diversity in terms of languages used, topics covered and time periods as well as its focus on under-studied languages.",
+"parent_dataset": null,
+"image": null,
+"audio": null,
+"thumbnail": null,
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": {
+"title": "MAKED: Multi-lingual Automatic Keyword Extraction Dataset",
+"url": "https://paperswithcode.com/paper/maked-multi-lingual-automatic-keyword"
+},
+"mention_count": 0,
+"introduced_date": "2022-06-01",
+"license_name": "MIT",
+"license_url": null,
+"verified_name": "MAKED",
+"verified_paper": {
+"title": "MAKED: Multi-lingual Automatic Keyword Extraction Dataset",
+"url": "https://paperswithcode.com/paper/maked-multi-lingual-automatic-keyword"
+},
+"warning": null,
+"modalities": [
+"Images",
+"Texts"
+],
+"tasks": [
+{
+"task": "Keyword Extraction",
+"url": "https://paperswithcode.com/task/keyword-extraction"
+},
+{
+"task": "Multilingual NLP",
+"url": "https://paperswithcode.com/task/multilingual-nlp"
+}
+],
+"languages": [
+"English",
+"French",
+"Spanish",
+"Chinese",
+"Bengali",
+"Japanese",
+"Russian",
+"Portuguese",
+"Hindi",
+"Indonesian",
+"Marathi",
+"Tamil",
+"Telugu",
+"Ukrainian",
+"Urdu",
+"Gujarati",
+"Nepali (individual language)",
+"Punjabi",
+"Southern Pashto",
+"Sinhala"
+],
+"variants": [
+"MAKED"
+],
+"num_papers": 1,
+"data_loaders": [
+{
+"frameworks": [],
+"repo": "https://github.com/zenquiorra/maked",
+"url": "https://github.com/zenquiorra/maked"
+}
+]
+},
+{
+"url": "https://paperswithcode.com/dataset/telugu-document-image-dataset",
+"name": "Telugu Document Image Dataset",
+"full_name": "",
+"homepage": "https://gts.ai/dataset-download/telugu-document-image-dataset/",
+"description": "Description:\r\n\r\n<a href=\"https://gts.ai/dataset-download/telugu-document-image-dataset/\" target=\"_blank\">👉 Download the dataset here</a>\r\n\r\nThis dataset consists of 20,000 image-text pairs designed to aid in training machine learning models capable of extracting text from scanned Telugu documents. The images in this collection resemble “scans” of documents or book pages, paired with their corresponding text sequences. This dataset aims to reduce the necessity for complex pre-processing steps, such as bounding-box creation and manual text labeling, allowing models to directly map from image inputs to textual sequences.\r\n\r\nThe main objective is to train models to handle real-world scans, particularly those from aged or damaged documents, without needing to design elaborate computer vision algorithms. The dataset focuses on minimizing the manual overhead involved in traditional document processing methods, making it a valuable resource for tasks like optical character recognition (OCR) in low-resource languages like Telugu.\r\n\r\nDownload Dataset\r\n\r\nKey Features:\r\n\r\nWide Variety of Realistic Scans: The dataset includes images mimicking realistic variations, such as aging effects, smudges, and incomplete characters, commonly found in physical book scans or older documents.\r\n\r\nImage-Text Pairing: Each image is linked with its corresponding pure text sequence, allowing models to learn efficient text extraction without additional manual preprocessing steps.\r\n\r\nCustomizable Data Generation: The dataset is built using open-source generator code, which provides flexibility for users to adjust hundreds of parameters. It supports custom corpora, so users can replace the probabilistically generated “gibberish” text with actual texts relevant to their use cases.\r\n\r\nScalable and Efficient: Thanks to parallelized processing, larger datasets can be generated rapidly. Users with powerful computational resources can expand the dataset size to \r\nhundreds of thousands or even millions of pairs, making it an adaptable resource for large-scale AI training.\r\n\r\nMulti-Script Support: The generator code can easily be extended to other scripts, including different Indic languages or even non-Indic languages, by modifying the Unicode character set and adjusting parameters such as sentence structure and paragraph lengths.\r\n\r\nDataset Applications:\r\n\r\nThis dataset is especially useful for developing OCR systems that handle Telugu language documents. However, the data generation process is flexible enough to extend to other Indic languages and non-Indic scripts, making it a versatile resource for cross-lingual and multi-modal research in text extraction, document understanding, and AI-driven translation.\r\n\r\nThis dataset is sourced from Kaggle.",
+"short_description": "Description:",
+"parent_dataset": null,
+"image": "https://production-media.paperswithcode.com/datasets/28366bfc-47c6-47bb-a3fe-be2035930238.png",
+"audio": null,
+"thumbnail": "https://production-media.paperswithcode.com/thumbnails/dataset/6537e7ca-9061-448a-aa76-ef0d21c94847.jpg",
+"default_image": null,
+"verified_image": null,
+"default_youtube_link": null,
+"paper": null,
+"mention_count": 0,
+"introduced_date": null,
+"license_name": null,
+"license_url": null,
+"verified_name": null,
+"verified_paper": null,
+"warning": null,
+"modalities": [],
+"tasks": [],
+"languages": [
+"English"
+],
+"variants": [
+"Telugu Document Image Dataset"
+],
+"num_papers": 0,
+"data_loaders": []
+}
+]

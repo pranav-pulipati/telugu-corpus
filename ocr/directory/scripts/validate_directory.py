@@ -13,7 +13,7 @@ from common import COLUMNS, STATUSES, CATEGORIES  # noqa: E402
 
 CSV = os.path.join(ROOT, 'telugu_ocr_final.csv')
 DOCS = ['README.md', 'DATASET_DETAILS.md', 'DISCOVERY_LOG.md', 'DUPLICATE_AND_MIRROR_REPORT.md', 'UNAVAILABLE_AND_GATED_DATASETS.md',
-        'LICENSING_AND_ACCESS_REPORT.md', 'COVERAGE_REPORT.md', 'CURRENT_STATE_AUDIT.md']
+        'LICENSING_AND_ACCESS_REPORT.md', 'COVERAGE_REPORT.md', 'CURRENT_STATE_AUDIT.md', 'ADVERSARIAL_COMPLETENESS_AUDIT.md']
 REQUIRED = ['Dataset ID', 'Official dataset name', 'Alternative names', 'Parent dataset', 'Dataset version', 'Dataset description', 'Official webpage URL',
             'Direct download URL', 'Hugging Face URL', 'GitHub URL', 'Kaggle URL', 'Zenodo / Figshare / archive URL', 'Research paper URL', 'DOI', 'Institution',
             'Authors', 'Language', 'Script', 'Modality', 'Task', 'Granularity', 'Real / synthetic', 'Published sample count', 'Sample count unit',
@@ -34,7 +34,7 @@ def digest(paths):
 
 
 # ---- 1. reproducibility: regenerate and compare
-outs = [CSV, os.path.join(DIR, 'evidence', 'counts.json')] + [os.path.join(DIR, d) for d in DOCS]
+outs = [CSV, os.path.join(DIR, 'evidence', 'counts.json'), os.path.join(DIR, 'MISSING_DATASET_CANDIDATES.csv')] + [os.path.join(DIR, d) for d in DOCS]
 before = digest(outs)
 for s in ('build_directory.py', 'make_docs.py'):
     subprocess.run([sys.executable, os.path.join(HERE, s)], check=True, stdout=subprocess.DEVNULL)
@@ -114,6 +114,23 @@ for d in DOCS:
     t = open(os.path.join(DIR, d), encoding='utf-8').read()
     for ref in set(re.findall(r'TOCR-\d{3}', t)) - idset:
         bad(f'{d}: refers to missing {ref}')
+
+# ---- 3b. nothing lost since the last commit; candidates file consistent with the master
+prev = subprocess.run(['git', '-C', ROOT, 'show', 'HEAD:telugu_ocr_final.csv'], capture_output=True, text=True).stdout
+if prev:
+    prev_ids = {r['Dataset ID'] for r in csv.DictReader(prev.splitlines())}
+    lost = sorted(prev_ids - idset)
+    if lost:
+        bad(f'rows present in the last commit are missing: {lost}')
+    prev_head = prev.splitlines()[0].split(',')
+    if [h for h in prev_head if h not in head]:
+        bad('columns from the last commit were removed')
+for c in csv.DictReader(open(os.path.join(DIR, 'MISSING_DATASET_CANDIDATES.csv'), encoding='utf-8')):
+    m = re.match(r'Yes - (TOCR-\d{3})', c['In telugu_ocr_final.csv?'])
+    if m and m.group(1) not in idset:
+        bad(f'candidates file refers to missing {m.group(1)}')
+    if not m and c['Candidate ID'].startswith('TOCR-'):
+        bad(f'candidate {c["Candidate ID"]} has a TOCR id but is not marked as in the master')
 
 # ---- 4. link check covers every URL now in the CSV
 lc = os.path.join(DIR, 'evidence', 'link_check.csv')

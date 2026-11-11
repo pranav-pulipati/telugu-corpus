@@ -3,9 +3,9 @@
 Many Telugu OCR datasets are uploaded more than once (Kaggle, Hugging Face, Google Drive) or are cut from a larger
 release. Counting them separately would inflate the numbers, so each copy points back to its source.
 
-- **69** distinct relationships between rows (each pair counted once).
-- **38** dataset rows are marked as not distinct (mirror, copy, subset, derivative, re-listing or umbrella).
-- Only rows marked `Y` in `Counts as distinct dataset` are counted in the totals (104).
+- **82** distinct relationships between rows (each pair counted once).
+- **42** dataset rows are marked as not distinct (mirror, copy, subset, derivative, re-listing or umbrella).
+- Only rows marked `Y` in `Counts as distinct dataset` are counted in the totals (115).
 
 ## How copies were detected
 
@@ -38,6 +38,16 @@ Found in round 2:
 - **IIIT-H Word Recognition Synthetic (TOCR-186)** renders the same 1,000-word vocabulary as the real IIIT-H word set (TOCR-044).
 - **ULCA Project Anuvaad Telugu OCR corpus (TOCR-208)** comes from the same EkStep/Tarento group as the synthetic benchmark (TOCR-102). Overlap is possible but not confirmed.
 
+Found in round 3:
+
+- **axlevisu Telugu character set (TOCR-038) is a compilation**: its 45,217 characters match the HP Labs offline count (TOCR-021) and its 3,000 numerals match CMATERdb (TOCR-032). It no longer counts as distinct.
+- **GitHub medini-r/teluguChar (TOCR-224)** is a direct copy of the HP Labs offline folders (hpl-telugu-iso-char-offline/usr_*).
+- **tiny-captcha-library (TOCR-223)** is a 10,000-image release of the same generator as synthetic-captchas-library (TOCR-101, 100,000 Telugu).
+- **LT-EDI 2024 Telugu troll memes (TOCR-215)** share an organiser with the NITK Telugu meme dataset (TOCR-214) and are treated as the same data.
+- **ICDAR 2025 MLT-RSTR (TOCR-213)** is a roadside collection, suspected to share images with IIIT-IndicSTR-Word / WIRIndic (TOCR-079/080).
+- **keerthan-381 palm-leaf crops (TOCR-228)** share a project title with the code-only repo TOCR-174.
+- **rendered_wikipedia_te (TOCR-221)** renders Telugu Wikipedia text (TOCR-139).
+
 ## All relationships
 
 | Row | Name | Distinct? | Related rows | Note |
@@ -61,7 +71,7 @@ Found in round 2:
 | TOCR-032 | CMATERdb 3.4.1 - Handwritten Telugu Numerals | Y | TOCR-033, TOCR-034 | Source for Telugu digits in MNIST-MIX (TOCR-033) and Kaggle hdr-datasets (TOCR-034); axlevisu repo "numbers" (3,000) likely the same. |
 | TOCR-033 | MNIST-MIX (Telugu digits subset) | N (derivative) | TOCR-032 | Derivative of TOCR-032. |
 | TOCR-034 | Kaggle: Multilingual Handwritten Digits Datasets (Telugu-op... | N (derivative) | TOCR-032 | Augmented derivative of TOCR-032. |
-| TOCR-038 | GitHub axlevisu/CNN-Telugu-OCR data folder | Y | TOCR-032 | Numerals likely CMATERdb Telugu (TOCR-032) - same count 3,000. |
+| TOCR-038 | GitHub axlevisu/CNN-Telugu-OCR data folder | N (compilation of TOCR-021 + TOCR-032) | TOCR-021, TOCR-032, TOCR-224 | 45,217 characters = HP Labs offline Telugu set count (TOCR-021, also copied in TOCR-224); 3,000 numerals = CMATERdb Telugu (TOCR-032). |
 | TOCR-042 | HF mirror: darknight054/indic-mozhi-ocr (telugu config) | N (mirror) | TOCR-041 | Test split byte-identical to official (9,876/9,876 images and labels). |
 | TOCR-043 | Multilingual OCR for Indic Scripts - printed page corpus (M... | UNKNOWN | TOCR-041 | Possibly superseded by Mozhi (TOCR-041). |
 | TOCR-045 | Building Data Sets for Indian Language OCR Research (annota... | UNKNOWN | TOCR-046 | Possibly related to the TDIL OCR image corpus (TOCR-046). |
@@ -109,6 +119,7 @@ Found in round 2:
 | TOCR-140 | harsha-desaraju/telugu-ocr-text (+ -uncombined) - source vs... | Y | TOCR-094 | Text side of TOCR-094. |
 | TOCR-141 | eswardivi/indiccorp_telugu_line | N (derivative of TOCR-137) | TOCR-137 | None identified |
 | TOCR-172 | ORB-Indic (krutrim-ai-labs/ocr_rotation_bench) - Telugu pag... | N (suspected same pages as TOCR-130; derived... | TOCR-049, TOCR-130 | Derived from Telugu Wikisource (TOCR-049); suspected same 89 Telugu pages as IndicVisionBench OCR (TOCR-130). |
+| TOCR-174 | GitHub UthejKaramalapudi/Handwritten_Charcater_Classificait... | N | TOCR-228 | Sibling project keerthan-381 (TOCR-228) with the same title does publish 9,131 palm-leaf character images. |
 | TOCR-182 | CHIPS - Corpus of Handwritten Indic Scripts (Telugu pages) | UNKNOWN (may be a re-composition of TOCR-002... | TOCR-002, TOCR-015 | Built from IIIT-INDIC-HW-WORDS word images (TOCR-002); PLATTER also uses PHDIndic_11 Telugu pages (TOCR-015). |
 | TOCR-183 | PLATTER ScrabbleGAN synthetic Telugu handwritten pages | UNKNOWN | TOCR-002 | Generated from TOCR-002. |
 | TOCR-186 | IIIT-H Word Recognition Synthetic Dataset (Telugu) | Y | TOCR-044 | Same 1,000-word vocabulary as TOCR-044. |
@@ -119,3 +130,13 @@ Found in round 2:
 | TOCR-195 | Kaggle: telugu_palm_leafs (chintuimmandi) - palm-leaf binar... | N (suspected copy of TOCR-118 data) | TOCR-118 | Same size and task as the "Preserving Telugu Manuscripts" binarisation set (TOCR-118, 36 images); suspected to be its data release (NOT VERIFIED). |
 | TOCR-196 | Kaggle: IITJ Multilingual OCR Dataset (mayank7239) | N (suspected copy of TOCR-082) | TOCR-082 | Suspected re-upload of Bharat Scene Text crops (TOCR-082, IIT Jodhpur). |
 | TOCR-208 | ULCA (Bhashini) OCR corpus - Telugu (Project Anuvaad) | Y | TOCR-102 | Same group as the EkStep synthetic benchmark (TOCR-102); overlap NOT VERIFIED. |
+| TOCR-212 | Telugu palm-leaf character database (Amrita, 2012) | UNKNOWN | TOCR-117 | Related palm-leaf work: TOCR-117, 118, 119, 120, 228. |
+| TOCR-213 | ICDAR 2025 Competition on Multi-lingual Roadside Scene Text... | UNKNOWN (suspected same collection as TOCR-0... | TOCR-079 | Roadside collection; suspected same source as IIIT-IndicSTR-Word / WIRIndic (TOCR-079/080). |
+| TOCR-215 | LT-EDI 2024 shared task: troll meme classification - Telugu | N (suspected same data as TOCR-214) | TOCR-214 | Shared co-organiser with TOCR-214; suspected same Telugu memes. |
+| TOCR-216 | IIIT Telugu document test sets (Rasagna 2013 MS thesis) | UNKNOWN | TOCR-044 | Likely drawn from the same DLI book pages as TOCR-044/045. |
+| TOCR-221 | stefania-radu/rendered_wikipedia_te (rendered Telugu Wikipe... | Y | TOCR-139 | Rendered from Telugu Wikipedia text (TOCR-139). |
+| TOCR-222 | NayanaIR-MonoBench-te (Telugu visual document retrieval) | Y | TOCR-190 | Same family as TOCR-190 (NayanaIR-CrossBench). |
+| TOCR-223 | Tiny Multilingual CAPTCHA Library - Telugu (remiai3/tiny-ca... | N (smaller release of TOCR-101 generator) | TOCR-101 | Smaller release of the same generator as TOCR-101 (100,000 Telugu). |
+| TOCR-224 | GitHub medini-r/teluguChar (copy of HP Labs offline Telugu ... | N (mirror of TOCR-021) | TOCR-021, TOCR-038 | Copy of HP Labs offline set (TOCR-021); same count as TOCR-038. |
+| TOCR-228 | GitHub keerthan-381 - Telugu palm-leaf handwritten characte... | Y | TOCR-119, TOCR-174 | Same project title as rejected code-only repo TOCR-174; possibly related to TOCR-119 palm-leaf crops. |
+| TOCR-229 | GitHub aceveggie/TeluguTFRecords - Telugu character data in... | UNKNOWN | TOCR-021 | Source of the characters NOT VERIFIED (possibly HP Labs TOCR-021). |

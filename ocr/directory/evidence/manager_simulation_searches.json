@@ -1,0 +1,310 @@
+{
+ "note": "Round 3 (2026-11-11): searches an independent reviewer is likely to run. For every result URL we record where it is in telugu_ocr_final.csv (matched automatically by make_docs.py) or why it is not a row. 'kind' = dataset | paper | model | tool | page.",
+ "searches": [
+  {
+   "query": "Telugu OCR dataset",
+   "results": [
+    [
+     "https://arxiv.org/pdf/1711.07245",
+     "paper",
+     "Paper of TOCR-107 (Konkimalla et al. database)"
+    ],
+    [
+     "https://dspace.uohyd.ac.in/handle/1/8703",
+     "dataset",
+     ""
+    ],
+    [
+     "https://ieee-dataport.org/documents/ocr-telugu-image-dataset",
+     "dataset",
+     ""
+    ],
+    [
+     "https://universe.roboflow.com/iitbresearchwork/telugu-ocr",
+     "dataset",
+     ""
+    ],
+    [
+     "https://tickets-felicity.iiit.ac.in/images/Thesis/MS/Venkat_Rasagna_2013/Rasagna_Thesis2013.pdf",
+     "paper",
+     "Thesis test sets recorded as TOCR-216"
+    ],
+    [
+     "https://ilocr.iiit.ac.in/dataset/40/",
+     "dataset",
+     ""
+    ],
+    [
+     "https://huggingface.co/harsha-desaraju/telugu-ocr-model",
+     "model",
+     "Model trained on TOCR-051/093; pipeline listed as TOCR-153"
+    ],
+    [
+     "https://universe.roboflow.com/teluguocr/telugu-handwritten-ocr",
+     "dataset",
+     ""
+    ],
+    [
+     "https://gts.ai/dataset-download/telugu-document-image-dataset/",
+     "dataset",
+     ""
+    ],
+    [
+     "https://huggingface.co/CharanS247/got-ocr2-telugu-handwritten",
+     "model",
+     "LoRA adapter trained on IIIT-HW-Telugu (TOCR-001/002); a model, not data"
+    ],
+    [
+     "https://www.github.com/ChillarAnand/likitham",
+     "dataset",
+     ""
+    ],
+    [
+     "https://www.alphaxiv.org/abs/2104.04437",
+     "paper",
+     "Paper of IIIT-ILST (TOCR-070)"
+    ]
+   ]
+  },
+  {
+   "query": "Telugu handwritten dataset download",
+   "results": [
+    [
+     "https://lipitk.sourceforge.net/datasets/teluguchardata.htm",
+     "dataset",
+     ""
+    ],
+    [
+     "https://ieee-dataport.org/open-access/telugu-handwritten-character-dataset",
+     "dataset",
+     ""
+    ],
+    [
+     "https://dspace.uohyd.ac.in/handle/1/8547",
+     "dataset",
+     ""
+    ],
+    [
+     "https://data.mendeley.com/datasets/mpjbr7nfv9",
+     "dataset",
+     ""
+    ],
+    [
+     "https://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-indic-hw-words",
+     "dataset",
+     ""
+    ],
+    [
+     "https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data",
+     "dataset",
+     ""
+    ],
+    [
+     "https://ieee-dataport.org/documents/telugu-handwritten-vowels",
+     "dataset",
+     ""
+    ],
+    [
+     "https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR/dataset.html",
+     "dataset",
+     ""
+    ],
+    [
+     "https://ilocr.iiit.ac.in/dataset/23",
+     "dataset",
+     ""
+    ],
+    [
+     "https://universe.roboflow.com/centurion-university-n60kx/telugu-handwritten-project",
+     "dataset",
+     ""
+    ],
+    [
+     "https://www.tensorflow.org/datasets/catalog/cmaterdb",
+     "dataset",
+     "TFDS copy of CMATERdb (TOCR-032)"
+    ]
+   ]
+  },
+  {
+   "query": "Telugu text recognition dataset github",
+   "results": [
+    [
+     "https://arxiv.org/pdf/2205.06740",
+     "paper",
+     "Paper of Mozhi (TOCR-041)"
+    ],
+    [
+     "https://researchweb.iiit.ac.in/~pramod_sankar/CandD.html",
+     "dataset",
+     "Archived copy linked from TOCR-044 and TOCR-186"
+    ]
+   ]
+  },
+  {
+   "query": "Telugu OCR dataset huggingface",
+   "results": [
+    [
+     "https://huggingface.co/collections/gksriharsha/textline-ocr-data-662db1de52e194d5d4a6513e",
+     "page",
+     "Collection containing only gksriharsha/chitralekha (TOCR-092)"
+    ],
+    [
+     "https://huggingface.co/spaces/Vipplav/telugu_ocr_test",
+     "tool",
+     "Demo Space, not data"
+    ]
+   ]
+  },
+  {
+   "query": "Telugu character recognition dataset",
+   "results": [
+    [
+     "https://ieee-dataport.org/documents/3d-telugu-character-recognition",
+     "dataset",
+     ""
+    ],
+    [
+     "https://link.springer.com/chapter/10.1007/978-981-13-9187-3_3",
+     "paper",
+     "Paper of UHTelPCC (TOCR-047)"
+    ]
+   ]
+  },
+  {
+   "query": "Telugu scene text recognition dataset",
+   "results": [
+    [
+     "https://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-ilst",
+     "dataset",
+     ""
+    ],
+    [
+     "https://ilocr.iiit.ac.in/dataset/68/",
+     "dataset",
+     ""
+    ],
+    [
+     "https://cvit.iiit.ac.in/research/projects/cvit-projects/indicstr",
+     "dataset",
+     "Project page of IndicSTR12 (TOCR-071)"
+    ]
+   ]
+  },
+  {
+   "query": "Telugu palm leaf manuscript dataset",
+   "results": [
+    [
+     "https://www.amrita.edu/publication/a-data-acquisition-and-analysis-system-for-palm-leaf-documents-in-telugu/",
+     "paper",
+     "Recorded as TOCR-212"
+    ],
+    [
+     "https://www.griet.ac.in/images/1-s2.0-S2215098616303627-main.pdf",
+     "paper",
+     "Paper of TOCR-120"
+    ],
+    [
+     "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10864864/",
+     "dataset",
+     "Tamil palm-leaf set (THPLMD); no Telugu - screened out"
+    ],
+    [
+     "https://b2find.eudat.eu/dataset/f0497ec0-a60f-5710-96b4-2bf9adef6f56",
+     "dataset",
+     "Hamburg palm-leaf word sets (Tamil manuscripts); no Telugu - screened out"
+    ]
+   ]
+  },
+  {
+   "query": "video script identification dataset CVSI 2015 Telugu",
+   "results": [
+    [
+     "https://www.ict.griffith.edu.au/cvsi2015/Dataset.php",
+     "dataset",
+     ""
+    ]
+   ]
+  },
+  {
+   "query": "Telugu online handwriting dataset",
+   "results": [
+    [
+     "https://lipitk.sourceforge.net/hpl-datasets.htm",
+     "dataset",
+     ""
+    ],
+    [
+     "https://biotech.iitm.ac.in/faculty_website/CNS_LAB/OHwCR.html",
+     "page",
+     "IIT Madras online Telugu HWR project page; no dataset released - screened out"
+    ]
+   ]
+  },
+  {
+   "query": "Telugu newspaper digitization archive",
+   "results": [
+    [
+     "https://eap.bl.uk/project/EAP038",
+     "dataset",
+     ""
+    ]
+   ]
+  },
+  {
+   "query": "ICDAR competition Indic scene text Telugu",
+   "results": [
+    [
+     "https://ilocr.iiit.ac.in/icpr_2024_wirindic/dataset.html",
+     "dataset",
+     ""
+    ],
+    [
+     "https://ilocr.iiit.ac.in/icdar_2025_MLT-RSTR/",
+     "dataset",
+     ""
+    ]
+   ]
+  },
+  {
+   "query": "Telugu handwritten documents pages transcription",
+   "results": [
+    [
+     "https://ilocr.iiit.ac.in/icdar_2024_hwd/dataset.html",
+     "dataset",
+     ""
+    ]
+   ]
+  },
+  {
+   "query": "Telugu OCR benchmark VLM",
+   "results": [
+    [
+     "https://huggingface.co/datasets/krutrim-ai-labs/IndicVisionBench",
+     "dataset",
+     ""
+    ],
+    [
+     "https://www.sarvam.ai/blogs/Sarvam-vision",
+     "page",
+     "Blog for Sarvam Indic OCR Bench (TOCR-059)"
+    ]
+   ]
+  },
+  {
+   "query": "Telugu memes dataset",
+   "results": [
+    [
+     "https://doi.org/10.1007/978-3-031-58495-4_2",
+     "dataset",
+     ""
+    ],
+    [
+     "https://doi.org/10.1109/isacc65211.2025.10969246",
+     "dataset",
+     ""
+    ]
+   ]
+  }
+ ]
+}

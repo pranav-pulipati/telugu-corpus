@@ -145,6 +145,10 @@ for f in sorted(os.listdir(os.path.join(EV, 'discovery'))):
         for pl in ('kaggle', 'hf', 'datacite'):
             qs = [l for l in d['log'] if l['platform'] == pl]
             plat.append((f'{pl} (round 2, broader queries)', len(qs), len(d[pl]), d.get('queried', '')))
+    elif isinstance(d, dict) and 'listings' in d and 'datasets' in d:
+        plat.append(('hf full paginated listing (round 3)', len(d['listings']), d.get('total_datasets_listed', len(d['datasets'])), d.get('queried', '')))
+    elif isinstance(d, dict) and 'repos' in d:
+        plat.append(('github deep, all pages + file trees (round 3)', len(d['queries']), len(d['repos']), d.get('queried', '')))
     elif isinstance(d, dict) and 'seeds' in d:
         plat.append(('openalex citations (round 2)', len(d['seeds']), len(d['hits']), d.get('queried', '')))
     elif isinstance(d, dict) and 'queries' in d and 'hits' in d:
@@ -152,6 +156,8 @@ for f in sorted(os.listdir(os.path.join(EV, 'discovery'))):
         label = {'s2': 's2 (Semantic Scholar, partial)'}.get(label, label)
         if name in ('shodhganga', 'mendeley'):
             label += ' (round 2)'
+        if name == 'crossref':
+            label += ' (round 3)'
         plat.append((label, len(d['queries']), len(d['hits']), d.get('queried', '')))
 api_rows = json.load(open(os.path.join(EV, 'ilocr', 'api_list.json')))['rows']
 ilocr_ds = json.load(open(os.path.join(EV, 'ilocr', 'ilocr_datasets.json')))
@@ -162,6 +168,26 @@ arxiv_hits = next((p[2] for p in plat if p[0] == 'arxiv'), 0)
 papers_rows = {r['Research paper URL'] for r in R if r['Research paper URL'].startswith('http')}
 link_rows = list(csv.DictReader(open(os.path.join(EV, 'link_check.csv'), encoding='utf-8'))) if os.path.exists(os.path.join(EV, 'link_check.csv')) else []
 link_bad = [l for l in link_rows if not l['HTTP status'].startswith(('2', '3'))]
+
+# reviewer simulation (round 3): map every search-result URL to catalogue rows
+MSIM = json.load(open(os.path.join(EV, 'manager_simulation_searches.json')))
+MSIM_ROWS = [(srch['query'], u, k, n) for srch in MSIM['searches'] for u, k, n in srch['results']]
+_URLFIELDS = ['Official webpage URL', 'Direct download URL', 'Hugging Face URL', 'GitHub URL', 'Kaggle URL', 'Zenodo / Figshare / archive URL', 'Research paper URL', 'DOI', 'Alternative names']
+
+
+def _norm(u):
+    u = re.sub(r'^https?://(www\.)?', '', u.strip().lower()).rstrip('/')
+    return re.sub(r'\.(pdf|html?)$', '', u)
+
+
+def _match(u):
+    nu = _norm(u)
+    hits = []
+    for r in R:
+        blob = ' '.join(r[f] for f in _URLFIELDS).lower()
+        if nu in blob or nu.replace('www.', '') in blob:
+            hits.append(r['Dataset ID'])
+    return hits
 
 # directly investigated platforms (beyond the API sweeps)
 MANUAL = [
@@ -182,6 +208,12 @@ MANUAL = [
     ('Google Scholar', 'Round 2: redirects scripts to a bot check; covered indirectly by ~25 general web searches'),
     ('HF datasets-server API', 'Round 2: Telugu row counts for 7 multilingual sets without downloading'),
     ('ACL Anthology, JASTT, IOSR and other journal sites', 'Round 2: papers found through citations/search read for dataset links'),
+    ('Papers with Code archive (pwc-archive/datasets, 15,008 dataset records)', 'Round 3: full index filtered for Telugu and Indic OCR; nothing new'),
+    ('OpenDataLab / OpenXLab', 'Round 3: search API and web search; no Telugu datasets'),
+    ('B2FIND (EUDAT metadata aggregator)', 'Round 3: exact-phrase search; 44 hits, none OCR'),
+    ('IEEE DataPort (DataCite prefix 10.21227 + "telugu")', 'Round 3: all 48 records listed; every Telugu image dataset already in the CSV'),
+    ('ILOCR dataset catalogue re-probe (IDs 60-130) and competition sites', 'Round 3: no new Telugu pages; ICDAR 2025 MLT-RSTR found; IHDR/MLT-RSTR zips still 404'),
+    ('Griffith CVSI-2015 site, British Library EAP, Amrita, NITK repositories', 'Round 3: legacy competition/archive pages and paper-only datasets'),
     ('HP Labs / LipiTk site', 'Dataset page and licence read'),
     ('CMATERdb (Jadavpur)', 'Telugu numeral subset confirmed'),
     ('IHDIA (ihdia.iiit.ac.in)', 'Indiscapes project pages'),
@@ -218,6 +250,7 @@ candidate, with the 36 requested columns plus five extra columns:
 - **Existing catalogue record** - the matching `record_id` in the repo's `MASTER_CATALOGUE.csv`, if any.
 - **Discovery round** - `Round 1` (first pass) or `Round 2` (second pass covering the channels left open in round 1).
 - **Round 2 change** - what round 2 changed in a round-1 row (or `New in round 2`); `NONE` if unchanged.
+- **Round 3 change** - what round 3 (the adversarial completeness pass) changed in an earlier row (or `New in round 3`); `NONE` if unchanged.
 
 Rows are numbered `TOCR-001` to `TOCR-{len(R):03d}`. Unknown facts are written as `UNKNOWN` or `NOT VERIFIED`, never guessed.
 `Direct download URL` is filled only where a real file link was seen. Where a login or form is needed, the official page is given instead.
@@ -242,6 +275,9 @@ and `Verification status` = `VERIFIED`. That gives **{len(best)}** datasets.
 | Rows added in round 2 (all kinds) | {sum(r['Discovery round'].startswith('Round 2') for r in R)} |
 | ...of which new distinct datasets | {sum(r['Discovery round'].startswith('Round 2') and distinct(r) for r in DS)} |
 | Round-1 rows corrected or updated in round 2 | {sum(r['Round 2 change'] != 'NONE' and not r['Discovery round'].startswith('Round 2') for r in R)} |
+| Rows added in round 3 (all kinds) | {sum(r['Discovery round'].startswith('Round 3') for r in R)} |
+| ...of which new distinct datasets | {sum(r['Discovery round'].startswith('Round 3') and distinct(r) for r in DS)} |
+| Earlier rows corrected or updated in round 3 | {sum(r['Round 3 change'] != 'NONE' and not r['Discovery round'].startswith('Round 3') for r in R)} |
 
 ## Categories
 
@@ -268,6 +304,8 @@ Counts are for dataset rows; "distinct" counts only rows marked `Y`.
 | [LICENSING_AND_ACCESS_REPORT.md](LICENSING_AND_ACCESS_REPORT.md) | Licences grouped by what they allow, and licence conflicts found |
 | [COVERAGE_REPORT.md](COVERAGE_REPORT.md) | What is well covered, what is missing, and which search channels are still open |
 | [CURRENT_STATE_AUDIT.md](CURRENT_STATE_AUDIT.md) | Audit of the OCR entries in the existing `MASTER_CATALOGUE.csv` |
+| [ADVERSARIAL_COMPLETENESS_AUDIT.md](ADVERSARIAL_COMPLETENESS_AUDIT.md) | Round 3: four discovery passes, reviewer cross-check table, corrections, gaps and readiness |
+| [MISSING_DATASET_CANDIDATES.csv](MISSING_DATASET_CANDIDATES.csv) | Unconfirmed candidates and leads (supporting file only; `telugu_ocr_final.csv` stays the master) |
 
 ## How it was built
 
@@ -277,6 +315,7 @@ Counts are for dataset rows; "distinct" counts only rows marked `Y`.
 - `scripts/discover.py`, `screen_hf.py`, `fetch_pages.py` - the round-1 search sweeps; results in `evidence/discovery/` and `evidence/pages/`.
 - `scripts/sweep_round2.py`, `citations.py`, `shodhganga.py`, `mendeley.py`, `hf_subset_counts.py` - round-2 sweeps and Telugu-share counts.
 - `scripts/entries_d.py` - round-2 rows and corrections to round-1 rows.
+- `scripts/entries_e.py` - round-3 rows and corrections; `hf_full_listing.py`, `github_deep.py`, `crossref.py` - round-3 sweeps.
 - `scripts/validate_directory.py` - checks the CSV, the reports, reproducibility, links coverage and repo hygiene.
 - `scripts/link_check.py` - checks every link (HEAD or 1 KB request); results in `evidence/link_check.csv`.
 - `evidence/ilocr/` - the ILOCR dataset-page probe and the parsed API list.
@@ -375,6 +414,16 @@ Found in round 2:
 - **Roboflow iitbresearchwork/telugu-ocr (TOCR-191)** is suspected to be word-box annotations of PHDIndic_11 Telugu pages (TOCR-015), because the same workspace hosts a "Malayalam PhDIndic11" project.
 - **IIIT-H Word Recognition Synthetic (TOCR-186)** renders the same 1,000-word vocabulary as the real IIIT-H word set (TOCR-044).
 - **ULCA Project Anuvaad Telugu OCR corpus (TOCR-208)** comes from the same EkStep/Tarento group as the synthetic benchmark (TOCR-102). Overlap is possible but not confirmed.
+
+Found in round 3:
+
+- **axlevisu Telugu character set (TOCR-038) is a compilation**: its 45,217 characters match the HP Labs offline count (TOCR-021) and its 3,000 numerals match CMATERdb (TOCR-032). It no longer counts as distinct.
+- **GitHub medini-r/teluguChar (TOCR-224)** is a direct copy of the HP Labs offline folders (hpl-telugu-iso-char-offline/usr_*).
+- **tiny-captcha-library (TOCR-223)** is a 10,000-image release of the same generator as synthetic-captchas-library (TOCR-101, 100,000 Telugu).
+- **LT-EDI 2024 Telugu troll memes (TOCR-215)** share an organiser with the NITK Telugu meme dataset (TOCR-214) and are treated as the same data.
+- **ICDAR 2025 MLT-RSTR (TOCR-213)** is a roadside collection, suspected to share images with IIIT-IndicSTR-Word / WIRIndic (TOCR-079/080).
+- **keerthan-381 palm-leaf crops (TOCR-228)** share a project title with the code-only repo TOCR-174.
+- **rendered_wikipedia_te (TOCR-221)** renders Telugu Wikipedia text (TOCR-139).
 
 ## All relationships
 
@@ -500,6 +549,20 @@ new_tbl = table(['ID', 'Name', 'Category', 'Status', 'Distinct?'],
 chg_tbl = table(['ID', 'Name', 'Change'], [[r['Dataset ID'], md(r['Official dataset name'], 60), md(r['Round 2 change'], 90)]
                                          for r in R if r['Round 2 change'] != 'NONE' and not r['Discovery round'].startswith('Round 2')])
 
+# ------------------------------------------------------------------ round-3 evidence
+R3_CHANNELS = [
+    ('A. Institutions', 'IIIT-H/CVIT + ILOCR re-probe, UoH, IIT Bombay, IIT Madras, IISc MILE, C-DAC, NLTM/Bhashini, TDIL, AIKosh, Amrita, NITK, Telugu-state universities', 'ICDAR 2025 MLT-RSTR (TOCR-213), Amrita palm-leaf DB (212), Rasagna thesis sets (216), NITK memes (214); AIKosh/TDIL still unreachable'),
+    ('B. Papers', 'Crossref (20 queries, 2,516 records), OpenAlex citations (round 2), DataCite IEEE prefix sweep, arXiv/ACL pages, ICDAR/ICFHR competition reports', 'CVSI-2015 (210), meme datasets (215, 217, 218), handwritten script-ID sets (219, 220); UHTelPCC size; TOCR-108 conflict recorded'),
+    ('C. Platforms', 'HF full paginated listing (14 listings, 70,298 datasets), GitHub all-pages search (27 queries, 1,470 repos, 476 file trees), PwC archive, OpenDataLab, B2FIND, Roboflow, Kaggle (round 2)', 'rendered_wikipedia_te (221), NayanaIR-MonoBench-te (222), tiny CAPTCHA (223), 7 GitHub data repos (224-230); 4 GitHub repos rejected'),
+    ('D. Legacy / obscure', 'Wayback Machine, archived author pages, older competitions (CVSI 2015), British Library EAP, TDIL references in READMEs, palm-leaf and inscription searches', 'EAP038 Telugu books/periodicals (211); TDIL toolid 1892 lead; Tamil palm-leaf sets rejected'),
+    ('Reviewer simulation', f"{len(MSIM['searches'])} likely reviewer searches; every dataset-like result mapped to a row", f"{sum(1 for _q, u, k, n in MSIM_ROWS if k == 'dataset' and _match(u))}/{sum(1 for _q, u, k, n in MSIM_ROWS if k == 'dataset')} dataset results already/now in the CSV"),
+]
+r3_tbl = table(['Pass', 'What was searched', 'Outcome'], R3_CHANNELS)
+new3_tbl = table(['ID', 'Name', 'Category', 'Status', 'Distinct?'],
+                 [[r['Dataset ID'], name_link(r, 60), md(r['Resource category'], 40), r['Verification status'], md(r['Counts as distinct dataset'], 40)] for r in R if r['Discovery round'].startswith('Round 3')])
+chg3_tbl = table(['ID', 'Name', 'Change'], [[r['Dataset ID'], md(r['Official dataset name'], 60), md(r['Round 3 change'], 90)]
+                                          for r in R if r['Round 3 change'] != 'NONE' and not r['Discovery round'].startswith('Round 3')])
+
 # ------------------------------------------------------------------ DISCOVERY LOG
 plat_tbl = table(['Platform (API)', 'Queries run', 'Unique hits', 'Date'], [[p, q, f'{h:,}', md(d, 20)] for p, q, h, d in plat])
 manual_tbl = table(['Platform / site', 'What was done'], MANUAL)
@@ -596,17 +659,33 @@ Beyond these {n_rej} rows, several hundred search hits were discarded during scr
 Telugu text-only NLP sets, speech sets, and Telugu-tagged HF sets with no images. The `hf_screen.json` and
 `platform_candidates.txt` files in `evidence/discovery/` keep the screening decisions.
 
-## 9. Channels still open
+## 9. Round 3 (adversarial completeness pass, {DATE})
+
+Round 3 assumed an independent reviewer would search for Telugu OCR data and tried to find anything they could find that the CSV lacked.
+Full details, including a reviewer cross-check table, are in [ADVERSARIAL_COMPLETENESS_AUDIT.md](ADVERSARIAL_COMPLETENESS_AUDIT.md).
+
+{r3_tbl}
+
+### New rows added in round 3
+
+{new3_tbl}
+
+### Earlier rows changed in round 3
+
+{chg3_tbl}
+
+## 10. Channels still open
 
 - **Semantic Scholar** - partly done: {s2_n} of 36 planned queries attempted and {s2_ok} answered before the run was stopped (repeated HTTP 429). Re-run with an API key.
 - **Google Scholar** - blocks scripts; covered only through general web searches.
 - **IEEE Xplore / Springer / Elsevier full text** - paywalled. Only abstracts and open versions were read, so dataset links inside paywalled papers may be missed.
-- **AIKosh full listing** - the portal timed out (HTTP 504) during round 2; pages were found through web search only.
+- **AIKosh full listing** - the portal timed out (HTTP 504 / no response) in rounds 2 and 3; pages were found through web search only.
 - **TDIL-DC** - certificate expired, not bypassed. The Telugu image corpus there is unconfirmed.
 - **Roboflow Universe** - blocks scripts; 8 Telugu projects are known from search snippets only (sizes and classes unconfirmed).
+- **Small GitHub archives** - a few student repos hold RAR/ZIP/CSV character data whose contents were not inspected (see MISSING_DATASET_CANDIDATES.csv).
 - **ULCA downloads** - the two Telugu OCR corpora are listed, but downloading needs a login and a search request.
 - **Institutional repositories beyond Shodhganga** (university DSpace sites) - only UoH was checked.
-- **Direct contact with authors** - not done. CHIPS, UniLipi, the JASTT corpus, UHTelPCC/UHTelHwCC and other unreleased sets could probably be requested by email.
+- **Direct contact with authors** - not done. CHIPS, UniLipi, the JASTT corpus, UHTelPCC/UHTelHwCC, the Telugu meme datasets and other unreleased sets could probably be requested by email.
 """)
 
 # ------------------------------------------------------------------ COVERAGE
@@ -632,6 +711,7 @@ We **cannot claim** this list includes every Telugu OCR dataset that exists. Wha
 - ILOCR, the main Indian OCR consortium, was checked exhaustively (every dataset ID, the full API list, every competition site).
 - Hits from the API sweeps that matched both Telugu and OCR terms were reviewed. Later query variants mostly brought back datasets we already had, which suggests the open platforms are close to fully covered.
 - Round 2 (citations, theses, Roboflow, AIKosh, ULCA, Wayback, broader platform queries) added {sum(r['Discovery round'].startswith('Round 2') and distinct(r) for r in DS)} distinct datasets. Most of them are unreleased, gated or very new (2025-26), not overlooked open releases. That is further evidence the open channels are close to saturated, but not proof.
+- Round 3 (four independent passes plus a simulated reviewer search) added {sum(r['Discovery round'].startswith('Round 3') and distinct(r) for r in DS)} distinct datasets. Most are small GitHub uploads, paper-only meme/script-ID sets or legacy archives; the major open releases were already present.
 - Gaps are most likely in: datasets described only in paywalled papers or theses, private university collections, Roboflow projects, government portals that need a browser, and commercial vendors.
 
 ## Distinct datasets by category
@@ -677,6 +757,9 @@ Telugu image-text OCR datasets by granularity (distinct): {', '.join(f'{k} {v}' 
 | Roboflow Universe | **Partly searched** (search snippets only; pages block scripts) |
 | TDIL-DC | **Blocked** (expired certificate; not bypassed) |
 | Paywalled full text, other university repositories | **Not searched** |
+| Hugging Face full paginated listing; GitHub all-pages search + file trees | Exhausted (round 3) |
+| Crossref; Papers with Code archive; OpenDataLab; B2FIND | Exhausted (round 3) |
+| ILOCR re-probe, older competitions (CVSI 2015), British Library EAP | Done (round 3) |
 | Author contact for unreleased data | **Not done** |
 """)
 
@@ -720,6 +803,131 @@ audit trail stays as it is. Applying them to the master catalogue is a separate 
 All 16 `TEL-OCR` records map to directory rows. **{new}** distinct datasets in the directory have no catalogue record.
 
 {table(['Catalogue record', 'Directory row', 'Name', 'Status now', 'Category'], cat_rows2)}
+""")
+
+# ------------------------------------------------------------------ MISSING_DATASET_CANDIDATES.csv (supporting file, not a master)
+LEADS = json.load(open(os.path.join(EV, 'round3_leads.json')))['leads']
+cand = []
+for r in R:
+    if r['Resource category'] in NOT_DS:
+        continue
+    st, dd = r['Verification status'], r['Counts as distinct dataset']
+    if dd.startswith('UNKNOWN') or st == 'UNVERIFIED' or (st == 'INACCESSIBLE' and re.search(r'not released|announced|coming soon|no public|no release|later release', r['Access status'] + r['Access requirements'], re.I)):
+        why = []
+        if st in ('UNVERIFIED', 'INACCESSIBLE'):
+            why.append(f'status {st}')
+        if dd.startswith('UNKNOWN'):
+            why.append('distinctness unknown')
+        cand.append([r['Dataset ID'], r['Official dataset name'], link(r), 'Yes - ' + r['Dataset ID'], st, r['Resource category'],
+                     'Unconfirmed row already in the master catalogue', '; '.join(why) + ('; ' + r['Access status'] if r['Access status'] else ''),
+                     'Contact authors / re-check source' if st in ('UNVERIFIED', 'INACCESSIBLE') else 'Compare files with the suspected parent'])
+for l in LEADS:
+    cand.append([l['id'], l['name'], l['url'], 'No (lead only)', 'NOT IN CATALOGUE', 'UNKNOWN', 'Lead not added as a row (' + l['channel'] + ')',
+                 l['reason'] + ' | Telugu evidence: ' + l['telugu_evidence'], l['next_step']])
+with open(os.path.join(DIR, 'MISSING_DATASET_CANDIDATES.csv'), 'w', newline='', encoding='utf-8') as f:
+    w = csv.writer(f)
+    w.writerow(['Candidate ID', 'Name', 'URL', 'In telugu_ocr_final.csv?', 'Master verification status', 'Master category', 'Candidate type', 'Why unconfirmed', 'Next step'])
+    w.writerows(cand)
+n_cand_rows = sum(1 for c in cand if c[3].startswith('Yes'))
+
+# ------------------------------------------------------------------ ADVERSARIAL_COMPLETENESS_AUDIT.md
+msim_tbl = table(['Reviewer query', 'Result URL', 'Kind', 'In CSV as', 'Note'],
+                 [[md(q, 40), md(u, 80), k, ', '.join(_match(u)) or '-', md(n, 90)] for q, u, k, n in MSIM_ROWS])
+ds_res = [(q, u, n) for q, u, k, n in MSIM_ROWS if k == 'dataset']
+ds_hit = [x for x in ds_res if _match(x[1])]
+ds_miss = [x for x in ds_res if not _match(x[1])]
+inacc_tbl = table(['ID', 'Dataset', 'Status', 'Reason'], [[r['Dataset ID'], md(r['Official dataset name'], 60), r['Verification status'], md(r['Access status'], 110)]
+                                                        for r in R if r['Verification status'] in ('INACCESSIBLE', 'GATED', 'COMMERCIAL')])
+hf_full = _load('hf_full_listing.json'); gh_deep = _load('github_deep.json'); cr = _load('crossref.json')
+write('ADVERSARIAL_COMPLETENESS_AUDIT.md', f"""
+# Adversarial completeness audit
+
+**Question:** if an independent reviewer searches for Telugu OCR datasets, will everything they find already be in
+[`telugu_ocr_final.csv`](../../telugu_ocr_final.csv)? Round 3 ({DATE}) tried to answer that by attacking the catalogue from four
+independent directions and by simulating the reviewer's own searches.
+
+**Bottom line:** distinct datasets went from 92 (round 1) to 104 (round 2) to **{n_distinct}** now, in **{len(R)}** rows.
+Round 3 added {sum(r['Discovery round'].startswith('Round 3') for r in R)} rows ({sum(r['Discovery round'].startswith('Round 3') and distinct(r) for r in DS)} new distinct datasets, the rest copies, unconfirmed leads or rejections)
+and corrected {sum(r['Round 3 change'] != 'NONE' and not r['Discovery round'].startswith('Round 3') for r in R)} earlier rows.
+Of the {len(ds_res)} dataset-type results returned by {len(MSIM['searches'])} simulated reviewer searches, **{len(ds_hit)}** map to a row in the CSV{'' if not ds_miss else f' and {len(ds_miss)} do not (listed in section 3)'}.
+
+## 1. Discovery channels investigated
+
+{r3_tbl}
+
+Earlier rounds (see [DISCOVERY_LOG.md](DISCOVERY_LOG.md)) covered Hugging Face, Kaggle, GitHub, Zenodo, Figshare, DataCite, Dataverse,
+Internet Archive, OpenAlex, arXiv, Semantic Scholar (partial), Mendeley, Shodhganga, OpenAlex citations, ILOCR, CVIT, ULCA, AIKosh (via search),
+Roboflow (via search) and the Wayback Machine. In total **{n_platforms}** platforms and sites have been investigated.
+
+## 2. Search queries and sources used in round 3
+
+- **Simulated reviewer searches ({len(MSIM['searches'])}):** {'; '.join(x['query'] for x in MSIM['searches'])}.
+- **Hugging Face full listing:** {'; '.join(f"{l['kind']}={l['value']} ({l.get('datasets', 0):,})" for l in hf_full.get('listings', []))}. Every page was followed up to 60 pages per listing (only the noisy -te-/_te_ substring listings reached that cap); {hf_full.get('total_datasets_listed', len(hf_full.get('datasets', {}))):,} datasets screened by tags and names.
+- **GitHub (all result pages, up to the 1,000-result API cap):** {'; '.join(q['query'] for q in gh_deep.get('queries', []))}. {len(gh_deep.get('repos', {})):,} repositories; file trees of {sum(1 for r in gh_deep.get('repos', {}).values() if r.get('ocr_like'))} OCR-related repos checked for images, labels and archives.
+- **Crossref:** {'; '.join(q['query'] for q in cr.get('queries', []))} ({len(cr.get('hits', {})):,} records).
+- **Other web searches:** institution names (IIT Bombay/AIKosh, C-DAC, IISc MILE, IIT Madras, Andhra/JNTU/IIIT Sri City/NIT Warangal), legacy terms (CVSI 2015, video script identification, online handwriting, palm leaf, inscriptions, newspapers digitisation, TDIL), meme datasets, handwritten documents/answer sheets, VLM OCR benchmarks.
+- **Archives:** Papers with Code archive ({'15,008'} dataset records), OpenDataLab, B2FIND, Wayback Machine (IIIT, UoH, TDIL, EAP pages).
+
+## 3. Reviewer cross-check
+
+Each result URL returned by the simulated reviewer searches, and where it sits in the CSV. "-" means the URL itself is not a row
+(papers, models, demos and screened-out non-Telugu sets); the note says why.
+
+{msim_tbl}
+
+## 4. Newly discovered datasets (round 3)
+
+{new3_tbl}
+
+## 5. Why these were missed before
+
+- **API caps:** round-1 Hugging Face searches stopped at 200 results per query and GitHub searches at the first page; the full listings in round 3 found the rendered Wikipedia, NayanaIR-MonoBench-te and tiny-CAPTCHA sets and seven small GitHub data repos.
+- **Query scope:** meme datasets and video-frame script identification (CVSI 2015) do not use the words "OCR" or "handwritten", so earlier query lists did not reach them.
+- **No Crossref pass before round 3:** Crossref surfaced the Springer/IEEE meme dataset papers.
+- **Legacy material:** the British Library EAP038 Telugu print archive and the Amrita palm-leaf database are only described on institutional pages.
+
+## 6. Existing catalogue errors corrected
+
+{chg3_tbl}
+
+Earlier corrections (rounds 1-2) are listed in [CURRENT_STATE_AUDIT.md](CURRENT_STATE_AUDIT.md) and in the `Round 2 change` column.
+
+## 7. Unresolved leads
+
+[MISSING_DATASET_CANDIDATES.csv](MISSING_DATASET_CANDIDATES.csv) lists **{len(cand)}** candidates: {n_cand_rows} are already rows in the master
+CSV but unconfirmed (status UNVERIFIED, an unreleased announcement, or unknown distinctness), and {len(LEADS)} are leads that are not rows
+because nothing confirms they are Telugu image data. It is a supporting file; the master remains `telugu_ocr_final.csv`.
+
+## 8. Inaccessible, gated and commercial sources
+
+{inacc_tbl}
+
+Channels that blocked or failed: AIKosh (HTTP 504 / no response, rounds 2-3), TDIL-DC (expired TLS certificate, not bypassed), Roboflow
+and IEEE DataPort pages (HTTP 403 to scripts; metadata via search and DataCite), Semantic Scholar (HTTP 429), Google Scholar (bot check).
+
+## 9. Duplicate and derivative relationships
+
+{n_pairs} relationship pairs are recorded (details in [DUPLICATE_AND_MIRROR_REPORT.md](DUPLICATE_AND_MIRROR_REPORT.md)); {n_copies} dataset rows
+are mirrors, copies, subsets or compilations and are excluded from the distinct count.
+
+## 10. Remaining discovery gaps
+
+- AIKosh's full catalogue (including IIT Bombay's script datasets) could not be listed.
+- TDIL-DC resources (Telugu image corpus TOCR-046, toolid 1892) remain unreachable without bypassing TLS.
+- Roboflow project sizes/classes are known only from search snippets.
+- Paywalled full texts (IEEE Xplore, Springer, Elsevier) were read only as abstracts.
+- Semantic Scholar was only partly searched; Google Scholar only indirectly.
+- Small student archives on GitHub (RAR/ZIP/CSV) were not opened.
+- No authors were contacted; announced datasets (CHIPS, UniLipi, JASTT corpus, meme sets, UHTelPCC/UHTelHwCC) stay unconfirmed.
+
+## 11. Readiness for independent cross-verification
+
+- **Well defended:** anything findable through Hugging Face, Kaggle, GitHub, Zenodo, Figshare, DataCite/IEEE DataPort, Mendeley, ILOCR/CVIT,
+  arXiv/OpenAlex/Crossref or a general web search for Telugu OCR/handwriting/scene-text/character datasets. All {len(ds_hit)} dataset results of the
+  simulated reviewer searches resolve to rows.
+- **Partly defended:** portal-only sources (AIKosh, TDIL, Roboflow), paper-only datasets that were never released, and theses.
+- **Honest limit:** the catalogue cannot prove that no dataset exists elsewhere. A reviewer who finds a dataset in the gaps above should
+  add it via `scripts/entries_e.py` and re-run `build_directory.py`, `make_docs.py` and `validate_directory.py`.
 """)
 
 # keep the pointer in the repo-root README in step with the CSV

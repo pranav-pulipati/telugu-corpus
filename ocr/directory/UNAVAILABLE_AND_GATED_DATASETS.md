@@ -3,7 +3,7 @@
 Datasets that cannot simply be downloaded. Checked on 2026-11-11. No access control was bypassed: no TLS
 verification was disabled, no logins were made, and no request forms were submitted.
 
-## Gated (login, form or approval needed) - 13
+## Gated (login, form or approval needed) - 14
 
 These exist and can usually be obtained. The "How to get it" column gives the procedure.
 
@@ -13,6 +13,7 @@ These exist and can usually be obtained. The "How to get it" column gives the pr
 | TOCR-022 | [Offline Handwritten Telugu Characters (Negi & M Rao, Univer...](https://ieee-dataport.org/documents/offline-handwritten-telugu-characters) | Character / glyph classification | 913 sheets x ~90 characters (~82,000 characters); 937 classes | Free IEEE DataPort account | Gated (login) |
 | TOCR-024 | [Telugu Handwritten Character Dataset (Velpuru et al.)](https://ieee-dataport.org/open-access/telugu-handwritten-character-dataset) | Character / glyph classification | UNKNOWN sample count (335.47 MB; up to 1,924 character classes descri... | IEEE DataPort subscription/login | Gated |
 | TOCR-026 | [Telugu Handwritten Vowels (Muppalaneni et al.)](https://ieee-dataport.org/documents/telugu-handwritten-vowels) | Character / glyph classification | 1,116 (train 875 / test 241) | IEEE DataPort login | Gated |
+| TOCR-027 | [Handwritten Telugu Gunintam క (Ka)](https://ieee-dataport.org/node/1880) | Character / glyph classification | 516 samples (listing states 463 train / 103 test - figures do not add... | IEEE DataPort login | DOI target 404s but ieee-dataport.org/node/1880 resolves (301) to the listing; login need... |
 | TOCR-028 | [AsTel - Offline Assamese and Telugu Handwritten Characters](https://ieee-dataport.org/documents/astel-offline-assamese-and-telugu-handwritten-characters) | Character / glyph classification | 625 Telugu classes (sample count NOT VERIFIED) | IEEE DataPort login | Gated (page HTTP 403 to scripts) |
 | TOCR-062 | [OCR-Bench1000-Telugu](https://huggingface.co/datasets/meharuhanzz/OCR-Bench1000-Telugu) | OCR image-text: printed | 1K-10K (HF size category) | HF login + manual approval | Gated (manual) |
 | TOCR-083 | [HF gated copy: Bhashini-IITJ/Bharat-Scene-Text-Dataset](https://huggingface.co/datasets/Bhashini-IITJ/Bharat-Scene-Text-Dataset) | OCR image-text: scene text | See TOCR-082 | HF login + accept terms | Gated (auto) |
@@ -29,17 +30,17 @@ Links were tried on the check date. Contacting the authors is the only route for
 
 | ID | Dataset | Category | Telugu size | How to get it | What we saw |
 |---|---|---|---|---|---|
-| TOCR-009 | [ICDAR 2025 IHDR Telugu (Indic Handwritten Document Recognit...](https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR/dataset.html) | OCR image-text: handwritten | UNKNOWN (10,000 pages across 10 languages per site) | Contact organisers | Telugu zips HTTP 404 (checked 2026-11-10); charlist zip still downloads |
-| TOCR-027 | [Handwritten Telugu Gunintam క (Ka)](https://doi.org/10.21227/phg6-m127) | Character / glyph classification | UNKNOWN | IEEE DataPort login | Both DOIs redirect (HTTP 302) to the IEEE landing page, which returns 404 (2026-11-11); m... |
+| TOCR-009 | [ICDAR 2025 IHDR Telugu (Indic Handwritten Document Recognit...](https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR/dataset.html) | OCR image-text: handwritten | UNKNOWN (10,000 pages across 10 languages per site) | Contact organisers | Telugu zips redirect to cdn.iiit.ac.in and return HTTP 404 (re-checked 2026-11-11); charl... |
 | TOCR-039 | [GitHub srikarym/OCR_Telugu_code - final_dataset.hdf5 (Googl...](https://github.com/srikarym/OCR_Telugu_code) | Character / glyph classification | UNKNOWN | Google Drive link | Drive link returns HTTP 404 (2026-11-11) |
 | TOCR-040 | [GitHub Mitradatta/Telugu-Character-Recognition - self-colle...](https://github.com/Mitradatta/Telugu-Character-Recognition) | Character / glyph classification | ~250 per character (claimed) | Not released | Data not public (repo has README only) |
 | TOCR-044 | [IIIT-H Word Recognition Dataset (Telugu)](https://web.archive.org/web/20221127093102/https://researchweb.iiit.ac.in/~pramod_sankar/CandD.html) | OCR image-text: printed | 32,773 word images (5-530 per word; 52 MB TIF) | None when live | Download 404; page only on the Wayback Machine |
 | TOCR-046 | [Telugu Image Corpus - OCR (TDIL / C-DAC Noida OCR Consortiu...](https://tdil-dc.in/index.php?lang=en&option=com_download&task=showresourceDetails&toolid=264) | Image-only (transcription NOT VERIFIED) | 500 (search-snippet description) | TDIL registration (reported) | Site TLS certificate expired (2026-11-11); page not readable |
-| TOCR-047 | [UHTelPCC: Telugu Printed Character Dataset (University of H...](http://scis.uohyd.ac.in/~chakcs/UHTelPCC.html) | Character / glyph classification | UNKNOWN | Contact authors | Project page 404; repository 503 |
+| TOCR-047 | [UHTelPCC: Telugu Printed Character Dataset (University of H...](http://scis.uohyd.ac.in/~chakcs/UHTelPCC.html) | Character / glyph classification | ~70,000 samples in 325 classes with train/val/test split (paper abstr... | Contact authors | Project page 404; repository 503 |
 | TOCR-182 | [CHIPS - Corpus of Handwritten Indic Scripts (Telugu pages)](https://arxiv.org/abs/2502.06172) | OCR image-text: handwritten | Telugu 1,951 train / 504 val / 419 test (2,874 pages); 25,290 pages a... | No public link found | No dataset link on arXiv, GitHub or HF (checked 2026-11-11) |
 | TOCR-186 | [IIIT-H Word Recognition Synthetic Dataset (Telugu)](https://web.archive.org/web/20221127093102/https://researchweb.iiit.ac.in/~pramod_sankar/CandD.html) | OCR image-text: synthetic | 28,000 word images (1,000 words x 28 fonts; 268 MB) | None when live | Download 404; page only on the Wayback Machine (researchweb.iiit.ac.in no longer resolves) |
 | TOCR-188 | [Handwritten Telugu character corpus (JASTT 2025, unreleased)](https://jastt.org/index.php/jasttpath/article/view/267) | Character / glyph classification | 33,496 characters | Not released | Announced for later release |
 | TOCR-189 | [UniLipi historical manuscript data - Telugu script](https://ihdia.iiit.ac.in/unilipi/) | OCR image-text: handwritten | Telugu: UNKNOWN (50-600 real pages per script; ~2.5M synthetic lines ... | Not released | Project page dataset link is a "coming soon" placeholder (2026-11-11) |
+| TOCR-213 | [ICDAR 2025 Competition on Multi-lingual Roadside Scene Text...](https://ilocr.iiit.ac.in/icdar_2025_MLT-RSTR/dataset.html) | OCR image-text: scene text | UNKNOWN | Competition registration | All validation/test zips HTTP 404 (2026-11-11); Telugu charlist downloads |
 
 ## Commercial (sold by vendors) - 4
 
@@ -52,7 +53,7 @@ Only samples or product pages are public. Licence and price are set per purchase
 | TOCR-065 | [FutureBeeAI Telugu Newspaper, Magazine and Books OCR Image ...](https://www.futurebeeai.com/dataset/ocr-dataset/telugu-newspaper-book-magazine-ocr-image-dataset) | Image-only (no transcription) | 5,000 (vendor claim) | Purchase | Paid |
 | TOCR-066 | [FutureBeeAI Telugu Product Image OCR Dataset](https://www.futurebeeai.com/dataset/ocr-dataset/telugu-product-image-ocr-dataset) | Image-only (no transcription) | 2,000 (vendor claim) | Purchase | Paid |
 
-## Unverified (mentioned in papers or READMEs, no public data confirmed) - 22
+## Unverified (mentioned in papers or READMEs, no public data confirmed) - 30
 
 Leads worth chasing, but nothing confirms the data is available.
 
@@ -80,11 +81,19 @@ Leads worth chasing, but nothing confirms the data is available.
 | TOCR-192 | [Roboflow Universe: vihaveai/telugu-info-detector](https://universe.roboflow.com/vihaveai/telugu-info-detector) | Layout / detection (no transcription) | UNKNOWN | Roboflow account | Page blocks scripts (HTTP 403) |
 | TOCR-193 | [Roboflow Universe: fives-data-tpoav/telugu](https://universe.roboflow.com/fives-data-tpoav/telugu) | Script identification | UNKNOWN | Roboflow account | Page blocks scripts (HTTP 403) |
 | TOCR-194 | [Roboflow Universe: centurion-university-n60kx/telugu-handwr...](https://universe.roboflow.com/centurion-university-n60kx/telugu-handwritten-project) | Layout / detection (no transcription) | 13 images (telugu-handwritten-project) | Roboflow account | Page blocks scripts (HTTP 403) |
+| TOCR-212 | [Telugu palm-leaf character database (Amrita, 2012)](https://www.amrita.edu/publication/a-data-acquisition-and-analysis-system-for-palm-leaf-documents-in-telugu/) | Character / glyph classification | UNKNOWN | Contact authors | No public release found |
+| TOCR-214 | [Telugu Meme Dataset (domain and troll identification, NITK)](https://doi.org/10.1007/978-3-031-58495-4_2) | Image-only (transcription NOT VERIFIED) | UNKNOWN | Contact authors / shared task | Repository page HTTP 502; no public download found |
+| TOCR-215 | [LT-EDI 2024 shared task: troll meme classification - Telugu](https://aclanthology.org/2024.ltedi-1.13.pdf) | Image-only (transcription NOT VERIFIED) | UNKNOWN (Telugu size not given in overview) | Shared-task registration | Not checked (CodaLab-style release) |
+| TOCR-216 | [IIIT Telugu document test sets (Rasagna 2013 MS thesis)](https://cvit.iiit.ac.in/research/thesis/thesis-students/studies-in-recognition-of-telugu-document-images) | OCR image-text: printed | UNKNOWN (one set ~200 pages per search snippet) | Contact CVIT | Internal; no release found |
+| TOCR-217 | [TelMeMood - multimodal Telugu meme sentiment dataset](https://doi.org/10.1109/isacc65211.2025.10969246) | Image-only (transcription NOT VERIFIED) | UNKNOWN | Contact authors | No public link found |
+| TOCR-218 | [Benchmark dataset for hateful memes detection in Telugu](https://doi.org/10.1007/978-3-032-13803-3_27) | Image-only (transcription NOT VERIFIED) | UNKNOWN | Contact authors | No public link found (Crossref record only) |
+| TOCR-219 | [Handwritten Indic script identification data (offline + onl...](https://arxiv.org/abs/1802.08568) | Script identification | ~10,000 Telugu samples (search snippet; NOT VERIFIED) | Contact authors | No release link in paper |
+| TOCR-220 | [Handwritten script identification text lines (Singh et al.,...](https://arxiv.org/abs/2009.07433) | Script identification | 800 lines total; Telugu share UNKNOWN | Contact authors | No release link |
 
 ## Link check
 
 Every URL in the CSV was requested once with a HEAD request (or, if that failed, a 1 KB ranged GET).
-387 links (278 unique) were checked. 28 did not return 2xx/3xx.
+434 links (310 unique) were checked. 29 did not return 2xx/3xx.
 HTTP 403 from IEEE DataPort, Roboflow, SSRN and ACM is bot-blocking: those pages open in a normal browser,
 and their metadata was confirmed through DataCite or search instead. Full results: `evidence/link_check.csv`.
 
@@ -96,7 +105,6 @@ and their metadata was confirmed through DataCite or search instead. Full result
 | TOCR-020 | Official webpage URL | https://universe.roboflow.com/centurion-university-n60kx/telugu-handwritten | 403 |
 | TOCR-022 | Zenodo / Figshare / archive URL | https://dspace.uohyd.ac.in/handle/1/8547 | 503 |
 | TOCR-026 | Research paper URL | https://doi.org/10.3138/jmbs-27676-sujjuri | 403 |
-| TOCR-027 | Official webpage URL | https://doi.org/10.21227/phg6-m127 | 404 |
 | TOCR-028 | Official webpage URL | https://ieee-dataport.org/documents/astel-offline-assamese-and-telugu-handwritten-charact... | 403 |
 | TOCR-039 | Direct download URL | https://drive.google.com/file/d/1ucYy_Emht9MRLjQPaUydSKZzN1ZQ77dd/view | 404 |
 | TOCR-041 | Zenodo / Figshare / archive URL | https://ilocr.iiit.ac.in/dataset/14/ | 500 |
@@ -106,9 +114,9 @@ and their metadata was confirmed through DataCite or search instead. Full result
 | TOCR-047 | Zenodo / Figshare / archive URL | https://dspace.uohyd.ac.in/handle/1/8703 | 503 |
 | TOCR-109 | Direct download URL | https://aikosh.indiaai.gov.in/home/datasets/details/indicdlp.html | ERR TimeoutError: The read operation timed out |
 | TOCR-118 | Research paper URL | https://doi.org/10.2139/ssrn.4903434 | 403 |
-| TOCR-120 | Official webpage URL | https://www.griet.ac.in/images/1-s2.0-S2215098616303627-main.pdf | ERR TimeoutError: The read operation timed out |
 | TOCR-126 | Official webpage URL | https://pressacademyarchives.ap.nic.in/ | ERR URLError: <urlopen error [Errno -5] No address associat... |
-| TOCR-159 | Official webpage URL | https://rrc.cvc.uab.es/?ch=15 | ERR URLError: <urlopen error _ssl.c:1067: The handshake ope... |
+| TOCR-146 | Official webpage URL | https://aikosh.indiaai.gov.in/home/datasets | ERR TimeoutError: The read operation timed out |
+| TOCR-159 | Official webpage URL | https://rrc.cvc.uab.es/?ch=15 | ERR URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILE... |
 | TOCR-178 | Official webpage URL | https://doi.org/10.5281/zenodo.20079705 | 410 |
 | TOCR-186 | Direct download URL | http://cvit.iiit.ac.in/docsearch/synthetic1000.tar | 404 |
 | TOCR-191 | Official webpage URL | https://universe.roboflow.com/iitbresearchwork/telugu-ocr | 403 |
@@ -118,3 +126,5 @@ and their metadata was confirmed through DataCite or search instead. Full result
 | TOCR-201 | Official webpage URL | https://doi.org/10.1145/3774521.3774586 | 403 |
 | TOCR-206 | Official webpage URL | https://aikosh.indiaai.gov.in/home/datasets/details/a_benchmark_and_dataset_for_post_ocr_... | ERR TimeoutError: The read operation timed out |
 | TOCR-208 | Zenodo / Figshare / archive URL | https://meity-auth.ulcacontrib.org/ulca/data-metric/v0/store/reportdata | 405 |
+| TOCR-210 | Official webpage URL | https://www.ict.griffith.edu.au/cvsi2015/Dataset.php | ERR URLError: <urlopen error [Errno 104] Connection reset b... |
+| TOCR-213 | Direct download URL | https://ilocr.iiit.ac.in/icdar_2025_MLT-RSTR/assets/dataset/Val/Val.zip | 404 |

@@ -26,7 +26,7 @@ audit trail stays as it is. Applying them to the master catalogue is a separate 
 
 ## Mapping
 
-All 16 `TEL-OCR` records map to directory rows. **78** distinct datasets in the directory have no catalogue record.
+All 16 `TEL-OCR` records map to directory rows. **89** distinct datasets in the directory have no catalogue record.
 
 | Catalogue record | Directory row | Name | Status now | Category |
 |---|---|---|---|---|
