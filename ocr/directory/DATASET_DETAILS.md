@@ -4,7 +4,7 @@ One short profile per row of `telugu_ocr_final.csv`, grouped by category. Checke
 Fields marked UNKNOWN or NOT VERIFIED could not be confirmed from the source.
 
 
-## OCR image-text: printed (17)
+## OCR image-text: printed (18)
 
 _Images of printed/born-digital Telugu text with human-made or human-checked transcriptions._
 
@@ -58,19 +58,21 @@ IIIT printed-page corpus used for multilingual Indic OCR (12 Indian languages + 
 - **Paper:** https://doi.org/10.1109/DAS.2016.68
 - **Overlap:** Possibly superseded by Mozhi (TOCR-041).
 
-### TOCR-044 - IIIT Telugu book collection (Pramod Sankar, Jawahar, Manmatha 2010)
+### TOCR-044 - IIIT-H Word Recognition Dataset (Telugu)
 
-33-book Telugu document-image collection used for collection-level OCR / word annotation research at IIIT Hyderabad.
+Printed Telugu word images of 1,000 distinct words sampled from 33 Digital Library of India books; labels hand-corrected (>99% accurate).
 
-- **Status:** UNVERIFIED · **Distinct:** UNKNOWN
+- **Status:** INACCESSIBLE · **Distinct:** Y
 - **Language / script:** Telugu / Telugu
-- **Content:** Image (printed books); Collection OCR; word annotation; granularity Word / page; Real
-- **Size:** 33 books (books)
-- **Labels:** Partial (per paper) - NOT VERIFIED
-- **Licence:** UNKNOWN (commercial: UNKNOWN; redistribution: UNKNOWN)
-- **Access:** No public release found; needs: UNKNOWN
+- **Content:** Image (printed words, TIF); Word recognition; granularity Word; Real
+- **Size:** 32,773 word images (5-530 per word; 52 MB TIF) (word images)
+- **Labels:** Yes - Word label (1,000 classes)
+- **Licence:** None stated (cite DAS 2010) (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** Download 404; page only on the Wayback Machine; needs: None when live
 - **Source:** CVIT, IIIT Hyderabad; UMass; K. Pramod Sankar, C. V. Jawahar, R. Manmatha
+- **Link:** https://web.archive.org/web/20221127093102/https://researchweb.iiit.ac.in/~pramod_sankar/CandD.html
 - **Paper:** NOT VERIFIED (DAS 2010; "Nearest neighbor based collection OCR")
+- **Download:** http://cvit.iiit.ac.in/docsearch/thatz1000.tar (HTTP 404 on 2026-11-11)
 
 ### TOCR-045 - Building Data Sets for Indian Language OCR Research (annotated corpus, 2009)
 
@@ -257,6 +259,23 @@ Course/research repo with 1,924 Telugu page images and a ground-truth manifest f
 - **Source:** Individual / course project; diuguide
 - **Link:** https://github.com/diuguide/telugu-ocr
 
+### TOCR-172 - ORB-Indic (krutrim-ai-labs/ocr_rotation_bench) - Telugu pages
+
+Rotation-robust OCR benchmark: Wikisource page images in 11 Indic languages with human-edited transcriptions, presented at 4 and 8 rotation classes.
+
+- **Status:** PARTIALLY VERIFIED · **Distinct:** N (suspected same pages as TOCR-130; derived from TOCR-049)
+- **Language / script:** Multilingual (11 Indic; Telugu 89) / Telugu
+- **Content:** Image (rotated printed pages); Orientation detection + OCR evaluation; granularity Page; Real pages (rotated)
+- **Size:** 966 pages total; Telugu 89 (paper Table 1) (page images)
+- **Labels:** Yes - Rotation label + page transcription (Wikisource pagetext)
+- **Licence:** Krutrim Community License 1.0 (commercial: Per Krutrim licence (NOT VERIFIED); redistribution: Per Krutrim licence (NOT VERIFIED))
+- **Access:** Open (HF; Indic files 226 MB + 509 MB); needs: None
+- **Source:** Krutrim AI Labs; Suranjan Goswami, Abhinav Ravi, Raja Kolla, Ali Faraz, Shaharukh Khan, Akash, Chandra Khatri, Shubham Agarwal
+- **Link:** https://huggingface.co/datasets/krutrim-ai-labs/ocr_rotation_bench
+- **Paper:** https://arxiv.org/abs/2511.04161
+- **Overlap:** Derived from Telugu Wikisource (TOCR-049); suspected same 89 Telugu pages as IndicVisionBench OCR (TOCR-130).
+- **Notes:** Round 1 rejected this row after sampling English rows; the paper confirms Telugu.
+
 ### TOCR-181 - Kaggle: OCR Stress Test v2 Multilingual Benchmark (harishk2209)
 
 Indic folders include gu, tamil ...; Telugu presence NOT VERIFIED (file list fetch failed).
@@ -270,9 +289,10 @@ Indic folders include gu, tamil ...; Telugu presence NOT VERIFIED (file list fet
 - **Access:** Open listing; needs: Kaggle account
 - **Source:** Individual; UNKNOWN
 - **Link:** https://www.kaggle.com/datasets/harishk2209/ocr-stress-test-v2
+- **Notes:** 144 images + ground_truth.csv; file names carry no language; Telugu presence still NOT VERIFIED.
 
 
-## OCR image-text: handwritten (10)
+## OCR image-text: handwritten (12)
 
 _Images of handwritten Telugu words/lines/pages with transcriptions._
 
@@ -447,6 +467,37 @@ Telugu validation/test pages for word detection (Task A) and page recognition (T
 - **Source:** Individual uploader; himanshukumarrajak
 - **Link:** https://www.kaggle.com/datasets/himanshukumarrajak/indic-data
 - **Overlap:** Mirror of IIIT datasets (TOCR-001..003).
+
+### TOCR-182 - CHIPS - Corpus of Handwritten Indic Scripts (Telugu pages)
+
+Page-level handwritten Indic OCR dataset labelled for word detection and recognition, released with the PLATTER page-level HTR system; 10 languages.
+
+- **Status:** INACCESSIBLE · **Distinct:** UNKNOWN (may be a re-composition of TOCR-002 words)
+- **Language / script:** Multilingual (10 Indic; Telugu rows in Table 4) / Telugu
+- **Content:** Image (handwritten pages); Page-level handwritten text detection + recognition; granularity Page (word boxes); Pages built from real handwritten word images (IIIT-INDIC-HW-WORDS); page layout composition NOT VERIFIED
+- **Size:** Telugu 1,951 train / 504 val / 419 test (2,874 pages); 25,290 pages all languages (page images)
+- **Labels:** Yes (per paper) - Word boxes + word transcriptions
+- **Licence:** UNKNOWN (paper says data/code released; no data licence found) (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** No dataset link on arXiv, GitHub or HF (checked 2026-11-11); needs: No public link found
+- **Source:** IIT Bombay; Badri Vishal Kasuba, Dhruv Kudale, Venkatapathy Subramanian, Parag Chaudhuri, Ganesh Ramakrishnan
+- **Link:** https://arxiv.org/abs/2502.06172
+- **Paper:** https://arxiv.org/abs/2502.06172
+- **Overlap:** Built from IIIT-INDIC-HW-WORDS word images (TOCR-002); PLATTER also uses PHDIndic_11 Telugu pages (TOCR-015).
+
+### TOCR-189 - UniLipi historical manuscript data - Telugu script
+
+Annotated palm-leaf/paper manuscript pages (50-600 pages per script) and ~2.5M synthetic lines per script for 13 Indic scripts incl. Telugu, for a unified multi-script manuscript OCR.
+
+- **Status:** INACCESSIBLE · **Distinct:** Y
+- **Language / script:** Sanskrit and other languages in Telugu script (13 scripts total) / Telugu
+- **Content:** Image (historical manuscripts + synthetic lines); Historical manuscript line OCR; granularity Line; Real + synthetic
+- **Size:** Telugu: UNKNOWN (50-600 real pages per script; ~2.5M synthetic lines per script) (pages / lines)
+- **Labels:** Yes - Line transcription (unified WX romanisation)
+- **Licence:** UNKNOWN (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** Project page dataset link is a "coming soon" placeholder (2026-11-11); needs: Not released
+- **Source:** IHDIA / CVIT, IIIT Hyderabad; UniLipi authors (IIIT Hyderabad)
+- **Link:** https://ihdia.iiit.ac.in/unilipi/
+- **Paper:** https://arxiv.org/abs/2608.28195
 
 
 ## OCR image-text: scene text (14)
@@ -676,7 +727,7 @@ Gated Hugging Face copy of BSTD.
 - **Notes:** Born-digital images grouped with scene text; Telugu subset not identified.
 
 
-## OCR image-text: synthetic (19)
+## OCR image-text: synthetic (23)
 
 _Computer-rendered Telugu text images; the label is the exact text that was rendered._
 
@@ -870,10 +921,10 @@ Synthetic/rendered Telugu documents with layout regions and VQA for document VLM
 
 Family of gated Hugging Face repositories from the Nayana project with Telugu-named files: source documents, 1M-page document OCR, translated DocMatix/PubMed pages and benchmarks.
 
-- **Status:** GATED · **Distinct:** UNKNOWN (counted once as a family)
+- **Status:** GATED · **Distinct:** Y (gated family, counted once)
 - **Language / script:** Multilingual (incl. Telugu) / Telugu
 - **Content:** Image (documents); Document OCR / VQA / retrieval; granularity Page; Mostly synthetic (rendered/translated)
-- **Size:** UNKNOWN per repo (HF size categories 1K-1M) (pages)
+- **Size:** Telugu repos: Nayana-DocOCR-te-14k-v2-arxiv, Nayana-DocQA-te-10k-v1-docmatix, Nayana-DocOCR-ml-mr-ta-te-or-pa-15k-v1-pubmed, Nayana-DocOCR-mr-ta-te-or-pa-15k-v1-docmatix (+ multi-Indic in-14k and Indic-1m repos) (pages)
 - **Labels:** Yes (per repo names) - NOT VERIFIED (gated)
 - **Licence:** Mostly none declared / CC BY-NC (OCRBench) (commercial: UNKNOWN; redistribution: UNKNOWN)
 - **Access:** Gated (manual); needs: HF login + manual approval
@@ -918,13 +969,14 @@ Synthetic OCR benchmark of 90K images with ground truth for 23 Indic languages.
 - **Status:** UNVERIFIED · **Distinct:** UNKNOWN
 - **Language / script:** Multilingual (23 incl. Telugu per paper) / Telugu
 - **Content:** Image (rendered); OCR benchmark; granularity UNKNOWN; Synthetic
-- **Size:** 90K total; Telugu share UNKNOWN (images)
+- **Size:** 90K images, 23 languages; Telugu table row 419 / 1,888 / 1,519 synthetic (column units not given) plus a real subset (images)
 - **Labels:** Yes - Ground-truth text
 - **Licence:** Paper CC BY 4.0; data UNKNOWN (commercial: UNKNOWN; redistribution: UNKNOWN)
 - **Access:** No download link found; needs: UNKNOWN
 - **Source:** EkStep Foundation; Tarento Technologies; Naresh Saini et al.
 - **Link:** https://arxiv.org/abs/2205.02543
 - **Paper:** https://arxiv.org/abs/2205.02543
+- **Notes:** Paper calls it publicly available but gives no download link (arXiv HTML and GitHub searched 2026-11-11). Scene-text lines in 8 languages incl. Telugu were labelled with Google Vision OCR (machine labels).
 
 ### TOCR-103 - Kaggle: Final_Telugu_Manuscript_Data (yvenkatasriramreddy)
 
@@ -967,9 +1019,73 @@ Synthetic Indic OCR records; Telugu presence NOT VERIFIED (no description).
 - **Access:** Open listing; needs: Kaggle account
 - **Source:** Individual; UNKNOWN
 - **Link:** https://www.kaggle.com/datasets/ocrteamriad/rs-synth-indic-data
+- **Notes:** 596 TFRecord shards with no language names in file paths; Telugu presence still NOT VERIFIED.
+
+### TOCR-183 - PLATTER ScrabbleGAN synthetic Telugu handwritten pages
+
+Synthetic handwritten Telugu words generated with ScrabbleGAN (trained on IIIT-INDIC-HW-WORDS) and composed into pages for detector pre-training.
+
+- **Status:** UNVERIFIED · **Distinct:** UNKNOWN
+- **Language / script:** Telugu / Telugu
+- **Content:** Image (synthetic handwriting pages); Handwritten text detection pre-training; granularity Page / word; Synthetic (GAN)
+- **Size:** 500,000 words on 11,879 pages (Table 2) (words / pages)
+- **Labels:** Yes (generated) - Word boxes + text
+- **Licence:** UNKNOWN (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** Not released (no link found); needs: No public link found
+- **Source:** IIT Bombay; Kasuba et al.
+- **Link:** https://arxiv.org/abs/2502.06172
+- **Paper:** https://arxiv.org/abs/2502.06172
+- **Overlap:** Generated from TOCR-002.
+
+### TOCR-184 - GlotOCR Bench - Telugu (Telu)
+
+OCR benchmark of real multilingual texts rendered as clean and old-document images across 100+ Unicode scripts; Telugu is one script config.
+
+- **Status:** GATED · **Distinct:** Y
+- **Language / script:** Multilingual (100+ scripts; Telu config) / Telugu
+- **Content:** Image (rendered text, clean + degraded); OCR evaluation; granularity Text block; Synthetic rendering of real text
+- **Size:** UNKNOWN rows; Telugu file v1.0/Telu_000.parquet is 39.0 MB (image-text pairs)
+- **Labels:** Yes - Source text (img_plain + img_old_document)
+- **Licence:** other ("open-evaluation"): evaluation only, no training or redistribution (commercial: UNKNOWN; redistribution: Not allowed)
+- **Access:** Gated (automatic); needs: HF login + tick "evaluation only" box
+- **Source:** CIS, LMU Munich; CIS LMU (cisnlp)
+- **Link:** https://huggingface.co/datasets/cis-lmu/GlotOCR-bench
+- **Paper:** https://arxiv.org/abs/2604.12978
+- **Quality:** Evaluation-only licence: cannot be used as training data.
+
+### TOCR-185 - BhartiOCR - Telugu
+
+Controlled synthetic OCR/document corpus: 28.5M image-text pairs, 71 Indian languages, 18 scripts, with a physical-degradation pipeline (paper textures, stamps, folds).
+
+- **Status:** GATED · **Distinct:** Y
+- **Language / script:** Multilingual (71; telugu config) / Telugu
+- **Content:** Image (synthetic documents); OCR pre-training; granularity Text block / line (per card); Synthetic
+- **Size:** 500,000 Telugu pairs in 100 WebDataset shards (data/telugu/) (image-text pairs)
+- **Labels:** Yes - Rendered text
+- **Licence:** other: software/metadata Apache-2.0; fonts OFL/GPL+FE/Apache; source text multi-licence (commercial: Depends on source-text licences; redistribution: Depends on source-text licences)
+- **Access:** Gated (manual); needs: HF login + manual approval
+- **Source:** Individual (Faizaniqbal); HF user Faizaniqbal (real name NOT VERIFIED)
+- **Link:** https://huggingface.co/datasets/Faizaniqbal/BhartiOCR
+
+### TOCR-186 - IIIT-H Word Recognition Synthetic Dataset (Telugu)
+
+Font-rendered word images of the 1,000 words in the IIIT-H Word Recognition Dataset, in 28 fonts, without degradation.
+
+- **Status:** INACCESSIBLE · **Distinct:** Y
+- **Language / script:** Telugu / Telugu
+- **Content:** Image (rendered words, TIF); Word recognition; granularity Word; Synthetic
+- **Size:** 28,000 word images (1,000 words x 28 fonts; 268 MB) (word images)
+- **Labels:** Yes - Word label (1,000 classes)
+- **Licence:** None stated (cite DAS 2010) (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** Download 404; page only on the Wayback Machine (researchweb.iiit.ac.in no longer resolves); needs: None when live
+- **Source:** CVIT, IIIT Hyderabad; Pramod Sankar K., C. V. Jawahar, R. Manmatha
+- **Link:** https://web.archive.org/web/20221127093102/https://researchweb.iiit.ac.in/~pramod_sankar/CandD.html
+- **Paper:** DAS 2010: Nearest Neighbor based Collection OCR (Pramod Sankar K., Jawahar, Manmatha)
+- **Download:** http://cvit.iiit.ac.in/docsearch/synthetic1000.tar (HTTP 404 on 2026-11-11)
+- **Overlap:** Same 1,000-word vocabulary as TOCR-044.
 
 
-## Machine-labelled OCR (not human ground truth) (4)
+## Machine-labelled OCR (not human ground truth) (5)
 
 _Image-text pairs whose text came from an OCR engine or an AI model, not a person. Use with care._
 
@@ -1028,9 +1144,26 @@ Photos of rural citizen-information boards (e.g. MGNREGA) in 6 Indic languages w
 - **Access:** Open (HF); needs: None
 - **Source:** Individual / research group; Litap007
 - **Link:** https://huggingface.co/datasets/Litap007/indic-citizen-information-board
+- **Notes:** HF filter on language column found no Telugu label; first rows are Hindi. Telugu share still NOT VERIFIED.
+
+### TOCR-208 - ULCA (Bhashini) OCR corpus - Telugu (Project Anuvaad)
+
+Telugu OCR corpora contributed to the national ULCA/Bhashini repository by Project Anuvaad (EkStep/Tarento): education domain and government press releases; collection method "web-scraping-ocr".
+
+- **Status:** PARTIALLY VERIFIED · **Distinct:** Y
+- **Language / script:** Telugu / Telugu
+- **Content:** Image (document pages / crops) + OCR text; Printed OCR; granularity UNKNOWN; Real (web-scraped documents)
+- **Size:** 224,614 (education) + 1,243 (government press releases) (records (unit as reported by ULCA metrics; NOT VERIFIED))
+- **Labels:** Yes - Text from OCR ("web-scraping-ocr"); human correction NOT VERIFIED
+- **Licence:** UNKNOWN (ULCA requires permissive licences for contributions) (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** Listed in ULCA public metrics (2026-11-11); download not attempted; needs: ULCA account + dataset search request
+- **Source:** Project Anuvaad (EkStep Foundation / Tarento) via ULCA, MeitY; Project Anuvaad
+- **Link:** https://bhashini.gov.in/ulca/datasets
+- **Overlap:** Same group as the EkStep synthetic benchmark (TOCR-102); overlap NOT VERIFIED.
+- **Notes:** Evidence: evidence/discovery/ulca_reportdata.json. ULCA lists 28 OCR corpora across 12 languages; only these two are Telugu.
 
 
-## Character / glyph classification (28)
+## Character / glyph classification (29)
 
 _Single characters, vowel signs or digits sorted into classes. Good for character recognisers, not for word/line OCR._
 
@@ -1459,8 +1592,24 @@ Online handwriting benchmark from ISI Kolkata / HP Labs; scripts and Telugu incl
 - **Link:** https://dblp.org/rec/conf/icfhr/MondalBPDM10
 - **Paper:** https://doi.org/10.1109/ICFHR.2010.39
 
+### TOCR-188 - Handwritten Telugu character corpus (JASTT 2025, unreleased)
 
-## Layout / detection (no transcription) (8)
+33,496 handwritten Telugu characters collected from schoolchildren and adults; the authors say it will be released separately.
+
+- **Status:** INACCESSIBLE · **Distinct:** Y
+- **Language / script:** Telugu / Telugu
+- **Content:** Image (handwritten characters); Character recognition; granularity Character; Real
+- **Size:** 33,496 characters (character images)
+- **Labels:** Yes (per paper) - Character class
+- **Licence:** UNKNOWN (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** Announced for later release; needs: Not released
+- **Source:** Sri Vasavi Engg. College; Sreenidhi IST; Vardhaman CE; IIIT Nagpur et al.; Mukkoti Vishnu Vardhan, E Jayakiran Reddy, N Srinivas Reddy et al.
+- **Link:** https://jastt.org/index.php/jasttpath/article/view/267
+- **Paper:** https://jastt.org/index.php/jasttpath/article/view/267
+- **Overlap:** Experiments in the paper use Kaggle 6-vowel set (TOCR-035), not this corpus.
+
+
+## Layout / detection (no transcription) (11)
 
 _Boxes or regions (text blocks, tables, lines) without the text itself. Not OCR transcription data._
 
@@ -1486,8 +1635,8 @@ Small Roboflow computer-vision project labelled "Telugu handwritten OCR" (3 clas
 - **Status:** UNVERIFIED · **Distinct:** UNKNOWN
 - **Language / script:** Telugu / Telugu
 - **Content:** Image (handwriting); Object detection / classification (3 classes); granularity UNKNOWN; Real (assumed)
-- **Size:** UNKNOWN (images)
-- **Labels:** Yes (class boxes, per snippet) - Bounding boxes (3 classes) - NOT VERIFIED
+- **Size:** 386 images (workspace listing) (images)
+- **Labels:** Yes (object detection, 3 classes per earlier snippet) - Boxes (classes NOT VERIFIED)
 - **Licence:** UNKNOWN (commercial: UNKNOWN; redistribution: UNKNOWN)
 - **Access:** Page returns HTTP 403 to automated clients; needs: Roboflow account
 - **Source:** Individual (Roboflow user teluguocr); UNKNOWN
@@ -1586,8 +1735,52 @@ Printed/scanned/scene tables from magazines in 13 languages labelled with OTSL s
 - **Link:** https://huggingface.co/datasets/badrivishalk/MUSTARD
 - **Paper:** https://arxiv.org/abs/2503.11932
 
+### TOCR-191 - Roboflow Universe: iitbresearchwork/telugu-ocr
 
-## Script identification (5)
+Telugu OCR object-detection project (1 class) from an IIT Bombay research workspace that also hosts Tamil/Kannada OCR and "PhDIndic11" projects.
+
+- **Status:** UNVERIFIED · **Distinct:** UNKNOWN
+- **Language / script:** Telugu / Telugu
+- **Content:** Image; Text detection; granularity Word boxes (1 class); Real (NOT VERIFIED)
+- **Size:** UNKNOWN (images)
+- **Labels:** Yes (1 class) - Boxes, no transcription (per listing)
+- **Licence:** CC BY 4.0 (listing) (commercial: Allowed with attribution; redistribution: Allowed with attribution)
+- **Access:** Page blocks scripts (HTTP 403); facts from search snippets; needs: Roboflow account
+- **Source:** IIT Bombay research workspace (iitbresearchwork); iitbresearchwork
+- **Link:** https://universe.roboflow.com/iitbresearchwork/telugu-ocr
+- **Overlap:** Suspected word-box annotation of PHDIndic_11 Telugu pages (TOCR-015): same workspace has "Malayalam PhDIndic11" and PLATTER used PHDIndic_11 Telugu word boxes; NOT VERIFIED.
+
+### TOCR-192 - Roboflow Universe: vihaveai/telugu-info-detector
+
+Telugu text/info detection project; listing mentions related "telugu-words", "kannada-words" and "part-of-mcq" sets.
+
+- **Status:** UNVERIFIED · **Distinct:** UNKNOWN
+- **Language / script:** Telugu / Telugu
+- **Content:** Image; Text detection; granularity Region; UNKNOWN
+- **Size:** UNKNOWN (images)
+- **Labels:** Yes (detection) - Boxes (classes NOT VERIFIED)
+- **Licence:** UNKNOWN (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** Page blocks scripts (HTTP 403); needs: Roboflow account
+- **Source:** Vihave AI; vihaveai
+- **Link:** https://universe.roboflow.com/vihaveai/telugu-info-detector
+
+### TOCR-194 - Roboflow Universe: centurion-university-n60kx/telugu-handwritten-project (+ teugu-words-labelling)
+
+Small Telugu handwritten object-detection projects from the same Centurion University workspace as TOCR-020.
+
+- **Status:** UNVERIFIED · **Distinct:** UNKNOWN
+- **Language / script:** Telugu / Telugu
+- **Content:** Image (handwriting); Handwritten text detection; granularity Word / character boxes (NOT VERIFIED); Real
+- **Size:** 13 images (telugu-handwritten-project) (images)
+- **Labels:** Yes (detection) - Boxes
+- **Licence:** CC BY 4.0 (listing) (commercial: Allowed with attribution; redistribution: Allowed with attribution)
+- **Access:** Page blocks scripts (HTTP 403); needs: Roboflow account
+- **Source:** Centurion University (workspace); centurion-university-n60kx
+- **Link:** https://universe.roboflow.com/centurion-university-n60kx/telugu-handwritten-project
+- **Overlap:** Same workspace as TOCR-020; may share images.
+
+
+## Script identification (7)
 
 _Images labelled only with which script/language they contain._
 
@@ -1598,7 +1791,7 @@ Page-level handwritten document images in 11 official Indic scripts (1,458 pages
 - **Status:** GATED · **Distinct:** Y
 - **Language / script:** Multilingual (11 scripts incl. Telugu) / Telugu
 - **Content:** Image (scanned handwriting, TIFF); Script identification; granularity Page; Real
-- **Size:** 1,458 pages total; Telugu share NOT VERIFIED (page images)
+- **Size:** 1,458 pages total; Telugu 85 pages with 5,503 word boxes (PLATTER, arXiv 2502.06172, Table 3) (page images)
 - **Labels:** Script label only - Script class
 - **Licence:** Creative Commons Attribution (IEEE page) (commercial: Allowed with attribution; redistribution: Allowed with attribution)
 - **Access:** Gated (login); needs: Free IEEE DataPort account
@@ -1636,6 +1829,7 @@ Page-level handwritten document images in 11 official Indic scripts (1,458 pages
 - **Access:** Open listing; needs: Kaggle account
 - **Source:** Individual; Abhishek Subhash Swami
 - **Link:** https://www.kaggle.com/datasets/abhisheksubhashswami/indian-scripts
+- **Notes:** Kaggle file-list API returned only the first ~1,200 files (Brahmi, Assamese, Devanagari test folders); Telugu folder size still NOT VERIFIED.
 
 ### TOCR-115 - Kaggle: english hindi telugu text images (akash034)
 
@@ -1665,8 +1859,37 @@ Rendered text images labelled with font family and script for 13 scripts; 351 Te
 - **Source:** Loopdesk AI; loopdesk-ai
 - **Link:** https://huggingface.co/datasets/loopdesk-ai/lipika-eval
 
+### TOCR-187 - Multilingual multimodal scene-text dataset (NIT Silchar, ICON 2023) - Telugu
 
-## Text-in-image benchmark (VQA / document understanding) (7)
+Scene images in Assamese, English, Malayalam and Telugu with text boxes labelled by language, built for YOLOv5 language detection.
+
+- **Status:** UNVERIFIED · **Distinct:** Y
+- **Language / script:** Assamese; English; Malayalam; Telugu / Telugu
+- **Content:** Image (scene / web images; some created with Canva); Text detection with language labels; granularity Text region; Real + designed images
+- **Size:** 1,000 Telugu images (4,000 total) (images)
+- **Labels:** Yes - Bounding box + language class (no transcription)
+- **Licence:** UNKNOWN (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** No release link in paper; needs: Contact authors
+- **Source:** NIT Silchar; Nihar Jyoti Basisth, Eisha Halder, Tushar Sachan, Advaitha Vetagiri, Partha Pakray
+- **Link:** https://aclanthology.org/2023.icon-1.16.pdf
+- **Paper:** https://aclanthology.org/2023.icon-1.16.pdf
+
+### TOCR-193 - Roboflow Universe: fives-data-tpoav/telugu
+
+Single-class ("Telugu") detection dataset; no description.
+
+- **Status:** UNVERIFIED · **Distinct:** UNKNOWN
+- **Language / script:** Telugu / Telugu
+- **Content:** Image; Telugu text detection; granularity Region; UNKNOWN
+- **Size:** UNKNOWN (images)
+- **Labels:** Yes (1 class) - Boxes labelled "Telugu"
+- **Licence:** UNKNOWN (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** Page blocks scripts (HTTP 403); needs: Roboflow account
+- **Source:** Individual workspace; fives-data-tpoav
+- **Link:** https://universe.roboflow.com/fives-data-tpoav/telugu
+
+
+## Text-in-image benchmark (VQA / document understanding) (8)
 
 _Question-answer or retrieval sets built on text-heavy images. Tests reading, but labels are not transcriptions._
 
@@ -1694,7 +1917,7 @@ Multilingual document VQA benchmark combining OCR, layout and QA; 200 examples p
 - **Size:** 1,600 pages total; Telugu UNKNOWN (pages)
 - **Labels:** QA pairs - Question-answer
 - **Licence:** UNKNOWN (commercial: UNKNOWN; redistribution: UNKNOWN)
-- **Access:** No dataset link in paper HTML; needs: UNKNOWN
+- **Access:** No dataset link in paper; no HF repo found (searched 2026-11-11); needs: UNKNOWN
 - **Source:** CVIT, IIIT Hyderabad; Aniket Pal, Ajoy Mondal, Minesh Mathew, C. V. Jawahar
 - **Link:** https://arxiv.org/abs/2507.15655
 - **Paper:** https://arxiv.org/abs/2507.15655
@@ -1706,14 +1929,14 @@ Multilingual document VQA benchmark combining OCR, layout and QA; 200 examples p
 - **Status:** PARTIALLY VERIFIED · **Distinct:** Y
 - **Language / script:** Multilingual (English + 10 Indian incl. te tag) / Telugu
 - **Content:** Image; OCR + VQA + MMT evaluation; granularity Image; Real
-- **Size:** ~5K images total; Telugu share NOT VERIFIED (images)
+- **Size:** ~5K images total; Telugu: 89 OCR pages (Wikisource), 69 VQA-Indic, 106 parallel VQA (images)
 - **Labels:** Yes - OCR text / QA
 - **Licence:** None declared on HF (commercial: UNKNOWN; redistribution: UNKNOWN)
 - **Access:** Open (HF); needs: None
 - **Source:** Krutrim AI Labs; Krutrim AI Labs
 - **Link:** https://huggingface.co/datasets/krutrim-ai-labs/IndicVisionBench
 - **Paper:** https://arxiv.org/abs/2511.04727
-- **Overlap:** Copies: AtharvImmverse/IndicVisionBench; lalit-03/IndicVisionBench (gated).
+- **Overlap:** Copies: AtharvImmverse/IndicVisionBench; lalit-03/IndicVisionBench (gated). OCR track Telugu pages likely the same 89 Wikisource pages as ORB-Indic (TOCR-172); both derive from TOCR-049.
 
 ### TOCR-131 - MInfoVisQA (multilingual infographic VQA)
 
@@ -1722,7 +1945,7 @@ Localised chart/table renders in 24 languages with QA (evaluation split only).
 - **Status:** PARTIALLY VERIFIED · **Distinct:** Y
 - **Language / script:** Multilingual (24 incl. te) / Telugu
 - **Content:** Image (rendered charts/tables); Visual QA; granularity Image; Synthetic (rendered)
-- **Size:** 3,072 visuals total; Telugu share NOT VERIFIED (images)
+- **Size:** 8,960 rows; 384 with Telugu images (image_language=te) (images)
 - **Labels:** QA - Question-answer
 - **Licence:** other (commercial: UNKNOWN; redistribution: UNKNOWN)
 - **Access:** Open (HF); needs: None
@@ -1736,7 +1959,7 @@ Multilingual QA on magazine page images asking for specific details (page number
 - **Status:** PARTIALLY VERIFIED · **Distinct:** Y
 - **Language / script:** Multilingual (45; te tag) / Telugu
 - **Content:** Image (magazine pages); Document QA; granularity Page; Real (NOT VERIFIED)
-- **Size:** 1K-10K total; Telugu share NOT VERIFIED (QA items)
+- **Size:** 8,801 QA items; 135 on Telugu pages (page_language); no Telugu questions (qa_language) (QA items)
 - **Labels:** QA - Prompt/completion
 - **Licence:** CC BY 4.0 (commercial: Allowed; redistribution: Allowed)
 - **Access:** Open (HF); needs: None
@@ -1762,9 +1985,9 @@ Screenshots of Telugu Wikipedia articles for visual document retrieval, with que
 Document QA / extraction set on PMGSY citizen boards in 6 languages.
 
 - **Status:** PARTIALLY VERIFIED · **Distinct:** Y
-- **Language / script:** Multilingual (6; te tag) / Telugu
+- **Language / script:** Multilingual (6; Telugu confirmed) / Telugu
 - **Content:** Image (boards); Document QA / extraction; granularity Image; Real
-- **Size:** 1K-10K; earlier sampling found no Telugu rows (images)
+- **Size:** 6,117 boards; Telugu 1,020 (709 train / 104 val / 207 test) (images)
 - **Labels:** Machine-generated (per sibling card) - QA / text
 - **Licence:** CC BY 4.0 (commercial: Allowed; redistribution: Allowed)
 - **Access:** Open (HF); needs: None
@@ -1772,8 +1995,23 @@ Document QA / extraction set on PMGSY citizen boards in 6 languages.
 - **Link:** https://huggingface.co/datasets/Litap007/indic-citizen-information-board-pmgsy
 - **Overlap:** Sibling of TOCR-084.
 
+### TOCR-190 - NayanaIR-CrossBench (multilingual visual document retrieval)
 
-## Image-only (no transcription) (9)
+Cross-lingual visual document retrieval benchmark (part of the M3DR framework); corpus page images, queries and relevance labels in 20 languages incl. Telugu.
+
+- **Status:** PARTIALLY VERIFIED · **Distinct:** Y
+- **Language / script:** Multilingual (20; te tag) / Telugu
+- **Content:** Image (document pages); Visual document retrieval; granularity Page; UNKNOWN (likely rendered/translated)
+- **Size:** UNKNOWN Telugu share (page images)
+- **Labels:** Retrieval qrels - Queries + qrels (no transcription)
+- **Licence:** None declared (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** Open (HF); needs: None
+- **Source:** Cognitive Lab; Cognitive Lab
+- **Link:** https://huggingface.co/datasets/Cognitive-Lab/NayanaIR-CrossBench
+- **Overlap:** Same group as Nayana sets (TOCR-097/098/099).
+
+
+## Image-only (no transcription) (10)
 
 _Telugu text images without any text labels._
 
@@ -1912,8 +2150,23 @@ Paper tests models on 500 handwritten + 500 printed Telugu document images; data
 - **Source:** FutureBeeAI (vendor); FutureBeeAI
 - **Link:** https://www.futurebeeai.com/dataset/ocr-dataset/telugu-product-image-ocr-dataset
 
+### TOCR-195 - Kaggle: telugu_palm_leafs (chintuimmandi) - palm-leaf binarisation pairs
 
-## Image-only (transcription NOT VERIFIED) (7)
+36 Telugu palm-leaf images each paired with a ground-truth binarised image (NN_in.png / NN_gt.png).
+
+- **Status:** PARTIALLY VERIFIED · **Distinct:** N (suspected copy of TOCR-118 data)
+- **Language / script:** Telugu / Telugu
+- **Content:** Image (palm-leaf manuscripts); Binarisation; granularity Page; Real
+- **Size:** 36 image / ground-truth pairs (72 PNG files, 230.5 MB) (image pairs)
+- **Labels:** Yes - Binarised ground-truth image (no text)
+- **Licence:** Unknown (Kaggle) (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** Open listing; needs: Kaggle account
+- **Source:** Individual; chintuimmandi
+- **Link:** https://www.kaggle.com/datasets/chintuimmandi/telugu-palm-leafs
+- **Overlap:** Same size and task as the "Preserving Telugu Manuscripts" binarisation set (TOCR-118, 36 images); suspected to be its data release (NOT VERIFIED).
+
+
+## Image-only (transcription NOT VERIFIED) (8)
 
 _Images where labels may exist but could not be confirmed._
 
@@ -2021,10 +2274,25 @@ Described as the first open Telugu palm-leaf dataset for digitisation/OCR resear
 - **Source:** Academic (SSRN preprint); NOT VERIFIED (Bhavani Pisini et al.)
 - **Link:** https://github.com/Bhavani-Pisini/Image-Binarization-Project
 - **Paper:** https://doi.org/10.2139/ssrn.4903434
-- **Overlap:** Repo and SSRN preprint assumed to describe the same dataset (title/description match).
+- **Overlap:** Kaggle telugu_palm_leafs (TOCR-195) has 36 image/ground-truth pairs and is suspected to be this dataset.
+
+### TOCR-196 - Kaggle: IITJ Multilingual OCR Dataset (mayank7239)
+
+Word crops in per-language folders, file names carry quadrilateral coordinates; listing shows Assamese and other folders.
+
+- **Status:** PARTIALLY VERIFIED · **Distinct:** N (suspected copy of TOCR-082)
+- **Language / script:** Multilingual (Telugu folder NOT VERIFIED) / Multiple (Telugu NOT VERIFIED)
+- **Content:** Image (scene word crops); Scene text recognition; granularity Word; Real
+- **Size:** 441.8 MB; file listing capped at 400 files (word crops)
+- **Labels:** UNKNOWN - Labels not seen in listing
+- **Licence:** CC0-1.0 (Kaggle tag) (commercial: Tag says allowed; upstream terms apply; redistribution: Upstream terms apply)
+- **Access:** Open listing; needs: Kaggle account
+- **Source:** Individual (title cites IIT Jodhpur); mayank7239
+- **Link:** https://www.kaggle.com/datasets/mayank7239/iitj-multilingual-ocr-dataset
+- **Overlap:** Suspected re-upload of Bharat Scene Text crops (TOCR-082, IIT Jodhpur).
 
 
-## Scanned archive (image-only) (8)
+## Scanned archive (image-only) (9)
 
 _Large collections of scanned books, newspapers or manuscripts. Raw material only - no ground truth._
 
@@ -2149,8 +2417,22 @@ Scanned issues of the Telugu Chandamama children's magazine on archive.org.
 - **Overlap:** Source of TOCR-058 and TOCR-127.
 - **Existing catalogue:** TEL-PERIOD-003
 
+### TOCR-209 - British Library AAS card catalogues: Telugu (digitised microfilm)
 
-## Text-only corpus (OCR language modelling) (9)
+Digitised microfilm images of the British Library Asian and African Studies Telugu card catalogue.
+
+- **Status:** PARTIALLY VERIFIED · **Distinct:** Y
+- **Language / script:** Telugu; English / Telugu
+- **Content:** Image (catalogue card scans); Unlabelled scans (catalogue cards); granularity Card / page; Real
+- **Size:** UNKNOWN (card images)
+- **Labels:** No (text not verified) - None verified
+- **Licence:** UNKNOWN (no rights field in DataCite) (commercial: UNKNOWN; redistribution: UNKNOWN)
+- **Access:** DataCite record live; files not opened; needs: None (BL research repository)
+- **Source:** British Library; British Library
+- **Link:** https://bl.iro.bl.uk/work/0249413b-6469-4c28-bb03-c4b3f9dd7403
+
+
+## Text-only corpus (OCR language modelling) (10)
 
 _Plain Telugu text with no images. Useful for OCR language models, spell-checking and rendering synthetic data - never image-text data._
 
@@ -2287,6 +2569,21 @@ Telugu Unicode text corpora collected by the TeluguOCR project for language mode
 - **Source:** TeluguOCR project; Rakesh Achanta et al.
 - **Link:** https://github.com/TeluguOCR/corpora
 
+### TOCR-197 - HuggingFaceFW/finepdfs - Telugu (tel_Telu)
+
+Text extracted from public PDFs (born-digital extraction or OCR) for LM pre-training; no page images.
+
+- **Status:** PARTIALLY VERIFIED · **Distinct:** Y
+- **Language / script:** Multilingual (1,700+; tel_Telu config) / Telugu
+- **Content:** Text only; Language modelling for OCR (not OCR data); granularity Document text; Real text (part machine-OCR)
+- **Size:** UNKNOWN (Telugu share not computed) (documents)
+- **Labels:** Not applicable - None (no images)
+- **Licence:** ODC-By 1.0 (commercial: Allowed (source terms apply); redistribution: Allowed with attribution)
+- **Access:** Open (HF); needs: None
+- **Source:** Hugging Face; HuggingFaceFW
+- **Link:** https://huggingface.co/datasets/HuggingFaceFW/finepdfs
+- **Quality:** Some text is itself OCR output; useful as PDF-domain language model text only.
+
 
 ## Related resource (not a dataset) (10)
 
@@ -2364,6 +2661,7 @@ Fonts used to render synthetic Telugu OCR data.
 - **Access:** Open; needs: None
 - **Source:** Google Fonts; AndhraBharati; UNKNOWN
 - **Link:** https://fonts.google.com/?subset=telugu
+- **Notes:** Also uploaded as Kaggle viralbarodia/gujarati-and-telugu-fonts (Noto Sans Telugu, MIT tag).
 - **Existing catalogue:** TEL-DIAL-004
 
 ### TOCR-149 - IndicPhotoOCR toolkit (BSTD models)
@@ -2437,7 +2735,7 @@ Code that builds the harsha-desaraju Wikisource line, synthetic line and consens
 - **Link:** https://github.com/harsha-desaraju/TeluguOCR
 
 
-## Rejected (26)
+## Rejected (35)
 
 _Candidates that turned out to have no Telugu, no images, or no data. Kept so nobody re-checks them._
 
@@ -2567,13 +2865,6 @@ Rejected candidate - see notes.
 - **Why rejected:** General VQA/QA with Telugu questions; images are not text-centric.
 - **Link:** https://huggingface.co/datasets/neulab/CulturalGround
 
-### TOCR-172 - krutrim-ai-labs/ocr_rotation_bench
-
-Rejected candidate - see notes.
-
-- **Why rejected:** Page-rotation classification; no Telugu in sampled rows.
-- **Link:** https://huggingface.co/datasets/krutrim-ai-labs/ocr_rotation_bench
-
 ### TOCR-173 - Shaip OCR training data
 
 Rejected candidate - see notes.
@@ -2622,3 +2913,73 @@ Rejected candidate - see notes.
 
 - **Why rejected:** Text classification/NLP corpora surfaced by Kaggle search; not OCR and not needed as OCR LM sources.
 - **Link:** https://www.kaggle.com/datasets/sudalairajkumar/telugu-nlp
+
+### TOCR-198 - SignboardText (IEEE DataPort 10.21227/5k09-4k21)
+
+Rejected candidate - see notes.
+
+- **Why rejected:** Vietnamese/English signboards (UIT, VNU-HCM); surfaced in Telugu scene-text searches but has no Telugu.
+- **Link:** https://ieee-dataport.org/documents/signboardtext-0
+
+### TOCR-199 - CATALIST / CATALISTd video scene text (IIT Bombay, on AIKosh)
+
+Rejected candidate - see notes.
+
+- **Why rejected:** English, Hindi and Marathi only.
+- **Link:** https://catalist-2021.github.io
+
+### TOCR-200 - DohaScript handwritten Hindi (arXiv 2602.18089)
+
+Rejected candidate - see notes.
+
+- **Why rejected:** Hindi only.
+- **Link:** https://arxiv.org/abs/2602.18089
+
+### TOCR-201 - IIEST-Indic-HW writer identification dataset
+
+Rejected candidate - see notes.
+
+- **Why rejected:** Bengali and Hindi only.
+- **Link:** https://doi.org/10.1145/3774521.3774586
+
+### TOCR-202 - EpiSAM / Shilalekhya stone-inscription datasets (IHDIA)
+
+Rejected candidate - see notes.
+
+- **Why rejected:** Single Indic script not named; no Telugu evidence on project pages or HF card.
+- **Link:** https://ihdia.iiit.ac.in/episam/
+
+### TOCR-203 - arikatokachi/indic-synthetic-documents (+v2)
+
+Rejected candidate - see notes.
+
+- **Why rejected:** Languages en, bn, hi, ta only (folders and tags).
+- **Link:** https://huggingface.co/datasets/arikatokachi/indic-synthetic-documents
+
+### TOCR-204 - Nexdata 500,000 Images Multilingual OCR Dataset in 21 Languages
+
+Rejected candidate - see notes.
+
+- **Why rejected:** Commercial sample; listed languages do not include Telugu.
+- **Link:** https://huggingface.co/datasets/Nexdata-kr/500000-Images-Multilingual-OCR-Dataset-in-21-Languages
+
+### TOCR-205 - DataCluster Labs Multilingual OCR Annotation Dataset (Kaggle + HF)
+
+Rejected candidate - see notes.
+
+- **Why rejected:** Vendor sample with he/th/ja/ar; no Telugu files.
+- **Link:** https://huggingface.co/datasets/Dataclusterlabspvtltd/Multilingual_OCR_Annotation_Dataset
+
+### TOCR-206 - A Benchmark and Dataset for Post-OCR Text Correction in Sanskrit (AIKosh)
+
+Rejected candidate - see notes.
+
+- **Why rejected:** Sanskrit text only (Devanagari); no Telugu.
+- **Link:** https://aikosh.indiaai.gov.in/home/datasets/details/a_benchmark_and_dataset_for_post_ocr_text_correction_in_sanskrit.html
+
+### TOCR-207 - Indic-VizVQA-v2 (Kaggle armaansingh2340)
+
+Rejected candidate - see notes.
+
+- **Why rejected:** Translated VizWiz/VQAv2 questions; images are not text-centric.
+- **Link:** https://www.kaggle.com/datasets/armaansingh2340/indic-vizvqa-v2

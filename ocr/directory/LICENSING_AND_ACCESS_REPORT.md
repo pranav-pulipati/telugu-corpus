@@ -10,25 +10,26 @@ Grouped automatically from the `Licence` column (dataset rows only; related reso
 
 | Licence group | Dataset rows | Distinct datasets | Distinct image-text OCR datasets |
 |---|---|---|---|
-| Open (CC BY / CC0 / MIT / Apache / PD) | 54 | 37 | 11 |
+| Open (CC BY / CC0 / MIT / Apache / PD) | 58 | 38 | 11 |
 | Open, share-alike (CC BY-SA) | 7 | 5 | 2 |
 | No derivatives (CC BY-ND) | 1 | 1 | 0 |
-| Non-commercial only (CC BY-NC family) | 8 | 6 | 4 |
+| Non-commercial only (CC BY-NC family) | 8 | 7 | 5 |
 | Copyleft software licence (GPL) | 3 | 2 | 1 |
-| Research / academic use terms | 6 | 5 | 2 |
+| Research / academic / custom terms | 8 | 6 | 3 |
+| Mixed (depends on source licences) | 1 | 1 | 1 |
 | Commercial / vendor | 4 | 4 | 0 |
 | Copyrighted source material (no licence) | 5 | 4 | 2 |
-| Unknown / not stated | 57 | 28 | 8 |
+| Unknown / not stated | 69 | 36 | 11 |
 
 ## Access requirements
 
 | What you need | Dataset rows |
 |---|---|
-| None (open download) | 85 |
-| Kaggle account | 18 |
-| Login / accept terms (HF, IEEE) | 16 |
-| Other / unknown | 16 |
-| Contact authors / request | 7 |
+| None (open download) | 91 |
+| Login / accept terms (HF, IEEE) | 23 |
+| Kaggle account | 20 |
+| Other / unknown | 19 |
+| Contact authors / request | 8 |
 | Purchase | 3 |
 
 ## Licence problems found
@@ -40,11 +41,14 @@ Grouped automatically from the `Licence` column (dataset rows only; related reso
 - **Machine-labelled sets.** Sets labelled by Gemini or other models (for example TOCR-063) may also fall under the model provider's terms.
 - **Scanned archives.** Newspaper, magazine and Chandamama scans (TOCR-124, 127, 129) carry the publishers' copyright even though they are freely viewable. Internet Archive items vary item by item.
 - **Wikisource-derived sets** (TOCR-049 to 057) inherit CC BY-SA from the text. Their page scans are usually public-domain books, but each file's own licence should be checked (the acquisition phase found 127,326 of 134,015 pages on free scans).
-- **No licence at all.** Most GitHub and Kaggle personal uploads state no licence (57 dataset rows are in the unknown group).
+- **Evaluation-only data.** GlotOCR Bench (TOCR-184) may only be used for evaluation: no training and no redistribution.
+- **Custom licences.** ORB-Indic (TOCR-172) uses the Krutrim Community License; read it before any commercial use.
+- **Mixed licences.** BhartiOCR (TOCR-185) has Apache-2.0 code, OFL/GPL fonts and source text under several licences, so the right to use each sample depends on where its text came from.
+- **No licence at all.** Most GitHub and Kaggle personal uploads state no licence (69 dataset rows are in the unknown group).
 
 ## Detail by licence group
 
-### Open (CC BY / CC0 / MIT / Apache / PD) (54)
+### Open (CC BY / CC0 / MIT / Apache / PD) (58)
 
 | ID | Dataset | Licence as stated | Commercial use | Redistribution | Access |
 |---|---|---|---|---|---|
@@ -102,6 +106,10 @@ Grouped automatically from the `Licence` column (dataset rows only; related reso
 | TOCR-134 | [indic-citizen-information-board-pmgsy](https://huggingface.co/datasets/Litap007/indic-citizen-information-board-pmgsy) | CC BY 4.0 | Allowed | Allowed | None |
 | TOCR-136 | [Sangraha - Telugu](https://huggingface.co/datasets/ai4bharat/sangraha) | CC BY 4.0 | See licence | See licence | None (CulturaX gated) |
 | TOCR-137 | [IndicCorp v2 - Telugu](https://huggingface.co/datasets/ai4bharat/IndicCorpV2) | CC0 1.0 (per README) | See licence | See licence | None (CulturaX gated) |
+| TOCR-191 | [Roboflow Universe: iitbresearchwork/telugu-ocr](https://universe.roboflow.com/iitbresearchwork/telugu-ocr) | CC BY 4.0 (listing) | Allowed with attribution | Allowed with attribution | Roboflow account |
+| TOCR-194 | [Roboflow Universe: centurion-university-n60kx/telugu-h...](https://universe.roboflow.com/centurion-university-n60kx/telugu-handwritten-project) | CC BY 4.0 (listing) | Allowed with attribution | Allowed with attribution | Roboflow account |
+| TOCR-196 | [Kaggle: IITJ Multilingual OCR Dataset (mayank7239)](https://www.kaggle.com/datasets/mayank7239/iitj-multilingual-ocr-dataset) | CC0-1.0 (Kaggle tag) | Tag says allowed; upstream terms a... | Upstream terms apply | Kaggle account |
+| TOCR-197 | [HuggingFaceFW/finepdfs - Telugu (tel_Telu)](https://huggingface.co/datasets/HuggingFaceFW/finepdfs) | ODC-By 1.0 | Allowed (source terms apply) | Allowed with attribution | None |
 
 ### Open, share-alike (CC BY-SA) (7)
 
@@ -142,7 +150,7 @@ Grouped automatically from the `Licence` column (dataset rows only; related reso
 | TOCR-035 | [Kaggle: Telugu Vowel Dataset (6 vowels)](https://www.kaggle.com/datasets/syamkakarla/telugu-6-vowel-dataset) | GPL-2.0 (Kaggle) | Allowed under GPL | Allowed under GPL | Kaggle account |
 | TOCR-105 | [Telugu_OCR_Tesseract_Training (font box/tif training f...](https://github.com/saikrishnawanted/Telugu_OCR_Tesseract_Training) | GPL-3.0 | Allowed under GPL | Allowed under GPL | None |
 
-### Research / academic use terms (6)
+### Research / academic / custom terms (8)
 
 | ID | Dataset | Licence as stated | Commercial use | Redistribution | Access |
 |---|---|---|---|---|---|
@@ -152,6 +160,14 @@ Grouped automatically from the `Licence` column (dataset rows only; related reso
 | TOCR-070 | [IIIT-ILST - Telugu (scene text)](https://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-ilst) | Research only; images may not be redistributed | Not allowed | NOT ALLOWED | None (agree to terms) |
 | TOCR-080 | [WIRIndic Telugu (ICPR 2024 Word Image Recognition in I...](https://ilocr.iiit.ac.in/icpr_2024_wirindic/dataset.html) | NOT STATED (page research line refers to MLT) | UNKNOWN | UNKNOWN | None |
 | TOCR-081 | [MIST - Multilingual Incidental Scene Text (Telugu fram...](https://huggingface.co/datasets/Saumya-Mundra/MIST-Dataset) | Research use; ask authors for commercial | Not without permission | Raw imagery: ask authors | None |
+| TOCR-172 | [ORB-Indic (krutrim-ai-labs/ocr_rotation_bench) - Telug...](https://huggingface.co/datasets/krutrim-ai-labs/ocr_rotation_bench) | Krutrim Community License 1.0 | Per Krutrim licence (NOT VERIFIED) | Per Krutrim licence (NOT VERIFIED) | None |
+| TOCR-184 | [GlotOCR Bench - Telugu (Telu)](https://huggingface.co/datasets/cis-lmu/GlotOCR-bench) | other ("open-evaluation"): evaluation only, no training or redistribu... | UNKNOWN | Not allowed | HF login + tick "evaluation only" box |
+
+### Mixed (depends on source licences) (1)
+
+| ID | Dataset | Licence as stated | Commercial use | Redistribution | Access |
+|---|---|---|---|---|---|
+| TOCR-185 | [BhartiOCR - Telugu](https://huggingface.co/datasets/Faizaniqbal/BhartiOCR) | other: software/metadata Apache-2.0; fonts OFL/GPL+FE/Apache; source ... | Depends on source-text licences | Depends on source-text licences | HF login + manual approval |
 
 ### Commercial / vendor (4)
 
@@ -172,7 +188,7 @@ Grouped automatically from the `Licence` column (dataset rows only; related reso
 | TOCR-127 | [Kaggle: Telugu Chandamama Books (harishml)](https://www.kaggle.com/datasets/harishml/telugu-chandamama-books) | Unknown; magazine copyright | Not established | Not established | Kaggle account |
 | TOCR-129 | [Chandamama (Telugu edition) 1947-2012 scans](https://archive.org/search?query=collection%3Achandamama-magazine) | No licence field; magazine copyright | Not established | Not established | None |
 
-### Unknown / not stated (57)
+### Unknown / not stated (69)
 
 | ID | Dataset | Licence as stated | Commercial use | Redistribution | Access |
 |---|---|---|---|---|---|
@@ -195,7 +211,7 @@ Grouped automatically from the `Licence` column (dataset rows only; related reso
 | TOCR-040 | [GitHub Mitradatta/Telugu-Character-Recognition - self-...](https://github.com/Mitradatta/Telugu-Character-Recognition) | None stated | UNKNOWN | UNKNOWN | Not released |
 | TOCR-042 | [HF mirror: darknight054/indic-mozhi-ocr (telugu config)](https://huggingface.co/datasets/darknight054/indic-mozhi-ocr) | None declared (refers to source) | UNKNOWN | UNKNOWN | None |
 | TOCR-043 | [Multilingual OCR for Indic Scripts - printed page corp...](https://doi.org/10.1109/DAS.2016.68) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN |
-| TOCR-044 | IIIT Telugu book collection (Pramod Sankar, Jawahar, M... | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN |
+| TOCR-044 | [IIIT-H Word Recognition Dataset (Telugu)](https://web.archive.org/web/20221127093102/https://researchweb.iiit.ac.in/~pramod_sankar/CandD.html) | None stated (cite DAS 2010) | UNKNOWN | UNKNOWN | None when live |
 | TOCR-045 | [Building Data Sets for Indian Language OCR Research (a...](https://doi.org/10.1007/978-1-84800-330-9_1) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN |
 | TOCR-047 | [UHTelPCC: Telugu Printed Character Dataset (University...](http://scis.uohyd.ac.in/~chakcs/UHTelPCC.html) | UNKNOWN | UNKNOWN | UNKNOWN | Contact authors |
 | TOCR-048 | [UHIndicPCwS: University of Hyderabad Indic Printed Cha...](https://scis.uohyd.ac.in/~chakcs/datasets/UHIndicPCwS.html) | NOT STATED | UNKNOWN | UNKNOWN | None |
@@ -233,3 +249,15 @@ Grouped automatically from the `Licence` column (dataset rows only; related reso
 | TOCR-143 | [On-line Handwriting Recognition of Indian Scripts - Th...](https://dblp.org/rec/conf/icfhr/MondalBPDM10) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN |
 | TOCR-180 | [Kaggle: rs synth indic data (ocrteamriad)](https://www.kaggle.com/datasets/ocrteamriad/rs-synth-indic-data) | Unknown / other | UNKNOWN | UNKNOWN | Kaggle account |
 | TOCR-181 | [Kaggle: OCR Stress Test v2 Multilingual Benchmark (har...](https://www.kaggle.com/datasets/harishk2209/ocr-stress-test-v2) | Unknown / other | UNKNOWN | UNKNOWN | Kaggle account |
+| TOCR-182 | [CHIPS - Corpus of Handwritten Indic Scripts (Telugu pa...](https://arxiv.org/abs/2502.06172) | UNKNOWN (paper says data/code released; no data licence found) | UNKNOWN | UNKNOWN | No public link found |
+| TOCR-183 | [PLATTER ScrabbleGAN synthetic Telugu handwritten pages](https://arxiv.org/abs/2502.06172) | UNKNOWN | UNKNOWN | UNKNOWN | No public link found |
+| TOCR-186 | [IIIT-H Word Recognition Synthetic Dataset (Telugu)](https://web.archive.org/web/20221127093102/https://researchweb.iiit.ac.in/~pramod_sankar/CandD.html) | None stated (cite DAS 2010) | UNKNOWN | UNKNOWN | None when live |
+| TOCR-187 | [Multilingual multimodal scene-text dataset (NIT Silcha...](https://aclanthology.org/2023.icon-1.16.pdf) | UNKNOWN | UNKNOWN | UNKNOWN | Contact authors |
+| TOCR-188 | [Handwritten Telugu character corpus (JASTT 2025, unrel...](https://jastt.org/index.php/jasttpath/article/view/267) | UNKNOWN | UNKNOWN | UNKNOWN | Not released |
+| TOCR-189 | [UniLipi historical manuscript data - Telugu script](https://ihdia.iiit.ac.in/unilipi/) | UNKNOWN | UNKNOWN | UNKNOWN | Not released |
+| TOCR-190 | [NayanaIR-CrossBench (multilingual visual document retr...](https://huggingface.co/datasets/Cognitive-Lab/NayanaIR-CrossBench) | None declared | UNKNOWN | UNKNOWN | None |
+| TOCR-192 | [Roboflow Universe: vihaveai/telugu-info-detector](https://universe.roboflow.com/vihaveai/telugu-info-detector) | UNKNOWN | UNKNOWN | UNKNOWN | Roboflow account |
+| TOCR-193 | [Roboflow Universe: fives-data-tpoav/telugu](https://universe.roboflow.com/fives-data-tpoav/telugu) | UNKNOWN | UNKNOWN | UNKNOWN | Roboflow account |
+| TOCR-195 | [Kaggle: telugu_palm_leafs (chintuimmandi) - palm-leaf ...](https://www.kaggle.com/datasets/chintuimmandi/telugu-palm-leafs) | Unknown (Kaggle) | UNKNOWN | UNKNOWN | Kaggle account |
+| TOCR-208 | [ULCA (Bhashini) OCR corpus - Telugu (Project Anuvaad)](https://bhashini.gov.in/ulca/datasets) | UNKNOWN (ULCA requires permissive licences for contributions) | UNKNOWN | UNKNOWN | ULCA account + dataset search request |
+| TOCR-209 | [British Library AAS card catalogues: Telugu (digitised...](https://bl.iro.bl.uk/work/0249413b-6469-4c28-bb03-c4b3f9dd7403) | UNKNOWN (no rights field in DataCite) | UNKNOWN | UNKNOWN | None (BL research repository) |

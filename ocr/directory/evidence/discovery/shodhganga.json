@@ -1,0 +1,1063 @@
+{
+"queried": "2026-11-11",
+"queries": [
+{
+"query": "telugu character recognition",
+"hits": 23,
+"total": 23
+},
+{
+"query": "telugu handwritten",
+"hits": 12,
+"total": 12
+},
+{
+"query": "telugu ocr",
+"hits": 8,
+"total": 8
+},
+{
+"query": "telugu optical character",
+"hits": 8,
+"total": 8
+},
+{
+"query": "telugu script recognition",
+"hits": 13,
+"total": 13
+},
+{
+"query": "telugu text recognition",
+"hits": 18,
+"total": 18
+},
+{
+"query": "telugu document image",
+"hits": 2,
+"total": 2
+},
+{
+"query": "telugu palm leaf",
+"hits": 2,
+"total": 2
+},
+{
+"query": "telugu manuscript recognition",
+"hits": 2,
+"total": 2
+},
+{
+"query": "telugu printed text",
+"hits": 5,
+"total": 5
+},
+{
+"query": "telugu word recognition",
+"hits": 4,
+"total": 4
+},
+{
+"query": "telugu scene text",
+"hits": 0,
+"total": 0
+},
+{
+"query": "telugu text extraction",
+"hits": 5,
+"total": 5
+},
+{
+"query": "telugu document analysis",
+"hits": 4,
+"total": 4
+},
+{
+"query": "telugu handwriting",
+"hits": 6,
+"total": 6
+},
+{
+"query": "indic script recognition",
+"hits": 11,
+"total": 11
+},
+{
+"query": "indian script ocr",
+"hits": 18,
+"total": 18
+},
+{
+"query": "south indian script recognition",
+"hits": 8,
+"total": 8
+},
+{
+"query": "dravidian character recognition",
+"hits": 4,
+"total": 4
+},
+{
+"query": "multi script document",
+"hits": 6,
+"total": 6
+},
+{
+"query": "telugu numeral",
+"hits": 5,
+"total": 5
+},
+{
+"query": "telugu inscription",
+"hits": 5,
+"total": 5
+},
+{
+"query": "telugu video text",
+"hits": 1,
+"total": 1
+},
+{
+"query": "telugu font recognition",
+"hits": 1,
+"total": 1
+}
+],
+"hits": {
+"1c3ec131-86c0-420f-968b-01c6b9f519cf": {
+"title": "Exploration of Variations in Hand Gesture Based Telugu Character Recognition using Machine Learning Classifier",
+"handle": "10603/621153",
+"year": "2021",
+"university": "Department of Electronics and Communication Engineering",
+"researcher": "Nagadeepa Choppakatla",
+"abstract": "Attached",
+"queries": [
+"telugu character recognition"
+]
+},
+"f4feb153-25fc-4cbd-bbe3-a2d7e5f61f6a": {
+"title": "Scattering Network features based recognition on verification framework for Malayalam printed and handwritten Character Recognition",
+"handle": "10603/325404",
+"year": "2019",
+"university": "Center for Computational Engineering and Networking (CEN)",
+"researcher": "Manjusha K",
+"abstract": "Optical character recognition (OCR) is the process of transforming the scanned\nnewlinedocument images into the machine editable and searchable format. In Indian languages, the research efforts conducted toward OCR systems, and the document image resources available for research are comparatively less. The objective of the research work is to implement a feature-based character recognition system for Malayalam language, one of the official languages in India. A large number of character glyph, the structural resemblance between different character shapes and the non-availability of open source language resources are the\nnewlinemain challenges in implementing OCR system for Malayalam language script.\nnewlineTill date, no standard character image database is available for Malayalam\nnewlinelanguage script. The present research work builds a character-level printed\nnewlineand handwritten character image database for Malayalam language, by which a uniform assessment of different existing methods for Malayalam character recognition can be achieved. The created character image database has 29,302 handwritten and 52,265 printed Malayalam character images. In feature-based character recognition systems, the employed feature extraction technique plays a significant role and affects the overall performance of the system. The proposed research work employs scattering convolutional network-based features for Malayalam handwritten and printed character recognition. Scattering convolutional ",
+"queries": [
+"telugu character recognition",
+"telugu handwritten",
+"telugu ocr",
+"telugu optical character",
+"telugu script recognition",
+"telugu document image",
+"indian script ocr"
+]
+},
+"d290e2b4-5918-4926-874e-986be5333633": {
+"title": "An investigation into Telugu font and character recognition",
+"handle": "10603/4166",
+"year": "2009",
+"university": "Department of Computer and Information Sciences",
+"researcher": "Ghadiyaram, Anuradha",
+"abstract": "Optical Character Recognition (OCR) for Indian scripts and for handwriting is an active area of research. OCR systems for Indian and many other oriental languages are not yet able to successfully recognize printed documents of varying scripts, quality, font styls and sizes. To address some of these issues, we have designed and developed a framework to simultaneously recognize fonts and characters from documents printed in Telugu. Telugu script is structurally complicated due to the large number of character shapes that can be formed. Specifically, we developed a system based on Rough Sets theory for recognizing Telugu fonts and characters. Using the theory of rough sets, we determine the most important features of characters from the point of view of classification. The present work achieved 94.37%, and 90.17% accuracies for character and font recognitions respectively. These are the raw recognition accuracies without doing any post processing. The present model emphasizes the role of theory of rough sets in feature selection and dimension reduction in Telugu font and character recognition. A comparative study with related earlier works and our contributions to the field of Telugu character recognition are presented. The developed approach falls into the category of a priori classification, where domain knowledge of the content is not used. No explicit local feature analysis is used in this methodology. Applicability of the proposed approach is tested on documents printed in ",
+"queries": [
+"telugu character recognition",
+"telugu ocr",
+"telugu optical character",
+"telugu script recognition",
+"telugu text recognition",
+"telugu printed text",
+"telugu document analysis",
+"telugu handwriting",
+"indian script ocr",
+"telugu font recognition"
+]
+},
+"e8e887ff-ec94-48ae-81ac-7347be90fd59": {
+"title": "An enhanced frame work for pre processing and character recognition systems suitable for Telugu documents",
+"handle": "10603/203940",
+"year": "",
+"university": "Department of Computer Science",
+"researcher": "Shobha Rani, N.",
+"abstract": "newline",
+"queries": [
+"telugu character recognition",
+"telugu ocr",
+"telugu optical character",
+"telugu text recognition",
+"telugu document image"
+]
+},
+"f8f6e4fe-4e8c-4ad5-9e5e-f6fc2f6e613b": {
+"title": "Printed Telugu Character Recognition System using Augmented Convolutional Neural Network Models",
+"handle": "10603/618931",
+"year": "2023",
+"university": "Faculty of Computer Science and Engineering",
+"researcher": "Srinivasa Rao Dhanikonda",
+"abstract": "Attached",
+"queries": [
+"telugu character recognition",
+"telugu optical character"
+]
+},
+"1c214f00-67f1-4aae-9896-e4e0c881c072": {
+"title": "A Novel Approach in Recognition of Handwritten Dravidian Characters for Secure Transmission Telugu as a Case Study",
+"handle": "10603/614597",
+"year": "2022",
+"university": "Faculty of Computer Science and Engineering",
+"researcher": "Madhavi Kumari T",
+"abstract": "Attached\t\t\t\t\t\t\t\t\t\t\t\t\nnewline",
+"queries": [
+"telugu character recognition",
+"telugu handwritten",
+"telugu text recognition",
+"dravidian character recognition"
+]
+},
+"5a9235b5-036b-4dfc-adf5-7de8987eb5b4": {
+"title": "Pattern model for recognition of subset of Telugu characters on palm leaf scribings",
+"handle": "10603/316048",
+"year": "2018",
+"university": "Department of Electronics and Communication Engineering",
+"researcher": "Vijaya Lakshmi T R",
+"abstract": "Digitizing documents have enormous benefits such as quick search, saves space, accessibility, etc. Even with the advent of many technological developments like digital pen, compact disc, etc. people still use the natural interface to record text. This indicates that the \nnewlinehandwritten documents could persist even for some more decades. The various applications of character recognition are automatic mail sorting, signature verification, library automation, language \nnewlineprocessing, forensic applications and multimedia design. Telugu script which is an offshoot of Brahmi script has complex \nnewlinestructural characteristics and makes character recognition still difficult. It has 16 vowels and 36 consonants which form basic characters. The number of basic and compound characters is more compared to the foreign language, English. Every Telugu vowel has a modifier to modify the consonants. When a consonant is combined \nnewlinewith a vowel modifier a compound character is formed. These compound characters are more similar and difficult to recognize them. For several centuries, before the invention of paper, a raw material called palm-leaf was used for recording/writing. As per the survey organized by Institute of Asian Studies (IAS) Chennai, more \nnewlinethan one lakh palm-leaf manuscripts are available in the South Indian museums and research institutes. These are recognized as the key to the knowledge in diverse fields that have been passed through \nnewlinegenerations. Th",
+"queries": [
+"telugu character recognition",
+"telugu script recognition",
+"telugu text recognition",
+"telugu palm leaf",
+"telugu manuscript recognition",
+"indic script recognition",
+"south indian script recognition"
+]
+},
+"66450b5d-4939-4343-8961-39520001704c": {
+"title": "Pattern model for recognition of subset of Telugu characters on palm leaf scribings",
+"handle": "10603/333227",
+"year": "2018",
+"university": "Department of Electronics and Communication Engineering",
+"researcher": "Vijaya Lakshmi T R",
+"abstract": "Digitizing documents have enormous benefits such as quick search, saves space, accessibility, etc. Even with the advent of many technological developments like digital pen, compact disc, etc. people still use the natural interface to record text. This indicates that the \nnewlinehandwritten documents could persist even for some more decades. The various applications of character recognition are automatic mail sorting, signature verification, library automation, language \nnewlineprocessing, forensic applications and multimedia design. Telugu script which is an offshoot of Brahmi script has complex \nnewlinestructural characteristics and makes character recognition still difficult. It has 16 vowels and 36 consonants which form basic characters. The number of basic and compound characters is more compared to the foreign language, English. Every Telugu vowel has a modifier to modify the consonants. When a consonant is combined \nnewlinewith a vowel modifier a compound character is formed. These compound characters are more similar and difficult to recognize them. For several centuries, before the invention of paper, a raw material called palm-leaf was used for recording/writing. As per the survey organized by Institute of Asian Studies (IAS) Chennai, more \nnewlinethan one lakh palm-leaf manuscripts are available in the South Indian museums and research institutes. These are recognized as the key to the knowledge in diverse fields that have been passed through \nnewlinegenerations. Th",
+"queries": [
+"telugu character recognition",
+"telugu script recognition",
+"telugu text recognition",
+"telugu palm leaf",
+"telugu manuscript recognition",
+"indic script recognition",
+"south indian script recognition"
+]
+},
+"f1b037d8-8154-47fd-96ea-2730ba0ab1d8": {
+"title": "Printed Telugu Character Recognition System Using Augmented Convolutional Neural Network Models",
+"handle": "10603/614555",
+"year": "2023",
+"university": "Faculty of Computer Science and Engineering",
+"researcher": "Srinivasarao Dhanikonda",
+"abstract": "Attached\t\t\t\t\t\t\t\t\t\t\t\t\nnewline",
+"queries": [
+"telugu character recognition"
+]
+},
+"2f773f85-093e-42e4-a785-a845b9825e15": {
+"title": "A Novel Approach in Recognition of Handwrittten Dravidian Characters for Secure Transmission Telugu as a Case Study",
+"handle": "10603/522584",
+"year": "2022",
+"university": "Faculty of Computer Science and Engineering",
+"researcher": "Madhavi Kumari T",
+"abstract": "Attached",
+"queries": [
+"telugu character recognition",
+"telugu text recognition",
+"dravidian character recognition"
+]
+},
+"5ef6fda1-0b99-43a0-b934-904b42988d3f": {
+"title": "Some studies on recognition of handwritten Telugu characters",
+"handle": "10603/10438",
+"year": "n.d.",
+"university": "Department of Computer Science and Engineering",
+"researcher": "Sita Mahalakshmi, T",
+"abstract": "Computers are all pervasive essentialities in today s world and technologies that improve our interactions with them are growing at a never before rate. One particular kind of techniques that enable us to interact with them better are the recognition methods, which include character or speech recognition. Character recognition is of two types - off-line and on-line. This thesis predominantly focuses on off-line character recognition- an application of pattern recognition. A typical pattern recognition system consists of three phases namely data acquisition, feature extraction and classification. For classification, knowledge acquisition about the domain is an important factor. If the domain knowledge is well defined then the characters can be classified with certainty. This work is focused on off-line recognition of Telugu characters. The data set for Telugu alphabet are neither available on on-line resources nor are they available commercially. As a result, it became necessary to acquire the character images from different people for this research. Due to the wide range of variations in the handwriting, the images are pre-processed and a set of 41 features are extracted from the images. As the generalization ability of the classifier depends on the number of attributes, dimensionality reduction has been performed using factor analysis with SPSS 16.0 and validation and consistency of the factors has been confirmed with confirmatory factor analysis. The second stage of pattern",
+"queries": [
+"telugu character recognition",
+"telugu handwritten",
+"telugu text recognition",
+"telugu text extraction",
+"telugu handwriting"
+]
+},
+"f2209e3c-f9bc-467b-8766-edbc3ac5fd7d": {
+"title": "Investigation of Dictionary Learning Algorithms for Telugu Handwritten Character Recognition",
+"handle": "10603/697931",
+"year": "2025",
+"university": "SCHOOL OF COMPUTER and INFORMATION SCIENCES",
+"researcher": "Rajesh, K",
+"abstract": "Optical Character Recognition (OCR) in the printed domain has now\nnewlinebeen studied but Handwritten Character Recognition (HWCR) poses\nnewlinechallenges as a classification task. In HWCR, difficulty arises from the\nnewlinehigh intra class variances of the writing. HWCR for Latin scripts is\nnewlinebetter studied, but a few challenges remain. For Indic scripts, HWCR\nnewlineis not very mature and much research is needed. Due to the scarcity\nnewlineof extensive datasets and the intricacy of scripts, there is a need to explore\nnewlinedependable models. Machine learning algorithms build models\nnewlineby learning structures and patterns that are inherent in training data.\nnewlineWhile, Dictionary Learning (DL) is one of the lesser known approach\nnewlineto machine learning (ML) for finding sparse approximations. Sparse\nnewlinerepresentations are good at learning such inherent patterns. This\nnewlinemotivates us to explore sparse approximation techniques for HWCR.\nnewlineWhen working on this research we found a big shortage of fully handwritten\nnewlinedatasets for Telugu. Deep learning methods require large sized\nnewlinelabeled datasets. Therefore it was not viable to take up deep learning\nnewlinemethods although recently good results are reported.\nnewlineIn this thesis, we proposed heuristics for dictionary parameters, we\nnewlineproposed a hybrid framework for handling confusion pairs in character\nnewlinerecognition and we proposed a probability based classifier using sparse\nnewline",
+"queries": [
+"telugu character recognition",
+"telugu handwritten",
+"telugu ocr",
+"telugu optical character",
+"telugu script recognition",
+"indic script recognition"
+]
+},
+"1608497b-d98c-4e5b-8de0-93c2b18e372b": {
+"title": "RECOGNITION OF IMAGES AND PRINTED TELUGU CHARACTERS",
+"handle": "10603/202072",
+"year": "11/11/2011",
+"university": "Department of Physics and Computer Science",
+"researcher": "JAIN RITU",
+"abstract": "newline",
+"queries": [
+"telugu character recognition",
+"telugu text recognition",
+"telugu printed text"
+]
+},
+"613dfa52-4d80-42b1-8943-8b8ed83d91bd": {
+"title": "Optical character recognition for telugu",
+"handle": "10603/129195",
+"year": "29-10-2016",
+"university": "Department of Electronics and Communication",
+"researcher": "J.Bharathi",
+"abstract": "No\t\t\t\t\t\t\t\t\t\t\t\t\nnewline",
+"queries": [
+"telugu character recognition",
+"telugu ocr",
+"telugu optical character",
+"telugu text recognition"
+]
+},
+"4658c98e-d978-4acd-b807-dd6517041809": {
+"title": "A frame work for handwritten character recognition for telugu script",
+"handle": "10603/331653",
+"year": "2020",
+"university": "Department of Computer Science and Engineering",
+"researcher": "Goda Srinivasa Rao",
+"abstract": "No\t\t\t\t\t\t\t\t\t\t\t\t\nnewline",
+"queries": [
+"telugu character recognition",
+"telugu handwritten",
+"telugu script recognition"
+]
+},
+"a33b6204-9f66-4431-9e96-bd8963c86127": {
+"title": "image based telugu handwritten and printed character recognition using deep learning approach",
+"handle": "10603/540129",
+"year": "2023",
+"university": "Department of Computer Science and  Engineering",
+"researcher": "Vijaya Krishna Sonthi",
+"abstract": "newline",
+"queries": [
+"telugu character recognition",
+"telugu handwritten"
+]
+},
+"eb257a1a-c339-4be7-9a67-699d9405a22c": {
+"title": "Some studies on recognition of handwritten Telugu Characters",
+"handle": "10603/124098",
+"year": "n.d.",
+"university": "Department of Computer Science and Engineering",
+"researcher": "Mahalakshmi, T Sita",
+"abstract": "Abstract available",
+"queries": [
+"telugu character recognition",
+"telugu handwritten",
+"telugu text recognition"
+]
+},
+"810b4444-02e7-42f8-93ea-c791a50d02f9": {
+"title": "Department of computer science and engineering some adaptive approaches for handwritten character recognition of telugu guninthams using deep neural networks",
+"handle": "10603/528873",
+"year": "2023",
+"university": "Department of Computer Science and Engineering",
+"researcher": "Soujanya, Buddharaju",
+"abstract": "File Attached\t\t\nnewline",
+"queries": [
+"telugu character recognition",
+"telugu handwritten"
+]
+},
+"0ab9aa30-6c4c-47e4-8275-a7791afa2286": {
+"title": "Online Handwritten Character and Word Recognition in Indic scripts",
+"handle": "10603/424094",
+"year": "2020",
+"university": "Computer Science and Engineering",
+"researcher": "Ghosh, Rajib",
+"abstract": "Online handwriting recognition problem has been well known in pattern recognition and machine learning community for long. But, it is still a challenging\nnewlinetask to recognize accurately the online handwritten texts written in various Indic\nnewlinescripts like Devanagari, Bengali, Telugu and Tamil. These are four most popular Indic scripts. The works available in the literature on these Indic scripts\nnewlinevary from one script to other. Regarding character level recognition, researchers\nnewlinehave worked on Devanagari and Tamil scripts with both simple and compound\nnewlinecharacter recognition but works in Bengali script are confined only within simple characters. Real time requirements are for texts having both characters as\nnewlinewell as numerals. None of these scripts have been analyzed with numerals in\nnewlinecombination with characters. The present research work proposes two different\nnewlineapproaches - one without combining the outcomes of Support Vector Machine\nnewline(SVM) and Hidden Markov Model (HMM) classifiers and the other by combining the outcomes of these two classifiers, to recognize both online handwritten\nnewlinesimple and compound characters as well as numerals in Devanagari, Bengali and\nnewlineTamil scripts. The present research work trains the system initially by generating\nnewlineseparate training datasets for numerals, simple characters and compound characters and then a single training dataset for all these symbols. The first approach\nnewlinepro",
+"queries": [
+"telugu character recognition",
+"telugu handwritten",
+"telugu script recognition",
+"telugu text recognition",
+"telugu word recognition",
+"telugu text extraction",
+"telugu handwriting",
+"indic script recognition",
+"telugu numeral"
+]
+},
+"5ed6cf89-7c04-4662-b9de-2c2b4c62ba1e": {
+"title": "Efficient Hidden Markov Models for Online Handwritten Gurmukhi Script Recognition",
+"handle": "10603/512120",
+"year": "",
+"university": "Department of Computer Science and Engineering",
+"researcher": "Verma, Karun",
+"abstract": "Handwriting recognition is the process that converts handwritten characters into machine processable format. The work presented in this thesis deals with online handwritten character recognition. Handwritten characters can either be presented to machine online or offline. A good amount of research in this area has been reported for English, Chinese, Japanese and Korean languages. Research on developing online handwriting recognition systems for some of Indian languages, like, Bangla, Hindi, Malyalam, Tamil and Telugu have been conducted by many researchers in past decade. In this thesis, we have worked for the development of online handwritten character recognition system for Punjabi language. This language is popular among the people living in Punjab, a North Indian state and also among Indians living in other parts of the world such as Australia, Canada, New Zealand and USA. Gurmukhi is the script used to write this language. Some researchers, have also worked on building online handwriting recognition systems for Gurmukhi script. This thesis carries forward the work done by these researchers. An effort has also been made to improve the classification strategies for the recognition of Gurmukhi characters in an online handwritten recognition environment. The work done here is organized in seven chapters. and#8232; First chapter introduces the characteristics of Gurmukhi script and highlights the need of developing a handwritten character recognition system for this script. T",
+"queries": [
+"telugu character recognition",
+"telugu handwritten",
+"telugu optical character",
+"telugu script recognition",
+"telugu handwriting"
+]
+},
+"e7d40e09-0817-48bc-aa52-2a7c513faabb": {
+"title": "Role of Skeletonization and Segmentation for Recognition of Off Line Odia Characters",
+"handle": "10603/464944",
+"year": "2021",
+"university": "Department of Computer Science and Application",
+"researcher": "Mishra, Sagarika",
+"abstract": "Automatic character recognition is becoming an extremely important concept in digital preservation of cultural heritage. The importance of OCR for Indian languages cannot be underestimated as massive volumes of print-media resources representing the cultural and historical heritage of India are available in several Indian scripts. Several recognition techniques for printed characters of different Indian scripts have been reported in literature like Devanagari Tamil, Telugu, Bangla scripts etc. A substantial amount of work has been done in the field of OCR for the above cited scripts but very little research has been done for the Odia language. Moreover whatever the techniques that have been implemented in the past have not yet provided a reliable output. With many different types of algorithms present for different languages, it gave us an opportunity to study various pre-processing, feature extraction and image classification techniques. The basic emphasis is given mainly upon the skeletonization and segmentation to identify several structural behavior of printed odia scripts.\t\t\t\t\t\t\t\t\t\t\t\t\nnewline",
+"queries": [
+"telugu character recognition",
+"telugu ocr",
+"telugu script recognition",
+"indian script ocr"
+]
+},
+"668fbafc-f057-4b66-8a28-1f93f675750a": {
+"title": "Language Model Based Online Handwritten Recognition System for Punjabi Language",
+"handle": "10603/423772",
+"year": "2019",
+"university": "Department of Computer Science and Engineering",
+"researcher": "Singh, Harjeet",
+"abstract": "Handwriting is an important method of communication between human beings. This is also used as an interface between machine and human beings in a few applications. As such, the development of the handwriting recognition system is one of the important areas of research. Handwriting recognition systems can be developed for offline handwriting and also for online handwriting. In this work, an attempt has been made to develop online handwriting recognition system for Punjabi language. This is a popular language of North India and Gurmukhi script is used to write this language. Owing to the variations in handwriting style of the writers, the handwriting recognition is a challenging task. A good amount of research has been done on the online handwriting recognition for non-Indic scripts such as Arabic, Chinese, Japanese, and Korean. On the other hand, many researchers in India have also shown the interest in this direction in the recent past for Indic scripts, namely, Assamese, Bangla, Devanagari, Gurmukhi, Telugu, Malayalam, and Tamil. The primary objective of this thesis is to build an efficient online handwriting recognition system for Gurmukhi script. The work done in this direction has been organized in seven chapters. Chapter 1 introduces the online handwriting recognition systems for various scripts. A brief discussion on the Gurmukhi script symbols, various phases in online handwriting recognition systems, major challenges in developing an online handwriting recognition sys",
+"queries": [
+"telugu character recognition",
+"telugu handwritten",
+"telugu optical character",
+"telugu script recognition",
+"telugu handwriting",
+"indic script recognition"
+]
+},
+"18f4e54e-b406-42ad-a6ed-d8cb8fa26507": {
+"title": "Offline Handwritten Gurmukhi Script Recognition",
+"handle": "10603/329606",
+"year": "",
+"university": "School of Mathematics",
+"researcher": "Kumar, Munish",
+"abstract": "Over the last few years, a good number of laboratories all over the world have been involved in research on handwriting recognition. Handwriting recognition is a complex problem owing to the issues of variations in writing styles and size of the characters etc. The main objective of this work is to develop an offline handwritten Gurmukhi script recognition system. Gurmukhi is the script used for writing Punjabi language which is widely spoken in certain regions of north India. This thesis is divided into eight chapters. A brief outline of each chapter is given in the following paragraphs. The first chapter introduces the process of OCR and various phases of OCR like digitization, pre-processing, segmentation, feature extraction, classification and post-processing. Applications of offline handwritten character recognition system are also discussed in this chapter. In an overview of Gurmukhi script, the nature of handwriting in Gurmukhi script and character set of Gurmukhi script has also been presented. Major contributions and assumptions in this research work have also been discussed in this chapter. Chapter 2 contains a review of literature on various methods used for non-Indian and Indian scripts recognition. In this chapter, a detailed literature survey on established procedures for numeral and character recognition techniques has been presented. We have reviewed literature for different scripts, namely, Arabic, Bangla, Devanagari, French, Gujarati, Gurmukhi, Kannada, Japa",
+"queries": [
+"telugu character recognition",
+"telugu handwritten",
+"telugu ocr",
+"telugu script recognition",
+"telugu handwriting",
+"indian script ocr",
+"telugu numeral"
+]
+},
+"d4ad591e-44ba-4f9c-aa1f-a6c5eceb1ffc": {
+"title": "Segmentation of Telugu Text using Fringe Maps",
+"handle": "10603/312697",
+"year": "",
+"university": "Department of Computer and Information Sciences",
+"researcher": "Koppula, Vijaya Kumar",
+"abstract": "file attached",
+"queries": [
+"telugu ocr"
+]
+},
+"3ab4392c-5744-465b-ae6a-1830832da5b1": {
+"title": "Extraction and recognition of middle zone components of telugu script using language model",
+"handle": "10603/192104",
+"year": "n.d.",
+"university": "Department of Electronics and Communication Engineering",
+"researcher": "Chandrasekhara Sastry A S",
+"abstract": "none",
+"queries": [
+"telugu script recognition",
+"telugu text recognition",
+"telugu text extraction"
+]
+},
+"28811d69-eb98-4b98-b211-eaffb8af0046": {
+"title": "Compositionality of letter shape in word recognition",
+"handle": "10603/430649",
+"year": "2020",
+"university": "Centre for BioSystems Science and Engineering",
+"researcher": "Agrawal, Aakash",
+"abstract": "As you read this sentence, your brain just performed a miraculous task of converting collections of letter shapes into meaning. Reading is a cultural invention that is thought to exploit the intrinsic recognition abilities of our visual system, but it also leads to widespread changes in the brain. How do visual representations change to enable efficient reading i.e. our ability to read words at a glance? It is widely believed that learning to read should lead to the formation of novel detectors for letter combinations, thereby creating word responses that are not predictable from single letters. Alternatively, reading could lead to separable or compositional word responses that are predictable from familiar letters or scripts. There is insufficient evidence to resolve this fundamental question in the literature. In my thesis, I have performed 3 main studies to address this fundamental question. In the first study, I explored the changes in representation associated with reading expertise. To address this, I compared the visual representations of readers and non-readers of two Indian languages, Telugu and Malayalam. I found a subtle change in visual representation with reading expertise, but surprisingly it decreased the interaction between letters of a word, thereby, making the letters of a word more compositional. Using fMRI, I found the locus of this effect in higher visual areas. In the second study, I explored the nature of visual representation that enable us to read wor",
+"queries": [
+"telugu script recognition",
+"telugu word recognition"
+]
+},
+"afeb0904-ccdb-4f65-8878-639fc44a4159": {
+"title": "DEVELOPMENT OF AN OPTICAL RECOGNITION SYSTEM FOR PRINTED TELUGU TEXT",
+"handle": "10603/202149",
+"year": "27/11/2003",
+"university": "Department of Physics and Computer Science",
+"researcher": "LAKSHMI C VASANTHA",
+"abstract": "newline",
+"queries": [
+"telugu text recognition",
+"telugu printed text"
+]
+},
+"d02590d0-008b-4dfa-8ae8-b6e3e6749a33": {
+"title": "recognition of telugu hand written text using deep convolutional neural networks",
+"handle": "10603/694694",
+"year": "2024",
+"university": "Department of Computer Science",
+"researcher": "Rajasekhar Boddu",
+"abstract": "newline",
+"queries": [
+"telugu text recognition"
+]
+},
+"aa9812f5-6435-41db-a055-bcb30f9d2caf": {
+"title": "A Framework for Automatic Text Independent Emotion Recognition System for Telugu Language",
+"handle": "10603/647406",
+"year": "2020",
+"university": "Faculty of Computer Science and Engineering",
+"researcher": "Naga Padmaja Jagini",
+"abstract": "Attached",
+"queries": [
+"telugu text recognition"
+]
+},
+"b3e1a8d7-6b69-4129-9f7f-5b76f5c5b0f0": {
+"title": "Exploring Robust Emotion Specific Features for Automatic Text Independent Emotion Recognition for Telugu Language",
+"handle": "10603/447184",
+"year": "2021",
+"university": "Department of Computer Science and Engineering",
+"researcher": "Sadhu Radha Krishna",
+"abstract": "newline",
+"queries": [
+"telugu text recognition"
+]
+},
+"a1816741-5c7e-4132-b7b4-ccb9799a0179": {
+"title": "Modelling and analysis of speech rate variation for speaker independent telugu automatic speech recognition system",
+"handle": "10603/219336",
+"year": "n.d.",
+"university": "Department of Computer and Information Sciences",
+"researcher": "Rani, Usha N",
+"abstract": "Abstract available",
+"queries": [
+"telugu text recognition"
+]
+},
+"8a58e83b-c111-4f42-9c5c-ec629f0c46c6": {
+"title": "Towards Building an Automatic Speech Recognition Systems in Indian Context using Deep Learning",
+"handle": "10603/535770",
+"year": "2023",
+"university": "Electronics and Communication Engineering",
+"researcher": "Sai Ganesh,Mirishkar",
+"abstract": "Automatic Speech Recognition (ASR) systems are increasingly prevalent in our daily lives, with\nnewlinecommercial applications such as Siri, Alexa, and Google Assistant. However, the focus of these\nnewlinesystems has been largely angled towards English, leaving a considerable portion of non-English\nnewlinespeakers underserved. This is particularly evident in India, a linguistically diverse country with\nnewlinemany languages classified as low-resource in the context of ASR due to the scarcity of annotated\nnewlinespeech data. This thesis aims to bridge this gap, focusing on enhancing ASR systems for Indian\nnewlinelanguages using deep learning methodologies. India is a land of language diversity. There are\nnewlineapproximately 2000 languages spoken around, and among those officially registered are 23. Of\nnewlinethose, very few have ASR capability. This is because building an ASR system requires thousands of hours of annotated speech data, a vast amount of text, and a lexicon that can span all\nnewlinethe words in the languages. The necessity for a comprehensive presence in the diverse Indian\nnewlinemarkets demands the development of multilingual Automatic Speech Recognition (ASR) systems. It s a common scenario where ASR systems for Indian languages have to be implemented\nnewlinein low-resourced contexts. Furthermore, the complexity of the linguistic landscape is amplified due to the high prevalence of bilingualism in the Indian population, leading to frequent\nnewlineinstances of ",
+"queries": [
+"telugu text recognition",
+"telugu word recognition"
+]
+},
+"4094bc63-2f2f-4978-ac92-351dfaabcff1": {
+"title": "Telugu Print Cultures and Vernacular Modernity A Study of Vijnana Chandrika Mandali",
+"handle": "10603/561289",
+"year": "2019",
+"university": "Department of Communication",
+"researcher": "Sasikiran Reddy, Mallam",
+"abstract": "The thesis foregrounds the engagement of the early twentieth century Telugu intelligentsia with Modernity through a critical reading of the texts and paratexts published by Vijnana Chandrika Mandali, an early twentieth century literary society and publishing house. It argues that a vernacular modernity transpired from this engagement and the effort also signifies a modern intervention in the Telugu print cultures, which was enabled by the influence of Swadeshi movement and the resulting nationalist consciousness, which manifested in the realm of education as the National Education Movement and in the realm of language as linguistic reform of the vernaculars to equip them to engage with modernity. The Vijnana Chandrika Mandali published books in the genres of Biography, Sciences, History, Historical Novel and Encyclopaedia.\nnewlineThe first two chapters set the methodological and contextual background for the study by situating the Vijnana Chandrika Mandali among the telugu print cultures of the time, while also conceptualizing the idea of vernacular modernity and documenting its pre-history. The third chapter engages with the role of Vijnana Chandrika Mandali in the Telugu language debates which divided the Telugu public sphere into reformists and classicists. The fourth chapter delves into the colonial education policy and alternative education systems that were conceived as a result of the swadeshi movement which created a need for vernacular science books. The chapter disc",
+"queries": [
+"telugu printed text"
+]
+},
+"8706ec04-68fd-43e0-b578-adcae32340d5": {
+"title": "Sociology of health medical journalism in telugu print media A sociological study",
+"handle": "10603/70037",
+"year": "n.d.",
+"university": "Department of Sociology",
+"researcher": "Saradhi,Chiruvolu Pardha",
+"abstract": "Abstract not available",
+"queries": [
+"telugu printed text"
+]
+},
+"4111ebb1-1cb4-4377-b8a9-fb0ce898aa14": {
+"title": "Identification of named entities from different language families",
+"handle": "10603/331729",
+"year": "2020",
+"university": "Faculty of Science and Humanities",
+"researcher": "Malarkodi C S",
+"abstract": "The objective of the study is to develop the Generic Named Entity system which can automatically extract the generic features for identification of named entities from the given dataset. The features used in this work do not depend on any language or domain. The 12 languages studied in this work belong to different language families. The languages belonging to Dravidian language family are Tamil, Telugu and Malayalam, languages coming under Indo-Aryan family are Hindi, Marathi, Punjabi and Bengali, languages belonging to Germanic family are English, Dutch and German, language form Romance language family is Spanish and language coming under Uralic family is Hungarian are considered for anlaysis in this work. Named Entity Recognition (NER) is defined as the process of automatic identification of proper nouns and classifies the identified entities into the predefined categories such as person, location, organization, facilities, products, temporal or numeric expressions etc. The machine learning technique Conditional Random Fields (CRFs) is used to identify the named entities in the present work. The linguistic analysis has done to observe the part of speech patterns immediately preceding or following named entities and found the common patterns of named entities for all the 12 languages. The lexical level features such as word, first word, trigrams and bigrams of suffix and prefix information of the current token, syntactic level features such as POS and chunk information, dyn",
+"queries": [
+"telugu word recognition",
+"telugu numeral"
+]
+},
+"a50d4b3d-4a94-44af-b484-230bb5fa7a22": {
+"title": "A Fusion based approach for Extractive Text Summarization of Telugu documents",
+"handle": "10603/614540",
+"year": "2022",
+"university": "Faculty of Computer Science and Engineering",
+"researcher": "Kishore Kumar M",
+"abstract": "Attached",
+"queries": [
+"telugu text extraction"
+]
+},
+"cede29cd-c29c-4007-a98b-d5974b6f7e70": {
+"title": "Analysis And Modelling Of Vocal Tract And Emotional Speech In Indian Native Languages",
+"handle": "10603/286402",
+"year": "20/11/2019",
+"university": "Dept. of Electronics Engineering",
+"researcher": "Shiva Prasad K M",
+"abstract": "Human beings use verbal as well as non-verbal based communication during their interaction with the world. Speech is perhaps the best method of interaction which is often an unique signal convey linguistic as well as non-linguistic information with respect to time. Phonemes are articulated during the production of speech. Most of the languages incorporate about 40-50 phonemes which act as alphabets to develop various words which are built based on sequences of phonemes (syllables) during speech thereby forming sentences. The distinctiveness with respect to phonetic and the individual speaker among the speech sample collected by individual subjects (male and female speakers) are largely ingrained with respect to vocal tract shapes. It is observed that most of speech researches were carried out by considering the speech production related investigations with the assumption that distinct patterns of acoustic cues will be found to be associated with discrete emotional state. Most of the emotional speech analysis focussed on source related acoustic features or cues.\nnewlineThe concept of important prosodic features is important features which identifies emotional state of intra and inter speakers. The current research includes identification of speech to be neutral or emotional while categorizing the emotional aspects of recorded speech signal. Emphasis was provided to the identification of emotional status of individual with the aid of feature extraction of speech and to model th",
+"queries": [
+"telugu text extraction"
+]
+},
+"bc8a9ced-db68-43c4-bc5d-dc0361d80684": {
+"title": "Analysis of n gram model on telugu document classification",
+"handle": "10603/192635",
+"year": "",
+"university": "Faculty of Computer Science",
+"researcher": "Vishnu Vardhan B",
+"abstract": "newline",
+"queries": [
+"telugu document analysis"
+]
+},
+"960d7dc1-d5f2-42d2-a6b0-1d33f4f09e4b": {
+"title": "Rule based dependency parser for Telugu",
+"handle": "10603/522541",
+"year": "2023",
+"university": "Centre for Applied Linguistics and Translation Studies",
+"researcher": "Sangeetha, P.",
+"abstract": "Abstract\nnewlineParsing natural languages has been gaining popularity in recent years and\nnewlineattracted the interest of Natural Language Processing (NLP) researchers around\nnewlinethe world. It is challenging when the language under study is a free-word order\nnewlinelanguage and morphologically rich like Telugu, the south-central Dravidian\nnewlinelanguage. Parsing refers to the process of syntactic analysis of a specific language\nnewlinetext. A parser is an automated tool that dissects sentences to provide\nnewlinesyntactic/syntactico-semantic analysis of relations of words in a sentence. Parsing\nnewlineis useful in the downstream analysis and applications of NLP such as machine\nnewlinetranslation, document classification, dialogue modelling, etc..,\nnewlineThis study adopts a knowledge-driven approach, i.e. a rule-based technique for\nnewlinebuilding parser for Telugu using linguistic cues as rules. The present research\nnewlineadopts the Indian grammatical tradition i.e. P¯an. ini s Grammatical (PG) tradition\nnewlineas the dependency model to parse sentences. A detailed description of mapping\nnewlinesemantic relations to vibhaktis (case suffixes and postpositions) using linguistic\nnewlinecues in Telugu is presented.\nnewlineAn enhanced annotation scheme for Telugu dependency relations is introduced.\nnewlineChallenges faced in parsing ambiguous structures are elaborated alongside\nnewlineproviding enhanced tags to handle them. The study describes the parsing\nnewlinealgorithm an",
+"queries": [
+"telugu document analysis"
+]
+},
+"301f0de8-3880-481f-bea2-f4a9670398aa": {
+"title": "Pedagogical Aspects of Manodharma Sangitam in Karnatic Classical Music A Study",
+"handle": "10603/301599",
+"year": "23-8-2019",
+"university": "Department of Music",
+"researcher": "Kanaka Durga K",
+"abstract": "The thesis titled Pedagogical Aspects of Manodharma Sangitam in Karnatic Classical Music-A Study focusses on: \nnewline- Teaching/Learning methods used in kalpita sangita and manodharma sangita in Karnatic classical music  \nnewline- Importance of compositions / listening in the pedagogy of manodharma sangita \nnewline- Fundamental knowledge to be imparted by the teachers \nnewline- Basic skills required to sing alapana, svarakalpana, neraval and tanam. \nnewline- Importance of practice / presentation in pedagogy of improvisational music. \nnewline Data was collected using qualitative method of interview, participatory observation and document analysis. Seventeen Karnatic classical musicians were interviewed using questionnaire. \nnewline The study reveals that laya, sruti, svara and gamaka; voice culture; understanding ragalakshana; weaving svara patterns (alankarik prayogas) and practicing alapa/tanam syllables are the eight essentials needed for singing manodharma. These aspects have to be taught and practiced well to attain perfection in rendering manodharma. In the initial stages, a simple structure of raga alapana etc. may be given to the students. All that is learnt may be presented on concert platform to attain perfection and gain confidence.",
+"queries": [
+"telugu document analysis"
+]
+},
+"11c2380e-2d43-4f43-9b1e-55b0fee5f2e2": {
+"title": "Hybrid features based signboard text recognition system for Gurmukhi script",
+"handle": "10603/472756",
+"year": "2023",
+"university": "Department of Computer Science and Application",
+"researcher": "Bains, Jasleen Kaur",
+"abstract": "Signboard text recognition has gained significant attention in recent decades. This study proposes a signboard text recognition system for the Gurmukhi script and examines the state-of-the-art work for signboard text recognition in various scripts. The study focuses on the computation of correct features to represent data efficiently and achieve high accuracy in text recognition systems. The proposed system recognizes Gurmukhi signboard image strokes using dynamic, static, and hybrid feature sets. The offline text lacks dynamic information on the writing order or nature of the trajectories of stroke. A recovery of the drawing order technique has been used to retrieve the trajectory of a stroke, aiding in computing a dynamic feature vector based on chain codes or trajectory points for text recognition. Stroke recognition has been performed using Conv1D, SVM, and HMM classifiers for dynamic feature alone. The best overall recognition accuracy using a hybrid feature set has been achieved using the SVM and Conv1D deep learning method as 91.37% and 93.39%. The character and word formation processes of Gurmukhi words in signboard images have been performed. The Gurmukhi strokes are categorized into major-dependent and dependent strokes. The rearrangement of strokes is performed to form a complete character during the character formation process. For word formation, an understanding of the Gurmukhi script has been used to define the process of word formation. The Gurmukhi words havi",
+"queries": [
+"indic script recognition"
+]
+},
+"baa339e5-8b74-4405-aaf6-40320865b372": {
+"title": "Offline script identification from handwritten Indic script documents",
+"handle": "10603/356464",
+"year": "2018",
+"university": "Department of Computer Science and Engineering",
+"researcher": "Singh, Pawan Kumar",
+"abstract": "newline",
+"queries": [
+"indic script recognition"
+]
+},
+"30ae4a28-5266-4778-b5bc-f10731f50703": {
+"title": "Online Handwritten Word Recognition for Indic Scripts using Hidden Markov Models and Data driven Modeling of Writing Styles",
+"handle": "10603/475197",
+"year": "2009",
+"university": "Computer Science and Information Systems",
+"researcher": "Bharath, A",
+"abstract": "newline",
+"queries": [
+"indic script recognition"
+]
+},
+"27c8d57b-1cd7-4750-b813-43b736160144": {
+"title": "Offline Character Recognition Of Gujarati Script Using Deep Learning Techniques",
+"handle": "10603/545455",
+"year": "2024",
+"university": "Faculty of Technology and Engineering",
+"researcher": "suthar, sanket",
+"abstract": "As per the report from the census of India, Gujarati is the 7th most used language in India for communication. Optical character recognition (OCR) development for Indic languages is very challenging because of the variety of shapes of characters, complex character sets, and presence of modifiers. However, for complex languages like Gujarati, these techniques do not always yield accurate results. The number of steps needed to accurately classify characters is reduced when using various deep learning approaches in OCR. Modifiers called matras are used in Devanagari and other regional Indian languages. When a matra is added to a character, the character is changed, making it challenging to identify the characters in a handwritten offline document. Western languages, such as English, have been intensively examined in the past 20 years, and the success rate appears to be very high, this is due to the absence of modifiers within the language. Indian researchers are studying Indian regional languages like Sanskrit, Hindi, Gujarati etc. However, their success rate does not seem to meet the expected standard at present. The primary cause of such is that only a small number of authors used deep learning approach to recognize Gujarati characters. Thus in the beginning printed characters taken into the consideration and then handwritten characters.\nnewline\nnewline\nnewlineThe first proposed approach focused on printed Gujarati characters as well as numerals and its recognition in offline ",
+"queries": [
+"indic script recognition",
+"indian script ocr"
+]
+},
+"d642c858-21ec-4cce-bde3-f7eac5dbb8cc": {
+"title": "Development of Gender Classification and Writer Identification Systems for Offline Handwritten Gurumukhi Text",
+"handle": "10603/420207",
+"year": "2021",
+"university": "Department of Computational Sciences",
+"researcher": "Dargan, Shaveta",
+"abstract": "Over the last few years, a good number of laboratories all over the world have been involved in the research on the offline handwritten text. Pattern Recognition is the process of automated recognition of patterns and regularities in the data by using machine learning techniques. The development of the writer identification and gender classification systems based on behavior biometric traits i.e., handwritten text in the Gurumukhi script is the prime objective of this Ph.D. work. The development of a framework for gender classification in Gurumukhi script is a novel achievement in concern with the Indic scripts as previously no recognized work has been available so far and the development for writer identification with large datasets and with improved and enhanced accuracy rate is also a remarkable attempt as compared to state-of-the-art work. Numerous challenging and stimulating applications based on gender classification and writer identification are forensic investigations, criminal detection, questioned documents, signature identification and verification, forgery detection and so on.\t\t\t\t\t\t\t\t\t\t\t\t\nnewline",
+"queries": [
+"indic script recognition"
+]
+},
+"e8af5804-225a-4169-bea4-97b12e64322b": {
+"title": "Learning Representations for Word Images",
+"handle": "10603/308474",
+"year": "2020",
+"university": "Computer Science and Engineering",
+"researcher": "Krishnan Praveen",
+"abstract": "Representation learning has been a key investigation in pattern recognition. The primary goal of this thesis is to learn efficient representations for word images from scanned document images. An ideal representation should be invariant to multiple fonts, handwritten styles and less sensitive to noise and degradations. In this work, we choose the paradigm of learning from data using deep neural networks. \nnewline\nnewlineThe first contribution of this thesis is a simple technique to generate large amounts of synthetic data, useful for pre-training deep neural networks. This led to the creation of IIIT-HWS dataset which is now widely used in the document community. The other major contributions of this thesis are: (a) the design of a deep convolutional architecture (named as HWNet) for learning an efficient holistic representation for word images, (b) a joint embedding scheme to project words and textual strings onto a common subspace, and (c) a novel form of word image representation which respects the word form along with its semantic meaning. The learned representations are evaluated under the tasks of word spotting and word recognition. We report state-of-the-art performance on popular datasets under both modern/historical and handwritten/printed document images while keeping the representation size compact in nature. Finally, in order to validate the proposed representations of this thesis, we present some interesting use cases such as (i) finding similarity between a pair",
+"queries": [
+"indic script recognition"
+]
+},
+"e43ffd8b-6615-424a-b145-9d44a8edc29b": {
+"title": "On the development of an Optical Character Recognition OCR system for complex Indian documents",
+"handle": "10603/386832",
+"year": "2017",
+"university": "Department of Computer Science and Engineering",
+"researcher": "Tripathy, Nilamadhaba",
+"abstract": "newline",
+"queries": [
+"indian script ocr",
+"multi script document"
+]
+},
+"f173fd65-c5f1-4e91-87f5-59c0e2eaef09": {
+"title": "Efficient preprocessing and recognition strategies for script independent Indian OCR systems",
+"handle": "10603/458156",
+"year": "2021",
+"university": "Department of Computer Science and Engineering",
+"researcher": "Gupta, Deepika",
+"abstract": "Available\t\t\t\t\t\t\t\t\t\t\t\nnewline",
+"queries": [
+"indian script ocr"
+]
+},
+"b39bdd25-cb76-478a-8527-29406908ea67": {
+"title": "Ocr framework for offline tamil handwritten scripts",
+"handle": "10603/338681",
+"year": "2020",
+"university": "Faculty of Information and Communication Engineering",
+"researcher": "Antony Robert Raj,  M",
+"abstract": "In Pattern Recognition, Optical Character Recognition (OCR) is one of the popular and challenging research areas. OCR is a technology by which machine understandable code can be obtained from the character image. The applications of OCR include handwritten and printed ancient documents reading, such as handwritten characters in bank cheque, recognizing the characters from palm scripts, identifying the characters from inscriptions, and so on. This thesis focuses on recognizing the Offline handwritten characters of the cursive scripts collected from people written in the Tamil language. Even though Tamil is a South Indian language, it is also a highly speaking language in Canada, Singapore, Malaysia, SriLanka, and so on. The character sets of Tamil language consists of 12 vowels, 18 consonants, and 216 vowelized consonants and special characters. It has unique character sets to represent Tamil numbers, years, and months. The general structure of the Tamil language is versatile and cursive in nature. Numerous complexities are observed from the handwritten shapes of the Tamil Characterand#8223;s structure. They are, similar shapes introduced by writers, minor variations for the same character, characterand#8223;s structure connectivity, unnecessary curves, touching letters, shape variations, unwanted loops, angle variations leading to shape variations, unknown shaped characters similar in shape and character discontinuity etc. To provide the solution for these issues during the r",
+"queries": [
+"indian script ocr",
+"south indian script recognition"
+]
+},
+"e3a95a9f-3562-4760-9225-495914759d31": {
+"title": "Techniques for the Development of MultiFont Printed Text OCR Systems for Indian Scripts",
+"handle": "10603/229582",
+"year": "01-02-2018",
+"university": "Department of Physics and Computer Science",
+"researcher": "Singh, Sarika",
+"abstract": "newline",
+"queries": [
+"indian script ocr"
+]
+},
+"c859c4c2-3760-4ef0-876a-2ef5c011f683": {
+"title": "Handwritten Character Recognition for Indian Languages",
+"handle": "10603/72850",
+"year": "2011",
+"university": "Usha Mittal Institute of Technology",
+"researcher": "Ragha, Leena R",
+"abstract": "Optical Character Recognition (OCR) is a crucial part of electronic processing and\nnewlineanalysis of the documents called Electronic Document Analysis Systems. This area lies in the\nnewlineintersection of the fields of Image Processing, Pattern Recognition, and Natural Language\nnewlineProcessing. Although there have been tremendous research efforts, the state of the art in the\nnewlineOCR has only reached the point of partial use in recent years. Nowadays, cleanly printed text\nnewlinein documents with simple layouts can be recognized reliably by off the-shelf OCR software.\nnewlineThere is only limited success in handwriting character recognition (HCR), and that too for\nnewlineisolated and neatly hand-printed characters and words for limited vocabulary. However, in\nnewlinespite of the intensive effort of more than thirty years, the recognition of free style and cursive\nnewlinehandwriting continues to remain in the research arena.\nnewlineIndia is a Multi-lingual country with many languages having their own distinctive\nnewlinescripts and rich literary traditions. To help in bridging the digital divide and to increase the\nnewlineease of communication with computers, it is particularly important to develop computer\nnewlinesystems that allow users to interact with them in their respective languages. HCR can be used\nnewlineas a solution to convert the hard copy information to soft form and also as an input media for\nnewlinethe regional language scripts with large number of character",
+"queries": [
+"indian script ocr",
+"multi script document"
+]
+},
+"8a69770f-a0d1-492b-b348-6fa7f6e8e915": {
+"title": "Attention Feedback and Representations in OCR",
+"handle": "10603/426731",
+"year": "2019",
+"university": "Electrical Engineering",
+"researcher": "Shiva Kumar, H R",
+"abstract": "A Kannada OCR, named Lipi Gnani, has been designed and developed from scratch, with the motivation of it being able to convert printed text or poetry in Kannada script, without any restriction on vocabulary. The training and test sets have been collected from over 35 books published between the period 1970 to 2002, and this includes books written in Halegannada and pages containing Sanskrit slokas written in Kannada script. The coverage of the OCR is nearly complete in the sense that it recognizes all the punctuation marks, special symbols, Indo-Arabic and Kannada numerals and also the interspersed English words. Several minor and major original contributions have been done in developing this OCR at the different processing stages such as binarization, line and character segmentation, recognition and Unicode mapping. This has created a Kannada OCR that performs as good as, and in some cases, better than the Google s Tesseract OCR, as shown by the results. To the knowledge of the authors, this is the maiden report of a complete Kannada OCR, handling all the issues involved. Currently, there is no dictionary based postprocessing, and the obtained results are due solely to the recognition process. Four benchmark test datasets containing scanned pages from books in Kannada, Sanskrit, Konkani and Tulu languages, but all of them printed in Kannada script, have been created, along with the ground truth in Unicode. The word level recognition accuracy of Lipi Gnani is 5.3% higher on t",
+"queries": [
+"indian script ocr"
+]
+},
+"bb3c012f-66f2-499d-a7a1-fe783f0cb181": {
+"title": "Handwritten Gujarati Character Recognition using Machine Learning Approach",
+"handle": "10603/679141",
+"year": "2017",
+"university": "Institute of Technology",
+"researcher": "Sharma, Ankit",
+"abstract": "Abstract\nnewlineHandwritten character recognition is an active area of research. Over the past three\nnewlinedecades, there has been increasing interest among researchers in problem related to\nnewlinethe machine simulation of the human reading process. Optical Character Recognition\nnewline(OCR) is the tool that is utilized to convert printed or handwritten scanned document\nnewlineinto machine readable form/text. Handwritten character recognition is a challenging\nnewlinetask and people are striving to convert handwritten literature to computer readable\nnewlineformat. Recognising handwritten characters is difficult compared to printed charac-\nnewlineters because handwritten characters may vary from person to person with respect to\nnewlinethe individual writing style, size, curve, strokes and thickness of characters.\nnewlineLanguages have played a major role in Indian history and they continue to\nnewlineinfluence the lives of the Indians till date. Plentiful research on OCR techniques for\nnewlineIndian languages such as Hindi, Tamil, Bangla, Kannada, Gurumukhi and Malayalam\nnewlinehas already been carried out. Development of OCR systems for Gujarati script is\nnewlinestill in infancy and hence, there exists many unaddressed challenging problems for\nnewlineresearch community in this domain. This clearly necessitates the need to attend the\nnewlinetask of handwritten Gujarati character recognition. This thesis addresses the issues\nnewlineof handwritten Gujarati character recognition.",
+"queries": [
+"indian script ocr"
+]
+},
+"410efda0-0f3f-44a0-a645-1b3971f27fb5": {
+"title": "Optical Character Recognition of Machine Printed Dogri Language Documents",
+"handle": "10603/554860",
+"year": "2018",
+"university": "Department of Computer Science and Engineering",
+"researcher": "Jindal, Khushneet",
+"abstract": "Optical character recognition (OCR) is a technology used for the digitization of printed historical documents, books, magazines, manuscripts etc., in order to preserve them from deterioration. In India, there are a number of language groups, the major ones being the Indo-Aryan languages, spoken by most of the Indians. One such language is Dogri which is written using Devanagari script and is one of the important Indian language used in the border areas of the North of India. The present research work is an exclusive attempt towards the design and development of an OCR for recognition of machine printed Dogri language documents. A new dataset of Dogri language characters has been prepared as standard dataset for Dogri language OCR was non-existent. The new dataset consists of around 87000 character images collected from old books, magazines, newspaper and synthetically generated data. A novel shape based algorithms have been proposed for the segmentation of lines, words, characters and modifiers for the printed Dogri language documents. The proposed algorithms mainly focused upon the structure of character by retaining the header line (Shirorekha) during segmentation which is importantly required to minimize the loss of structural information. It helps in minimizing the chances of under-segmentation or oversegmentation. A segmentation accuracy of around 99.46% at character level has been achieved using proposed algorithms. The results showed that the proposed algorithms not on",
+"queries": [
+"indian script ocr"
+]
+},
+"336dd606-344c-4797-b21a-3ea6933a8e71": {
+"title": "A hybrid framework for tamil handwritten character recognition system using deep learning approach",
+"handle": "10603/512477",
+"year": "2022",
+"university": "Faculty of Information and Communication Engineering",
+"researcher": "Babitha Lincy, R",
+"abstract": "Optical Character Recognition (OCR) is one of the growing\nnewlinetechnologies in the data processing section. The objective of Optical\nnewlineCharacter Recognition is defined as identifying and understanding the data\nnewlinepresented on paper or digital documents by the system as humans do. Various\nnewlineattempts and research have been carried out in this realm. The success of\nnewlineLatin script recognition opened the research publically, worldwide. According\nnewlineto the Indian research, work-related to Hindi language recognition got a lot of\nnewlineattention, since it is the national language of India. But till date no one could\nnewlinebeat the growth of the Latin script by other non-Latin scripts, in terms of\nnewlineaccuracy rate and successful implementations. This thesis will reveal the\nnewlineterms presented in character recognition in Tamil, one of the popular south\nnewlineIndian languages.Tamil is one of the oldest Dravidian languages with a strong traditional\nnewlinehistory. Tamil character recognition has two categories such as printed\nnewlinecharacter recognition and handwritten character recognition. Handwritten\nnewlinecharacter recognition can be further classified into two types such as online\nnewlineand offline recognition. During the online identification of Tamil handwritten\nnewlinescript, the OCR engine will acknowledge the written characters spontaneously\nnewlinewhile writing using a digital pen, transducer, and touch screen. But the offline\nnewlineident",
+"queries": [
+"indian script ocr",
+"south indian script recognition",
+"dravidian character recognition"
+]
+},
+"3ae1c444-c07c-48f4-8771-57b167fffb3c": {
+"title": "Hybrid framework for tamil handwritten character recognition system using deeplearning approach",
+"handle": "10603/427467",
+"year": "2022",
+"university": "Faculty of Information and Communication Engineering",
+"researcher": "Babitha Lincy R",
+"abstract": "Optical Character Recognition (OCR) is one of the growing\nnewlinetechnologies in the data processing section. The objective of Optical\nnewlineCharacter Recognition is defined as identifying and understanding the data\nnewlinepresented on paper or digital documents by the system as humans do. Various\nnewlineattempts and research have been carried out in this realm. The success of\nnewlineLatin script recognition opened the research publically, worldwide. According\nnewlineto the Indian research, work-related to Hindi language recognition got a lot of\nnewlineattention, since it is the national language of India. But till date no one could\nnewlinebeat the growth of the Latin script by other non-Latin scripts, in terms of\nnewlineaccuracy rate and successful implementations. This thesis will reveal the\nnewlineterms presented in character recognition in Tamil, one of the popular south\nnewlineIndian languages. Tamil is one of the oldest Dravidian languages with a strong traditional history. Tamil character recognition has two categories such as printed\nnewlinecharacter recognition and handwritten character recognition. Handwritten\nnewlinecharacter recognition can be further classified into two types such as online\nnewlineand offline recognition. During the online identification of Tamil handwritten\nnewlinescript, the OCR engine will acknowledge the written characters spontaneously\nnewlinewhile writing using a digital pen, transducer, and touch screen. But the offline\nnewlineidentificat",
+"queries": [
+"indian script ocr",
+"south indian script recognition",
+"dravidian character recognition"
+]
+},
+"bb144b63-3d0b-4b25-8abb-403b2a1ef5b8": {
+"title": "Recognition and Retrieval from Document Image Collections",
+"handle": "10603/544187",
+"year": "2008",
+"university": "Computer Science and Engineering",
+"researcher": "Meshesha, Million",
+"abstract": "The present growth of digitization of books and manuscripts demands an immediate\nnewlinesolution to access them electronically. This will enable the archived valuable materials\nnewlineto be searchable and usable by users in order to achieve their objectives. This requires\nnewlineresearch in the area of document image understanding, specifically in the area of\nnewlinedocument image recognition as well as document image retrieval. In the last three\nnewlinedecades significant advancement is made in the recognition of documents written in\nnewlineLatin-based scripts. There are many excellent attempts in building robust document\nnewlineanalysis systems in industry, academia and research labs. Intelligent recognition\nnewlinesystems are commercially available for use for certain scripts. However, there is\nnewlineonly limited research effort for the recognition of indigenous scripts of African and\nnewlineIndian languages. In addition, diversity of archived printed documents poses many\nnewlinechallenges to document analysis and understanding. Hence in this work, we explore\nnewlinenovel approaches for understanding and accessing the content of document image\nnewlinecollections that vary in quality and printing.\nnewlineIn Africa around 2,500 languages are spoken. Some of these languages have their\nnewlineown indigenous scripts in which there is a bulk of printed documents available in the\nnewlinevarious institutions. Digitization of these documents enables us to harness already\nnewlineav",
+"queries": [
+"indian script ocr"
+]
+},
+"79a664ee-a1b3-4bbb-bfb5-67e322d8f4f4": {
+"title": "An attempt towards the development of universal OCR U_OCR for the recognition of multi_lingual documents",
+"handle": "10603/90299",
+"year": "n.d.",
+"university": "Department of Computer Science",
+"researcher": "Manjunath Aradhya, V N",
+"abstract": "Abstract available\nnewline\t\t\t\t\t\t\t\t\t\t\t\t\nnewline",
+"queries": [
+"indian script ocr",
+"south indian script recognition",
+"multi script document"
+]
+},
+"1b4f8abd-0d64-485b-bf17-12e10d559fc7": {
+"title": "A Comprehensive Approach to Marathi Handwritten Character and Word Recognition",
+"handle": "10603/664280",
+"year": "2024",
+"university": "School of Computing Science and Engineering",
+"researcher": "Chikmurge Diptee  Vishwanath",
+"abstract": "newline\tThe automated process of handwriting recognition involves converting\nnewlinehandwritten text into digital format, improving data organization quality and protecting\nnewlinehandwritten works of ancient literature. A lot of research has been done on printed and\nnewlinehandwritten text documents in distinct languages in India and foreign countries. Due to\nnewlinethe diversity of populations who write in different styles, handwritten text recognition is\nnewlinecomparatively more complex than printed text recognition.\nnewlineConsiderable focus has been placed on printed and handwritten English word recognition,\nnewlinewith effective applications found in a variety of applications. Nevertheless, the\nnewlinehandwritten Indian language recognition task remained unattended. The task of\nnewlineidentifying the Indian language is both crucial and challenging on account of its intricate\nnewlinedocument structure and linguistic diversity. Marathi is the Indo Aryan language that is\nnewlinemost widely spoken in the Indian state of Maharashtra. This work focused on MHCR and\nnewlineMHWR that enable digitization of ancient documents, automated answer sheet\nnewlineevaluation, and postal address digitization for sorting and delivering post.\nnewlineThis study aims to improve the recognition rate of OCR systems for Marathi by\nnewlineincorporating handwritten Marathi characters and words into images. The system uses a\nnewlinehybrid neural network model, integrating NLP and CV , to recognize ",
+"queries": [
+"indian script ocr"
+]
+},
+"d32406af-faa3-4981-939f-042133d2fb15": {
+"title": "Zone based feature extraction algorithms for handwritten numeral recognition of south indian scripts",
+"handle": "10603/43516",
+"year": "30/12/2010",
+"university": "Faculty of Electrical and Electronics Engineering",
+"researcher": "Rajashekararadhya S V",
+"abstract": "Handwriting recognition is the ability of a computer to receive and\nnewlineinterpret intelligible handwritten input from sources such as paper documents\nnewlinephotographs touch screen and other devices The handwritten character\nnewlinerecognition system can be either online or offline In an online handwriting\nnewlinerecognition system words are generally written on a pressure sensitive\nnewlinesurface digital tablet PCs from which realtime information such as pentip\nnewlinecoordinates pressure velocity acceleration penup and pendown can be\nnewlinecaptured This is significantly different from offline handwriting recognition\nnewline",
+"queries": [
+"south indian script recognition"
+]
+},
+"59dd15d1-33b8-4d34-93ea-037eb9636f6b": {
+"title": "Proposed method of enhancing biometric Traits of handwritten signature and  Keystroke dynamics",
+"handle": "10603/605819",
+"year": "2023",
+"university": "Department of Computer Science and Engineering",
+"researcher": "BALASANI VENKATA RAMUDU",
+"abstract": "Hand writing Signature and Text recognition poses lot of research challenge in the field\nnewlineof image processing and pattern recognition. It can also improve the interface between\nnewlineman and computer in various applications, such as automation process in post office,\nnewlinelicense plate recognition, processing of historical documents, bank check processing, and\nnewlinevery importantly reading aid for the blind people etc,. Most of the sophisticated HCR\nnewlinesystems are in advanced for scripts like Chinese and Japanese, only little works exist for\nnewlineSouth Indian scripts.\t\t\t\t\t\t\t\t\t\t\t\t\nnewline",
+"queries": [
+"south indian script recognition"
+]
+},
+"1f90853d-9ec4-4be1-af12-116148ab749b": {
+"title": "CNN Based Recognition of District Names of Punjab State in Gurmukhi Script",
+"handle": "10603/347820",
+"year": "2021",
+"university": "Faculty of Electronics",
+"researcher": "Sandhya Sharma",
+"abstract": "From the last few years, numbers of Researchers all over the world have been working for the automation of Postal system. Development of Postal Automation for a Country like India is difficult as compared to other countries. As India has multi-lingual and multi-script behavior which makes the development of Postal Automation System a more difficult. Sometimes, the postal document to be posted is written in three languages like English, Hindi and in the state s official language. The work carried out in this thesis addresses the problem of handwritten word recognition for the development of postal automation for the state Punjab. Postal Automation is already available for the various scripts including English, Bangla, Malayalam and Devanagri etc. For the development of Postal automation for the state Punjab, all the 22 district names which are written in Gurmukhi script is taken into consideration. Gurmukhi script is the official language of the state Punjab and being used by all the government officials to post their documents. The approach used for the purpose of Gurmukhi district names recogition is based on the Holistic approach instead of Analytical approach by employing Deep learning algorithm(CNN), in which features are automatically extracted from the complete word without segmentation. This makes the used approach better as compared to previously used approaches. This thesis is divided into five chapters. A brief outline of each chapter is given in the following parag",
+"queries": [
+"multi script document"
+]
+},
+"90e212a3-4fa5-4188-905c-22c1c52d2b54": {
+"title": "Certain investigations on classification of indo aryan and tamil text from historic manuscripts",
+"handle": "10603/297183",
+"year": "31/10/2019",
+"university": "Faculty of Information and Communication Engineering",
+"researcher": "Dinesh P M",
+"abstract": "Text segmentation is one of most important step in document\nnewlineimage processing and is classified into two major areas viz hand written and\nnewlineprinted text segmentation This thesis is focused on printed text segmentation\nnewlineand classification The text segmentation of printed characters has the\nnewlinefollowing issues like touching of characters slant characters mixed font style\nnewlinedifferent font sizes which reduces the efficiency of segmentation algorithms\nnewlineThe need for better character segmentation and recognition algorithms for\nnewlineIndian Languages has been a demand for more than a decade Wide research\nnewlinehas been carried out and appreciable results have been obtained for languages\nnewlineviz English French and European Languages Experiments have also been\nnewlinecarried out for languages with compounded and complex characters like\nnewlineArabic and appreciable results have been obtained\nnewlineIndia is a land of multi-script country with eighteen different scripts\nnewlineauthorized by The Government of India In the land of diversity minor\nnewlinelanguages are available with its own scripts are available One such language\nnewlineis Saurashtra which belongs to the Indo Aryan sect The language with its\nnewlinecomplex compounded character set has been very minimally researched for\nnewlinecharacter segmentation and classification\nnewlineThis thesis introduces a novel text segmentation and classification\nnewlinealgorithm which can segment and classif",
+"queries": [
+"multi script document"
+]
+},
+"b4ad970c-236e-4020-b9e0-c40730162e5c": {
+"title": "A Better Approach to Ontology Integration using Clustering through Global Similarity Measure and Efficient Reasoner Performance Prediction with Ranking using Multi label learning",
+"handle": "10603/625093",
+"year": "2020",
+"university": "Faculty of Technology and Engineering",
+"researcher": "Makwana, Ashwin",
+"abstract": "The semantic web is an allied area of Web Technology, Artificial Intelligence, and Knowledge Representation. The inference engine is the mechanism for interpreting the semantics of web ontology language. Inference engine use rule based language, which is the main key while working with the semantic web to extract the meaning, that can establish the mapping between different concepts represented in ontology. To understand and use the data and knowledge encoded in semantic web documents require inference and reasoning to fetch answer of query. \nnewlineThis thesis is divided in two folds: First, it focuses on reasoner performance study, prediction, and ranking using machine learning techniques. Second, it shows how ontology matching can help to cluster similar ontology to improve query answering task faster.\nnewlineA significant aspect of the semantic web system is how we present knowledge. Ontology is one of the methods to present shared knowledge of the particular domain. Ontology can be designed and developed on a specific domain or subdomain by many groups and researchers, which will create heterogeneity. To solve this problem, ontology integration is necessary. To integrate shared knowledge, we require calculating the similarity between two ontologies, selected from a corpus using ontology matching techniques. Here we define a procedure to create a group of ontologies. Ontology comparison can be made using tools to find similar classes. As a similarity measure, the Jaccard ",
+"queries": [
+"multi script document"
+]
+},
+"e4eb03b7-3851-4034-be2e-e029556beaf3": {
+"title": "Group kriti s in telugu after tyagaraja an analytical and comparative study of them with his kriti s",
+"handle": "10603/404203",
+"year": "",
+"university": "Department of Music",
+"researcher": "Anuradha, A",
+"abstract": "newline",
+"queries": [
+"telugu numeral"
+]
+},
+"1ea36ea0-47a3-4e34-a7a7-cd6a0a04058d": {
+"title": "Quantifiers in Tamil Malayalam Kannada and Telugu",
+"handle": "10603/399935",
+"year": "n.d.",
+"university": "Department of Linguistics",
+"researcher": "Rajasingh, V R",
+"abstract": "newline\tAbstract not available",
+"queries": [
+"telugu numeral"
+]
+},
+"e668fbb5-24d5-4bf3-a80b-efa20f580d54": {
+"title": "Urdu and Marathi loan words in literary and inscriptional telugu upto 1800 A D",
+"handle": "10603/415279",
+"year": "",
+"university": "Department of Telugu",
+"researcher": "L, Chakradhara Rao",
+"abstract": "newline",
+"queries": [
+"telugu inscription"
+]
+},
+"26fb768d-7b1a-40ac-92a6-efac7773c962": {
+"title": "Historical Grammar Of Inscriptional Telugu  Based On The Inscriptions Of 12 th  13th  14th Centuries",
+"handle": "10603/201552",
+"year": "",
+"university": "Department of Philosophy",
+"researcher": "M . Kandappa Chetty",
+"abstract": "newline",
+"queries": [
+"telugu inscription"
+]
+},
+"bdcbfc95-eb7e-42f4-b142-acba8adc253e": {
+"title": "A Historical and Comparative Grammar on early Telugu Inscriptional 200 A D to 1100 A D Volume I and Volume II",
+"handle": "10603/569138",
+"year": "1964",
+"university": "Department of Telugu",
+"researcher": "Radhakrishna, Budaraju",
+"abstract": "New Line\t\t\t\t\t\t\t\t\t\t\t\t\nnewline",
+"queries": [
+"telugu inscription"
+]
+},
+"9efb6f34-d108-46e6-9f29-bb54a38a6ada": {
+"title": "Telugu Inscriptions In Karnataka A Socio Cultural Study",
+"handle": "10603/462460",
+"year": "2021",
+"university": "Department of Ancient Indian History",
+"researcher": "Indira, Malapaka",
+"abstract": "newline",
+"queries": [
+"telugu inscription"
+]
+},
+"6cad0054-7471-41b8-bb69-db2aab8fb59b": {
+"title": "A Historical And Cmparative Grammer In Ibart Telugu inscriptional",
+"handle": "10603/385706",
+"year": "",
+"university": "Department of History and Archaeology",
+"researcher": "BUDARAJTT RADHAKRISHNA",
+"abstract": "newline",
+"queries": [
+"telugu inscription"
+]
+},
+"a5cfd54e-10e6-47a4-b233-877290c6e40a": {
+"title": "Masan jogis of shevgaon maharashtra: an ethnographic study",
+"handle": "10603/16133",
+"year": "6/5/2012",
+"university": "School of Social Sciences",
+"researcher": "Ohol, Ashok Laxman",
+"abstract": "This is an ethnographic study of the Masan Jogi community of Shevgaon in Ahmednagar district\r\nnewlineof Maharashtra. Masan Jogis, who have been categorised as a Nomadic Tribe in the state, trace\r\nnewlinetheir origin to Telngana in Andhra Pradesh. They lived in the Kingdom Hyderabad under Nizam\r\nnewlinewhich now stands divided among the states of Andhra Pradesh, Karnataka and Maharashtra.\r\nnewlineTraditionally, they lived in cremation grounds where they attended to funerals and were paid in\r\nnewlinecash and kind for their services. They also went on begging expeditions seeking alms from\r\nnewlinevillagers. For a long time after their migration to Maharashtra, they were mostly confined to a few\r\nnewlinedistricts in Marathwada region. During the draught of 1972 they spread to several other districts\r\nnewlinein western Maharashtra in search of various livelihood options. They live in settlements of\r\nnewlinedifferent sizes, usually on the fringes of large villages and new townships and speak a mixture of\r\nnewlineMarathi, Telugu, Urdu, Hindi and Kannada. One of the largest settlements of Masan Jogis is in\r\nnewlineShevgaon, District Ahemdnagar.\r\nnewlineI came to know the Masan Jogi community almost unexpectedly while I was involved with\r\nnewlinedevelopment programmes for the marginalised groups in Shevgaon. My curiosity grew as my\r\nnewlineassociation with the community grew over the years. I was faced with many questions about their\r\nnewlineorigin, occupation, culture, social organis",
+"queries": [
+"telugu video text"
+]
+}
+},
+"telugu_relevant": [
+"0ab9aa30-6c4c-47e4-8275-a7791afa2286",
+"1608497b-d98c-4e5b-8de0-93c2b18e372b",
+"1c214f00-67f1-4aae-9896-e4e0c881c072",
+"1c3ec131-86c0-420f-968b-01c6b9f519cf",
+"1ea36ea0-47a3-4e34-a7a7-cd6a0a04058d",
+"26fb768d-7b1a-40ac-92a6-efac7773c962",
+"28811d69-eb98-4b98-b211-eaffb8af0046",
+"2f773f85-093e-42e4-a785-a845b9825e15",
+"3ab4392c-5744-465b-ae6a-1830832da5b1",
+"4094bc63-2f2f-4978-ac92-351dfaabcff1",
+"4111ebb1-1cb4-4377-b8a9-fb0ce898aa14",
+"4658c98e-d978-4acd-b807-dd6517041809",
+"5a9235b5-036b-4dfc-adf5-7de8987eb5b4",
+"5ed6cf89-7c04-4662-b9de-2c2b4c62ba1e",
+"5ef6fda1-0b99-43a0-b934-904b42988d3f",
+"613dfa52-4d80-42b1-8943-8b8ed83d91bd",
+"66450b5d-4939-4343-8961-39520001704c",
+"668fbafc-f057-4b66-8a28-1f93f675750a",
+"6cad0054-7471-41b8-bb69-db2aab8fb59b",
+"810b4444-02e7-42f8-93ea-c791a50d02f9",
+"8706ec04-68fd-43e0-b578-adcae32340d5",
+"960d7dc1-d5f2-42d2-a6b0-1d33f4f09e4b",
+"9efb6f34-d108-46e6-9f29-bb54a38a6ada",
+"a1816741-5c7e-4132-b7b4-ccb9799a0179",
+"a33b6204-9f66-4431-9e96-bd8963c86127",
+"a50d4b3d-4a94-44af-b484-230bb5fa7a22",
+"a5cfd54e-10e6-47a4-b233-877290c6e40a",
+"aa9812f5-6435-41db-a055-bcb30f9d2caf",
+"afeb0904-ccdb-4f65-8878-639fc44a4159",
+"b3e1a8d7-6b69-4129-9f7f-5b76f5c5b0f0",
+"bc8a9ced-db68-43c4-bc5d-dc0361d80684",
+"bdcbfc95-eb7e-42f4-b142-acba8adc253e",
+"d02590d0-008b-4dfa-8ae8-b6e3e6749a33",
+"d290e2b4-5918-4926-874e-986be5333633",
+"d4ad591e-44ba-4f9c-aa1f-a6c5eceb1ffc",
+"e4eb03b7-3851-4034-be2e-e029556beaf3",
+"e668fbb5-24d5-4bf3-a80b-efa20f580d54",
+"e7d40e09-0817-48bc-aa52-2a7c513faabb",
+"e8e887ff-ec94-48ae-81ac-7347be90fd59",
+"eb257a1a-c339-4be7-9a67-699d9405a22c",
+"f1b037d8-8154-47fd-96ea-2730ba0ab1d8",
+"f2209e3c-f9bc-467b-8766-edbc3ac5fd7d",
+"f8f6e4fe-4e8c-4ad5-9e5e-f6fc2f6e613b"
+]
+}

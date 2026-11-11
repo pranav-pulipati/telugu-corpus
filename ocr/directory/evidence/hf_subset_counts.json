@@ -1,0 +1,263 @@
+[
+ {
+  "method": "filter",
+  "telugu": 0,
+  "note": "no Telugu label matched",
+  "error": "Error for ImageColumn=image: error=FileNotFoundError(2, 'No such file or directory')",
+  "dataset": "sarvamai/indic-ocr-bench",
+  "config": "default",
+  "split": "test",
+  "column": "language"
+ },
+ {
+  "method": "statistics",
+  "frequencies": {
+   "Dogri": 51,
+   "Punjabi": 51,
+   "Telugu": 51,
+   "Tamil": 51,
+   "Malayalam": 51,
+   "Sindhi": 51,
+   "Nepali": 51,
+   "Manipuri": 51,
+   "Konkani": 51,
+   "Bengali": 51,
+   "Odia": 51,
+   "Hindi": 51,
+   "Bodo": 51,
+   "Urdu": 51,
+   "Marathi": 51,
+   "Santhali": 51,
+   "Assamese": 51,
+   "English": 51,
+   "Sanskrit": 51,
+   "Gujarati": 51,
+   "Maithili": 51,
+   "Kannada": 51,
+   "Kashmiri": 51
+  },
+  "telugu": 51,
+  "total": 1173,
+  "dataset": "sarvamai/indic-ocr-bench",
+  "config": "default",
+  "split": "small_representative",
+  "column": "language"
+ },
+ {
+  "method": "statistics",
+  "frequencies": {
+   "Telugu": 89,
+   "Odia": 86,
+   "Gujarati": 90,
+   "Hindi": 85,
+   "Bengali": 89,
+   "Marathi": 83,
+   "Malayalam": 88,
+   "Punjabi": 89,
+   "Tamil": 88,
+   "Kannada": 89
+  },
+  "telugu": 89,
+  "total": 876,
+  "dataset": "krutrim-ai-labs/IndicVisionBench",
+  "config": "ocr",
+  "split": "test",
+  "column": "language"
+ },
+ {
+  "method": "statistics",
+  "frequencies": {
+   "Malayalam": 60,
+   "Kannada": 139,
+   "Marathi": 37,
+   "Tamil": 94,
+   "Punjabi": 31,
+   "Hindi": 448,
+   "Telugu": 69,
+   "Gujarati": 31,
+   "Bengali": 60,
+   "Odia": 38
+  },
+  "telugu": 69,
+  "total": 1007,
+  "dataset": "krutrim-ai-labs/IndicVisionBench",
+  "config": "vqa_indic",
+  "split": "test",
+  "column": "language"
+ },
+ {
+  "method": "statistics",
+  "frequencies": {
+   "Malayalam": 106,
+   "Kannada": 106,
+   "Marathi": 106,
+   "Punjabi": 106,
+   "Tamil": 106,
+   "Hindi": 106,
+   "Odia": 106,
+   "Gujarati": 106,
+   "English": 106,
+   "Telugu": 106,
+   "Bengali": 106
+  },
+  "telugu": 106,
+  "total": 1166,
+  "dataset": "krutrim-ai-labs/IndicVisionBench",
+  "config": "vqa_parallel",
+  "split": "test",
+  "column": "language"
+ },
+ {
+  "method": "statistics",
+  "frequencies": {
+   "English": 4117
+  },
+  "telugu": 0,
+  "total": 4117,
+  "dataset": "krutrim-ai-labs/IndicVisionBench",
+  "config": "vqa_en",
+  "split": "test",
+  "column": "language"
+ },
+ {
+  "method": "statistics",
+  "frequencies": {
+   "sw": 384,
+   "ur": 384,
+   "tr": 384,
+   "pt": 384,
+   "fa": 384,
+   "de": 384,
+   "zh": 256,
+   "ar": 384,
+   "it": 384,
+   "vi": 384,
+   "th": 384,
+   "fr": 384,
+   "en": 256,
+   "ja": 384,
+   "nl": 384,
+   "bn": 384,
+   "ru": 384,
+   "hi": 384,
+   "pl": 384,
+   "ko": 384,
+   "id": 384,
+   "ta": 384,
+   "te": 384,
+   "es": 384
+  },
+  "telugu": 384,
+  "total": 8960,
+  "dataset": "arnodjiang/MInfoVisQA",
+  "config": "default",
+  "split": "validation",
+  "column": "image_language"
+ },
+ {
+  "method": "statistics",
+  "frequencies": {
+   "en": 718,
+   "ta": 719,
+   "bn": 706,
+   "mr": 707,
+   "hi": 715,
+   "te": 709
+  },
+  "telugu": 709,
+  "total": 4274,
+  "dataset": "Litap007/indic-citizen-information-board-pmgsy",
+  "config": "default",
+  "split": "train",
+  "column": "language"
+ },
+ {
+  "method": "statistics",
+  "frequencies": {
+   "mr": 93,
+   "bn": 98,
+   "ta": 92,
+   "en": 101,
+   "hi": 100,
+   "te": 104
+  },
+  "telugu": 104,
+  "total": 588,
+  "dataset": "Litap007/indic-citizen-information-board-pmgsy",
+  "config": "default",
+  "split": "validation",
+  "column": "language"
+ },
+ {
+  "method": "statistics",
+  "frequencies": {
+   "hi": 205,
+   "en": 198,
+   "te": 207,
+   "bn": 216,
+   "ta": 209,
+   "mr": 220
+  },
+  "telugu": 207,
+  "total": 1255,
+  "dataset": "Litap007/indic-citizen-information-board-pmgsy",
+  "config": "default",
+  "split": "test",
+  "column": "language"
+ },
+ {
+  "method": "filter",
+  "telugu": 0,
+  "note": "no Telugu label matched",
+  "error": "Error for ImageColumn=image: error=ValueError(\"Data files don't belong to hf://datasets/Litap007/indic-citizen-information-board\")",
+  "dataset": "Litap007/indic-citizen-information-board",
+  "config": "default",
+  "split": "train",
+  "column": "language"
+ },
+ {
+  "method": "statistics",
+  "frequencies": {
+   "perso_arabic": 86,
+   "telugu": 351,
+   "meetei_mayek": 48,
+   "tamil": 430,
+   "gujarati": 288,
+   "malayalam": 520,
+   "gurmukhi": 254,
+   "kannada": 235,
+   "ol_chiki": 19,
+   "devanagari": 3542,
+   "odia": 156,
+   "bengali": 376,
+   "latin": 571
+  },
+  "telugu": 351,
+  "total": 6876,
+  "dataset": "loopdesk-ai/lipika-eval",
+  "config": "default",
+  "split": "validation",
+  "column": "script"
+ },
+ {
+  "method": "statistics",
+  "frequencies": {
+   "pt": 714,
+   "ja": 714,
+   "de": 735,
+   "en": 709,
+   "it": 651,
+   "hi": 723,
+   "fr": 713,
+   "zh": 751,
+   "ar": 695,
+   "es": 725
+  },
+  "telugu": 0,
+  "total": 7130,
+  "dataset": "Reubencf/adaption-multilingual-doc-qa",
+  "config": "default",
+  "split": "train",
+  "column": "qa_language"
+ }
+]

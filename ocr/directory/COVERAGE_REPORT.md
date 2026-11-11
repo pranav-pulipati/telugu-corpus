@@ -6,30 +6,31 @@ What the directory covers, what is missing, and how sure we are that nothing big
 
 We **cannot claim** this list includes every Telugu OCR dataset that exists. What we can say:
 
-- Every major open dataset platform with a search API was swept with the same ~34 query variants (Section 3 of the discovery log).
+- Every major open dataset platform with a search API was swept with the same ~34 query variants (Section 3 of the discovery log), and swept again in round 2 with broader queries.
 - ILOCR, the main Indian OCR consortium, was checked exhaustively (every dataset ID, the full API list, every competition site).
 - Hits from the API sweeps that matched both Telugu and OCR terms were reviewed. Later query variants mostly brought back datasets we already had, which suggests the open platforms are close to fully covered.
+- Round 2 (citations, theses, Roboflow, AIKosh, ULCA, Wayback, broader platform queries) added 10 distinct datasets. Most of them are unreleased, gated or very new (2025-26), not overlooked open releases. That is further evidence the open channels are close to saturated, but not proof.
 - Gaps are most likely in: datasets described only in paywalled papers or theses, private university collections, Roboflow projects, government portals that need a browser, and commercial vendors.
 
 ## Distinct datasets by category
 
 | Category | Distinct | of which VERIFIED | of which open licence |
 |---|---|---|---|
-| OCR image-text: printed | 10 | 6 | 7 |
-| OCR image-text: handwritten | 3 | 2 | 0 |
+| OCR image-text: printed | 11 | 6 | 7 |
+| OCR image-text: handwritten | 4 | 2 | 0 |
 | OCR image-text: scene text | 5 | 4 | 1 |
-| OCR image-text: synthetic | 12 | 9 | 5 |
-| Machine-labelled OCR (not human ground truth) | 2 | 1 | 1 |
-| Character / glyph classification | 19 | 5 | 10 |
+| OCR image-text: synthetic | 16 | 9 | 5 |
+| Machine-labelled OCR (not human ground truth) | 3 | 1 | 1 |
+| Character / glyph classification | 20 | 5 | 10 |
 | Layout / detection (no transcription) | 4 | 2 | 2 |
-| Script identification | 5 | 3 | 4 |
-| Text-in-image benchmark (VQA / document understanding) | 6 | 1 | 3 |
+| Script identification | 6 | 3 | 4 |
+| Text-in-image benchmark (VQA / document understanding) | 7 | 1 | 3 |
 | Image-only (no transcription) | 7 | 2 | 2 |
 | Image-only (transcription NOT VERIFIED) | 6 | 0 | 2 |
-| Scanned archive (image-only) | 5 | 4 | 1 |
-| Text-only corpus (OCR language modelling) | 8 | 6 | 4 |
+| Scanned archive (image-only) | 6 | 4 | 1 |
+| Text-only corpus (OCR language modelling) | 9 | 6 | 5 |
 
-Telugu image-text OCR datasets by granularity (distinct): Word 10, Page 10, Other 7, Line 3.
+Telugu image-text OCR datasets by granularity (distinct): Word 12, Page 11, Other 8, Line 5.
 
 ## Well covered
 
@@ -45,7 +46,8 @@ Telugu image-text OCR datasets by granularity (distinct): Word 10, Page 10, Othe
 - **Historical documents:** thousands of palm-leaf manuscripts and old newspapers are scanned, but almost none have ground-truth transcriptions.
 - **Forms, receipts, tables with cell text, and printed newspaper ground truth:** only commercial samples or layout-only sets (MUSTARD has structure but no cell text; IndicDLP has layout but no text).
 - **Licence clarity:** many community uploads have no licence; several re-uploads conflict with the original.
-- **Telugu shares of multilingual sets** (PHDIndic_11, MDIW-13, IndicVisionBench, Indiscapes) could not be confirmed without downloading.
+- **Telugu shares of multilingual sets:** now counted for PHDIndic_11 (85 pages), IndicVisionBench (89 OCR pages), ORB-Indic (89), MInfoVisQA (384), PMGSY boards (1,020), adaption doc-QA (135 pages), BhartiOCR (500,000). Still unknown for MDIW-13, Indiscapes, IndicDLP (only the ~7.2% share), Kaggle Indian Scripts and GlotOCR.
+- **Announced but unreleased:** CHIPS (2,874 Telugu handwritten pages), UniLipi Telugu-script manuscripts, the JASTT 33,496-character corpus and the ICON 2023 scene-text set all exist only in papers so far.
 
 ## Search channels exhausted vs remaining
 
@@ -57,7 +59,14 @@ Telugu image-text OCR datasets by granularity (distinct): Word 10, Page 10, Othe
 | Zenodo, Figshare, DataCite (incl. IEEE DataPort, Mendeley), Harvard Dataverse, Internet Archive | Exhausted for the query list |
 | OpenAlex, arXiv | Exhausted for the query list; abstracts only |
 | ILOCR (datasets, APIs, competitions) and CVIT/USODI | Exhausted |
-| Semantic Scholar | **Not completed** (rate limit) |
-| Google Scholar, Shodhganga, paywalled full text | **Not searched** |
-| Bhashini ULCA, AIKosh, TDIL-DC, Roboflow | **Partly searched** (portals block scripts or are down) |
+| Mendeley Data (search API), DataCite (all Telugu records) | Exhausted (round 2) |
+| Shodhganga theses | Exhausted for 24 queries (round 2) |
+| OpenAlex citation following (14 hub papers) | Exhausted (round 2) |
+| Bhashini ULCA (public metrics) | Exhausted for listing; downloads need login |
+| Semantic Scholar | **Partly done**: 4 of 36 planned queries attempted, 1 answered; stopped after repeated HTTP 429 |
+| Google Scholar | **Indirect only** (blocks scripts; ~25 general web searches instead) |
+| AIKosh | **Partly searched** (portal timing out; web-search enumeration only) |
+| Roboflow Universe | **Partly searched** (search snippets only; pages block scripts) |
+| TDIL-DC | **Blocked** (expired certificate; not bypassed) |
+| Paywalled full text, other university repositories | **Not searched** |
 | Author contact for unreleased data | **Not done** |

@@ -30,7 +30,7 @@ def get(url, data=None, headers=None, tries=4):
             return json.loads(urllib.request.urlopen(req, timeout=90).read())
         except urllib.error.HTTPError as e:
             if e.code in (429, 503):
-                err = f'HTTP {e.code}'; time.sleep(20 * (k + 1)); continue
+                err = f'HTTP {e.code}'; time.sleep(min(30 * (k + 1), 150)); continue
             return {'_error': f'HTTP {e.code}'}
         except Exception as e:
             time.sleep(5 * (k + 1)); err = str(e)
@@ -180,20 +180,24 @@ def openalex():
 
 
 def s2():
+    """Semantic Scholar: slow pacing, long back-off on 429, partial results saved after every query."""
     hits, log = {}, []
-    for q in TOPICS:
-        if 'telugu' not in q and 'indic' not in q:
-            continue
+    qs = [q for q in TOPICS if 'telugu' in q or 'indic' in q] + ['telugu dataset images', 'telugu benchmark recognition', 'indian scripts handwritten database',
+                                                                  'indic scene text dataset', 'multilingual indian ocr benchmark']
+    for q in qs:
         r = get('https://api.semanticscholar.org/graph/v1/paper/search?' + urllib.parse.urlencode(
-            {'query': q + ' dataset', 'limit': 100, 'fields': 'title,year,externalIds,venue,citationCount,abstract,url'}))
+            {'query': q + ('' if 'dataset' in q or 'database' in q or 'benchmark' in q else ' dataset'), 'limit': 100,
+             'fields': 'title,year,externalIds,venue,citationCount,abstract,url'}), tries=8)
         items = r.get('data', []) if isinstance(r, dict) else []
         for it in items:
             hits.setdefault(it['paperId'], {'id': it['paperId'], 'title': it.get('title'), 'year': it.get('year'), 'venue': it.get('venue'),
                                              'ids': it.get('externalIds'), 'cited_by': it.get('citationCount'), 'url': it.get('url'),
                                              'abstract': (it.get('abstract') or '')[:600], 'queries': []})['queries'].append(q)
-        log.append({'query': q + ' dataset', 'hits': len(items), 'total': r.get('total') if isinstance(r, dict) else None,
+        log.append({'query': q, 'hits': len(items), 'total': r.get('total') if isinstance(r, dict) else None,
                     'error': r.get('_error') if isinstance(r, dict) else None})
-        time.sleep(4)
+        json.dump({'platform': 's2', 'queried': time.strftime('%Y-%m-%d'), 'partial': True, 'queries': log, 'hits': hits},
+                  open(os.path.join(OUT, 's2.json'), 'w'), ensure_ascii=False, indent=0)
+        time.sleep(8)
     return hits, log
 
 

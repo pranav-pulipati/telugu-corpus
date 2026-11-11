@@ -1,0 +1,1737 @@
+{
+"platform": "s2",
+"queried": "2026-11-11",
+"partial": true,
+"queries": [
+{
+"query": "telugu ocr",
+"hits": 0,
+"total": null,
+"error": "HTTP 429"
+},
+{
+"query": "telugu handwritten",
+"hits": 0,
+"total": null,
+"error": "HTTP 429"
+},
+{
+"query": "telugu handwriting",
+"hits": 100,
+"total": 3372,
+"error": null
+},
+{
+"query": "telugu handwritten character",
+"hits": 0,
+"total": null,
+"error": "HTTP 429"
+}
+],
+"hits": {
+"e66095cbe79e1596ca93ad1201cb5c4dbaa37251": {
+"id": "e66095cbe79e1596ca93ad1201cb5c4dbaa37251",
+"title": "ScriptAdaptNet: A Deep Learning Framework for Cross-Script Diacritic Error Correction in Telugu, Kannada and Devanagari Handwritten Text Recognition",
+"year": 2025,
+"venue": "2025 International Conference on Sustainability, Innovation & Technology (ICSIT)",
+"ids": {
+"DOI": "10.1109/ICSIT65336.2025.11295371",
+"CorpusId": 284020035
+},
+"cited_by": 1,
+"url": "https://www.semanticscholar.org/paper/e66095cbe79e1596ca93ad1201cb5c4dbaa37251",
+"abstract": "This paper presents a novel solution to the persistent challenge of unintentional Double Vattulu (diacritic duplication) errors in South Indian language document digitization. We propose ScriptAdaptNet, an end-to-end deep learning system combining vision transformers with scriptspecific attention mechanisms for accurate detection and correction of diacritic errors across Telugu, Kannada and Devanagari scripts. Our architecture features: (1) a multi-scale feature extraction module capturing script-specific diacritic patterns, (2) a hybrid CNN-Transformer network with parallel script identificat",
+"queries": [
+"telugu handwriting"
+]
+},
+"f6f9fe5b3283d3acfe5915d94c2179d74bb95bac": {
+"id": "f6f9fe5b3283d3acfe5915d94c2179d74bb95bac",
+"title": "Offline Handwritten Telugu Character Dataset and Recognition",
+"year": 2019,
+"venue": "IEEE India Conference",
+"ids": {
+"MAG": "3011411613",
+"DOI": "10.1109/INDICON47234.2019.9028977",
+"CorpusId": 212703380
+},
+"cited_by": 0,
+"url": "https://www.semanticscholar.org/paper/f6f9fe5b3283d3acfe5915d94c2179d74bb95bac",
+"abstract": "Telugu is a Dravidian Language spoken mainly in Southern parts of India. It has close to 81 million native speakers, making it the fifteenth most widely-spoken language in the world. Here we present a comprehensive database of handwritten Telugu characters to drive progress in handwriting recognition for this script. We claim that this is significant since we have put together the largest set of vowel, consonant, vowel-consonant and consonant-consonant pairs of the Telugu orthography. This work produces such a database with real-world offline handwritten characters extracted from scanned docum",
+"queries": [
+"telugu handwriting"
+]
+},
+"99440ea36cd6b56ac613c8895d68d1fe612e9b42": {
+"id": "99440ea36cd6b56ac613c8895d68d1fe612e9b42",
+"title": "Development of Real Time CNN-Based System for Telugu Word Recognition on Raspberry Pi",
+"year": 2025,
+"venue": "2025 6th International Conference on Data Intelligence and Cognitive Informatics (ICDICI)",
+"ids": {
+"DOI": "10.1109/ICDICI66477.2025.11135424",
+"CorpusId": 281093969
+},
+"cited_by": 0,
+"url": "https://www.semanticscholar.org/paper/99440ea36cd6b56ac613c8895d68d1fe612e9b42",
+"abstract": "The recognition of handwritten regional scripts remains a significant challenge in the domain of Optical Character Recognition (OCR), particularly for complex languages such as Telugu. This paper presents a real-time Telugu word recognition system based on Convolutional Neural Networks (CNNs), implemented on the Raspberry Pi 3B+, a cost-effective and portable embedded computing platform. The system utilizes the IIIT-H Indic Handwriting Dataset, which contains a wide variety of wordlevel handwritten samples collected from native speakers. To improve recognition performance, comprehensive prepro",
+"queries": [
+"telugu handwriting"
+]
+},
+"d60b68dcb00e5efbeb2d120d7533771508185fd8": {
+"id": "d60b68dcb00e5efbeb2d120d7533771508185fd8",
+"title": "Handwritten Recognition of Telugu Characters Using Various Pretrained Convolutional Neural Networks",
+"year": 2025,
+"venue": "Journal of Applied Science and Technology Trends",
+"ids": {
+"DOI": "10.38094/jastt62267",
+"CorpusId": 281338771
+},
+"cited_by": 0,
+"url": "https://www.semanticscholar.org/paper/d60b68dcb00e5efbeb2d120d7533771508185fd8",
+"abstract": "Telugu handwritten character recognition has seen significant advancements in recent years, particularly in the context of deep learning models such as Convolutional Neural Networks (CNNs). However, recognizing handwritten digits and scripts in multilingual settings, especially in a diverse country like India, presents unique challenges due to the variance in handwriting styles and the complexity of regional scripts. The proposed system addresses the challenges of diverse handwriting styles by leveraging the power of CNNs for automated handwriting recognition. Our first contribution is collect",
+"queries": [
+"telugu handwriting"
+]
+},
+"746a863da4c53c330171ca3929cdd532557d69a7": {
+"id": "746a863da4c53c330171ca3929cdd532557d69a7",
+"title": "HANDWRITTEN TELUGU COMPOUND CHARACTER PREDICTION USING CONVOLUTIONAL NEURAL NETWORK",
+"year": 2023,
+"venue": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
+"ids": {
+"DOI": "10.55041/ijsrem18047",
+"CorpusId": 257551376
+},
+"cited_by": 0,
+"url": "https://www.semanticscholar.org/paper/746a863da4c53c330171ca3929cdd532557d69a7",
+"abstract": "Whether in Telugu or another language, handwriting recognition has been a difficult job for a very long time. Handwritten characters frequently have many curves, particularly in Indian languages. With the development of machine learning, handwritten recognition has long been an open task. However, there are still many difficulties because feature extraction is a challenging job because characters are more prevalent in Indian languages. Pick a handwritten Telugu compound character named Guninthalu (a character made up of Telugu vowels and consonants) to be recognised in this essay. Since each c",
+"queries": [
+"telugu handwriting"
+]
+},
+"519a6b21e7553e5d2e9330ffd42e34d95f7fb9d4": {
+"id": "519a6b21e7553e5d2e9330ffd42e34d95f7fb9d4",
+"title": "Document Text Analysis and Recognition of Handwritten Telugu Scripts",
+"year": 2022,
+"venue": "2022 IEEE 4th International Conference on Cybernetics, Cognition and Machine Learning Applications (ICCCMLA)",
+"ids": {
+"DOI": "10.1109/ICCCMLA56841.2022.9989012",
+"CorpusId": 254999809
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/519a6b21e7553e5d2e9330ffd42e34d95f7fb9d4",
+"abstract": "Handwritten text recognition is an open problem of great interest in the area of automatic document image analysis. Handwriting recognition has been studied for a long time with only few practicable results when written on paper. The tasks related to text recognition becomes complex when it comes to Indic languages due to large size of character set. One such language is Telugu where the character list involves 150 unique characters. This paper addresses the procedure to recognize the Telugu handwritten document and convert the text into machine understandable language. The model is built on t",
+"queries": [
+"telugu handwriting"
+]
+},
+"451882d5135e7e357f874edc5b6bea0ccf01fee4": {
+"id": "451882d5135e7e357f874edc5b6bea0ccf01fee4",
+"title": "HMM-Based Online Handwriting Recognition System for Telugu Symbols",
+"year": 2007,
+"venue": "IEEE International Conference on Document Analysis and Recognition",
+"ids": {
+"MAG": "2109259579",
+"DBLP": "conf/icdar/BabuPSRB07",
+"DOI": "10.1109/ICDAR.2007.132",
+"CorpusId": 6863724
+},
+"cited_by": 63,
+"url": "https://www.semanticscholar.org/paper/451882d5135e7e357f874edc5b6bea0ccf01fee4",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"02da1ed36a5e9f061fcef4b820fec6680e26fb44": {
+"id": "02da1ed36a5e9f061fcef4b820fec6680e26fb44",
+"title": "Recognition of Handwritten Characters using Deep Learning Algorithms",
+"year": 2025,
+"venue": "2025 IEEE International Conference on Compute, Control, Network & Photonics (ICCCNP)",
+"ids": {
+"DOI": "10.1109/ICCCNP63914.2025.11233751",
+"CorpusId": 283015336
+},
+"cited_by": 0,
+"url": "https://www.semanticscholar.org/paper/02da1ed36a5e9f061fcef4b820fec6680e26fb44",
+"abstract": "Handwritten character recognition (HCR) is a complex task with applications ranging from document digitization to assistive technologies. This work presents a deep learning-based recognition pipeline that leverages Convolutional Neural Networks (CNNs) and robust preprocessing strategies to address the variations in handwriting styles, stroke thicknesses, and noise artifacts. The proposed model incorporates data augmentation to improve generalization and utilizes a diverse dataset, including samples in regional scripts like Telugu. Different outmoded rule-based approaches, this method achieves ",
+"queries": [
+"telugu handwriting"
+]
+},
+"91c0f7ba329a79f2922e535b5222c66fc99fed3c": {
+"id": "91c0f7ba329a79f2922e535b5222c66fc99fed3c",
+"title": "A Hybrid Deep Learning and Generative\n AI\n Framework for Knowledge‐Aware Evaluation of Handwritten Indic Scripts",
+"year": 2026,
+"venue": "International Conference on Climate Informatics",
+"ids": {
+"DOI": "10.1111/coin.70304",
+"CorpusId": 295490956
+},
+"cited_by": 0,
+"url": "https://www.semanticscholar.org/paper/91c0f7ba329a79f2922e535b5222c66fc99fed3c",
+"abstract": "\n The automatic assessment of handwritten answers in low‐resource Indic scripts is a difficult problem because of the complexity of the orthographic ligatures, the variability of the writers, limited availability of annotated resources, and the error propagation from handwritten text recognition (HTR) to the grading modules. In this paper, we aim to address these challenges by introducing an end‐to‐end framework that combines Text Region Detection, sequential HTR, and Generative AI (GenAI) using Large Language Models (LLMs) for Explainable Multilingual Answer Assessment. The proposed framework",
+"queries": [
+"telugu handwriting"
+]
+},
+"f9a8c56d6c963ed863ef6d174982b8f279a3cfb3": {
+"id": "f9a8c56d6c963ed863ef6d174982b8f279a3cfb3",
+"title": "Handwritten OCR for word in Indic Language using Deep Networks",
+"year": 2023,
+"venue": "SPIN",
+"ids": {
+"DOI": "10.1109/SPIN57001.2023.10117106",
+"CorpusId": 258592794
+},
+"cited_by": 21,
+"url": "https://www.semanticscholar.org/paper/f9a8c56d6c963ed863ef6d174982b8f279a3cfb3",
+"abstract": "A large number of Indian documents are handwritten and India is a diverse nation with many languages. These handwritten documents contain important historical and cultural information which needs to be preserved by converting to digital format. The major problem is everyone has unique handwriting with different styles of writing. To address this problem, we have trained Handwritten Optical Character Recognition (HOCR) in eight Indian languages i.e. Bangla, Gujarati, Gurumukhi, Hindi, Kannada, Odia, Telugu, and Urdu. The datasets IIIT-HW-Dev and IIIT-HW-Telugu refer to a Devanagari dataset and ",
+"queries": [
+"telugu handwriting"
+]
+},
+"67755eb18c259331215e5ab73c58622f084b0758": {
+"id": "67755eb18c259331215e5ab73c58622f084b0758",
+"title": "MDIW-13: a New Multi-Lingual and Multi-Script Database and Benchmark for Script Identification",
+"year": 2023,
+"venue": "Cognitive Computation",
+"ids": {
+"DBLP": "journals/corr/abs-2405-18924",
+"ArXiv": "2405.18924",
+"DOI": "10.1007/s12559-023-10193-w",
+"CorpusId": 261179194
+},
+"cited_by": 9,
+"url": "https://www.semanticscholar.org/paper/67755eb18c259331215e5ab73c58622f084b0758",
+"abstract": "Script identification plays a vital role in applications that involve handwriting and document analysis within a multi-script and multi-lingual environment. Moreover, it exhibits a profound connection with human cognition. This paper provides a new database for benchmarking script identification algorithms, which contains both printed and handwritten documents collected from a wide variety of scripts, such as Arabic, Bengali (Bangla), Gujarati, Gurmukhi, Devanagari, Japanese, Kannada, Malayalam, Oriya, Roman, Tamil, Telugu, and Thai. The dataset consists of 1,135 documents scanned from local n",
+"queries": [
+"telugu handwriting"
+]
+},
+"94e8ddd07d9253f8005cfc69d2fddc7a9d98f6fe": {
+"id": "94e8ddd07d9253f8005cfc69d2fddc7a9d98f6fe",
+"title": "Towards Spotting and Recognition of Handwritten Words in Indic Scripts",
+"year": 2018,
+"venue": "International Conference on Frontiers in Handwriting Recognition",
+"ids": {
+"MAG": "2903727039",
+"DBLP": "conf/icfhr/DuttaKMJ18",
+"DOI": "10.1109/ICFHR-2018.2018.00015",
+"CorpusId": 54462156
+},
+"cited_by": 29,
+"url": "https://www.semanticscholar.org/paper/94e8ddd07d9253f8005cfc69d2fddc7a9d98f6fe",
+"abstract": "Handwriting recognition (HWR) in Indic scripts is a challenging problem due to the inherent subtleties in the scripts, cursive nature of the handwriting and similar shape of the characters. Lack of publicly available handwriting datasets in Indic scripts has affected the development of handwritten word recognizers, and made direct comparisons across different methods an impossible task in the field. In this paper, we propose a framework for annotating large scale of handwritten word images with ease and speed. We also release a new handwritten word dataset for Telugu, which is collected and an",
+"queries": [
+"telugu handwriting"
+]
+},
+"a20904a449bae3bfb32e3921cd53df95f7773a3d": {
+"id": "a20904a449bae3bfb32e3921cd53df95f7773a3d",
+"title": "A Thresholded Gabor-CNN Based Writer Identification System for Indic Scripts",
+"year": 2021,
+"venue": "IEEE Access",
+"ids": {
+"DBLP": "journals/access/MridhaOSKMH21",
+"DOI": "10.1109/ACCESS.2021.3114799",
+"CorpusId": 238243451
+},
+"cited_by": 10,
+"url": "https://www.semanticscholar.org/paper/a20904a449bae3bfb32e3921cd53df95f7773a3d",
+"abstract": "Writer identification is the procedure of identifying individuals from handwriting. Writer identification is a common interest in biometric authentication and verification systems, and numerous studies are available for English, Chinese, Arabic, and Persian specific handwriting. This paper introduces a supervised offline Indic script writer identification system that can identify individuals using less than a single page of handwriting. A lightweight Convolutional Neural Network (CNN) architecture fused with non-trainable Gabor filters is used as an identification model that can recognize writ",
+"queries": [
+"telugu handwriting"
+]
+},
+"b4d8eb75aadf45dacb0f3e7436065ce44c8e7862": {
+"id": "b4d8eb75aadf45dacb0f3e7436065ce44c8e7862",
+"title": "2D Morphable Feature Space for Handwritten Character Recognition",
+"year": 2020,
+"venue": "",
+"ids": {
+"MAG": "3016747913",
+"DOI": "10.1016/j.procs.2020.03.280",
+"CorpusId": 218788752
+},
+"cited_by": 8,
+"url": "https://www.semanticscholar.org/paper/b4d8eb75aadf45dacb0f3e7436065ce44c8e7862",
+"abstract": "Abstract Handwriting style of an individual will be usually varying from other individuals. The degree of complexity involved in recognition of a handwritten character of south Indian languages is high due to the presence of compound characters. Furthermore the complexity of interpreting handwritten text aggravates due to irregular handwriting styles. Building of datasets for training the database in such environments is tremendous and requires a lot of manual data processing and other preliminary tasks. The major contribution focuses on creation of morphable feature space for addressing handw",
+"queries": [
+"telugu handwriting"
+]
+},
+"0116e7ac7052b6681787564de82fc3846725c393": {
+"id": "0116e7ac7052b6681787564de82fc3846725c393",
+"title": "Sentiment classification for telugu using transformed based approaches on a multi-domain dataset",
+"year": 2025,
+"venue": "Scientific Reports",
+"ids": {
+"PubMedCentral": "12215357",
+"DOI": "10.1038/s41598-025-05703-9",
+"CorpusId": 279798363,
+"PubMed": "40594681"
+},
+"cited_by": 10,
+"url": "https://www.semanticscholar.org/paper/0116e7ac7052b6681787564de82fc3846725c393",
+"abstract": "Sentiment analysis is an essential component of Natural Language Processing (NLP) in resource-abundant languages such as English. Nevertheless, poor-resource languages such as Telugu have experienced limited efforts owing to multiple considerations, such as a scarcity of corpora for training machine learning models and an absence of gold standard datasets for evaluation. The current surge of transformed based models in NLP enables the attainment of exceptional performance in many different tasks. Nevertheless, researchers are increasingly interested in exploring the potential of transformed ba",
+"queries": [
+"telugu handwriting"
+]
+},
+"554772af5d285ea5fc0f557d020421dea4c39ac4": {
+"id": "554772af5d285ea5fc0f557d020421dea4c39ac4",
+"title": "Khayyam Offline Persian Handwriting Dataset",
+"year": 2024,
+"venue": "arXiv.org",
+"ids": {
+"DBLP": "journals/corr/abs-2406-01025",
+"ArXiv": "2406.01025",
+"DOI": "10.48550/arXiv.2406.01025",
+"CorpusId": 270217269
+},
+"cited_by": 1,
+"url": "https://www.semanticscholar.org/paper/554772af5d285ea5fc0f557d020421dea4c39ac4",
+"abstract": "Handwriting analysis is still an important application in machine learning. A basic requirement for any handwriting recognition application is the availability of comprehensive datasets. Standard labelled datasets play a significant role in training and evaluating learning algorithms. In this paper, we present the Khayyam dataset as another large unconstrained handwriting dataset for elements (words, sentences, letters, digits) of the Persian language. We intentionally concentrated on collecting Persian word samples which are rare in the currently available datasets. Khayyam's dataset contains",
+"queries": [
+"telugu handwriting"
+]
+},
+"b9e301a8dd5fece5fd82ecb1b335265c12ceb691": {
+"id": "b9e301a8dd5fece5fd82ecb1b335265c12ceb691",
+"title": "Development of potential dysgraphia handwriting dataset",
+"year": 2024,
+"venue": "Data in Brief",
+"ids": {
+"PubMedCentral": "11166688",
+"DOI": "10.1016/j.dib.2024.110534",
+"CorpusId": 269905507,
+"PubMed": "38868380"
+},
+"cited_by": 6,
+"url": "https://www.semanticscholar.org/paper/b9e301a8dd5fece5fd82ecb1b335265c12ceb691",
+"abstract": "This report presents a dataset of offline handwriting samples among Malaysian schoolchildren with potential dysgraphia. The images contained Malay sentences written by primary school students and children under intervention by the Malaysia Dyslexia Association (PDM). Students were expected to copy and write the sentences provided on the paper form that was used to gather data. Students were required to write three sets of sentences. The paper was digitalized by scanning it and converting it into digital form. Furthermore, the images were pre-processed using image processing techniques by conve",
+"queries": [
+"telugu handwriting"
+]
+},
+"f8495ba5bb2ddef82a19dd335893707afb444464": {
+"id": "f8495ba5bb2ddef82a19dd335893707afb444464",
+"title": "Developing a Dysgraphia Handwriting Dataset for Early Detection of Dysgraphia in Sinhala-Speaking Children",
+"year": 2024,
+"venue": "2024 9th International Conference on Information Technology Research (ICITR)",
+"ids": {
+"DOI": "10.1109/ICITR64794.2024.10857743",
+"CorpusId": 276117447
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/f8495ba5bb2ddef82a19dd335893707afb444464",
+"abstract": "In the realm of machine learning diagnostics for learning disabilities, the availability and quality of data are crucial for developing effective models. Specifically, in identifying dysgraphia in Sri Lanka, no public database provides paired handwriting samples for comparison between Sinhala-speaking children with and without dysgraphia. To address this gap, this research develops a detailed offline Sinhala dataset with well-defined data collection, preprocessing, and labeling methods. The dataset includes 373 handwriting images from 84 participants (73 dysgraphic and 300 non-dysgraphic sampl",
+"queries": [
+"telugu handwriting"
+]
+},
+"93c2d79648666fd1ff871a9f67e9c178e2a44455": {
+"id": "93c2d79648666fd1ff871a9f67e9c178e2a44455",
+"title": "Dataset for Identification of Homophobia and Transphobia for Telugu, Kannada, and Gujarati",
+"year": 2024,
+"venue": "International Conference on Language Resources and Evaluation",
+"ids": {
+"ACL": "2024.lrec-main.393",
+"DBLP": "conf/coling/KumaresanPSBC24",
+"DOI": "10.63317/4rrkji667e6j",
+"CorpusId": 269804581
+},
+"cited_by": 10,
+"url": "https://www.semanticscholar.org/paper/93c2d79648666fd1ff871a9f67e9c178e2a44455",
+"abstract": "Users of social media platforms are negatively affected by the proliferation of hate or abusive content. There has been a rise in homophobic and transphobic content in recent years targeting LGBT+ individuals. The increasing levels of homophobia and transphobia online can make online platforms harmful and threatening for LGBT+ persons, potentially inhibiting equality, diversity, and inclusion. We are introducing a new dataset for three languages, namely Telugu, Kannada, and Gujarati. Additionally, we have created an expert-labeled dataset to automatically identify homophobic and transphobic co",
+"queries": [
+"telugu handwriting"
+]
+},
+"b63ba15fed5abeccac30696d7ba9ba2638c2a31c": {
+"id": "b63ba15fed5abeccac30696d7ba9ba2638c2a31c",
+"title": "A new online Arabic handwriting dataset for analyzing Parkinson’s disease",
+"year": 2023,
+"venue": "International Conference on Cyberworlds",
+"ids": {
+"DBLP": "conf/cw/AllebawiDJNFSMDHMA23",
+"DOI": "10.1109/CW58918.2023.00019",
+"CorpusId": 265921148
+},
+"cited_by": 7,
+"url": "https://www.semanticscholar.org/paper/b63ba15fed5abeccac30696d7ba9ba2638c2a31c",
+"abstract": "Parkinson’s disease (PD) is a common and progressive neurodegenerative disorder with motor symptoms and a variety of non-motor symptoms. Experts regularly include handwriting as one of the Parkinsonian motor symptoms of PD and as a valuable tool that can aid in diagnosing and tracking the disease’s progression. PD patients have two periods. ‘On’ time is when levodopa is working well and your symptoms are controlled. ‘Off’ time is when levodopa is no longer working well and symptoms such as tremor, rigidity and slow movement re-emerge. To our knowledge, all existing publicly available datasets ",
+"queries": [
+"telugu handwriting"
+]
+},
+"46b30eaebffb18b44aeb4ae3dca0bdae8bd34dcb": {
+"id": "46b30eaebffb18b44aeb4ae3dca0bdae8bd34dcb",
+"title": "Sentiment Analysis Using Deep Learning Approaches on Multi-Domain Dataset in Telugu Language",
+"year": 2024,
+"venue": "Journal of Information & Knowledge Management",
+"ids": {
+"DBLP": "journals/jikm/ChattuS24",
+"DOI": "10.1142/s0219649224500187",
+"CorpusId": 266946926
+},
+"cited_by": 6,
+"url": "https://www.semanticscholar.org/paper/46b30eaebffb18b44aeb4ae3dca0bdae8bd34dcb",
+"abstract": "Recent advancements in Natural Language Processing (NLP) have made sentiment analysis an essential component of a variety of NLP jobs, including recommendation systems, question answering, and business intelligence products. While sentiment analysis research has, to put it mildly, been widely pursued in English, Telugu has barely ever attempted the task. The majority of research works concentrate on analysing the sentiments of Tweets, news, or reviews containing Hindi and English words. There is a growing interest among academics in studying how people express their thoughts and views in India",
+"queries": [
+"telugu handwriting"
+]
+},
+"0180021ea90f5f0eef7cec14a26ed7241ecb73bc": {
+"id": "0180021ea90f5f0eef7cec14a26ed7241ecb73bc",
+"title": "Detection of Parkinson disease for handwriting dataset using deep learning algorithms",
+"year": 2023,
+"venue": "2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+"ids": {
+"DOI": "10.1109/icacite57410.2023.10182413",
+"CorpusId": 260141616
+},
+"cited_by": 6,
+"url": "https://www.semanticscholar.org/paper/0180021ea90f5f0eef7cec14a26ed7241ecb73bc",
+"abstract": "The most common neurodegenerative diseases are Parkinson's disease. People who have reached the age of 70 or older are affected. Parkinson's disease is the second incurable illness after Almeria's disease. The numerous characteristics that distinguish between people with Parkinson's disease and those who are healthy, and earlier diagnosis of the disease results in reduced disease severity. These are the typical signs of Parkinson's disease, which include both motor and non-motor deficiency in patients. The handwritten data set, which includes spiral and wave drawings, was retrieved from UCI eq",
+"queries": [
+"telugu handwriting"
+]
+},
+"04a2a25786a19988dd5669c668c04ac7cb06aa19": {
+"id": "04a2a25786a19988dd5669c668c04ac7cb06aa19",
+"title": "Prediction of Parkinson’s Disease using Handwriting Analysis and Voice Dataset- A Review",
+"year": 2024,
+"venue": "JUNE",
+"ids": {
+"DOI": "10.36548/jiip.2024.2.004",
+"CorpusId": 269990988
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/04a2a25786a19988dd5669c668c04ac7cb06aa19",
+"abstract": "Parkinson's disease is a common neurological movement illness that impairs motor coordination. Parkinson’s disease (PD) symptoms and severity, however, differ from person to person. By extracting insights, trends, and possibilities from the data, data research can be utilized to uncover solutions to problems in medical research by utilizing data, machine learning algorithms, and cutting-edge technology. Among the less evident early signs of Parkinson's disease are tremors, muscle stiffness, imbalance problems, and difficulty walking. There is currently no test to detect the illness early on, w",
+"queries": [
+"telugu handwriting"
+]
+},
+"c804e2b7cb2fe6df6f66fa341f7305455162baf5": {
+"id": "c804e2b7cb2fe6df6f66fa341f7305455162baf5",
+"title": "Construction of a Tibetan Handwriting Khyug-yig Dataset",
+"year": 2024,
+"venue": "Data Intelligence",
+"ids": {
+"DBLP": "journals/dint/TashiSCDDYWT24",
+"DOI": "10.3724/2096-7004.di.2024.0048",
+"CorpusId": 272910111
+},
+"cited_by": 2,
+"url": "https://www.semanticscholar.org/paper/c804e2b7cb2fe6df6f66fa341f7305455162baf5",
+"abstract": ",",
+"queries": [
+"telugu handwriting"
+]
+},
+"f6f1c2abbbb8a0c14f2b0843aae86ad5932cd262": {
+"id": "f6f1c2abbbb8a0c14f2b0843aae86ad5932cd262",
+"title": "CNN-BiLSTM model for English Handwriting Recognition: Comprehensive Evaluation on the IAM Dataset",
+"year": 2023,
+"venue": "arXiv.org",
+"ids": {
+"DBLP": "journals/corr/abs-2307-00664",
+"ArXiv": "2307.00664",
+"DOI": "10.48550/arXiv.2307.00664",
+"CorpusId": 259316654
+},
+"cited_by": 15,
+"url": "https://www.semanticscholar.org/paper/f6f1c2abbbb8a0c14f2b0843aae86ad5932cd262",
+"abstract": "We present a CNN-BiLSTM system for the problem of offline English handwriting recognition, with extensive evaluations on the public IAM dataset, including the effects of model size, data augmentation and the lexicon. Our best model achieves 3.59\\% CER and 9.44\\% WER using CNN-BiLSTM network with CTC layer. Test time augmentation with rotation and shear transformations applied to the input image, is proposed to increase recognition of difficult cases and found to reduce the word error rate by 2.5\\% points. We also conduct an error analysis of our proposed method on IAM dataset, show hard cases ",
+"queries": [
+"telugu handwriting"
+]
+},
+"4544076e9df174cb90bb28f43598bb39c70b0305": {
+"id": "4544076e9df174cb90bb28f43598bb39c70b0305",
+"title": "Handwriting Task-Selection based on the Analysis of Patterns in Classification Results on Alzheimer Dataset",
+"year": 2023,
+"venue": "DSTNDS",
+"ids": {
+"DBLP": "conf/dstnds/GattulliIPS23",
+"CorpusId": 265028570
+},
+"cited_by": 15,
+"url": "https://www.semanticscholar.org/paper/4544076e9df174cb90bb28f43598bb39c70b0305",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"7d3ccb3cb52c141c07901b42281f98c88ba2b3d0": {
+"id": "7d3ccb3cb52c141c07901b42281f98c88ba2b3d0",
+"title": "Burapha-TH: A Multi-Purpose Character, Digit, and Syllable Handwriting Dataset",
+"year": 2022,
+"venue": "Applied Sciences",
+"ids": {
+"DOI": "10.3390/app12084083",
+"CorpusId": 248284956
+},
+"cited_by": 5,
+"url": "https://www.semanticscholar.org/paper/7d3ccb3cb52c141c07901b42281f98c88ba2b3d0",
+"abstract": "In handwriting recognition research, a public image dataset is necessary to evaluate algorithm correctness and runtime performance. Unfortunately, in existing Thai language script image datasets, there is a lack of variety of standard handwriting types. This paper focuses on a new offline Thai handwriting image dataset named Burapha-TH. The dataset has 68 character classes, 10 digit classes, and 320 syllable classes. For constructing the dataset, 1072 Thai native speakers wrote on collection datasheets that were then digitized using a 300 dpi scanner. De-skewing, detection box and segmentation",
+"queries": [
+"telugu handwriting"
+]
+},
+"dfba6656746e3d5aa23b0ae19136cd415a606d7e": {
+"id": "dfba6656746e3d5aa23b0ae19136cd415a606d7e",
+"title": "DocUnfold: Leveraging Unfolding Network and a Real-World Large-Scale Dataset for Handwriting Contamination Removal in Documents",
+"year": 2026,
+"venue": "IEEE transactions on consumer electronics",
+"ids": {
+"DBLP": "journals/tce/ChenZLZDT26",
+"DOI": "10.1109/TCE.2025.3649878",
+"CorpusId": 284451752
+},
+"cited_by": 8,
+"url": "https://www.semanticscholar.org/paper/dfba6656746e3d5aa23b0ae19136cd415a606d7e",
+"abstract": "Handwritten annotations and ink contaminants compromise the visual quality and readability of documents. While deep learning has demonstrated impressive results in related tasks, such as text enhancement, it has yet to be applied to the prevalent issue of handwriting removal, primarily due to the absence of foundational datasets and robust methodologies. To address this limitation, we construct HW5K, a comprehensive dataset comprising over 5,000 pairs of high-resolution ( $2047\\times 2537$ ) document images affected by handwriting. This dataset encompasses a diverse range of handwriting styles",
+"queries": [
+"telugu handwriting"
+]
+},
+"3f03915107c0c696ba81b6b1fc5f1c206d44520c": {
+"id": "3f03915107c0c696ba81b6b1fc5f1c206d44520c",
+"title": "An EEG dataset for handwriting imagery decoding of Chinese character strokes and Pinyin single vowels",
+"year": 2026,
+"venue": "Scientific Data",
+"ids": {
+"PubMedCentral": "12966342",
+"DOI": "10.1038/s41597-026-06708-3",
+"CorpusId": 285272852,
+"PubMed": "41629357"
+},
+"cited_by": 2,
+"url": "https://www.semanticscholar.org/paper/3f03915107c0c696ba81b6b1fc5f1c206d44520c",
+"abstract": "Non-invasive EEG-based brain-computer interfaces (BCI) for handwriting imagery can support the restoration of fine writing abilities in individuals with motor impairments. However, the development of high-performance decoding algorithms is constrained by scarce training datasets. To address this, we present the first open EEG dataset dedicated to handwriting imagery. The dataset comprises 32-channel EEG recordings (sampled at 1000 Hz) from 21 healthy participants across two sessions separated by at least 24 hours. A dual-paradigm design captures multidimensional neural features: a Chinese char",
+"queries": [
+"telugu handwriting"
+]
+},
+"a3040695744ca4c871d35d9993875b7d6fe6c9e8": {
+"id": "a3040695744ca4c871d35d9993875b7d6fe6c9e8",
+"title": "HICMA: The Handwriting Identification for Calligraphy and Manuscripts in Arabic Dataset",
+"year": 2023,
+"venue": "ARABICNLP",
+"ids": {
+"ACL": "2023.arabicnlp-1.3",
+"DBLP": "conf/wanlp/IsmailKM23",
+"DOI": "10.18653/v1/2023.arabicnlp-1.3",
+"CorpusId": 265608010
+},
+"cited_by": 7,
+"url": "https://www.semanticscholar.org/paper/a3040695744ca4c871d35d9993875b7d6fe6c9e8",
+"abstract": "Arabic is one of the most globally spoken languages with more than 313 million speakers worldwide. Arabic handwriting is known for its cursive nature and the variety of writing styles used. Despite the increase in effort to digitize artistic and historical elements, no public dataset was released to deal with Arabic text recognition for realistic manuscripts and calligraphic text. We present the Handwriting Identification of Manuscripts and Calligraphy in Arabic (HICMA) dataset as the first publicly available dataset with real-world and diverse samples of Arabic handwritten text in manuscripts",
+"queries": [
+"telugu handwriting"
+]
+},
+"c26a186963992f3ced24adcd16eae46246acc86b": {
+"id": "c26a186963992f3ced24adcd16eae46246acc86b",
+"title": "CENSUS-HWR: A Large Training Dataset for Offline Handwriting Recognition",
+"year": 2023,
+"venue": "2023 International Conference on Computational Science and Computational Intelligence (CSCI)",
+"ids": {
+"DBLP": "journals/corr/abs-2305-16275",
+"ArXiv": "2305.16275",
+"DOI": "10.1109/CSCI62032.2023.00105",
+"CorpusId": 258887537
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/c26a186963992f3ced24adcd16eae46246acc86b",
+"abstract": "Progress in Automated Handwriting Recognition has been hampered by the lack of large training datasets. Nearly all research uses a set of small datasets, which can cause models to overfit. We present CENSUS-HWR, a new dataset consisting of full English handwritten words in 1,812,014 grayscale images. A total of 1,865,134 handwritten words from a vocabulary of 10,711 unique words in the English language are present in this collection. This dataset is intended to serve handwriting models as a benchmark for deep learning algorithms. This huge English handwriting recognition dataset has been extra",
+"queries": [
+"telugu handwriting"
+]
+},
+"25b019b26e5713f33f4c67b6507aa0e993e544e5": {
+"id": "25b019b26e5713f33f4c67b6507aa0e993e544e5",
+"title": "BanglaWriting: A multi-purpose offline Bangla handwriting dataset",
+"year": 2020,
+"venue": "Data in Brief",
+"ids": {
+"MAG": "3112419705",
+"ArXiv": "2011.07499",
+"PubMedCentral": "7744928",
+"DBLP": "journals/corr/abs-2011-07499",
+"DOI": "10.1016/j.dib.2020.106633",
+"CorpusId": 226965501,
+"PubMed": "33354607"
+},
+"cited_by": 34,
+"url": "https://www.semanticscholar.org/paper/25b019b26e5713f33f4c67b6507aa0e993e544e5",
+"abstract": "This article presents a Bangla handwriting dataset named BanglaWriting that contains single-page handwritings of 260 individuals of different personalities and ages. Each page includes bounding-boxes that bounds each word, along with the unicode representation of the writing. This dataset contains 21,234 words and 32,787 characters in total. Moreover, this dataset includes 5,470 unique words of Bangla vocabulary. Apart from the usual words, the dataset comprises 261 comprehensible overwriting and 450 handwritten strikes and mistakes. All of the bounding-boxes and word labels are manually-gener",
+"queries": [
+"telugu handwriting"
+]
+},
+"5d33bd3b23543305207b4bab63e938f5693f00b5": {
+"id": "5d33bd3b23543305207b4bab63e938f5693f00b5",
+"title": "Diagnosis of Parkinson’s Disease by Deep Learning Techniques Using Handwriting Dataset",
+"year": 2021,
+"venue": "",
+"ids": {
+"MAG": "3129034713",
+"DOI": "10.1007/978-981-16-0425-6_10",
+"CorpusId": 234190348
+},
+"cited_by": 11,
+"url": "https://www.semanticscholar.org/paper/5d33bd3b23543305207b4bab63e938f5693f00b5",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"2a7bb4cdc2eea0fa8e13a0823c5b06378cfb8bab": {
+"id": "2a7bb4cdc2eea0fa8e13a0823c5b06378cfb8bab",
+"title": "Diagnosing Alzheimer's disease from on-line handwriting: A novel dataset and performance benchmarking",
+"year": 2022,
+"venue": "Engineering applications of artificial intelligence",
+"ids": {
+"DBLP": "journals/eaai/CiliaGSFMP22",
+"CorpusId": 248724809
+},
+"cited_by": 91,
+"url": "https://www.semanticscholar.org/paper/2a7bb4cdc2eea0fa8e13a0823c5b06378cfb8bab",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"3d134427e2c35fcba9ed7eb79916759695c79b41": {
+"id": "3d134427e2c35fcba9ed7eb79916759695c79b41",
+"title": "New Online/Offline text-dependent Arabic Handwriting dataset for Writer Authentication and Identification",
+"year": 2019,
+"venue": "International Conference on Information, Communications and Signal Processing",
+"ids": {
+"MAG": "2969561635",
+"DOI": "10.1109/IACS.2019.8809080",
+"CorpusId": 201620782
+},
+"cited_by": 12,
+"url": "https://www.semanticscholar.org/paper/3d134427e2c35fcba9ed7eb79916759695c79b41",
+"abstract": "Word-based writer identification and authentication have been under investigation for years. In this paper, we present a new Arabic online/offline handwriting dataset for writer authentication and identification. The created dataset includes two parts: AHWDB1 and AHWDB2 which are made freely available for the research community. Each part of the dataset consists of 2000 (10 trials X 200 writers) samples captured using HUAWEI MediaPad M3. Dynamic information such as pressure, timestamp and the coordinates(X, Y) have been collected and involved for both parts of the dataset. In addition, age, ge",
+"queries": [
+"telugu handwriting"
+]
+},
+"cb104db810f631e73a8ca3991f2be03e96deb798": {
+"id": "cb104db810f631e73a8ca3991f2be03e96deb798",
+"title": "Introducing the Boise State Bangla Handwriting Dataset and an Efficient Offline Recognizer of Isolated Bangla Characters",
+"year": 2018,
+"venue": "International Conference on Frontiers in Handwriting Recognition",
+"ids": {
+"MAG": "2894255417",
+"DBLP": "conf/icfhr/MajidS18",
+"DOI": "10.1109/ICFHR-2018.2018.00073",
+"CorpusId": 56598833
+},
+"cited_by": 19,
+"url": "https://www.semanticscholar.org/paper/cb104db810f631e73a8ca3991f2be03e96deb798",
+"abstract": "This paper presents a publicly accessible Bangla offline handwriting dataset, as well as benchmarking with a simple and robust isolated handwritten character recognition scheme. The dataset is named Boise State Bangla Handwriting Dataset. The dataset contains 2 pages. The first has a 104 word/364 character essay. The essay uses 49 basic characters, all 11 vowel diacritics and 32 high frequency consonant conjuncts. The second page contains 84 isolated units containing all basic characters, numbers, vowel diacritics and several high frequency conjuncts. The initial release is based on the volunt",
+"queries": [
+"telugu handwriting"
+]
+},
+"a2963b093ef66d6e85ee2534900915501f1cc20f": {
+"id": "a2963b093ef66d6e85ee2534900915501f1cc20f",
+"title": "Telugu Dialect Speech Dataset Creation and Recognition using Deep Learning Techniques",
+"year": 2022,
+"venue": "IEEE India Conference",
+"ids": {
+"DOI": "10.1109/INDICON56171.2022.10040194",
+"CorpusId": 256944925
+},
+"cited_by": 13,
+"url": "https://www.semanticscholar.org/paper/a2963b093ef66d6e85ee2534900915501f1cc20f",
+"abstract": "According to India’s 2011 demography, there seem to be approximately 8 crore Telugu communicators. Apart from that, the Telugu language has many dialects spread across the states Telangana and Andhra Pradesh. Telangana, Rayalaseema, and Coastal accents are the most common. The main concern is to understand the language irrespective of the dialects to have good communication near border areas of these states. Availability of data for analysis of Telugu speech dialects is of high scope for recognition. So, the creation of data is done for Telugu dialects with a total of 9 speakers, 3 speakers fo",
+"queries": [
+"telugu handwriting"
+]
+},
+"e176ce29d8ae9fde0d6e8b1b1b6acab16cb2890a": {
+"id": "e176ce29d8ae9fde0d6e8b1b1b6acab16cb2890a",
+"title": "MSDS: A Large-Scale Chinese Signature and Token Digit String Dataset for Handwriting Verification",
+"year": 2022,
+"venue": "Neural Information Processing Systems",
+"ids": {
+"DBLP": "conf/nips/ZhangJLJ22",
+"ArXiv": "2210.08836",
+"DOI": "10.48550/arXiv.2210.08836",
+"CorpusId": 252918433
+},
+"cited_by": 12,
+"url": "https://www.semanticscholar.org/paper/e176ce29d8ae9fde0d6e8b1b1b6acab16cb2890a",
+"abstract": "Although online handwriting verification has made great progress recently, the verification performances are still far behind the real usage owing to the small scale of the datasets as well as the limited biometric mediums. Therefore, this paper proposes a new handwriting verification benchmark dataset named Multimodal Signature and Digit String (MSDS), which consists of two subsets: MSDS-ChS (Chinese Signatures) and MSDS-TDS (Token Digit Strings), contributed by 402 users, with 20 genuine samples and 20 skilled forgeries per user per subset. MSDS-ChS consists of handwritten Chinese signatures",
+"queries": [
+"telugu handwriting"
+]
+},
+"efa1ba172485ef577abb45bd256460ca5898e0f9": {
+"id": "efa1ba172485ef577abb45bd256460ca5898e0f9",
+"title": "Generating realistic Arabic handwriting dataset",
+"year": 2019,
+"venue": "International journal of engineering and technology",
+"ids": {
+"DOI": "10.14419/ijet.v8i4.29786",
+"CorpusId": 212501341
+},
+"cited_by": 1,
+"url": "https://www.semanticscholar.org/paper/efa1ba172485ef577abb45bd256460ca5898e0f9",
+"abstract": "During the previous year's holistic approach showing satisfactory results to solve ‎the ‎problem of Arabic handwriting word  recognition instead of word letters ‎‎segmentation.‎ ‎In this paper, we present an efficient system for ‎ generation realistic Arabic handwriting dataset from ASCII input ‎text. We carefully selected simple word list that contains most Arabic ‎letters normal and ligature connection cases. To improve the ‎performance of new letters reproduction we developed our ‎normalization method that adapt its clustering action according to ‎created Arabic letters families. We enhance",
+"queries": [
+"telugu handwriting"
+]
+},
+"c97fd44b8bde1e5668a000bbf0843c71a003c1f1": {
+"id": "c97fd44b8bde1e5668a000bbf0843c71a003c1f1",
+"title": "TeQuAD:Telugu Question Answering Dataset",
+"year": 2022,
+"venue": "ICON",
+"ids": {
+"ACL": "2022.icon-main.36",
+"DBLP": "conf/icon-nlp/VemulaNS22",
+"CorpusId": 257767703
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/c97fd44b8bde1e5668a000bbf0843c71a003c1f1",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"ee90a0f8a9211906134de7a931ceb6bbdb1294a9": {
+"id": "ee90a0f8a9211906134de7a931ceb6bbdb1294a9",
+"title": "Creation of GIF dataset and implementation of a speech-to-sign language translator in Telugu",
+"year": 2022,
+"venue": "2022 IEEE North Karnataka Subsection Flagship International Conference (NKCon)",
+"ids": {
+"DOI": "10.1109/NKCon56289.2022.10127067",
+"CorpusId": 258912323
+},
+"cited_by": 4,
+"url": "https://www.semanticscholar.org/paper/ee90a0f8a9211906134de7a931ceb6bbdb1294a9",
+"abstract": "The paper proposes the design and implementation of a model that translates live voice or audio recordings of a native Indian regional language (Telugu) to text and further matches it to sign language animations from the pre-defined Graphics Interchange Format (GIF) dataset. The speech is converted to text using Google API. If the text matches with the words in GIF dataset, it generates the respective GIF. A GUI interface is also developed which displays ISL text alphabetically if the given input is outside the range of GIF dataset. Alongside, the performance of four powerful deep learning net",
+"queries": [
+"telugu handwriting"
+]
+},
+"1577ef3ced2e8bb5e146cbca7e5b990facd7d793": {
+"id": "1577ef3ced2e8bb5e146cbca7e5b990facd7d793",
+"title": "A Dataset for Detecting Humor in Telugu Social Media Text",
+"year": 2022,
+"venue": "DRAVIDIANLANGTECH",
+"ids": {
+"ACL": "2022.dravidianlangtech-1.2",
+"DOI": "10.18653/v1/2022.dravidianlangtech-1.2",
+"CorpusId": 248780051
+},
+"cited_by": 4,
+"url": "https://www.semanticscholar.org/paper/1577ef3ced2e8bb5e146cbca7e5b990facd7d793",
+"abstract": "Increased use of online social media sites has given rise to tremendous amounts of user generated data. Social media sites have become a platform where users express and voice their opinions in a real-time environment. Social media sites such as Twitter limit the number of characters used to express a thought in a tweet, leading to increased use of creative, humorous and confusing language in order to convey the message. Due to this, automatic humor detection has become a difficult task, especially for low-resource languages such as the Dravidian languages. Humor detection has been a well stud",
+"queries": [
+"telugu handwriting"
+]
+},
+"6c4a9168e7a98a56cac21dcd0356df1e4247b252": {
+"id": "6c4a9168e7a98a56cac21dcd0356df1e4247b252",
+"title": "A Spanish dataset for reproducible benchmarked offline handwriting recognition",
+"year": 2022,
+"venue": "Language Resources and Evaluation",
+"ids": {
+"DBLP": "journals/lre/BoqueraB22",
+"DOI": "10.1007/s10579-022-09587-3",
+"CorpusId": 251770896
+},
+"cited_by": 5,
+"url": "https://www.semanticscholar.org/paper/6c4a9168e7a98a56cac21dcd0356df1e4247b252",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"ab3c0dc7235ea42faf6f409c219aa3beac36d76c": {
+"id": "ab3c0dc7235ea42faf6f409c219aa3beac36d76c",
+"title": "Forged handwriting verification: a public domain dataset for training machine learning models",
+"year": 2022,
+"venue": "IEEE International Joint Conference on Neural Network",
+"ids": {
+"DBLP": "conf/ijcnn/MonaroFCLSN22",
+"DOI": "10.1109/IJCNN55064.2022.9891973",
+"CorpusId": 252626587
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/ab3c0dc7235ea42faf6f409c219aa3beac36d76c",
+"abstract": "Handwriting verification is an important task in the legal framework where the paternity of handwritten wills or con-tracts needs to be ascertained. Due to the lack of automated tools, the court currently relies exclusively on handwriting experts, who often show a wide degree of uncertainty in their responses. Machine learning models, and in particular artificial Neural Networks (NNs) might be a valuable aid to experts by providing an objective and automated instrument for handwriting analysis, especially when expert witnesses are undecided. However, at the state of the art there is a scarcity",
+"queries": [
+"telugu handwriting"
+]
+},
+"817005b058f46d043144e956e0154768aea13420": {
+"id": "817005b058f46d043144e956e0154768aea13420",
+"title": "GNHK: A Dataset for English Handwriting in the Wild",
+"year": 2021,
+"venue": "IEEE International Conference on Document Analysis and Recognition",
+"ids": {
+"DBLP": "conf/icdar/LeeCL21",
+"DOI": "10.1007/978-3-030-86337-1_27",
+"CorpusId": 237458429
+},
+"cited_by": 29,
+"url": "https://www.semanticscholar.org/paper/817005b058f46d043144e956e0154768aea13420",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"5cafd610531c7eab7669454da022572060b152f5": {
+"id": "5cafd610531c7eab7669454da022572060b152f5",
+"title": "Deep neural networks-based offline writer identification using heterogeneous handwriting data: an evaluation via a novel standard dataset",
+"year": 2021,
+"venue": "Journal of Ambient Intelligence and Humanized Computing",
+"ids": {
+"DBLP": "journals/jaihc/KhosroshahiRSM22",
+"MAG": "3178386724",
+"DOI": "10.1007/s12652-021-03253-2",
+"CorpusId": 237836036
+},
+"cited_by": 13,
+"url": "https://www.semanticscholar.org/paper/5cafd610531c7eab7669454da022572060b152f5",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"aff870357b3433b89261a931e174b45f79e9da0e": {
+"id": "aff870357b3433b89261a931e174b45f79e9da0e",
+"title": "Boise State Bangla Handwriting Dataset",
+"year": 2018,
+"venue": "",
+"ids": {
+"MAG": "2883860352",
+"DOI": "10.18122/SAIPL/1/BOISESTATE",
+"CorpusId": 70073093
+},
+"cited_by": 4,
+"url": "https://www.semanticscholar.org/paper/aff870357b3433b89261a931e174b45f79e9da0e",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"006c79bc05bd49ed39b1a69195b22b75269a3fd4": {
+"id": "006c79bc05bd49ed39b1a69195b22b75269a3fd4",
+"title": "Digital Peter: New Dataset, Competition and Handwriting Recognition Methods",
+"year": 2021,
+"venue": "HIP@ICDAR",
+"ids": {
+"DBLP": "conf/icdar/PotaninDSBKNC21",
+"ArXiv": "2103.09354",
+"DOI": "10.1145/3476887.3476892",
+"CorpusId": 232258132
+},
+"cited_by": 12,
+"url": "https://www.semanticscholar.org/paper/006c79bc05bd49ed39b1a69195b22b75269a3fd4",
+"abstract": "This paper presents a new dataset of Peter the Great’s manuscripts and describes a segmentation procedure that converts initial images of documents into lines. This new dataset may be useful for researchers to train handwriting text recognition models as a benchmark when comparing different models. It consists of 9694 images and text files corresponding to different lines in historical documents. The open machine learning competition ”Digital Peter” was held based on the considered dataset. The baseline solution for this competition and advanced methods on handwritten text recognition are desc",
+"queries": [
+"telugu handwriting"
+]
+},
+"fc526d50fc25cebdac31fa8b1a14d97f38793cca": {
+"id": "fc526d50fc25cebdac31fa8b1a14d97f38793cca",
+"title": "Digital Peter: Dataset, Competition and Handwriting Recognition Methods",
+"year": 2021,
+"venue": "arXiv.org",
+"ids": {
+"DBLP": "journals/corr/abs-2103-09354",
+"DOI": "10.48550/arXiv.2103.09354",
+"CorpusId": 261124887
+},
+"cited_by": 7,
+"url": "https://www.semanticscholar.org/paper/fc526d50fc25cebdac31fa8b1a14d97f38793cca",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"5fc0ba9bb8a8cac1dfae96e8ee84d66c15c9ea8c": {
+"id": "5fc0ba9bb8a8cac1dfae96e8ee84d66c15c9ea8c",
+"title": "UHTelHwCC: A Dataset for Telugu Off-line Handwritten Character Recognition",
+"year": 2021,
+"venue": "International Conference on Recent Trends in Image Processing and Pattern Recognition",
+"ids": {
+"DBLP": "conf/rtip2r/KummariB21",
+"DOI": "10.1007/978-3-031-07005-1_22",
+"CorpusId": 249047967
+},
+"cited_by": 2,
+"url": "https://www.semanticscholar.org/paper/5fc0ba9bb8a8cac1dfae96e8ee84d66c15c9ea8c",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"19e4ce7113318ded83f3b343d305dc696c0b1a58": {
+"id": "19e4ce7113318ded83f3b343d305dc696c0b1a58",
+"title": "WritingRing: Enabling Natural Handwriting Input with a Single IMU Ring",
+"year": 2025,
+"venue": "International Conference on Human Factors in Computing Systems",
+"ids": {
+"DBLP": "conf/chi/HeWYZSS25",
+"DOI": "10.1145/3706598.3714066",
+"CorpusId": 278080412
+},
+"cited_by": 14,
+"url": "https://www.semanticscholar.org/paper/19e4ce7113318ded83f3b343d305dc696c0b1a58",
+"abstract": "Tracking continuous 2D sequential handwriting trajectories accurately using a single IMU ring is extremely challenging due to the significant displacement between the IMU’s wearing position and the location of the tracked fingertip. We propose WritingRing, a system that uses a single IMU ring worn at the base of the finger to support natural handwriting input and provide real-time 2D trajectories. To achieve this, we first built a handwriting dataset using a touchpad and an IMU ring (N=20). Next, we improved the LSTM model by incorporating streaming input and a TCN network, significantly enhan",
+"queries": [
+"telugu handwriting"
+]
+},
+"290c50a13d9aa3a431067a083d6d85c00fcf539a": {
+"id": "290c50a13d9aa3a431067a083d6d85c00fcf539a",
+"title": "ASAR 2021 Competition on Online Signal Restoration Using Arabic Handwriting Dhad Dataset",
+"year": 2021,
+"venue": "ICDAR Workshops",
+"ids": {
+"DBLP": "conf/icdar/RabhiEHA21",
+"DOI": "10.1007/978-3-030-86198-8_26",
+"CorpusId": 237458482
+},
+"cited_by": 6,
+"url": "https://www.semanticscholar.org/paper/290c50a13d9aa3a431067a083d6d85c00fcf539a",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"6524afc704e393fffc09540b6493011674f753c0": {
+"id": "6524afc704e393fffc09540b6493011674f753c0",
+"title": "Dataset Creation and Evaluation of Aspect Based Sentiment Analysis in Telugu, a Low Resource Language",
+"year": 2020,
+"venue": "International Conference on Language Resources and Evaluation",
+"ids": {
+"DBLP": "conf/lrec/RegatteGM20",
+"ACL": "2020.lrec-1.617",
+"MAG": "3031985839",
+"CorpusId": 218594230
+},
+"cited_by": 19,
+"url": "https://www.semanticscholar.org/paper/6524afc704e393fffc09540b6493011674f753c0",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"84d3b01a81e362d3c6bc8f2fa8af700273c2396a": {
+"id": "84d3b01a81e362d3c6bc8f2fa8af700273c2396a",
+"title": "A Deep Learning Framework for Early Parkinson’s Disease Detection: Leveraging Spiral and Wave Handwriting Tasks with EfficientNetV2-S",
+"year": 2025,
+"venue": "Diagnostics",
+"ids": {
+"PubMedCentral": "12608853",
+"DOI": "10.3390/diagnostics15212795",
+"CorpusId": 282856725,
+"PubMed": "41226087"
+},
+"cited_by": 12,
+"url": "https://www.semanticscholar.org/paper/84d3b01a81e362d3c6bc8f2fa8af700273c2396a",
+"abstract": "Background: Early detection of Parkinson’s disease (PD) is vital for improving patient outcomes, yet traditional diagnostic methods often depend on subjective clinical evaluations. Methods: This study proposes a novel deep learning framework for PD detection based on spiral and wave handwriting patterns from the PaHaW dataset. A comprehensive preprocessing pipeline is implemented, integrating histogram equalization and Canny edge detection. The processed spiral and wave images are evaluated independently using a fine-tuned EfficientNetV2-S architecture for binary classification. In addition to",
+"queries": [
+"telugu handwriting"
+]
+},
+"eb3891cf1b2f142d47e8c9d77dcf5b93ccca4e8e": {
+"id": "eb3891cf1b2f142d47e8c9d77dcf5b93ccca4e8e",
+"title": "Automated LSTM Based Deep Learning Model for Handwritten Telugu Answer Script Analysis",
+"year": 2025,
+"venue": "Communications on Applied Nonlinear Analysis",
+"ids": {
+"DOI": "10.52783/cana.v32.3796",
+"CorpusId": 276486723
+},
+"cited_by": 1,
+"url": "https://www.semanticscholar.org/paper/eb3891cf1b2f142d47e8c9d77dcf5b93ccca4e8e",
+"abstract": "The growing demand for automated evaluation systems in educational environments, especially for languages with complex scripts like Telugu, drives the motivation for this research. Traditional handwriting recognition methods for Telugu have faced challenges with limited accuracy and adaptability, particularly in real-world educational scenarios. These limitations often result in reduced precision in character and sentence recognition, along with increased processing delays. This study proposes a novel system for the automated evaluation of handwritten Telugu answer scripts. The model incorpora",
+"queries": [
+"telugu handwriting"
+]
+},
+"1c2175d4bd1c27f56d07c4dbb3b8482defd0170b": {
+"id": "1c2175d4bd1c27f56d07c4dbb3b8482defd0170b",
+"title": "Code-Mixed Telugu-English Hate Speech Detection",
+"year": 2025,
+"venue": "arXiv.org",
+"ids": {
+"ArXiv": "2502.10632",
+"DBLP": "journals/corr/abs-2502-10632",
+"DOI": "10.48550/arXiv.2502.10632",
+"CorpusId": 276408189
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/1c2175d4bd1c27f56d07c4dbb3b8482defd0170b",
+"abstract": "Hate speech detection in low-resource languages like Telugu is a growing challenge in NLP. This study investigates transformer-based models, including TeluguHateBERT, HateBERT, DeBERTa, Muril, IndicBERT, Roberta, and Hindi-Abusive-MuRIL, for classifying hate speech in Telugu. We fine-tune these models using Low-Rank Adaptation (LoRA) to optimize efficiency and performance. Additionally, we explore a multilingual approach by translating Telugu text into English using Google Translate to assess its impact on classification accuracy. Our experiments reveal that most models show improved performan",
+"queries": [
+"telugu handwriting"
+]
+},
+"bd70f671ce962e0a25ba70efdbebb8e212c4f17a": {
+"id": "bd70f671ce962e0a25ba70efdbebb8e212c4f17a",
+"title": "Creating and Evaluating Code-Mixed Nepali-English and Telugu-English Datasets for Abusive Language Detection Using Traditional and Deep Learning Models",
+"year": 2025,
+"venue": "arXiv.org",
+"ids": {
+"ArXiv": "2504.21026",
+"DBLP": "journals/corr/abs-2504-21026",
+"DOI": "10.48550/arXiv.2504.21026",
+"CorpusId": 278207716
+},
+"cited_by": 2,
+"url": "https://www.semanticscholar.org/paper/bd70f671ce962e0a25ba70efdbebb8e212c4f17a",
+"abstract": "With the growing presence of multilingual users on social media, detecting abusive language in code-mixed text has become increasingly challenging. Code-mixed communication, where users seamlessly switch between English and their native languages, poses difficulties for traditional abuse detection models, as offensive content may be context-dependent or obscured by linguistic blending. While abusive language detection has been extensively explored for high-resource languages like English and Hindi, low-resource languages such as Telugu and Nepali remain underrepresented, leaving gaps in effect",
+"queries": [
+"telugu handwriting"
+]
+},
+"0f4a3b2974588e1732186df4b690b585b9847de9": {
+"id": "0f4a3b2974588e1732186df4b690b585b9847de9",
+"title": "GRK-Papyri: A Dataset of Greek Handwriting on Papyri for the Task of Writer Identification",
+"year": 2019,
+"venue": "IEEE International Conference on Document Analysis and Recognition",
+"ids": {
+"MAG": "3004195738",
+"DBLP": "conf/icdar/MohammedMM19",
+"DOI": "10.1109/ICDAR.2019.00121",
+"CorpusId": 211026790
+},
+"cited_by": 20,
+"url": "https://www.semanticscholar.org/paper/0f4a3b2974588e1732186df4b690b585b9847de9",
+"abstract": "Presenting actual research questions from academia through publishing datasets is a practice of great importance in order to generate relevant solutions. Therefore, we propose a dataset of handwriting on papyri for the task of writer identification. This dataset is derived directly from research questions in the field of Papyrology, and the samples are selected by experts from the respective field of research. This dataset consists of 50 handwriting samples in Greek on papyri approximately from the 6th century A.D., which belong to 10 different scribes. It is prepared and made freely available",
+"queries": [
+"telugu handwriting"
+]
+},
+"37b5096727a4e2fae939f38be725d89457ff6e93": {
+"id": "37b5096727a4e2fae939f38be725d89457ff6e93",
+"title": "ML-Powered Handwriting Analysis for Early Detection of Alzheimer’s Disease",
+"year": 2024,
+"venue": "IEEE Access",
+"ids": {
+"DBLP": "journals/access/MitraR24",
+"DOI": "10.1109/ACCESS.2024.3401104",
+"CorpusId": 269886299
+},
+"cited_by": 44,
+"url": "https://www.semanticscholar.org/paper/37b5096727a4e2fae939f38be725d89457ff6e93",
+"abstract": "Alzheimer’s disease (AD) is a progressive, incurable condition leading to decline of nerve cells and cognitive functions over time. Early detection is essential for improving quality of life, as treatment strategies aim to decelerate its progression. AD also impacts fine motor control, including handwriting. Utilizing machine learning (ML) with efficient data analysis methods for early detection of Alzheimer’s disease (AD) through handwriting analysis holds considerable promise for clinical diagnosis, albeit a challenging undertaking. In this study, we address this complexity by employing ense",
+"queries": [
+"telugu handwriting"
+]
+},
+"34fe8bce09688ff9bbcb360d79897e5ecfaa3274": {
+"id": "34fe8bce09688ff9bbcb360d79897e5ecfaa3274",
+"title": "Cognitive Handwriting Insights for Alzheimer's Diagnosis: A Hybrid Framework",
+"year": 2025,
+"venue": "Inf.",
+"ids": {
+"DBLP": "journals/information/RehmanM25",
+"DOI": "10.3390/info16030249",
+"CorpusId": 277207450
+},
+"cited_by": 9,
+"url": "https://www.semanticscholar.org/paper/34fe8bce09688ff9bbcb360d79897e5ecfaa3274",
+"abstract": "Alzheimer’s disease (AD) is a persistent neurologic disorder that has no cure. For a successful treatment to be implemented, it is essential to diagnose AD at an early stage, which may occur up to eight years before dementia manifests. In this regard, a new predictive machine learning model is proposed that works in two stages and takes advantage of both unsupervised and supervised learning approaches to provide a fast, affordable, yet accurate solution. The first stage involved fuzzy partitioning of a gold-standard dataset, DARWIN (Diagnosis AlzheimeR WIth haNdwriting). This dataset consists ",
+"queries": [
+"telugu handwriting"
+]
+},
+"ba2fdbec583a93e25af0e3a3f940940421a3f7b6": {
+"id": "ba2fdbec583a93e25af0e3a3f940940421a3f7b6",
+"title": "DS-HViT: A Dual-Stream Hierarchical Vision Transformer for Multi-Scale Analysis of Parkinson's Disease Handwriting",
+"year": 2025,
+"venue": "Engineering, Technology &amp; Applied Science Research",
+"ids": {
+"DOI": "10.48084/etasr.12833",
+"CorpusId": 281937211
+},
+"cited_by": 9,
+"url": "https://www.semanticscholar.org/paper/ba2fdbec583a93e25af0e3a3f940940421a3f7b6",
+"abstract": "Early detection of Parkinson's Disease (PD) remains challenging in the medical field due to motor symptoms manifesting across different temporal scales. To address this, we introduce a Dual-Stream Hierarchical Vision Transformer (DS-HViT), a deep learning framework designed to capture the multi-scale temporal dynamics of PD-related Handwriting (HW) impairments. The architecture employs parallel micro- and macro-scale streams: the micro-scale stream models high-frequency tremor signatures, while the macro-scale stream captures gradual motor decline. The model was evaluated on the NewHandPD data",
+"queries": [
+"telugu handwriting"
+]
+},
+"89a270888b16d5793b758a957ffe4890ddb3b67b": {
+"id": "89a270888b16d5793b758a957ffe4890ddb3b67b",
+"title": "Offline Handwriting Recognition on Devanagari Using a New Benchmark Dataset",
+"year": 2018,
+"venue": "International Workshop on Document Analysis Systems",
+"ids": {
+"DBLP": "conf/das/DuttaKMJ18",
+"MAG": "2810296118",
+"DOI": "10.1109/DAS.2018.69",
+"CorpusId": 49409033
+},
+"cited_by": 62,
+"url": "https://www.semanticscholar.org/paper/89a270888b16d5793b758a957ffe4890ddb3b67b",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"eb15cc6b6e896acd54f578c3c24beb428050bbd6": {
+"id": "eb15cc6b6e896acd54f578c3c24beb428050bbd6",
+"title": "Handwriting Difficulties: A Review of Recent Advances in the Identification and Intervention",
+"year": 2025,
+"venue": "IEEE Access",
+"ids": {
+"DBLP": "journals/access/MurnaniHI25",
+"DOI": "10.1109/ACCESS.2025.3593240",
+"CorpusId": 280378431
+},
+"cited_by": 8,
+"url": "https://www.semanticscholar.org/paper/eb15cc6b6e896acd54f578c3c24beb428050bbd6",
+"abstract": "Handwriting difficulties can significantly affect education and daily functioning. Despite recent advances, challenges in standardization, dataset diversity, and model explainability still limit cross-study comparability and real-world applicability. This narrative review synthesizes recent work on identifying and addressing handwriting difficulties, covering both traditional and technology-based approaches. Rather than proposing a new method or computational framework, it highlights trends, challenges, and opportunities in current research. We systematically reviewed 107 primary studies publi",
+"queries": [
+"telugu handwriting"
+]
+},
+"d7cefbe65ff0c1237b0cf5dafdfe2c2e940e3b2f": {
+"id": "d7cefbe65ff0c1237b0cf5dafdfe2c2e940e3b2f",
+"title": "Design and Validation of a Hybrid Machine Learning Model for Alzheimer’s Detection Using Handwriting Data",
+"year": 2025,
+"venue": "American Journal of Alzheimers Disease & Other Dementias",
+"ids": {
+"PubMedCentral": "12437175",
+"DOI": "10.1177/15333175251374913",
+"CorpusId": 281313803,
+"PubMed": "40947760"
+},
+"cited_by": 7,
+"url": "https://www.semanticscholar.org/paper/d7cefbe65ff0c1237b0cf5dafdfe2c2e940e3b2f",
+"abstract": "Handwriting is a preferred identifier in detecting Alzheimer’s disease that enables diagnosis about people. The aim of this study is to evaluate the handwriting and make the early detection and diagnosis of Alzheimer’s disease with the highest possible prediction rates. In this regard, 9 machine learning algorithms were used. Seven feature selection methods were used to determine the most effective features for Alzheimer’s disease prediction to eliminate unnecessary ones and increase model prediction performance. The models were trained and tested on the DARWIN dataset with both train - test s",
+"queries": [
+"telugu handwriting"
+]
+},
+"16e1f3486ee5483061d00521c43c49f49b36274b": {
+"id": "16e1f3486ee5483061d00521c43c49f49b36274b",
+"title": "FedEmo: A Federated Learning Framework for Privacy-Preserving Emotion Detection From Handwriting on Consumer IoMT Devices",
+"year": 2025,
+"venue": "IEEE transactions on consumer electronics",
+"ids": {
+"DBLP": "journals/tce/KhanXJA25",
+"DOI": "10.1109/TCE.2025.3599558",
+"CorpusId": 280748701
+},
+"cited_by": 6,
+"url": "https://www.semanticscholar.org/paper/16e1f3486ee5483061d00521c43c49f49b36274b",
+"abstract": "Emotion detection from handwriting and drawing presents a promising yet underexplored avenue for scalable mental health monitoring. This is particularly relevant within consumer-centric Internet of Medical Things (IoMT) ecosystems, where privacy and cross-institutional data sharing remain critical challenges. This paper proposes FedEmo, a privacy-preserving federated learning framework that leverages an attention-based transformer model to analyze handwriting and drawing samples on edge devices, while adhering to Health Insurance Portability and Accountability Act (HIPAA) and General Data Prot",
+"queries": [
+"telugu handwriting"
+]
+},
+"78e85a10e5a8634764973ccac312326a1191f03a": {
+"id": "78e85a10e5a8634764973ccac312326a1191f03a",
+"title": "Qalam: A Multimodal LLM for Arabic Optical Character and Handwriting Recognition",
+"year": 2024,
+"venue": "ARABICNLP",
+"ids": {
+"ArXiv": "2407.13559",
+"DBLP": "conf/wanlp/BhatiaNAA24",
+"ACL": "2024.arabicnlp-1.19",
+"DOI": "10.48550/arXiv.2407.13559",
+"CorpusId": 271270485
+},
+"cited_by": 29,
+"url": "https://www.semanticscholar.org/paper/78e85a10e5a8634764973ccac312326a1191f03a",
+"abstract": "Arabic Optical Character Recognition (OCR) and Handwriting Recognition (HWR) pose unique challenges due to the cursive and context-sensitive nature of the Arabic script. This study introduces ***Qalam***, a novel foundation model designed for Arabic OCR and HWR, built on a SwinV2 encoder and RoBERTa decoder architecture. Our model significantly outperforms existing methods, achieving a Word Error Rate (WER) of just 0.80% in HWR tasks and 1.18% in OCR tasks. We train ***Qalam*** on a diverse dataset, including over 4.5 million images from Arabic manuscripts and a synthetic dataset comprising 60",
+"queries": [
+"telugu handwriting"
+]
+},
+"6abe0f190c3b878b4da8ee3a6ba8a1359126f39c": {
+"id": "6abe0f190c3b878b4da8ee3a6ba8a1359126f39c",
+"title": "Parkinson’s Disease Detection From Online Handwriting Based on Beta-Elliptical Approach and Fuzzy Perceptual Detector",
+"year": 2024,
+"venue": "IEEE Access",
+"ids": {
+"DBLP": "journals/access/AllebawiDNFSHDMNBA24",
+"DOI": "10.1109/ACCESS.2024.3387342",
+"CorpusId": 269076564
+},
+"cited_by": 33,
+"url": "https://www.semanticscholar.org/paper/6abe0f190c3b878b4da8ee3a6ba8a1359126f39c",
+"abstract": "The increasing age of our society is connected to a rising number of people suffering from disorders. One such disorder is Parkinson’s disease (PD). Predictions indicate that the number of individuals affected by PD will more, than double in the future. Neurologists and data scientists consider handwriting as one of the motor symptoms of PD and recognize it as a valuable resource for detecting this disorder. Within this framework, we introduce an innovative system for Parkinson’s disease detection, which encompasses several key stages. The process commences with data augmentation and preproces",
+"queries": [
+"telugu handwriting"
+]
+},
+"49c0741c08ca08b0fa8afd3c74c82267699ea113": {
+"id": "49c0741c08ca08b0fa8afd3c74c82267699ea113",
+"title": "Findings of the Shared Task on Hate and Offensive Language Detection in Telugu Codemixed Text (HOLD-Telugu)@DravidianLangTech 2024",
+"year": 2024,
+"venue": "DRAVIDIANLANGTECH",
+"ids": {
+"ACL": "2024.dravidianlangtech-1.8",
+"DOI": "10.18653/v1/2024.dravidianlangtech-1.8",
+"CorpusId": 268417349
+},
+"cited_by": 17,
+"url": "https://www.semanticscholar.org/paper/49c0741c08ca08b0fa8afd3c74c82267699ea113",
+"abstract": "This paper examines the submissions of various participating teams to the task on Hate and Offensive Language Detection in Telugu Codemixed Text (HOLD-Telugu) organized as part of DravidianLangTech 2024. In order to identify the contents containing harmful information in Telugu codemixed social media text, the shared task pushes researchers and academicians to build models. The dataset for the task was created by gathering YouTube comments and annotated manually. A total of 23 teams participated and submitted their results to the shared task. The rank list was created by assessing the submitte",
+"queries": [
+"telugu handwriting"
+]
+},
+"eac63660d41d6398870a67d14f5a4bff5e1aa917": {
+"id": "eac63660d41d6398870a67d14f5a4bff5e1aa917",
+"title": "Enhancing Alzheimer’s detection: VAE-augmented handwriting analysis",
+"year": 2025,
+"venue": "CCF Transactions on Pervasive Computing and Interaction",
+"ids": {
+"DBLP": "journals/ccftpci/AhmedHYJ25",
+"DOI": "10.1007/s42486-024-00170-z",
+"CorpusId": 276963991
+},
+"cited_by": 5,
+"url": "https://www.semanticscholar.org/paper/eac63660d41d6398870a67d14f5a4bff5e1aa917",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"f43281664457ec9b538a8112d5c76e5d66cbf9d3": {
+"id": "f43281664457ec9b538a8112d5c76e5d66cbf9d3",
+"title": "Enhancing early Parkinson’s disease diagnosis through handwriting analysis",
+"year": 2025,
+"venue": "Informatyka Automatyka Pomiary w Gospodarce i Ochronie Środowiska",
+"ids": {
+"DOI": "10.35784/iapgos.7002",
+"CorpusId": 281919920
+},
+"cited_by": 2,
+"url": "https://www.semanticscholar.org/paper/f43281664457ec9b538a8112d5c76e5d66cbf9d3",
+"abstract": "Parkinson's disease (PD) is a progressive neurological disorder that affects millions worldwide, leading to motor dysfunction and significant reductions in quality of life. Early diagnosis is pivotal for initiating timely treatment and improving long-term patient outcomes, yet existing diagnostic methods, which often rely on clinical evaluations and imaging, are prone to delays and varying accuracy. This study presents an innovative, non-invasive approach to early PD detection through the analysis of handwriting patterns, offering a potential alternative to traditional diagnostic techniques. L",
+"queries": [
+"telugu handwriting"
+]
+},
+"f7c61909454c44a470c7df94713d23d6e9df8748": {
+"id": "f7c61909454c44a470c7df94713d23d6e9df8748",
+"title": "Disentangled Representation Learning for Chinese Handwriting Recognition",
+"year": 2025,
+"venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+"ids": {
+"DBLP": "conf/icassp/ZhaoPYWT25",
+"DOI": "10.1109/ICASSP49660.2025.10888964",
+"CorpusId": 276965363
+},
+"cited_by": 2,
+"url": "https://www.semanticscholar.org/paper/f7c61909454c44a470c7df94713d23d6e9df8748",
+"abstract": "Deep learning-based sequence modeling methods have improved the performance in Chinese handwriting recognition tasks. However, the implicit representations learned in current deep neural network models usually lack explainability and generalization ability for practical handwriting samples with diverse styles. This paper proposes a disentangled representation learning method for Chinese handwriting recognition by using a latent Gaussian process, which models the features in latent space as Gaussian distributions conditioned on the content and style of handwriting samples. A deep learning model",
+"queries": [
+"telugu handwriting"
+]
+},
+"a559e45e831295c20c97e00e9f5fca5265a2a417": {
+"id": "a559e45e831295c20c97e00e9f5fca5265a2a417",
+"title": "A survey on the online Arabic handwriting recognition: challenges, datasets, and future directions",
+"year": 2025,
+"venue": "International Conference on Machine Vision",
+"ids": {
+"DOI": "10.1117/12.3055424",
+"CorpusId": 276642575
+},
+"cited_by": 4,
+"url": "https://www.semanticscholar.org/paper/a559e45e831295c20c97e00e9f5fca5265a2a417",
+"abstract": "The increasing demand for effective methods to recognize digital handwritten Arabic text has led to the creation of numerous online Arabic manuscript datasets to validate handwriting recognition systems. This tendency has been intensified, especially after the increasing use of devices dependent on digital pen writing, which requires continuous development to achieve an advanced stage of discrimination. This research aims to resolve the confusion problem in choosing a convenient open-source dataset that researchers can use to develop and examine handwriting recognition methods. This paper prov",
+"queries": [
+"telugu handwriting"
+]
+},
+"3c096a908046bbc4898929f46c0f3a308908abf9": {
+"id": "3c096a908046bbc4898929f46c0f3a308908abf9",
+"title": "Unravelling handwriting images: deep neural models for dyslexia, dysgraphia, and other learning disabilities detections and classifications: a literature review",
+"year": 2025,
+"venue": "PeerJ Computer Science",
+"ids": {
+"DBLP": "journals/peerj-cs/AbadlehASS25",
+"DOI": "10.7717/peerj-cs.3296",
+"CorpusId": 282713904
+},
+"cited_by": 4,
+"url": "https://www.semanticscholar.org/paper/3c096a908046bbc4898929f46c0f3a308908abf9",
+"abstract": "\n \n As a crucial cognitive and motor function, handwriting can reveal dyslexia, dysgraphia, and other neurodevelopmental conditions. With the emergence of AI, deep learning (DL) models can analyze handwriting patterns for early identification and categorization of these conditions with high level of accuracy.\n \n \n \n This study presents a literature review by examining DL models in classifying learning disabilities using handwriting data. It identifies models’ shortcomings and suggests future research directions, improving model accuracy, fairness, and usability.\n \n \n \n By employing the standar",
+"queries": [
+"telugu handwriting"
+]
+},
+"fa9891eeb36c1075161bd72c47c9c26772f1d772": {
+"id": "fa9891eeb36c1075161bd72c47c9c26772f1d772",
+"title": "Forensic handwriting analysis: a hybrid classification framework for writer identification in Devanagari script",
+"year": 2025,
+"venue": "Multimedia tools and applications",
+"ids": {
+"DBLP": "journals/mta/SethiKJ25",
+"DOI": "10.1007/s11042-024-20574-4",
+"CorpusId": 275309264
+},
+"cited_by": 4,
+"url": "https://www.semanticscholar.org/paper/fa9891eeb36c1075161bd72c47c9c26772f1d772",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"83b962512403a8d82da1a1658dffef56977e345c": {
+"id": "83b962512403a8d82da1a1658dffef56977e345c",
+"title": "Lidoma@DravidianLangTech 2024: Identifying Hate Speech in Telugu Code-Mixed: A BERT Multilingual",
+"year": 2024,
+"venue": "DRAVIDIANLANGTECH",
+"ids": {
+"ACL": "2024.dravidianlangtech-1.16",
+"DOI": "10.18653/v1/2024.dravidianlangtech-1.16",
+"CorpusId": 268417375
+},
+"cited_by": 13,
+"url": "https://www.semanticscholar.org/paper/83b962512403a8d82da1a1658dffef56977e345c",
+"abstract": "Over the past few years, research on hate speech and offensive content identification on social media has been ongoing. Since most people in the world are not native English speakers, unapproved messages are typically sent in code-mixed language. We accomplished collaborative work to identify the language of code-mixed text on social media in order to address the difficulties associated with it in the Telugu language scenario. Specifically, we participated in the shared task on the provided dataset by the Dravidian- LangTech Organizer for the purpose of identifying hate and non-hate content. T",
+"queries": [
+"telugu handwriting"
+]
+},
+"23dabcdfee8ec5684c8fa43f386b4842fa821c21": {
+"id": "23dabcdfee8ec5684c8fa43f386b4842fa821c21",
+"title": "Review of the Performance of CNN Models on Handwriting Recognition",
+"year": 2025,
+"venue": "Artificial Intelligence and Applications",
+"ids": {
+"DOI": "10.47852/bonviewaia52023297",
+"CorpusId": 282681560
+},
+"cited_by": 1,
+"url": "https://www.semanticscholar.org/paper/23dabcdfee8ec5684c8fa43f386b4842fa821c21",
+"abstract": "Handwritten text recognition continues to be a dynamic area of research, with practical uses such as processing bank checks, digitizing historical manuscripts, enabling handwriting-based user interfaces, and other OCR-related applications. Despite its potential, the task remains difficult because of a wide variety of handwriting styles, stroke patterns, and visual structures found across different writing systems. This research provides a comprehensive comparative study of deep convolutional neural network (CNN) architectures for handwritten character and word recognition of world popular scri",
+"queries": [
+"telugu handwriting"
+]
+},
+"51b241d95711436cb71939aa74c7873341b9b980": {
+"id": "51b241d95711436cb71939aa74c7873341b9b980",
+"title": "Emotion Recognition From Speech Using Telugu Language and Deep Learning Models",
+"year": 2024,
+"venue": "2024 1st International Conference on Communications and Computer Science (InCCCS)",
+"ids": {
+"DOI": "10.1109/InCCCS60947.2024.10593514",
+"CorpusId": 271406799
+},
+"cited_by": 10,
+"url": "https://www.semanticscholar.org/paper/51b241d95711436cb71939aa74c7873341b9b980",
+"abstract": "This research involves the use of deep learning techniques to detect emotions, in Telugu speech signals, a research domain that has received little attention. Amrita speech emotion dataset-1 (ASED-1) consisting of 550 signals representing five categories. Surprise, anger, happiness, neutrality, and sadness. We explore how well various deep learning models can recognize emotions from speech. Our approach involves training models such as Convolutional Neural Networks (CNNs) Long Short-Term Memory (LSTM) networks and Multi-Layer Perceptron (MLPs) on a portion of the data and evaluating their perf",
+"queries": [
+"telugu handwriting"
+]
+},
+"0eefe67f8118297dae11b937893ed1db093622f4": {
+"id": "0eefe67f8118297dae11b937893ed1db093622f4",
+"title": "IBM_UB_1: A Dual Mode Unconstrained English Handwriting Dataset",
+"year": 2013,
+"venue": "IEEE International Conference on Document Analysis and Recognition",
+"ids": {
+"DBLP": "conf/icdar/ShivramRSG13",
+"MAG": "2025563211",
+"DOI": "10.1109/ICDAR.2013.12",
+"CorpusId": 1917595
+},
+"cited_by": 33,
+"url": "https://www.semanticscholar.org/paper/0eefe67f8118297dae11b937893ed1db093622f4",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"651dd88b9be5b04785b8fc9c6f47998ecdcfb9b0": {
+"id": "651dd88b9be5b04785b8fc9c6f47998ecdcfb9b0",
+"title": "Muharaf: Manuscripts of Handwritten Arabic Dataset for Cursive Text Recognition",
+"year": 2024,
+"venue": "Neural Information Processing Systems",
+"ids": {
+"DBLP": "conf/nips/SaeedCMMHYEWK24",
+"ArXiv": "2406.09630",
+"DOI": "10.48550/arXiv.2406.09630",
+"CorpusId": 270521496
+},
+"cited_by": 32,
+"url": "https://www.semanticscholar.org/paper/651dd88b9be5b04785b8fc9c6f47998ecdcfb9b0",
+"abstract": "We present the Manuscripts of Handwritten Arabic~(Muharaf) dataset, which is a machine learning dataset consisting of more than 1,600 historic handwritten page images transcribed by experts in archival Arabic. Each document image is accompanied by spatial polygonal coordinates of its text lines as well as basic page elements. This dataset was compiled to advance the state of the art in handwritten text recognition (HTR), not only for Arabic manuscripts but also for cursive text in general. The Muharaf dataset includes diverse handwriting styles and a wide range of document types, including per",
+"queries": [
+"telugu handwriting"
+]
+},
+"eb44dad378584966136e6233b273d34642004553": {
+"id": "eb44dad378584966136e6233b273d34642004553",
+"title": "Fake News Detection in Telugu Language using Transformers Models",
+"year": 2024,
+"venue": "2024 5th International Conference on Innovative Trends in Information Technology (ICITIIT)",
+"ids": {
+"DOI": "10.1109/ICITIIT61487.2024.10580521",
+"CorpusId": 271091149
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/eb44dad378584966136e6233b273d34642004553",
+"abstract": "In today’s world, lots of people rely on online news every day. But with more people using websites for information, there’s a growing problem of wrong info spreading. This can make it hard to trust news, especially on social media. Detecting fake news online has become really important because it can cause problems for individuals and groups. While there’s been a lot of work done on detecting fake news in popular languages, not much attention has been given to languages with fewer resources. We created a new dataset to address this issue in the detection of fake news in the Telugu language. W",
+"queries": [
+"telugu handwriting"
+]
+},
+"790e523af35399ded3ed25b1ef44ae9262af87a9": {
+"id": "790e523af35399ded3ed25b1ef44ae9262af87a9",
+"title": "Sentiment Analysis of Telugu News Articles Decoding Textual Nuances",
+"year": 2024,
+"venue": "2024 Second International Conference on Emerging Trends in Information Technology and Engineering (ICETITE)",
+"ids": {
+"DOI": "10.1109/ic-ETITE58242.2024.10493230",
+"CorpusId": 269241174
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/790e523af35399ded3ed25b1ef44ae9262af87a9",
+"abstract": "In the field of Natural Language Processing, analyzing sentiment in Telugu presents distinctive challenges owing to the limited availability of annotated datasets. This paper presents a sophisticated method utilizing BERT (Bidirectional Encoder Representations from Transformers) for Telugu sentiment analysis, complemented by Part-of-Speech (POS) and Named Entity Recognition (NER) algorithms. The proposed system follows a multi-step process, leveraging BERT's bidirectional context understanding during pretraining, and subsequently fine-tuning the model with a focus on sentiment analysis. Additi",
+"queries": [
+"telugu handwriting"
+]
+},
+"1b0cbdad629076f65fb00518e53463e7714ea4ba": {
+"id": "1b0cbdad629076f65fb00518e53463e7714ea4ba",
+"title": "Handwritten Telugu Character Recognition Using Machine Learning",
+"year": 2024,
+"venue": "2024 International Conference on Distributed Computing and Optimization Techniques (ICDCOT)",
+"ids": {
+"DOI": "10.1109/ICDCOT61034.2024.10515646",
+"CorpusId": 269629903
+},
+"cited_by": 2,
+"url": "https://www.semanticscholar.org/paper/1b0cbdad629076f65fb00518e53463e7714ea4ba",
+"abstract": "The Telugu language is the most prominent representative within the Dravidian language family, predominantly spoken in the southeastern regions of India. Handwritten character recognition in Telugu has significant applications across diverse fields such as healthcare, administration, education, and paleography. Despite its importance, the Telugu script differs significantly from English, presenting distinct challenges in recognizing characters due to its complexity and diverse character shapes. This study explores the application of machine learning, particularly delving into deep learning tec",
+"queries": [
+"telugu handwriting"
+]
+},
+"28c5ed7191c35677e59f038eff1b8c4e1062c08b": {
+"id": "28c5ed7191c35677e59f038eff1b8c4e1062c08b",
+"title": "UHTelPCC: A Dataset for Telugu Printed Character Recognition",
+"year": 2018,
+"venue": "International Conference on Recent Trends in Image Processing and Pattern Recognition",
+"ids": {
+"MAG": "2957585772",
+"DBLP": "conf/rtip2r/KummariB18",
+"DOI": "10.1007/978-981-13-9187-3_3",
+"CorpusId": 199011491
+},
+"cited_by": 7,
+"url": "https://www.semanticscholar.org/paper/28c5ed7191c35677e59f038eff1b8c4e1062c08b",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"ade7aae7e79240eb365908c860106a2634772287": {
+"id": "ade7aae7e79240eb365908c860106a2634772287",
+"title": "Sarcasm Detection in Telugu Language Text Using Distinct Machine Learning Classification Algorithms",
+"year": 2024,
+"venue": "International Journal of Computer Applications",
+"ids": {
+"DOI": "10.5120/ijca2024924040",
+"CorpusId": 273079714
+},
+"cited_by": 1,
+"url": "https://www.semanticscholar.org/paper/ade7aae7e79240eb365908c860106a2634772287",
+"abstract": "Sarcasm detection is a growing field in Natural Language Processing (NLP).Sarcasm is identified using positive or more increased positive words, often with a negative connotation, to insult or mock others.In sentiment analysis, detecting sarcasm in the text has become critical.They reviewed numerous relevant research articles, but due to the telugu language's limited resources, detecting sarcasm in telugu language texts remains challenging.As a result, the sentiment detection model struggles to accurately identify the exact sentiment of a sarcastic statement, necessitating the development of a",
+"queries": [
+"telugu handwriting"
+]
+},
+"369245a96966ee82efd4afa6742a58a092d74a91": {
+"id": "369245a96966ee82efd4afa6742a58a092d74a91",
+"title": "Early Alzheimer's disease diagnosis via handwriting with self-attention mechanisms",
+"year": 2024,
+"venue": "Journal of Alzheimer's Disease",
+"ids": {
+"DOI": "10.1177/13872877241283920",
+"CorpusId": 273819448,
+"PubMed": "39497308"
+},
+"cited_by": 13,
+"url": "https://www.semanticscholar.org/paper/369245a96966ee82efd4afa6742a58a092d74a91",
+"abstract": "Background The neurodegenerative diseases like Alzheimer's disease (AD) can result in progressive decline in both cognitive functions and motor skills, which have critical need for accurate early diagnosis. However, current diagnosis approaches primarily rely on timely clinical magnetic resonance imaging (MRI) scans, which impede widely application for potential patients. Leveraging handwriting as a diagnostic tool offers significant potential for identifying AD in its early stages. Objective This study aims to develop an efficient, rapid, and accurate method for early diagnosis of AD by utili",
+"queries": [
+"telugu handwriting"
+]
+},
+"45a3c125cf83773940559443c2869992f1e087a4": {
+"id": "45a3c125cf83773940559443c2869992f1e087a4",
+"title": "QUWI: An Arabic and English Handwriting Dataset for Offline Writer Identification",
+"year": 2012,
+"venue": "International Conference on Frontiers in Handwriting Recognition",
+"ids": {
+"DBLP": "conf/icfhr/Al-MaadeedAHA12",
+"MAG": "2047791693",
+"DOI": "10.1109/ICFHR.2012.256",
+"CorpusId": 10921770
+},
+"cited_by": 114,
+"url": "https://www.semanticscholar.org/paper/45a3c125cf83773940559443c2869992f1e087a4",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"2a432ca56134a5f89fb7a9396a452dd029fc536e": {
+"id": "2a432ca56134a5f89fb7a9396a452dd029fc536e",
+"title": "Multimodal Ensemble with Conditional Feature Fusion for Dysgraphia Diagnosis in Children from Handwriting Samples",
+"year": 2024,
+"venue": "Cognitive Computation",
+"ids": {
+"ArXiv": "2408.13754",
+"DBLP": "journals/cogcom/KunhothSAA26",
+"DOI": "10.1007/s12559-026-10546-1",
+"CorpusId": 271956956
+},
+"cited_by": 7,
+"url": "https://www.semanticscholar.org/paper/2a432ca56134a5f89fb7a9396a452dd029fc536e",
+"abstract": "Developmental dysgraphia is a neurological disorder that impairs children’s writing abilities. Its heterogeneous symptoms and frequent co-occurrence with other disorders make accurate diagnosis challenging. In recent years, researchers have explored machine learning approaches for dysgraphia diagnosis using either offline or online handwriting data. However, most studies analyze these modalities separately, limiting the ability to capture the relationship between them. To address this gap, we propose the first multimodal machine learning approach that integrates both online and offline handwri",
+"queries": [
+"telugu handwriting"
+]
+},
+"0bdf124156678ca37a24a3bb9b6aa36a0aa418ea": {
+"id": "0bdf124156678ca37a24a3bb9b6aa36a0aa418ea",
+"title": "Mixture-of-experts for handwriting trajectory reconstruction from IMU sensors",
+"year": 2024,
+"venue": "Pattern Recognition",
+"ids": {
+"DBLP": "journals/pr/ImbertAST25",
+"ArXiv": "2607.26708",
+"DOI": "10.1016/j.patcog.2024.111231",
+"CorpusId": 274555762
+},
+"cited_by": 10,
+"url": "https://www.semanticscholar.org/paper/0bdf124156678ca37a24a3bb9b6aa36a0aa418ea",
+"abstract": "The use of digital pens for online handwriting trajectory reconstruction is a prevalent method for human-computer interaction. In this study, we focus on a digital pen equipped with sensors where we aim at reconstructing the online handwriting trajectory. This pen enables writing on any surface and preserving the digital trace of handwriting. This type of pen could be used as an aid to learning to write in classroom. In this paper, we propose a new approach learning to finely reconstruct the touching trajectories while precisely analyzing the hovering part in order to position the next touchin",
+"queries": [
+"telugu handwriting"
+]
+},
+"556de12ab48a3320ed9268f25765157a45a9311f": {
+"id": "556de12ab48a3320ed9268f25765157a45a9311f",
+"title": "Vision-Language Model Based Handwriting Verification",
+"year": 2024,
+"venue": "IET Conference Proceedings",
+"ids": {
+"DBLP": "journals/corr/abs-2407-21788",
+"ArXiv": "2407.21788",
+"DOI": "10.48550/arXiv.2407.21788",
+"CorpusId": 271570999
+},
+"cited_by": 4,
+"url": "https://www.semanticscholar.org/paper/556de12ab48a3320ed9268f25765157a45a9311f",
+"abstract": "Handwriting Verification is a critical in document forensics. Deep learning based approaches often face skepticism from forensic document examiners due to their lack of explainability and reliance on extensive training data and handcrafted features. This paper explores using Vision Language Models (VLMs), such as OpenAI's GPT-4o and Google's PaliGemma, to address these challenges. By leveraging their Visual Question Answering capabilities and 0-shot Chain-of-Thought (CoT) reasoning, our goal is to provide clear, human-understandable explanations for model decisions. Our experiments on the CEDA",
+"queries": [
+"telugu handwriting"
+]
+},
+"1bdad8679f6b953d02267168dee46ee5c47263eb": {
+"id": "1bdad8679f6b953d02267168dee46ee5c47263eb",
+"title": "Offline Mongolian Handwriting Recognition Based on Data Augmentation and Improved ECA-Net",
+"year": 2024,
+"venue": "Electronics",
+"ids": {
+"DOI": "10.3390/electronics13050835",
+"CorpusId": 267996819
+},
+"cited_by": 7,
+"url": "https://www.semanticscholar.org/paper/1bdad8679f6b953d02267168dee46ee5c47263eb",
+"abstract": "Writing is an important carrier of cultural inheritance, and the digitization of handwritten texts is an effective means to protect national culture. Compared to Chinese and English handwriting recognition, the research on Mongolian handwriting recognition started relatively late and achieved few results due to the characteristics of the script itself and the lack of corpus. First, according to the characteristics of Mongolian handwritten characters, the random erasing data augmentation algorithm was modified, and a dual data augmentation (DDA) algorithm was proposed by combining the improved ",
+"queries": [
+"telugu handwriting"
+]
+},
+"7524d51bd63bcb42bc37b977d3d5b7cb698611b4": {
+"id": "7524d51bd63bcb42bc37b977d3d5b7cb698611b4",
+"title": "A Comprehensive Approach to Arabic Handwriting Recognition: Deep Convolutional Networks and Bidirectional Recurrent Models for Arabic Scripts",
+"year": 2024,
+"venue": "International Journal of Telecommunications",
+"ids": {
+"DOI": "10.21608/ijt.2024.291347.1052",
+"CorpusId": 271417583
+},
+"cited_by": 6,
+"url": "https://www.semanticscholar.org/paper/7524d51bd63bcb42bc37b977d3d5b7cb698611b4",
+"abstract": ": Arabic handwriting recognition presents unique challenges due to the complexities of Arabic calligraphy and variations in writing styles. Proposing a novel approach to address these challenges by leveraging advanced deep learning techniques. This focus is on Convolutional Neural Networks (CNNs) and Bidirectional Long Short-Term Memory (Bi-LSTM) networks, which are tailored specifically for recognizing handwritten Arabic text. Utilizing the KHATT dataset for comprehensive training and evaluation, implementing rigorous pre-processing steps to enhance data quality. Central to this methodology i",
+"queries": [
+"telugu handwriting"
+]
+},
+"a6cc34711b41ca7f70cc115a5494f90392ba2c98": {
+"id": "a6cc34711b41ca7f70cc115a5494f90392ba2c98",
+"title": "Transfer Learning from Vision Transformer to Parkinson's Disease Offline Handwriting Detection",
+"year": 2024,
+"venue": "International Conference on Behavioral, Economic, and Socio-Cultural Computing",
+"ids": {
+"DBLP": "conf/besc/LiangZLLLSM24",
+"DOI": "10.1109/BESC64747.2024.10780587",
+"CorpusId": 274709162
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/a6cc34711b41ca7f70cc115a5494f90392ba2c98",
+"abstract": "Handwriting has emerged as a crucial method for detecting Parkinson's disease (PD). The use of offline handwriting images eliminates the need for special equipment, making it more adaptable for PD detection. This paper presents a Transfer Learning from Vision Transformer (TLViT) approach for offline handwriting PD detection. Transfer learning addresses the issue of limited sample size in Parkinson's offline handwriting images. Additionally, the multi-head attention module in Vision Transformer allows the network to focus more accurately on changes in handwriting within offline images. To enhan",
+"queries": [
+"telugu handwriting"
+]
+},
+"4e35d6e4972d17eb4f91c607e5b3bb3d7eb5fe85": {
+"id": "4e35d6e4972d17eb4f91c607e5b3bb3d7eb5fe85",
+"title": "Analyzing Handwriting to Infer Personality Traits: A Deep Learning Framework",
+"year": 2024,
+"venue": "Internet, Multimedia Systems and Applications",
+"ids": {
+"DOI": "10.1109/IMSA61967.2024.10652866",
+"CorpusId": 272431843
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/4e35d6e4972d17eb4f91c607e5b3bb3d7eb5fe85",
+"abstract": "Personality prediction through handwriting analysis represents an exciting intersection of graphology and advanced machine learning technologies, aiming to derive insights into individual personality traits from handwritten samples. This research employs sophisticated deep learning models, including Convolutional Neural Networks (CNNs), VGG16, DenseNet201, ResNet, and InceptionV3, utilizing the IAM Handwriting Database and a proprietary dataset titled “Personality Prediction Using Handwriting Images.” These resources provide a diverse basis for our models to extract and learn from the unique b",
+"queries": [
+"telugu handwriting"
+]
+},
+"5fd35d634e3c6eb3b7fa8e4d11a00add42ce82f8": {
+"id": "5fd35d634e3c6eb3b7fa8e4d11a00add42ce82f8",
+"title": "Automatic Diagnosis of Parkinson’s Disease using Handwriting Patterns",
+"year": 2024,
+"venue": "Journal of Electrical Systems",
+"ids": {
+"DOI": "10.52783/jes.3712",
+"CorpusId": 269915908
+},
+"cited_by": 4,
+"url": "https://www.semanticscholar.org/paper/5fd35d634e3c6eb3b7fa8e4d11a00add42ce82f8",
+"abstract": "Parkinson's Disease (PD) is a neuro-degenerative syndrome characterized by motor and non-motor signs, and early detection is crucial for effective intervention. This paper presents a novel approach for PD detection using computer vision and machine learning techniques applied to Spiral-Wave handwriting analysis. The dataset comprises frontal handwritten images obtained through the Spiral-Wave test, capturing subtle motor control differences. Our methodology involves resizing images to a standardized 200x200 pixels, converting them to grayscale, and applying thresholding for improved feature ab",
+"queries": [
+"telugu handwriting"
+]
+},
+"63173d0d92183a7e8a8f9d314b66549883755a1d": {
+"id": "63173d0d92183a7e8a8f9d314b66549883755a1d",
+"title": "Interpretable Features for the Assessment of Neurodegenerative Diseases Through Handwriting Analysis",
+"year": 2024,
+"venue": "IEEE journal of biomedical and health informatics",
+"ids": {
+"DBLP": "journals/titb/ThebaudFCCMMBD26",
+"ArXiv": "2409.08303",
+"DOI": "10.1109/JBHI.2025.3625816",
+"CorpusId": 272654115,
+"PubMed": "41150230"
+},
+"cited_by": 3,
+"url": "https://www.semanticscholar.org/paper/63173d0d92183a7e8a8f9d314b66549883755a1d",
+"abstract": "Motor dysfunction is a common sign of neurodegenerative diseases (NDs) such as Parkinson’s disease (PD) and Alzheimer’s disease (AD), but may be difficult to detect, especially in the early stages. In this work, we examine the behavior of a wide array of interpretable features extracted from the handwriting signals of 113 subjects performing multiple tasks on a digital tablet, as part of the Neurological Signals dataset. The aim is to measure their effectiveness in characterizing NDs, including AD and PD. To this end, task-agnostic and task-specific features are extracted from 14 distinct task",
+"queries": [
+"telugu handwriting"
+]
+},
+"465ee7e4a1aeeae92d50c5e3ca0a626c73236503": {
+"id": "465ee7e4a1aeeae92d50c5e3ca0a626c73236503",
+"title": "New Approach Based on Substantial Derivative and LSTM for Online Arabic Handwriting Script Recognition",
+"year": 2024,
+"venue": "International Conference on Agents and Artificial Intelligence",
+"ids": {
+"DBLP": "conf/icaart/AlothmanLM24",
+"DOI": "10.5220/0012385000003636",
+"CorpusId": 268200384
+},
+"cited_by": 4,
+"url": "https://www.semanticscholar.org/paper/465ee7e4a1aeeae92d50c5e3ca0a626c73236503",
+"abstract": ": As some tasks easily performed by man seem to be hard to be accomplished by the machine, the Artificial Intelligence field examines more and more the reproduction of thinking methods and human intuition by studying some mental faculties and substituting them by calculating approaches. Among the major fields of such interest, we can focus on recognizing handwritten characters. However, most handwritten characters are written in Latin, which makes the recognition of Arabic characters handwriting a delicate process compared to other languages, due to the specificity of Arabic words. In this pap",
+"queries": [
+"telugu handwriting"
+]
+},
+"850e622076c48bb48e7587c8a22ef1c7a7ac610d": {
+"id": "850e622076c48bb48e7587c8a22ef1c7a7ac610d",
+"title": "Overview of Shared-task on Abusive Comment Detection in Tamil and Telugu",
+"year": 2023,
+"venue": "DRAVIDIANLANGTECH",
+"ids": {
+"ACL": "2023.dravidianlangtech-1.11",
+"CorpusId": 265068273
+},
+"cited_by": 31,
+"url": "https://www.semanticscholar.org/paper/850e622076c48bb48e7587c8a22ef1c7a7ac610d",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"42699da076fd42df272ec71d3cbf192d1c4e5378": {
+"id": "42699da076fd42df272ec71d3cbf192d1c4e5378",
+"title": "SCUT-COUCH2008: A Comprehensive Online Unconstrained Chinese Handwriting Dataset",
+"year": 2008,
+"venue": "",
+"ids": {
+"MAG": "2143802427",
+"CorpusId": 55838585
+},
+"cited_by": 25,
+"url": "https://www.semanticscholar.org/paper/42699da076fd42df272ec71d3cbf192d1c4e5378",
+"abstract": "",
+"queries": [
+"telugu handwriting"
+]
+},
+"8160cbc28be93cd244e971b5a942e1e5d5f2b5fd": {
+"id": "8160cbc28be93cd244e971b5a942e1e5d5f2b5fd",
+"title": "Parkinson's Disease Detection through Offline Handwriting Analysis: A CNN-Based Approach",
+"year": 2026,
+"venue": "Int. J. Online Biomed. Eng.",
+"ids": {
+"DBLP": "journals/ijoe/BensefiaDHC26",
+"DOI": "10.3991/ijoe.v22i01.58513",
+"CorpusId": 284985414
+},
+"cited_by": 4,
+"url": "https://www.semanticscholar.org/paper/8160cbc28be93cd244e971b5a942e1e5d5f2b5fd",
+"abstract": "This study investigates the use of offline handwriting analysis for the automated diagnosis of Parkinson’s disease (PD) using deep learning techniques. A convolutional neural network (CNN) was designed to extract discriminative spatial features from handwritten images and classify subjects as either PD patients or healthy controls. The model was evaluated on four publicly available datasets—HandPD, NewHandPD, PaHaW, and UCI—representing a diverse range of handwriting patterns and acquisition conditions. The proposed CNN achieved 100% accuracy on the smaller UCI dataset and 94.74% accuracy on t",
+"queries": [
+"telugu handwriting"
+]
+},
+"64ea709311568c7c4aeb1c33c4f02ad024681509": {
+"id": "64ea709311568c7c4aeb1c33c4f02ad024681509",
+"title": "An Explainable Tiny-Fast Kolmogorov–Arnold Network for Gesture-Based Air Handwriting Recognition of Tifinagh Letters in Resource-Constrained IoT Device",
+"year": 2025,
+"venue": "IEEE Internet of Things Journal",
+"ids": {
+"DBLP": "journals/iotj/LamaakalYMMON25",
+"DOI": "10.1109/JIOT.2025.3625087",
+"CorpusId": 282360573
+},
+"cited_by": 15,
+"url": "https://www.semanticscholar.org/paper/64ea709311568c7c4aeb1c33c4f02ad024681509",
+"abstract": "Air handwriting recognition has emerged as a promising solution for touchless human–computer interaction (HCI), particularly in the context of Internet of Things (IoT) systems and wearable devices, where traditional input modalities are often infeasible. However, despite extensive research on Latin, Arabic, and Chinese scripts, no prior work has explored real-time air-written recognition of Tifinagh characters, a historically and culturally significant script used by Amazigh communities in North Africa. To address this gap, we present the first end-to-end air handwriting recognition framework ",
+"queries": [
+"telugu handwriting"
+]
+}
+}
+}

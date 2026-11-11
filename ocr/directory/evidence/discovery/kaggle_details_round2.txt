@@ -1,0 +1,27 @@
+== chintuimmandi/telugu-palm-leafs | telugu_palm_leafs | lic ['unknown'] | kw []
+   desc: 
+   files 72 [('01_gt.png', 1), ('01_in.png', 1), ('02_gt.png', 1), ('02_in.png', 1), ('03_gt.png', 1), ('03_in.png', 1), ('06_gt.png', 1), ('06_in.png', 1), ('07_gt.png', 1), ('07_in.png', 1), ('08_gt.png', 1), ('08_in.png', 1)] []
+== milankumar577/indian-scripts-v2 | Indian Scripts V2 | lic ['MIT'] | kw []
+   desc: 
+   files 400 [('balanced_dataset_V1/test', 400)] []
+== mobassir/multilingual-document-images | Multilingual Document Images | lic ['unknown'] | kw []
+   desc: This dataset can be used for various purposes :  1. train document language classifier 2. crop words using text detection models (and use those cropped word images for multilingual ocr task) 3. word image language classification for building multilingual ocr with single head based text recognition  note : multilingual words folder contains all the cropped multilingual words that i made using paddleocr
+   files 400 [('multilingual_images/multilingual_images', 397), ('baseline+weights/WordImage_LANG_Classifier_pytorch.ipynb', 1), ('baseline+weights/model.pth', 1), ('baseline+weights/outlet_convnext_base_384_in22ft1k.onnx', 1)] []
+== exceededdose/id-ocr-bbox-synthetic-dataset | Multilingual ID OCR —20K Synthetic Text Crops | lic ['unknown'] | kw ['computer vision', 'deep learning', 'image text recognition', 'multilingual', 'synthetic']
+   desc: # Multilingual ID Card & Passport OCR Synthetic Dataset  A benchmark-ready synthetic text-recognition dataset consisting of **20,000 normalized text crops** designed for training and evaluating high-accuracy Optical Character Recognition (OCR) models on European identity cards, residence permits, passports, and Machine-Readable Travel Documents (MRTD).  ---  ## Context & Motivation  Training robust text-recognition models (such as CRNN, SVTR, PaddleOCR, TrOCR, or PARSeq) for government identity 
+   files 400 [('Data/images', 400)] []
+== dataclusterlabs/multilingual-ocr-annotation-dataset | Multilingual OCR Annotation Dataset | lic ['Attribution 4.0 International (CC BY 4.0)'] | kw []
+   desc: # Multilingual OCR Annotation Dataset  **Publisher: DataCluster Labs**  ## 1. Overview  Optical Character Recognition (OCR) is a computer vision technology that enables machines to detect, extract, and interpret text from images and scanned documents. It plays an important role in document digitization, information extraction, automation, and multilingual AI applications.  The **Multilingual OCR Annotation Dataset** by **DataCluster Labs** is designed to support the development, training, and ev
+   files 80 [('Arabic_Billboard_001.jpg', 1), ('Arabic_Billboard_001.json', 1), ('Arabic_Billboard_021.jpg', 1), ('Arabic_Billboard_021.json', 1), ('Arabic_Billboard_038.jpg', 1), ('Arabic_Billboard_038.json', 1), ('Arabic_Billboard_053.jpg', 1), ('Arabic_Billboard_053.json', 1), ('Arabic_Document_001.jpg', 1), ('Arabic_Document_001.json', 1), ('Arabic_Document_003.json', 1), ('Arabic_Document_003.png', 1)] []
+== mayank7239/iitj-multilingual-ocr-dataset | IITJ Multilingual OCR Dataset | lic ['CC0-1.0'] | kw []
+   desc: 
+   files 400 [('assamese/0_0_407_278_532_274_534_319_400_317.jpeg', 1), ('assamese/0_1_538_279_650_271_648_312_541_314.jpeg', 1), ('assamese/100_0_681_188_717_201_710_219_673_202.jpeg', 1), ('assamese/100_10_187_263_265_252_266_281_189_291.jpeg', 1), ('assamese/100_11_341_242_341_243_342_269_310_276_309_250.jpeg', 1), ('assamese/100_12_340_247_393_243_393_262_344_269.jpeg', 1), ('assamese/100_13_198_294_222_289_226_304_199_309.jpeg', 1), ('assamese/100_14_579_226_621_227_627_243_580_248.jpeg', 1), ('assamese/100_15_223_289_300_276_304_303_232_315.jpeg', 1), ('assamese/100_16_298_270_373_268_377_283_305_296.jpeg', 1), ('assamese/100_17_378_264_429_260_429_281_378_287.jpeg', 1), ('assamese/100_18_287_305_440_282_450_360_303_373.jpeg', 1)] []
+== randomstuff786/data-sets | Data_Sets | lic ['MIT'] | kw ['computer vision', 'translation']
+   desc: Mutilingual ocr detection and translation purpose. system extracts text from scanned multilingual PDFs and translates it into English while preserving digits numbers, original English scripts, and structured metadata.
+   files 6 [('91160662_TD_549_Zzn4.pdf', 1), ('91219565_TD_754_CY3Q-1.pdf', 1), ('Gangmen Circular_Rotate(pdfgear.com).pdf', 1), ('Tender_287650_1-4 (1) (1).pdf', 1), ('bengali.pdf', 1), ('punjabi.pdf', 1)] []
+== akra1234/sth-dravidian-meme-classifiaction | sth-dravidian-meme-classifiaction | lic ['unknown'] | kw []
+   desc: 
+   files 400 [('STH_Darvidian_Datasets/test', 202), ('STH_Darvidian_Datasets/train', 198)] []
+== viralbarodia/gujarati-and-telugu-fonts | Gujarati and Telugu Fonts | lic ['MIT'] | kw []
+   desc: 
+   files 2 [('NotoSansGujarati-VariableFont_wdthwght.ttf', 1), ('NotoSansTelugu-VariableFont_wdthwght.ttf', 1)] ['NotoSansTelugu-VariableFont_wdthwght.ttf']

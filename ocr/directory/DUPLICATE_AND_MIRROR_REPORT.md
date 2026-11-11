@@ -3,9 +3,9 @@
 Many Telugu OCR datasets are uploaded more than once (Kaggle, Hugging Face, Google Drive) or are cut from a larger
 release. Counting them separately would inflate the numbers, so each copy points back to its source.
 
-- **55** distinct relationships between rows (each pair counted once).
-- **35** dataset rows are marked as not distinct (mirror, copy, subset, derivative, re-listing or umbrella).
-- Only rows marked `Y` in `Counts as distinct dataset` are counted in the totals (92).
+- **69** distinct relationships between rows (each pair counted once).
+- **38** dataset rows are marked as not distinct (mirror, copy, subset, derivative, re-listing or umbrella).
+- Only rows marked `Y` in `Counts as distinct dataset` are counted in the totals (104).
 
 ## How copies were detected
 
@@ -27,6 +27,16 @@ release. Counting them separately would inflate the numbers, so each copy points
 - **IndicSTR12 synthetic.tar.gz (TOCR-089, 62.7 GB) is suspected to be the same data as IIIT-Synthetic-IndicSTR (TOCR-088).** Not confirmed byte for byte.
 - **Divs0910 Chandamama OCR set (TOCR-058) is built from the Chandamama scans (TOCR-129)** using the DIVYANSH-TEJA-09 pipeline.
 - **The UoH DSpace record (catalogue TEL-OCR-011) and the IEEE DataPort Negi & Rao set (TOCR-022)** have the same authors and description and are treated as one dataset.
+
+Found in round 2:
+
+- **ORB-Indic (TOCR-172) and the IndicVisionBench OCR track (TOCR-130)** both come from Krutrim, both use Telugu Wikisource pages (TOCR-049) and both have exactly 89 Telugu pages. They are treated as the same pages (not confirmed image by image).
+- **Kaggle telugu_palm_leafs (TOCR-195)** has 36 image/ground-truth pairs, matching the 36-image binarisation set of the "Preserving Telugu Manuscripts" paper (TOCR-118). It is probably that dataset's release.
+- **Kaggle IITJ Multilingual OCR Dataset (TOCR-196)** holds per-language word crops with quadrilateral coordinates. It is suspected to be a copy of the IIT Jodhpur Bharat Scene Text crops (TOCR-082).
+- **The ScrabbleGAN pages (TOCR-183)** are generated from IIIT-INDIC-HW-WORDS (TOCR-002), and **CHIPS (TOCR-182)** draws on the same word images (how much of CHIPS is re-composed is not stated clearly in the paper).
+- **Roboflow iitbresearchwork/telugu-ocr (TOCR-191)** is suspected to be word-box annotations of PHDIndic_11 Telugu pages (TOCR-015), because the same workspace hosts a "Malayalam PhDIndic11" project.
+- **IIIT-H Word Recognition Synthetic (TOCR-186)** renders the same 1,000-word vocabulary as the real IIIT-H word set (TOCR-044).
+- **ULCA Project Anuvaad Telugu OCR corpus (TOCR-208)** comes from the same EkStep/Tarento group as the synthetic benchmark (TOCR-102). Overlap is possible but not confirmed.
 
 ## All relationships
 
@@ -84,15 +94,28 @@ release. Counting them separately would inflate the numbers, so each copy points
 | TOCR-095 | Telugu Document Image-Text Pairs (amancapy/telugu-scans) | Y | TOCR-096 | Re-listed by GTS.ai with a CC BY 4.0 claim (TOCR-096). |
 | TOCR-096 | GTS.ai "Telugu Document Image Dataset" (and Zenodo brochure... | N (re-listing) | TOCR-095 | Re-listing of TOCR-095; not independent data. |
 | TOCR-097 | NayanaOCR Corpus 2025 - Telugu | Y | TOCR-098 | Built from NayanaDocs-Indic-45k (gated, TOCR-098). |
-| TOCR-098 | Nayana gated OCR/VQA family (Telugu configs) | UNKNOWN (counted once as a family) | TOCR-097, TOCR-099 | Parents/variants of TOCR-097 and TOCR-099. |
+| TOCR-098 | Nayana gated OCR/VQA family (Telugu configs) | Y (gated family, counted once) | TOCR-097, TOCR-099 | Parents/variants of TOCR-097 and TOCR-099. |
 | TOCR-107 | Telugu character database (Konkimalla et al., ICIP 2018) | Y | TOCR-108 | Same abstract appears on IEEE DataPort a1kv-rj60 (TOCR-108) under a different author. |
 | TOCR-108 | "OCR Telugu Image Dataset" (IEEE DataPort a1kv-rj60) | N (suspected re-upload) | TOCR-107 | Suspected re-upload of TOCR-107 (identical abstract, different author); one search engine described it as handwritten shopping lists - contents NOT VERIFIED. |
 | TOCR-109 | IndicDLP - Telugu pages (document layout parsing) | Y | TOCR-060, TOCR-110 | Block OCR eval set (TOCR-060) and dlp-sample (TOCR-110) derived from it. |
 | TOCR-110 | onath/dlp-sample (IndicDLP sample, telugu config) | N (sample) | TOCR-109 | Sample of TOCR-109. |
+| TOCR-118 | Telugu palm-leaf binarisation dataset ("Preserving Telugu M... | Y | TOCR-195 | Kaggle telugu_palm_leafs (TOCR-195) has 36 image/ground-truth pairs and is suspected to be this dataset. |
 | TOCR-123 | Digital Library of India (DLI) - Telugu books | N (part of TOCR-122) | TOCR-122 | None identified |
 | TOCR-125 | Historic Telugu magazines on archive.org (Bharathi, Andhra ... | N (part of TOCR-122) | TOCR-122 | None identified |
 | TOCR-127 | Kaggle: Telugu Chandamama Books (harishml) | N (copy) | TOCR-129 | Subset copy of Chandamama archive (TOCR-129). |
 | TOCR-129 | Chandamama (Telugu edition) 1947-2012 scans | Y | TOCR-058, TOCR-127 | Source of TOCR-058 and TOCR-127. |
+| TOCR-130 | IndicVisionBench (OCR task) | Y | TOCR-049, TOCR-172 | Copies: AtharvImmverse/IndicVisionBench; lalit-03/IndicVisionBench (gated). OCR track Telugu pages likely the same 89 Wikisource pages as ORB-Indic (TOCR-172);... |
 | TOCR-134 | indic-citizen-information-board-pmgsy | Y | TOCR-084 | Sibling of TOCR-084. |
 | TOCR-140 | harsha-desaraju/telugu-ocr-text (+ -uncombined) - source vs... | Y | TOCR-094 | Text side of TOCR-094. |
 | TOCR-141 | eswardivi/indiccorp_telugu_line | N (derivative of TOCR-137) | TOCR-137 | None identified |
+| TOCR-172 | ORB-Indic (krutrim-ai-labs/ocr_rotation_bench) - Telugu pag... | N (suspected same pages as TOCR-130; derived... | TOCR-049, TOCR-130 | Derived from Telugu Wikisource (TOCR-049); suspected same 89 Telugu pages as IndicVisionBench OCR (TOCR-130). |
+| TOCR-182 | CHIPS - Corpus of Handwritten Indic Scripts (Telugu pages) | UNKNOWN (may be a re-composition of TOCR-002... | TOCR-002, TOCR-015 | Built from IIIT-INDIC-HW-WORDS word images (TOCR-002); PLATTER also uses PHDIndic_11 Telugu pages (TOCR-015). |
+| TOCR-183 | PLATTER ScrabbleGAN synthetic Telugu handwritten pages | UNKNOWN | TOCR-002 | Generated from TOCR-002. |
+| TOCR-186 | IIIT-H Word Recognition Synthetic Dataset (Telugu) | Y | TOCR-044 | Same 1,000-word vocabulary as TOCR-044. |
+| TOCR-188 | Handwritten Telugu character corpus (JASTT 2025, unreleased) | Y | TOCR-035 | Experiments in the paper use Kaggle 6-vowel set (TOCR-035), not this corpus. |
+| TOCR-190 | NayanaIR-CrossBench (multilingual visual document retrieval) | Y | TOCR-097 | Same group as Nayana sets (TOCR-097/098/099). |
+| TOCR-191 | Roboflow Universe: iitbresearchwork/telugu-ocr | UNKNOWN | TOCR-015 | Suspected word-box annotation of PHDIndic_11 Telugu pages (TOCR-015): same workspace has "Malayalam PhDIndic11" and PLATTER used PHDIndic_11 Telugu word boxes;... |
+| TOCR-194 | Roboflow Universe: centurion-university-n60kx/telugu-handwr... | UNKNOWN | TOCR-020 | Same workspace as TOCR-020; may share images. |
+| TOCR-195 | Kaggle: telugu_palm_leafs (chintuimmandi) - palm-leaf binar... | N (suspected copy of TOCR-118 data) | TOCR-118 | Same size and task as the "Preserving Telugu Manuscripts" binarisation set (TOCR-118, 36 images); suspected to be its data release (NOT VERIFIED). |
+| TOCR-196 | Kaggle: IITJ Multilingual OCR Dataset (mayank7239) | N (suspected copy of TOCR-082) | TOCR-082 | Suspected re-upload of Bharat Scene Text crops (TOCR-082, IIT Jodhpur). |
+| TOCR-208 | ULCA (Bhashini) OCR corpus - Telugu (Project Anuvaad) | Y | TOCR-102 | Same group as the EkStep synthetic benchmark (TOCR-102); overlap NOT VERIFIED. |

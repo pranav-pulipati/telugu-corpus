@@ -8,13 +8,14 @@ from collections import Counter
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from common import COLUMNS, CATEGORIES, STATUSES  # noqa: E402
-import entries_a, entries_b, entries_c  # noqa: E402
+import entries_a, entries_b, entries_c, entries_d  # noqa: E402
 
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
 OUT_CSV = os.path.join(ROOT, 'telugu_ocr_final.csv')
 OUT_STATS = os.path.join(HERE, '..', 'evidence', 'counts.json')
 
-R = entries_a.R + entries_b.R + entries_c.R
+R = entries_a.R + entries_b.R + entries_c.R + entries_d.R
+entries_d.apply(R)
 R.sort(key=lambda r: r['id'])
 
 # ---- integrity checks
@@ -57,6 +58,9 @@ stats = dict(
     by_category_distinct={c: sum(r['cat'] == c and distinct(r) for r in R) for c in CATEGORIES},
     relationships=sum(1 for r in R if r['parent'] != 'NONE' or re.search(r'TOCR-\d{3}', r['overlap'])),
     in_existing_catalogue=sum(r['catalogue'] != 'NONE' for r in R),
+    new_in_round2=sum(r['round'].startswith('Round 2') for r in R),
+    new_distinct_in_round2=sum(r['round'].startswith('Round 2') and distinct(r) and r['cat'] not in ('Related resource (not a dataset)', 'Rejected') for r in R),
+    changed_in_round2=sum(r['changed'] != 'NONE' and not r['round'].startswith('Round 2') for r in R),
 )
 os.makedirs(os.path.dirname(OUT_STATS), exist_ok=True)
 json.dump(stats, open(OUT_STATS, 'w'), indent=1)

@@ -1,0 +1,980 @@
+{
+"queried": "2026-11-11",
+"seeds": {
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)": {
+"openalex": "W3197061335",
+"title": "iiit-indic-hw-words: A Dataset for Indic Handwritten Text Recognition",
+"cited_by": 42,
+"kept": 12
+},
+"IIIT-HW-Telugu (ICFHR 2018)": {
+"openalex": "W2903727039",
+"title": "Towards Spotting and Recognition of Handwritten Words in Indic Scripts",
+"cited_by": 36,
+"kept": 12
+},
+"Mozhi / Towards Deployable OCR": {
+"openalex": "W4404971808",
+"title": "Towards Deployable OCR Models for Indic Languages",
+"cited_by": 11,
+"kept": 3
+},
+"IIIT-ILST benchmark": {
+"openalex": "W2785523706",
+"title": "Benchmarking Scene Text Recognition in Devanagari, Telugu and Malayalam",
+"cited_by": 59,
+"kept": 20
+},
+"IndicSTR12": {
+"openalex": "W4385820039",
+"title": "IndicSTR12: A Dataset for Indic Scene Text Recognition",
+"cited_by": 12,
+"kept": 5
+},
+"Konkimalla Telugu OCR database": {
+"openalex": "W2963804401",
+"title": "Optical Character Recognition (OCR) for Telugu: Database, Algorithm and Application",
+"cited_by": 26,
+"kept": 16
+},
+"UHTelPCC": {
+"openalex": "W2957585772",
+"title": "UHTelPCC: A Dataset for Telugu Printed Character Recognition",
+"cited_by": 10,
+"kept": 5
+},
+"PHDIndic_11": {
+"openalex": "W2573965845",
+"title": "PHDIndic_11: page-level handwritten document image dataset of 11 official Indic scripts for script identification",
+"cited_by": 95,
+"kept": 16
+},
+"Bharat Scene Text (BSTD)": {
+"openalex": "W4416913023",
+"title": "Bharat scene text: a novel comprehensive dataset and benchmark for indian language scene text understanding",
+"cited_by": 1,
+"kept": 0
+},
+"PLATTER / CHIPS": {
+"openalex": "W4407386415",
+"title": "PLATTER: A Page-Level Handwritten Text Recognition System for Indic Scripts",
+"cited_by": 7,
+"kept": 2
+},
+"IndicDLP": {
+"openalex": "W4414595796",
+"title": "IndicDLP: A Foundational Dataset for Multi-lingual and Multi-domain Document Layout Parsing",
+"cited_by": 4,
+"kept": 0
+},
+"Indiscapes": {
+"openalex": "W2995900964",
+"title": "Indiscapes: Instance Segmentation Networks for Layout Parsing of Historical Indic Manuscripts",
+"cited_by": 36,
+"kept": 2
+},
+"HP Labs / Lipi Toolkit Telugu": {
+"error": "seed not found"
+},
+"Synthetic data for Indic STR (Synthetic-IndicSTR)": {
+"openalex": "W3198566525",
+"title": "Transfer Learning for Scene Text Recognition in Indian Languages",
+"cited_by": 22,
+"kept": 9
+}
+},
+"hits": {
+"https://openalex.org/W4375947012": {
+"title": "Handwritten OCR for word in Indic Language using Deep Networks",
+"year": 2023,
+"doi": "https://doi.org/10.1109/spin57001.2023.10117106",
+"venue": "International Conference on Signal Processing and Integrated Networks (SPIN)",
+"telugu": true,
+"abstract": "A large number of Indian documents are handwritten and India is a diverse nation with many languages. These handwritten documents contain important historical and cultural information which needs to be preserved by converting to digital format. The major problem is everyone has unique handwriting with different styles of writing. To address this problem, we have trained Handwritten Optical Character Recognition (HOCR) in eight Indian languages i.e. Bangla, Gujarati, Gurumukhi, Hindi, Kannada, Odia, Telugu, and Urdu. The datasets IIIT-HW-Dev and IIIT-HW-Telugu refer to a Devanagari dataset and a Telugu dataset respectively. The IIITINDIC-HW-WORDS consists of 872K handwritten words written in ",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)"
+]
+},
+"https://openalex.org/W4376479381": {
+"title": "Automatic Annotation of Handwritten Document Images at Word Level",
+"year": 2022,
+"doi": "https://doi.org/10.1145/3571600.3571645",
+"venue": "Indian Conference on Computer Vision, Graphics and Image Processing",
+"telugu": false,
+"abstract": "Recent development in deep learning-based recognizers needs a large annotated corpus for creating the model. Manually annotating a large corpus is time-consuming, costly, and tedious. In this work, we propose a framework for automatic annotation at the word level for given handwritten data and corresponding text sequences (or corpora). The proposed framework consists of five modules (i) pre-processing, (ii) word detection, (iii) word recognition, (iv) alignment, and (v) manual correction and verification. The pre-processing module cleans the image and crops the text region from an image. Word detection and recognition modules localize and recognize words. It is necessary to align words in th",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)"
+]
+},
+"https://openalex.org/W4404939627": {
+"title": "AIO-HB: A Handwritten Text Image Dataset of Hindi and Bengali Indian Scripts for Handwritten Text Recognition",
+"year": 2024,
+"doi": "https://doi.org/10.1007/978-3-031-78495-8_20",
+"venue": "Lecture notes in computer science",
+"telugu": false,
+"abstract": "",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)",
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W4404939710": {
+"title": "Unconstrained Camera Captured Indic Offline Handwritten Dataset",
+"year": 2024,
+"doi": "https://doi.org/10.1007/978-3-031-78495-8_21",
+"venue": "Lecture notes in computer science",
+"telugu": false,
+"abstract": "",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)",
+"IIIT-HW-Telugu (ICFHR 2018)"
+]
+},
+"https://openalex.org/W7167677265": {
+"title": "Handwritten Hindi Text Recognition using ResNet50-BiLSTM",
+"year": 2026,
+"doi": "https://doi.org/10.1016/j.procs.2026.06.370",
+"venue": "Procedia Computer Science",
+"telugu": false,
+"abstract": "The extensive character set varied handwriting styles, and frequent use of ligatures and diacritics in Hindi script make Handwritten Text Recognition (HTR) a formidable problem. In this work, an end-to-end HTR architecture is suggested that is capable of handling handwritten words in Devanagari script. The architecture employs a convolutional encoder based on ResNet50 to extract rich visual features, followed by a BiLSTM network with the attention mechanism to decode relevant features as well as capture contextual dependencies effectively. Consequently, to generate the output sequence of Hindi characters, without the explicit use of character segmentation at input, we involve the CTC. To imp",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)"
+]
+},
+"https://openalex.org/W4377970538": {
+"title": "Automated Word Prediction In Telugu Language Using Statistical Approach",
+"year": 2023,
+"doi": "https://doi.org/10.1109/iccci56745.2023.10128384",
+"venue": "International Conference on Computer Communication and Informatics (ICCCI)",
+"telugu": true,
+"abstract": "Automated word prediction commonly called as language modeling is the task of predicting the next Word. Word completion and word prediction phenomenally benefit the disabled users who use physical keyboard or virtual keyboards in desktops and handheld systems. The objective of this paper is to predict the next word prediction and sequence of words prediction in Telugu language sentences with stochastic approach. The N-gram linguistic models such as uni-gram, bigram, tri-gram, maximum likely hood estimation, Laplace and add1 smoothing have used for automatic completion of a sentence with the prediction of appropriate word to save time, keystrokes and misspelling. We have used large data corpu",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)",
+"Synthetic data for Indic STR (Synthetic-IndicSTR)"
+]
+},
+"https://openalex.org/W4398225245": {
+"title": "Synthetic Data Generation for Document Text Recognition",
+"year": 2024,
+"doi": "https://doi.org/10.1109/ic-cgu58078.2024.10530719",
+"venue": "International Conference on Cognitive, Green and Ubiquitous Computing (IC-CGU)",
+"telugu": false,
+"abstract": "Handwritten text recognition software is used to recognize and extract text from scanned documents. The fun-damental goal of this technology is to transform printed or handwritten text into an easily readable electronic format. The numerous characters and enormous quantity of the information for Indian languages, however, causes explicit preprocessing to take time. This necessity for explicit preprocessing has been replaced by synthetic data creation techniques, which overcome several difficulties and speed up the process. Artificially produced data that closely mimics actual observations is referred to as synthetic data. In situations where getting real data is difficult or expensive, it of",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)"
+]
+},
+"https://openalex.org/W4413314758": {
+"title": "An automated annotation system for document text images",
+"year": 2025,
+"doi": "https://doi.org/10.1063/5.0261647",
+"venue": "AIP conference proceedings",
+"telugu": true,
+"abstract": "Annotation refers to labelling of text. We aim to develop an automatic annotation system to annotate handwritten Telugu document text images. This automatic annotation method saves time and increases annotation accuracy because manual annotations are slow and prone to mistakes. Telugu text is challenging to recognize since it has various handwritten styles compared to other languages. This paper addresses the challenges particularly in Telugu text recognition and aims to minimize them. We used a Generative Adversial Network (DE-GAN) for enhancing the image, followed by a Character-Region Awareness for Text Detection (CRAFT) for word-level text detection and generating an image of each word b",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)",
+"Synthetic data for Indic STR (Synthetic-IndicSTR)"
+]
+},
+"https://openalex.org/W7169860225": {
+"title": "Cross-Script Visual Anchoring for Low-Resource Handwritten Word Spotting in Malayalam",
+"year": 2026,
+"doi": "https://doi.org/10.1109/ic3sis69949.2026.11608347",
+"venue": "International Conference on Computing, Communication, Security and Intelligent Systems (IC3SIS)",
+"telugu": true,
+"abstract": "Handwritten word spotting for scripts with complex morphology remains difficult, particularly when annotated data are scarce. Malayalam illustrates this challenge well: its writing system contains ligatures, conjunct forms, and shape variations that result in severe class imbalance and very limited perword supervision. In this work, we address this setting using a cross-script visual anchoring strategy that leverages structural information from high-resource scripts, namely Telugu and Devanagari, without relying on parallel corpora, character mappings, or shared vocabularies. A teacher model trained solely on source-script data produces a large set of visual prototypes that capture script-in",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)",
+"IIIT-HW-Telugu (ICFHR 2018)"
+]
+},
+"https://openalex.org/W7172007963": {
+"title": "Writer Identification from Multilingual Handwritten Indic Text Document Images",
+"year": 2025,
+"doi": "https://doi.org/10.1145/3774521.3774586",
+"venue": "Indian Conference on Computer Vision, Graphics and Image Processing",
+"telugu": false,
+"abstract": "Writer identification is the task of identifying the writer of an unknown handwritten text. Real-world documents often include multiple languages, which makes writer identification from multilingual documents essential. In this paper, we introduce a multilingual handwritten Indic dataset, named IIEST-Indic-HW, containing handwritten text in Bengali and Hindi language. A total of 170 writers from different age groups have contributed to this dataset. We also propose a writer identification system based on a vision transformer. The proposed method extracts patches from handwritten text in two steps. First, the patches are extracted using the fractal dimension. Second, the patches are extracted",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)"
+]
+},
+"https://openalex.org/W7172009436": {
+"title": "SemiHastakshar: Generalizable Indic Handwritten OCR through Semi-Supervised Learning",
+"year": 2025,
+"doi": "https://doi.org/10.1145/3774521.3774605",
+"venue": "Indian Conference on Computer Vision, Graphics and Image Processing",
+"telugu": false,
+"abstract": "Handwritten Text Recognition (HTR) remains a challenging task, especially in Indic languages, due to varied handwriting styles, complex character structures, and the scarcity of annotated data. While deep learning models have shown promising results on curated benchmarks, their performance often degrades in real-world scenarios with high variability in writing. To address this, we propose a semi-supervised approach, SemiHastakshar, that leverages large-scale unlabeled word-level images collected from diverse sources across the Internet. We employ a high-confidence pseudo-labeling strategy to train on unlabeled samples iteratively. It allows the model to learn from a wider distribution of han",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)",
+"IIIT-HW-Telugu (ICFHR 2018)",
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W7214890396": {
+"title": "CNN-Transformer Based Deep Learning Framework for Hindi Handwritten Text Recognition",
+"year": 2026,
+"doi": "https://doi.org/10.1109/iccubea69821.2026.11702047",
+"venue": "International Conference on Computing Communication Control and automation",
+"telugu": false,
+"abstract": "There exist significant difficulties in recognizing lowresourced handwritten Indic language text due to the large variations in handwriting, complex structure, and insufficient annotated data. In this paper, we consider a Hybrid CNN-Transformer architecture for handwritten word recognition tasks using the IIIT-INDIC-HW-WORDS dataset for Hindi. ResNet50 encoder and Transformer decoder models have been employed for feature extraction and sequence generation, respectively. To promote faster convergence and enhance the generalization ability of the trained model, three different training phases involving gradual freezing and unfreezing layers were adopted. Additionally, CLAHE and elastic distort",
+"cites": [
+"IIIT-INDIC-HW-WORDS (ICDAR 2021)"
+]
+},
+"https://openalex.org/W3197061335": {
+"title": "iiit-indic-hw-words: A Dataset for Indic Handwritten Text Recognition",
+"year": 2021,
+"doi": "https://doi.org/10.1007/978-3-030-86337-1_30",
+"venue": "Lecture notes in computer science",
+"telugu": false,
+"abstract": "",
+"cites": [
+"IIIT-HW-Telugu (ICFHR 2018)"
+]
+},
+"https://openalex.org/W3202454856": {
+"title": "A Thresholded Gabor-CNN Based Writer Identification System for Indic Scripts",
+"year": 2021,
+"doi": "https://doi.org/10.1109/access.2021.3114799",
+"venue": "IEEE Access",
+"telugu": true,
+"abstract": "Writer identification is the procedure of identifying individuals from handwriting. Writer identification is a common interest in biometric authentication and verification systems, and numerous studies are available for English, Chinese, Arabic, and Persian specific handwriting. This paper introduces a supervised offline Indic script writer identification system that can identify individuals using less than a single page of handwriting. A lightweight Convolutional Neural Network (CNN) architecture fused with non-trainable Gabor filters is used as an identification model that can recognize writers from scarce data. For the experiment, we used BanglaWriting dataset, which is openly available f",
+"cites": [
+"IIIT-HW-Telugu (ICFHR 2018)"
+]
+},
+"https://openalex.org/W4230888659": {
+"title": "Optimization with ADAM and RMSprop in Convolution neural Network (CNN): A Case study for Telugu Handwritten Characters",
+"year": 2020,
+"doi": "https://doi.org/10.30534/ijeter/2020/38892020",
+"venue": "International Journal of Emerging Trends in Engineering Research",
+"telugu": true,
+"abstract": "Handwritten character recognition is the prime and challenging research area in the area of image processing.This recognition can be defined as the ability of a computer to take the input as handwritten input from various primary sources like paper documents, photographs, touch screens and other devices which are both online and offline.Although a large extent of work has been done in many languages to name a few English and Asian languages such as Japanese, Chinese etc. for handwriting recognition and less amount of work was done on Indian languages like Hindi, Tamil, Telugu, and Kannada etc .This paper explains the methodology for telugu handwritten character recognition algorithm using tw",
+"cites": [
+"IIIT-HW-Telugu (ICFHR 2018)",
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W3191087474": {
+"title": "Word Spotting of Handwritten Hindi Scripts by Circular Histogram of Oriented Displacement (CHOD) Features",
+"year": 2021,
+"doi": "https://doi.org/10.1109/icnte51185.2021.9487701",
+"venue": "Biennial International Conference on Nascent Technologies in Engineering (ICNTE)",
+"telugu": false,
+"abstract": "This paper presents a segmentation-based word spotting technique for handwritten Hindi scripts using newly proposed shape descriptor called circular histogram of oriented displacement (CHOD). A word spotting model is developed by training multi-layer perceptron (MLP) with CHOD features. Metrics of evaluation used are k-precision (kPr) and mean average precision (MAP). The proposed technique has been evaluated on two datasets consisting of segmented handwritten Hindi (Devanagari) word images and has posted very good performance. This is an indication of CHOD features having good discriminative powers. The proposed technique has been compared with other techniques for the same datasets and fou",
+"cites": [
+"IIIT-HW-Telugu (ICFHR 2018)"
+]
+},
+"https://openalex.org/W4407386415": {
+"title": "PLATTER: A Page-Level Handwritten Text Recognition System for Indic Scripts",
+"year": 2025,
+"doi": "https://doi.org/10.48550/arxiv.2502.06172",
+"venue": "arXiv (Cornell University)",
+"telugu": false,
+"abstract": "In recent years, the field of Handwritten Text Recognition (HTR) has seen the emergence of various new models, each claiming to perform competitively better than the other in specific scenarios. However, making a fair comparison of these models is challenging due to inconsistent choices and diversity in test sets. Furthermore, recent advancements in HTR often fail to account for the diverse languages, especially Indic languages, likely due to the scarcity of relevant labeled datasets. Moreover, much of the previous work has focused primarily on character-level or word-level recognition, overlooking the crucial stage of Handwritten Text Detection (HTD) necessary for building a page-level end-",
+"cites": [
+"IIIT-HW-Telugu (ICFHR 2018)",
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W3173667335": {
+"title": "Algorithm for auto annotation of scanned documents based on subregion tiling and shallow networks",
+"year": 2021,
+"doi": "https://doi.org/10.36227/techrxiv.14795592.v2",
+"venue": null,
+"telugu": true,
+"abstract": "There are millions of scanned documents worldwide in around 4 thousand languages. Searching for information in a scanned document requires a text layer to be available and indexed. Preparation of a text layer requires recognition of character and sub-region patterns and associating with a human interpretation. Developing an optical character recognition (OCR) system for each and every language is a very difficult task if not impossible. There is a strong need for systems that add on top of the existing OCR technologies by learning from them and unifying disparate multitude of many a system. In this regard, we propose an algorithm that leverages the fact that we are dealing with scanned docum",
+"cites": [
+"IIIT-HW-Telugu (ICFHR 2018)"
+]
+},
+"https://openalex.org/W4251539164": {
+"title": "Algorithm for auto annotation of scanned documents based on subregion tiling and shallow networks",
+"year": 2021,
+"doi": "https://doi.org/10.36227/techrxiv.14795592",
+"venue": null,
+"telugu": true,
+"abstract": "There are millions of scanned documents worldwide in around 4 thousand languages. Searching for information in a scanned document requires a text layer to be available and indexed. Preparation of a text layer requires recognition of character and sub-region patterns and associating with a human interpretation. Developing an optical character recognition (OCR) system for each and every language is a very difficult task if not impossible. There is a strong need for systems that add on top of the existing OCR technologies by learning from them and unifying disparate multitude of many a system. In this regard, we propose an algorithm that leverages the fact that we are dealing with scanned docum",
+"cites": [
+"IIIT-HW-Telugu (ICFHR 2018)"
+]
+},
+"https://openalex.org/W4243624999": {
+"title": "Algorithm for auto annotation of scanned documents based on subregion tiling and shallow networks",
+"year": 2021,
+"doi": "https://doi.org/10.36227/techrxiv.14795592.v1",
+"venue": null,
+"telugu": true,
+"abstract": "There are millions of scanned documents worldwide in around 4 thousand languages. Searching for information in a scanned document requires a text layer to be available and indexed. Preparation of a text layer requires recognition of character and sub-region patterns and associating with a human interpretation. Developing an optical character recognition (OCR) system for each and every language is a very difficult task if not impossible. There is a strong need for systems that add on top of the existing OCR technologies by learning from them and unifying disparate multitude of many a system. In this regard, we propose an algorithm that leverages the fact that we are dealing with scanned docum",
+"cites": [
+"IIIT-HW-Telugu (ICFHR 2018)"
+]
+},
+"https://openalex.org/W4411599897": {
+"title": "Transformers for Document Text Processing with a Focus on Complex Telugu Scripts",
+"year": 2025,
+"doi": "https://doi.org/10.1109/icaiss61471.2025.11042037",
+"venue": "International Conference on Augmented Intelligence and Sustainable Systems (ICAISS)",
+"telugu": true,
+"abstract": "Recent advancements in the Optical Character Recognition (OCR) and Handwritten Text Recognition (HTR) domains have introduced various methods, those producing promising results. Traditional models, which includes Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), and CNN-LSTMs, have been state-of-the-art models for HTR tasks for a long time. However, these models face problems when applied to complex scripts like Telugu and other Indian languages, which features intricate character shapes and extensive diacritics that are less captured by conventional and base state-of-art HTR methods. Further Transformer architectures, coupled with advanced augmentation techniques, and no",
+"cites": [
+"IIIT-HW-Telugu (ICFHR 2018)"
+]
+},
+"https://openalex.org/W4407110764": {
+"title": "TeluguScriptify: A Custom Deep Learning Model for Handwritten Telugu Text Recognition and Tool Development",
+"year": 2025,
+"doi": "https://doi.org/10.1007/s42979-025-03677-z",
+"venue": "SN Computer Science",
+"telugu": true,
+"abstract": "",
+"cites": [
+"Mozhi / Towards Deployable OCR",
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W7161147938": {
+"title": "Bilingual Scene Text Recognition for Odia and English in Multilingual Environments",
+"year": 2026,
+"doi": "https://doi.org/10.1109/mpcon69668.2026.11508510",
+"venue": "IEEE Madhya Pradesh Section Conference (MPCON)",
+"telugu": false,
+"abstract": "Scene Text Recognition (STR) in multilingual natural environments is a significant challenge, especially for low-resource Indic scripts that coexist alongside Latin text. In Indian metropolitan settings, Odia and English often coexist on signboards, advertising, and public displays, showcasing intricate layouts, distinct typography, and differing illumination. This research introduces a bilingual Odia-English Scene Text Recognition framework that tackles script diversity, visual complexity, and data scarcity using a scriptaware deep learning architecture. The proposed system incorporates a CNN-based feature extractor, a script identification module, and a Transformer-based sequence recognise",
+"cites": [
+"Mozhi / Towards Deployable OCR"
+]
+},
+"https://openalex.org/W4400812943": {
+"title": "Optical character recognition for Telugu handwritten text using SqueezeNet convolutional neural networks model",
+"year": 2024,
+"doi": "https://doi.org/10.11591/ijaas.v13.i3.pp487-496",
+"venue": "International Journal of Advances in Applied Sciences",
+"telugu": true,
+"abstract": "Optical character recognition (OCR) is a process that recognizes and converts data from scanned images, including both handwritten and printed documents, into an accessible format. The challenges in Telugu OCR arise from compound characters, an extensive character set, limited datasets, character similarities, and difficulties in segmenting overlapping characters. To tackle these segmentation complexities, an algorithm has been developed, prioritizing the preservation of essential features during character segmentation. For distinguishing between structurally similar characters, we used convolutional neural networks (CNN) due to their feature-extracting properties. We have employed the CNN m",
+"cites": [
+"Mozhi / Towards Deployable OCR",
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W4390871832": {
+"title": "Revisiting Scene Text Recognition: A Data Perspective",
+"year": 2023,
+"doi": "https://doi.org/10.1109/iccv51070.2023.01878",
+"venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+"telugu": false,
+"abstract": "This paper aims to re-assess scene text recognition (STR) from a data-oriented perspective. We begin by revisiting the six commonly used benchmarks in STR and observe a trend of performance saturation, whereby only 2.91% of the benchmark images cannot be accurately recognized by an ensemble of 13 representative models. While these results are impressive and suggest that STR could be considered solved, however, we argue that this is primarily due to the less challenging nature of the common benchmarks, thus concealing the underlying issues that STR faces. To this end, we consolidate a large-scale real STR dataset, namely Union14M, which comprises 4 million labeled images and 10 million unlabe",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W4385820039": {
+"title": "IndicSTR12: A Dataset for Indic Scene Text Recognition",
+"year": 2023,
+"doi": "https://doi.org/10.1007/978-3-031-41498-5_17",
+"venue": "Lecture notes in computer science",
+"telugu": false,
+"abstract": "",
+"cites": [
+"IIIT-ILST benchmark",
+"Synthetic data for Indic STR (Synthetic-IndicSTR)"
+]
+},
+"https://openalex.org/W4220738787": {
+"title": "Improving Scene Text Recognition for Indian Languages with Transfer Learning and Font Diversity",
+"year": 2022,
+"doi": "https://doi.org/10.3390/jimaging8040086",
+"venue": "Journal of Imaging",
+"telugu": false,
+"abstract": "Reading Indian scene texts is complex due to the use of regional vocabulary, multiple fonts/scripts, and text size. This work investigates the significant differences in Indian and Latin Scene Text Recognition (STR) systems. Recent STR works rely on synthetic generators that involve diverse fonts to ensure robust reading solutions. We present utilizing additional non-Unicode fonts with generally employed Unicode fonts to cover font diversity in such synthesizers for Indian languages. We also perform experiments on transfer learning among six different Indian languages. Our transfer learning experiments on synthetic images with common backgrounds provide an exciting insight that Indian script",
+"cites": [
+"IIIT-ILST benchmark",
+"Synthetic data for Indic STR (Synthetic-IndicSTR)"
+]
+},
+"https://openalex.org/W4375946270": {
+"title": "Kannada Word Detection in Heterogeneous Scene Images",
+"year": 2023,
+"doi": "https://doi.org/10.1109/spin57001.2023.10117096",
+"venue": "International Conference on Signal Processing and Integrated Networks (SPIN)",
+"telugu": false,
+"abstract": "Text extraction from scene images has started gaining a lot of traction in recent years in the computer vision field as its applications is manifold. One of its sub-categories is scene text detection. Factors like complex backgrounds, curvature, orientation, image quality, and various font styles and sizes makes it a difficult task. Moreover, building a single language scene text detector in a multilingual setting, especially Indian scripts, is more challenging in contrast to a general text detector. In this Work We attempt the task of Kannada text localization as Well as Word detection in natural scenes, Which is underexplored in comparison to other Well-known Indian languages. To achieve t",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W4375946295": {
+"title": "Optical Character Recognition for Handwritten Telugu Text",
+"year": 2023,
+"doi": "https://doi.org/10.1109/spin57001.2023.10117279",
+"venue": "International Conference on Signal Processing and Integrated Networks (SPIN)",
+"telugu": true,
+"abstract": "Optical Character Recognition (OCR) is a process of digitalization of scanned documents. OCR for Telugu language is challenging due to intricacy of characters with almost similar structure. As Telugu has spaces between the characters in a word, character level training decreases the complexity in training dataset and enhances the character recognition rates. The major confronts for developing Telugu OCR especially for handwritten text is character level segmentation which depends of a person’s handwritten style. To deal with Unicode training problem that arises for most of Indic scripts, we have converted label to a string during training and after recognition they are inverse mapped. For fe",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W3049091526": {
+"title": "A Benchmark System for Indian Language Text Recognition",
+"year": 2020,
+"doi": "https://doi.org/10.1007/978-3-030-57058-3_6",
+"venue": "Lecture notes in computer science",
+"telugu": false,
+"abstract": "",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W4281393543": {
+"title": "Deep Learning based Telugu Video Text Detection using Video Coding Over Digital Transmission",
+"year": 2022,
+"doi": "https://doi.org/10.1109/icoei53556.2022.9776922",
+"venue": "International Conference on Trends in Electronics and Informatics (ICOEI)",
+"telugu": true,
+"abstract": "With the development of smart devices and high-speed internet, demands for the ever-increasing number of videos. Comparing conventional machine learning methods with in-depth Reading methods. The two independent steps used to decipher text is; the discovery of the Candidate text region and the division into categories. Then, the text texts received were. distributed through a few layers of CNN, which first produced a conversion feature map as well as Divide candidate circuits into text or non-text classes. Explored the proposed programs. On the data got from various Telugu videos. The data sets have been collected by collecting. videos from various Telugu channels. Text from the video provid",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W3167722946": {
+"title": "Telugu Scene Text Detection Using Dense Textbox",
+"year": 2021,
+"doi": "https://doi.org/10.1007/978-981-33-6981-8_40",
+"venue": "Advances in intelligent systems and computing",
+"telugu": true,
+"abstract": "",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W4388894281": {
+"title": "Few‐shot learning for word‐level scene text script identification",
+"year": 2023,
+"doi": "https://doi.org/10.1111/coin.12612",
+"venue": "Computational Intelligence",
+"telugu": false,
+"abstract": "Abstract Script identification of text in scene images has attracted massive attention recently. However, the existing techniques primarily emphasize on scripts where data are available abundantly, such as English, European, or East Asian. Although these methods are robust in dealing with high‐resource data, how these techniques will work on low‐resource scripts has yet to be discovered. For example, in India, there is a disparity among the text scripts across the country's demographic. To bridge the research gap for resource‐constraint script identification, we present a few‐shot learning network called the TextScriptFSLNet. This network does not require huge training data while achieving s",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W4402672254": {
+"title": "Computationally efficient ResNet based Telugu handwritten text detection",
+"year": 2024,
+"doi": "https://doi.org/10.11591/eei.v13i6.8170",
+"venue": "Bulletin of Electrical Engineering and Informatics",
+"telugu": true,
+"abstract": "Optical character recognition (OCR) is a technological process that converts diverse document formats into editable and searchable data. Recognition of Telugu characters through OCR poses a challenge because of compound characters. Identifying handwritten Telugu text proves difficult due to the substantial number of characters, their similarities, and overlapping forms. To handle overlapping characters, we implemented a segmentation algorithm that efficiently separates these characters, consequently enhancing the model’s accuracy. Feature extraction is a crucial phase in recognizing a broader range of characters, especially those that are similar in appearance. So, we have employed a light w",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W4406523359": {
+"title": "Improving Text Recognition in Natural Scenes using Optimized OCR Techniques",
+"year": 2024,
+"doi": "https://doi.org/10.1109/icacrs62842.2024.10841650",
+"venue": "International Conference on Automation, Computing and Renewable Systems (ICACRS)",
+"telugu": true,
+"abstract": "This paper presents a method for optimizing Optical Character Recognition (OCR) performance for the Telugu script in natural scenes. The method focuses on minimizing the Character Error Rate (CER) through the fine-tuning of Tesseract OCR settings, the implementation of advanced preprocessing techniques, and the incorporation of a dictionary-based post-processing correction mechanism. The proposed approach was evaluated against existing methods, demonstrating superior accuracy in text recognition for the Telugu script. The results emphasize the method's potential for application to other underrepresented languages with complex scripts, paving the way for more effective and inclusive OCR techn",
+"cites": [
+"IIIT-ILST benchmark",
+"IndicSTR12",
+"Synthetic data for Indic STR (Synthetic-IndicSTR)"
+]
+},
+"https://openalex.org/W4416913023": {
+"title": "Bharat scene text: a novel comprehensive dataset and benchmark for indian language scene text understanding",
+"year": 2026,
+"doi": "https://doi.org/10.1007/s10032-026-00583-9",
+"venue": "International Journal on Document Analysis and Recognition (IJDAR)",
+"telugu": false,
+"abstract": "Abstract Reading scene text, that is, text appearing in images, has numerous application areas, including assistive technology, search, and e-commerce. Although scene text recognition in English has advanced significantly and is often considered nearly a solved problem, Indian language scene text recognition remains an open challenge. This is due to script diversity, non-standard fonts, and varying writing styles, and, more importantly, the lack of high-quality datasets and open-source models.To address these gaps, we introduce the Bharat Scene Text Dataset (BSTD) -- a large-scale and comprehensive benchmark for studying Indian Language Scene Text Recognition. It comprises more than 100K wor",
+"cites": [
+"IIIT-ILST benchmark",
+"IndicSTR12",
+"Synthetic data for Indic STR (Synthetic-IndicSTR)"
+]
+},
+"https://openalex.org/W7160097133": {
+"title": "An End-to-End OCR-to-Speech Framework for Multi-Font Telugu Documents",
+"year": 2026,
+"doi": "https://doi.org/10.1109/ccic68129.2026.11486238",
+"venue": "Contemporary Computing Innovations Conference (CCIC)",
+"telugu": true,
+"abstract": "",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W4226403832": {
+"title": "Optical Character Recognition of Telugu Text Using Inception Model",
+"year": 2022,
+"doi": "https://doi.org/10.1007/978-981-16-7330-6_74",
+"venue": "Advances in intelligent systems and computing",
+"telugu": true,
+"abstract": "",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W4285293861": {
+"title": "Improved Telugu Scene Text Recognition with Thin Plate Spline Transform",
+"year": 2022,
+"doi": "https://doi.org/10.1007/978-981-16-9113-3_65",
+"venue": "Lecture notes on data engineering and communications technologies",
+"telugu": true,
+"abstract": "",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W4394006106": {
+"title": "Computationally efficient handwritten Telugu text recognition",
+"year": 2024,
+"doi": "https://doi.org/10.11591/ijeecs.v34.i3.pp1618-1626",
+"venue": "Indonesian Journal of Electrical Engineering and Computer Science",
+"telugu": true,
+"abstract": "Optical character recognition (OCR) for regional languages is difficult due to their complex orthographic structure, lack of dataset resources, a greater number of characters and similarity in structure between characters. Telugu is popular language in states of Andhra and Telangana. Telugu exhibits distinct separation between characters within a word, making a character-level dataset sufficient. With a smaller dataset, we can effectively recognize more words. However, challenges arise during the training of compound characters, which are combinations of vowels and consonants. These are considered as two or more characters based on associated vattus and dheerghams with the base character. To",
+"cites": [
+"IIIT-ILST benchmark",
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W4403020955": {
+"title": "Efficient deep learning models for Telugu handwritten text recognition",
+"year": 2024,
+"doi": "https://doi.org/10.11591/ijeecs.v36.i3.pp1564-1572",
+"venue": "Indonesian Journal of Electrical Engineering and Computer Science",
+"telugu": true,
+"abstract": "Optical character recognition (OCR) technology is indispensable for converting and analyzing text from various sources into a format that is editable and searchable. Telugu handwriting presents notable challenges due to the resemblance of characters, the extensive character set, and the need to segment overlapping characters. To segment the overlapping characters, we assess the width of small characters within a word and segment the overlapping characters accordingly. This method is well suited for the segmentation of overlapping compound characters. To address the recognition of similar characters with less training periods we have used ResNet 18 and SqueezeNet models which have achieved ch",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W7133196234": {
+"title": "Enhancing Handwritten Telugu Text Detection: An Application of ResNet Models",
+"year": 2025,
+"doi": "https://doi.org/10.1109/incowoco68239.2025.11407273",
+"venue": "IEEE International Conference for Women in Computing (InCoWoCo)",
+"telugu": true,
+"abstract": "In this study, we explore the efficacy of ResNet models in detecting handwritten text in the Telugu language, a domain with limited research. Our objective was to assess the adaptability and accuracy of these models in a challenging script recognition context. We employed a comprehensive dataset of Telugu handwritten characters, applying various ResNet architectures to evaluate their performance. The results reveal a significant improvement in detection accuracy, with the ResNet-50 model achieving the highest word accuracy rate of 84% surpassing previous benchmarks in Telugu text recognition. These findings not only demonstrate the robustness of ResNet models in handling complex scripts but ",
+"cites": [
+"IIIT-ILST benchmark"
+]
+},
+"https://openalex.org/W7218300880": {
+"title": "Performance Comparison of various CNN Models for Recognition of Handwritten Telugu Text",
+"year": 2024,
+"doi": null,
+"venue": "Journal of Electrical Systems",
+"telugu": true,
+"abstract": "Deep Learning (DL) stands as a pivotal field in the exploration of pattern recognition, offering unparalleled potential for addressing difficult machine learning challenges. The recognition of characters in the Telugu language using Optical Character Recognition (OCR) presents challenges due to the complex structures of characters, the presence of confusing characters, and overlapping characters. Convolutional Neural Networks (CNNs) exhibit proficiency in extracting features from training images and determining subtle differences in character shapes. The potency of robust CNN architectures has significantly elevated recognition rates, especially for Indian scripts. Our goal was to evaluate h",
+"cites": [
+"IIIT-ILST benchmark",
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W7134825380": {
+"title": "Integrated framework utilizing scene text detection and recognition techniques for enhancing point of interest extraction from name boards in all Indic languages",
+"year": 2026,
+"doi": "https://doi.org/10.1038/s41598-026-40742-w",
+"venue": "Scientific Reports",
+"telugu": false,
+"abstract": "This paper focused on enhancing text recognition, script identification, language classification, and point of interest (POI) extraction from images captured by Mobile Mapping Systems (MMS). The initiative was undertaken to improve the existing Computer vision-based artificial intelligence modules. The advancements made is to be contributed to the system's implementation, bringing improved functionality and accuracy to the system. The current system, called Text Detection and Recognition (TDR), consists of several neural modules operating in sequential stages. The first module identifies areas of interest within the MMS images, focusing on shop signboards, traffic signs, and directional boar",
+"cites": [
+"IndicSTR12"
+]
+},
+"https://openalex.org/W7130601755": {
+"title": "Designing Production-Scale OCR for India: Multilingual and Domain-Specific Systems",
+"year": 2026,
+"doi": "https://doi.org/10.48550/arxiv.2602.16430",
+"venue": "arXiv (Cornell University)",
+"telugu": true,
+"abstract": "Designing Optical Character Recognition (OCR) systems for India requires balancing linguistic diversity, document heterogeneity, and deployment constraints. In this paper, we study two training strategies for building multilingual OCR systems with Vision-Language Models through the Chitrapathak series. We first follow a popular multimodal approach, pairing a generic vision encoder with a strong multilingual language model and training the system end-to-end for OCR. Alternatively, we explore fine-tuning an existing OCR model, despite not being trained for the target languages. Through extensive evaluation on multilingual Indic OCR benchmarks and deployment-oriented metrics, we find that the s",
+"cites": [
+"IndicSTR12",
+"Synthetic data for Indic STR (Synthetic-IndicSTR)"
+]
+},
+"https://openalex.org/W7220736708": {
+"title": "S2TR: A Squeeze-Excited 2D Transformer Recognizer for Indic Scene Text Recognition",
+"year": 2026,
+"doi": "https://doi.org/10.1109/icetci71772.2026.11710630",
+"venue": "International Conference on Emerging Techniques in Computational Intelligence (ICETCI)",
+"telugu": true,
+"abstract": "Recognizing text in natural scene images taken from Indian road environments is a much more challenging task than recognizing Latin script images, as the recognition problem involves recognizing Indic written text, which are two-dimensional configurations of glyphs like Devanagari, Telugu and Malayalam. These scripts have modifiers on top and bottom of the vowel body, multiple consonant components stacked on top of each other and written vertically, and complex consonant shapes, which cannot be meaningfully described as a flat left-to-right character string. To overcome this complexity, most current scene text recognition systems integrate a visual encoder with an autoregressive language dec",
+"cites": [
+"IndicSTR12"
+]
+},
+"https://openalex.org/W4293493277": {
+"title": "An Efficient Deep Learning Model with Interrelated Tagging Prototype with Segmentation for Telugu Optical Character Recognition",
+"year": 2022,
+"doi": "https://doi.org/10.1155/2022/1059004",
+"venue": "Scientific Programming",
+"telugu": true,
+"abstract": "More than 66 million people in India speak Telugu, a language that dates back thousands of years and is widely spoken in South India. There has not been much progress reported on the advancement of Telugu text Optical Character Recognition (OCR) systems. Telugu characters can be composed of many symbols joined together. OCR is the process of turning a document image into a text-editable one that may be used in other applications. It saves a great deal of time and effort by not having to start from scratch each time. There are hundreds of thousands of different combinations of modifiers and consonants when writing compound letters. Symbols joined to one another form a compound character. Sinc",
+"cites": [
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W4285248523": {
+"title": "A CNN based Approach for Handwritten Character Identification of Telugu Guninthalu using Various Optimizers",
+"year": 2022,
+"doi": "https://doi.org/10.14569/ijacsa.2022.0130482",
+"venue": "International Journal of Advanced Computer Science and Applications",
+"telugu": true,
+"abstract": "Handwritten character recognition is the most critical and challenging area of research in image processing. A computer's ability to detect handwriting input from various original sources, such as paper documents, images, touch screens, and other online and offline devices, may be classified as this recognition. Identifying handwriting in Indian languages like Hindi, Tamil, Telugu, and Kannada has gotten less attention than in other languages like English and Asian dialects like Japanese and Chinese. Adaptive Moment Estimation (ADAM), Root Mean Square Propagation (RMSProp) and Stochastic Gradient Descent (SGD) optimization methods employed in a Convolution Neural Network (CNN) have produced ",
+"cites": [
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W3211791887": {
+"title": "Multilingual Translational Optical Character Recognition System for Printed Telugu Text",
+"year": 2021,
+"doi": "https://doi.org/10.1109/icccnt51525.2021.9579619",
+"venue": "International Conference on Computing, Communication and Networking Technologies (ICCCNT)",
+"telugu": true,
+"abstract": "OCR, an acronym for “Optical Character Recognition” is a system that automatically grabs information one needs from scanned images of typewritten or printed text by translating them into machine-encoded text. OCR today is embedded in many applications, websites, etc., but most of these systems operate for Latin-based scripts such as Roman and English. India is a multilingual country with more than 19,500 languages or dialects spoken as mother tongues. Due to this diversity, many works are not reported in Indian languages. Most of the Indian language has large character sets that are complex in structure compared to Latin-based scripts. Transfer learning of Latin-based OCR systems to Telugu i",
+"cites": [
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W4383747909": {
+"title": "A Novel Approach to Recognize Handwritten Telugu Words Using Character Level CNN",
+"year": 2023,
+"doi": "https://doi.org/10.1109/incet57972.2023.10170305",
+"venue": "International Conference for Emerging Technology (INCET)",
+"telugu": true,
+"abstract": "A computer can interpret and receive handwritten input from various sources, such as documents and photos. This is an area of great interest in document text recognition and image analysis, especially in the field of Indic languages. The language of Telugu is a part of the Dravidian language family, and it has primary status in multiple states. It has 52 core characters, consisting of 36 consonants and 16 vowels. This paper aims to provide a model to recognize convert handwritten Telugu documents at word level. The dataset consists of words of varying length between one letter word to seven letter words. The recognition accuracy varies according to the length of the word.",
+"cites": [
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W4396751819": {
+"title": "Handwritten Telugu Character Recognition Using Machine Learning",
+"year": 2024,
+"doi": "https://doi.org/10.1109/icdcot61034.2024.10515646",
+"venue": "International Conference on Distributed Computing and Optimization Techniques (ICDCOT)",
+"telugu": true,
+"abstract": "The Telugu language is the most prominent representative within the Dravidian language family, predominantly spoken in the southeastern regions of India. Handwritten character recognition in Telugu has significant applications across diverse fields such as healthcare, administration, education, and paleography. Despite its importance, the Telugu script differs significantly from English, presenting distinct challenges in recognizing characters due to its complexity and diverse character shapes. This study explores the application of machine learning, particularly delving into deep learning techniques, to improve the accuracy of Telugu character recognition. This paper proposes a model to rec",
+"cites": [
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W2998867159": {
+"title": "Telugu OCR using Dictionary Learning and Multi-Layer Perceptrons",
+"year": 2019,
+"doi": null,
+"venue": "International Conference on Computing, Power and Communication Technologies (GUCON)",
+"telugu": true,
+"abstract": "Dictionary Learning (DL) methods have been applied successfully in image processing applications like image de-noising, inpainting, mostly using their representation and reconstruction capabilities. From our experimentation and also from literature, it is seen that the performance of DL approaches on classification tasks is not satisfactory. Especially, the performance is seen to degrade with higher dimensionality and increasing number of classes. We propose a hybrid approach to overcome the classification problem encountered by DL approaches. The novel approach uses the strengths of data abstraction and reconstruction from the DL methods while realising a high classification accuracy throug",
+"cites": [
+"Konkimalla Telugu OCR database",
+"UHTelPCC"
+]
+},
+"https://openalex.org/W4285215388": {
+"title": "Deep Learning Based Residual Network Features for Telugu Printed Character Recognition",
+"year": 2022,
+"doi": "https://doi.org/10.32604/iasc.2022.026940",
+"venue": "Intelligent Automation & Soft Computing",
+"telugu": true,
+"abstract": "In India, Telugu is one of the official languages and it is a native language in the Andhra Pradesh and Telangana states. Although research on Telugu optical character recognition (OCR) began in the early 1970s, it is still necessary to develop effective printed character recognition for the Telugu language. OCR is a technique that aids machines in identifying text. The main intention in the classifier design of the OCR systems is supervised learning where the training process takes place on the labeled dataset with numerous characters. The existing OCR makes use of patterns and correlations to differentiate words from other components. The development of deep learning (DL) techniques is use",
+"cites": [
+"Konkimalla Telugu OCR database",
+"UHTelPCC"
+]
+},
+"https://openalex.org/W4389349646": {
+"title": "Unicode-driven Deep Learning Handwritten Telugu-to-English Character Recognition and Translation System",
+"year": 2023,
+"doi": "https://doi.org/10.17762/ijritcc.v11i10.8497",
+"venue": "International Journal on Recent and Innovation Trends in Computing and Communication",
+"telugu": true,
+"abstract": "Telugu language is considered as fourth most used language in India especially in the regions of Andhra Pradesh, Telangana, Karnataka etc. In international recognized countries also, Telugu is widely growing spoken language. This language comprises of different dependent and independent vowels, consonants and digits. In this aspect, the enhancement of Telugu Handwritten Character Recognition (HCR) has not been propagated. HCR is a neural network technique of converting a documented image to edited text one which can be used for many other applications. This reduces time and effort without starting over from the beginning every time. In this work, a Unicode based Handwritten Character Recogni",
+"cites": [
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W4321257408": {
+"title": "Application of Deep Convolutional Neural Networks to Telugu Scriptsfor Optical Character Recognition",
+"year": 2023,
+"doi": "https://doi.org/10.14445/22312803/ijctt-v71i1p108",
+"venue": "International Journal of Computer Trends and Technology",
+"telugu": true,
+"abstract": "This research looks at the process of optical character recognition (OCR) for Telugu scripts. Telugu is anIndian Dravidian language. In English, optical character recognition is widely used, and there is a plethora of smartphone apps available. Telugu has a significantly higher level of complexity due to the number of output classesthat can be formed and the inter-class diversity. In addition, there are no good Telugu OCR systems. We employedthe Deep Convolutional Neural Network (DCNN) model for Telugu character recognition because of its success in other domains, such as segmentation, object identification, and character recognition. Multiple machine learning algorithms such as AdaBoost, Su",
+"cites": [
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W4402325144": {
+"title": "Performance Comparison of Online Handwritten Telugu Character Recognition Using Various Local and Global Features",
+"year": 2024,
+"doi": "https://doi.org/10.1142/s0219877024400029",
+"venue": "International Journal of Innovation and Technology Management",
+"telugu": true,
+"abstract": "As the text is written on a special digitizer or Personal Digital Assistance (PDA) in which a sensor picks up the pen-tip movements along with the pen-up/pen-down switching, its automatic conversion is performed in the online Handwriting Recognition (HR). There are several works related to the online recognition of Devanagari as well as Tamil scripts. Meanwhile, the online recognition works associated with other Indian languages, specifically Telugu, which is complex in its structure together with style, are very few. Our work emphasizes the development of an online handwritten Telugu character recognition system using dominant points with the combination of SVM and performance analysis of v",
+"cites": [
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W4406067145": {
+"title": "Isolated Telugu Language Character Recognition Using Deep Learning",
+"year": 2024,
+"doi": "https://doi.org/10.1007/978-981-99-2832-3_46",
+"venue": "Advanced technologies and societal change",
+"telugu": true,
+"abstract": "",
+"cites": [
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W7225007033": {
+"title": "A Hybrid Deep Learning and Generative AI Framework for Knowledge‐Aware Evaluation of Handwritten Indic Scripts",
+"year": 2026,
+"doi": "https://doi.org/10.1111/coin.70304",
+"venue": "Computational Intelligence",
+"telugu": true,
+"abstract": "ABSTRACT The automatic assessment of handwritten answers in low‐resource Indic scripts is a difficult problem because of the complexity of the orthographic ligatures, the variability of the writers, limited availability of annotated resources, and the error propagation from handwritten text recognition (HTR) to the grading modules. In this paper, we aim to address these challenges by introducing an end‐to‐end framework that combines Text Region Detection, sequential HTR, and Generative AI (GenAI) using Large Language Models (LLMs) for Explainable Multilingual Answer Assessment. The proposed framework was evaluated using a Telugu handwritten character dataset containing diverse character form",
+"cites": [
+"Konkimalla Telugu OCR database"
+]
+},
+"https://openalex.org/W4206195008": {
+"title": "Automated Telugu Printed and Handwritten Character Recognition in Single Image using Aquila Optimizer based Deep Learning Model",
+"year": 2021,
+"doi": "https://doi.org/10.14569/ijacsa.2021.0121275",
+"venue": "International Journal of Advanced Computer Science and Applications",
+"telugu": true,
+"abstract": "Machine printed or handwritten character recognition becomes a major research topic in several real time applications. The recent advancements of deep learning and image processing techniques can be employed for printed and handwritten character recognition. Telugu character Recognition (TCR) remains a difficult task in optical character recognition (OCR), which transforms the printed and handwritten characters into respective text formats. In this aspect, this study introduces an effective deep learning based TCR model for printed and handwritten characters (DLTCR-PHWC). The proposed DLTCR-PHWC technique aims to detect and recognize the printed as well as handwritten characters that exist i",
+"cites": [
+"UHTelPCC"
+]
+},
+"https://openalex.org/W4362680557": {
+"title": "Handwritten Telugu Vowel Character Classification Using Modified 25-Layer AlexNET With Transfer Learning",
+"year": 2022,
+"doi": "https://doi.org/10.1109/smartgencon56628.2022.10084300",
+"venue": "International Conference on Smart Generation Computing, Communication and Networking (SMART GENCON)",
+"telugu": true,
+"abstract": "Due to remarkable performance, deep neural networks have gained popularity in computer vision and machine learning applications such as regression, segmentation, classification, detection, and pattern recognition over the past few years. This paper examines the categorization of handwritten telugu vowel characters using a modified 25-layer AlexNET and transfer learning approach. The six-class Handwritten Telugu vowel dataset from Kaggle is utilized in this experiment. To accommodate the required amount of vowel dataset classes, the 23rd and 25th layers of pre-trained AlexNET are adjusted. Training makes advantage of stochastic gradient descent using momentum optimizer. The proposed model acc",
+"cites": [
+"UHTelPCC"
+]
+},
+"https://openalex.org/W4285128173": {
+"title": "UHTelHwCC: A Dataset for Telugu Off-line Handwritten Character Recognition",
+"year": 2022,
+"doi": "https://doi.org/10.1007/978-3-031-07005-1_22",
+"venue": "Communications in computer and information science",
+"telugu": true,
+"abstract": "",
+"cites": [
+"UHTelPCC",
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W2795808235": {
+"title": "Handwritten Indic Script Identification in Multi-Script Document Images: A Survey",
+"year": 2018,
+"doi": "https://doi.org/10.1142/s0218001418560128",
+"venue": "International Journal of Pattern Recognition and Artificial Intelligence",
+"telugu": false,
+"abstract": "Script identification is crucial for automating optical character recognition (OCR) in multi-script documents since OCRs are script-dependent. In this paper, we present a comprehensive survey of the techniques developed for handwritten Indic script identification. Different pre-processing and feature extraction techniques, including classifiers used for script identification, are categorized and their merits and demerits are discussed. We also provide information about some handwritten Indic script datasets. Finally, we highlight the extensions and/or future scope of works together with challenges.",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W4214872252": {
+"title": "Word Level Script Identification Using Convolutional Neural Network Enhancement for Scenic Images",
+"year": 2022,
+"doi": "https://doi.org/10.1145/3506699",
+"venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+"telugu": false,
+"abstract": "Script identification from complex and colorful images is an integral part of the text recognition and classification system. Such images may contain twofold challenges: (1) Challenges related to the camera like blurring effect, non-uniform illumination and noisy background, and so on, and (2) Challenges related to the text shape, orientation, and text size. The present work in this area is much focused on non-Indian scripts. In contrast, Gurumukhi, Hindi, and English scripts play a vital role in communication among Indians and foreigners. In this article, we focus on the above said challenges in the field of identifying the script. Additionally, we have introduced a new dataset that contain",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W4386167088": {
+"title": "MDIW-13: a New Multi-Lingual and Multi-Script Database and Benchmark for Script Identification",
+"year": 2023,
+"doi": "https://doi.org/10.1007/s12559-023-10193-w",
+"venue": "Cognitive Computation",
+"telugu": true,
+"abstract": "Abstract Script identification plays a vital role in applications that involve handwriting and document analysis within a multi-script and multi-lingual environment. Moreover, it exhibits a profound connection with human cognition. This paper provides a new database for benchmarking script identification algorithms, which contains both printed and handwritten documents collected from a wide variety of scripts, such as Arabic, Bengali (Bangla), Gujarati, Gurmukhi, Devanagari, Japanese, Kannada, Malayalam, Oriya, Roman, Tamil, Telugu, and Thai. The dataset consists of 1,135 documents scanned from local newspaper and handwritten letters as well as notes from different native writers. Further, t",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W2793366516": {
+"title": "Word Level Multi-Script Identification Using Curvelet Transform in Log-Polar Domain",
+"year": 2018,
+"doi": "https://doi.org/10.1080/03772063.2018.1430516",
+"venue": "IETE Journal of Research",
+"telugu": false,
+"abstract": "Nowadays, a number of scripts are used for writing. Script identification finds many applications like sorting and preparing an online database of documents. Identifying these scripts, especially with different orientations and scales, is an important and challenging problem in document image analysis. This paper proposed a new scheme for script identification from word images using skew and scale robust log-polar curvelet features. These word images are first extracted in the form of text-patches from documents using Gaussian filtering. Thereafter, texture features are calculated using curvelet transform in log-polar domain. Log-polar domain is independent of rotation and scale variations, ",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W3119041365": {
+"title": "A Hybrid Swarm and Gravitation-based feature selection algorithm for handwritten Indic script classification problem",
+"year": 2021,
+"doi": "https://doi.org/10.1007/s40747-020-00237-1",
+"venue": "Complex & Intelligent Systems",
+"telugu": false,
+"abstract": "Abstract In any multi-script environment, handwritten script classification is an unavoidable pre-requisite before the document images are fed to their respective Optical Character Recognition (OCR) engines. Over the years, this complex pattern classification problem has been solved by researchers proposing various feature vectors mostly having large dimensions, thereby increasing the computation complexity of the whole classification model. Feature Selection (FS) can serve as an intermediate step to reduce the size of the feature vectors by restricting them only to the essential and relevant features. In the present work, we have addressed this issue by introducing a new FS algorithm, calle",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W3197562407": {
+"title": "MIDV-LAIT: A Challenging Dataset for Recognition of IDs with Perso-Arabic, Thai, and Indian Scripts",
+"year": 2021,
+"doi": "https://doi.org/10.1007/978-3-030-86331-9_17",
+"venue": "Lecture notes in computer science",
+"telugu": false,
+"abstract": "",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W4312773088": {
+"title": "SEN: Stack Ensemble Shallow Convolution Neural Network for Signature-based Writer Identification",
+"year": 2022,
+"doi": "https://doi.org/10.1109/icpr56361.2022.9956456",
+"venue": "Proceedings - International Conference on Pattern Recognition/Proceedings/International Conference on Pattern Recognition",
+"telugu": false,
+"abstract": "Signature-based writer identification (SWI) is an automated segmentation-free holistic approach where a person is identified based on their handwritten signature. Earlier research attempts mainly featured learning-based approaches where writing patterns were detected and fed to machine learning models for determining the writer. Nowadays, a deep learning-based approach is becoming very popular and several works are reported in the literature using such models. In this paper, we propose a two-stage convolution neural network (CNN) architecture that has two properties: (i) at first, two state-of-the-art CNN models namely VGG-19 and EfficientNet-B0 were truncated making them lightweight; (ii) S",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W4404179573": {
+"title": "MuSIC: A Novel Multi-Scale Deep Neural Framework for Script Identification in the Wild",
+"year": 2024,
+"doi": "https://doi.org/10.1109/access.2024.3494023",
+"venue": "IEEE Access",
+"telugu": false,
+"abstract": "Script identification in digital images is crucial for automated text reading in multilingual contexts. Developing a robust script-identifier in complex environments is challenging due to prevalence of mobiles and digitized documents. This paper presents a novel multi-scale image classification framework named as MuSIC, for identifying scripts in documents, scenes, and video texts. At first, multiple CNNs simultaneously process scaled maps of input image to produce scale-wise predictions. Weight computation module assigns unique weight to scaled map by measuring the deviation in number of pixels of the object area compared to original image. In weight-aware decision mechanism, the bag-of-pre",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W4400406884": {
+"title": "Text line segmentation of offline malayalam handwritten document",
+"year": 2024,
+"doi": "https://doi.org/10.1063/5.0211999",
+"venue": "AIP conference proceedings",
+"telugu": true,
+"abstract": "Automatic handwriting recognition systems rely on text line segmentation. Text line segmentation faces a number of obstacles, such as irregular text line gaps, slanted text lines, cursive handwriting, and other similar problems. Furthermore, line segmentation is worse when dealing with noisy and uncontrolled scanned handwritten manuscripts; dealing with Malayalam handwriting, which has a complicated style and character set, makes the process slightly more challenging. For the purpose of text line segmentation in unconstrained Malayalam handwritten scanned documents, this script independent technique primarily used morphological operations and contour extraction. More than that, the Hough lin",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W3211196679": {
+"title": "A Case Study on Handwritten Indic Script Classification: Benchmarking of the Results at Page, Block, Text-line, and Word Levels",
+"year": 2021,
+"doi": "https://doi.org/10.1145/3476102",
+"venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+"telugu": false,
+"abstract": "Handwritten script classification is still considered as a challenging research problem in the domain of document image analysis. Although some research attempts have been made by the researchers for solving the challenging issues, a comprehensive solution is yet to be achieved. The case study, undertaken here, analyzes the performances of various state-of-the art handwritten script classification methods for Indian scripts where features, needed for the script classification task, are extracted from the script images at four different granularity levels, i.e., page, block, text line, or word. The results of handwritten script classification at each level have been obtained and compared usin",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W4388002464": {
+"title": "Handwritten Devanagari Text Recognition using Single Classifier Approach with VSPCA Scheme",
+"year": 2023,
+"doi": "https://doi.org/10.17762/ijritcc.v11i11s.8066",
+"venue": "International Journal on Recent and Innovation Trends in Computing and Communication",
+"telugu": false,
+"abstract": "In this research paper we used individual classifier approach for Handwritten Devanagari text recognition. We experimented different categorical classifiers namely Random Forest Classifier (RFC), Support Vector Machine (SVM), K Nearest Neighbor Classifier (KNN), Logistic Regression Classifier (LogRegr), Decision Tree Classifier (DTree). Seven different feature sets are used namely Eccentricity, Euler Number, Horizontal Histogram, Vertical Histogram, HOG Features, LBP Features, and Statistical Features. The experimentation is carried out on 9434 different characters whose features are extracted from 220 handwritten image documents from PHDIndic_11 dataset. We deduced and implemented a unique ",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W7203984876": {
+"title": "One Source, Many Hands: Script Evolution, Writer Familiarity, and Cross-Script Influence in the Forensic Examination of Devanagari Handwriting",
+"year": 2026,
+"doi": "https://doi.org/10.25258/ijddt.16.77s.100",
+"venue": "International Journal of Drug Delivery Technology",
+"telugu": true,
+"abstract": "Forensic handwriting examination assumes that mature writing is both habitual and individual, but the discipline's standard protocols were built around the Latin script.Devanagari does not fit that model.Its letters hang from a headline, the shirorekha; vowels attach as matras occupying distinct vertical zones; consonant clusters fuse into conjuncts; and a few characters deliberately break the headline.We tested whether a headline-anchored framework could capture these features quantitatively.Using Digimizer image-analysis software, we measured slant relative to the fitted headline, zonal proportions, headline continuity (HCI), matra placement, pen-lift frequency, and stroke width as a proxy",
+"cites": [
+"PHDIndic_11"
+]
+},
+"https://openalex.org/W7125489102": {
+"title": "Deep inception neural network with residual connections for Tamil handwritten character recognition",
+"year": 2026,
+"doi": "https://doi.org/10.1038/s41598-026-36330-7",
+"venue": "Scientific Reports",
+"telugu": true,
+"abstract": "The research community is actively working on character recognition for various languages, including Tamil, Arabic, Chinese, Telugu, and Malayalam. It is important to digitize texts so that large-scale documents can be saved, retrieved, and analysed efficiently. This serves as a foundation for digital preservation of cultural heritage by exploring Optical Character Recognition (OCR). Tamil Handwritten Character Recognition (THCR) is challenging as there are many letters in Tamil that have only a small style difference. To address this, we have proposed a Deep Inception Neural Network framework with residual connections for efficient Tamil handwritten character recognition (TamHNet). A non-li",
+"cites": [
+"PLATTER / CHIPS"
+]
+},
+"https://openalex.org/W7140221813": {
+"title": "Review on Devanagari OCR for Handwritten Text",
+"year": 2026,
+"doi": "https://doi.org/10.13052/jgeu0975-1416.1419",
+"venue": "Journal of Graphic Era University",
+"telugu": false,
+"abstract": "With the rapid growth of document digitization and multilingual content, robust Optical Character Recognition (OCR) systems have become increasingly important. While substantial progress has been achieved for Latin scripts, accurate text detection and recognition in complex Indic scripts, particularly Devanagari, remain challenging due to script-specific structural characteristics, handwriting variations, and limited benchmark datasets. This review paper presents a comprehensive and structured analysis of existing research on text detection, script identification, and handwritten numeral, character, and word recognition for the Devanagari script. The paper systematically categorizes and comp",
+"cites": [
+"PLATTER / CHIPS"
+]
+},
+"https://openalex.org/W2984966803": {
+"title": "HInDoLA: A Unified Cloud-Based Platform for Annotation, Visualization and Machine Learning-Based Layout Analysis of Historical Manuscripts",
+"year": 2019,
+"doi": "https://doi.org/10.1109/icdarw.2019.10035",
+"venue": "International Conference on Document Analysis and Recognition Workshops (ICDARW)",
+"telugu": false,
+"abstract": "Palm-leaf manuscripts are one of the oldest medium of inscription in many Asian countries. Especially, manuscripts from the Indian subcontinent form an important part of the world's literary and cultural heritage. Despite their significance, large-scale datasets for layout parsing and targeted annotation systems do not exist. Addressing this, we propose a web-based layout annotation and analytics system. Our system, called HInDoLA, features an intuitive annotation GUI, a graphical analytics dashboard and interfaces with machine-learning based intelligent modules on the backend. HInDoLA has successfully helped us create the first ever large-scale dataset for layout parsing of Indic palm-leaf ",
+"cites": [
+"Indiscapes"
+]
+},
+"https://openalex.org/W4200334928": {
+"title": "Deformable deep networks for instance segmentation of overlapping multi page handwritten documents",
+"year": 2021,
+"doi": "https://doi.org/10.1145/3490035.3490278",
+"venue": "Indian Conference on Computer Vision, Graphics and Image Processing",
+"telugu": false,
+"abstract": "Digitizing via scanning the physical artifact often forms the first primary step in preserving historical handwritten manuscripts. To maximally utilize scanner surface area and minimize manual labor, multiple manuscripts are usually scanned together into a scanned image. Therefore, the first crucial task in manuscript content understanding is to ensure that each of the individual manuscripts within a scanned image can be isolated (segmented) on a per-instance basis. Existing deep network based approaches for manuscript layout understanding implicitly assume a single or two manuscripts per image. Since this assumption may be routinely violated, there is a need for a precursor system which ext",
+"cites": [
+"Indiscapes"
+]
+},
+"https://openalex.org/W7161718530": {
+"title": "MuSCAT: An End-to-End Multi-Scale Confidence-Aware Deep Framework for Understanding Text From Images in Unconstrained Environments",
+"year": 2026,
+"doi": "https://doi.org/10.1109/access.2026.3694922",
+"venue": "IEEE Access",
+"telugu": false,
+"abstract": "Understanding texts from imagery is pertinent for diverse applications ranging from traditional text-embedded image reading to perceiving text-labeled environments. However, text reading in the wild is quite challenging due to environmental heterogeneity, degradation and deformation of acquired images, multi-lingual scenarios, diverse text appearance, etc. Though recent deep learning approaches are demonstrating reasonably good performance, they often struggle in complex and wild imagery. In this paper, a novel multi-scale end-to-end deep framework is presented for effective text understanding from complex and multilingual scene images. It involves (i) crafting of fuzzy textness map with VGG",
+"cites": [
+"Synthetic data for Indic STR (Synthetic-IndicSTR)"
+]
+},
+"https://openalex.org/W7204851982": {
+"title": "What Can Low Resource Languages Learn From Each Other?",
+"year": 2026,
+"doi": "https://doi.org/10.48550/arxiv.2608.27753",
+"venue": "arXiv (Cornell University)",
+"telugu": false,
+"abstract": "Despite the rapid advancement of Vision-Language Models (VLMs), their linguistic reach remains largely confined to high-resource languages, leaving the majority of the world's 7,000+ living languages on the wrong side of a growing digital divide. This disparity is especially pronounced in Optical Character Recognition (OCR), where low-resource scripts lack the massive datasets required for traditional scaling laws. We investigate OCR adaptation in extreme data-scarce regimes (<10K real and <250K synthetic images), demonstrating that conventional fine-tuning strategies often reach a performance ceiling. Our key finding reveals a structural inefficiency in language-specific adaptation: while h",
+"cites": [
+"Synthetic data for Indic STR (Synthetic-IndicSTR)"
+]
+}
+}
+}
